@@ -65,12 +65,13 @@ Current Prisma schema (`prisma/schema.prisma`):
 
 ```prisma
 model TenseExerciseQuestion {
-  id        String   @id @default(uuid())
-  question  String
-  answer    String
-  tense     Tense
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  id          String   @id @default(uuid())
+  question    String
+  answer      String
+  explanation String
+  tense       Tense
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
 }
 
 enum Tense {
@@ -79,8 +80,6 @@ enum Tense {
   FUTURE_SIMPLE | FUTURE_CONTINUOUS | FUTURE_PERFECT | FUTURE_PERFECT_CONTINUOUS
 }
 ```
-
-Note: `explanation` field is planned but not yet added to schema or entity.
 
 ## Stack
 
