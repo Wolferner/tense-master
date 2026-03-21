@@ -21,25 +21,19 @@ const REASONS = [
 
 const HomePage = () => {
 	return (
-		<main className='min-h-screen bg-gradient-to-br from-green-950 via-green-900 to-emerald-900 text-white'>
+		<main className='min-h-screen bg-background text-foreground'>
 			<div className='mx-auto flex min-h-screen max-w-3xl flex-col items-center justify-center gap-16 px-6 py-24'>
 				<section className='flex flex-col items-center gap-6 text-center'>
-					<span className='rounded-full border border-green-500/30 bg-green-500/10 px-4 py-1.5 text-sm text-green-300'>
+					<span className='rounded-full border border-border bg-card px-4 py-1.5 text-sm text-primary'>
 						English Tenses Trainer
 					</span>
-					<h1 className='text-5xl font-bold tracking-tight text-white'>
-						Tense Master
-					</h1>
-					<p className='max-w-xl text-lg leading-relaxed text-green-100/80'>
+					<h1 className='text-5xl font-bold tracking-tight text-foreground'>Tense Master</h1>
+					<p className='max-w-xl text-lg leading-relaxed text-muted-foreground'>
 						Путаница с английскими временами — одна из самых частых проблем в изучении языка.
 						Не потому что правила сложные, а потому что их нужно чувствовать в контексте.
 						Этот тренажёр именно для этого.
 					</p>
-					<Button
-						asChild
-						size='lg'
-						className='mt-2 bg-green-500 text-white hover:bg-green-400'
-					>
+					<Button asChild size='lg' className='mt-2'>
 						<Link href='/tense-trainer'>Начать тренировку</Link>
 					</Button>
 				</section>
@@ -48,10 +42,10 @@ const HomePage = () => {
 					{REASONS.map(reason => (
 						<div
 							key={reason.title}
-							className='rounded-xl border border-green-500/20 bg-green-500/10 p-6 backdrop-blur-sm'
+							className='rounded-xl border border-border bg-card p-6'
 						>
-							<h3 className='mb-2 font-semibold text-green-300'>{reason.title}</h3>
-							<p className='text-sm leading-relaxed text-green-100/70'>{reason.description}</p>
+							<h3 className='mb-2 font-semibold text-primary'>{reason.title}</h3>
+							<p className='text-sm leading-relaxed text-muted-foreground'>{reason.description}</p>
 						</div>
 					))}
 				</section>
