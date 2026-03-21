@@ -1,0 +1,44 @@
+name: Apply Migrations
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ['master']
+  pull_request:
+    branches: ['master']
+
+    # запускать только если менялись prisma файлы:
+    # paths:
+    #   - 'prisma/**'
+    #   - 'package.json'
+    #   - 'package-lock.json'
+
+concurrency:
+  group: migrations-main
+  cancel-in-progress: false
+
+jobs:
+  migrate:
+    environment: production
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install (prod deps достаточно, но если prisma в devDependencies — без флага)
+        run: npm ci
+
+      - name: Generate Prisma Client (опционально, но ок)
+        run: npx prisma generate
+
+      - name: Apply migrations
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          DATABASE_URL_UNPOOLED: ${{ secrets.DATABASE_URL_UNPOOLED }}
+        run: npx prisma migrate deploy
