@@ -1,0 +1,20 @@
+{
+	"tense": "FUTURE_SIMPLE",
+	"exercises": [
+		{
+			"question": "Завтра я пойду в магазин.",
+			"answer": "Tomorrow I will go to the shop.",
+			"explanation": "Future Simple используется для спонтанных решений или предсказаний. Маркер: tomorrow / завтра."
+		},
+		{
+			"question": "Она станет врачом.",
+			"answer": "She will become a doctor.",
+			"explanation": "Future Simple используется для предсказаний о будущем без конкретного плана."
+		},
+		{
+			"question": "Мы поедем в отпуск летом.",
+			"answer": "We will go on holiday in summer.",
+			"explanation": "Future Simple используется для будущих событий. Маркер: in summer / летом."
+		}
+	]
+}

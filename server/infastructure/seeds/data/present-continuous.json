@@ -1,0 +1,20 @@
+{
+	"tense": "PRESENT_CONTINUOUS",
+	"exercises": [
+		{
+			"question": "Она сейчас читает книгу.",
+			"answer": "She is reading a book now.",
+			"explanation": "Present Continuous используется для действий, происходящих прямо сейчас. Маркер: сейчас / now."
+		},
+		{
+			"question": "Они строят новый дом.",
+			"answer": "They are building a new house.",
+			"explanation": "Present Continuous используется для временных действий, происходящих в данный период."
+		},
+		{
+			"question": "Я жду автобуса.",
+			"answer": "I am waiting for the bus.",
+			"explanation": "Present Continuous используется для действий, происходящих в момент речи."
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"tense": "FUTURE_CONTINUOUS",
+	"exercises": [
+		{
+			"question": "Завтра в это время я буду лететь в Париж.",
+			"answer": "Tomorrow at this time I will be flying to Paris.",
+			"explanation": "Future Continuous используется для действия, которое будет происходить в конкретный момент в будущем."
+		},
+		{
+			"question": "Они будут работать весь вечер.",
+			"answer": "They will be working all evening.",
+			"explanation": "Future Continuous используется для длительного действия в будущем. Маркер: all evening."
+		},
+		{
+			"question": "Когда ты придёшь, я буду готовить ужин.",
+			"answer": "When you come, I will be cooking dinner.",
+			"explanation": "Future Continuous используется для действия, которое будет в процессе в момент другого будущего события."
+		}
+	]
+}

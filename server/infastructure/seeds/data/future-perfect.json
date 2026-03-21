@@ -1,0 +1,20 @@
+{
+	"tense": "FUTURE_PERFECT",
+	"exercises": [
+		{
+			"question": "К пятнице я закончу проект.",
+			"answer": "By Friday I will have finished the project.",
+			"explanation": "Future Perfect используется для действия, которое завершится до определённого момента в будущем. Маркер: by Friday / к пятнице."
+		},
+		{
+			"question": "К следующему году она выучит английский.",
+			"answer": "By next year she will have learned English.",
+			"explanation": "Future Perfect используется для действия, которое будет завершено к конкретному моменту в будущем. Маркер: by next year."
+		},
+		{
+			"question": "К тому времени как ты придёшь, я уже уйду.",
+			"answer": "By the time you arrive, I will have already left.",
+			"explanation": "Future Perfect показывает что одно будущее действие завершится раньше другого."
+		}
+	]
+}

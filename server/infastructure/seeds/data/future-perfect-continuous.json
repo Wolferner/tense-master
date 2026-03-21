@@ -1,0 +1,20 @@
+{
+	"tense": "FUTURE_PERFECT_CONTINUOUS",
+	"exercises": [
+		{
+			"question": "К следующему месяцу он будет работать здесь уже год.",
+			"answer": "By next month he will have been working here for a year.",
+			"explanation": "Future Perfect Continuous используется для действия, которое будет продолжаться до определённого момента в будущем. Маркер: for a year, by next month."
+		},
+		{
+			"question": "К вечеру мы будем идти уже шесть часов.",
+			"answer": "By the evening we will have been walking for six hours.",
+			"explanation": "Future Perfect Continuous подчёркивает длительность действия к будущему моменту. Маркер: for six hours, by the evening."
+		},
+		{
+			"question": "К тому времени как он позвонит, я буду ждать уже два часа.",
+			"answer": "By the time he calls, I will have been waiting for two hours.",
+			"explanation": "Future Perfect Continuous используется чтобы показать как долго будет длиться действие к моменту другого будущего события."
+		}
+	]
+}

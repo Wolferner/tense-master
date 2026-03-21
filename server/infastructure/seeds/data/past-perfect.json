@@ -1,0 +1,20 @@
+{
+	"tense": "PAST_PERFECT",
+	"exercises": [
+		{
+			"question": "Когда я пришёл, он уже ушёл.",
+			"answer": "When I arrived, he had already left.",
+			"explanation": "Past Perfect используется для действия, завершённого до другого момента в прошлом. Маркер: already / уже."
+		},
+		{
+			"question": "Она уже поела, когда позвонила мама.",
+			"answer": "She had already eaten when mum called.",
+			"explanation": "Past Perfect показывает что одно прошлое действие произошло раньше другого."
+		},
+		{
+			"question": "Поезд уже отправился, когда мы приехали.",
+			"answer": "The train had already departed when we arrived.",
+			"explanation": "Past Perfect используется для действия, завершённого прежде чем произошло другое прошлое событие."
+		}
+	]
+}

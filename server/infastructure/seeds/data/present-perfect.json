@@ -1,0 +1,20 @@
+{
+	"tense": "PRESENT_PERFECT",
+	"exercises": [
+		{
+			"question": "Я уже посмотрел этот фильм.",
+			"answer": "I have already watched this film.",
+			"explanation": "Present Perfect используется для завершённого действия, результат которого важен сейчас. Маркер: already / уже."
+		},
+		{
+			"question": "Она потеряла ключи.",
+			"answer": "She has lost her keys.",
+			"explanation": "Present Perfect используется когда прошлое действие имеет следствие в настоящем — ключей нет до сих пор."
+		},
+		{
+			"question": "Мы только что приехали.",
+			"answer": "We have just arrived.",
+			"explanation": "Present Perfect используется для только что завершённых действий. Маркер: just / только что."
+		}
+	]
+}

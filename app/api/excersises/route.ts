@@ -1,13 +1,6 @@
-import { NextResponse } from 'next/server';
+import { NextRequest } from 'next/server';
+import { exerciseController } from '@/server/infastructure/http/container';
 
-export async function GET() {
-	try {
-		const res = await {
-			message:
-				'This is the exercises API endpoint. You can use this endpoint to fetch exercises data.',
-		};
-		return NextResponse.json(res, { status: 200 });
-	} catch (error) {
-		return NextResponse.json({ error: 'Failed to fetch billing info' }, { status: 500 });
-	}
+export async function GET(req: NextRequest) {
+	return exerciseController.getRandom(req);
 }

@@ -1,0 +1,20 @@
+{
+	"tense": "PAST_CONTINUOUS",
+	"exercises": [
+		{
+			"question": "Когда он вошёл, я читал книгу.",
+			"answer": "When he came in, I was reading a book.",
+			"explanation": "Past Continuous используется для длительного действия, которое прерывается другим действием в Past Simple."
+		},
+		{
+			"question": "Вчера в семь вечера она готовила ужин.",
+			"answer": "Yesterday at seven she was cooking dinner.",
+			"explanation": "Past Continuous используется для действия, происходившего в конкретный момент в прошлом."
+		},
+		{
+			"question": "Они играли в футбол весь день.",
+			"answer": "They were playing football all day.",
+			"explanation": "Past Continuous используется для длительного процесса в прошлом. Маркер: all day."
+		}
+	]
+}

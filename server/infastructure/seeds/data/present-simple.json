@@ -1,0 +1,20 @@
+{
+	"tense": "PRESENT_SIMPLE",
+	"exercises": [
+		{
+			"question": "Он каждое утро пьёт кофе.",
+			"answer": "He drinks coffee every morning.",
+			"explanation": "Present Simple используется для регулярных, повторяющихся действий. Маркер: every morning."
+		},
+		{
+			"question": "Земля вращается вокруг Солнца.",
+			"answer": "The Earth revolves around the Sun.",
+			"explanation": "Present Simple используется для общих истин и научных фактов."
+		},
+		{
+			"question": "Я живу в Москве.",
+			"answer": "I live in Moscow.",
+			"explanation": "Present Simple используется для постоянных состояний и фактов о себе."
+		}
+	]
+}

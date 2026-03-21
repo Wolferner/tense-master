@@ -1,0 +1,20 @@
+{
+	"tense": "PAST_PERFECT_CONTINUOUS",
+	"exercises": [
+		{
+			"question": "Он учил английский два года, прежде чем поехал в Лондон.",
+			"answer": "He had been studying English for two years before he went to London.",
+			"explanation": "Past Perfect Continuous используется для длительного действия, продолжавшегося до определённого момента в прошлом. Маркер: for two years."
+		},
+		{
+			"question": "Она работала всю ночь, когда позвонил босс.",
+			"answer": "She had been working all night when the boss called.",
+			"explanation": "Past Perfect Continuous подчёркивает длительность процесса до момента в прошлом. Маркер: all night."
+		},
+		{
+			"question": "Они ждали час, когда наконец пришёл автобус.",
+			"answer": "They had been waiting for an hour when the bus finally came.",
+			"explanation": "Past Perfect Continuous используется чтобы показать как долго длилось действие до другого прошлого события."
+		}
+	]
+}

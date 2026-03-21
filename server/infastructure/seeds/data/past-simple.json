@@ -1,0 +1,20 @@
+{
+	"tense": "PAST_SIMPLE",
+	"exercises": [
+		{
+			"question": "Вчера я пошёл в кино.",
+			"answer": "Yesterday I went to the cinema.",
+			"explanation": "Past Simple используется для завершённого действия в конкретный момент прошлого. Маркер: yesterday / вчера."
+		},
+		{
+			"question": "Она написала письмо час назад.",
+			"answer": "She wrote a letter an hour ago.",
+			"explanation": "Past Simple используется для действия, завершённого в прошлом. Маркер: an hour ago / час назад."
+		},
+		{
+			"question": "Мы познакомились в прошлом году.",
+			"answer": "We met last year.",
+			"explanation": "Past Simple используется для событий в конкретный период прошлого. Маркер: last year / в прошлом году."
+		}
+	]
+}

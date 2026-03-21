@@ -1,0 +1,20 @@
+{
+	"tense": "PRESENT_PERFECT_CONTINUOUS",
+	"exercises": [
+		{
+			"question": "Он работает здесь уже пять лет.",
+			"answer": "He has been working here for five years.",
+			"explanation": "Present Perfect Continuous используется для действия, начавшегося в прошлом и продолжающегося до сих пор. Маркер: for five years."
+		},
+		{
+			"question": "Я изучаю английский весь день.",
+			"answer": "I have been studying English all day.",
+			"explanation": "Present Perfect Continuous подчёркивает продолжительность действия от прошлого до настоящего. Маркер: all day."
+		},
+		{
+			"question": "Они ждут уже два часа.",
+			"answer": "They have been waiting for two hours.",
+			"explanation": "Present Perfect Continuous используется когда важна длительность незавершённого процесса. Маркер: for two hours."
+		}
+	]
+}
