@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+command -v fnm >/dev/null && eval "$(fnm env)"
+echo "Running fast pre-push checks..."
+npm run typecheck || exit 1
+npm run test || exit 1

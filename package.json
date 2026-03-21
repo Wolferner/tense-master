@@ -6,13 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "lint:check": "npx eslint .",
+    "format:check": "prettier --check ."
   },
   "dependencies": {
     "@prisma/client": "^7.5.0",
     "next": "16.2.1",
-    "postcss": "^8.5.8",
-    "prisma": "^7.5.0",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },
@@ -23,7 +23,12 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.1",
+    "eslint-config-prettier": "^10.1.8",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
+    "postcss": "^8.5.8",
     "prettier": "3.8.1",
+    "prisma": "^7.5.0",
     "tailwindcss": "^4.2.2",
     "typescript": "^5"
   }
