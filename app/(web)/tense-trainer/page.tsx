@@ -1,4 +1,5 @@
-import type { Metadata } from "next";
+import TenseTrainer from '@/presentation/web/pages/TenseTrainer/TenseTrainer'
+import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Tense Trainer | Tense Master",
@@ -7,8 +8,6 @@ export const metadata: Metadata = {
 
 export default function TenseTrainerPage() {
   return (
-    <main>
-      <h1>Tense Trainer</h1>
-    </main>
+    <TenseTrainer/>
   );
 }
