@@ -7,6 +7,7 @@ English tenses practice app. User selects which tenses to practice, gets a sente
 ## Architecture
 
 Server-side follows **onion architecture** with these layers:
+
 - `domain/` — entities, interfaces, no dependencies
 - `application/` — use cases, depends only on domain
 - `infrastructure/` — Prisma, DB, external services
