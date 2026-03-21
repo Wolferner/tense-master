@@ -6,14 +6,52 @@ English tenses practice app. User selects which tenses to practice, gets a sente
 
 ## Architecture
 
-Server-side follows **onion architecture** with these layers:
+Onion architecture. All server-side code lives under `server/`:
 
-- `domain/` — entities, interfaces, no dependencies
-- `application/` — use cases, depends only on domain
-- `infrastructure/` — Prisma, DB, external services
-- `presentation/` — React components, pages, client-side logic
+- `server/domain/` — entities, value objects, repository interfaces. No external dependencies.
+- `server/aplication/` — use cases. Depends only on domain.
+- `server/infastructure/` — Prisma, DB, external services.
+
+Client/UI code:
+
+- `presentation/` — React components and pages (at project root, not inside `app/`)
+  - `presentation/web/` — web-specific pages and components
+  - `presentation/telegram/` — Telegram Mini App pages and components
+  - `presentation/components/` — shared components
+- `app/` — Next.js App Router only. Pages here just import from `presentation/` and export metadata.
+- `shared/` — shared utilities, types, constants used across layers.
 
 Dependencies point inward only. Domain has no knowledge of Prisma or Next.js.
+
+## Folder structure
+
+```
+server/
+  domain/
+    entities/         Exercise.ts
+    value-objects/    Tense.ts (as const + type, no TS enums)
+    repositories/     IExerciseRepository.ts
+  aplication/
+  infastructure/
+presentation/
+  web/
+    pages/            Home/, TenseTrainer/, Profile/, Settings/
+  telegram/
+  components/
+app/
+  (web)/              page.tsx, tense-trainer/, profile/, settings.tsx/ ← bug: rename to settings/
+  telegram/
+  api/excersises/
+shared/
+prisma/
+```
+
+## Domain decisions
+
+- No value objects for primitive fields — `Exercise` entity uses plain `string` for `question`, `answer`, `explanation`
+- `Tense` is `as const` object + union type (no TS enums anywhere in the project)
+- `Exercise.id` is plain `string`
+- Repository interface uses `Exercise['id']` for id param type
 
 ## Architecture decisions
 
@@ -23,28 +61,32 @@ Dependencies point inward only. Domain has no knowledge of Prisma or Next.js.
 
 ## Data model
 
+Current Prisma schema (`prisma/schema.prisma`):
+
 ```prisma
+model TenseExerciseQuestion {
+  id        String   @id @default(uuid())
+  question  String
+  answer    String
+  tense     Tense
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
 enum Tense {
   PRESENT_SIMPLE | PRESENT_CONTINUOUS | PRESENT_PERFECT | PRESENT_PERFECT_CONTINUOUS
   PAST_SIMPLE | PAST_CONTINUOUS | PAST_PERFECT | PAST_PERFECT_CONTINUOUS
   FUTURE_SIMPLE | FUTURE_CONTINUOUS | FUTURE_PERFECT | FUTURE_PERFECT_CONTINUOUS
 }
-
-model TenseExerciseQuestion {
-  id          String   @id @default(uuid())
-  sourceText  String   // Russian sentence
-  targetText  String   // correct English translation
-  explanation String   // why this tense is used
-  tense       Tense
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
-}
 ```
+
+Note: `explanation` field is planned but not yet added to schema or entity.
 
 ## Stack
 
 - Next.js 16 (breaking changes — read node_modules/next/dist/docs/ before writing code)
 - React 19, TypeScript, Tailwind CSS v4
-- Prisma (not yet installed — needs `npm install prisma @prisma/client`)
-- PostgreSQL
+- Prisma 7, PostgreSQL (Neon), migrations in `prisma/migrations/`
+- Zod (validation), Zustand (client state)
+- Prettier + ESLint + Husky + lint-staged
 - No testing setup
