@@ -9,7 +9,12 @@ import { Button } from '@/presentation/components/ui/button';
 import { Checkbox } from '@/presentation/components/ui/checkbox';
 import { Textarea } from '@/presentation/components/ui/textarea';
 import { TENSE_GROUPS, TENSE_LABELS } from '@/shared/config/tenseLabels';
-import { FIXED_LIMITS, FixedLimit, SessionMode, useTenseStore } from '@/shared/stores/useTenseStore';
+import {
+	FIXED_LIMITS,
+	FixedLimit,
+	SessionMode,
+	useTenseStore,
+} from '@/shared/stores/useTenseStore';
 
 type Step = 'select' | 'training' | 'result';
 
@@ -27,8 +32,17 @@ async function fetchExercises(tenses: TenseType[], limit: number): Promise<Exerc
 }
 
 const TenseTrainer = () => {
-	const { selectedTenses, toggleTense, selectAll, clearAll, mode, fixedLimit, setMode, setFixedLimit, setTenses } =
-		useTenseStore();
+	const {
+		selectedTenses,
+		toggleTense,
+		selectAll,
+		clearAll,
+		mode,
+		fixedLimit,
+		setMode,
+		setFixedLimit,
+		setTenses,
+	} = useTenseStore();
 
 	const [step, setStep] = useState<Step>('select');
 	const [exercises, setExercises] = useState<ExerciseResponseDto[]>([]);
@@ -74,12 +88,12 @@ const TenseTrainer = () => {
 
 	if (step === 'select') {
 		return (
-			<main className='flex flex-1 flex-col overflow-hidden bg-background text-foreground'>
-				<div className='animate-in fade-in slide-in-from-bottom-4 duration-300 mx-auto flex w-full max-w-2xl flex-col gap-8 px-6 py-16'>
+			<main className='bg-background text-foreground flex flex-1 flex-col overflow-hidden'>
+				<div className='animate-in fade-in slide-in-from-bottom-4 mx-auto flex w-full max-w-2xl flex-col gap-8 px-6 py-16 duration-300'>
 					<div className='flex items-center justify-between'>
 						<div>
-							<h1 className='text-3xl font-bold text-foreground'>Tense Trainer</h1>
-							<p className='mt-2 text-muted-foreground'>Выбери времена для тренировки</p>
+							<h1 className='text-foreground text-3xl font-bold'>Tense Trainer</h1>
+							<p className='text-muted-foreground mt-2'>Выбери времена для тренировки</p>
 						</div>
 						{exercises.length > 0 && (
 							<Button variant='ghost' size='sm' onClick={() => setStep('training')}>
@@ -89,8 +103,8 @@ const TenseTrainer = () => {
 						)}
 					</div>
 
-					<div className='flex flex-col gap-3 rounded-xl border border-border bg-card p-5'>
-						<p className='text-sm font-semibold text-foreground'>Режим</p>
+					<div className='border-border bg-card flex flex-col gap-3 rounded-xl border p-5'>
+						<p className='text-foreground text-sm font-semibold'>Режим</p>
 						<div className='flex gap-2'>
 							{(['fixed', 'infinite'] as SessionMode[]).map(m => (
 								<button
@@ -150,11 +164,8 @@ const TenseTrainer = () => {
 							return (
 								<div key={group.label} className='flex flex-col gap-2'>
 									<div className='flex items-center justify-between'>
-										<span className='text-sm font-semibold text-foreground'>{group.label}</span>
-										<button
-											onClick={toggleGroup}
-											className='text-xs text-primary hover:underline'
-										>
+										<span className='text-foreground text-sm font-semibold'>{group.label}</span>
+										<button onClick={toggleGroup} className='text-primary text-xs hover:underline'>
 											{allSelected ? 'Снять' : someSelected ? 'Выбрать все' : 'Выбрать все'}
 										</button>
 									</div>
@@ -162,13 +173,13 @@ const TenseTrainer = () => {
 										{group.tenses.map(tense => (
 											<label
 												key={tense}
-												className='flex cursor-pointer items-center gap-3 rounded-lg border border-border bg-card p-4 transition-colors hover:bg-muted'
+												className='border-border bg-card hover:bg-muted flex cursor-pointer items-center gap-3 rounded-lg border p-4 transition-colors'
 											>
 												<Checkbox
 													checked={selectedTenses.includes(tense)}
 													onCheckedChange={() => toggleTense(tense)}
 												/>
-												<span className='text-sm font-medium text-foreground'>
+												<span className='text-foreground text-sm font-medium'>
 													{TENSE_LABELS[tense]}
 												</span>
 											</label>
@@ -179,7 +190,11 @@ const TenseTrainer = () => {
 						})}
 					</div>
 
-					<Button size='lg' onClick={startTraining} disabled={selectedTenses.length === 0 || isLoading}>
+					<Button
+						size='lg'
+						onClick={startTraining}
+						disabled={selectedTenses.length === 0 || isLoading}
+					>
 						{isLoading ? 'Загрузка...' : exercises.length > 0 ? 'Начать заново' : 'Начать'}
 					</Button>
 				</div>
@@ -190,7 +205,7 @@ const TenseTrainer = () => {
 	if (!current) return null;
 
 	return (
-		<main className='flex flex-1 flex-col bg-background text-foreground'>
+		<main className='bg-background text-foreground flex flex-1 flex-col'>
 			<div className='mx-auto flex w-full max-w-2xl flex-col gap-8 px-6 py-16'>
 				<Button variant='ghost' size='sm' className='-ml-2 w-fit' onClick={() => setStep('select')}>
 					<ArrowLeft />
@@ -199,17 +214,19 @@ const TenseTrainer = () => {
 
 				<div
 					key={currentIndex}
-					className='animate-in fade-in slide-in-from-bottom-4 duration-300 flex flex-col gap-8'
+					className='animate-in fade-in slide-in-from-bottom-4 flex flex-col gap-8 duration-300'
 				>
 					<div className='flex items-center justify-between'>
 						<Badge variant='outline'>{TENSE_LABELS[current.tense]}</Badge>
-						<span className='text-sm text-muted-foreground'>
-							{mode === 'infinite' ? `# ${currentIndex + 1}` : `${currentIndex + 1} / ${exercises.length}`}
+						<span className='text-muted-foreground text-sm'>
+							{mode === 'infinite'
+								? `# ${currentIndex + 1}`
+								: `${currentIndex + 1} / ${exercises.length}`}
 						</span>
 					</div>
 
-					<div className='rounded-xl border border-border bg-card p-6'>
-						<p className='text-lg font-medium text-foreground'>{current.question}</p>
+					<div className='border-border bg-card rounded-xl border p-6'>
+						<p className='text-foreground text-lg font-medium'>{current.question}</p>
 					</div>
 
 					<div className='flex flex-col gap-3'>
@@ -231,18 +248,18 @@ const TenseTrainer = () => {
 					</div>
 
 					{step === 'result' && (
-						<div className='animate-in fade-in slide-in-from-bottom-2 duration-200 flex flex-col gap-4'>
-							<div className='rounded-xl border border-border bg-card p-6'>
-								<p className='mb-1 text-xs font-semibold uppercase tracking-wide text-muted-foreground'>
+						<div className='animate-in fade-in slide-in-from-bottom-2 flex flex-col gap-4 duration-200'>
+							<div className='border-border bg-card rounded-xl border p-6'>
+								<p className='text-muted-foreground mb-1 text-xs font-semibold tracking-wide uppercase'>
 									Правильный ответ
 								</p>
 								<p className='text-foreground'>{current.answer}</p>
 							</div>
-							<div className='rounded-xl border border-border bg-card p-6'>
-								<p className='mb-1 text-xs font-semibold uppercase tracking-wide text-muted-foreground'>
+							<div className='border-border bg-card rounded-xl border p-6'>
+								<p className='text-muted-foreground mb-1 text-xs font-semibold tracking-wide uppercase'>
 									Почему это время
 								</p>
-								<p className='text-sm leading-relaxed text-foreground'>{current.explanation}</p>
+								<p className='text-foreground text-sm leading-relaxed'>{current.explanation}</p>
 							</div>
 							<Button onClick={nextExercise} disabled={isLoading}>
 								{isLoading
