@@ -31,6 +31,3 @@ jobs:
           fi
 
       - run: npx tsx server/infastructure/seeds/seed.ts
-        env:
-          DATABASE_URL: ${{ secrets.DATABASE_URL }}
-          DATABASE_URL_UNPOOLED: ${{ secrets.DATABASE_URL_UNPOOLED }}
