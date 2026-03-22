@@ -2,19 +2,1539 @@
 	"tense": "PAST_CONTINUOUS",
 	"exercises": [
 		{
-			"question": "Когда он вошёл, я читал книгу.",
-			"answer": "When he came in, I was reading a book.",
-			"explanation": "Past Continuous используется для длительного действия, которое прерывается другим действием в Past Simple."
+			"question": "Вчера в 7 вечера я готовил ужин.",
+			"answer": "I was cooking dinner at 7 pm yesterday.",
+			"explanation": "Действие происходило в конкретный момент в прошлом (вчера в 7 вечера) — используем Past Continuous."
 		},
 		{
-			"question": "Вчера в семь вечера она готовила ужин.",
-			"answer": "Yesterday at seven she was cooking dinner.",
-			"explanation": "Past Continuous используется для действия, происходившего в конкретный момент в прошлом."
+			"question": "В тот момент она читала книгу.",
+			"answer": "She was reading a book at that moment.",
+			"explanation": "Указатель 'в тот момент' сигнализирует о действии, которое было в процессе в конкретный момент прошлого."
 		},
 		{
-			"question": "Они играли в футбол весь день.",
-			"answer": "They were playing football all day.",
-			"explanation": "Past Continuous используется для длительного процесса в прошлом. Маркер: all day."
+			"question": "Когда зазвонил телефон, я принимал душ.",
+			"answer": "I was taking a shower when the phone rang.",
+			"explanation": "Длительное действие (принимал душ) прерывается кратким событием (зазвонил телефон) — Past Continuous + Past Simple."
+		},
+		{
+			"question": "Пока она готовила, он смотрел телевизор.",
+			"answer": "While she was cooking, he was watching TV.",
+			"explanation": "Два параллельных действия в прошлом, происходивших одновременно — оба в Past Continuous."
+		},
+		{
+			"question": "Весь день вчера он работал в саду.",
+			"answer": "He was working in the garden all day yesterday.",
+			"explanation": "'Весь день' указывает на длительное действие в прошлом, которое продолжалось в течение всего дня."
+		},
+		{
+			"question": "В 5 часов вечера вчера дети играли на улице.",
+			"answer": "The children were playing outside at 5 o'clock yesterday.",
+			"explanation": "Конкретное время вчера (в 5 часов) указывает на действие, которое было в процессе в тот момент."
+		},
+		{
+			"question": "Когда я вошёл, все разговаривали.",
+			"answer": "When I came in, everyone was talking.",
+			"explanation": "Фоновое действие (разговаривали), которое происходило, когда случилось другое событие (я вошёл)."
+		},
+		{
+			"question": "Всё утро она занималась йогой.",
+			"answer": "She was doing yoga all morning.",
+			"explanation": "'Всё утро' — показатель длительного действия в прошлом, которое продолжалось в течение всего утра."
+		},
+		{
+			"question": "Пока я спал, начался дождь.",
+			"answer": "It started raining while I was sleeping.",
+			"explanation": "Длительное действие (спал) прерывается или сопровождается кратким событием (начался дождь)."
+		},
+		{
+			"question": "Они танцевали всю ночь.",
+			"answer": "They were dancing all night.",
+			"explanation": "'Всю ночь' указывает на длительное действие, которое продолжалось в течение всей ночи в прошлом."
+		},
+		{
+			"question": "В тот момент поезд въезжал на станцию.",
+			"answer": "The train was pulling into the station at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Когда мама пришла домой, мы делали уроки.",
+			"answer": "We were doing homework when mum came home.",
+			"explanation": "Длительное действие (делали уроки) прерывается кратким событием (мама пришла)."
+		},
+		{
+			"question": "Пока он вёл машину, я смотрел на карту.",
+			"answer": "While he was driving, I was looking at the map.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Вчера в полночь она всё ещё работала.",
+			"answer": "She was still working at midnight yesterday.",
+			"explanation": "Конкретное время (в полночь) указывает на действие, которое было в процессе в тот момент."
+		},
+		{
+			"question": "Когда упала ваза, кот прыгнул на полку.",
+			"answer": "The cat was jumping onto the shelf when the vase fell.",
+			"explanation": "Длительное действие (прыгал) соотносится с кратким событием (упала ваза)."
+		},
+		{
+			"question": "Всё утро они переезжали в новый офис.",
+			"answer": "They were moving to the new office all morning.",
+			"explanation": "'Всё утро' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "В 3 часа дня мы обедали в ресторане.",
+			"answer": "We were having lunch at a restaurant at 3 pm.",
+			"explanation": "Конкретное время дня указывает, что действие было в процессе в тот момент."
+		},
+		{
+			"question": "Пока учитель объяснял, студенты делали заметки.",
+			"answer": "While the teacher was explaining, the students were taking notes.",
+			"explanation": "Два параллельных действия, происходивших одновременно в прошлом."
+		},
+		{
+			"question": "Когда я позвонил, он разговаривал с клиентом.",
+			"answer": "He was talking to a client when I called.",
+			"explanation": "Длительное действие (разговаривал) прерывается кратким событием (я позвонил)."
+		},
+		{
+			"question": "Весь вечер вчера она смотрела сериал.",
+			"answer": "She was watching a TV series all evening yesterday.",
+			"explanation": "'Весь вечер' указывает на временную ситуацию, которая длилась в прошлом."
+		},
+		{
+			"question": "В тот момент самолёт набирал высоту.",
+			"answer": "The plane was gaining altitude at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Когда погас свет, мы играли в карты.",
+			"answer": "We were playing cards when the lights went out.",
+			"explanation": "Длительное действие (играли в карты) прерывается кратким событием (погас свет)."
+		},
+		{
+			"question": "Пока она принимала ванну, кто-то позвонил в дверь.",
+			"answer": "Someone rang the doorbell while she was having a bath.",
+			"explanation": "Длительное действие (принимала ванну) прерывается кратким событием (позвонили в дверь)."
+		},
+		{
+			"question": "В 8 утра вчера он бегал в парке.",
+			"answer": "He was running in the park at 8 am yesterday.",
+			"explanation": "Конкретное время вчера указывает на действие, которое было в процессе в тот момент."
+		},
+		{
+			"question": "Пока гости ждали, хозяйка накрывала на стол.",
+			"answer": "While the guests were waiting, the hostess was setting the table.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Когда начался ливень, мы гуляли в парке.",
+			"answer": "We were walking in the park when a downpour started.",
+			"explanation": "Длительное действие (гуляли) прерывается кратким событием (начался ливень)."
+		},
+		{
+			"question": "Весь день он писал отчёт.",
+			"answer": "He was writing a report all day.",
+			"explanation": "'Весь день' указывает на длительное действие, которое занимало весь день в прошлом."
+		},
+		{
+			"question": "В тот момент она разговаривала по телефону.",
+			"answer": "She was talking on the phone at that moment.",
+			"explanation": "Временный маркер 'в тот момент' указывает на действие в процессе."
+		},
+		{
+			"question": "Пока дети спали, родители украшали ёлку.",
+			"answer": "While the children were sleeping, the parents were decorating the Christmas tree.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В 10 часов вчера вечером он ещё читал.",
+			"answer": "He was still reading at 10 o'clock last night.",
+			"explanation": "Конкретное время вечера указывает на действие, которое было в процессе в тот момент."
+		},
+		{
+			"question": "Когда я пришёл на вечеринку, все уже танцевали.",
+			"answer": "When I arrived at the party, everyone was already dancing.",
+			"explanation": "Фоновое действие (танцевали) происходило, когда случилось другое событие (я пришёл)."
+		},
+		{
+			"question": "Пока он ждал автобуса, начался снег.",
+			"answer": "It started snowing while he was waiting for the bus.",
+			"explanation": "Длительное действие (ждал автобуса) сопровождается новым событием (начался снег)."
+		},
+		{
+			"question": "Всю ночь они праздновали победу.",
+			"answer": "They were celebrating the victory all night.",
+			"explanation": "'Всю ночь' — показатель длительного действия в прошлом."
+		},
+		{
+			"question": "В 6 утра вчера она уже готовила завтрак.",
+			"answer": "She was already making breakfast at 6 am yesterday.",
+			"explanation": "Конкретное время утра указывает на действие в процессе в тот момент."
+		},
+		{
+			"question": "Пока я учился, сестра слушала музыку.",
+			"answer": "While I was studying, my sister was listening to music.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Когда упал стул, все посмотрели туда.",
+			"answer": "Everyone was looking there when the chair fell.",
+			"explanation": "Длительное действие (смотрели) в момент краткого события (упал стул)."
+		},
+		{
+			"question": "В тот момент команда забивала гол.",
+			"answer": "The team was scoring a goal at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Всё утро она разбирала вещи после переезда.",
+			"answer": "She was unpacking things after the move all morning.",
+			"explanation": "'Всё утро' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "Когда сломался лифт, мы поднимались на 10 этаж.",
+			"answer": "We were going up to the 10th floor when the lift broke down.",
+			"explanation": "Длительное действие (поднимались) прерывается кратким событием (сломался лифт)."
+		},
+		{
+			"question": "Пока одни строили стены, другие укладывали крышу.",
+			"answer": "While some were building the walls, others were laying the roof.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В 9 часов вечера вчера мы ужинали.",
+			"answer": "We were having dinner at 9 pm yesterday.",
+			"explanation": "Конкретное время вечера указывает на действие, которое было в процессе в тот момент."
+		},
+		{
+			"question": "В тот момент она красила стену в синий цвет.",
+			"answer": "She was painting the wall blue at that moment.",
+			"explanation": "Временный маркер указывает на действие, которое было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Когда прилетел самолёт, мы ждали в зале прилёта.",
+			"answer": "We were waiting in the arrivals hall when the plane landed.",
+			"explanation": "Длительное действие (ждали) происходило, когда случилось другое событие (прилетел самолёт)."
+		},
+		{
+			"question": "Пока он чинил машину, она готовила кофе.",
+			"answer": "While he was fixing the car, she was making coffee.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Весь вечер они спорили о политике.",
+			"answer": "They were arguing about politics all evening.",
+			"explanation": "'Весь вечер' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "В тот момент корабль уходил из порта.",
+			"answer": "The ship was leaving the port at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Когда я проснулся, птицы уже пели за окном.",
+			"answer": "When I woke up, the birds were already singing outside the window.",
+			"explanation": "Фоновое действие (пели птицы) происходило, когда случилось другое событие (я проснулся)."
+		},
+		{
+			"question": "Пока он мыл посуду, она вытирала столы.",
+			"answer": "While he was washing the dishes, she was wiping the tables.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Весь день они тренировались к соревнованиям.",
+			"answer": "They were training for the competition all day.",
+			"explanation": "'Весь день' указывает на длительное действие, занимавшее весь день в прошлом."
+		},
+		{
+			"question": "В 4 часа дня вчера он играл в шахматы.",
+			"answer": "He was playing chess at 4 pm yesterday.",
+			"explanation": "Конкретное время вчера указывает на действие, которое было в процессе в тот момент."
+		},
+		{
+			"question": "Когда вернулся отец, мы смотрели мультфильмы.",
+			"answer": "We were watching cartoons when father came back.",
+			"explanation": "Длительное действие (смотрели мультфильмы) прерывается кратким событием (вернулся отец)."
+		},
+		{
+			"question": "Пока она рисовала, кот запрыгнул на стол.",
+			"answer": "The cat jumped onto the table while she was drawing.",
+			"explanation": "Длительное действие (рисовала) прерывается кратким событием (кот запрыгнул)."
+		},
+		{
+			"question": "В тот момент рабочие укладывали асфальт.",
+			"answer": "The workers were laying asphalt at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Всю ночь ветер выл за окном.",
+			"answer": "The wind was howling outside the window all night.",
+			"explanation": "'Всю ночь' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "Когда мы приехали на пляж, дети строили замки из песка.",
+			"answer": "When we arrived at the beach, the children were building sandcastles.",
+			"explanation": "Фоновое действие (строили замки) происходило, когда случилось другое событие (мы приехали)."
+		},
+		{
+			"question": "Пока она укладывала чемодан, он заказывал такси.",
+			"answer": "While she was packing her suitcase, he was ordering a taxi.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В 7 утра вчера он уже бегал трусцой.",
+			"answer": "He was already jogging at 7 am yesterday.",
+			"explanation": "Конкретное время утра указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "В тот момент певица исполняла балладу.",
+			"answer": "The singer was performing a ballad at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Когда погода испортилась, мы гуляли по горам.",
+			"answer": "We were hiking in the mountains when the weather got worse.",
+			"explanation": "Длительное действие (гуляли по горам) прерывается кратким событием (погода испортилась)."
+		},
+		{
+			"question": "Пока он смотрел матч, она читала журнал.",
+			"answer": "While he was watching the match, she was reading a magazine.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Всё утро они готовились к экзамену.",
+			"answer": "They were preparing for the exam all morning.",
+			"explanation": "'Всё утро' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "В 11 ночи вчера она ещё убиралась в квартире.",
+			"answer": "She was still cleaning the flat at 11 pm yesterday.",
+			"explanation": "Конкретное время вчера вечером указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "Когда позвонил будильник, я видел сон.",
+			"answer": "I was having a dream when the alarm went off.",
+			"explanation": "Длительное действие (видел сон) прерывается кратким событием (позвонил будильник)."
+		},
+		{
+			"question": "Пока повар жарил стейки, официанты накрывали столы.",
+			"answer": "While the chef was frying steaks, the waiters were setting the tables.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В тот момент она поливала цветы на балконе.",
+			"answer": "She was watering the flowers on the balcony at that moment.",
+			"explanation": "Временный маркер указывает на действие в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Весь день шёл снег.",
+			"answer": "It was snowing all day.",
+			"explanation": "'Весь день' указывает на длительное погодное явление в прошлом."
+		},
+		{
+			"question": "Когда он открыл дверь, кошка выбежала на улицу.",
+			"answer": "The cat ran outside when he was opening the door.",
+			"explanation": "Длительное действие (открывал дверь) сопровождается кратким событием (кошка выбежала)."
+		},
+		{
+			"question": "Пока она варила суп, дети делали поделки.",
+			"answer": "While she was making soup, the children were doing crafts.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В 2 часа ночи он ещё программировал.",
+			"answer": "He was still coding at 2 am.",
+			"explanation": "Конкретное время ночи указывает на временную ситуацию, которая продолжалась в тот момент."
+		},
+		{
+			"question": "В тот момент туристы фотографировали закат.",
+			"answer": "The tourists were photographing the sunset at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Когда закончился фильм, я уже засыпал.",
+			"answer": "I was already falling asleep when the film ended.",
+			"explanation": "Длительное действие (засыпал) происходило в момент краткого события (фильм закончился)."
+		},
+		{
+			"question": "Пока дождь лил как из ведра, мы сидели в кафе.",
+			"answer": "While it was pouring with rain, we were sitting in a cafe.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Всю ночь она кашляла и чихала.",
+			"answer": "She was coughing and sneezing all night.",
+			"explanation": "'Всю ночь' указывает на длительное действие, которое продолжалось в течение всей ночи."
+		},
+		{
+			"question": "В 5 утра вчера рыбаки уже плыли на лодке.",
+			"answer": "The fishermen were already rowing their boat at 5 am yesterday.",
+			"explanation": "Конкретное время утра указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "Пока он разогревал еду, она накрывала на стол.",
+			"answer": "While he was heating up the food, she was laying the table.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Когда она оглянулась, никого не было позади.",
+			"answer": "Nobody was standing behind her when she turned around.",
+			"explanation": "Фоновое действие (никого не стояло) в момент краткого события (оглянулась)."
+		},
+		{
+			"question": "В тот момент дети кричали и смеялись на детской площадке.",
+			"answer": "The children were shouting and laughing on the playground at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Весь день они переставляли мебель в комнате.",
+			"answer": "They were rearranging the furniture in the room all day.",
+			"explanation": "'Весь день' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "Когда он упал, он шёл по обледенелому тротуару.",
+			"answer": "He was walking on the icy pavement when he fell.",
+			"explanation": "Длительное действие (шёл) прерывается кратким событием (упал)."
+		},
+		{
+			"question": "Пока она выступала на сцене, зрители аплодировали.",
+			"answer": "While she was performing on stage, the audience was applauding.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В 8 вечера вчера они смотрели новости.",
+			"answer": "They were watching the news at 8 pm yesterday.",
+			"explanation": "Конкретное время вчера вечером указывает на действие в процессе."
+		},
+		{
+			"question": "В тот момент она учила новые слова.",
+			"answer": "She was learning new words at that moment.",
+			"explanation": "Временный маркер указывает на действие, которое было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Когда я зашёл в класс, все уже писали контрольную.",
+			"answer": "When I entered the classroom, everyone was already writing the test.",
+			"explanation": "Фоновое действие (писали контрольную) происходило, когда случилось другое событие (я зашёл)."
+		},
+		{
+			"question": "Пока она красила губы, он надевал пальто.",
+			"answer": "While she was putting on lipstick, he was putting on his coat.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Всё утро он занимался сёрфингом.",
+			"answer": "He was surfing all morning.",
+			"explanation": "'Всё утро' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "В тот момент врач осматривал пациента.",
+			"answer": "The doctor was examining the patient at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Когда сработала сигнализация, охранник обходил здание.",
+			"answer": "The security guard was patrolling the building when the alarm went off.",
+			"explanation": "Длительное действие (обходил здание) прерывается кратким событием (сработала сигнализация)."
+		},
+		{
+			"question": "Пока он печатал письмо, она звонила клиентам.",
+			"answer": "While he was typing the letter, she was calling the clients.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Весь вечер они играли в настольные игры.",
+			"answer": "They were playing board games all evening.",
+			"explanation": "'Весь вечер' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "В 6 вечера вчера она занималась в спортзале.",
+			"answer": "She was working out at the gym at 6 pm yesterday.",
+			"explanation": "Конкретное время вечера указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "Когда прибыла помощь, пострадавший лежал на земле.",
+			"answer": "The injured person was lying on the ground when help arrived.",
+			"explanation": "Фоновое действие (лежал на земле) происходило, когда случилось другое событие (прибыла помощь)."
+		},
+		{
+			"question": "Пока он складывал пазл, она вязала свитер.",
+			"answer": "While he was doing the puzzle, she was knitting a sweater.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В тот момент экскурсовод рассказывал об истории замка.",
+			"answer": "The tour guide was telling the history of the castle at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Весь день он разбирал старые бумаги.",
+			"answer": "He was sorting through old papers all day.",
+			"explanation": "'Весь день' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "Когда он спускался по лестнице, споткнулся.",
+			"answer": "He tripped when he was going down the stairs.",
+			"explanation": "Длительное действие (спускался по лестнице) прерывается кратким событием (споткнулся)."
+		},
+		{
+			"question": "Пока она отвечала на письма, он готовил презентацию.",
+			"answer": "While she was answering emails, he was preparing a presentation.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В 9 утра вчера они совещались в переговорной.",
+			"answer": "They were having a meeting in the conference room at 9 am yesterday.",
+			"explanation": "Конкретное время утра указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "В тот момент ребёнок плакал в соседней комнате.",
+			"answer": "The child was crying in the next room at that moment.",
+			"explanation": "Фоновое действие, происходившее в конкретный момент прошлого."
+		},
+		{
+			"question": "Когда пришли гости, хозяин ещё одевался.",
+			"answer": "The host was still getting dressed when the guests arrived.",
+			"explanation": "Длительное действие (одевался) происходило в момент краткого события (пришли гости)."
+		},
+		{
+			"question": "Пока она шила платье, он читал газету.",
+			"answer": "While she was sewing the dress, he was reading the newspaper.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Всю ночь он работал над дипломной работой.",
+			"answer": "He was working on his thesis all night.",
+			"explanation": "'Всю ночь' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "В тот момент волны разбивались о скалы.",
+			"answer": "The waves were crashing against the rocks at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Когда я позвонил другу, он обедал.",
+			"answer": "He was having lunch when I called him.",
+			"explanation": "Длительное действие (обедал) прерывается кратким событием (я позвонил)."
+		},
+		{
+			"question": "Пока она делала покупки, он сидел в машине.",
+			"answer": "While she was shopping, he was sitting in the car.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Весь день она занималась садом.",
+			"answer": "She was working in the garden all day.",
+			"explanation": "'Весь день' указывает на длительное действие, которое занимало весь день."
+		},
+		{
+			"question": "В 1 час ночи они ещё праздновали.",
+			"answer": "They were still celebrating at 1 am.",
+			"explanation": "Конкретное время ночи указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "Когда автобус остановился, пассажиры уже вставали.",
+			"answer": "The passengers were already getting up when the bus stopped.",
+			"explanation": "Длительное действие (вставали) происходило в момент краткого события (автобус остановился)."
+		},
+		{
+			"question": "Пока он поднимался в горы, она его фотографировала.",
+			"answer": "While he was climbing the mountain, she was photographing him.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В тот момент они загорали на пляже.",
+			"answer": "They were sunbathing on the beach at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Всё утро они переговаривались шёпотом.",
+			"answer": "They were whispering to each other all morning.",
+			"explanation": "'Всё утро' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "Когда упало дерево, рабочие пилили его.",
+			"answer": "The workers were sawing it when the tree fell.",
+			"explanation": "Длительное действие (пилили) связано с кратким событием (дерево упало)."
+		},
+		{
+			"question": "Пока дети лепили снеговика, мама фотографировала их.",
+			"answer": "While the children were making a snowman, their mum was photographing them.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В 3 ночи она ещё читала роман.",
+			"answer": "She was still reading the novel at 3 am.",
+			"explanation": "Конкретное время ночи указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "В тот момент поезд проезжал через тоннель.",
+			"answer": "The train was passing through the tunnel at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Когда она вышла на балкон, соседи жарили шашлык.",
+			"answer": "The neighbours were having a barbecue when she went out to the balcony.",
+			"explanation": "Фоновое действие (жарили шашлык) происходило, когда случилось другое событие (она вышла)."
+		},
+		{
+			"question": "Пока он рассказывал анекдот, все смеялись.",
+			"answer": "While he was telling a joke, everyone was laughing.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Весь день они переводили документы.",
+			"answer": "They were translating documents all day.",
+			"explanation": "'Весь день' указывает на длительное действие, занимавшее весь день."
+		},
+		{
+			"question": "В 10 утра вчера она принимала посетителей.",
+			"answer": "She was receiving visitors at 10 am yesterday.",
+			"explanation": "Конкретное время утра указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "Когда начался концерт, мы ещё искали свои места.",
+			"answer": "We were still looking for our seats when the concert started.",
+			"explanation": "Длительное действие (искали места) происходило в момент краткого события (начался концерт)."
+		},
+		{
+			"question": "Пока она расчёсывала волосы, он чистил зубы.",
+			"answer": "While she was brushing her hair, he was cleaning his teeth.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В тот момент художник заканчивал последний штрих.",
+			"answer": "The artist was putting on the final touch at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Всю ночь за окном шумели машины.",
+			"answer": "Cars were making noise outside all night.",
+			"explanation": "'Всю ночь' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "Когда она позвонила, я вёл машину.",
+			"answer": "I was driving when she called.",
+			"explanation": "Длительное действие (вёл машину) прерывается кратким событием (она позвонила)."
+		},
+		{
+			"question": "Пока он чинил кран, вода капала на пол.",
+			"answer": "While he was fixing the tap, water was dripping onto the floor.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В 7 вечера вчера она убирала гостиную.",
+			"answer": "She was tidying the living room at 7 pm yesterday.",
+			"explanation": "Конкретное время вечера указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "В тот момент дети дрались за игрушку.",
+			"answer": "The children were fighting over the toy at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Когда он вышел из кинотеатра, шёл дождь.",
+			"answer": "It was raining when he came out of the cinema.",
+			"explanation": "Фоновое действие (шёл дождь) происходило, когда случилось другое событие (он вышел)."
+		},
+		{
+			"question": "Пока он кормил собаку, кошка украла со стола рыбу.",
+			"answer": "While he was feeding the dog, the cat stole the fish from the table.",
+			"explanation": "Длительное действие (кормил собаку) прерывается кратким событием (кошка украла рыбу)."
+		},
+		{
+			"question": "Весь день она разговаривала с клиентами.",
+			"answer": "She was talking to clients all day.",
+			"explanation": "'Весь день' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "В 11 утра вчера они уже ехали на поезде.",
+			"answer": "They were already travelling on the train at 11 am yesterday.",
+			"explanation": "Конкретное время утра указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "Пока она регистрировалась в отеле, он тащил чемоданы.",
+			"answer": "While she was checking in at the hotel, he was carrying the suitcases.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В тот момент продавец демонстрировал новый товар.",
+			"answer": "The salesperson was demonstrating the new product at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Когда загорелся лес, туристы разбивали лагерь.",
+			"answer": "The tourists were setting up camp when the forest caught fire.",
+			"explanation": "Длительное действие (разбивали лагерь) прерывается кратким событием (загорелся лес)."
+		},
+		{
+			"question": "Пока он стриг газон, она поливала цветы.",
+			"answer": "While he was mowing the lawn, she was watering the flowers.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Всё утро рабочие копали яму.",
+			"answer": "The workers were digging a hole all morning.",
+			"explanation": "'Всё утро' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "В 4 утра вчера пекари уже пекли хлеб.",
+			"answer": "The bakers were already baking bread at 4 am yesterday.",
+			"explanation": "Конкретное время утра указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "В тот момент она раскладывала карты.",
+			"answer": "She was laying out the cards at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Когда я проходил мимо, они о чём-то шептались.",
+			"answer": "They were whispering about something when I was walking past.",
+			"explanation": "Фоновое действие (шептались) происходило, когда произошло другое действие (я проходил мимо)."
+		},
+		{
+			"question": "Пока он учил слова, она повторяла грамматику.",
+			"answer": "While he was learning vocabulary, she was reviewing grammar.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Весь вечер она репетировала роль.",
+			"answer": "She was rehearsing her role all evening.",
+			"explanation": "'Весь вечер' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "В 6 часов утра вчера туристы уже карабкались на вершину.",
+			"answer": "The tourists were already climbing to the summit at 6 am yesterday.",
+			"explanation": "Конкретное время утра указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "Когда зазвенел звонок, учитель объяснял теорему.",
+			"answer": "The teacher was explaining the theorem when the bell rang.",
+			"explanation": "Длительное действие (объяснял теорему) прерывается кратким событием (зазвенел звонок)."
+		},
+		{
+			"question": "Пока она кормила ребёнка, он качал коляску.",
+			"answer": "While she was feeding the baby, he was rocking the pram.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В тот момент музыканты настраивали инструменты.",
+			"answer": "The musicians were tuning their instruments at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Всю ночь они беседовали у костра.",
+			"answer": "They were chatting by the campfire all night.",
+			"explanation": "'Всю ночь' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "Когда упал занавес, актёры ещё кланялись.",
+			"answer": "The actors were still taking their bows when the curtain fell.",
+			"explanation": "Длительное действие (кланялись) происходило в момент краткого события (упал занавес)."
+		},
+		{
+			"question": "Пока он отвечал на вопросы, журналисты записывали.",
+			"answer": "While he was answering questions, the journalists were taking notes.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В 2 часа дня вчера они заключали договор.",
+			"answer": "They were signing the contract at 2 pm yesterday.",
+			"explanation": "Конкретное время дня указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "В тот момент она набирала номер телефона.",
+			"answer": "She was dialling a phone number at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Когда появилась радуга, мы собирали ягоды в лесу.",
+			"answer": "We were picking berries in the forest when the rainbow appeared.",
+			"explanation": "Длительное действие (собирали ягоды) происходило в момент краткого события (появилась радуга)."
+		},
+		{
+			"question": "Пока он красил забор, она высаживала рассаду.",
+			"answer": "While he was painting the fence, she was planting seedlings.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Весь день они переговаривались по рации.",
+			"answer": "They were communicating by radio all day.",
+			"explanation": "'Весь день' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "В 3 часа дня вчера она проводила собеседование.",
+			"answer": "She was conducting an interview at 3 pm yesterday.",
+			"explanation": "Конкретное время дня указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "Когда подъехало такси, они ещё прощались.",
+			"answer": "They were still saying goodbye when the taxi pulled up.",
+			"explanation": "Длительное действие (прощались) происходило в момент краткого события (подъехало такси)."
+		},
+		{
+			"question": "Пока он готовил доклад, она искала нужные статьи.",
+			"answer": "While he was preparing the report, she was searching for the relevant articles.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В тот момент спортсмены разминались перед стартом.",
+			"answer": "The athletes were warming up before the start at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Всю ночь они спорили, кто прав.",
+			"answer": "They were arguing about who was right all night.",
+			"explanation": "'Всю ночь' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "Когда пришёл сосед, я смотрел матч.",
+			"answer": "I was watching the match when the neighbour came.",
+			"explanation": "Длительное действие (смотрел матч) прерывается кратким событием (пришёл сосед)."
+		},
+		{
+			"question": "Пока он мыл пол, она вытирала пыль.",
+			"answer": "While he was mopping the floor, she was dusting.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В 12 ночи они ещё веселились на вечеринке.",
+			"answer": "They were still having fun at the party at midnight.",
+			"explanation": "Конкретное время ночи указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "В тот момент пловец разворачивался у стенки бассейна.",
+			"answer": "The swimmer was turning at the pool wall at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Когда объявили посадку, пассажиры ещё пили кофе.",
+			"answer": "The passengers were still drinking coffee when boarding was announced.",
+			"explanation": "Длительное действие (пили кофе) происходило в момент краткого события (объявили посадку)."
+		},
+		{
+			"question": "Пока она красила ногти, он гладил рубашку.",
+			"answer": "While she was painting her nails, he was ironing his shirt.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Весь день он проверял студенческие работы.",
+			"answer": "He was marking student papers all day.",
+			"explanation": "'Весь день' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "В 5 вечера вчера она делала массаж клиенту.",
+			"answer": "She was giving a client a massage at 5 pm yesterday.",
+			"explanation": "Конкретное время вечера указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "В тот момент экипаж готовился к взлёту.",
+			"answer": "The crew was preparing for takeoff at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Когда я заходил в магазин, продавцы расставляли товар.",
+			"answer": "The shop assistants were stocking the shelves when I was coming into the shop.",
+			"explanation": "Фоновое действие (расставляли товар) происходило, когда произошло другое действие (я заходил)."
+		},
+		{
+			"question": "Пока он заполнял анкету, она листала журнал.",
+			"answer": "While he was filling in the form, she was flicking through a magazine.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Всю ночь она не спала и думала об экзамене.",
+			"answer": "She was lying awake thinking about the exam all night.",
+			"explanation": "'Всю ночь' указывает на длительное состояние в прошлом."
+		},
+		{
+			"question": "В 8 утра вчера мы ехали в аэропорт.",
+			"answer": "We were driving to the airport at 8 am yesterday.",
+			"explanation": "Конкретное время утра указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "Когда вернулись туристы, гид ещё говорил по телефону.",
+			"answer": "The guide was still talking on the phone when the tourists came back.",
+			"explanation": "Длительное действие (говорил по телефону) происходило в момент краткого события (вернулись туристы)."
+		},
+		{
+			"question": "Пока они спорили о маршруте, солнце садилось.",
+			"answer": "While they were arguing about the route, the sun was setting.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В тот момент она штопала носки.",
+			"answer": "She was darning socks at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Весь вечер он разговаривал со старым другом.",
+			"answer": "He was talking to an old friend all evening.",
+			"explanation": "'Весь вечер' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "Когда произошла авария, рабочие вели дорожные работы.",
+			"answer": "The workers were carrying out roadworks when the accident happened.",
+			"explanation": "Длительное действие (вели дорожные работы) сопровождается кратким событием (произошла авария)."
+		},
+		{
+			"question": "Пока он разгружал машину, она открывала ворота.",
+			"answer": "While he was unloading the car, she was opening the gates.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В 11 дня вчера они проводили экскурсию.",
+			"answer": "They were conducting a tour at 11 am yesterday.",
+			"explanation": "Конкретное время дня указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "В тот момент команда обсуждала стратегию.",
+			"answer": "The team was discussing the strategy at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Когда он вошёл в кабинет, коллеги пили чай.",
+			"answer": "His colleagues were drinking tea when he came into the office.",
+			"explanation": "Фоновое действие (пили чай) происходило, когда случилось другое событие (он вошёл)."
+		},
+		{
+			"question": "Пока она стирала, он развешивал бельё.",
+			"answer": "While she was doing the laundry, he was hanging up the clothes.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Всю ночь больной кричал от боли.",
+			"answer": "The patient was screaming with pain all night.",
+			"explanation": "'Всю ночь' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "В 7 утра вчера она укладывала детей в школу.",
+			"answer": "She was getting the children ready for school at 7 am yesterday.",
+			"explanation": "Конкретное время утра указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "Когда я нашёл кошелёк, кто-то уже звонил в полицию.",
+			"answer": "Someone was already calling the police when I found the wallet.",
+			"explanation": "Длительное действие (звонил в полицию) происходило в момент краткого события (я нашёл кошелёк)."
+		},
+		{
+			"question": "Пока он мешал тесто, она взбивала сливки.",
+			"answer": "While he was mixing the dough, she was whipping the cream.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В тот момент солдаты маршировали по площади.",
+			"answer": "The soldiers were marching across the square at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Весь день она помогала маме по хозяйству.",
+			"answer": "She was helping her mum with the housework all day.",
+			"explanation": "'Весь день' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "Когда прибыла скорая, врачи уже оказывали помощь.",
+			"answer": "The doctors were already providing assistance when the ambulance arrived.",
+			"explanation": "Длительное действие (оказывали помощь) происходило в момент краткого события (прибыла скорая)."
+		},
+		{
+			"question": "Пока он закупал продукты, она ждала у входа.",
+			"answer": "While he was buying groceries, she was waiting at the entrance.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В 4 вечера вчера они репетировали спектакль.",
+			"answer": "They were rehearsing the play at 4 pm yesterday.",
+			"explanation": "Конкретное время вечера указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "В тот момент ребёнок учился ходить.",
+			"answer": "The baby was learning to walk at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Когда он вернулся домой, она ещё не спала.",
+			"answer": "She was still awake when he came back home.",
+			"explanation": "Длительное состояние (не спала) происходило в момент краткого события (он вернулся)."
+		},
+		{
+			"question": "Пока все спали, он тихо выходил из дома.",
+			"answer": "While everyone was sleeping, he was quietly leaving the house.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Всю ночь они плыли по реке.",
+			"answer": "They were sailing down the river all night.",
+			"explanation": "'Всю ночь' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "В 9 вечера вчера дети ещё купались.",
+			"answer": "The children were still swimming at 9 pm yesterday.",
+			"explanation": "Конкретное время вечера указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "В тот момент они переходили дорогу.",
+			"answer": "They were crossing the road at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Когда зазвучала музыка, гости начали танцевать.",
+			"answer": "The guests started dancing when the music was playing.",
+			"explanation": "Фоновое действие (музыка играла) создаёт обстановку для другого события (гости начали танцевать)."
+		},
+		{
+			"question": "Пока он фотографировал природу, она собирала грибы.",
+			"answer": "While he was photographing nature, she was picking mushrooms.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Весь день они обсуждали условия контракта.",
+			"answer": "They were discussing the contract terms all day.",
+			"explanation": "'Весь день' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "В 10 вечера вчера она ещё делала маникюр.",
+			"answer": "She was still doing her manicure at 10 pm yesterday.",
+			"explanation": "Конкретное время вечера указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "Когда раздался выстрел, охотник прицеливался.",
+			"answer": "The hunter was taking aim when the shot rang out.",
+			"explanation": "Длительное действие (прицеливался) в момент краткого события (выстрел)."
+		},
+		{
+			"question": "Пока она сортировала вещи, он тащил коробки на улицу.",
+			"answer": "While she was sorting out the things, he was carrying boxes outside.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В тот момент горел закат над морем.",
+			"answer": "The sunset was burning over the sea at that moment.",
+			"explanation": "Фоновое описание ситуации в прошлом — действие было в процессе в тот момент."
+		},
+		{
+			"question": "Всю ночь он охранял склад.",
+			"answer": "He was guarding the warehouse all night.",
+			"explanation": "'Всю ночь' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "Когда я проснулся, за окном уже светало.",
+			"answer": "It was already getting light outside when I woke up.",
+			"explanation": "Фоновое действие (светало) происходило, когда случилось другое событие (я проснулся)."
+		},
+		{
+			"question": "Пока он готовил к печати журнал, она верстала обложку.",
+			"answer": "While he was preparing the magazine for print, she was designing the cover.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В 1 час дня вчера она обедала в столовой.",
+			"answer": "She was having lunch in the canteen at 1 pm yesterday.",
+			"explanation": "Конкретное время дня указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "В тот момент водолаз исследовал морское дно.",
+			"answer": "The diver was exploring the seabed at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Когда разразилась буря, яхтсмены уходили в море.",
+			"answer": "The yachtsmen were heading out to sea when the storm broke.",
+			"explanation": "Длительное действие (уходили в море) прерывается кратким событием (разразилась буря)."
+		},
+		{
+			"question": "Пока он читал лекцию, студенты конспектировали.",
+			"answer": "While he was giving the lecture, the students were taking notes.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Весь день они копали картошку.",
+			"answer": "They were digging up potatoes all day.",
+			"explanation": "'Весь день' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "В 6 утра вчера она уже делала зарядку.",
+			"answer": "She was already doing exercises at 6 am yesterday.",
+			"explanation": "Конкретное время утра указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "В тот момент она примеряла свадебное платье.",
+			"answer": "She was trying on the wedding dress at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Когда вошёл директор, сотрудники занимались своими делами.",
+			"answer": "When the director walked in, the employees were going about their business.",
+			"explanation": "Фоновые действия сотрудников происходили в момент краткого события (вошёл директор)."
+		},
+		{
+			"question": "Пока дед чинил забор, внук помогал ему.",
+			"answer": "While grandad was fixing the fence, his grandson was helping him.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Всё утро она занималась медитацией.",
+			"answer": "She was meditating all morning.",
+			"explanation": "'Всё утро' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "В 5 вечера вчера он проводил тренировку.",
+			"answer": "He was running a training session at 5 pm yesterday.",
+			"explanation": "Конкретное время вечера указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "Когда мы зашли в зал, оркестр уже играл.",
+			"answer": "The orchestra was already playing when we entered the hall.",
+			"explanation": "Фоновое действие (оркестр играл) происходило, когда случилось другое событие (мы зашли)."
+		},
+		{
+			"question": "Пока она чистила морковь, он нарезал лук.",
+			"answer": "While she was peeling carrots, he was chopping onions.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В тот момент дикторша зачитывала новости.",
+			"answer": "The newsreader was reading the news at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Весь вечер он возился с мотоциклом.",
+			"answer": "He was fiddling with the motorbike all evening.",
+			"explanation": "'Весь вечер' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "Когда я позвонил, она купала ребёнка.",
+			"answer": "She was bathing the baby when I called.",
+			"explanation": "Длительное действие (купала ребёнка) прерывается кратким событием (я позвонил)."
+		},
+		{
+			"question": "Пока он тренировался в тренажёрном зале, она плавала в бассейне.",
+			"answer": "While he was working out at the gym, she was swimming in the pool.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В 10 утра вчера они летели над Атлантикой.",
+			"answer": "They were flying over the Atlantic at 10 am yesterday.",
+			"explanation": "Конкретное время утра указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "В тот момент он разворачивал подарок.",
+			"answer": "He was unwrapping the present at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Когда упала полка, она расставляла на ней книги.",
+			"answer": "She was arranging books on the shelf when it fell.",
+			"explanation": "Длительное действие (расставляла книги) прерывается кратким событием (полка упала)."
+		},
+		{
+			"question": "Пока они рассматривали карту, экскурсовод ждал их.",
+			"answer": "While they were studying the map, the tour guide was waiting for them.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Весь день дул сильный ветер.",
+			"answer": "A strong wind was blowing all day.",
+			"explanation": "'Весь день' указывает на длительное погодное явление в прошлом."
+		},
+		{
+			"question": "В 8 часов вчера вечером она пела колыбельную.",
+			"answer": "She was singing a lullaby at 8 pm yesterday.",
+			"explanation": "Конкретное время вечера указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "Когда прозвучал финальный свисток, игроки бежали к воротам.",
+			"answer": "The players were running towards the goal when the final whistle blew.",
+			"explanation": "Длительное действие (бежали к воротам) происходило в момент краткого события (финальный свисток)."
+		},
+		{
+			"question": "Пока она вышивала, он смотрел в окно.",
+			"answer": "While she was doing embroidery, he was looking out of the window.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В тот момент дети бегали по двору.",
+			"answer": "The children were running around the yard at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Всю ночь он следил за больным.",
+			"answer": "He was watching over the patient all night.",
+			"explanation": "'Всю ночь' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "Когда засветило солнце, туристы разбивали палатки.",
+			"answer": "The tourists were putting up tents when the sun came out.",
+			"explanation": "Длительное действие (разбивали палатки) происходило в момент краткого события (засветило солнце)."
+		},
+		{
+			"question": "Пока она массировала плечи клиентке, та задремала.",
+			"answer": "The client dozed off while she was massaging her shoulders.",
+			"explanation": "Длительное действие (массировала) прерывается кратким событием (клиентка задремала)."
+		},
+		{
+			"question": "В 9 утра вчера они ехали на велосипедах в горах.",
+			"answer": "They were cycling in the mountains at 9 am yesterday.",
+			"explanation": "Конкретное время утра указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "В тот момент студенты защищали курсовые работы.",
+			"answer": "The students were presenting their coursework at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Когда я пришёл в библиотеку, все тихо читали.",
+			"answer": "When I came to the library, everyone was reading quietly.",
+			"explanation": "Фоновое действие (тихо читали) происходило, когда случилось другое событие (я пришёл)."
+		},
+		{
+			"question": "Пока один повар жарил картошку, другой варил борщ.",
+			"answer": "While one cook was frying potatoes, the other was making borscht.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Весь день они монтировали видео.",
+			"answer": "They were editing the video all day.",
+			"explanation": "'Весь день' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "В 3 дня вчера он чинил велосипед.",
+			"answer": "He was repairing his bicycle at 3 pm yesterday.",
+			"explanation": "Конкретное время дня указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "В тот момент она примеряла шляпу перед зеркалом.",
+			"answer": "She was trying on a hat in front of the mirror at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Когда началась гроза, они собирали яблоки в саду.",
+			"answer": "They were picking apples in the garden when the storm started.",
+			"explanation": "Длительное действие (собирали яблоки) прерывается кратким событием (началась гроза)."
+		},
+		{
+			"question": "Пока она доила корову, он кормил кур.",
+			"answer": "While she was milking the cow, he was feeding the chickens.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Всё утро он раздавал листовки прохожим.",
+			"answer": "He was handing out leaflets to passers-by all morning.",
+			"explanation": "'Всё утро' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "В 6 вечера вчера она встречала гостей у входа.",
+			"answer": "She was welcoming guests at the entrance at 6 pm yesterday.",
+			"explanation": "Конкретное время вечера указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "Когда зазвонил колокол, монахи молились.",
+			"answer": "The monks were praying when the bell rang.",
+			"explanation": "Длительное действие (молились) прерывается кратким событием (зазвонил колокол)."
+		},
+		{
+			"question": "Пока он паял схему, она рисовала чертежи.",
+			"answer": "While he was soldering the circuit, she was drawing diagrams.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В тот момент кран поднимал тяжёлую балку.",
+			"answer": "The crane was lifting a heavy beam at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Весь вечер она переписывалась с подругой.",
+			"answer": "She was texting her friend all evening.",
+			"explanation": "'Весь вечер' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "Когда объявили результаты, все замерли.",
+			"answer": "Everyone was holding their breath when the results were announced.",
+			"explanation": "Длительное состояние (замерли) происходило в момент краткого события (объявили результаты)."
+		},
+		{
+			"question": "Пока он покупал билеты, она ждала в очереди.",
+			"answer": "While he was buying tickets, she was waiting in the queue.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В 7 вечера вчера она кормила кота.",
+			"answer": "She was feeding the cat at 7 pm yesterday.",
+			"explanation": "Конкретное время вечера указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "В тот момент горный ручей бурлил между камнями.",
+			"answer": "The mountain stream was babbling between the rocks at that moment.",
+			"explanation": "Фоновое описание обстановки — действие было в процессе в тот момент."
+		},
+		{
+			"question": "Когда он подошёл к окну, снег ещё падал.",
+			"answer": "Snow was still falling when he came to the window.",
+			"explanation": "Фоновое действие (снег падал) происходило в момент краткого события (он подошёл)."
+		},
+		{
+			"question": "Пока он протирал очки, она листала меню.",
+			"answer": "While he was cleaning his glasses, she was flicking through the menu.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Всю ночь она дежурила у постели больного.",
+			"answer": "She was keeping watch at the patient's bedside all night.",
+			"explanation": "'Всю ночь' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "В 11 утра вчера он обсуждал проект с партнёрами.",
+			"answer": "He was discussing the project with his partners at 11 am yesterday.",
+			"explanation": "Конкретное время утра указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "В тот момент лодка медленно плыла вдоль берега.",
+			"answer": "The boat was slowly drifting along the shore at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Когда вернулся папа, мы ужинали.",
+			"answer": "We were having dinner when dad came back.",
+			"explanation": "Длительное действие (ужинали) прерывается кратким событием (вернулся папа)."
+		},
+		{
+			"question": "Пока она упражнялась на пианино, он читал ноты.",
+			"answer": "While she was practising the piano, he was reading the sheet music.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Весь день дети возились с щенком.",
+			"answer": "The children were playing with the puppy all day.",
+			"explanation": "'Весь день' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "В 4 вечера вчера они посещали музей.",
+			"answer": "They were visiting the museum at 4 pm yesterday.",
+			"explanation": "Конкретное время вечера указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "Когда мы подъехали к дому, с крыши падал снег.",
+			"answer": "Snow was falling from the roof when we drove up to the house.",
+			"explanation": "Фоновое действие (снег падал) происходило, когда случилось другое событие (мы подъехали)."
+		},
+		{
+			"question": "Пока он проверял код, она писала документацию.",
+			"answer": "While he was reviewing the code, she was writing the documentation.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В тот момент туристы пересекали горный перевал.",
+			"answer": "The tourists were crossing the mountain pass at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Всё утро они катались на коньках.",
+			"answer": "They were skating all morning.",
+			"explanation": "'Всё утро' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "В 10 вечера вчера она упаковывала подарки.",
+			"answer": "She was wrapping presents at 10 pm yesterday.",
+			"explanation": "Конкретное время вечера указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "Когда начался пожар, жильцы спали.",
+			"answer": "The residents were sleeping when the fire started.",
+			"explanation": "Длительное действие (спали) прерывается кратким событием (начался пожар)."
+		},
+		{
+			"question": "Пока он рассматривал витрину, она примеряла туфли.",
+			"answer": "While he was looking at the shop window, she was trying on shoes.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В тот момент дельфины прыгали из воды.",
+			"answer": "The dolphins were jumping out of the water at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Весь вечер он ковырялся в двигателе автомобиля.",
+			"answer": "He was tinkering with the car engine all evening.",
+			"explanation": "'Весь вечер' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "Когда объявили о посадке, пассажиры читали, спали и разговаривали.",
+			"answer": "The passengers were reading, sleeping and talking when the boarding was announced.",
+			"explanation": "Фоновые действия пассажиров происходили в момент краткого события (объявили посадку)."
+		},
+		{
+			"question": "Пока она взбивала яйца, он нагревал сковороду.",
+			"answer": "While she was beating the eggs, he was heating up the frying pan.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В 5 утра вчера рыбаки выходили на лов.",
+			"answer": "The fishermen were setting off to fish at 5 am yesterday.",
+			"explanation": "Конкретное время утра указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "В тот момент она переводила важный документ.",
+			"answer": "She was translating an important document at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Когда прибыл инспектор, сотрудники приводили документы в порядок.",
+			"answer": "The employees were putting the documents in order when the inspector arrived.",
+			"explanation": "Длительное действие (приводили документы в порядок) прерывается кратким событием (прибыл инспектор)."
+		},
+		{
+			"question": "Пока она искала ключи, он держал сумки.",
+			"answer": "While she was looking for her keys, he was holding the bags.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Весь день он разрабатывал новый алгоритм.",
+			"answer": "He was developing a new algorithm all day.",
+			"explanation": "'Весь день' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "В 2 дня вчера они проходили медосмотр.",
+			"answer": "They were having a medical check-up at 2 pm yesterday.",
+			"explanation": "Конкретное время дня указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "В тот момент она листала фотоальбом.",
+			"answer": "She was flicking through the photo album at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Когда закончилось мероприятие, все ещё расходились.",
+			"answer": "Everyone was still leaving when the event ended.",
+			"explanation": "Длительное действие (расходились) происходило в момент краткого события (мероприятие закончилось)."
+		},
+		{
+			"question": "Пока он готовил доклад на конференцию, она бронировала гостиницу.",
+			"answer": "While he was preparing his conference talk, she was booking the hotel.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Всю ночь мела метель.",
+			"answer": "A blizzard was raging all night.",
+			"explanation": "'Всю ночь' указывает на длительное погодное явление в прошлом."
+		},
+		{
+			"question": "В 8 вечера вчера они катались на санках с горки.",
+			"answer": "They were sledging down the hill at 8 pm yesterday.",
+			"explanation": "Конкретное время вечера указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "Когда отключилось электричество, она вышивала при лампе.",
+			"answer": "She was doing embroidery by the lamp when the electricity went out.",
+			"explanation": "Длительное действие (вышивала) прерывается кратким событием (отключилось электричество)."
+		},
+		{
+			"question": "Пока он чинил ботинки, она гладила пальто.",
+			"answer": "While he was repairing the shoes, she was ironing the coat.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В тот момент он изучал карту звёздного неба.",
+			"answer": "He was studying the star map at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Весь день она тестировала новое приложение.",
+			"answer": "She was testing the new application all day.",
+			"explanation": "'Весь день' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "Когда подошёл официант, мы ещё выбирали блюда.",
+			"answer": "We were still choosing dishes when the waiter came over.",
+			"explanation": "Длительное действие (выбирали блюда) происходило в момент краткого события (подошёл официант)."
+		},
+		{
+			"question": "Пока она проверяла почту, он заваривал чай.",
+			"answer": "While she was checking her email, he was making tea.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В 7 утра вчера он уже тренировал команду.",
+			"answer": "He was already coaching the team at 7 am yesterday.",
+			"explanation": "Конкретное время утра указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "В тот момент вертолёт кружил над местом аварии.",
+			"answer": "The helicopter was circling above the crash site at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Когда упал занавес, дирижёр ещё кланялся.",
+			"answer": "The conductor was still bowing when the curtain came down.",
+			"explanation": "Длительное действие (кланялся) происходило в момент краткого события (упал занавес)."
+		},
+		{
+			"question": "Пока одни спортсмены разминались, другие отдыхали.",
+			"answer": "While some athletes were warming up, others were resting.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Весь вечер она перебирала старые письма.",
+			"answer": "She was going through old letters all evening.",
+			"explanation": "'Весь вечер' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "В 4 утра вчера охранники патрулировали территорию.",
+			"answer": "The guards were patrolling the grounds at 4 am yesterday.",
+			"explanation": "Конкретное время ночи указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "В тот момент она приводила в порядок рабочий стол.",
+			"answer": "She was tidying up her desk at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Когда я вышел на улицу, соседи грузили мебель в машину.",
+			"answer": "The neighbours were loading furniture into a van when I came outside.",
+			"explanation": "Фоновое действие (грузили мебель) происходило, когда случилось другое событие (я вышел)."
+		},
+		{
+			"question": "Пока он подметал двор, она собирала опавшие листья.",
+			"answer": "While he was sweeping the yard, she was gathering fallen leaves.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "Весь день он исследовал архивные документы.",
+			"answer": "He was examining archive documents all day.",
+			"explanation": "'Весь день' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "В 9 вечера вчера она заполняла налоговую декларацию.",
+			"answer": "She was filling in the tax return at 9 pm yesterday.",
+			"explanation": "Конкретное время вечера указывает на действие, которое было в процессе."
+		},
+		{
+			"question": "Когда тренер вошёл в зал, спортсмены отрабатывали удары.",
+			"answer": "The athletes were practising punches when the coach came into the hall.",
+			"explanation": "Фоновое действие (отрабатывали удары) происходило, когда случилось другое событие (вошёл тренер)."
+		},
+		{
+			"question": "Пока он отсчитывал сдачу, она укладывала покупки в сумку.",
+			"answer": "While he was counting the change, she was packing the shopping into the bag.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
+		},
+		{
+			"question": "В тот момент парашютист падал с невероятной скоростью.",
+			"answer": "The skydiver was falling at incredible speed at that moment.",
+			"explanation": "Действие было в процессе в конкретный момент прошлого."
+		},
+		{
+			"question": "Всю ночь она работала в ночную смену.",
+			"answer": "She was working the night shift all night.",
+			"explanation": "'Всю ночь' указывает на длительное действие в прошлом."
+		},
+		{
+			"question": "Когда подъехал автобус, мы ещё стояли на остановке.",
+			"answer": "We were still standing at the bus stop when the bus pulled up.",
+			"explanation": "Длительное действие (стояли на остановке) происходило в момент краткого события (подъехал автобус)."
+		},
+		{
+			"question": "Пока он рисовал портрет, она позировала у окна.",
+			"answer": "While he was painting the portrait, she was posing by the window.",
+			"explanation": "Два параллельных действия в прошлом — оба в Past Continuous."
 		}
 	]
 }

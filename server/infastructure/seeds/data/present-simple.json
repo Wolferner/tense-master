@@ -4,17 +4,957 @@
 		{
 			"question": "Он каждое утро пьёт кофе.",
 			"answer": "He drinks coffee every morning.",
-			"explanation": "Present Simple используется для регулярных, повторяющихся действий. Маркер: every morning."
+			"explanation": "Present Simple используется для регулярных действий. Глагол в 3-м лице ед.ч. получает окончание -s."
 		},
 		{
 			"question": "Земля вращается вокруг Солнца.",
 			"answer": "The Earth revolves around the Sun.",
-			"explanation": "Present Simple используется для общих истин и научных фактов."
+			"explanation": "Present Simple используется для научных фактов и постоянных истин."
 		},
 		{
 			"question": "Я живу в Москве.",
 			"answer": "I live in Moscow.",
-			"explanation": "Present Simple используется для постоянных состояний и фактов о себе."
+			"explanation": "Present Simple выражает постоянное состояние или факт. С местоимением I глагол без изменений."
+		},
+		{
+			"question": "Она работает учителем.",
+			"answer": "She works as a teacher.",
+			"explanation": "Present Simple для постоянных фактов. Глагол в 3-м лице ед.ч. получает -s."
+		},
+		{
+			"question": "Поезд отправляется в восемь утра.",
+			"answer": "The train departs at eight in the morning.",
+			"explanation": "Present Simple используется для расписаний и фиксированных событий."
+		},
+		{
+			"question": "Мы каждую пятницу ходим в кино.",
+			"answer": "We go to the cinema every Friday.",
+			"explanation": "Present Simple для регулярных, повторяющихся действий. С местоимением we глагол без изменений."
+		},
+		{
+			"question": "Кошки любят рыбу.",
+			"answer": "Cats love fish.",
+			"explanation": "Present Simple для общих истин и привычек. Во множественном числе глагол без -s."
+		},
+		{
+			"question": "Он никогда не завтракает.",
+			"answer": "He never has breakfast.",
+			"explanation": "Present Simple с наречием never для отрицательных привычек. Глагол has в 3-м лице ед.ч."
+		},
+		{
+			"question": "Магазин открывается в девять.",
+			"answer": "The shop opens at nine.",
+			"explanation": "Present Simple для расписаний. Глагол в 3-м лице ед.ч. получает -s."
+		},
+		{
+			"question": "Я не люблю холодную погоду.",
+			"answer": "I don't like cold weather.",
+			"explanation": "Отрицание в Present Simple образуется с don't для I/you/we/they."
+		},
+		{
+			"question": "Она не ест мяса.",
+			"answer": "She doesn't eat meat.",
+			"explanation": "Отрицание в Present Simple с doesn't для he/she/it. Основной глагол без изменений."
+		},
+		{
+			"question": "Они живут в большом доме.",
+			"answer": "They live in a big house.",
+			"explanation": "Present Simple для постоянного состояния. С they глагол без -s."
+		},
+		{
+			"question": "Вода замерзает при нуле градусов.",
+			"answer": "Water freezes at zero degrees.",
+			"explanation": "Present Simple для научных фактов. Глагол в 3-м лице ед.ч."
+		},
+		{
+			"question": "Ты часто читаешь книги?",
+			"answer": "Do you often read books?",
+			"explanation": "Вопрос в Present Simple с do для you. Основной глагол без изменений."
+		},
+		{
+			"question": "Он играет в футбол по выходным.",
+			"answer": "He plays football at weekends.",
+			"explanation": "Present Simple для регулярных действий. Глагол в 3-м лице ед.ч. получает -s."
+		},
+		{
+			"question": "Мы говорим по-английски на уроке.",
+			"answer": "We speak English in class.",
+			"explanation": "Present Simple для привычных действий. С we глагол без изменений."
+		},
+		{
+			"question": "Солнце встаёт на востоке.",
+			"answer": "The Sun rises in the east.",
+			"explanation": "Present Simple для постоянных истин. Глагол в 3-м лице ед.ч."
+		},
+		{
+			"question": "Он редко смотрит телевизор.",
+			"answer": "He rarely watches television.",
+			"explanation": "Present Simple с наречием rarely. Глагол watches в 3-м лице ед.ч."
+		},
+		{
+			"question": "Я обычно встаю в семь часов.",
+			"answer": "I usually get up at seven o'clock.",
+			"explanation": "Present Simple с наречием usually для регулярных действий. С I глагол без изменений."
+		},
+		{
+			"question": "Они ездят на работу на метро.",
+			"answer": "They take the metro to work.",
+			"explanation": "Present Simple для привычных действий. С they глагол без изменений."
+		},
+		{
+			"question": "Она часто готовит ужин дома.",
+			"answer": "She often cooks dinner at home.",
+			"explanation": "Present Simple с наречием often. Глагол в 3-м лице ед.ч."
+		},
+		{
+			"question": "Птицы летят на юг зимой.",
+			"answer": "Birds fly south in winter.",
+			"explanation": "Present Simple для регулярных природных явлений."
+		},
+		{
+			"question": "Он ходит в спортзал три раза в неделю.",
+			"answer": "He goes to the gym three times a week.",
+			"explanation": "Present Simple для регулярных действий. Глагол goes в 3-м лице ед.ч."
+		},
+		{
+			"question": "Мы едим обед в час дня.",
+			"answer": "We have lunch at one o'clock.",
+			"explanation": "Present Simple для регулярного распорядка дня. С we глагол без изменений."
+		},
+		{
+			"question": "Ты знаешь ответ на этот вопрос?",
+			"answer": "Do you know the answer to this question?",
+			"explanation": "Вопрос в Present Simple с do. Глагол know — глагол состояния."
+		},
+		{
+			"question": "Он понимает по-французски.",
+			"answer": "He understands French.",
+			"explanation": "Present Simple с глаголом состояния understand. Глагол в 3-м лице ед.ч."
+		},
+		{
+			"question": "Я хочу стакан воды.",
+			"answer": "I want a glass of water.",
+			"explanation": "Present Simple с глаголом состояния want. Глаголы состояния не используются в Continuous."
+		},
+		{
+			"question": "Она знает его очень хорошо.",
+			"answer": "She knows him very well.",
+			"explanation": "Present Simple с глаголом состояния know. Глагол в 3-м лице ед.ч."
+		},
+		{
+			"question": "Этот автобус идёт до центра.",
+			"answer": "This bus goes to the city centre.",
+			"explanation": "Present Simple для постоянных маршрутов и расписаний."
+		},
+		{
+			"question": "Дети играют во дворе каждый день.",
+			"answer": "The children play in the yard every day.",
+			"explanation": "Present Simple для регулярных действий. Во множественном числе глагол без -s."
+		},
+		{
+			"question": "Он думает, что ты прав.",
+			"answer": "He thinks you are right.",
+			"explanation": "Present Simple с глаголом мнения think. Глагол в 3-м лице ед.ч."
+		},
+		{
+			"question": "Мы верим в честность.",
+			"answer": "We believe in honesty.",
+			"explanation": "Present Simple с глаголом состояния believe. С we глагол без изменений."
+		},
+		{
+			"question": "Он всегда опаздывает на встречи.",
+			"answer": "He always arrives late to meetings.",
+			"explanation": "Present Simple с наречием always для критики привычек."
+		},
+		{
+			"question": "Она преподаёт математику в школе.",
+			"answer": "She teaches mathematics at school.",
+			"explanation": "Present Simple для постоянной работы. Глагол teaches в 3-м лице ед.ч."
+		},
+		{
+			"question": "Я не понимаю этого правила.",
+			"answer": "I don't understand this rule.",
+			"explanation": "Отрицание в Present Simple с don't. Глагол состояния understand."
+		},
+		{
+			"question": "Ты любишь джазовую музыку?",
+			"answer": "Do you like jazz music?",
+			"explanation": "Вопрос в Present Simple с do. Глагол like — глагол состояния."
+		},
+		{
+			"question": "Река впадает в море.",
+			"answer": "The river flows into the sea.",
+			"explanation": "Present Simple для постоянных географических фактов."
+		},
+		{
+			"question": "Он курит после ужина.",
+			"answer": "He smokes after dinner.",
+			"explanation": "Present Simple для привычных действий. Глагол в 3-м лице ед.ч."
+		},
+		{
+			"question": "Мы встречаемся каждую субботу.",
+			"answer": "We meet every Saturday.",
+			"explanation": "Present Simple для регулярных событий. С we глагол без изменений."
+		},
+		{
+			"question": "Она рано ложится спать.",
+			"answer": "She goes to bed early.",
+			"explanation": "Present Simple для привычек. Глагол goes в 3-м лице ед.ч."
+		},
+		{
+			"question": "Лёд тает при плюсовой температуре.",
+			"answer": "Ice melts at a positive temperature.",
+			"explanation": "Present Simple для научных фактов."
+		},
+		{
+			"question": "Он не пьёт алкоголь.",
+			"answer": "He doesn't drink alcohol.",
+			"explanation": "Отрицание в Present Simple с doesn't. Основной глагол без изменений."
+		},
+		{
+			"question": "Ты умеешь играть на гитаре?",
+			"answer": "Do you know how to play the guitar?",
+			"explanation": "Вопрос в Present Simple о постоянном умении."
+		},
+		{
+			"question": "Они работают в одном офисе.",
+			"answer": "They work in the same office.",
+			"explanation": "Present Simple для постоянного факта. С they глагол без изменений."
+		},
+		{
+			"question": "Этот фильм начинается в восемь вечера.",
+			"answer": "This film starts at eight in the evening.",
+			"explanation": "Present Simple для фиксированного расписания."
+		},
+		{
+			"question": "Я принимаю душ каждое утро.",
+			"answer": "I take a shower every morning.",
+			"explanation": "Present Simple для ежедневных привычек. С I глагол без изменений."
+		},
+		{
+			"question": "Она верит каждому слову.",
+			"answer": "She believes every word.",
+			"explanation": "Present Simple с глаголом состояния believe. Глагол в 3-м лице ед.ч."
+		},
+		{
+			"question": "Он помнит все даты.",
+			"answer": "He remembers all the dates.",
+			"explanation": "Present Simple с глаголом состояния remember. Глагол в 3-м лице ед.ч."
+		},
+		{
+			"question": "Мы не едим фастфуд.",
+			"answer": "We don't eat fast food.",
+			"explanation": "Отрицание в Present Simple с don't. С we глагол без изменений."
+		},
+		{
+			"question": "Ты знаешь, где он живёт?",
+			"answer": "Do you know where he lives?",
+			"explanation": "Вопрос в Present Simple с косвенным вопросом."
+		},
+		{
+			"question": "Самолёт вылетает в полдень.",
+			"answer": "The plane takes off at noon.",
+			"explanation": "Present Simple для расписания транспорта."
+		},
+		{
+			"question": "Она ненавидит опаздывать.",
+			"answer": "She hates being late.",
+			"explanation": "Present Simple с глаголом состояния hate. Глагол в 3-м лице ед.ч."
+		},
+		{
+			"question": "Он зарабатывает много денег.",
+			"answer": "He earns a lot of money.",
+			"explanation": "Present Simple для постоянного факта о работе."
+		},
+		{
+			"question": "Мы каждое лето едем на море.",
+			"answer": "We go to the seaside every summer.",
+			"explanation": "Present Simple для ежегодных привычек. С we глагол без изменений."
+		},
+		{
+			"question": "Этот магазин работает круглосуточно.",
+			"answer": "This shop works around the clock.",
+			"explanation": "Present Simple для постоянного режима работы."
+		},
+		{
+			"question": "Они редко ссорятся.",
+			"answer": "They rarely argue.",
+			"explanation": "Present Simple с наречием rarely. Во множественном числе глагол без -s."
+		},
+		{
+			"question": "Она всегда улыбается.",
+			"answer": "She always smiles.",
+			"explanation": "Present Simple с наречием always для характеристики человека."
+		},
+		{
+			"question": "Я предпочитаю чай кофе.",
+			"answer": "I prefer tea to coffee.",
+			"explanation": "Present Simple с глаголом состояния prefer."
+		},
+		{
+			"question": "Он обожает путешествовать.",
+			"answer": "He loves travelling.",
+			"explanation": "Present Simple с глаголом состояния love. Глагол в 3-м лице ед.ч."
+		},
+		{
+			"question": "Ты понимаешь меня?",
+			"answer": "Do you understand me?",
+			"explanation": "Вопрос в Present Simple. Глагол understand — глагол состояния."
+		},
+		{
+			"question": "Они приходят на работу вовремя.",
+			"answer": "They come to work on time.",
+			"explanation": "Present Simple для привычных действий. С they глагол без изменений."
+		},
+		{
+			"question": "Она занимается йогой по утрам.",
+			"answer": "She does yoga in the mornings.",
+			"explanation": "Present Simple для утренних привычек. Глагол в 3-м лице ед.ч."
+		},
+		{
+			"question": "Снег падает зимой.",
+			"answer": "Snow falls in winter.",
+			"explanation": "Present Simple для регулярных природных явлений."
+		},
+		{
+			"question": "Он не любит громкую музыку.",
+			"answer": "He doesn't like loud music.",
+			"explanation": "Отрицание с doesn't и глаголом состояния like."
+		},
+		{
+			"question": "Мы изучаем английский язык.",
+			"answer": "We study English.",
+			"explanation": "Present Simple для постоянного занятия. С we глагол без изменений."
+		},
+		{
+			"question": "Я ем овощи каждый день.",
+			"answer": "I eat vegetables every day.",
+			"explanation": "Present Simple для ежедневных привычек в питании."
+		},
+		{
+			"question": "Она носит очки.",
+			"answer": "She wears glasses.",
+			"explanation": "Present Simple для постоянного состояния. Глагол в 3-м лице ед.ч."
+		},
+		{
+			"question": "Этот завод производит автомобили.",
+			"answer": "This factory produces cars.",
+			"explanation": "Present Simple для постоянной деятельности предприятия."
+		},
+		{
+			"question": "Он не смотрит новости.",
+			"answer": "He doesn't watch the news.",
+			"explanation": "Отрицание с doesn't. Глагол watch без изменений после doesn't."
+		},
+		{
+			"question": "Ты веришь в удачу?",
+			"answer": "Do you believe in luck?",
+			"explanation": "Вопрос в Present Simple с глаголом состояния believe."
+		},
+		{
+			"question": "Она умеет рисовать.",
+			"answer": "She can draw.",
+			"explanation": "Модальный глагол can в Present Simple для выражения умения."
+		},
+		{
+			"question": "Мы живём недалеко от парка.",
+			"answer": "We live near the park.",
+			"explanation": "Present Simple для постоянного места жительства."
+		},
+		{
+			"question": "Он пишет письма от руки.",
+			"answer": "He writes letters by hand.",
+			"explanation": "Present Simple для привычного способа действия."
+		},
+		{
+			"question": "Кофе содержит кофеин.",
+			"answer": "Coffee contains caffeine.",
+			"explanation": "Present Simple для постоянного факта или свойства."
+		},
+		{
+			"question": "Я занимаюсь спортом трижды в неделю.",
+			"answer": "I do sport three times a week.",
+			"explanation": "Present Simple для регулярных действий. С I глагол без изменений."
+		},
+		{
+			"question": "Она не пьёт газировку.",
+			"answer": "She doesn't drink fizzy drinks.",
+			"explanation": "Отрицание с doesn't для he/she/it."
+		},
+		{
+			"question": "Они встают очень рано.",
+			"answer": "They get up very early.",
+			"explanation": "Present Simple для привычного распорядка. С they глагол без изменений."
+		},
+		{
+			"question": "Этот поезд останавливается на каждой станции.",
+			"answer": "This train stops at every station.",
+			"explanation": "Present Simple для постоянного маршрута."
+		},
+		{
+			"question": "Он чувствует себя хорошо.",
+			"answer": "He feels well.",
+			"explanation": "Present Simple с глаголом состояния feel. Глагол в 3-м лице ед.ч."
+		},
+		{
+			"question": "Мы иногда ходим в театр.",
+			"answer": "We sometimes go to the theatre.",
+			"explanation": "Present Simple с наречием sometimes. С we глагол без изменений."
+		},
+		{
+			"question": "Я хожу к врачу раз в год.",
+			"answer": "I go to the doctor once a year.",
+			"explanation": "Present Simple для регулярных действий с указанием частоты."
+		},
+		{
+			"question": "Она слушает классическую музыку.",
+			"answer": "She listens to classical music.",
+			"explanation": "Present Simple для привычек и предпочтений."
+		},
+		{
+			"question": "Он не знает правды.",
+			"answer": "He doesn't know the truth.",
+			"explanation": "Отрицание с doesn't и глаголом состояния know."
+		},
+		{
+			"question": "Ты смотришь спортивные передачи?",
+			"answer": "Do you watch sports programmes?",
+			"explanation": "Вопрос в Present Simple для выяснения привычек."
+		},
+		{
+			"question": "Они покупают продукты в супермаркете.",
+			"answer": "They buy groceries at the supermarket.",
+			"explanation": "Present Simple для привычных действий."
+		},
+		{
+			"question": "Земля имеет форму шара.",
+			"answer": "The Earth has the shape of a sphere.",
+			"explanation": "Present Simple для постоянных научных фактов."
+		},
+		{
+			"question": "Она преподаёт в университете.",
+			"answer": "She teaches at university.",
+			"explanation": "Present Simple для постоянного рода занятий."
+		},
+		{
+			"question": "Я обожаю итальянскую кухню.",
+			"answer": "I love Italian food.",
+			"explanation": "Present Simple с глаголом состояния love для выражения предпочтений."
+		},
+		{
+			"question": "Он всегда держит своё слово.",
+			"answer": "He always keeps his word.",
+			"explanation": "Present Simple с наречием always для характеристики человека."
+		},
+		{
+			"question": "Мы платим за квартиру каждый месяц.",
+			"answer": "We pay rent every month.",
+			"explanation": "Present Simple для регулярных действий."
+		},
+		{
+			"question": "Собаки лают на незнакомцев.",
+			"answer": "Dogs bark at strangers.",
+			"explanation": "Present Simple для типичного поведения."
+		},
+		{
+			"question": "Он не говорит по-немецки.",
+			"answer": "He doesn't speak German.",
+			"explanation": "Отрицание с doesn't для he/she/it."
+		},
+		{
+			"question": "Ты занимаешься плаванием?",
+			"answer": "Do you do swimming?",
+			"explanation": "Вопрос в Present Simple для выяснения привычек."
+		},
+		{
+			"question": "Она работает до позднего вечера.",
+			"answer": "She works until late in the evening.",
+			"explanation": "Present Simple для постоянного рабочего распорядка."
+		},
+		{
+			"question": "Этот рецепт требует двух яиц.",
+			"answer": "This recipe requires two eggs.",
+			"explanation": "Present Simple для постоянных инструкций или требований."
+		},
+		{
+			"question": "Он занимается боксом.",
+			"answer": "He does boxing.",
+			"explanation": "Present Simple для постоянного занятия."
+		},
+		{
+			"question": "Мы не смотрим мультфильмы.",
+			"answer": "We don't watch cartoons.",
+			"explanation": "Отрицание в Present Simple с don't для we."
+		},
+		{
+			"question": "Луна вращается вокруг Земли.",
+			"answer": "The Moon revolves around the Earth.",
+			"explanation": "Present Simple для постоянных астрономических фактов."
+		},
+		{
+			"question": "Я думаю, что ты не прав.",
+			"answer": "I think you are wrong.",
+			"explanation": "Present Simple с глаголом мнения think."
+		},
+		{
+			"question": "Она умеет готовить очень вкусно.",
+			"answer": "She can cook very well.",
+			"explanation": "Модальный глагол can в Present Simple для выражения умения."
+		},
+		{
+			"question": "Он ведёт здоровый образ жизни.",
+			"answer": "He leads a healthy lifestyle.",
+			"explanation": "Present Simple для постоянной характеристики образа жизни."
+		},
+		{
+			"question": "Ты помнишь его имя?",
+			"answer": "Do you remember his name?",
+			"explanation": "Вопрос в Present Simple с глаголом состояния remember."
+		},
+		{
+			"question": "Они смотрят новости каждый вечер.",
+			"answer": "They watch the news every evening.",
+			"explanation": "Present Simple для ежевечерних привычек."
+		},
+		{
+			"question": "Кровь содержит железо.",
+			"answer": "Blood contains iron.",
+			"explanation": "Present Simple для постоянных научных фактов."
+		},
+		{
+			"question": "Она занимается рисованием.",
+			"answer": "She does painting.",
+			"explanation": "Present Simple для постоянного хобби."
+		},
+		{
+			"question": "Он не хочет переезжать.",
+			"answer": "He doesn't want to move.",
+			"explanation": "Отрицание с doesn't и глаголом состояния want."
+		},
+		{
+			"question": "Мы ужинаем вместе по воскресеньям.",
+			"answer": "We have dinner together on Sundays.",
+			"explanation": "Present Simple для еженедельных традиций."
+		},
+		{
+			"question": "Я ненавижу ждать.",
+			"answer": "I hate waiting.",
+			"explanation": "Present Simple с глаголом состояния hate."
+		},
+		{
+			"question": "Эта книга стоит дорого.",
+			"answer": "This book costs a lot.",
+			"explanation": "Present Simple для постоянного факта о цене."
+		},
+		{
+			"question": "Она звонит маме каждое воскресенье.",
+			"answer": "She calls her mother every Sunday.",
+			"explanation": "Present Simple для регулярных действий."
+		},
+		{
+			"question": "Он тренируется каждый день.",
+			"answer": "He trains every day.",
+			"explanation": "Present Simple для ежедневных привычек."
+		},
+		{
+			"question": "Вы курите?",
+			"answer": "Do you smoke?",
+			"explanation": "Вопрос в Present Simple для выяснения привычек."
+		},
+		{
+			"question": "Они не едят острую пищу.",
+			"answer": "They don't eat spicy food.",
+			"explanation": "Отрицание в Present Simple для they."
+		},
+		{
+			"question": "Солнце садится на западе.",
+			"answer": "The Sun sets in the west.",
+			"explanation": "Present Simple для постоянных фактов о природе."
+		},
+		{
+			"question": "Он следит за своим здоровьем.",
+			"answer": "He takes care of his health.",
+			"explanation": "Present Simple для постоянных привычек."
+		},
+		{
+			"question": "Я знаю этого человека.",
+			"answer": "I know this person.",
+			"explanation": "Present Simple с глаголом состояния know."
+		},
+		{
+			"question": "Она читает по книге в неделю.",
+			"answer": "She reads one book a week.",
+			"explanation": "Present Simple для регулярных действий с указанием частоты."
+		},
+		{
+			"question": "Эта машина потребляет много топлива.",
+			"answer": "This car uses a lot of fuel.",
+			"explanation": "Present Simple для постоянных характеристик."
+		},
+		{
+			"question": "Мы не любим грустные фильмы.",
+			"answer": "We don't like sad films.",
+			"explanation": "Отрицание в Present Simple с глаголом состояния like."
+		},
+		{
+			"question": "Ты веришь в то, что он говорит?",
+			"answer": "Do you believe what he says?",
+			"explanation": "Вопрос в Present Simple с глаголом состояния believe."
+		},
+		{
+			"question": "Он работает допоздна каждую среду.",
+			"answer": "He works late every Wednesday.",
+			"explanation": "Present Simple для еженедельных привычек."
+		},
+		{
+			"question": "Она изучает иностранные языки.",
+			"answer": "She studies foreign languages.",
+			"explanation": "Present Simple для постоянных занятий."
+		},
+		{
+			"question": "Дети любят сладкое.",
+			"answer": "Children love sweets.",
+			"explanation": "Present Simple для общих предпочтений."
+		},
+		{
+			"question": "Он замечает все детали.",
+			"answer": "He notices every detail.",
+			"explanation": "Present Simple с глаголом восприятия notice."
+		},
+		{
+			"question": "Я иногда смотрю фильмы на английском.",
+			"answer": "I sometimes watch films in English.",
+			"explanation": "Present Simple с наречием sometimes."
+		},
+		{
+			"question": "Она не хочет разговаривать.",
+			"answer": "She doesn't want to talk.",
+			"explanation": "Отрицание с doesn't и глаголом want."
+		},
+		{
+			"question": "Этот завод работает пять дней в неделю.",
+			"answer": "This factory operates five days a week.",
+			"explanation": "Present Simple для постоянного режима работы."
+		},
+		{
+			"question": "Мы знаем ответ.",
+			"answer": "We know the answer.",
+			"explanation": "Present Simple с глаголом состояния know."
+		},
+		{
+			"question": "Они платят налоги каждый год.",
+			"answer": "They pay taxes every year.",
+			"explanation": "Present Simple для ежегодных регулярных действий."
+		},
+		{
+			"question": "Он ценит своё время.",
+			"answer": "He values his time.",
+			"explanation": "Present Simple для постоянного отношения."
+		},
+		{
+			"question": "Я встречаю его каждое утро в кафе.",
+			"answer": "I meet him every morning at the café.",
+			"explanation": "Present Simple для регулярных встреч."
+		},
+		{
+			"question": "Она иногда забывает ключи.",
+			"answer": "She sometimes forgets her keys.",
+			"explanation": "Present Simple с наречием sometimes для нерегулярных привычек."
+		},
+		{
+			"question": "Рыба живёт в воде.",
+			"answer": "Fish live in water.",
+			"explanation": "Present Simple для биологических фактов."
+		},
+		{
+			"question": "Он не ест сахара.",
+			"answer": "He doesn't eat sugar.",
+			"explanation": "Отрицание с doesn't для he/she/it."
+		},
+		{
+			"question": "Ты понимаешь по-испански?",
+			"answer": "Do you understand Spanish?",
+			"explanation": "Вопрос в Present Simple с глаголом состояния understand."
+		},
+		{
+			"question": "Она любит проводить время на природе.",
+			"answer": "She loves spending time in nature.",
+			"explanation": "Present Simple с глаголом состояния love."
+		},
+		{
+			"question": "Мы часто ходим на прогулки.",
+			"answer": "We often go for walks.",
+			"explanation": "Present Simple с наречием often."
+		},
+		{
+			"question": "Эта компания нанимает сотрудников каждый год.",
+			"answer": "This company hires employees every year.",
+			"explanation": "Present Simple для регулярной корпоративной практики."
+		},
+		{
+			"question": "Он не курит и не пьёт.",
+			"answer": "He doesn't smoke or drink.",
+			"explanation": "Отрицание с doesn't для двух действий сразу."
+		},
+		{
+			"question": "Я верю в тебя.",
+			"answer": "I believe in you.",
+			"explanation": "Present Simple с глаголом состояния believe."
+		},
+		{
+			"question": "Она занимается танцами.",
+			"answer": "She does dancing.",
+			"explanation": "Present Simple для хобби и постоянных занятий."
+		},
+		{
+			"question": "Они никогда не жалуются.",
+			"answer": "They never complain.",
+			"explanation": "Present Simple с наречием never."
+		},
+		{
+			"question": "Этот инструмент измеряет температуру.",
+			"answer": "This instrument measures temperature.",
+			"explanation": "Present Simple для постоянной функции."
+		},
+		{
+			"question": "Он ест только органическую еду.",
+			"answer": "He only eats organic food.",
+			"explanation": "Present Simple с ограничительным наречием only."
+		},
+		{
+			"question": "Мы разговариваем по телефону раз в неделю.",
+			"answer": "We talk on the phone once a week.",
+			"explanation": "Present Simple для регулярного общения."
+		},
+		{
+			"question": "Она любит читать перед сном.",
+			"answer": "She likes reading before bed.",
+			"explanation": "Present Simple с глаголом состояния like."
+		},
+		{
+			"question": "Я не верю в совпадения.",
+			"answer": "I don't believe in coincidences.",
+			"explanation": "Отрицание с don't и глаголом состояния believe."
+		},
+		{
+			"question": "Ты хочешь попробовать?",
+			"answer": "Do you want to try?",
+			"explanation": "Вопрос в Present Simple с глаголом состояния want."
+		},
+		{
+			"question": "Он ненавидит понедельники.",
+			"answer": "He hates Mondays.",
+			"explanation": "Present Simple с глаголом состояния hate."
+		},
+		{
+			"question": "Они переезжают каждые два года.",
+			"answer": "They move every two years.",
+			"explanation": "Present Simple для регулярных событий."
+		},
+		{
+			"question": "Она занимается фотографией.",
+			"answer": "She does photography.",
+			"explanation": "Present Simple для хобби."
+		},
+		{
+			"question": "Нил — самая длинная река в мире.",
+			"answer": "The Nile is the longest river in the world.",
+			"explanation": "Present Simple для постоянных географических фактов."
+		},
+		{
+			"question": "Он читает газету каждое утро.",
+			"answer": "He reads the newspaper every morning.",
+			"explanation": "Present Simple для ежеутренних привычек."
+		},
+		{
+			"question": "Мы смотрим матчи вместе.",
+			"answer": "We watch matches together.",
+			"explanation": "Present Simple для совместных привычек."
+		},
+		{
+			"question": "Она посещает родителей каждую неделю.",
+			"answer": "She visits her parents every week.",
+			"explanation": "Present Simple для регулярных посещений."
+		},
+		{
+			"question": "Я уважаю его мнение.",
+			"answer": "I respect his opinion.",
+			"explanation": "Present Simple с глаголом состояния respect."
+		},
+		{
+			"question": "Этот препарат снижает давление.",
+			"answer": "This medicine lowers blood pressure.",
+			"explanation": "Present Simple для постоянных свойств."
+		},
+		{
+			"question": "Он не согласен со мной.",
+			"answer": "He doesn't agree with me.",
+			"explanation": "Отрицание с doesn't и глаголом состояния agree."
+		},
+		{
+			"question": "Ты доверяешь ему?",
+			"answer": "Do you trust him?",
+			"explanation": "Вопрос в Present Simple с глаголом состояния trust."
+		},
+		{
+			"question": "Она пишет в блог каждую неделю.",
+			"answer": "She writes a blog every week.",
+			"explanation": "Present Simple для регулярных действий."
+		},
+		{
+			"question": "Они ходят в церковь по воскресеньям.",
+			"answer": "They go to church on Sundays.",
+			"explanation": "Present Simple для еженедельных традиций."
+		},
+		{
+			"question": "Я слышу странный звук.",
+			"answer": "I hear a strange sound.",
+			"explanation": "Present Simple с глаголом восприятия hear."
+		},
+		{
+			"question": "Он не любит спорить.",
+			"answer": "He doesn't like arguing.",
+			"explanation": "Отрицание с doesn't и глаголом состояния like."
+		},
+		{
+			"question": "Мы ужинаем в ресторане раз в месяц.",
+			"answer": "We dine at a restaurant once a month.",
+			"explanation": "Present Simple для регулярных событий с указанием частоты."
+		},
+		{
+			"question": "Этот самолёт летит из Москвы в Лондон.",
+			"answer": "This plane flies from Moscow to London.",
+			"explanation": "Present Simple для регулярных маршрутов."
+		},
+		{
+			"question": "Она хочет стать врачом.",
+			"answer": "She wants to become a doctor.",
+			"explanation": "Present Simple с глаголом состояния want."
+		},
+		{
+			"question": "Он доверяет своим друзьям.",
+			"answer": "He trusts his friends.",
+			"explanation": "Present Simple с глаголом состояния trust."
+		},
+		{
+			"question": "Я иногда хожу в кино.",
+			"answer": "I sometimes go to the cinema.",
+			"explanation": "Present Simple с наречием sometimes."
+		},
+		{
+			"question": "Мы отдыхаем в горах каждое лето.",
+			"answer": "We rest in the mountains every summer.",
+			"explanation": "Present Simple для ежегодных традиций."
+		},
+		{
+			"question": "Она не любит шум.",
+			"answer": "She doesn't like noise.",
+			"explanation": "Отрицание с doesn't и глаголом состояния like."
+		},
+		{
+			"question": "Ты чувствуешь себя лучше?",
+			"answer": "Do you feel better?",
+			"explanation": "Вопрос в Present Simple с глаголом состояния feel."
+		},
+		{
+			"question": "Этот экзамен проходит дважды в год.",
+			"answer": "This exam takes place twice a year.",
+			"explanation": "Present Simple для регулярных событий."
+		},
+		{
+			"question": "Он никогда не лжёт.",
+			"answer": "He never lies.",
+			"explanation": "Present Simple с наречием never для характеристики человека."
+		},
+		{
+			"question": "Они изучают право в университете.",
+			"answer": "They study law at university.",
+			"explanation": "Present Simple для постоянного занятия."
+		},
+		{
+			"question": "Я обожаю кататься на лыжах.",
+			"answer": "I love skiing.",
+			"explanation": "Present Simple с глаголом состояния love."
+		},
+		{
+			"question": "Она ест сыр каждый день.",
+			"answer": "She eats cheese every day.",
+			"explanation": "Present Simple для ежедневных привычек в питании."
+		},
+		{
+			"question": "Он не хочет ничего менять.",
+			"answer": "He doesn't want to change anything.",
+			"explanation": "Отрицание с doesn't и глаголом состояния want."
+		},
+		{
+			"question": "Мы снимаем квартиру.",
+			"answer": "We rent a flat.",
+			"explanation": "Present Simple для постоянного факта о жилье."
+		},
+		{
+			"question": "Эта компания продаёт электронику.",
+			"answer": "This company sells electronics.",
+			"explanation": "Present Simple для постоянной деятельности компании."
+		},
+		{
+			"question": "Ты слышишь меня?",
+			"answer": "Do you hear me?",
+			"explanation": "Вопрос в Present Simple с глаголом восприятия hear."
+		},
+		{
+			"question": "Они занимаются благотворительностью.",
+			"answer": "They do charity work.",
+			"explanation": "Present Simple для постоянной деятельности."
+		},
+		{
+			"question": "Солнце даёт нам тепло и свет.",
+			"answer": "The Sun gives us heat and light.",
+			"explanation": "Present Simple для постоянных фактов о природе."
+		},
+		{
+			"question": "Он не умеет плавать.",
+			"answer": "He can't swim.",
+			"explanation": "Отрицание модального глагола can в Present Simple."
+		},
+		{
+			"question": "Я люблю свою работу.",
+			"answer": "I love my job.",
+			"explanation": "Present Simple с глаголом состояния love."
+		},
+		{
+			"question": "Она бегает по парку каждое утро.",
+			"answer": "She runs through the park every morning.",
+			"explanation": "Present Simple для ежеутренних привычек."
+		},
+		{
+			"question": "Мы не согласны с тобой.",
+			"answer": "We don't agree with you.",
+			"explanation": "Отрицание в Present Simple с don't."
+		},
+		{
+			"question": "Этот завод выпускает тысячи деталей в день.",
+			"answer": "This factory produces thousands of parts a day.",
+			"explanation": "Present Simple для постоянного производственного процесса."
+		},
+		{
+			"question": "Он знает все правила.",
+			"answer": "He knows all the rules.",
+			"explanation": "Present Simple с глаголом состояния know."
+		},
+		{
+			"question": "Ты любишь животных?",
+			"answer": "Do you like animals?",
+			"explanation": "Вопрос в Present Simple с глаголом состояния like."
+		},
+		{
+			"question": "Они проводят выходные на даче.",
+			"answer": "They spend weekends at their country house.",
+			"explanation": "Present Simple для регулярных выходных привычек."
+		},
+		{
+			"question": "Она изучает биологию в школе.",
+			"answer": "She studies biology at school.",
+			"explanation": "Present Simple для постоянного учебного занятия."
 		}
 	]
 }

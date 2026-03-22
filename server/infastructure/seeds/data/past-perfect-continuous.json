@@ -15,6 +15,756 @@
 			"question": "Они ждали час, когда наконец пришёл автобус.",
 			"answer": "They had been waiting for an hour when the bus finally came.",
 			"explanation": "Past Perfect Continuous используется чтобы показать как долго длилось действие до другого прошлого события."
+		},
+		{
+			"question": "Он бежал тридцать минут до того, как почувствовал боль в колене.",
+			"answer": "He had been running for thirty minutes before he felt pain in his knee.",
+			"explanation": "Past Perfect Continuous с for + время: бег продолжался на протяжении тридцати минут до появления боли."
+		},
+		{
+			"question": "Мы искали его два часа, прежде чем нашли.",
+			"answer": "We had been looking for him for two hours before we found him.",
+			"explanation": "Past Perfect Continuous с for two hours: поиск продолжался до нахождения."
+		},
+		{
+			"question": "Она плакала — это было видно по красным глазам.",
+			"answer": "She had been crying — her eyes were red.",
+			"explanation": "Past Perfect Continuous объясняет видимый результат в прошлом: красные глаза — следствие плача."
+		},
+		{
+			"question": "Он тренировался несколько месяцев до соревнований.",
+			"answer": "He had been training for several months before the competition.",
+			"explanation": "Past Perfect Continuous с for several months: тренировки продолжались несколько месяцев."
+		},
+		{
+			"question": "Они жили в этом городе десять лет, когда решили переехать.",
+			"answer": "They had been living in that city for ten years when they decided to move.",
+			"explanation": "Past Perfect Continuous с for ten years: проживание длилось десять лет до решения переехать."
+		},
+		{
+			"question": "Она работала над проектом три недели, прежде чем его одобрили.",
+			"answer": "She had been working on the project for three weeks before it was approved.",
+			"explanation": "Past Perfect Continuous с for three weeks: работа продолжалась три недели до одобрения."
+		},
+		{
+			"question": "Он выглядел уставшим — не спал всю ночь.",
+			"answer": "He looked tired — he had been awake all night.",
+			"explanation": "Past Perfect Continuous объясняет видимое состояние в прошлом: усталость — результат бодрствования."
+		},
+		{
+			"question": "Мы обсуждали этот вопрос несколько часов, прежде чем пришли к соглашению.",
+			"answer": "We had been discussing the issue for several hours before we reached an agreement.",
+			"explanation": "Past Perfect Continuous с for several hours: обсуждение продолжалось до достижения соглашения."
+		},
+		{
+			"question": "Она учила испанский с детства, когда наконец попала в Испанию.",
+			"answer": "She had been learning Spanish since childhood when she finally went to Spain.",
+			"explanation": "Past Perfect Continuous с since: изучение языка началось в детстве и продолжалось до поездки."
+		},
+		{
+			"question": "Он шёл пешком всё утро и очень устал.",
+			"answer": "He had been walking all morning and was very tired.",
+			"explanation": "Past Perfect Continuous объясняет причину усталости в прошлом: длительная ходьба."
+		},
+		{
+			"question": "Они репетировали пьесу три месяца до премьеры.",
+			"answer": "They had been rehearsing the play for three months before the premiere.",
+			"explanation": "Past Perfect Continuous с for three months: репетиции длились три месяца до премьеры."
+		},
+		{
+			"question": "Она ждала результатов с прошлой недели, когда наконец получила письмо.",
+			"answer": "She had been waiting for the results since last week when she finally received the letter.",
+			"explanation": "Past Perfect Continuous с since last week: ожидание началось на прошлой неделе и продолжалось до получения письма."
+		},
+		{
+			"question": "Мальчик играл весь день и сильно проголодался.",
+			"answer": "The boy had been playing all day and was very hungry.",
+			"explanation": "Past Perfect Continuous объясняет состояние (голод) через предшествующее длительное действие."
+		},
+		{
+			"question": "Он разрабатывал приложение полгода, прежде чем запустил его.",
+			"answer": "He had been developing the app for half a year before he launched it.",
+			"explanation": "Past Perfect Continuous с for half a year: разработка длилась полгода до запуска."
+		},
+		{
+			"question": "Они спорили весь вечер, когда наконец успокоились.",
+			"answer": "They had been arguing all evening when they finally calmed down.",
+			"explanation": "Past Perfect Continuous с all evening: спор продолжался весь вечер до успокоения."
+		},
+		{
+			"question": "Она читала книгу с утра до вечера, когда дочитала последнюю страницу.",
+			"answer": "She had been reading the book from morning till evening when she finished the last page.",
+			"explanation": "Past Perfect Continuous: чтение продолжалось с утра до вечера."
+		},
+		{
+			"question": "Он курил двадцать лет до того, как бросил.",
+			"answer": "He had been smoking for twenty years before he quit.",
+			"explanation": "Past Perfect Continuous с for twenty years: привычка длилась двадцать лет до отказа."
+		},
+		{
+			"question": "Мы готовились к экзамену всю неделю, когда наконец настал день сдачи.",
+			"answer": "We had been preparing for the exam all week when the day of the test finally came.",
+			"explanation": "Past Perfect Continuous с all week: подготовка продолжалась всю неделю."
+		},
+		{
+			"question": "Она работала в той компании пять лет, прежде чем её повысили.",
+			"answer": "She had been working at that company for five years before she was promoted.",
+			"explanation": "Past Perfect Continuous с for five years: работа продолжалась пять лет до повышения."
+		},
+		{
+			"question": "Он грустил — явно что-то случилось.",
+			"answer": "He had been feeling sad — something had clearly happened.",
+			"explanation": "Past Perfect Continuous объясняет эмоциональное состояние через длительный процесс."
+		},
+		{
+			"question": "Они строили дом два года, когда закончили.",
+			"answer": "They had been building the house for two years when they finished.",
+			"explanation": "Past Perfect Continuous с for two years: строительство длилось два года до завершения."
+		},
+		{
+			"question": "Мы танцевали несколько часов, прежде чем почувствовали усталость.",
+			"answer": "We had been dancing for several hours before we felt tired.",
+			"explanation": "Past Perfect Continuous с for several hours: танцы продолжались несколько часов до усталости."
+		},
+		{
+			"question": "Она изучала медицину с 2005 года, когда получила диплом.",
+			"answer": "She had been studying medicine since 2005 when she got her degree.",
+			"explanation": "Past Perfect Continuous с since 2005: обучение началось в 2005 году и продолжалось до получения диплома."
+		},
+		{
+			"question": "Он играл на гитаре всё детство до того, как увлёкся спортом.",
+			"answer": "He had been playing the guitar throughout his childhood before he got into sport.",
+			"explanation": "Past Perfect Continuous с throughout childhood: игра на гитаре длилась всё детство."
+		},
+		{
+			"question": "Они жарко спорили всё утро — в итоге разошлись ни о чём не договорившись.",
+			"answer": "They had been arguing heatedly all morning and ended up reaching no agreement.",
+			"explanation": "Past Perfect Continuous с all morning: жаркий спор продолжался всё утро."
+		},
+		{
+			"question": "Рабочие копали траншею три дня до обнаружения трубы.",
+			"answer": "The workers had been digging the trench for three days before discovering the pipe.",
+			"explanation": "Past Perfect Continuous с for three days: рытьё продолжалось три дня до находки."
+		},
+		{
+			"question": "Она пела с детства, когда её заметил продюсер.",
+			"answer": "She had been singing since childhood when a producer noticed her.",
+			"explanation": "Past Perfect Continuous с since childhood: пение продолжалось с детства до замеченности продюсером."
+		},
+		{
+			"question": "Мы переписывались полгода до нашей первой встречи.",
+			"answer": "We had been corresponding for half a year before our first meeting.",
+			"explanation": "Past Perfect Continuous с for half a year: переписка продолжалась полгода до встречи."
+		},
+		{
+			"question": "Он нервничал — было видно, что долго ждал.",
+			"answer": "He looked nervous — he had been waiting for a long time.",
+			"explanation": "Past Perfect Continuous объясняет наблюдаемое состояние через предшествующее длительное действие."
+		},
+		{
+			"question": "Они обсуждали контракт несколько недель, прежде чем подписали.",
+			"answer": "They had been discussing the contract for several weeks before they signed it.",
+			"explanation": "Past Perfect Continuous с for several weeks: обсуждение предшествовало подписанию."
+		},
+		{
+			"question": "Она тренировалась каждый день несколько месяцев до чемпионата.",
+			"answer": "She had been training every day for several months before the championship.",
+			"explanation": "Past Perfect Continuous с for several months: ежедневные тренировки до чемпионата."
+		},
+		{
+			"question": "Он работал над романом три года, когда наконец завершил его.",
+			"answer": "He had been working on the novel for three years when he finally completed it.",
+			"explanation": "Past Perfect Continuous с for three years: работа над романом продолжалась три года."
+		},
+		{
+			"question": "Мы добирались до места четыре часа, прежде чем увидели указатель.",
+			"answer": "We had been driving for four hours before we saw the sign.",
+			"explanation": "Past Perfect Continuous с for four hours: поездка длилась четыре часа до увидения указателя."
+		},
+		{
+			"question": "Дети играли на улице весь день и очень устали.",
+			"answer": "The children had been playing outside all day and were very tired.",
+			"explanation": "Past Perfect Continuous объясняет усталость детей через длительное занятие."
+		},
+		{
+			"question": "Она откладывала деньги несколько лет, прежде чем купила машину.",
+			"answer": "She had been saving money for several years before she bought a car.",
+			"explanation": "Past Perfect Continuous с for several years: накопления продолжались несколько лет до покупки."
+		},
+		{
+			"question": "Он занимался боксом с юности, когда выиграл первый титул.",
+			"answer": "He had been doing boxing since his youth when he won his first title.",
+			"explanation": "Past Perfect Continuous с since his youth: занятия боксом продолжались с юности."
+		},
+		{
+			"question": "Они работали вместе несколько лет до того, как открыли собственный бизнес.",
+			"answer": "They had been working together for several years before they opened their own business.",
+			"explanation": "Past Perfect Continuous с for several years: совместная работа до открытия бизнеса."
+		},
+		{
+			"question": "Она не могла говорить — так долго кричала.",
+			"answer": "She couldn't speak — she had been shouting for too long.",
+			"explanation": "Past Perfect Continuous объясняет физическое состояние через предшествующее длительное действие."
+		},
+		{
+			"question": "Мы плыли несколько часов, когда заметили берег.",
+			"answer": "We had been sailing for several hours when we spotted the shore.",
+			"explanation": "Past Perfect Continuous с for several hours: плавание продолжалось до обнаружения берега."
+		},
+		{
+			"question": "Он изучал программирование самостоятельно два года до курсов.",
+			"answer": "He had been studying programming on his own for two years before the course.",
+			"explanation": "Past Perfect Continuous с for two years: самостоятельное обучение предшествует курсу."
+		},
+		{
+			"question": "Они не разговаривали несколько недель до примирения.",
+			"answer": "They had not been talking for several weeks before they made up.",
+			"explanation": "Past Perfect Continuous в отрицательной форме: молчание продолжалось несколько недель до примирения."
+		},
+		{
+			"question": "Она читала лекции в университете десять лет, когда ушла на пенсию.",
+			"answer": "She had been giving lectures at the university for ten years when she retired.",
+			"explanation": "Past Perfect Continuous с for ten years: преподавание длилось десять лет до выхода на пенсию."
+		},
+		{
+			"question": "Рука болела — он много писал весь день.",
+			"answer": "His hand ached — he had been writing a lot all day.",
+			"explanation": "Past Perfect Continuous объясняет физическую боль через длительное предшествующее действие."
+		},
+		{
+			"question": "Мы искали выход из леса уже несколько часов, когда услышали голоса.",
+			"answer": "We had been looking for a way out of the forest for several hours when we heard voices.",
+			"explanation": "Past Perfect Continuous с for several hours: поиск длился несколько часов до слышания голосов."
+		},
+		{
+			"question": "Он весь вечер готовил ужин, прежде чем позвал всех к столу.",
+			"answer": "He had been cooking dinner all evening before he called everyone to the table.",
+			"explanation": "Past Perfect Continuous с all evening: готовка продолжалась весь вечер."
+		},
+		{
+			"question": "Она посвящала время волонтёрству несколько лет до начала карьеры.",
+			"answer": "She had been volunteering for several years before starting her career.",
+			"explanation": "Past Perfect Continuous с for several years: волонтёрство предшествует началу карьеры."
+		},
+		{
+			"question": "Они переговаривались с поставщиками несколько месяцев до заключения договора.",
+			"answer": "They had been negotiating with suppliers for several months before signing the contract.",
+			"explanation": "Past Perfect Continuous с for several months: переговоры предшествовали подписанию."
+		},
+		{
+			"question": "Его одежда была мокрой — долго стоял под дождём.",
+			"answer": "His clothes were wet — he had been standing in the rain for a long time.",
+			"explanation": "Past Perfect Continuous объясняет видимый результат (мокрая одежда) через длительный процесс."
+		},
+		{
+			"question": "Мы разрабатывали стратегию несколько недель, когда наконец утвердили план.",
+			"answer": "We had been developing the strategy for several weeks when the plan was finally approved.",
+			"explanation": "Past Perfect Continuous с for several weeks: разработка продолжалась до утверждения плана."
+		},
+		{
+			"question": "Она преподавала в школе двадцать лет до смены профессии.",
+			"answer": "She had been teaching at school for twenty years before changing her profession.",
+			"explanation": "Past Perfect Continuous с for twenty years: преподавание длилось двадцать лет."
+		},
+		{
+			"question": "Он нервно расхаживал по комнате несколько часов до прихода врача.",
+			"answer": "He had been pacing the room nervously for several hours before the doctor arrived.",
+			"explanation": "Past Perfect Continuous с for several hours: хождение по комнате до прихода врача."
+		},
+		{
+			"question": "Они переписывались по электронной почте несколько месяцев до личной встречи.",
+			"answer": "They had been emailing each other for several months before meeting in person.",
+			"explanation": "Past Perfect Continuous с for several months: переписка до личной встречи."
+		},
+		{
+			"question": "Ребёнок кашлял всю ночь — поэтому мама не спала.",
+			"answer": "The child had been coughing all night, which is why the mother hadn't slept.",
+			"explanation": "Past Perfect Continuous объясняет причину другого прошлого состояния."
+		},
+		{
+			"question": "Она писала диссертацию три года, когда наконец защитилась.",
+			"answer": "She had been writing her dissertation for three years when she finally defended it.",
+			"explanation": "Past Perfect Continuous с for three years: написание диссертации до защиты."
+		},
+		{
+			"question": "Мы ехали несколько часов, прежде чем остановились отдохнуть.",
+			"answer": "We had been driving for several hours before we stopped to rest.",
+			"explanation": "Past Perfect Continuous с for several hours: поездка продолжалась до остановки."
+		},
+		{
+			"question": "Он плохо себя чувствовал — видимо, не высыпался.",
+			"answer": "He was feeling unwell — he had apparently not been sleeping enough.",
+			"explanation": "Past Perfect Continuous в отрицательной форме объясняет плохое самочувствие."
+		},
+		{
+			"question": "Они ждали посылку с прошлого месяца, когда курьер наконец позвонил.",
+			"answer": "They had been waiting for the parcel since last month when the courier finally called.",
+			"explanation": "Past Perfect Continuous с since last month: ожидание началось в прошлом месяце."
+		},
+		{
+			"question": "Она пела в хоре с пяти лет, когда дала первый сольный концерт.",
+			"answer": "She had been singing in the choir since the age of five when she gave her first solo concert.",
+			"explanation": "Past Perfect Continuous с since the age of five: пение в хоре с пяти лет до сольного концерта."
+		},
+		{
+			"question": "Мы собирали деньги на путешествие несколько месяцев, прежде чем улетели.",
+			"answer": "We had been saving up for the trip for several months before we flew out.",
+			"explanation": "Past Perfect Continuous с for several months: накопления до поездки."
+		},
+		{
+			"question": "Его глаза были красными — долго сидел за экраном.",
+			"answer": "His eyes were red — he had been staring at the screen for a long time.",
+			"explanation": "Past Perfect Continuous объясняет наблюдаемый результат через длительное предшествующее действие."
+		},
+		{
+			"question": "Они строили мост несколько лет до его торжественного открытия.",
+			"answer": "They had been building the bridge for several years before its grand opening.",
+			"explanation": "Past Perfect Continuous с for several years: строительство моста до открытия."
+		},
+		{
+			"question": "Она готовилась к собеседованию несколько дней, прежде чем пошла в офис.",
+			"answer": "She had been preparing for the interview for several days before going to the office.",
+			"explanation": "Past Perfect Continuous с for several days: подготовка до собеседования."
+		},
+		{
+			"question": "Он охотился на этот трофей несколько лет, когда наконец добился успеха.",
+			"answer": "He had been hunting for that trophy for several years when he finally succeeded.",
+			"explanation": "Past Perfect Continuous с for several years: стремление к трофею до успеха."
+		},
+		{
+			"question": "Они тренировались вместе с прошлой осени, когда выступили на чемпионате.",
+			"answer": "They had been training together since last autumn when they performed at the championship.",
+			"explanation": "Past Perfect Continuous с since last autumn: совместные тренировки до чемпионата."
+		},
+		{
+			"question": "Кухня была грязной — явно долго готовили.",
+			"answer": "The kitchen was messy — they had clearly been cooking for a long time.",
+			"explanation": "Past Perfect Continuous объясняет беспорядок на кухне через длительный процесс готовки."
+		},
+		{
+			"question": "Мы слушали лекции несколько часов до перерыва.",
+			"answer": "We had been listening to lectures for several hours before the break.",
+			"explanation": "Past Perfect Continuous с for several hours: лекции продолжались до перерыва."
+		},
+		{
+			"question": "Она ухаживала за больной матерью несколько лет до её выздоровления.",
+			"answer": "She had been looking after her sick mother for several years before she recovered.",
+			"explanation": "Past Perfect Continuous с for several years: уход за матерью до её выздоровления."
+		},
+		{
+			"question": "Он занимался исследованиями несколько лет, прежде чем опубликовал результаты.",
+			"answer": "He had been doing research for several years before publishing the results.",
+			"explanation": "Past Perfect Continuous с for several years: исследования до публикации."
+		},
+		{
+			"question": "Они ругались весь вечер, поэтому атмосфера была напряжённой.",
+			"answer": "They had been quarrelling all evening, so the atmosphere was tense.",
+			"explanation": "Past Perfect Continuous объясняет напряжённую атмосферу через предшествующую длительную ссору."
+		},
+		{
+			"question": "Она занималась йогой три года до травмы.",
+			"answer": "She had been doing yoga for three years before the injury.",
+			"explanation": "Past Perfect Continuous с for three years: занятия йогой продолжались до травмы."
+		},
+		{
+			"question": "Мы работали над презентацией всю ночь, когда руководитель её одобрил.",
+			"answer": "We had been working on the presentation all night when the manager approved it.",
+			"explanation": "Past Perfect Continuous с all night: работа над презентацией продолжалась всю ночь."
+		},
+		{
+			"question": "Его не было дома несколько часов — видимо, гулял.",
+			"answer": "He had not been home for several hours — he had apparently been out for a walk.",
+			"explanation": "Past Perfect Continuous объясняет отсутствие человека через длительный выход."
+		},
+		{
+			"question": "Они плыли на лодке несколько дней, прежде чем увидели сушу.",
+			"answer": "They had been sailing for several days before they saw land.",
+			"explanation": "Past Perfect Continuous с for several days: плавание продолжалось несколько дней."
+		},
+		{
+			"question": "Она искала работу несколько месяцев, когда наконец получила предложение.",
+			"answer": "She had been looking for a job for several months when she finally got an offer.",
+			"explanation": "Past Perfect Continuous с for several months: поиск работы до получения предложения."
+		},
+		{
+			"question": "Он звонил ей несколько раз, когда она наконец ответила.",
+			"answer": "He had been calling her for a while when she finally picked up.",
+			"explanation": "Past Perfect Continuous: звонки продолжались какое-то время до ответа."
+		},
+		{
+			"question": "Они жили раздельно несколько месяцев до официального развода.",
+			"answer": "They had been living separately for several months before the official divorce.",
+			"explanation": "Past Perfect Continuous с for several months: раздельное проживание до развода."
+		},
+		{
+			"question": "Она долго болела, поэтому похудела.",
+			"answer": "She had been ill for a long time, so she had lost weight.",
+			"explanation": "Past Perfect Continuous объясняет изменение в весе через продолжительную болезнь."
+		},
+		{
+			"question": "Мы ехали несколько часов без остановки, прежде чем свернули на заправку.",
+			"answer": "We had been driving for several hours without a stop before we turned into a petrol station.",
+			"explanation": "Past Perfect Continuous с for several hours: непрерывная езда до остановки."
+		},
+		{
+			"question": "Он работал в той фирме пятнадцать лет, когда её закрыли.",
+			"answer": "He had been working at that firm for fifteen years when it was closed down.",
+			"explanation": "Past Perfect Continuous с for fifteen years: работа продолжалась пятнадцать лет до закрытия фирмы."
+		},
+		{
+			"question": "Дым шёл из окна — значит, горело уже давно.",
+			"answer": "Smoke was coming from the window — it had been burning for a long time already.",
+			"explanation": "Past Perfect Continuous объясняет видимый признак (дым) через длительный процесс горения."
+		},
+		{
+			"question": "Они изучали данные несколько недель, прежде чем сделали выводы.",
+			"answer": "They had been analysing the data for several weeks before drawing conclusions.",
+			"explanation": "Past Perfect Continuous с for several weeks: анализ данных до выводов."
+		},
+		{
+			"question": "Она копила на отпуск с января, когда наконец купила билеты.",
+			"answer": "She had been saving for the holiday since January when she finally bought the tickets.",
+			"explanation": "Past Perfect Continuous с since January: накопления с января до покупки билетов."
+		},
+		{
+			"question": "Он не отвечал на звонки несколько дней, поэтому все беспокоились.",
+			"answer": "He had not been answering calls for several days, so everyone was worried.",
+			"explanation": "Past Perfect Continuous в отрицательной форме объясняет беспокойство."
+		},
+		{
+			"question": "Мы тренировались каждую неделю несколько месяцев до турнира.",
+			"answer": "We had been training every week for several months before the tournament.",
+			"explanation": "Past Perfect Continuous с for several months: регулярные тренировки до турнира."
+		},
+		{
+			"question": "Она работала в ночную смену несколько недель подряд, пока не уволилась.",
+			"answer": "She had been working night shifts for several weeks in a row before she quit.",
+			"explanation": "Past Perfect Continuous с for several weeks in a row: ночные смены до увольнения."
+		},
+		{
+			"question": "Глаза у него слезились — долго читал в темноте.",
+			"answer": "His eyes were watering — he had been reading in the dark for too long.",
+			"explanation": "Past Perfect Continuous объясняет физический симптом через длительное предшествующее действие."
+		},
+		{
+			"question": "Они договаривались о сотрудничестве несколько месяцев, прежде чем подписали соглашение.",
+			"answer": "They had been negotiating the partnership for several months before signing the agreement.",
+			"explanation": "Past Perfect Continuous с for several months: переговоры до соглашения."
+		},
+		{
+			"question": "Она вела блог три года, прежде чем начала зарабатывать на нём.",
+			"answer": "She had been running a blog for three years before she started making money from it.",
+			"explanation": "Past Perfect Continuous с for three years: ведение блога до монетизации."
+		},
+		{
+			"question": "Он долго молчал, прежде чем признал свою ошибку.",
+			"answer": "He had been silent for a long time before he admitted his mistake.",
+			"explanation": "Past Perfect Continuous с for a long time: молчание длилось до признания ошибки."
+		},
+		{
+			"question": "Они реставрировали здание несколько лет до его открытия для публики.",
+			"answer": "They had been restoring the building for several years before opening it to the public.",
+			"explanation": "Past Perfect Continuous с for several years: реставрация предшествовала открытию."
+		},
+		{
+			"question": "Она заметно похудела — долго соблюдала диету.",
+			"answer": "She had noticeably lost weight — she had been on a diet for a long time.",
+			"explanation": "Past Perfect Continuous объясняет похудение через длительное соблюдение диеты."
+		},
+		{
+			"question": "Мы рассматривали разные варианты несколько недель, прежде чем остановились на одном.",
+			"answer": "We had been considering different options for several weeks before settling on one.",
+			"explanation": "Past Perfect Continuous с for several weeks: рассмотрение вариантов до выбора."
+		},
+		{
+			"question": "Он занимался серфингом несколько лет до того, как выиграл соревнования.",
+			"answer": "He had been surfing for several years before he won the competition.",
+			"explanation": "Past Perfect Continuous с for several years: занятия серфингом до победы."
+		},
+		{
+			"question": "Они общались онлайн несколько месяцев до первой встречи.",
+			"answer": "They had been communicating online for several months before their first meeting.",
+			"explanation": "Past Perfect Continuous с for several months: онлайн-общение до встречи."
+		},
+		{
+			"question": "Дорога была мокрой — дождь шёл несколько часов.",
+			"answer": "The road was wet — it had been raining for several hours.",
+			"explanation": "Past Perfect Continuous объясняет состояние дороги через длительный дождь."
+		},
+		{
+			"question": "Мы переделывали проект несколько раз, прежде чем клиент остался доволен.",
+			"answer": "We had been reworking the project several times before the client was satisfied.",
+			"explanation": "Past Perfect Continuous: многократные переделки проекта до удовлетворения клиента."
+		},
+		{
+			"question": "Она тщательно готовилась к выступлению несколько недель до конкурса.",
+			"answer": "She had been carefully preparing for the performance for several weeks before the contest.",
+			"explanation": "Past Perfect Continuous с for several weeks: тщательная подготовка до конкурса."
+		},
+		{
+			"question": "Он работал сверхурочно несколько недель и совсем измотался.",
+			"answer": "He had been working overtime for several weeks and was completely worn out.",
+			"explanation": "Past Perfect Continuous объясняет изнеможение через длительную сверхурочную работу."
+		},
+		{
+			"question": "Они вели переговоры несколько часов, когда наконец достигли компромисса.",
+			"answer": "They had been negotiating for several hours when they finally reached a compromise.",
+			"explanation": "Past Perfect Continuous с for several hours: переговоры до компромисса."
+		},
+		{
+			"question": "Она писала письмо несколько часов, прежде чем нашла нужные слова.",
+			"answer": "She had been writing the letter for several hours before she found the right words.",
+			"explanation": "Past Perfect Continuous с for several hours: написание письма до нахождения слов."
+		},
+		{
+			"question": "Он весь день копал грядки и ужасно устал.",
+			"answer": "He had been digging the garden all day and was terribly tired.",
+			"explanation": "Past Perfect Continuous с all day: копание грядок объясняет усталость."
+		},
+		{
+			"question": "Они соревновались за контракт несколько недель, прежде чем узнали результат.",
+			"answer": "They had been competing for the contract for several weeks before finding out the result.",
+			"explanation": "Past Perfect Continuous с for several weeks: конкуренция за контракт до объявления результата."
+		},
+		{
+			"question": "Мне было тяжело дышать — слишком долго бежал.",
+			"answer": "I was struggling to breathe — I had been running for too long.",
+			"explanation": "Past Perfect Continuous объясняет затруднение дыхания через слишком долгий бег."
+		},
+		{
+			"question": "Они планировали свадьбу несколько месяцев, когда наконец выбрали дату.",
+			"answer": "They had been planning the wedding for several months when they finally chose a date.",
+			"explanation": "Past Perfect Continuous с for several months: планирование свадьбы до выбора даты."
+		},
+		{
+			"question": "Она изучала право с 2000 года, когда стала адвокатом.",
+			"answer": "She had been studying law since 2000 when she became a lawyer.",
+			"explanation": "Past Perfect Continuous с since 2000: изучение права с 2000 года до получения профессии."
+		},
+		{
+			"question": "Он долго добивался этой должности, прежде чем его назначили.",
+			"answer": "He had been working towards this position for a long time before he was appointed.",
+			"explanation": "Past Perfect Continuous с for a long time: стремление к должности до назначения."
+		},
+		{
+			"question": "Они не платили аренду несколько месяцев, поэтому их выселили.",
+			"answer": "They had not been paying rent for several months, so they were evicted.",
+			"explanation": "Past Perfect Continuous в отрицательной форме объясняет выселение."
+		},
+		{
+			"question": "Мы разрабатывали план несколько недель, когда нам показали конкурентов.",
+			"answer": "We had been developing the plan for several weeks when we were shown the competitors.",
+			"explanation": "Past Perfect Continuous с for several weeks: разработка плана до знакомства с конкурентами."
+		},
+		{
+			"question": "Она не спала несколько ночей и была совсем без сил.",
+			"answer": "She had not been sleeping for several nights and had no energy at all.",
+			"explanation": "Past Perfect Continuous в отрицательной форме объясняет отсутствие сил."
+		},
+		{
+			"question": "Он переводил текст несколько часов, прежде чем понял ошибку.",
+			"answer": "He had been translating the text for several hours before he noticed the mistake.",
+			"explanation": "Past Perfect Continuous с for several hours: перевод продолжался до обнаружения ошибки."
+		},
+		{
+			"question": "Они обновляли систему несколько часов, когда сервер наконец перезапустился.",
+			"answer": "They had been updating the system for several hours when the server finally restarted.",
+			"explanation": "Past Perfect Continuous с for several hours: обновление системы до перезапуска."
+		},
+		{
+			"question": "Она ухаживала за цветами с весны, когда они наконец расцвели.",
+			"answer": "She had been tending to the flowers since spring when they finally bloomed.",
+			"explanation": "Past Perfect Continuous с since spring: уход за цветами с весны до цветения."
+		},
+		{
+			"question": "Он продавал машины несколько лет, прежде чем стал менеджером.",
+			"answer": "He had been selling cars for several years before becoming a manager.",
+			"explanation": "Past Perfect Continuous с for several years: продажа машин до повышения."
+		},
+		{
+			"question": "Мы искали нужную улицу целый час, прежде чем спросили у прохожего.",
+			"answer": "We had been looking for the right street for an hour before asking a passerby.",
+			"explanation": "Past Perfect Continuous с for an hour: поиск улицы до обращения к прохожему."
+		},
+		{
+			"question": "Руки у него дрожали — долго держал тяжёлые сумки.",
+			"answer": "His hands were shaking — he had been carrying heavy bags for a long time.",
+			"explanation": "Past Perfect Continuous объясняет дрожь рук через длительную нагрузку."
+		},
+		{
+			"question": "Они проводили эксперименты несколько месяцев, прежде чем получили результат.",
+			"answer": "They had been conducting experiments for several months before getting a result.",
+			"explanation": "Past Perfect Continuous с for several months: эксперименты до получения результата."
+		},
+		{
+			"question": "Она вела дневник с детства, когда решила написать книгу.",
+			"answer": "She had been keeping a diary since childhood when she decided to write a book.",
+			"explanation": "Past Perfect Continuous с since childhood: ведение дневника с детства до решения написать книгу."
+		},
+		{
+			"question": "Он просматривал вакансии несколько недель, прежде чем откликнулся на эту.",
+			"answer": "He had been browsing job offers for several weeks before responding to this one.",
+			"explanation": "Past Perfect Continuous с for several weeks: просмотр вакансий до отклика."
+		},
+		{
+			"question": "Голос у неё сел — она пела несколько часов подряд.",
+			"answer": "Her voice had gone hoarse — she had been singing for several hours in a row.",
+			"explanation": "Past Perfect Continuous объясняет потерю голоса через длительное пение."
+		},
+		{
+			"question": "Мы обсуждали маршрут несколько дней, прежде чем окончательно выбрали его.",
+			"answer": "We had been discussing the route for several days before making the final choice.",
+			"explanation": "Past Perfect Continuous с for several days: обсуждение маршрута до выбора."
+		},
+		{
+			"question": "Он исправлял ошибки в коде несколько часов, когда программа наконец заработала.",
+			"answer": "He had been fixing bugs in the code for several hours when the programme finally worked.",
+			"explanation": "Past Perfect Continuous с for several hours: исправление ошибок до работы программы."
+		},
+		{
+			"question": "Они общались с клиентом несколько недель, когда подписали договор.",
+			"answer": "They had been communicating with the client for several weeks when they signed the contract.",
+			"explanation": "Past Perfect Continuous с for several weeks: общение с клиентом до подписания договора."
+		},
+		{
+			"question": "Она смотрела сериал несколько ночей подряд и не высыпалась.",
+			"answer": "She had been watching the series for several nights in a row and was not getting enough sleep.",
+			"explanation": "Past Perfect Continuous объясняет недосыпание через длительный просмотр."
+		},
+		{
+			"question": "Мы проверяли документы несколько часов до совещания.",
+			"answer": "We had been checking the documents for several hours before the meeting.",
+			"explanation": "Past Perfect Continuous с for several hours: проверка документов до совещания."
+		},
+		{
+			"question": "Он совершенствовал навык рисования несколько лет до выставки.",
+			"answer": "He had been improving his drawing skills for several years before the exhibition.",
+			"explanation": "Past Perfect Continuous с for several years: совершенствование навыка до выставки."
+		},
+		{
+			"question": "Дети шумели весь день, поэтому бабушка устала.",
+			"answer": "The children had been making noise all day, so their grandmother was tired.",
+			"explanation": "Past Perfect Continuous объясняет усталость бабушки через длительный шум детей."
+		},
+		{
+			"question": "Они обсуждали условия сделки несколько часов, когда достигли договорённости.",
+			"answer": "They had been discussing the deal terms for several hours when they reached an agreement.",
+			"explanation": "Past Perfect Continuous с for several hours: обсуждение условий до договорённости."
+		},
+		{
+			"question": "Она разучивала роль три недели, прежде чем вышла на сцену.",
+			"answer": "She had been learning her role for three weeks before she went on stage.",
+			"explanation": "Past Perfect Continuous с for three weeks: разучивание роли до выхода на сцену."
+		},
+		{
+			"question": "Он работал над речью несколько часов до выступления.",
+			"answer": "He had been working on his speech for several hours before the performance.",
+			"explanation": "Past Perfect Continuous с for several hours: работа над речью до выступления."
+		},
+		{
+			"question": "Они путешествовали по Европе два месяца, когда у них закончились деньги.",
+			"answer": "They had been travelling around Europe for two months when they ran out of money.",
+			"explanation": "Past Perfect Continuous с for two months: путешествие до момента окончания денег."
+		},
+		{
+			"question": "Она жила одна много лет, прежде чем переехала к родителям.",
+			"answer": "She had been living alone for many years before she moved back to her parents.",
+			"explanation": "Past Perfect Continuous с for many years: одиночное проживание до переезда."
+		},
+		{
+			"question": "Мы тренировали новых сотрудников несколько недель, когда пришли первые результаты.",
+			"answer": "We had been training new employees for several weeks when the first results came in.",
+			"explanation": "Past Perfect Continuous с for several weeks: обучение сотрудников до первых результатов."
+		},
+		{
+			"question": "Он долго смотрел в окно, прежде чем принял решение.",
+			"answer": "He had been staring out of the window for a long time before making a decision.",
+			"explanation": "Past Perfect Continuous с for a long time: созерцание до принятия решения."
+		},
+		{
+			"question": "Она не ела весь день, поэтому потеряла сознание.",
+			"answer": "She had not been eating all day, which is why she fainted.",
+			"explanation": "Past Perfect Continuous в отрицательной форме объясняет обморок."
+		},
+		{
+			"question": "Мы уточняли детали маршрута несколько дней, когда наконец отправились.",
+			"answer": "We had been clarifying the route details for several days when we finally set off.",
+			"explanation": "Past Perfect Continuous с for several days: уточнение деталей до отправки."
+		},
+		{
+			"question": "Он изучал рынок несколько месяцев, прежде чем открыл бизнес.",
+			"answer": "He had been studying the market for several months before opening a business.",
+			"explanation": "Past Perfect Continuous с for several months: изучение рынка до открытия бизнеса."
+		},
+		{
+			"question": "Они не общались несколько лет до той случайной встречи.",
+			"answer": "They had not been in touch for several years before that chance meeting.",
+			"explanation": "Past Perfect Continuous в отрицательной форме: отсутствие общения до случайной встречи."
+		},
+		{
+			"question": "Она печатала на машинке весь день — пальцы онемели.",
+			"answer": "She had been typing all day and her fingers had gone numb.",
+			"explanation": "Past Perfect Continuous объясняет онемение пальцев через длительную печать."
+		},
+		{
+			"question": "Мы искали арендаторов несколько месяцев, когда наконец нашли подходящих.",
+			"answer": "We had been looking for tenants for several months when we finally found suitable ones.",
+			"explanation": "Past Perfect Continuous с for several months: поиск арендаторов до нахождения."
+		},
+		{
+			"question": "Он занимался скалолазанием несколько лет до несчастного случая.",
+			"answer": "He had been rock climbing for several years before the accident.",
+			"explanation": "Past Perfect Continuous с for several years: занятие скалолазанием до несчастного случая."
+		},
+		{
+			"question": "Они договаривались об условиях несколько часов, прежде чем ударили по рукам.",
+			"answer": "They had been discussing the terms for several hours before shaking hands.",
+			"explanation": "Past Perfect Continuous с for several hours: переговоры до соглашения."
+		},
+		{
+			"question": "Она не отвечала на сообщения целый день, поэтому он беспокоился.",
+			"answer": "She had not been responding to messages all day, so he was worried.",
+			"explanation": "Past Perfect Continuous в отрицательной форме объясняет беспокойство."
+		},
+		{
+			"question": "Мы ждали его весь вечер, когда он наконец написал.",
+			"answer": "We had been waiting for him all evening when he finally sent a message.",
+			"explanation": "Past Perfect Continuous с all evening: ожидание продолжалось весь вечер до сообщения."
+		},
+		{
+			"question": "Он проверял отчёт несколько часов, прежде чем отправил его директору.",
+			"answer": "He had been checking the report for several hours before sending it to the director.",
+			"explanation": "Past Perfect Continuous с for several hours: проверка отчёта до отправки."
+		},
+		{
+			"question": "Они восстанавливали мозаику несколько лет, когда музей открылся снова.",
+			"answer": "They had been restoring the mosaic for several years when the museum reopened.",
+			"explanation": "Past Perfect Continuous с for several years: реставрация мозаики до открытия музея."
+		},
+		{
+			"question": "Она откладывала разговор с ним несколько дней, прежде чем решилась.",
+			"answer": "She had been putting off the conversation with him for several days before she gathered her courage.",
+			"explanation": "Past Perfect Continuous с for several days: откладывание разговора до момента решимости."
+		},
+		{
+			"question": "Его телефон был горячим — он несколько часов играл в игру.",
+			"answer": "His phone was hot — he had been playing a game for several hours.",
+			"explanation": "Past Perfect Continuous объясняет нагрев телефона через длительную игру."
+		},
+		{
+			"question": "Мы работали над предложением для клиента несколько дней, когда он отказался.",
+			"answer": "We had been working on the proposal for the client for several days when he declined.",
+			"explanation": "Past Perfect Continuous с for several days: работа над предложением до отказа."
+		},
+		{
+			"question": "Она практиковала речь несколько дней, прежде чем выступила публично.",
+			"answer": "She had been practising her speech for several days before speaking in public.",
+			"explanation": "Past Perfect Continuous с for several days: практика речи до публичного выступления."
+		},
+		{
+			"question": "Он целый день разбирался с настройками, прежде чем позвонил в поддержку.",
+			"answer": "He had been dealing with the settings all day before calling support.",
+			"explanation": "Past Perfect Continuous с all day: работа с настройками до звонка в поддержку."
 		}
 	]
 }

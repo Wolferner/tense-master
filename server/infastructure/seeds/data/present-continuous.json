@@ -4,17 +4,902 @@
 		{
 			"question": "Она сейчас читает книгу.",
 			"answer": "She is reading a book now.",
-			"explanation": "Present Continuous используется для действий, происходящих прямо сейчас. Маркер: сейчас / now."
+			"explanation": "Present Continuous для действия, происходящего прямо сейчас. Образуется: to be + глагол -ing."
 		},
 		{
 			"question": "Они строят новый дом.",
 			"answer": "They are building a new house.",
-			"explanation": "Present Continuous используется для временных действий, происходящих в данный период."
+			"explanation": "Present Continuous для действия, происходящего в данный момент."
 		},
 		{
 			"question": "Я жду автобуса.",
 			"answer": "I am waiting for the bus.",
-			"explanation": "Present Continuous используется для действий, происходящих в момент речи."
+			"explanation": "Present Continuous для действия, происходящего прямо сейчас. С I используется am."
+		},
+		{
+			"question": "Мы сейчас обедаем.",
+			"answer": "We are having lunch now.",
+			"explanation": "Present Continuous для действия в момент речи. С we используется are."
+		},
+		{
+			"question": "Он сейчас разговаривает по телефону.",
+			"answer": "He is talking on the phone now.",
+			"explanation": "Present Continuous для действия, происходящего в данный момент."
+		},
+		{
+			"question": "Дети играют в саду.",
+			"answer": "The children are playing in the garden.",
+			"explanation": "Present Continuous для действия, происходящего прямо сейчас."
+		},
+		{
+			"question": "Я сейчас пишу письмо.",
+			"answer": "I am writing a letter now.",
+			"explanation": "Present Continuous с am + writing. Удвоение t в write → writing."
+		},
+		{
+			"question": "Она учится к экзамену.",
+			"answer": "She is studying for the exam.",
+			"explanation": "Present Continuous для временного действия, продолжающегося сейчас."
+		},
+		{
+			"question": "Мы смотрим кино.",
+			"answer": "We are watching a film.",
+			"explanation": "Present Continuous для совместного действия в данный момент."
+		},
+		{
+			"question": "Он бежит домой.",
+			"answer": "He is running home.",
+			"explanation": "Present Continuous для действия в данный момент. Удвоение n в run → running."
+		},
+		{
+			"question": "Они сейчас спорят.",
+			"answer": "They are arguing now.",
+			"explanation": "Present Continuous для действия, происходящего в данный момент."
+		},
+		{
+			"question": "Я не работаю сейчас.",
+			"answer": "I am not working now.",
+			"explanation": "Отрицание в Present Continuous: am/is/are + not + глагол -ing."
+		},
+		{
+			"question": "Она не спит.",
+			"answer": "She is not sleeping.",
+			"explanation": "Отрицание в Present Continuous с is not."
+		},
+		{
+			"question": "Ты слушаешь меня?",
+			"answer": "Are you listening to me?",
+			"explanation": "Вопрос в Present Continuous: are/is/am ставится перед подлежащим."
+		},
+		{
+			"question": "Что он делает?",
+			"answer": "What is he doing?",
+			"explanation": "Вопрос в Present Continuous с вопросительным словом what."
+		},
+		{
+			"question": "Мы переезжаем на новую квартиру на этой неделе.",
+			"answer": "We are moving to a new flat this week.",
+			"explanation": "Present Continuous для запланированного ближайшего будущего."
+		},
+		{
+			"question": "Он уезжает завтра.",
+			"answer": "He is leaving tomorrow.",
+			"explanation": "Present Continuous для запланированного действия в будущем."
+		},
+		{
+			"question": "Она ищет новую работу.",
+			"answer": "She is looking for a new job.",
+			"explanation": "Present Continuous для временного действия, продолжающегося в этот период."
+		},
+		{
+			"question": "Они сейчас занимаются спортом.",
+			"answer": "They are doing sport now.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Я читаю интересную книгу на этой неделе.",
+			"answer": "I am reading an interesting book this week.",
+			"explanation": "Present Continuous для временного действия в данный период."
+		},
+		{
+			"question": "Она готовит обед.",
+			"answer": "She is cooking lunch.",
+			"explanation": "Present Continuous для действия, происходящего прямо сейчас."
+		},
+		{
+			"question": "Мы не едем на дачу в эти выходные.",
+			"answer": "We are not going to the country house this weekend.",
+			"explanation": "Отрицание в Present Continuous для ближайшего будущего."
+		},
+		{
+			"question": "Он пишет отчёт прямо сейчас.",
+			"answer": "He is writing a report right now.",
+			"explanation": "Present Continuous с right now — маркером настоящего момента."
+		},
+		{
+			"question": "Дети шумят.",
+			"answer": "The children are making a lot of noise.",
+			"explanation": "Present Continuous для действия, происходящего прямо сейчас."
+		},
+		{
+			"question": "Она становится лучше.",
+			"answer": "She is getting better.",
+			"explanation": "Present Continuous для постепенного изменения или развития ситуации."
+		},
+		{
+			"question": "Погода улучшается.",
+			"answer": "The weather is improving.",
+			"explanation": "Present Continuous для постепенного изменения."
+		},
+		{
+			"question": "Цены растут.",
+			"answer": "Prices are rising.",
+			"explanation": "Present Continuous для постепенного изменения в настоящем времени."
+		},
+		{
+			"question": "Он всё время теряет вещи!",
+			"answer": "He is always losing things!",
+			"explanation": "Present Continuous с always выражает раздражение по поводу повторяющегося действия."
+		},
+		{
+			"question": "Она всегда перебивает меня!",
+			"answer": "She is always interrupting me!",
+			"explanation": "Present Continuous с always для выражения недовольства привычкой."
+		},
+		{
+			"question": "Ты постоянно опаздываешь!",
+			"answer": "You are constantly arriving late!",
+			"explanation": "Present Continuous с constantly выражает раздражение."
+		},
+		{
+			"question": "Куда ты идёшь?",
+			"answer": "Where are you going?",
+			"explanation": "Вопрос в Present Continuous о действии в данный момент или ближайшем будущем."
+		},
+		{
+			"question": "Мы летим в Лондон в пятницу.",
+			"answer": "We are flying to London on Friday.",
+			"explanation": "Present Continuous для запланированного действия в будущем."
+		},
+		{
+			"question": "Она не идёт на вечеринку.",
+			"answer": "She is not going to the party.",
+			"explanation": "Отрицание в Present Continuous для будущего события."
+		},
+		{
+			"question": "Он сейчас принимает душ.",
+			"answer": "He is taking a shower now.",
+			"explanation": "Present Continuous для действия, происходящего прямо сейчас."
+		},
+		{
+			"question": "Я сейчас завтракаю.",
+			"answer": "I am having breakfast now.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Они сейчас сидят в кафе.",
+			"answer": "They are sitting in a café now.",
+			"explanation": "Present Continuous для действия в момент речи."
+		},
+		{
+			"question": "Он сейчас не занимается.",
+			"answer": "He is not studying now.",
+			"explanation": "Отрицание в Present Continuous с is not."
+		},
+		{
+			"question": "Что она пишет?",
+			"answer": "What is she writing?",
+			"explanation": "Вопрос в Present Continuous с вопросительным словом."
+		},
+		{
+			"question": "Мы ждём тебя.",
+			"answer": "We are waiting for you.",
+			"explanation": "Present Continuous для действия, происходящего прямо сейчас."
+		},
+		{
+			"question": "Он едет на встречу.",
+			"answer": "He is going to a meeting.",
+			"explanation": "Present Continuous для действия в данный момент или ближайшего будущего."
+		},
+		{
+			"question": "Она смеётся над чем-то.",
+			"answer": "She is laughing at something.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Я стараюсь изо всех сил.",
+			"answer": "I am trying my best.",
+			"explanation": "Present Continuous для временного усилия."
+		},
+		{
+			"question": "Они переговариваются.",
+			"answer": "They are having a conversation.",
+			"explanation": "Present Continuous для действия, происходящего прямо сейчас."
+		},
+		{
+			"question": "Снег идёт.",
+			"answer": "It is snowing.",
+			"explanation": "Present Continuous для погодного явления, происходящего прямо сейчас."
+		},
+		{
+			"question": "Дождь идёт.",
+			"answer": "It is raining.",
+			"explanation": "Present Continuous для погодного явления в данный момент."
+		},
+		{
+			"question": "Она думает об этом.",
+			"answer": "She is thinking about it.",
+			"explanation": "Present Continuous с think в значении активного размышления (не мнения)."
+		},
+		{
+			"question": "Мы работаем над новым проектом.",
+			"answer": "We are working on a new project.",
+			"explanation": "Present Continuous для временного действия в данный период."
+		},
+		{
+			"question": "Он не слушает меня.",
+			"answer": "He is not listening to me.",
+			"explanation": "Отрицание в Present Continuous с is not."
+		},
+		{
+			"question": "Ты разговариваешь со мной?",
+			"answer": "Are you talking to me?",
+			"explanation": "Вопрос в Present Continuous."
+		},
+		{
+			"question": "Она сейчас учит стихотворение.",
+			"answer": "She is learning a poem now.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Они строят дорогу.",
+			"answer": "They are building a road.",
+			"explanation": "Present Continuous для длительного действия, происходящего в данный период."
+		},
+		{
+			"question": "Я ищу свои ключи.",
+			"answer": "I am looking for my keys.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Он теряет терпение.",
+			"answer": "He is losing his patience.",
+			"explanation": "Present Continuous для постепенного изменения состояния."
+		},
+		{
+			"question": "Мы планируем отпуск.",
+			"answer": "We are planning a holiday.",
+			"explanation": "Present Continuous для временного действия в данный период."
+		},
+		{
+			"question": "Она учится водить машину.",
+			"answer": "She is learning to drive.",
+			"explanation": "Present Continuous для временного процесса обучения."
+		},
+		{
+			"question": "Он работает над диссертацией.",
+			"answer": "He is working on his dissertation.",
+			"explanation": "Present Continuous для длительного временного действия."
+		},
+		{
+			"question": "Ты приходишь к нам вечером?",
+			"answer": "Are you coming to us tonight?",
+			"explanation": "Present Continuous для запланированного события в ближайшем будущем."
+		},
+		{
+			"question": "Я не иду с ними.",
+			"answer": "I am not going with them.",
+			"explanation": "Отрицание в Present Continuous с am not."
+		},
+		{
+			"question": "Он всё громче говорит.",
+			"answer": "He is speaking louder and louder.",
+			"explanation": "Present Continuous для нарастающего изменения."
+		},
+		{
+			"question": "Она краснеет.",
+			"answer": "She is blushing.",
+			"explanation": "Present Continuous для действия, происходящего прямо сейчас."
+		},
+		{
+			"question": "Дети спят.",
+			"answer": "The children are sleeping.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Мы едим пиццу.",
+			"answer": "We are eating pizza.",
+			"explanation": "Present Continuous для действия в момент речи."
+		},
+		{
+			"question": "Он пьёт кофе.",
+			"answer": "He is drinking coffee.",
+			"explanation": "Present Continuous для действия прямо сейчас."
+		},
+		{
+			"question": "Она не смотрит фильм.",
+			"answer": "She is not watching the film.",
+			"explanation": "Отрицание в Present Continuous с is not."
+		},
+		{
+			"question": "Что они делают?",
+			"answer": "What are they doing?",
+			"explanation": "Вопрос в Present Continuous во множественном числе."
+		},
+		{
+			"question": "Солнце светит.",
+			"answer": "The sun is shining.",
+			"explanation": "Present Continuous для явления в данный момент."
+		},
+		{
+			"question": "Ветер дует.",
+			"answer": "The wind is blowing.",
+			"explanation": "Present Continuous для природного явления в данный момент."
+		},
+		{
+			"question": "Он постепенно поправляется после болезни.",
+			"answer": "He is gradually recovering from illness.",
+			"explanation": "Present Continuous для постепенного изменения."
+		},
+		{
+			"question": "Рынок растёт.",
+			"answer": "The market is growing.",
+			"explanation": "Present Continuous для постепенного изменения ситуации."
+		},
+		{
+			"question": "Она надевает пальто.",
+			"answer": "She is putting on her coat.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Мы не уходим.",
+			"answer": "We are not leaving.",
+			"explanation": "Отрицание в Present Continuous с are not."
+		},
+		{
+			"question": "Он звонит тебе.",
+			"answer": "He is calling you.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Ты улыбаешься.",
+			"answer": "You are smiling.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Она встречается с друзьями сегодня вечером.",
+			"answer": "She is meeting friends tonight.",
+			"explanation": "Present Continuous для запланированного будущего действия."
+		},
+		{
+			"question": "Я сейчас не могу говорить.",
+			"answer": "I am not able to talk right now.",
+			"explanation": "Present Continuous для временного состояния в данный момент."
+		},
+		{
+			"question": "Он всё лучше понимает английский.",
+			"answer": "He is understanding English better and better.",
+			"explanation": "Present Continuous для постепенного изменения."
+		},
+		{
+			"question": "Мы строим новую компанию.",
+			"answer": "We are building a new company.",
+			"explanation": "Present Continuous для длительного процесса в данный период."
+		},
+		{
+			"question": "Она плачет.",
+			"answer": "She is crying.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Дождь перестаёт.",
+			"answer": "The rain is stopping.",
+			"explanation": "Present Continuous для изменения ситуации в данный момент."
+		},
+		{
+			"question": "Он сейчас играет на пианино.",
+			"answer": "He is playing the piano now.",
+			"explanation": "Present Continuous для действия прямо сейчас."
+		},
+		{
+			"question": "Я сохраняю файл.",
+			"answer": "I am saving the file.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Они обсуждают план.",
+			"answer": "They are discussing the plan.",
+			"explanation": "Present Continuous для действия, происходящего прямо сейчас."
+		},
+		{
+			"question": "Ты не слушаешь меня!",
+			"answer": "You are not listening to me!",
+			"explanation": "Отрицание в Present Continuous с восклицанием."
+		},
+		{
+			"question": "Она рисует картину.",
+			"answer": "She is painting a picture.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Мы спорим о политике.",
+			"answer": "We are arguing about politics.",
+			"explanation": "Present Continuous для действия в момент речи."
+		},
+		{
+			"question": "Он читает газету.",
+			"answer": "He is reading the newspaper.",
+			"explanation": "Present Continuous для действия прямо сейчас."
+		},
+		{
+			"question": "Они отдыхают на пляже.",
+			"answer": "They are relaxing on the beach.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Я открываю окно.",
+			"answer": "I am opening the window.",
+			"explanation": "Present Continuous для действия прямо сейчас."
+		},
+		{
+			"question": "Кто сейчас говорит?",
+			"answer": "Who is speaking now?",
+			"explanation": "Вопрос в Present Continuous с who."
+		},
+		{
+			"question": "Температура поднимается.",
+			"answer": "The temperature is rising.",
+			"explanation": "Present Continuous для постепенного изменения."
+		},
+		{
+			"question": "Она учит слова.",
+			"answer": "She is learning vocabulary.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Мы едем в аэропорт.",
+			"answer": "We are going to the airport.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Он пишет SMS.",
+			"answer": "He is writing a text message.",
+			"explanation": "Present Continuous для действия прямо сейчас."
+		},
+		{
+			"question": "Ты уходишь?",
+			"answer": "Are you leaving?",
+			"explanation": "Вопрос в Present Continuous."
+		},
+		{
+			"question": "Она переводит текст.",
+			"answer": "She is translating the text.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Я устанавливаю программу.",
+			"answer": "I am installing a programme.",
+			"explanation": "Present Continuous для действия прямо сейчас."
+		},
+		{
+			"question": "Они спорят о цене.",
+			"answer": "They are arguing about the price.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Он не едет с нами.",
+			"answer": "He is not coming with us.",
+			"explanation": "Отрицание в Present Continuous с is not."
+		},
+		{
+			"question": "Ребёнок плачет.",
+			"answer": "The baby is crying.",
+			"explanation": "Present Continuous для действия прямо сейчас."
+		},
+		{
+			"question": "Мы ремонтируем машину.",
+			"answer": "We are repairing the car.",
+			"explanation": "Present Continuous для временного действия в данный период."
+		},
+		{
+			"question": "Она разговаривает с менеджером.",
+			"answer": "She is talking to the manager.",
+			"explanation": "Present Continuous для действия в момент речи."
+		},
+		{
+			"question": "Я иду на встречу.",
+			"answer": "I am going to a meeting.",
+			"explanation": "Present Continuous для действия в данный момент или ближайшего будущего."
+		},
+		{
+			"question": "Он помогает своей сестре.",
+			"answer": "He is helping his sister.",
+			"explanation": "Present Continuous для действия прямо сейчас."
+		},
+		{
+			"question": "Они не занимаются сейчас.",
+			"answer": "They are not studying now.",
+			"explanation": "Отрицание в Present Continuous с are not."
+		},
+		{
+			"question": "Что ты читаешь?",
+			"answer": "What are you reading?",
+			"explanation": "Вопрос в Present Continuous с вопросительным словом."
+		},
+		{
+			"question": "Она работает дома на этой неделе.",
+			"answer": "She is working from home this week.",
+			"explanation": "Present Continuous для временной ситуации."
+		},
+		{
+			"question": "Мы ждём новостей.",
+			"answer": "We are waiting for news.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Он готовится к отъезду.",
+			"answer": "He is preparing to leave.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Трава зеленеет.",
+			"answer": "The grass is turning green.",
+			"explanation": "Present Continuous для постепенного изменения в природе."
+		},
+		{
+			"question": "Они смотрят матч.",
+			"answer": "They are watching a match.",
+			"explanation": "Present Continuous для действия в момент речи."
+		},
+		{
+			"question": "Она пьёт чай.",
+			"answer": "She is drinking tea.",
+			"explanation": "Present Continuous для действия прямо сейчас."
+		},
+		{
+			"question": "Я не смотрю телевизор.",
+			"answer": "I am not watching television.",
+			"explanation": "Отрицание в Present Continuous с am not."
+		},
+		{
+			"question": "Кто звонит?",
+			"answer": "Who is calling?",
+			"explanation": "Вопрос в Present Continuous."
+		},
+		{
+			"question": "Он читает книгу в постели.",
+			"answer": "He is reading a book in bed.",
+			"explanation": "Present Continuous для действия прямо сейчас."
+		},
+		{
+			"question": "Она изучает испанский язык.",
+			"answer": "She is studying Spanish.",
+			"explanation": "Present Continuous для временного занятия в данный период."
+		},
+		{
+			"question": "Мы летим на юг.",
+			"answer": "We are flying south.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Они переезжают в другой город.",
+			"answer": "They are moving to another city.",
+			"explanation": "Present Continuous для запланированного ближайшего будущего."
+		},
+		{
+			"question": "Он не работает сегодня.",
+			"answer": "He is not working today.",
+			"explanation": "Отрицание в Present Continuous для временного исключения."
+		},
+		{
+			"question": "Ты ешь?",
+			"answer": "Are you eating?",
+			"explanation": "Вопрос в Present Continuous."
+		},
+		{
+			"question": "Она снимает фильм.",
+			"answer": "She is making a film.",
+			"explanation": "Present Continuous для длительного процесса в данный период."
+		},
+		{
+			"question": "Я слушаю музыку.",
+			"answer": "I am listening to music.",
+			"explanation": "Present Continuous для действия прямо сейчас."
+		},
+		{
+			"question": "Мы отмечаем день рождения.",
+			"answer": "We are celebrating a birthday.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Он улыбается.",
+			"answer": "He is smiling.",
+			"explanation": "Present Continuous для действия прямо сейчас."
+		},
+		{
+			"question": "Дети растут очень быстро.",
+			"answer": "The children are growing very fast.",
+			"explanation": "Present Continuous для постепенного изменения."
+		},
+		{
+			"question": "Она не улыбается.",
+			"answer": "She is not smiling.",
+			"explanation": "Отрицание в Present Continuous с is not."
+		},
+		{
+			"question": "Что происходит?",
+			"answer": "What is happening?",
+			"explanation": "Вопрос в Present Continuous о происходящем сейчас."
+		},
+		{
+			"question": "Он разгадывает кроссворд.",
+			"answer": "He is doing a crossword.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Мы готовимся к презентации.",
+			"answer": "We are preparing for the presentation.",
+			"explanation": "Present Continuous для действия в данный период."
+		},
+		{
+			"question": "Она ест завтрак.",
+			"answer": "She is having breakfast.",
+			"explanation": "Present Continuous для действия прямо сейчас."
+		},
+		{
+			"question": "Я стараюсь не думать об этом.",
+			"answer": "I am trying not to think about it.",
+			"explanation": "Present Continuous для временного усилия."
+		},
+		{
+			"question": "Он проходит собеседование.",
+			"answer": "He is having a job interview.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Они смеются.",
+			"answer": "They are laughing.",
+			"explanation": "Present Continuous для действия прямо сейчас."
+		},
+		{
+			"question": "Ты слишком много работаешь в последнее время!",
+			"answer": "You are working too much lately!",
+			"explanation": "Present Continuous для временного изменения поведения."
+		},
+		{
+			"question": "Она преподаёт онлайн в этом семестре.",
+			"answer": "She is teaching online this semester.",
+			"explanation": "Present Continuous для временного изменения ситуации."
+		},
+		{
+			"question": "Мы переходим на новый сайт.",
+			"answer": "We are switching to a new website.",
+			"explanation": "Present Continuous для изменения в данный период."
+		},
+		{
+			"question": "Он чинит велосипед.",
+			"answer": "He is fixing his bicycle.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Я жду твоего ответа.",
+			"answer": "I am waiting for your reply.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Они загружают данные.",
+			"answer": "They are uploading data.",
+			"explanation": "Present Continuous для действия прямо сейчас."
+		},
+		{
+			"question": "Кошка спит на диване.",
+			"answer": "The cat is sleeping on the sofa.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Он получает много сообщений.",
+			"answer": "He is receiving a lot of messages.",
+			"explanation": "Present Continuous для временной ситуации."
+		},
+		{
+			"question": "Она разбирает вещи.",
+			"answer": "She is sorting out her things.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Мы сейчас не принимаем заказы.",
+			"answer": "We are not taking orders now.",
+			"explanation": "Отрицание в Present Continuous для временного исключения."
+		},
+		{
+			"question": "Ты не слышишь меня?",
+			"answer": "Are you not hearing me?",
+			"explanation": "Вопрос-отрицание в Present Continuous."
+		},
+		{
+			"question": "Он делает домашнее задание.",
+			"answer": "He is doing his homework.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Она гуляет с собакой.",
+			"answer": "She is walking the dog.",
+			"explanation": "Present Continuous для действия прямо сейчас."
+		},
+		{
+			"question": "Они отмечают успех.",
+			"answer": "They are celebrating success.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Я чищу зубы.",
+			"answer": "I am brushing my teeth.",
+			"explanation": "Present Continuous для действия прямо сейчас."
+		},
+		{
+			"question": "Он моет посуду.",
+			"answer": "He is washing the dishes.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Мы выбираем подарок.",
+			"answer": "We are choosing a gift.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Она надевает туфли.",
+			"answer": "She is putting on her shoes.",
+			"explanation": "Present Continuous для действия прямо сейчас."
+		},
+		{
+			"question": "Температура падает.",
+			"answer": "The temperature is falling.",
+			"explanation": "Present Continuous для постепенного изменения."
+		},
+		{
+			"question": "Он не отвечает на звонки.",
+			"answer": "He is not answering calls.",
+			"explanation": "Отрицание в Present Continuous для временной ситуации."
+		},
+		{
+			"question": "Что ты ищешь?",
+			"answer": "What are you looking for?",
+			"explanation": "Вопрос в Present Continuous с вопросительным словом."
+		},
+		{
+			"question": "Она переписывает эссе.",
+			"answer": "She is rewriting her essay.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Мы переключаемся на другой подход.",
+			"answer": "We are switching to a different approach.",
+			"explanation": "Present Continuous для изменения в данный период."
+		},
+		{
+			"question": "Они занимаются уборкой.",
+			"answer": "They are doing the cleaning.",
+			"explanation": "Present Continuous для действия прямо сейчас."
+		},
+		{
+			"question": "Я качаю приложение.",
+			"answer": "I am downloading an app.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Он берёт такси.",
+			"answer": "He is taking a taxi.",
+			"explanation": "Present Continuous для действия прямо сейчас."
+		},
+		{
+			"question": "Она пишет диссертацию.",
+			"answer": "She is writing her thesis.",
+			"explanation": "Present Continuous для длительного процесса в данный период."
+		},
+		{
+			"question": "Погода портится.",
+			"answer": "The weather is getting worse.",
+			"explanation": "Present Continuous для постепенного ухудшения."
+		},
+		{
+			"question": "Мы обсуждаем условия договора.",
+			"answer": "We are discussing the contract terms.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Он пытается открыть дверь.",
+			"answer": "He is trying to open the door.",
+			"explanation": "Present Continuous для действия прямо сейчас."
+		},
+		{
+			"question": "Дерево растёт.",
+			"answer": "The tree is growing.",
+			"explanation": "Present Continuous для постепенного изменения."
+		},
+		{
+			"question": "Она подписывает документы.",
+			"answer": "She is signing the documents.",
+			"explanation": "Present Continuous для действия прямо сейчас."
+		},
+		{
+			"question": "Я несу тяжёлые сумки.",
+			"answer": "I am carrying heavy bags.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Они тренируются на стадионе.",
+			"answer": "They are training at the stadium.",
+			"explanation": "Present Continuous для действия прямо сейчас."
+		},
+		{
+			"question": "Он собирает информацию.",
+			"answer": "He is gathering information.",
+			"explanation": "Present Continuous для временного действия в данный период."
+		},
+		{
+			"question": "Ты прячешься?",
+			"answer": "Are you hiding?",
+			"explanation": "Вопрос в Present Continuous."
+		},
+		{
+			"question": "Мы меняем стратегию.",
+			"answer": "We are changing our strategy.",
+			"explanation": "Present Continuous для изменения в данный период."
+		},
+		{
+			"question": "Она красит волосы.",
+			"answer": "She is dyeing her hair.",
+			"explanation": "Present Continuous для действия прямо сейчас."
+		},
+		{
+			"question": "Они ищут выход.",
+			"answer": "They are looking for a way out.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Я отдыхаю.",
+			"answer": "I am resting.",
+			"explanation": "Present Continuous для действия прямо сейчас."
+		},
+		{
+			"question": "Он сохраняет спокойствие.",
+			"answer": "He is staying calm.",
+			"explanation": "Present Continuous для временного состояния."
+		},
+		{
+			"question": "Она готовит торт.",
+			"answer": "She is making a cake.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Мы убираем дом.",
+			"answer": "We are tidying the house.",
+			"explanation": "Present Continuous для действия прямо сейчас."
+		},
+		{
+			"question": "Они уезжают на следующей неделе.",
+			"answer": "They are leaving next week.",
+			"explanation": "Present Continuous для запланированного ближайшего будущего."
+		},
+		{
+			"question": "Я учу новые слова.",
+			"answer": "I am learning new words.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Он прощается с друзьями.",
+			"answer": "He is saying goodbye to his friends.",
+			"explanation": "Present Continuous для действия прямо сейчас."
+		},
+		{
+			"question": "Она составляет список дел.",
+			"answer": "She is making a to-do list.",
+			"explanation": "Present Continuous для действия в данный момент."
+		},
+		{
+			"question": "Мы пересматриваем бюджет.",
+			"answer": "We are reviewing the budget.",
+			"explanation": "Present Continuous для временного действия в данный период."
 		}
 	]
 }

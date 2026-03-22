@@ -3,18 +3,1333 @@
 	"exercises": [
 		{
 			"question": "Завтра в это время я буду лететь в Париж.",
-			"answer": "Tomorrow at this time I will be flying to Paris.",
-			"explanation": "Future Continuous используется для действия, которое будет происходить в конкретный момент в будущем."
+			"answer": "I will be flying to Paris at this time tomorrow.",
+			"explanation": "Future Continuous используется для действия, которое будет происходить в конкретный момент в будущем (завтра в это время)."
 		},
 		{
-			"question": "Они будут работать весь вечер.",
-			"answer": "They will be working all evening.",
-			"explanation": "Future Continuous используется для длительного действия в будущем. Маркер: all evening."
+			"question": "Когда ты придёшь домой, я буду готовить ужин.",
+			"answer": "When you come home, I will be cooking dinner.",
+			"explanation": "Future Continuous описывает действие, которое будет продолжаться в момент, когда произойдёт другое событие."
 		},
 		{
-			"question": "Когда ты придёшь, я буду готовить ужин.",
-			"answer": "When you come, I will be cooking dinner.",
-			"explanation": "Future Continuous используется для действия, которое будет в процессе в момент другого будущего события."
+			"question": "В пятницу в 8 вечера мы будем смотреть фильм.",
+			"answer": "We will be watching a movie at 8pm on Friday.",
+			"explanation": "Future Continuous используется для действия, которое будет в процессе в конкретное время в будущем."
+		},
+		{
+			"question": "Завтра весь день она будет работать над проектом.",
+			"answer": "She will be working on the project all day tomorrow.",
+			"explanation": "Маркер 'весь день' указывает на продолжительное действие в будущем — используется Future Continuous."
+		},
+		{
+			"question": "Ты будешь использовать машину сегодня вечером?",
+			"answer": "Will you be using the car this evening?",
+			"explanation": "Вежливый вопрос о планах с Future Continuous — более мягкая форма, чем Will you use."
+		},
+		{
+			"question": "Когда самолёт приземлится, они будут ждать нас в аэропорту.",
+			"answer": "When the plane lands, they will be waiting for us at the airport.",
+			"explanation": "Future Continuous описывает продолжающееся действие в момент завершения другого действия."
+		},
+		{
+			"question": "Завтра в 5 утра он уже будет бежать марафон.",
+			"answer": "He will be running the marathon at 5am tomorrow.",
+			"explanation": "Future Continuous для действия, которое будет в процессе в конкретный момент будущего."
+		},
+		{
+			"question": "К тому времени как ты вернёшься, мы будем праздновать её день рождения.",
+			"answer": "By the time you get back, we will be celebrating her birthday.",
+			"explanation": "Future Continuous показывает, что действие будет продолжаться в определённый будущий момент."
+		},
+		{
+			"question": "Сегодня вечером я буду заниматься в библиотеке.",
+			"answer": "I will be studying in the library this evening.",
+			"explanation": "Запланированное продолжительное действие в ближайшем будущем — используется Future Continuous."
+		},
+		{
+			"question": "Ты будешь присутствовать на встрече в понедельник?",
+			"answer": "Will you be attending the meeting on Monday?",
+			"explanation": "Вежливый вопрос о планах другого человека с использованием Future Continuous."
+		},
+		{
+			"question": "В следующую среду в полдень она будет выступать на конференции.",
+			"answer": "She will be giving a presentation at the conference next Wednesday at noon.",
+			"explanation": "Future Continuous для действия в процессе в конкретный момент будущего."
+		},
+		{
+			"question": "Когда ты позвонишь, мы будем обедать.",
+			"answer": "When you call, we will be having lunch.",
+			"explanation": "Future Continuous для действия, которое будет продолжаться в момент другого события."
+		},
+		{
+			"question": "Завтра утром он будет встречаться с клиентом.",
+			"answer": "He will be meeting with a client tomorrow morning.",
+			"explanation": "Запланированная встреча — продолжительное действие в будущем, выражается Future Continuous."
+		},
+		{
+			"question": "В субботу весь вечер они будут танцевать на свадьбе.",
+			"answer": "They will be dancing at the wedding all Saturday evening.",
+			"explanation": "Маркер 'весь вечер' + конкретное событие указывают на Future Continuous."
+		},
+		{
+			"question": "Я не смогу поговорить с тобой в три часа — я буду проводить интервью.",
+			"answer": "I won't be able to talk to you at three o'clock — I will be conducting an interview.",
+			"explanation": "Future Continuous указывает на действие, которое будет в процессе в конкретное время."
+		},
+		{
+			"question": "Завтра в это время мы будем плыть по Средиземному морю.",
+			"answer": "We will be sailing across the Mediterranean Sea at this time tomorrow.",
+			"explanation": "Future Continuous для действия в процессе в конкретный будущий момент."
+		},
+		{
+			"question": "Ты будешь использовать принтер после обеда?",
+			"answer": "Will you be using the printer after lunch?",
+			"explanation": "Вежливый вопрос о планах, Future Continuous звучит мягче, чем простой вопрос с Will."
+		},
+		{
+			"question": "Когда начнётся урок, дети уже будут рисовать.",
+			"answer": "When the lesson starts, the children will be drawing.",
+			"explanation": "Future Continuous описывает действие в процессе на момент другого будущего события."
+		},
+		{
+			"question": "В воскресенье в 10 утра я буду играть в теннис.",
+			"answer": "I will be playing tennis at 10am on Sunday.",
+			"explanation": "Конкретное время в будущем + продолжительное действие — классический случай Future Continuous."
+		},
+		{
+			"question": "Они весь следующий месяц будут строить новый офис.",
+			"answer": "They will be building a new office all next month.",
+			"explanation": "Продолжительное действие в течение периода в будущем — Future Continuous."
+		},
+		{
+			"question": "Когда гости приедут, она будет украшать торт.",
+			"answer": "When the guests arrive, she will be decorating the cake.",
+			"explanation": "Future Continuous для действия в процессе в момент прихода гостей."
+		},
+		{
+			"question": "Я буду думать о тебе, пока ты будешь в поездке.",
+			"answer": "I will be thinking about you while you are on your trip.",
+			"explanation": "Future Continuous выражает продолжающееся действие в течение периода в будущем."
+		},
+		{
+			"question": "Завтра в полдень он будет сдавать экзамен.",
+			"answer": "He will be taking an exam at noon tomorrow.",
+			"explanation": "Future Continuous для действия в процессе в конкретный момент будущего."
+		},
+		{
+			"question": "Ты будешь работать в офисе в пятницу?",
+			"answer": "Will you be working in the office on Friday?",
+			"explanation": "Вежливый вопрос о планах — Future Continuous используется для уточнения расписания другого человека."
+		},
+		{
+			"question": "Когда закончится концерт, они будут пить шампанское.",
+			"answer": "When the concert ends, they will be drinking champagne.",
+			"explanation": "Future Continuous описывает действие, которое будет происходить вокруг другого будущего события."
+		},
+		{
+			"question": "Завтра в это время самолёт будет пролетать над Альпами.",
+			"answer": "The plane will be flying over the Alps at this time tomorrow.",
+			"explanation": "Конкретный будущий момент + действие в процессе — Future Continuous."
+		},
+		{
+			"question": "Он будет тренироваться в спортзале с шести до восьми.",
+			"answer": "He will be training at the gym from six to eight.",
+			"explanation": "Действие, ожидаемое к продолжению в течение указанного периода в будущем."
+		},
+		{
+			"question": "Когда ты доберёшься до станции, я буду стоять у выхода.",
+			"answer": "When you get to the station, I will be standing by the exit.",
+			"explanation": "Future Continuous для описания ситуации, которая будет иметь место в момент прибытия."
+		},
+		{
+			"question": "В следующую пятницу вечером мы будем ужинать в ресторане.",
+			"answer": "We will be having dinner at the restaurant next Friday evening.",
+			"explanation": "Запланированное действие в конкретный будущий момент — Future Continuous."
+		},
+		{
+			"question": "Завтра весь день она будет путешествовать на поезде.",
+			"answer": "She will be travelling by train all day tomorrow.",
+			"explanation": "Маркер 'весь день' и конкретный день — Future Continuous."
+		},
+		{
+			"question": "Ты будешь ночевать у родителей на следующей неделе?",
+			"answer": "Will you be staying at your parents' place next week?",
+			"explanation": "Вежливый вопрос о планах — Future Continuous мягче, чем Are you going to stay."
+		},
+		{
+			"question": "В субботу в три часа дня мы будем смотреть финальный матч.",
+			"answer": "We will be watching the final match at 3pm on Saturday.",
+			"explanation": "Конкретный момент в будущем + длящееся действие — Future Continuous."
+		},
+		{
+			"question": "Когда ты проснёшься, я уже буду завтракать.",
+			"answer": "When you wake up, I will already be having breakfast.",
+			"explanation": "Future Continuous показывает, что действие будет продолжаться в момент пробуждения."
+		},
+		{
+			"question": "Они будут репетировать спектакль всё утро.",
+			"answer": "They will be rehearsing the play all morning.",
+			"explanation": "Продолжительное действие на весь утренний период — Future Continuous."
+		},
+		{
+			"question": "Завтра в 7 утра он будет ехать на велосипеде на работу.",
+			"answer": "He will be cycling to work at 7am tomorrow.",
+			"explanation": "Конкретный момент в будущем, действие в процессе — Future Continuous."
+		},
+		{
+			"question": "Ты будешь использовать ноутбук сегодня после полудня?",
+			"answer": "Will you be using the laptop this afternoon?",
+			"explanation": "Вежливый вопрос о планах, чтобы выяснить доступность предмета."
+		},
+		{
+			"question": "Когда начнётся собрание, все будут рассаживаться по местам.",
+			"answer": "When the meeting starts, everyone will be taking their seats.",
+			"explanation": "Future Continuous для действия, продолжающегося в момент другого события."
+		},
+		{
+			"question": "На следующей неделе в это время я буду загорать на пляже.",
+			"answer": "At this time next week, I will be sunbathing on the beach.",
+			"explanation": "Маркер 'на следующей неделе в это время' — классический триггер Future Continuous."
+		},
+		{
+			"question": "Она будет проводить урок с двух до трёх.",
+			"answer": "She will be teaching the class from two to three.",
+			"explanation": "Запланированное действие в конкретный временной промежуток в будущем."
+		},
+		{
+			"question": "Когда прибудет корабль, их команда будет разгружать товар.",
+			"answer": "When the ship arrives, their team will be unloading the cargo.",
+			"explanation": "Future Continuous для параллельного действия в момент другого события."
+		},
+		{
+			"question": "Завтра в шесть вечера они будут готовиться к вечеринке.",
+			"answer": "They will be getting ready for the party at six in the evening tomorrow.",
+			"explanation": "Конкретное время в будущем + действие в процессе — Future Continuous."
+		},
+		{
+			"question": "Ты будешь обедать дома в воскресенье?",
+			"answer": "Will you be having lunch at home on Sunday?",
+			"explanation": "Вежливый вопрос о планах с Future Continuous."
+		},
+		{
+			"question": "В четверг утром он будет проходить собеседование.",
+			"answer": "He will be having a job interview on Thursday morning.",
+			"explanation": "Запланированное действие в конкретный период будущего — Future Continuous."
+		},
+		{
+			"question": "Когда мы вернёмся из театра, дети будут спать.",
+			"answer": "When we get back from the theatre, the children will be sleeping.",
+			"explanation": "Future Continuous для действия, которое будет продолжаться в момент другого события."
+		},
+		{
+			"question": "Завтра в это время я буду регистрироваться на рейс.",
+			"answer": "I will be checking in for my flight at this time tomorrow.",
+			"explanation": "Конкретный будущий момент + действие в процессе — Future Continuous."
+		},
+		{
+			"question": "Следующим летом они будут строить дачу.",
+			"answer": "They will be building a country house next summer.",
+			"explanation": "Продолжительное действие в течение периода в будущем — Future Continuous."
+		},
+		{
+			"question": "Ты будешь использовать конференц-зал в среду утром?",
+			"answer": "Will you be using the conference room on Wednesday morning?",
+			"explanation": "Вежливый вопрос о планах или доступности помещения — Future Continuous."
+		},
+		{
+			"question": "Когда закончится рабочий день, она будет ехать домой.",
+			"answer": "When the workday ends, she will be driving home.",
+			"explanation": "Future Continuous описывает действие в процессе в определённый будущий момент."
+		},
+		{
+			"question": "В следующий понедельник в десять утра мы будем обсуждать новый контракт.",
+			"answer": "We will be discussing the new contract at ten on Monday.",
+			"explanation": "Конкретное время встречи в будущем — Future Continuous."
+		},
+		{
+			"question": "Он будет читать лекцию следующие два часа.",
+			"answer": "He will be giving a lecture for the next two hours.",
+			"explanation": "Продолжительное действие на протяжении периода в будущем — Future Continuous."
+		},
+		{
+			"question": "Когда ты позвонишь завтра, я буду вести урок.",
+			"answer": "When you call tomorrow, I will be teaching a class.",
+			"explanation": "Future Continuous для действия в процессе в момент звонка."
+		},
+		{
+			"question": "Завтра вечером они будут ужинать у бабушки.",
+			"answer": "They will be having dinner at their grandmother's tomorrow evening.",
+			"explanation": "Запланированное продолжительное действие в конкретный вечер — Future Continuous."
+		},
+		{
+			"question": "Ты будешь работать над отчётом в выходные?",
+			"answer": "Will you be working on the report over the weekend?",
+			"explanation": "Вежливый вопрос о планах на выходные — Future Continuous."
+		},
+		{
+			"question": "В субботу утром я буду убираться дома.",
+			"answer": "I will be cleaning the house on Saturday morning.",
+			"explanation": "Запланированное продолжительное действие в конкретный момент будущего."
+		},
+		{
+			"question": "Когда начнётся фейерверк, все будут смотреть в небо.",
+			"answer": "When the fireworks start, everyone will be looking at the sky.",
+			"explanation": "Future Continuous для действия, которое будет происходить в момент другого события."
+		},
+		{
+			"question": "Завтра в это время он будет пересекать границу.",
+			"answer": "He will be crossing the border at this time tomorrow.",
+			"explanation": "Конкретный будущий момент + действие в процессе — Future Continuous."
+		},
+		{
+			"question": "Они будут репетировать танцы всю следующую неделю.",
+			"answer": "They will be rehearsing the dances all next week.",
+			"explanation": "Продолжительное действие в течение всего будущего периода — Future Continuous."
+		},
+		{
+			"question": "Ты будешь присутствовать на защите диссертации?",
+			"answer": "Will you be attending the thesis defense?",
+			"explanation": "Вежливый вопрос о присутствии — Future Continuous."
+		},
+		{
+			"question": "Когда придёт почтальон, она будет разговаривать по телефону.",
+			"answer": "When the postman comes, she will be talking on the phone.",
+			"explanation": "Future Continuous для действия в процессе в момент другого будущего события."
+		},
+		{
+			"question": "Завтра с утра до вечера мы будем переезжать на новую квартиру.",
+			"answer": "We will be moving to the new apartment from morning till evening tomorrow.",
+			"explanation": "Длительное действие в течение всего дня в будущем — Future Continuous."
+		},
+		{
+			"question": "В пятницу в обед он будет летать на вертолёте над городом.",
+			"answer": "He will be flying over the city in a helicopter at noon on Friday.",
+			"explanation": "Конкретный момент в будущем + действие в процессе — Future Continuous."
+		},
+		{
+			"question": "Ты будешь ждать нас у входа в кино?",
+			"answer": "Will you be waiting for us at the cinema entrance?",
+			"explanation": "Вежливый вопрос-уточнение о намерении — Future Continuous."
+		},
+		{
+			"question": "Когда зайдёт солнце, туристы будут разбивать лагерь.",
+			"answer": "When the sun sets, the tourists will be setting up camp.",
+			"explanation": "Future Continuous для действия, продолжающегося в момент наступления другого события."
+		},
+		{
+			"question": "Завтра в это время она будет проходить медосмотр.",
+			"answer": "She will be having a medical check-up at this time tomorrow.",
+			"explanation": "Конкретный будущий момент + длящееся действие — Future Continuous."
+		},
+		{
+			"question": "Мы будем ехать в машине всё утро в воскресенье.",
+			"answer": "We will be driving all Sunday morning.",
+			"explanation": "Продолжительное действие на весь утренний период в будущем — Future Continuous."
+		},
+		{
+			"question": "Ты будешь использовать студию записи в среду?",
+			"answer": "Will you be using the recording studio on Wednesday?",
+			"explanation": "Вежливый вопрос о занятости помещения — Future Continuous."
+		},
+		{
+			"question": "Когда объявят победителя, все будут затаив дыхание смотреть на сцену.",
+			"answer": "When the winner is announced, everyone will be watching the stage with bated breath.",
+			"explanation": "Future Continuous для описания состояния в момент другого события."
+		},
+		{
+			"question": "В следующем месяце в это время мы будем отдыхать на Мальдивах.",
+			"answer": "At this time next month, we will be relaxing in the Maldives.",
+			"explanation": "Маркер 'в следующем месяце в это время' — типичный триггер Future Continuous."
+		},
+		{
+			"question": "Он будет управлять компанией, пока директор в отпуске.",
+			"answer": "He will be running the company while the director is on holiday.",
+			"explanation": "Future Continuous для действия, длящегося в течение определённого периода в будущем."
+		},
+		{
+			"question": "Когда начнётся гроза, дети уже будут играть дома.",
+			"answer": "When the storm starts, the children will already be playing indoors.",
+			"explanation": "Future Continuous показывает, что действие уже будет в процессе к моменту другого события."
+		},
+		{
+			"question": "Завтра в восемь вечера она будет принимать ванну.",
+			"answer": "She will be taking a bath at eight in the evening tomorrow.",
+			"explanation": "Конкретный будущий момент + действие в процессе — Future Continuous."
+		},
+		{
+			"question": "Ты будешь работать в ночную смену на этой неделе?",
+			"answer": "Will you be working the night shift this week?",
+			"explanation": "Вежливый вопрос о расписании работы — Future Continuous."
+		},
+		{
+			"question": "Когда ты прилетишь, я буду стоять в зале прилёта.",
+			"answer": "When you land, I will be standing in the arrivals hall.",
+			"explanation": "Future Continuous описывает ситуацию, которая будет иметь место в момент прилёта."
+		},
+		{
+			"question": "В следующую субботу весь день мы будем рыбачить.",
+			"answer": "We will be fishing all day next Saturday.",
+			"explanation": "Маркер 'весь день' + конкретный день — Future Continuous."
+		},
+		{
+			"question": "Завтра в три часа он будет проводить тренировку по футболу.",
+			"answer": "He will be running a football training session at three tomorrow.",
+			"explanation": "Конкретный момент в будущем + длящееся действие — Future Continuous."
+		},
+		{
+			"question": "Ты будешь использовать машину в воскресенье вечером?",
+			"answer": "Will you be using the car on Sunday evening?",
+			"explanation": "Вежливый вопрос о доступности транспорта — Future Continuous."
+		},
+		{
+			"question": "Когда включат отопление, все будут греться у батарей.",
+			"answer": "When the heating comes on, everyone will be warming themselves by the radiators.",
+			"explanation": "Future Continuous для действия в процессе в момент другого события."
+		},
+		{
+			"question": "Завтра в это время команда будет разбирать тактику матча.",
+			"answer": "The team will be analyzing the match tactics at this time tomorrow.",
+			"explanation": "Конкретный будущий момент + длящееся действие — Future Continuous."
+		},
+		{
+			"question": "Он будет учить испанский всё следующее лето.",
+			"answer": "He will be learning Spanish all next summer.",
+			"explanation": "Продолжительное действие в течение летнего периода в будущем — Future Continuous."
+		},
+		{
+			"question": "Когда ты придёшь на вечеринку, все уже будут веселиться.",
+			"answer": "When you come to the party, everyone will already be having fun.",
+			"explanation": "Future Continuous показывает, что действие будет в разгаре к моменту прихода."
+		},
+		{
+			"question": "В следующую среду в полдень я буду обедать с деловым партнёром.",
+			"answer": "I will be having lunch with a business partner at noon next Wednesday.",
+			"explanation": "Запланированная встреча в конкретный момент — Future Continuous."
+		},
+		{
+			"question": "Ты будешь использовать проектор на презентации?",
+			"answer": "Will you be using the projector during the presentation?",
+			"explanation": "Вежливый вопрос об использовании оборудования — Future Continuous."
+		},
+		{
+			"question": "Когда прозвенит звонок, ученики будут писать контрольную.",
+			"answer": "When the bell rings, the students will be writing a test.",
+			"explanation": "Future Continuous для действия в процессе в момент другого события."
+		},
+		{
+			"question": "Завтра весь вечер они будут обсуждать план проекта.",
+			"answer": "They will be discussing the project plan all evening tomorrow.",
+			"explanation": "Продолжительное действие в течение вечера — Future Continuous."
+		},
+		{
+			"question": "В следующий вторник в два часа дня я буду на собеседовании.",
+			"answer": "I will be having a job interview at two on Tuesday.",
+			"explanation": "Запланированное событие в конкретный момент — Future Continuous."
+		},
+		{
+			"question": "Он будет проходить курс переподготовки всю следующую неделю.",
+			"answer": "He will be taking a retraining course all next week.",
+			"explanation": "Продолжительное действие в течение всей следующей недели — Future Continuous."
+		},
+		{
+			"question": "Ты будешь ночевать в гостинице во время командировки?",
+			"answer": "Will you be staying at a hotel during the business trip?",
+			"explanation": "Вежливый вопрос о планах проживания — Future Continuous."
+		},
+		{
+			"question": "Когда закончится ужин, гости будут слушать живую музыку.",
+			"answer": "When dinner ends, the guests will be listening to live music.",
+			"explanation": "Future Continuous для действия в процессе после окончания другого события."
+		},
+		{
+			"question": "Завтра в это время я буду заполнять налоговую декларацию.",
+			"answer": "I will be filling in my tax return at this time tomorrow.",
+			"explanation": "Конкретный будущий момент + действие в процессе — Future Continuous."
+		},
+		{
+			"question": "Мы будем путешествовать по Европе всё лето.",
+			"answer": "We will be travelling around Europe all summer.",
+			"explanation": "Продолжительное действие в течение всего лета — Future Continuous."
+		},
+		{
+			"question": "Ты будешь участвовать в марафоне в следующее воскресенье?",
+			"answer": "Will you be taking part in the marathon next Sunday?",
+			"explanation": "Вежливый вопрос об участии в мероприятии — Future Continuous."
+		},
+		{
+			"question": "Когда ты доберёшься до офиса, я уже буду проводить совещание.",
+			"answer": "When you get to the office, I will already be holding the meeting.",
+			"explanation": "Future Continuous показывает, что действие будет в процессе к моменту прибытия."
+		},
+		{
+			"question": "Завтра вечером она будет петь в хоре на концерте.",
+			"answer": "She will be singing in the choir at the concert tomorrow evening.",
+			"explanation": "Запланированное действие в конкретный вечер — Future Continuous."
+		},
+		{
+			"question": "Он будет восстанавливаться после операции несколько недель.",
+			"answer": "He will be recovering from the surgery for several weeks.",
+			"explanation": "Продолжительное действие в течение нескольких недель в будущем — Future Continuous."
+		},
+		{
+			"question": "Ты будешь использовать офис в субботу?",
+			"answer": "Will you be using the office on Saturday?",
+			"explanation": "Вежливый вопрос о доступности помещения — Future Continuous."
+		},
+		{
+			"question": "Когда ты ложишься спать, я буду только начинать рабочий день.",
+			"answer": "When you go to bed, I will just be starting my working day.",
+			"explanation": "Future Continuous для описания контрастирующих временных зон в будущем."
+		},
+		{
+			"question": "В следующем году в это время они будут жить в Канаде.",
+			"answer": "At this time next year, they will be living in Canada.",
+			"explanation": "Маркер 'в следующем году в это время' — ситуация в процессе в конкретный будущий момент."
+		},
+		{
+			"question": "Завтра с утра я буду сортировать почту.",
+			"answer": "I will be sorting through the mail tomorrow morning.",
+			"explanation": "Запланированное действие в конкретный утренний период — Future Continuous."
+		},
+		{
+			"question": "Ты будешь встречаться с клиентом в пятницу после обеда?",
+			"answer": "Will you be meeting with the client on Friday afternoon?",
+			"explanation": "Вежливый вопрос о расписании другого человека — Future Continuous."
+		},
+		{
+			"question": "Когда объявят посадку, пассажиры будут выстраиваться в очередь.",
+			"answer": "When boarding is announced, passengers will be lining up.",
+			"explanation": "Future Continuous для параллельного действия в момент другого события."
+		},
+		{
+			"question": "Завтра в 9 утра он будет участвовать в онлайн-конференции.",
+			"answer": "He will be attending an online conference at 9am tomorrow.",
+			"explanation": "Конкретный момент в будущем + длящееся действие — Future Continuous."
+		},
+		{
+			"question": "Они будут праздновать годовщину весь следующий уик-энд.",
+			"answer": "They will be celebrating their anniversary all next weekend.",
+			"explanation": "Продолжительное действие на весь выходной период — Future Continuous."
+		},
+		{
+			"question": "Ты будешь работать над дипломной работой этим летом?",
+			"answer": "Will you be working on your thesis this summer?",
+			"explanation": "Вежливый вопрос о планах на лето — Future Continuous."
+		},
+		{
+			"question": "Когда придёт посылка, мы будем собираться на прогулку.",
+			"answer": "When the parcel arrives, we will be getting ready for a walk.",
+			"explanation": "Future Continuous для действия в процессе в момент другого будущего события."
+		},
+		{
+			"question": "Завтра в это время поезд будет проезжать мимо озера.",
+			"answer": "The train will be passing the lake at this time tomorrow.",
+			"explanation": "Конкретный будущий момент + действие в процессе — Future Continuous."
+		},
+		{
+			"question": "Она будет вести переговоры с партнёрами всё утро в четверг.",
+			"answer": "She will be negotiating with partners all Thursday morning.",
+			"explanation": "Продолжительное действие на весь утренний период — Future Continuous."
+		},
+		{
+			"question": "Ты будешь использовать велосипед в воскресенье утром?",
+			"answer": "Will you be using the bicycle on Sunday morning?",
+			"explanation": "Вежливый вопрос о доступности транспорта — Future Continuous."
+		},
+		{
+			"question": "Когда начнётся спектакль, актёры уже будут гримироваться.",
+			"answer": "When the show starts, the actors will already be putting on their makeup.",
+			"explanation": "Future Continuous показывает, что действие будет в процессе к моменту начала спектакля."
+		},
+		{
+			"question": "В следующую субботу в полдень я буду кататься на лыжах.",
+			"answer": "I will be skiing at noon next Saturday.",
+			"explanation": "Конкретный момент в будущем + действие в процессе — Future Continuous."
+		},
+		{
+			"question": "Он будет изучать китайский следующие полгода.",
+			"answer": "He will be studying Chinese for the next six months.",
+			"explanation": "Продолжительное действие в течение определённого периода в будущем — Future Continuous."
+		},
+		{
+			"question": "Ты будешь присутствовать на открытии выставки?",
+			"answer": "Will you be attending the opening of the exhibition?",
+			"explanation": "Вежливый вопрос о планах участия — Future Continuous."
+		},
+		{
+			"question": "Когда закончится тренировка, спортсмены будут растягиваться.",
+			"answer": "When the training session ends, the athletes will be stretching.",
+			"explanation": "Future Continuous для действия в процессе после окончания другого события."
+		},
+		{
+			"question": "Завтра в это время мы будем переговариваться с инвесторами.",
+			"answer": "We will be talking to investors at this time tomorrow.",
+			"explanation": "Конкретный будущий момент + длящееся действие — Future Continuous."
+		},
+		{
+			"question": "В следующем месяце они будут переезжать в новый дом.",
+			"answer": "They will be moving to a new house next month.",
+			"explanation": "Продолжительное событие в течение следующего месяца — Future Continuous."
+		},
+		{
+			"question": "Ты будешь использовать микрофон во время выступления?",
+			"answer": "Will you be using a microphone during your speech?",
+			"explanation": "Вежливый вопрос о технических планах — Future Continuous."
+		},
+		{
+			"question": "Когда ты доберёшься туда, она будет ждать тебя у кафе.",
+			"answer": "When you get there, she will be waiting for you outside the café.",
+			"explanation": "Future Continuous описывает ситуацию, которая будет иметь место в момент прибытия."
+		},
+		{
+			"question": "Завтра в шесть утра он будет плавать в бассейне.",
+			"answer": "He will be swimming in the pool at six in the morning tomorrow.",
+			"explanation": "Конкретное время в будущем + действие в процессе — Future Continuous."
+		},
+		{
+			"question": "Она будет вести блог всё путешествие.",
+			"answer": "She will be blogging throughout the trip.",
+			"explanation": "Продолжительное действие в течение всего периода путешествия — Future Continuous."
+		},
+		{
+			"question": "Ты будешь работать из дома на следующей неделе?",
+			"answer": "Will you be working from home next week?",
+			"explanation": "Вежливый вопрос о расписании работы — Future Continuous."
+		},
+		{
+			"question": "Когда рассветёт, птицы уже будут петь.",
+			"answer": "When dawn breaks, the birds will already be singing.",
+			"explanation": "Future Continuous показывает, что действие будет в процессе в момент рассвета."
+		},
+		{
+			"question": "В следующий четверг вечером мы будем пробовать новый ресторан.",
+			"answer": "We will be trying the new restaurant next Thursday evening.",
+			"explanation": "Запланированное действие в конкретный вечер — Future Continuous."
+		},
+		{
+			"question": "Он будет тренировать команду до конца сезона.",
+			"answer": "He will be coaching the team until the end of the season.",
+			"explanation": "Продолжительное действие до определённого момента в будущем — Future Continuous."
+		},
+		{
+			"question": "Ты будешь использовать кухню сегодня около полудня?",
+			"answer": "Will you be using the kitchen around noon today?",
+			"explanation": "Вежливый вопрос о доступности кухни — Future Continuous."
+		},
+		{
+			"question": "Когда ты войдёшь в класс, студенты будут обсуждать текст.",
+			"answer": "When you walk into the classroom, the students will be discussing the text.",
+			"explanation": "Future Continuous для действия в процессе в момент прихода учителя."
+		},
+		{
+			"question": "Завтра в это время мы будем осматривать достопримечательности Рима.",
+			"answer": "We will be sightseeing in Rome at this time tomorrow.",
+			"explanation": "Конкретный будущий момент + действие в процессе — Future Continuous."
+		},
+		{
+			"question": "Они будут ремонтировать дорогу весь следующий месяц.",
+			"answer": "They will be repairing the road all next month.",
+			"explanation": "Продолжительное действие в течение целого месяца — Future Continuous."
+		},
+		{
+			"question": "Ты будешь участвовать в конкурсе на следующей неделе?",
+			"answer": "Will you be taking part in the competition next week?",
+			"explanation": "Вежливый вопрос о планах участия — Future Continuous."
+		},
+		{
+			"question": "Когда закроется магазин, покупатели будут ещё ходить по рядам.",
+			"answer": "When the shop closes, customers will still be walking through the aisles.",
+			"explanation": "Future Continuous показывает, что действие будет в процессе в момент закрытия."
+		},
+		{
+			"question": "В следующем году в это время он будет жить в Токио.",
+			"answer": "At this time next year, he will be living in Tokyo.",
+			"explanation": "Маркер 'в следующем году в это время' — будущая ситуация в процессе."
+		},
+		{
+			"question": "Завтра утром я буду готовиться к экзамену.",
+			"answer": "I will be preparing for the exam tomorrow morning.",
+			"explanation": "Запланированное продолжительное действие в конкретный период — Future Continuous."
+		},
+		{
+			"question": "Ты будешь встречать гостей у дверей?",
+			"answer": "Will you be greeting the guests at the door?",
+			"explanation": "Вежливый вопрос о распределении обязанностей — Future Continuous."
+		},
+		{
+			"question": "Когда придут дети, мама будет печь пирог.",
+			"answer": "When the children come home, mum will be baking a pie.",
+			"explanation": "Future Continuous для действия в процессе в момент прихода детей."
+		},
+		{
+			"question": "В следующую пятницу в это время я буду сидеть в самолёте.",
+			"answer": "I will be sitting on a plane at this time next Friday.",
+			"explanation": "Конкретный будущий момент + действие в процессе — Future Continuous."
+		},
+		{
+			"question": "Они будут обсуждать условия договора всё утро.",
+			"answer": "They will be discussing the contract terms all morning.",
+			"explanation": "Продолжительное действие на весь утренний период — Future Continuous."
+		},
+		{
+			"question": "Ты будешь использовать смарт-доску на уроке?",
+			"answer": "Will you be using the smart board during the lesson?",
+			"explanation": "Вежливый вопрос об оборудовании — Future Continuous."
+		},
+		{
+			"question": "Когда ты вернёшься из магазина, мы будем накрывать на стол.",
+			"answer": "When you get back from the shop, we will be setting the table.",
+			"explanation": "Future Continuous для действия в процессе в момент возвращения."
+		},
+		{
+			"question": "Завтра в это время он будет сдавать итоговый тест.",
+			"answer": "He will be taking the final test at this time tomorrow.",
+			"explanation": "Конкретный будущий момент + действие в процессе — Future Continuous."
+		},
+		{
+			"question": "Мы будем разрабатывать новую стратегию на протяжении всего квартала.",
+			"answer": "We will be developing a new strategy throughout the whole quarter.",
+			"explanation": "Продолжительное действие в течение всего квартала — Future Continuous."
+		},
+		{
+			"question": "Ты будешь работать над приложением в эти выходные?",
+			"answer": "Will you be working on the app this weekend?",
+			"explanation": "Вежливый вопрос о планах на выходные — Future Continuous."
+		},
+		{
+			"question": "Когда встреча закончится, директор будет разговаривать с журналистами.",
+			"answer": "When the meeting finishes, the director will be talking to journalists.",
+			"explanation": "Future Continuous для действия, которое начнётся после окончания другого события."
+		},
+		{
+			"question": "Завтра весь день они будут монтировать видео для проекта.",
+			"answer": "They will be editing the video for the project all day tomorrow.",
+			"explanation": "Продолжительное действие на весь следующий день — Future Continuous."
+		},
+		{
+			"question": "В следующую субботу в это время я буду кататься на роликах в парке.",
+			"answer": "I will be rollerblading in the park at this time next Saturday.",
+			"explanation": "Конкретный будущий момент + действие в процессе — Future Continuous."
+		},
+		{
+			"question": "Он будет изучать материалы дела всю следующую неделю.",
+			"answer": "He will be studying the case materials all next week.",
+			"explanation": "Продолжительное действие в течение всей следующей недели — Future Continuous."
+		},
+		{
+			"question": "Ты будешь использовать наушники во время работы?",
+			"answer": "Will you be using headphones while working?",
+			"explanation": "Вежливый вопрос о привычке или намерении — Future Continuous."
+		},
+		{
+			"question": "Когда откроют двери, зрители будут занимать свои места.",
+			"answer": "When the doors open, the audience will be taking their seats.",
+			"explanation": "Future Continuous для действия в процессе в момент другого события."
+		},
+		{
+			"question": "Завтра в это время она будет проводить мастер-класс по рисованию.",
+			"answer": "She will be running a painting masterclass at this time tomorrow.",
+			"explanation": "Конкретный будущий момент + длящееся действие — Future Continuous."
+		},
+		{
+			"question": "Они будут путешествовать по Азии следующие три месяца.",
+			"answer": "They will be travelling across Asia for the next three months.",
+			"explanation": "Продолжительное действие в течение нескольких месяцев — Future Continuous."
+		},
+		{
+			"question": "Ты будешь выступать на конференции в следующем месяце?",
+			"answer": "Will you be speaking at the conference next month?",
+			"explanation": "Вежливый вопрос о запланированном выступлении — Future Continuous."
+		},
+		{
+			"question": "Когда выйдет новый закон, компании будут перестраивать свою работу.",
+			"answer": "When the new law comes into force, companies will be restructuring their operations.",
+			"explanation": "Future Continuous для действия, которое будет в процессе после введения закона."
+		},
+		{
+			"question": "Завтра в девять утра он будет сдавать водительский экзамен.",
+			"answer": "He will be taking his driving test at nine tomorrow morning.",
+			"explanation": "Конкретный момент в будущем + длящееся действие — Future Continuous."
+		},
+		{
+			"question": "Мы будем обустраивать новый офис всю следующую неделю.",
+			"answer": "We will be setting up the new office all next week.",
+			"explanation": "Продолжительное действие в течение всей недели — Future Continuous."
+		},
+		{
+			"question": "Ты будешь использовать спортзал в воскресенье утром?",
+			"answer": "Will you be using the gym on Sunday morning?",
+			"explanation": "Вежливый вопрос о доступности помещения — Future Continuous."
+		},
+		{
+			"question": "Когда они придут на экскурсию, гид будет рассказывать об истории замка.",
+			"answer": "When they arrive for the tour, the guide will be talking about the history of the castle.",
+			"explanation": "Future Continuous для действия в процессе в момент прибытия туристов."
+		},
+		{
+			"question": "Завтра в это время мы будем проходить таможню.",
+			"answer": "We will be going through customs at this time tomorrow.",
+			"explanation": "Конкретный будущий момент + действие в процессе — Future Continuous."
+		},
+		{
+			"question": "Он будет работать над романом всё следующее лето.",
+			"answer": "He will be working on the novel all next summer.",
+			"explanation": "Продолжительное действие в течение всего лета — Future Continuous."
+		},
+		{
+			"question": "Ты будешь жить в общежитии во время учёбы за рубежом?",
+			"answer": "Will you be living in a dormitory while studying abroad?",
+			"explanation": "Вежливый вопрос о планах проживания — Future Continuous."
+		},
+		{
+			"question": "Когда зайдёт луна, туристы будут собирать вещи в лагере.",
+			"answer": "When the moon sets, the tourists will be packing up the camp.",
+			"explanation": "Future Continuous для действия в процессе в момент природного явления."
+		},
+		{
+			"question": "В следующую среду вечером я буду посещать курсы йоги.",
+			"answer": "I will be attending yoga classes next Wednesday evening.",
+			"explanation": "Запланированное действие в конкретный вечер — Future Continuous."
+		},
+		{
+			"question": "Она будет работать над дизайном следующие несколько дней.",
+			"answer": "She will be working on the design for the next few days.",
+			"explanation": "Продолжительное действие в течение нескольких дней в будущем — Future Continuous."
+		},
+		{
+			"question": "Ты будешь использовать дрон для съёмки на свадьбе?",
+			"answer": "Will you be using a drone to film the wedding?",
+			"explanation": "Вежливый вопрос о планах съёмки — Future Continuous."
+		},
+		{
+			"question": "Когда прилетит самолёт, пассажиры будут ещё выходить.",
+			"answer": "When the plane arrives, the passengers will still be disembarking.",
+			"explanation": "Future Continuous показывает, что действие будет в процессе в момент прилёта."
+		},
+		{
+			"question": "Завтра в это время он будет проверять контрольные работы.",
+			"answer": "He will be marking test papers at this time tomorrow.",
+			"explanation": "Конкретный будущий момент + длящееся действие — Future Continuous."
+		},
+		{
+			"question": "Мы будем ждать результатов весь следующий день.",
+			"answer": "We will be waiting for the results all next day.",
+			"explanation": "Продолжительное действие в течение всего следующего дня — Future Continuous."
+		},
+		{
+			"question": "Ты будешь брать интервью у кандидатов завтра после обеда?",
+			"answer": "Will you be interviewing candidates tomorrow afternoon?",
+			"explanation": "Вежливый вопрос о расписании — Future Continuous."
+		},
+		{
+			"question": "Когда ты приедешь, мы будем обсуждать детали поездки.",
+			"answer": "When you arrive, we will be discussing the details of the trip.",
+			"explanation": "Future Continuous для действия в процессе в момент прибытия гостя."
+		},
+		{
+			"question": "Завтра в семь вечера она будет петь на сцене.",
+			"answer": "She will be singing on stage at seven tomorrow evening.",
+			"explanation": "Конкретный момент в будущем + действие в процессе — Future Continuous."
+		},
+		{
+			"question": "Они будут отдыхать на курорте целых две недели.",
+			"answer": "They will be resting at the resort for two whole weeks.",
+			"explanation": "Продолжительное действие в течение двух недель в будущем — Future Continuous."
+		},
+		{
+			"question": "Ты будешь присутствовать на вечерней церемонии?",
+			"answer": "Will you be attending the evening ceremony?",
+			"explanation": "Вежливый вопрос об участии в событии — Future Continuous."
+		},
+		{
+			"question": "Когда начнётся парад, дети будут стоять на тротуаре и смотреть.",
+			"answer": "When the parade starts, the children will be standing on the pavement watching.",
+			"explanation": "Future Continuous для действия в процессе в момент начала другого события."
+		},
+		{
+			"question": "Завтра в это время я буду объяснять правила новым сотрудникам.",
+			"answer": "I will be explaining the rules to new employees at this time tomorrow.",
+			"explanation": "Конкретный будущий момент + длящееся действие — Future Continuous."
+		},
+		{
+			"question": "Он будет писать отчёт несколько часов сегодня вечером.",
+			"answer": "He will be writing the report for several hours this evening.",
+			"explanation": "Продолжительное действие в течение нескольких часов в этот вечер — Future Continuous."
+		},
+		{
+			"question": "Ты будешь использовать пропуск для входа в здание?",
+			"answer": "Will you be using a pass to enter the building?",
+			"explanation": "Вежливый вопрос о методе входа — Future Continuous."
+		},
+		{
+			"question": "Когда позвонит будильник, он уже будет бежать по парку.",
+			"answer": "When the alarm goes off, he will already be running in the park.",
+			"explanation": "Future Continuous показывает, что действие уже будет в процессе к моменту будильника."
+		},
+		{
+			"question": "В следующий вторник в три часа дня они будут проводить аудит.",
+			"answer": "They will be conducting an audit at three on Tuesday.",
+			"explanation": "Конкретный момент в будущем + длящееся действие — Future Continuous."
+		},
+		{
+			"question": "Мы будем обсуждать бюджет всё следующее утро.",
+			"answer": "We will be discussing the budget all next morning.",
+			"explanation": "Продолжительное действие на весь утренний период — Future Continuous."
+		},
+		{
+			"question": "Ты будешь работать из кофейни сегодня?",
+			"answer": "Will you be working from the coffee shop today?",
+			"explanation": "Вежливый вопрос о месте работы — Future Continuous."
+		},
+		{
+			"question": "Когда вы придёте на экзамен, преподаватель уже будет раздавать задания.",
+			"answer": "When you come to the exam, the teacher will already be handing out the tasks.",
+			"explanation": "Future Continuous показывает, что действие будет в процессе к моменту прихода студентов."
+		},
+		{
+			"question": "Завтра в это время я буду пить кофе в парижском кафе.",
+			"answer": "I will be drinking coffee in a Parisian café at this time tomorrow.",
+			"explanation": "Конкретный будущий момент + действие в процессе — Future Continuous."
+		},
+		{
+			"question": "Она будет преподавать этот курс весь следующий семестр.",
+			"answer": "She will be teaching this course throughout the next semester.",
+			"explanation": "Продолжительное действие в течение всего семестра — Future Continuous."
+		},
+		{
+			"question": "Ты будешь участвовать в хакатоне на выходных?",
+			"answer": "Will you be taking part in the hackathon this weekend?",
+			"explanation": "Вежливый вопрос о планах участия — Future Continuous."
+		},
+		{
+			"question": "Когда закончится репетиция, музыканты будут убирать инструменты.",
+			"answer": "When the rehearsal ends, the musicians will be packing away their instruments.",
+			"explanation": "Future Continuous для действия в процессе после окончания репетиции."
+		},
+		{
+			"question": "В следующую среду в это время я буду летать над Атлантикой.",
+			"answer": "I will be flying over the Atlantic at this time next Wednesday.",
+			"explanation": "Конкретный будущий момент + действие в процессе — Future Continuous."
+		},
+		{
+			"question": "Они будут тестировать новое программное обеспечение всю следующую неделю.",
+			"answer": "They will be testing the new software all next week.",
+			"explanation": "Продолжительное действие в течение всей недели — Future Continuous."
+		},
+		{
+			"question": "Ты будешь использовать VPN во время поездки?",
+			"answer": "Will you be using a VPN during the trip?",
+			"explanation": "Вежливый вопрос о технических планах — Future Continuous."
+		},
+		{
+			"question": "Когда придёт врач, пациент будет лежать на операционном столе.",
+			"answer": "When the doctor arrives, the patient will be lying on the operating table.",
+			"explanation": "Future Continuous описывает ситуацию, которая будет иметь место в момент прихода врача."
+		},
+		{
+			"question": "Завтра в полдень он будет встречать делегацию в аэропорту.",
+			"answer": "He will be meeting the delegation at the airport at noon tomorrow.",
+			"explanation": "Конкретный момент в будущем + длящееся действие — Future Continuous."
+		},
+		{
+			"question": "Мы будем праздновать новый год всю ночь.",
+			"answer": "We will be celebrating the New Year all night.",
+			"explanation": "Продолжительное действие в течение всей ночи — Future Continuous."
+		},
+		{
+			"question": "Ты будешь использовать электронную почту для переписки с клиентами?",
+			"answer": "Will you be using email to communicate with clients?",
+			"explanation": "Вежливый вопрос о методе коммуникации — Future Continuous."
+		},
+		{
+			"question": "Когда ты вернёшься домой после работы, я буду убираться.",
+			"answer": "When you get home from work, I will be tidying up.",
+			"explanation": "Future Continuous для действия в процессе в момент возвращения домой."
+		},
+		{
+			"question": "Завтра в это время она будет читать лекцию студентам.",
+			"answer": "She will be delivering a lecture to students at this time tomorrow.",
+			"explanation": "Конкретный будущий момент + длящееся действие — Future Continuous."
+		},
+		{
+			"question": "Он будет снимать документальный фильм следующие полгода.",
+			"answer": "He will be filming a documentary for the next six months.",
+			"explanation": "Продолжительное действие в течение полугода — Future Continuous."
+		},
+		{
+			"question": "Ты будешь присутствовать на защите проекта в пятницу?",
+			"answer": "Will you be attending the project defence on Friday?",
+			"explanation": "Вежливый вопрос о присутствии на мероприятии — Future Continuous."
+		},
+		{
+			"question": "Когда начнутся каникулы, дети будут радоваться и прыгать от счастья.",
+			"answer": "When the holidays start, the children will be jumping for joy.",
+			"explanation": "Future Continuous для действия в процессе в момент начала другого события."
+		},
+		{
+			"question": "Завтра в девять вечера я буду смотреть трансляцию матча.",
+			"answer": "I will be watching the match broadcast at nine tomorrow evening.",
+			"explanation": "Конкретный момент в будущем + действие в процессе — Future Continuous."
+		},
+		{
+			"question": "Они будут переводить документы весь следующий месяц.",
+			"answer": "They will be translating documents all next month.",
+			"explanation": "Продолжительное действие в течение всего месяца — Future Continuous."
+		},
+		{
+			"question": "Ты будешь использовать терминал для ввода данных?",
+			"answer": "Will you be using the terminal to enter the data?",
+			"explanation": "Вежливый вопрос о технических инструментах — Future Continuous."
+		},
+		{
+			"question": "Когда ты приедешь в офис, мы уже будем обсуждать план на год.",
+			"answer": "When you get to the office, we will already be discussing the annual plan.",
+			"explanation": "Future Continuous показывает, что совещание будет в процессе к моменту прихода."
+		},
+		{
+			"question": "Завтра в это время самолёт будет заходить на посадку.",
+			"answer": "The plane will be coming in to land at this time tomorrow.",
+			"explanation": "Конкретный будущий момент + действие в процессе — Future Continuous."
+		},
+		{
+			"question": "Она будет вести дневник на протяжении всего путешествия.",
+			"answer": "She will be keeping a diary throughout the entire journey.",
+			"explanation": "Продолжительное действие в течение всего путешествия — Future Continuous."
+		},
+		{
+			"question": "Ты будешь тренироваться перед соревнованиями каждый день?",
+			"answer": "Will you be training every day before the competition?",
+			"explanation": "Вежливый вопрос о регулярных планах — Future Continuous."
+		},
+		{
+			"question": "Когда поднимется занавес, танцоры уже будут стоять на сцене.",
+			"answer": "When the curtain rises, the dancers will already be standing on stage.",
+			"explanation": "Future Continuous показывает, что ситуация будет иметь место к моменту начала спектакля."
+		},
+		{
+			"question": "Завтра в два часа дня я буду проходить техническое собеседование.",
+			"answer": "I will be having a technical interview at two o'clock tomorrow afternoon.",
+			"explanation": "Конкретный момент в будущем + длящееся действие — Future Continuous."
+		},
+		{
+			"question": "Он будет вести переговоры с поставщиками всю следующую неделю.",
+			"answer": "He will be negotiating with suppliers all next week.",
+			"explanation": "Продолжительное действие в течение всей недели в будущем — Future Continuous."
+		},
+		{
+			"question": "Ты будешь жить у друзей во время ремонта?",
+			"answer": "Will you be staying with friends during the renovation?",
+			"explanation": "Вежливый вопрос о временных планах проживания — Future Continuous."
+		},
+		{
+			"question": "Когда объявят результаты, все будут затаив дыхание смотреть на экран.",
+			"answer": "When the results are announced, everyone will be staring at the screen with bated breath.",
+			"explanation": "Future Continuous для действия в процессе в момент объявления результатов."
+		},
+		{
+			"question": "Завтра в это время мы будем наслаждаться видом на горы.",
+			"answer": "We will be enjoying the mountain views at this time tomorrow.",
+			"explanation": "Конкретный будущий момент + длящееся действие — Future Continuous."
+		},
+		{
+			"question": "Они будут готовить выставку несколько месяцев.",
+			"answer": "They will be preparing the exhibition for several months.",
+			"explanation": "Продолжительное действие в течение нескольких месяцев — Future Continuous."
+		},
+		{
+			"question": "Ты будешь использовать новый шаблон для отчётов?",
+			"answer": "Will you be using the new template for the reports?",
+			"explanation": "Вежливый вопрос о рабочих методах — Future Continuous."
+		},
+		{
+			"question": "Когда ты выйдешь из метро, я буду стоять у фонтана.",
+			"answer": "When you come out of the metro, I will be standing by the fountain.",
+			"explanation": "Future Continuous описывает ситуацию, которая будет иметь место в момент выхода."
+		},
+		{
+			"question": "Завтра в восемь утра он будет проводить утреннюю зарядку с командой.",
+			"answer": "He will be leading the morning exercise with the team at eight tomorrow.",
+			"explanation": "Конкретный момент в будущем + длящееся действие — Future Continuous."
+		},
+		{
+			"question": "Мы будем изучать новый материал в течение всего следующего месяца.",
+			"answer": "We will be studying new material throughout the whole of next month.",
+			"explanation": "Продолжительное действие в течение всего следующего месяца — Future Continuous."
+		},
+		{
+			"question": "Ты будешь присутствовать на вводном курсе для новых сотрудников?",
+			"answer": "Will you be attending the induction course for new employees?",
+			"explanation": "Вежливый вопрос об участии в мероприятии — Future Continuous."
+		},
+		{
+			"question": "Когда приедут родители, мы будем накрывать праздничный стол.",
+			"answer": "When the parents arrive, we will be laying the festive table.",
+			"explanation": "Future Continuous для действия в процессе в момент приезда родителей."
+		},
+		{
+			"question": "Завтра в это время они будут монтировать новую сцену в театре.",
+			"answer": "They will be assembling the new stage at the theatre at this time tomorrow.",
+			"explanation": "Конкретный будущий момент + длящееся действие — Future Continuous."
+		},
+		{
+			"question": "Он будет вести онлайн-курс следующие три месяца.",
+			"answer": "He will be running an online course for the next three months.",
+			"explanation": "Продолжительное действие в течение трёх месяцев в будущем — Future Continuous."
+		},
+		{
+			"question": "Ты будешь работать над кодом всю эту ночь?",
+			"answer": "Will you be working on the code all night?",
+			"explanation": "Вежливый вопрос о ночных планах — Future Continuous."
+		},
+		{
+			"question": "Когда закончится смена, медсестры будут заполнять журнал.",
+			"answer": "When the shift ends, the nurses will be filling in the log.",
+			"explanation": "Future Continuous для действия в процессе после окончания другого события."
+		},
+		{
+			"question": "В следующую пятницу в это время мы будем ехать по трассе на юг.",
+			"answer": "We will be driving down the motorway heading south at this time next Friday.",
+			"explanation": "Конкретный будущий момент + действие в процессе — Future Continuous."
+		},
+		{
+			"question": "Она будет разрабатывать учебную программу весь следующий год.",
+			"answer": "She will be developing the curriculum all next year.",
+			"explanation": "Продолжительное действие в течение всего следующего года — Future Continuous."
+		},
+		{
+			"question": "Ты будешь использовать новый метод преподавания на занятиях?",
+			"answer": "Will you be using the new teaching method in your classes?",
+			"explanation": "Вежливый вопрос о педагогических планах — Future Continuous."
+		},
+		{
+			"question": "Когда придёт инспектор, учителя будут проводить уроки в обычном режиме.",
+			"answer": "When the inspector arrives, the teachers will be conducting their lessons as normal.",
+			"explanation": "Future Continuous для действия в процессе в момент прихода инспектора."
+		},
+		{
+			"question": "Завтра в это время я буду сидеть на важном совещании.",
+			"answer": "I will be sitting in an important meeting at this time tomorrow.",
+			"explanation": "Конкретный будущий момент + длящееся действие — Future Continuous."
+		},
+		{
+			"question": "Они будут тестировать новый продукт на протяжении всего следующего квартала.",
+			"answer": "They will be testing the new product throughout the whole of the next quarter.",
+			"explanation": "Продолжительное действие в течение всего квартала — Future Continuous."
+		},
+		{
+			"question": "Ты будешь ждать ответа от клиента целый день?",
+			"answer": "Will you be waiting for the client's reply all day?",
+			"explanation": "Вежливый вопрос о планах ожидания — Future Continuous."
+		},
+		{
+			"question": "Когда придёт Новый год, мы все будем загадывать желания.",
+			"answer": "When New Year arrives, we will all be making wishes.",
+			"explanation": "Future Continuous для действия в процессе в момент наступления Нового года."
+		},
+		{
+			"question": "Завтра в десять вечера они будут ужинать в ресторане на крыше.",
+			"answer": "They will be dining at the rooftop restaurant at ten tomorrow night.",
+			"explanation": "Конкретный момент в будущем + длящееся действие — Future Continuous."
+		},
+		{
+			"question": "Он будет руководить командой разработчиков следующие полгода.",
+			"answer": "He will be leading the development team for the next six months.",
+			"explanation": "Продолжительное действие в течение полугода — Future Continuous."
+		},
+		{
+			"question": "Ты будешь присутствовать на церемонии вручения наград?",
+			"answer": "Will you be attending the awards ceremony?",
+			"explanation": "Вежливый вопрос о присутствии — Future Continuous."
+		},
+		{
+			"question": "Когда объявят финансовые результаты, аналитики будут внимательно следить за цифрами.",
+			"answer": "When the financial results are announced, analysts will be watching the figures closely.",
+			"explanation": "Future Continuous для действия в процессе в момент объявления результатов."
+		},
+		{
+			"question": "Завтра в это время мы будем отмечать окончание проекта.",
+			"answer": "We will be celebrating the completion of the project at this time tomorrow.",
+			"explanation": "Конкретный будущий момент + длящееся действие — Future Continuous."
+		},
+		{
+			"question": "Они будут реставрировать картины весь следующий год.",
+			"answer": "They will be restoring the paintings all next year.",
+			"explanation": "Продолжительное действие в течение всего следующего года — Future Continuous."
+		},
+		{
+			"question": "Ты будешь использовать новый планировщик задач на этой неделе?",
+			"answer": "Will you be using the new task planner this week?",
+			"explanation": "Вежливый вопрос о рабочих инструментах — Future Continuous."
+		},
+		{
+			"question": "Когда ты придёшь на вечеринку, гости уже будут танцевать.",
+			"answer": "When you arrive at the party, the guests will already be dancing.",
+			"explanation": "Future Continuous показывает, что действие будет в процессе к моменту прихода."
+		},
+		{
+			"question": "Завтра в это время он будет читать лекцию в университете.",
+			"answer": "He will be giving a lecture at the university at this time tomorrow.",
+			"explanation": "Конкретный будущий момент + длящееся действие — Future Continuous."
+		},
+		{
+			"question": "Мы будем вести переговоры о слиянии несколько недель.",
+			"answer": "We will be negotiating the merger for several weeks.",
+			"explanation": "Продолжительное действие в течение нескольких недель в будущем — Future Continuous."
+		},
+		{
+			"question": "Ты будешь использовать служебный автомобиль в командировке?",
+			"answer": "Will you be using the company car on the business trip?",
+			"explanation": "Вежливый вопрос об использовании транспорта — Future Continuous."
+		},
+		{
+			"question": "Когда придут журналисты, она будет рассказывать о новом изобретении.",
+			"answer": "When the journalists arrive, she will be talking about the new invention.",
+			"explanation": "Future Continuous для действия в процессе в момент прихода журналистов."
+		},
+		{
+			"question": "Завтра в это время я буду проходить пограничный контроль.",
+			"answer": "I will be going through passport control at this time tomorrow.",
+			"explanation": "Конкретный будущий момент + действие в процессе — Future Continuous."
+		},
+		{
+			"question": "Он будет писать диссертацию весь следующий год.",
+			"answer": "He will be writing his dissertation all next year.",
+			"explanation": "Продолжительное действие в течение всего года — Future Continuous."
+		},
+		{
+			"question": "Ты будешь присутствовать на семинаре по маркетингу в четверг?",
+			"answer": "Will you be attending the marketing seminar on Thursday?",
+			"explanation": "Вежливый вопрос о присутствии на профессиональном мероприятии — Future Continuous."
+		},
+		{
+			"question": "Когда включат фары стадиона, зрители будут входить на трибуны.",
+			"answer": "When the stadium floodlights come on, the spectators will be filing into the stands.",
+			"explanation": "Future Continuous для действия в процессе в момент включения света."
+		},
+		{
+			"question": "Завтра в это время мы будем кататься на лодке по каналам Венеции.",
+			"answer": "We will be riding a boat through the canals of Venice at this time tomorrow.",
+			"explanation": "Конкретный будущий момент + действие в процессе — Future Continuous."
+		},
+		{
+			"question": "Она будет работать над романом всё лето в загородном доме.",
+			"answer": "She will be working on the novel all summer in the country house.",
+			"explanation": "Продолжительное действие в течение всего лета — Future Continuous."
+		},
+		{
+			"question": "Ты будешь использовать переводчика на переговорах?",
+			"answer": "Will you be using an interpreter during the negotiations?",
+			"explanation": "Вежливый вопрос о деловых планах — Future Continuous."
+		},
+		{
+			"question": "Когда начнётся трансляция, комментаторы уже будут рассказывать о командах.",
+			"answer": "When the broadcast starts, the commentators will already be talking about the teams.",
+			"explanation": "Future Continuous показывает, что действие будет в процессе к моменту начала трансляции."
+		},
+		{
+			"question": "В следующий четверг в полдень он будет выступать на деловом форуме.",
+			"answer": "He will be speaking at the business forum at noon next Thursday.",
+			"explanation": "Конкретный момент в будущем + длящееся действие — Future Continuous."
+		},
+		{
+			"question": "Они будут собирать мебель весь день в субботу.",
+			"answer": "They will be assembling the furniture all day on Saturday.",
+			"explanation": "Маркер 'весь день' + конкретный день — Future Continuous."
+		},
+		{
+			"question": "Ты будешь работать над маркетинговой кампанией на следующей неделе?",
+			"answer": "Will you be working on the marketing campaign next week?",
+			"explanation": "Вежливый вопрос о рабочих планах — Future Continuous."
+		},
+		{
+			"question": "Когда ты позвонишь завтра вечером, я буду кормить детей ужином.",
+			"answer": "When you call tomorrow evening, I will be feeding the children dinner.",
+			"explanation": "Future Continuous для действия в процессе в момент звонка."
+		},
+		{
+			"question": "Завтра в шесть утра они уже будут штурмовать вершину.",
+			"answer": "At six tomorrow morning, they will already be making their summit push.",
+			"explanation": "Конкретный будущий момент + действие в процессе — Future Continuous."
+		},
+		{
+			"question": "Мы будем планировать свадьбу несколько месяцев.",
+			"answer": "We will be planning the wedding for several months.",
+			"explanation": "Продолжительное действие в течение нескольких месяцев — Future Continuous."
+		},
+		{
+			"question": "Ты будешь использовать систему управления проектами в этом квартале?",
+			"answer": "Will you be using the project management system this quarter?",
+			"explanation": "Вежливый вопрос о рабочих инструментах — Future Continuous."
+		},
+		{
+			"question": "Когда ты придёшь на урок, другие студенты уже будут выполнять задание.",
+			"answer": "When you come to the lesson, the other students will already be doing the exercise.",
+			"explanation": "Future Continuous показывает, что действие будет в процессе к моменту прихода."
+		},
+		{
+			"question": "Завтра в это время я буду осматривать квартиру с риэлтором.",
+			"answer": "I will be viewing the apartment with the estate agent at this time tomorrow.",
+			"explanation": "Конкретный будущий момент + длящееся действие — Future Continuous."
+		},
+		{
+			"question": "Он будет тренироваться к чемпионату весь следующий год.",
+			"answer": "He will be training for the championship all next year.",
+			"explanation": "Продолжительное действие в течение всего года — Future Continuous."
+		},
+		{
+			"question": "Ты будешь присутствовать на открытии нового магазина?",
+			"answer": "Will you be attending the opening of the new store?",
+			"explanation": "Вежливый вопрос о присутствии на мероприятии — Future Continuous."
+		},
+		{
+			"question": "Когда придёт последний гость, хозяйка всё ещё будет накрывать стол.",
+			"answer": "When the last guest arrives, the hostess will still be setting the table.",
+			"explanation": "Future Continuous показывает, что действие будет в процессе в момент прихода последнего гостя."
+		},
+		{
+			"question": "Завтра в это время мы будем разгружать контейнер в порту.",
+			"answer": "We will be unloading the container at the port at this time tomorrow.",
+			"explanation": "Конкретный будущий момент + длящееся действие — Future Continuous."
+		},
+		{
+			"question": "Она будет вести мастер-класс по кулинарии всё следующее воскресенье.",
+			"answer": "She will be running a cookery masterclass all next Sunday.",
+			"explanation": "Продолжительное действие на весь следующий день — Future Continuous."
+		},
+		{
+			"question": "Ты будешь использовать новый фреймворк в следующем проекте?",
+			"answer": "Will you be using the new framework in the next project?",
+			"explanation": "Вежливый вопрос о технических планах — Future Continuous."
+		},
+		{
+			"question": "Когда объявят начало регистрации, очередь уже будет стоять у стойки.",
+			"answer": "When check-in is announced, a queue will already be forming at the counter.",
+			"explanation": "Future Continuous показывает, что действие будет в процессе к моменту объявления."
+		},
+		{
+			"question": "В следующую пятницу вечером он будет играть на скрипке в квартете.",
+			"answer": "He will be playing the violin in a quartet next Friday evening.",
+			"explanation": "Запланированное действие в конкретный вечер — Future Continuous."
+		},
+		{
+			"question": "Мы будем наблюдать за ходом переговоров всю следующую неделю.",
+			"answer": "We will be monitoring the progress of the negotiations all next week.",
+			"explanation": "Продолжительное действие в течение всей недели — Future Continuous."
+		},
+		{
+			"question": "Ты будешь дежурить в клинике в эту ночь?",
+			"answer": "Will you be on duty at the clinic tonight?",
+			"explanation": "Вежливый вопрос о графике дежурства — Future Continuous."
+		},
+		{
+			"question": "Когда ты приедешь на дачу, мы будем собирать урожай в огороде.",
+			"answer": "When you arrive at the dacha, we will be harvesting vegetables in the garden.",
+			"explanation": "Future Continuous для действия в процессе в момент приезда гостя."
+		},
+		{
+			"question": "Завтра в это время он будет выступать с ключевым докладом на форуме.",
+			"answer": "He will be delivering the keynote speech at the forum at this time tomorrow.",
+			"explanation": "Конкретный будущий момент + длящееся действие — Future Continuous."
 		}
 	]
 }

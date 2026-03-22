@@ -2,19 +2,1309 @@
 	"tense": "FUTURE_PERFECT_CONTINUOUS",
 	"exercises": [
 		{
-			"question": "К следующему месяцу он будет работать здесь уже год.",
-			"answer": "By next month he will have been working here for a year.",
-			"explanation": "Future Perfect Continuous используется для действия, которое будет продолжаться до определённого момента в будущем. Маркер: for a year, by next month."
+			"question": "К следующему году я буду работать здесь уже 10 лет.",
+			"answer": "By next year, I will have been working here for 10 years.",
+			"explanation": "Future Perfect Continuous используется, так как действие (работа) началось в прошлом, продолжается сейчас и будет продолжаться до конкретного момента в будущем (следующий год). Маркер: by next year + for 10 years."
 		},
 		{
-			"question": "К вечеру мы будем идти уже шесть часов.",
-			"answer": "By the evening we will have been walking for six hours.",
-			"explanation": "Future Perfect Continuous подчёркивает длительность действия к будущему моменту. Маркер: for six hours, by the evening."
+			"question": "К тому времени, как он вернётся, я буду готовить ужин уже два часа.",
+			"answer": "By the time he gets back, I will have been cooking dinner for two hours.",
+			"explanation": "Акцент на продолжительности действия (готовки) к определённому моменту в будущем. Маркер: by the time + for two hours."
 		},
 		{
-			"question": "К тому времени как он позвонит, я буду ждать уже два часа.",
-			"answer": "By the time he calls, I will have been waiting for two hours.",
-			"explanation": "Future Perfect Continuous используется чтобы показать как долго будет длиться действие к моменту другого будущего события."
+			"question": "К концу месяца она будет учить испанский уже полгода.",
+			"answer": "By the end of the month, she will have been studying Spanish for six months.",
+			"explanation": "Действие (учёба) продолжается и к концу месяца достигнет продолжительности в полгода. Маркер: by the end of the month + for six months."
+		},
+		{
+			"question": "К завтрашнему утру мы будем ехать на поезде уже 12 часов.",
+			"answer": "By tomorrow morning, we will have been travelling on the train for 12 hours.",
+			"explanation": "Поездка началась и будет продолжаться — к определённому моменту накопится 12 часов. Маркер: by tomorrow morning + for 12 hours."
+		},
+		{
+			"question": "К тому времени, как фильм закончится, они будут ждать уже час.",
+			"answer": "By the time the movie ends, they will have been waiting for an hour.",
+			"explanation": "Ожидание длится и к моменту окончания фильма составит один час. Маркер: by the time + for an hour."
+		},
+		{
+			"question": "К следующей неделе он будет тренироваться каждый день уже месяц.",
+			"answer": "By next week, he will have been training every day for a month.",
+			"explanation": "Регулярное действие (тренировки) к следующей неделе достигнет продолжительности в месяц. Маркер: by next week + for a month."
+		},
+		{
+			"question": "К тому времени, как они доберутся до города, мы будем их ждать уже два часа.",
+			"answer": "By the time they reach the city, we will have been waiting for them for two hours.",
+			"explanation": "Ожидание продолжается — к моменту их прибытия накопится два часа ожидания. Маркер: by the time + for two hours."
+		},
+		{
+			"question": "К пятнице она будет работать над этим проектом уже три недели.",
+			"answer": "By Friday, she will have been working on this project for three weeks.",
+			"explanation": "Работа над проектом длится и к пятнице составит три недели. Маркер: by Friday + for three weeks."
+		},
+		{
+			"question": "К следующему лету мы будем жить в этом доме уже пять лет.",
+			"answer": "By next summer, we will have been living in this house for five years.",
+			"explanation": "Проживание в доме — длящееся действие, к следующему лету оно достигнет пяти лет. Маркер: by next summer + for five years."
+		},
+		{
+			"question": "К тому времени, как придут гости, я буду убираться уже три часа.",
+			"answer": "By the time the guests arrive, I will have been cleaning for three hours.",
+			"explanation": "Уборка начата и будет продолжаться до прихода гостей — итого три часа. Маркер: by the time + for three hours."
+		},
+		{
+			"question": "К концу года они будут строить этот мост уже два года.",
+			"answer": "By the end of the year, they will have been building this bridge for two years.",
+			"explanation": "Строительство длится — к концу года накопится два года работы. Маркер: by the end of the year + for two years."
+		},
+		{
+			"question": "К тому времени, как закончится встреча, он будет говорить уже час.",
+			"answer": "By the time the meeting is over, he will have been talking for an hour.",
+			"explanation": "Речь на встрече — длящееся действие, к её концу составит один час. Маркер: by the time + for an hour."
+		},
+		{
+			"question": "К следующему месяцу я буду бегать по утрам уже год.",
+			"answer": "By next month, I will have been running in the mornings for a year.",
+			"explanation": "Регулярные утренние пробежки к следующему месяцу составят ровно год. Маркер: by next month + for a year."
+		},
+		{
+			"question": "К тому времени, как самолёт приземлится, пассажиры будут лететь уже девять часов.",
+			"answer": "By the time the plane lands, the passengers will have been flying for nine hours.",
+			"explanation": "Полёт — длящееся действие; к моменту посадки накопится девять часов. Маркер: by the time + for nine hours."
+		},
+		{
+			"question": "К воскресенью она будет читать эту книгу уже неделю.",
+			"answer": "By Sunday, she will have been reading this book for a week.",
+			"explanation": "Чтение книги продолжается — к воскресенью достигнет одной недели. Маркер: by Sunday + for a week."
+		},
+		{
+			"question": "К тому времени, как он придёт домой, дети будут играть уже два часа.",
+			"answer": "By the time he comes home, the children will have been playing for two hours.",
+			"explanation": "Игра детей длится — к его возвращению составит два часа. Маркер: by the time + for two hours."
+		},
+		{
+			"question": "К следующему году эта компания будет существовать уже сто лет.",
+			"answer": "By next year, this company will have been operating for a hundred years.",
+			"explanation": "Существование компании — длящийся процесс; к следующему году достигнет ста лет. Маркер: by next year + for a hundred years."
+		},
+		{
+			"question": "К тому времени, как приедет скорая, он будет ждать уже полчаса.",
+			"answer": "By the time the ambulance arrives, he will have been waiting for half an hour.",
+			"explanation": "Ожидание продолжается — к приезду скорой составит полчаса. Маркер: by the time + for half an hour."
+		},
+		{
+			"question": "К концу конференции они будут обсуждать эту тему уже четыре часа.",
+			"answer": "By the end of the conference, they will have been discussing this topic for four hours.",
+			"explanation": "Обсуждение темы — длящееся действие; к концу конференции накопится четыре часа. Маркер: by the end of + for four hours."
+		},
+		{
+			"question": "К следующей весне она будет заниматься йогой уже два года.",
+			"answer": "By next spring, she will have been doing yoga for two years.",
+			"explanation": "Занятия йогой продолжаются — к следующей весне достигнут двух лет. Маркер: by next spring + for two years."
+		},
+		{
+			"question": "К тому времени, как начнётся спектакль, мы будем стоять в очереди уже час.",
+			"answer": "By the time the show starts, we will have been standing in line for an hour.",
+			"explanation": "Стояние в очереди — длящееся действие; к началу спектакля составит один час. Маркер: by the time + for an hour."
+		},
+		{
+			"question": "К июню он будет готовиться к экзаменам уже три месяца.",
+			"answer": "By June, he will have been preparing for the exams for three months.",
+			"explanation": "Подготовка к экзаменам длится — к июню накопится три месяца. Маркер: by June + for three months."
+		},
+		{
+			"question": "К тому времени, как мы доедем до дачи, мы будем в дороге уже пять часов.",
+			"answer": "By the time we get to the country house, we will have been on the road for five hours.",
+			"explanation": "Поездка — длящееся действие; к прибытию на дачу составит пять часов. Маркер: by the time + for five hours."
+		},
+		{
+			"question": "К следующей зиме они будут встречаться уже год.",
+			"answer": "By next winter, they will have been dating for a year.",
+			"explanation": "Отношения (встречаются) — длящийся процесс; к следующей зиме достигнет одного года. Маркер: by next winter + for a year."
+		},
+		{
+			"question": "К тому времени, как придёт мастер, кран будет течь уже сутки.",
+			"answer": "By the time the plumber arrives, the tap will have been leaking for a day.",
+			"explanation": "Течь крана — продолжающееся действие; к приходу мастера накопятся сутки. Маркер: by the time + for a day."
+		},
+		{
+			"question": "К концу недели она будет вязать этот свитер уже месяц.",
+			"answer": "By the end of the week, she will have been knitting this sweater for a month.",
+			"explanation": "Вязание свитера — длящееся действие; к концу недели составит один месяц. Маркер: by the end of the week + for a month."
+		},
+		{
+			"question": "К тому времени, как закончится урок, ученики будут решать задачу уже полчаса.",
+			"answer": "By the time the lesson ends, the students will have been solving the problem for half an hour.",
+			"explanation": "Решение задачи длится — к концу урока составит полчаса. Маркер: by the time + for half an hour."
+		},
+		{
+			"question": "К следующему году они будут копить на квартиру уже пять лет.",
+			"answer": "By next year, they will have been saving up for an apartment for five years.",
+			"explanation": "Накопление денег — длящийся процесс; к следующему году достигнет пяти лет. Маркер: by next year + for five years."
+		},
+		{
+			"question": "К тому времени, как он проснётся, я буду работать уже три часа.",
+			"answer": "By the time he wakes up, I will have been working for three hours.",
+			"explanation": "Работа началась рано утром — к моменту его пробуждения накопится три часа. Маркер: by the time + for three hours."
+		},
+		{
+			"question": "К декабрю они будут ремонтировать квартиру уже полгода.",
+			"answer": "By December, they will have been renovating the apartment for six months.",
+			"explanation": "Ремонт квартиры — длящееся действие; к декабрю накопится полгода работы. Маркер: by December + for six months."
+		},
+		{
+			"question": "К тому времени, как начнётся соревнование, спортсмены будут тренироваться уже шесть часов.",
+			"answer": "By the time the competition starts, the athletes will have been training for six hours.",
+			"explanation": "Тренировка длится — к началу соревнования составит шесть часов. Маркер: by the time + for six hours."
+		},
+		{
+			"question": "К следующей осени он будет изучать программирование уже два года.",
+			"answer": "By next autumn, he will have been learning programming for two years.",
+			"explanation": "Учёба программированию — длящийся процесс; к следующей осени достигнет двух лет. Маркер: by next autumn + for two years."
+		},
+		{
+			"question": "К тому времени, как закончится операция, хирург будет работать уже восемь часов.",
+			"answer": "By the time the surgery is over, the surgeon will have been working for eight hours.",
+			"explanation": "Операция длится — к её завершению хирург будет работать восемь часов. Маркер: by the time + for eight hours."
+		},
+		{
+			"question": "К концу марафона бегуны будут бежать уже четыре часа.",
+			"answer": "By the end of the marathon, the runners will have been running for four hours.",
+			"explanation": "Бег на марафоне — длящееся действие; к финишу накопится четыре часа. Маркер: by the end of + for four hours."
+		},
+		{
+			"question": "К следующему вторнику я буду изучать этот язык уже полгода.",
+			"answer": "By next Tuesday, I will have been studying this language for six months.",
+			"explanation": "Изучение языка продолжается — к следующему вторнику составит полгода. Маркер: by next Tuesday + for six months."
+		},
+		{
+			"question": "К тому времени, как закончится фестиваль, они будут выступать уже три часа.",
+			"answer": "By the time the festival ends, they will have been performing for three hours.",
+			"explanation": "Выступление длится — к концу фестиваля накопится три часа. Маркер: by the time + for three hours."
+		},
+		{
+			"question": "К следующему году кот будет жить у нас уже десять лет.",
+			"answer": "By next year, the cat will have been living with us for ten years.",
+			"explanation": "Проживание кота у нас — длящийся процесс; к следующему году достигнет десяти лет. Маркер: by next year + for ten years."
+		},
+		{
+			"question": "К тому времени, как высохнет краска, мы будем ждать уже два часа.",
+			"answer": "By the time the paint dries, we will have been waiting for two hours.",
+			"explanation": "Ожидание высыхания краски — длящееся состояние; к этому моменту составит два часа. Маркер: by the time + for two hours."
+		},
+		{
+			"question": "К пятому апреля она будет жить за границей уже три года.",
+			"answer": "By the fifth of April, she will have been living abroad for three years.",
+			"explanation": "Проживание за границей — длящееся действие; к 5 апреля накопится три года. Маркер: by the fifth of April + for three years."
+		},
+		{
+			"question": "К тому времени, как начнётся новый семестр, студенты будут отдыхать уже месяц.",
+			"answer": "By the time the new semester starts, the students will have been resting for a month.",
+			"explanation": "Отдых студентов — длящееся состояние; к началу семестра составит один месяц. Маркер: by the time + for a month."
+		},
+		{
+			"question": "К следующей пятнице повар будет готовить этот соус уже неделю.",
+			"answer": "By next Friday, the chef will have been preparing this sauce for a week.",
+			"explanation": "Приготовление соуса — длящееся действие; к следующей пятнице накопится неделя. Маркер: by next Friday + for a week."
+		},
+		{
+			"question": "К тому времени, как они войдут, мы будем их обсуждать уже полчаса.",
+			"answer": "By the time they walk in, we will have been discussing them for half an hour.",
+			"explanation": "Обсуждение людей — длящееся действие; к их входу составит полчаса. Маркер: by the time + for half an hour."
+		},
+		{
+			"question": "К концу путешествия мы будем в пути уже две недели.",
+			"answer": "By the end of the trip, we will have been travelling for two weeks.",
+			"explanation": "Путешествие длится — к его концу накопится две недели. Маркер: by the end of the trip + for two weeks."
+		},
+		{
+			"question": "К следующему понедельнику он будет искать работу уже три месяца.",
+			"answer": "By next Monday, he will have been looking for a job for three months.",
+			"explanation": "Поиск работы — длящийся процесс; к следующему понедельнику достигнет трёх месяцев. Маркер: by next Monday + for three months."
+		},
+		{
+			"question": "К тому времени, как выйдет новая серия, фанаты будут ждать уже год.",
+			"answer": "By the time the new episode comes out, fans will have been waiting for a year.",
+			"explanation": "Ожидание нового эпизода — длящееся состояние; к его выходу составит один год. Маркер: by the time + for a year."
+		},
+		{
+			"question": "К следующей среде я буду писать эту диссертацию уже два года.",
+			"answer": "By next Wednesday, I will have been writing this dissertation for two years.",
+			"explanation": "Написание диссертации — длящееся действие; к следующей среде накопится два года. Маркер: by next Wednesday + for two years."
+		},
+		{
+			"question": "К тому времени, как закончится гроза, мы будем сидеть дома уже три часа.",
+			"answer": "By the time the storm is over, we will have been sitting at home for three hours.",
+			"explanation": "Вынужденное ожидание дома — длящееся состояние; к концу грозы составит три часа. Маркер: by the time + for three hours."
+		},
+		{
+			"question": "К следующему лету туристы будут посещать этот музей уже сто лет.",
+			"answer": "By next summer, tourists will have been visiting this museum for a hundred years.",
+			"explanation": "Посещение музея туристами — длящийся исторический процесс; к следующему лету составит сто лет. Маркер: by next summer + for a hundred years."
+		},
+		{
+			"question": "К тому времени, как прилетит самолёт, диспетчер будет дежурить уже восемь часов.",
+			"answer": "By the time the plane lands, the air traffic controller will have been on duty for eight hours.",
+			"explanation": "Дежурство диспетчера — длящееся действие; к посадке самолёта накопится восемь часов. Маркер: by the time + for eight hours."
+		},
+		{
+			"question": "К концу смены врач будет принимать пациентов уже шесть часов.",
+			"answer": "By the end of the shift, the doctor will have been seeing patients for six hours.",
+			"explanation": "Приём пациентов — длящееся действие; к концу смены накопится шесть часов. Маркер: by the end of the shift + for six hours."
+		},
+		{
+			"question": "К следующему году этот ресторан будет работать уже двадцать лет.",
+			"answer": "By next year, this restaurant will have been operating for twenty years.",
+			"explanation": "Работа ресторана — длящийся процесс; к следующему году достигнет двадцати лет. Маркер: by next year + for twenty years."
+		},
+		{
+			"question": "К тому времени, как он дочитает книгу, она будет лежать на полке уже год.",
+			"answer": "By the time he finishes reading the book, it will have been sitting on the shelf for a year.",
+			"explanation": "Книга пылилась на полке — длящееся состояние; к моменту прочтения накопится год. Маркер: by the time + for a year."
+		},
+		{
+			"question": "К следующей весне садовник будет ухаживать за этим садом уже десять лет.",
+			"answer": "By next spring, the gardener will have been tending to this garden for ten years.",
+			"explanation": "Уход за садом — длящийся процесс; к следующей весне составит десять лет. Маркер: by next spring + for ten years."
+		},
+		{
+			"question": "К тому времени, как начнётся занятие, дети будут играть на улице уже два часа.",
+			"answer": "By the time the class starts, the children will have been playing outside for two hours.",
+			"explanation": "Игра на улице — длящееся действие; к началу занятия накопится два часа. Маркер: by the time + for two hours."
+		},
+		{
+			"question": "К концу квартала менеджер будет обрабатывать эти данные уже три недели.",
+			"answer": "By the end of the quarter, the manager will have been processing this data for three weeks.",
+			"explanation": "Обработка данных — длящееся действие; к концу квартала накопится три недели. Маркер: by the end of the quarter + for three weeks."
+		},
+		{
+			"question": "К следующему году она будет преподавать в этой школе уже пятнадцать лет.",
+			"answer": "By next year, she will have been teaching at this school for fifteen years.",
+			"explanation": "Преподавание — длящийся процесс; к следующему году достигнет пятнадцати лет. Маркер: by next year + for fifteen years."
+		},
+		{
+			"question": "К тому времени, как он доберётся до вершины, он будет карабкаться уже четыре часа.",
+			"answer": "By the time he reaches the top, he will have been climbing for four hours.",
+			"explanation": "Восхождение — длящееся действие; к достижению вершины накопится четыре часа. Маркер: by the time + for four hours."
+		},
+		{
+			"question": "К следующему месяцу они будут ждать визу уже полгода.",
+			"answer": "By next month, they will have been waiting for their visa for six months.",
+			"explanation": "Ожидание визы — длящееся состояние; к следующему месяцу составит полгода. Маркер: by next month + for six months."
+		},
+		{
+			"question": "К тому времени, как починят дорогу, водители будут объезжать этот участок уже год.",
+			"answer": "By the time the road is repaired, drivers will have been taking detours for a year.",
+			"explanation": "Объезды — длящееся неудобство; к ремонту дороги накопится год. Маркер: by the time + for a year."
+		},
+		{
+			"question": "К Новому году они будут жить раздельно уже полгода.",
+			"answer": "By New Year, they will have been living apart for six months.",
+			"explanation": "Раздельное проживание — длящееся состояние; к Новому году составит полгода. Маркер: by New Year + for six months."
+		},
+		{
+			"question": "К тому времени, как придёт посылка, я буду её ждать уже месяц.",
+			"answer": "By the time the parcel arrives, I will have been waiting for it for a month.",
+			"explanation": "Ожидание посылки — длящееся состояние; к её приходу накопится месяц. Маркер: by the time + for a month."
+		},
+		{
+			"question": "К концу сезона футбольная команда будет тренироваться уже шесть месяцев.",
+			"answer": "By the end of the season, the football team will have been training for six months.",
+			"explanation": "Тренировки команды — длящийся процесс; к концу сезона составит шесть месяцев. Маркер: by the end of the season + for six months."
+		},
+		{
+			"question": "К следующему году эта река будет загрязняться уже полвека.",
+			"answer": "By next year, this river will have been getting polluted for half a century.",
+			"explanation": "Загрязнение реки — длящийся негативный процесс; к следующему году накопится полвека. Маркер: by next year + for half a century."
+		},
+		{
+			"question": "К тому времени, как он придёт на интервью, рекрутер будет его ждать уже полчаса.",
+			"answer": "By the time he shows up for the interview, the recruiter will have been waiting for half an hour.",
+			"explanation": "Ожидание рекрутера — длящееся действие; к приходу кандидата составит полчаса. Маркер: by the time + for half an hour."
+		},
+		{
+			"question": "К следующей неделе она будет сидеть на диете уже два месяца.",
+			"answer": "By next week, she will have been on a diet for two months.",
+			"explanation": "Диета — длящееся состояние; к следующей неделе накопится два месяца. Маркер: by next week + for two months."
+		},
+		{
+			"question": "К тому времени, как закончится стройка, рабочие будут работать на этом объекте уже два года.",
+			"answer": "By the time the construction is finished, the workers will have been working at this site for two years.",
+			"explanation": "Работа на стройке — длящееся действие; к завершению стройки накопится два года. Маркер: by the time + for two years."
+		},
+		{
+			"question": "К следующей осени он будет вести этот блог уже пять лет.",
+			"answer": "By next autumn, he will have been running this blog for five years.",
+			"explanation": "Ведение блога — длящийся процесс; к следующей осени достигнет пяти лет. Маркер: by next autumn + for five years."
+		},
+		{
+			"question": "К тому времени, как закончится концерт, певец будет выступать уже два часа.",
+			"answer": "By the time the concert ends, the singer will have been performing for two hours.",
+			"explanation": "Выступление певца — длящееся действие; к концу концерта накопится два часа. Маркер: by the time + for two hours."
+		},
+		{
+			"question": "К следующему году учёные будут исследовать эту болезнь уже десять лет.",
+			"answer": "By next year, scientists will have been researching this disease for ten years.",
+			"explanation": "Исследование болезни — длящийся научный процесс; к следующему году составит десять лет. Маркер: by next year + for ten years."
+		},
+		{
+			"question": "К тому времени, как солнце сядет, туристы будут гулять по городу уже шесть часов.",
+			"answer": "By the time the sun sets, the tourists will have been walking around the city for six hours.",
+			"explanation": "Прогулка туристов — длящееся действие; к закату накопится шесть часов. Маркер: by the time + for six hours."
+		},
+		{
+			"question": "К следующему лету они будут встречаться онлайн уже полтора года.",
+			"answer": "By next summer, they will have been meeting online for a year and a half.",
+			"explanation": "Онлайн-встречи — длящийся формат общения; к следующему лету составит полтора года. Маркер: by next summer + for a year and a half."
+		},
+		{
+			"question": "К тому времени, как починят лифт, жильцы будут ходить пешком уже неделю.",
+			"answer": "By the time the lift is repaired, the residents will have been walking up the stairs for a week.",
+			"explanation": "Подъём по лестнице — длящееся вынужденное действие; к ремонту лифта накопится неделя. Маркер: by the time + for a week."
+		},
+		{
+			"question": "К концу проекта команда будет работать в усиленном режиме уже месяц.",
+			"answer": "By the end of the project, the team will have been working in intensive mode for a month.",
+			"explanation": "Работа в усиленном режиме — длящееся действие; к концу проекта составит один месяц. Маркер: by the end of the project + for a month."
+		},
+		{
+			"question": "К следующей пятнице он будет сдавать квартиру уже три года.",
+			"answer": "By next Friday, he will have been renting out the apartment for three years.",
+			"explanation": "Сдача квартиры в аренду — длящийся процесс; к следующей пятнице накопится три года. Маркер: by next Friday + for three years."
+		},
+		{
+			"question": "К тому времени, как начнётся дождь, садовники будут поливать клумбы уже час.",
+			"answer": "By the time it starts raining, the gardeners will have been watering the flower beds for an hour.",
+			"explanation": "Полив клумб — длящееся действие; к началу дождя накопится один час. Маркер: by the time + for an hour."
+		},
+		{
+			"question": "К следующему году эта традиция будет соблюдаться уже сто лет.",
+			"answer": "By next year, this tradition will have been observed for a hundred years.",
+			"explanation": "Соблюдение традиции — длящийся культурный процесс; к следующему году составит сто лет. Маркер: by next year + for a hundred years."
+		},
+		{
+			"question": "К тому времени, как придёт новый сотрудник, я буду объяснять задачи уже час.",
+			"answer": "By the time the new employee arrives, I will have been explaining the tasks for an hour.",
+			"explanation": "Объяснение задач — длящееся действие; к приходу нового сотрудника накопится один час. Маркер: by the time + for an hour."
+		},
+		{
+			"question": "К концу переговоров стороны будут обсуждать этот вопрос уже три часа.",
+			"answer": "By the end of the negotiations, the parties will have been discussing this issue for three hours.",
+			"explanation": "Обсуждение на переговорах — длящееся действие; к их концу составит три часа. Маркер: by the end of + for three hours."
+		},
+		{
+			"question": "К следующей неделе пловец будет тренироваться в этом бассейне уже год.",
+			"answer": "By next week, the swimmer will have been training in this pool for a year.",
+			"explanation": "Тренировки пловца — длящийся процесс; к следующей неделе достигнет одного года. Маркер: by next week + for a year."
+		},
+		{
+			"question": "К тому времени, как доставят пиццу, мы будем её ждать уже час.",
+			"answer": "By the time the pizza is delivered, we will have been waiting for it for an hour.",
+			"explanation": "Ожидание пиццы — длящееся состояние; к её доставке накопится один час. Маркер: by the time + for an hour."
+		},
+		{
+			"question": "К следующему месяцу она будет работать волонтёром уже полгода.",
+			"answer": "By next month, she will have been volunteering for six months.",
+			"explanation": "Волонтёрская деятельность — длящийся процесс; к следующему месяцу составит полгода. Маркер: by next month + for six months."
+		},
+		{
+			"question": "К тому времени, как допишут новый закон, парламентарии будут спорить уже год.",
+			"answer": "By the time the new law is written, the parliamentarians will have been arguing for a year.",
+			"explanation": "Споры парламентариев — длящееся действие; к принятию закона накопится один год. Маркер: by the time + for a year."
+		},
+		{
+			"question": "К следующему лету он будет работать удалённо уже три года.",
+			"answer": "By next summer, he will have been working remotely for three years.",
+			"explanation": "Удалённая работа — длящийся формат; к следующему лету составит три года. Маркер: by next summer + for three years."
+		},
+		{
+			"question": "К тому времени, как она придёт к врачу, нога будет болеть уже неделю.",
+			"answer": "By the time she sees the doctor, her leg will have been hurting for a week.",
+			"explanation": "Боль в ноге — длящееся состояние; к визиту к врачу накопится неделя. Маркер: by the time + for a week."
+		},
+		{
+			"question": "К концу чемпионата болельщики будут поддерживать свою команду уже месяц.",
+			"answer": "By the end of the championship, the fans will have been supporting their team for a month.",
+			"explanation": "Поддержка команды — длящееся действие; к концу чемпионата составит один месяц. Маркер: by the end of the championship + for a month."
+		},
+		{
+			"question": "К следующей зиме они будут снимать это жильё уже два года.",
+			"answer": "By next winter, they will have been renting this place for two years.",
+			"explanation": "Аренда жилья — длящийся процесс; к следующей зиме достигнет двух лет. Маркер: by next winter + for two years."
+		},
+		{
+			"question": "К тому времени, как вернётся экспедиция, исследователи будут находиться в Антарктиде уже полгода.",
+			"answer": "By the time the expedition returns, the researchers will have been in Antarctica for six months.",
+			"explanation": "Пребывание в Антарктиде — длящееся действие; к возвращению экспедиции накопится полгода. Маркер: by the time + for six months."
+		},
+		{
+			"question": "К следующему году художник будет рисовать эту картину уже три года.",
+			"answer": "By next year, the artist will have been painting this picture for three years.",
+			"explanation": "Работа над картиной — длящийся творческий процесс; к следующему году составит три года. Маркер: by next year + for three years."
+		},
+		{
+			"question": "К тому времени, как откроют новую станцию метро, её будут строить уже пять лет.",
+			"answer": "By the time the new metro station opens, they will have been building it for five years.",
+			"explanation": "Строительство станции метро — длящееся действие; к открытию накопится пять лет. Маркер: by the time + for five years."
+		},
+		{
+			"question": "К следующей неделе она будет принимать это лекарство уже месяц.",
+			"answer": "By next week, she will have been taking this medicine for a month.",
+			"explanation": "Приём лекарства — длящееся действие; к следующей неделе составит один месяц. Маркер: by next week + for a month."
+		},
+		{
+			"question": "К тому времени, как закончатся каникулы, дети будут смотреть мультфильмы уже месяц.",
+			"answer": "By the time the holidays are over, the children will have been watching cartoons for a month.",
+			"explanation": "Просмотр мультфильмов — длящееся действие на каникулах; к их концу накопится один месяц. Маркер: by the time + for a month."
+		},
+		{
+			"question": "К следующему году пара будет жить вместе уже пять лет.",
+			"answer": "By next year, the couple will have been living together for five years.",
+			"explanation": "Совместное проживание — длящийся процесс; к следующему году достигнет пяти лет. Маркер: by next year + for five years."
+		},
+		{
+			"question": "К тому времени, как распустятся цветы, садовник будет готовить почву уже три недели.",
+			"answer": "By the time the flowers bloom, the gardener will have been preparing the soil for three weeks.",
+			"explanation": "Подготовка почвы — длящееся действие; к цветению накопится три недели. Маркер: by the time + for three weeks."
+		},
+		{
+			"question": "К следующей весне университет будет проводить этот курс уже десять лет.",
+			"answer": "By next spring, the university will have been running this course for ten years.",
+			"explanation": "Проведение курса — длящийся образовательный процесс; к следующей весне составит десять лет. Маркер: by next spring + for ten years."
+		},
+		{
+			"question": "К тому времени, как завершится турнир, игроки будут соревноваться уже неделю.",
+			"answer": "By the time the tournament concludes, the players will have been competing for a week.",
+			"explanation": "Соревнование игроков — длящееся действие; к концу турнира накопится неделя. Маркер: by the time + for a week."
+		},
+		{
+			"question": "К следующему году он будет сочинять музыку уже двадцать лет.",
+			"answer": "By next year, he will have been composing music for twenty years.",
+			"explanation": "Сочинение музыки — длящийся творческий процесс; к следующему году достигнет двадцати лет. Маркер: by next year + for twenty years."
+		},
+		{
+			"question": "К тому времени, как закроют аэропорт, авиакомпании будут отменять рейсы уже два дня.",
+			"answer": "By the time the airport closes, airlines will have been cancelling flights for two days.",
+			"explanation": "Отмена рейсов — длящееся действие; к закрытию аэропорта накопится два дня. Маркер: by the time + for two days."
+		},
+		{
+			"question": "К следующему кварталу отдел продаж будет работать над этой сделкой уже три месяца.",
+			"answer": "By next quarter, the sales team will have been working on this deal for three months.",
+			"explanation": "Работа над сделкой — длящееся действие; к следующему кварталу составит три месяца. Маркер: by next quarter + for three months."
+		},
+		{
+			"question": "К тому времени, как он выучит все слова, он будет повторять их уже неделю.",
+			"answer": "By the time he learns all the words, he will have been reviewing them for a week.",
+			"explanation": "Повторение слов — длящееся действие; к моменту запоминания накопится неделя. Маркер: by the time + for a week."
+		},
+		{
+			"question": "К следующему лету волонтёры будут восстанавливать лес уже два года.",
+			"answer": "By next summer, the volunteers will have been restoring the forest for two years.",
+			"explanation": "Восстановление леса — длящийся экологический процесс; к следующему лету составит два года. Маркер: by next summer + for two years."
+		},
+		{
+			"question": "К тому времени, как он получит диплом, он будет учиться в университете уже пять лет.",
+			"answer": "By the time he gets his degree, he will have been studying at the university for five years.",
+			"explanation": "Учёба в университете — длящийся процесс; к получению диплома накопится пять лет. Маркер: by the time + for five years."
+		},
+		{
+			"question": "К следующему году эта фабрика будет производить эти товары уже полвека.",
+			"answer": "By next year, this factory will have been producing these goods for half a century.",
+			"explanation": "Производство товаров — длящийся промышленный процесс; к следующему году составит полвека. Маркер: by next year + for half a century."
+		},
+		{
+			"question": "К тому времени, как наступит весна, мы будем мечтать о тепле уже полгода.",
+			"answer": "By the time spring comes, we will have been dreaming of warm weather for six months.",
+			"explanation": "Мечты о тепле — длящееся состояние; к наступлению весны накопится полгода. Маркер: by the time + for six months."
+		},
+		{
+			"question": "К следующей неделе он будет кататься на лыжах уже сезон.",
+			"answer": "By next week, he will have been skiing for a whole season.",
+			"explanation": "Катание на лыжах — длящееся сезонное действие; к следующей неделе составит целый сезон. Маркер: by next week + for a whole season."
+		},
+		{
+			"question": "К тому времени, как починят компьютер, я буду работать с планшетом уже три дня.",
+			"answer": "By the time the computer is fixed, I will have been working on the tablet for three days.",
+			"explanation": "Работа на планшете — вынужденное длящееся действие; к ремонту компьютера накопится три дня. Маркер: by the time + for three days."
+		},
+		{
+			"question": "К следующему месяцу они будут обучать новых сотрудников уже шесть недель.",
+			"answer": "By next month, they will have been training new employees for six weeks.",
+			"explanation": "Обучение новых сотрудников — длящееся действие; к следующему месяцу составит шесть недель. Маркер: by next month + for six weeks."
+		},
+		{
+			"question": "К тому времени, как объявят победителя, жюри будет совещаться уже два часа.",
+			"answer": "By the time the winner is announced, the jury will have been deliberating for two hours.",
+			"explanation": "Совещание жюри — длящееся действие; к объявлению победителя накопится два часа. Маркер: by the time + for two hours."
+		},
+		{
+			"question": "К следующей осени она будет вести занятия по танцам уже три года.",
+			"answer": "By next autumn, she will have been teaching dance classes for three years.",
+			"explanation": "Проведение занятий по танцам — длящийся процесс; к следующей осени составит три года. Маркер: by next autumn + for three years."
+		},
+		{
+			"question": "К тому времени, как прибудет груз, таможня будет проверять документы уже неделю.",
+			"answer": "By the time the shipment arrives, customs will have been checking the documents for a week.",
+			"explanation": "Проверка документов — длящееся действие; к прибытию груза накопится неделя. Маркер: by the time + for a week."
+		},
+		{
+			"question": "К следующему году он будет заниматься серфингом уже пять лет.",
+			"answer": "By next year, he will have been surfing for five years.",
+			"explanation": "Занятия серфингом — длящийся процесс; к следующему году достигнет пяти лет. Маркер: by next year + for five years."
+		},
+		{
+			"question": "К тому времени, как они найдут решение, программисты будут отлаживать код уже двое суток.",
+			"answer": "By the time they find a solution, the programmers will have been debugging the code for two days.",
+			"explanation": "Отладка кода — длящееся действие; к нахождению решения накопится двое суток. Маркер: by the time + for two days."
+		},
+		{
+			"question": "К следующему вторнику я буду вести переписку с этим клиентом уже месяц.",
+			"answer": "By next Tuesday, I will have been corresponding with this client for a month.",
+			"explanation": "Переписка с клиентом — длящийся процесс; к следующему вторнику составит один месяц. Маркер: by next Tuesday + for a month."
+		},
+		{
+			"question": "К тому времени, как наступит пенсия, он будет работать на этом заводе уже сорок лет.",
+			"answer": "By the time he retires, he will have been working at this factory for forty years.",
+			"explanation": "Работа на заводе — длящийся профессиональный процесс; к выходу на пенсию накопится сорок лет. Маркер: by the time + for forty years."
+		},
+		{
+			"question": "К следующему месяцу команда будет разрабатывать это приложение уже полгода.",
+			"answer": "By next month, the team will have been developing this app for six months.",
+			"explanation": "Разработка приложения — длящийся процесс; к следующему месяцу составит полгода. Маркер: by next month + for six months."
+		},
+		{
+			"question": "К тому времени, как он добежит до финиша, он будет бежать уже два часа.",
+			"answer": "By the time he crosses the finish line, he will have been running for two hours.",
+			"explanation": "Бег — длящееся физическое действие; к финишу накопится два часа. Маркер: by the time + for two hours."
+		},
+		{
+			"question": "К следующему году она будет снимать этот документальный фильм уже три года.",
+			"answer": "By next year, she will have been filming this documentary for three years.",
+			"explanation": "Съёмка документального фильма — длящийся творческий процесс; к следующему году составит три года. Маркер: by next year + for three years."
+		},
+		{
+			"question": "К тому времени, как прилетят родители, мы будем их ждать уже два часа.",
+			"answer": "By the time his parents land, we will have been waiting for them for two hours.",
+			"explanation": "Ожидание родителей — длящееся состояние; к их прилёту накопится два часа. Маркер: by the time + for two hours."
+		},
+		{
+			"question": "К следующей зиме пианист будет разучивать эту сонату уже полгода.",
+			"answer": "By next winter, the pianist will have been learning this sonata for six months.",
+			"explanation": "Разучивание сонаты — длящийся процесс; к следующей зиме составит полгода. Маркер: by next winter + for six months."
+		},
+		{
+			"question": "К тому времени, как выйдет официальный отчёт, журналисты будут расследовать этот вопрос уже год.",
+			"answer": "By the time the official report is released, journalists will have been investigating this issue for a year.",
+			"explanation": "Журналистское расследование — длящийся процесс; к выходу отчёта накопится один год. Маркер: by the time + for a year."
+		},
+		{
+			"question": "К следующей неделе он будет восстанавливаться после операции уже месяц.",
+			"answer": "By next week, he will have been recovering from the surgery for a month.",
+			"explanation": "Восстановление после операции — длящееся состояние; к следующей неделе составит один месяц. Маркер: by next week + for a month."
+		},
+		{
+			"question": "К тому времени, как рабочие закончат, они будут рыть этот тоннель уже три года.",
+			"answer": "By the time the workers finish, they will have been digging this tunnel for three years.",
+			"explanation": "Рытьё тоннеля — длящееся действие; к завершению работ накопится три года. Маркер: by the time + for three years."
+		},
+		{
+			"question": "К следующему году они будут выпускать этот журнал уже двадцать пять лет.",
+			"answer": "By next year, they will have been publishing this magazine for twenty-five years.",
+			"explanation": "Выпуск журнала — длящийся издательский процесс; к следующему году составит двадцать пять лет. Маркер: by next year + for twenty-five years."
+		},
+		{
+			"question": "К тому времени, как закончится зима, мы будем скучать по лету уже полгода.",
+			"answer": "By the time winter is over, we will have been missing summer for six months.",
+			"explanation": "Скука по лету — длящееся эмоциональное состояние; к концу зимы накопится полгода. Маркер: by the time + for six months."
+		},
+		{
+			"question": "К следующей пятнице она будет сортировать эти файлы уже три дня.",
+			"answer": "By next Friday, she will have been sorting these files for three days.",
+			"explanation": "Сортировка файлов — длящееся действие; к следующей пятнице составит три дня. Маркер: by next Friday + for three days."
+		},
+		{
+			"question": "К тому времени, как начнётся конкурс, участники будут готовиться уже полгода.",
+			"answer": "By the time the competition starts, the participants will have been preparing for six months.",
+			"explanation": "Подготовка к конкурсу — длящееся действие; к его началу накопится полгода. Маркер: by the time + for six months."
+		},
+		{
+			"question": "К следующему году этот магазин будет торговать на этом месте уже тридцать лет.",
+			"answer": "By next year, this shop will have been trading at this location for thirty years.",
+			"explanation": "Торговля на одном месте — длящийся коммерческий процесс; к следующему году составит тридцать лет. Маркер: by next year + for thirty years."
+		},
+		{
+			"question": "К тому времени, как он напишет последнюю главу, он будет работать над романом уже четыре года.",
+			"answer": "By the time he writes the last chapter, he will have been working on the novel for four years.",
+			"explanation": "Работа над романом — длящийся творческий процесс; к написанию последней главы накопится четыре года. Маркер: by the time + for four years."
+		},
+		{
+			"question": "К следующей неделе они будут переезжать уже три дня.",
+			"answer": "By next week, they will have been moving house for three days.",
+			"explanation": "Переезд — длящееся действие; к следующей неделе составит три дня. Маркер: by next week + for three days."
+		},
+		{
+			"question": "К тому времени, как придёт подтверждение, мы будем его ждать уже две недели.",
+			"answer": "By the time the confirmation comes, we will have been waiting for it for two weeks.",
+			"explanation": "Ожидание подтверждения — длящееся состояние; к его получению накопится две недели. Маркер: by the time + for two weeks."
+		},
+		{
+			"question": "К следующему году она будет заниматься живописью уже восемь лет.",
+			"answer": "By next year, she will have been practising painting for eight years.",
+			"explanation": "Занятие живописью — длящийся процесс; к следующему году достигнет восьми лет. Маркер: by next year + for eight years."
+		},
+		{
+			"question": "К тому времени, как завершится аукцион, покупатели будут делать ставки уже три часа.",
+			"answer": "By the time the auction ends, the buyers will have been bidding for three hours.",
+			"explanation": "Торги на аукционе — длящееся действие; к его завершению накопится три часа. Маркер: by the time + for three hours."
+		},
+		{
+			"question": "К следующему месяцу он будет играть в этой команде уже два года.",
+			"answer": "By next month, he will have been playing in this team for two years.",
+			"explanation": "Игра в команде — длящийся процесс; к следующему месяцу составит два года. Маркер: by next month + for two years."
+		},
+		{
+			"question": "К тому времени, как доберутся спасатели, люди будут находиться в ловушке уже сутки.",
+			"answer": "By the time the rescuers arrive, the people will have been trapped for a day.",
+			"explanation": "Пребывание в ловушке — длящееся вынужденное состояние; к прибытию спасателей накопятся сутки. Маркер: by the time + for a day."
+		},
+		{
+			"question": "К следующему году он будет изучать боевые искусства уже десять лет.",
+			"answer": "By next year, he will have been studying martial arts for ten years.",
+			"explanation": "Изучение боевых искусств — длящийся процесс; к следующему году составит десять лет. Маркер: by next year + for ten years."
+		},
+		{
+			"question": "К тому времени, как закончится смена, повар будет стоять у плиты уже восемь часов.",
+			"answer": "By the time the shift ends, the cook will have been standing at the stove for eight hours.",
+			"explanation": "Стояние у плиты — длящееся действие; к концу смены накопится восемь часов. Маркер: by the time + for eight hours."
+		},
+		{
+			"question": "К следующей осени студент будет писать эту дипломную работу уже год.",
+			"answer": "By next autumn, the student will have been writing this thesis for a year.",
+			"explanation": "Написание дипломной работы — длящийся процесс; к следующей осени составит один год. Маркер: by next autumn + for a year."
+		},
+		{
+			"question": "К тому времени, как пройдёт буря, рыбаки будут оставаться в порту уже три дня.",
+			"answer": "By the time the storm passes, the fishermen will have been staying in the harbour for three days.",
+			"explanation": "Пребывание рыбаков в порту — вынужденное длящееся состояние; к прохождению бури накопится три дня. Маркер: by the time + for three days."
+		},
+		{
+			"question": "К следующему году они будут ходить в один и тот же тренажёрный зал уже пять лет.",
+			"answer": "By next year, they will have been going to the same gym for five years.",
+			"explanation": "Посещение тренажёрного зала — регулярное длящееся действие; к следующему году составит пять лет. Маркер: by next year + for five years."
+		},
+		{
+			"question": "К тому времени, как они вернутся из отпуска, мы будем скучать по ним уже две недели.",
+			"answer": "By the time they return from holiday, we will have been missing them for two weeks.",
+			"explanation": "Скука по людям — длящееся эмоциональное состояние; к их возвращению накопится две недели. Маркер: by the time + for two weeks."
+		},
+		{
+			"question": "К следующей неделе строители будут укладывать плитку уже пять дней.",
+			"answer": "By next week, the builders will have been laying tiles for five days.",
+			"explanation": "Укладка плитки — длящееся строительное действие; к следующей неделе составит пять дней. Маркер: by next week + for five days."
+		},
+		{
+			"question": "К тому времени, как выздоровеет, пациент будет лечиться уже три недели.",
+			"answer": "By the time the patient recovers, they will have been receiving treatment for three weeks.",
+			"explanation": "Лечение пациента — длящееся медицинское действие; к выздоровлению накопится три недели. Маркер: by the time + for three weeks."
+		},
+		{
+			"question": "К следующей весне пчелиные колонии будут зимовать уже полгода.",
+			"answer": "By next spring, the bee colonies will have been overwintering for six months.",
+			"explanation": "Зимовка пчёл — длящийся природный процесс; к следующей весне составит полгода. Маркер: by next spring + for six months."
+		},
+		{
+			"question": "К тому времени, как произойдёт извержение, вулкан будет проявлять активность уже несколько месяцев.",
+			"answer": "By the time the eruption happens, the volcano will have been showing activity for several months.",
+			"explanation": "Вулканическая активность — длящийся природный процесс; к извержению накопится несколько месяцев. Маркер: by the time + for several months."
+		},
+		{
+			"question": "К следующему году он будет изучать астрономию уже три года.",
+			"answer": "By next year, he will have been studying astronomy for three years.",
+			"explanation": "Изучение астрономии — длящийся процесс; к следующему году достигнет трёх лет. Маркер: by next year + for three years."
+		},
+		{
+			"question": "К тому времени, как свяжутся специалисты, клиент будет пытаться дозвониться уже час.",
+			"answer": "By the time the specialists get in touch, the client will have been trying to call for an hour.",
+			"explanation": "Попытки дозвониться — длящееся действие; к ответу специалистов накопится один час. Маркер: by the time + for an hour."
+		},
+		{
+			"question": "К следующему месяцу она будет работать личным тренером уже шесть лет.",
+			"answer": "By next month, she will have been working as a personal trainer for six years.",
+			"explanation": "Работа личным тренером — длящийся профессиональный процесс; к следующему месяцу составит шесть лет. Маркер: by next month + for six years."
+		},
+		{
+			"question": "К тому времени, как пройдёт паника, рынки будут падать уже неделю.",
+			"answer": "By the time the panic subsides, the markets will have been falling for a week.",
+			"explanation": "Падение рынков — длящееся экономическое явление; к концу паники накопится неделя. Маркер: by the time + for a week."
+		},
+		{
+			"question": "К следующему году они будут путешествовать автостопом уже полгода.",
+			"answer": "By next year, they will have been hitchhiking for six months.",
+			"explanation": "Путешествие автостопом — длящееся действие; к следующему году составит полгода. Маркер: by next year + for six months."
+		},
+		{
+			"question": "К тому времени, как выйдет книга, автор будет её писать уже четыре года.",
+			"answer": "By the time the book is published, the author will have been writing it for four years.",
+			"explanation": "Написание книги — длящийся творческий процесс; к публикации накопится четыре года. Маркер: by the time + for four years."
+		},
+		{
+			"question": "К следующей зиме она будет изучать кулинарию уже год.",
+			"answer": "By next winter, she will have been studying culinary arts for a year.",
+			"explanation": "Изучение кулинарии — длящийся процесс; к следующей зиме составит один год. Маркер: by next winter + for a year."
+		},
+		{
+			"question": "К тому времени, как принесут счёт, мы будем сидеть в ресторане уже три часа.",
+			"answer": "By the time the bill arrives, we will have been sitting at the restaurant for three hours.",
+			"explanation": "Сидение в ресторане — длящееся действие; к моменту счёта накопится три часа. Маркер: by the time + for three hours."
+		},
+		{
+			"question": "К следующему году он будет играть на гитаре уже пятнадцать лет.",
+			"answer": "By next year, he will have been playing the guitar for fifteen years.",
+			"explanation": "Игра на гитаре — длящийся музыкальный процесс; к следующему году составит пятнадцать лет. Маркер: by next year + for fifteen years."
+		},
+		{
+			"question": "К тому времени, как закончится слушание, адвокат будет защищать клиента уже четыре часа.",
+			"answer": "By the time the hearing ends, the lawyer will have been defending the client for four hours.",
+			"explanation": "Защита клиента в суде — длящееся действие; к концу слушания накопится четыре часа. Маркер: by the time + for four hours."
+		},
+		{
+			"question": "К следующему лету он будет кататься на велосипеде по городу уже три года.",
+			"answer": "By next summer, he will have been cycling around the city for three years.",
+			"explanation": "Велосипедные поездки по городу — длящийся процесс; к следующему лету составит три года. Маркер: by next summer + for three years."
+		},
+		{
+			"question": "К тому времени, как найдут лекарство, врачи будут искать его уже несколько лет.",
+			"answer": "By the time the cure is found, doctors will have been searching for it for several years.",
+			"explanation": "Поиск лекарства — длящийся медицинский процесс; к открытию накопится несколько лет. Маркер: by the time + for several years."
+		},
+		{
+			"question": "К следующей неделе она будет кормить этого бездомного кота уже месяц.",
+			"answer": "By next week, she will have been feeding this stray cat for a month.",
+			"explanation": "Кормление бродячего кота — длящееся действие; к следующей неделе составит один месяц. Маркер: by next week + for a month."
+		},
+		{
+			"question": "К тому времени, как придут инспекторы, сотрудники будут готовить документы уже три дня.",
+			"answer": "By the time the inspectors arrive, the employees will have been preparing the documents for three days.",
+			"explanation": "Подготовка документов — длящееся действие; к приходу инспекторов накопится три дня. Маркер: by the time + for three days."
+		},
+		{
+			"question": "К следующей весне они будут откладывать деньги на отпуск уже полгода.",
+			"answer": "By next spring, they will have been putting money aside for a holiday for six months.",
+			"explanation": "Накопление на отпуск — длящийся процесс; к следующей весне составит полгода. Маркер: by next spring + for six months."
+		},
+		{
+			"question": "К тому времени, как придёт ответ, они будут ждать решения уже месяц.",
+			"answer": "By the time the answer comes, they will have been waiting for a decision for a month.",
+			"explanation": "Ожидание решения — длящееся состояние; к получению ответа накопится один месяц. Маркер: by the time + for a month."
+		},
+		{
+			"question": "К следующему году она будет вести этот канал на YouTube уже четыре года.",
+			"answer": "By next year, she will have been running this YouTube channel for four years.",
+			"explanation": "Ведение канала — длящийся процесс; к следующему году составит четыре года. Маркер: by next year + for four years."
+		},
+		{
+			"question": "К тому времени, как они разберут весь архив, сотрудники будут разбирать бумаги уже три недели.",
+			"answer": "By the time they sort through the entire archive, the employees will have been going through the papers for three weeks.",
+			"explanation": "Разбор архивных бумаг — длящееся действие; к завершению накопится три недели. Маркер: by the time + for three weeks."
+		},
+		{
+			"question": "К следующему месяцу дельфины будут жить в этом аквариуме уже пять лет.",
+			"answer": "By next month, the dolphins will have been living in this aquarium for five years.",
+			"explanation": "Пребывание дельфинов в аквариуме — длящееся состояние; к следующему месяцу составит пять лет. Маркер: by next month + for five years."
+		},
+		{
+			"question": "К тому времени, как прибудет делегация, переводчики будут готовиться уже неделю.",
+			"answer": "By the time the delegation arrives, the interpreters will have been preparing for a week.",
+			"explanation": "Подготовка переводчиков — длящееся действие; к прибытию делегации накопится неделя. Маркер: by the time + for a week."
+		},
+		{
+			"question": "К следующей весне они будут выращивать цветы в теплице уже два года.",
+			"answer": "By next spring, they will have been growing flowers in the greenhouse for two years.",
+			"explanation": "Выращивание цветов — длящийся сельскохозяйственный процесс; к следующей весне составит два года. Маркер: by next spring + for two years."
+		},
+		{
+			"question": "К тому времени, как завершится симфония, оркестр будет играть уже час.",
+			"answer": "By the time the symphony concludes, the orchestra will have been playing for an hour.",
+			"explanation": "Исполнение симфонии — длящееся действие; к её завершению накопится один час. Маркер: by the time + for an hour."
+		},
+		{
+			"question": "К следующей зиме он будет тренировать эту команду уже три сезона.",
+			"answer": "By next winter, he will have been coaching this team for three seasons.",
+			"explanation": "Тренировка команды — длящийся процесс; к следующей зиме составит три сезона. Маркер: by next winter + for three seasons."
+		},
+		{
+			"question": "К тому времени, как поступит финансирование, исследователи будут ждать его уже год.",
+			"answer": "By the time the funding comes through, the researchers will have been waiting for it for a year.",
+			"explanation": "Ожидание финансирования — длящееся состояние; к его получению накопится один год. Маркер: by the time + for a year."
+		},
+		{
+			"question": "К следующему году она будет работать медсестрой уже двадцать лет.",
+			"answer": "By next year, she will have been working as a nurse for twenty years.",
+			"explanation": "Работа медсестрой — длящийся профессиональный процесс; к следующему году составит двадцать лет. Маркер: by next year + for twenty years."
+		},
+		{
+			"question": "К тому времени, как придёт очередь, пациент будет сидеть в очереди уже два часа.",
+			"answer": "By the time it is his turn, the patient will have been sitting in the waiting room for two hours.",
+			"explanation": "Сидение в очереди — длящееся действие; к приходу очереди накопится два часа. Маркер: by the time + for two hours."
+		},
+		{
+			"question": "К следующему лету строители будут возводить этот небоскрёб уже три года.",
+			"answer": "By next summer, the builders will have been constructing this skyscraper for three years.",
+			"explanation": "Строительство небоскрёба — длящееся действие; к следующему лету составит три года. Маркер: by next summer + for three years."
+		},
+		{
+			"question": "К тому времени, как Земля снова пройдёт эту точку орбиты, учёные будут вести наблюдения уже год.",
+			"answer": "By the time the Earth passes this point in its orbit again, scientists will have been making observations for a year.",
+			"explanation": "Наблюдения учёных — длящийся научный процесс; к возвращению точки орбиты накопится один год. Маркер: by the time + for a year."
+		},
+		{
+			"question": "К следующей неделе они будут тестировать эту программу уже три недели.",
+			"answer": "By next week, they will have been testing this software for three weeks.",
+			"explanation": "Тестирование программы — длящееся действие; к следующей неделе составит три недели. Маркер: by next week + for three weeks."
+		},
+		{
+			"question": "К тому времени, как они выйдут из леса, туристы будут идти уже шесть часов.",
+			"answer": "By the time they get out of the forest, the hikers will have been walking for six hours.",
+			"explanation": "Поход в лесу — длящееся действие; к выходу из леса накопится шесть часов. Маркер: by the time + for six hours."
+		},
+		{
+			"question": "К следующему году он будет собирать марки уже тридцать лет.",
+			"answer": "By next year, he will have been collecting stamps for thirty years.",
+			"explanation": "Коллекционирование марок — длящийся процесс; к следующему году составит тридцать лет. Маркер: by next year + for thirty years."
+		},
+		{
+			"question": "К тому времени, как они завершат реставрацию, работники будут трудиться над этим собором уже пятьдесят лет.",
+			"answer": "By the time the restoration is complete, workers will have been labouring over this cathedral for fifty years.",
+			"explanation": "Реставрация собора — длящийся исторический процесс; к завершению накопится пятьдесят лет. Маркер: by the time + for fifty years."
+		},
+		{
+			"question": "К следующей неделе она будет собирать пазл уже неделю.",
+			"answer": "By next week, she will have been doing this jigsaw puzzle for a week.",
+			"explanation": "Сборка пазла — длящееся занятие; к следующей неделе составит одну неделю. Маркер: by next week + for a week."
+		},
+		{
+			"question": "К тому времени, как откроется новый парк, власти будут его проектировать уже два года.",
+			"answer": "By the time the new park opens, the authorities will have been designing it for two years.",
+			"explanation": "Проектирование парка — длящийся процесс; к его открытию накопится два года. Маркер: by the time + for two years."
+		},
+		{
+			"question": "К следующему году эта школа будет обучать детей с особыми потребностями уже двадцать лет.",
+			"answer": "By next year, this school will have been educating children with special needs for twenty years.",
+			"explanation": "Образование детей с особыми потребностями — длящийся социальный процесс; к следующему году составит двадцать лет. Маркер: by next year + for twenty years."
+		},
+		{
+			"question": "К тому времени, как наступит закат, фотограф будет снимать этот пейзаж уже три часа.",
+			"answer": "By the time sunset arrives, the photographer will have been shooting this landscape for three hours.",
+			"explanation": "Съёмка пейзажа — длящееся творческое действие; к закату накопится три часа. Маркер: by the time + for three hours."
+		},
+		{
+			"question": "К следующей осени они будут строить этот дом уже полтора года.",
+			"answer": "By next autumn, they will have been building this house for a year and a half.",
+			"explanation": "Строительство дома — длящийся процесс; к следующей осени составит полтора года. Маркер: by next autumn + for a year and a half."
+		},
+		{
+			"question": "К тому времени, как они получат ответ от университета, они будут ждать уже полгода.",
+			"answer": "By the time they hear back from the university, they will have been waiting for six months.",
+			"explanation": "Ожидание ответа от университета — длящееся состояние; к получению ответа накопится полгода. Маркер: by the time + for six months."
+		},
+		{
+			"question": "К следующему году она будет вести переговоры с этим поставщиком уже год.",
+			"answer": "By next year, she will have been negotiating with this supplier for a year.",
+			"explanation": "Переговоры с поставщиком — длящийся деловой процесс; к следующему году составит один год. Маркер: by next year + for a year."
+		},
+		{
+			"question": "К тому времени, как завершится инициализация системы, программа будет загружаться уже двадцать минут.",
+			"answer": "By the time the system initialises, the programme will have been loading for twenty minutes.",
+			"explanation": "Загрузка программы — длящееся действие; к завершению инициализации накопится двадцать минут. Маркер: by the time + for twenty minutes."
+		},
+		{
+			"question": "К следующей весне пара будет планировать свадьбу уже год.",
+			"answer": "By next spring, the couple will have been planning their wedding for a year.",
+			"explanation": "Планирование свадьбы — длящийся процесс; к следующей весне составит один год. Маркер: by next spring + for a year."
+		},
+		{
+			"question": "К тому времени, как откроется ресторан после ремонта, он будет закрыт уже три месяца.",
+			"answer": "By the time the restaurant reopens after renovation, it will have been closed for three months.",
+			"explanation": "Закрытие ресторана на ремонт — длящееся состояние; к открытию накопится три месяца. Маркер: by the time + for three months."
+		},
+		{
+			"question": "К следующей неделе она будет кормить ребёнка грудью уже три месяца.",
+			"answer": "By next week, she will have been breastfeeding the baby for three months.",
+			"explanation": "Грудное вскармливание — длящийся физиологический процесс; к следующей неделе составит три месяца. Маркер: by next week + for three months."
+		},
+		{
+			"question": "К тому времени, как он сдаст экзамен по вождению, он будет брать уроки уже полгода.",
+			"answer": "By the time he passes his driving test, he will have been taking lessons for six months.",
+			"explanation": "Уроки вождения — длящийся процесс обучения; к сдаче экзамена накопится полгода. Маркер: by the time + for six months."
+		},
+		{
+			"question": "К следующему году они будут выращивать виноград на этом винограднике уже сто лет.",
+			"answer": "By next year, they will have been growing grapes at this vineyard for a hundred years.",
+			"explanation": "Выращивание винограда — длящийся сельскохозяйственный процесс; к следующему году составит сто лет. Маркер: by next year + for a hundred years."
+		},
+		{
+			"question": "К тому времени, как закроется выставка, посетители будут смотреть на эту картину уже неделю.",
+			"answer": "By the time the exhibition closes, visitors will have been admiring this painting for a week.",
+			"explanation": "Восхищение картиной — длящееся состояние; к закрытию выставки накопится неделя. Маркер: by the time + for a week."
+		},
+		{
+			"question": "К следующему году он будет жить на необитаемом острове уже два года.",
+			"answer": "By next year, he will have been living on the deserted island for two years.",
+			"explanation": "Жизнь на острове — длящееся состояние; к следующему году составит два года. Маркер: by next year + for two years."
+		},
+		{
+			"question": "К тому времени, как выпадет снег, медведь будет готовиться к спячке уже месяц.",
+			"answer": "By the time the snow falls, the bear will have been preparing for hibernation for a month.",
+			"explanation": "Подготовка к спячке — длящийся природный процесс; к снегопаду накопится один месяц. Маркер: by the time + for a month."
+		},
+		{
+			"question": "К следующей зиме он будет учиться готовить блюда азиатской кухни уже год.",
+			"answer": "By next winter, he will have been learning to cook Asian dishes for a year.",
+			"explanation": "Изучение азиатской кухни — длящийся процесс; к следующей зиме составит один год. Маркер: by next winter + for a year."
+		},
+		{
+			"question": "К тому времени, как они проведут финальное совещание, команда будет работать над этой задачей уже полгода.",
+			"answer": "By the time they hold the final meeting, the team will have been working on this task for six months.",
+			"explanation": "Работа над задачей — длящееся действие; к финальному совещанию накопится полгода. Маркер: by the time + for six months."
+		},
+		{
+			"question": "К следующему году она будет изучать историю Древнего Рима уже три года.",
+			"answer": "By next year, she will have been studying the history of Ancient Rome for three years.",
+			"explanation": "Изучение истории — длящийся процесс; к следующему году составит три года. Маркер: by next year + for three years."
+		},
+		{
+			"question": "К тому времени, как он напишет все письма, он будет сидеть за столом уже три часа.",
+			"answer": "By the time he finishes writing all the letters, he will have been sitting at his desk for three hours.",
+			"explanation": "Написание писем — длящееся действие; к завершению накопится три часа. Маркер: by the time + for three hours."
+		},
+		{
+			"question": "К следующему месяцу она будет проходить курс реабилитации уже два месяца.",
+			"answer": "By next month, she will have been going through rehabilitation for two months.",
+			"explanation": "Курс реабилитации — длящийся медицинский процесс; к следующему месяцу составит два месяца. Маркер: by next month + for two months."
+		},
+		{
+			"question": "К тому времени, как выступит последний участник, жюри будет слушать конкурсантов уже пять часов.",
+			"answer": "By the time the last contestant performs, the jury will have been listening for five hours.",
+			"explanation": "Прослушивание конкурсантов — длящееся действие; к последнему выступлению накопится пять часов. Маркер: by the time + for five hours."
+		},
+		{
+			"question": "К следующей весне туристы будут избегать этого маршрута уже год из-за ремонта.",
+			"answer": "By next spring, tourists will have been avoiding this route for a year due to the repairs.",
+			"explanation": "Избегание маршрута — длящееся поведение; к следующей весне составит один год. Маркер: by next spring + for a year."
+		},
+		{
+			"question": "К тому времени, как установят новый светофор, водители будут нарушать правила на этом перекрёстке уже полгода.",
+			"answer": "By the time the new traffic light is installed, drivers will have been breaking the rules at this intersection for six months.",
+			"explanation": "Нарушение правил — длящееся поведение; к установке светофора накопится полгода. Маркер: by the time + for six months."
+		},
+		{
+			"question": "К следующему году он будет заниматься пчеловодством уже десять лет.",
+			"answer": "By next year, he will have been keeping bees for ten years.",
+			"explanation": "Пчеловодство — длящийся процесс; к следующему году составит десять лет. Маркер: by next year + for ten years."
+		},
+		{
+			"question": "К тому времени, как снесут старое здание, его будут реконструировать уже два года.",
+			"answer": "By the time the old building is demolished, they will have been reconstructing it for two years.",
+			"explanation": "Реконструкция здания — длящийся строительный процесс; к сносу накопится два года. Маркер: by the time + for two years."
+		},
+		{
+			"question": "К следующей осени она будет помогать бездомным уже пять лет.",
+			"answer": "By next autumn, she will have been helping homeless people for five years.",
+			"explanation": "Помощь бездомным — длящаяся социальная деятельность; к следующей осени составит пять лет. Маркер: by next autumn + for five years."
+		},
+		{
+			"question": "К тому времени, как объявят о слиянии компаний, переговоры будут идти уже восемь месяцев.",
+			"answer": "By the time the company merger is announced, the negotiations will have been going on for eight months.",
+			"explanation": "Переговоры о слиянии — длящийся деловой процесс; к объявлению накопится восемь месяцев. Маркер: by the time + for eight months."
+		},
+		{
+			"question": "К следующему году эта семья будет держать кур уже семь лет.",
+			"answer": "By next year, this family will have been keeping chickens for seven years.",
+			"explanation": "Содержание кур — длящийся бытовой процесс; к следующему году составит семь лет. Маркер: by next year + for seven years."
+		},
+		{
+			"question": "К тому времени, как уберут мусор, жители будут жаловаться уже неделю.",
+			"answer": "By the time the rubbish is collected, the residents will have been complaining for a week.",
+			"explanation": "Жалобы жителей — длящееся действие; к уборке мусора накопится неделя. Маркер: by the time + for a week."
+		},
+		{
+			"question": "К следующему году она будет заниматься каллиграфией уже два года.",
+			"answer": "By next year, she will have been practising calligraphy for two years.",
+			"explanation": "Занятие каллиграфией — длящийся процесс; к следующему году составит два года. Маркер: by next year + for two years."
+		},
+		{
+			"question": "К тому времени, как выйдет на пенсию, директор будет руководить этой компанией уже тридцать пять лет.",
+			"answer": "By the time the director retires, he will have been running this company for thirty-five years.",
+			"explanation": "Руководство компанией — длящийся профессиональный процесс; к выходу на пенсию накопится тридцать пять лет. Маркер: by the time + for thirty-five years."
+		},
+		{
+			"question": "К следующей неделе они будут судиться уже полгода.",
+			"answer": "By next week, they will have been in litigation for six months.",
+			"explanation": "Судебное разбирательство — длящийся правовой процесс; к следующей неделе составит полгода. Маркер: by next week + for six months."
+		},
+		{
+			"question": "К тому времени, как дадут разрешение на строительство, архитекторы будут согласовывать проект уже год.",
+			"answer": "By the time the building permit is granted, the architects will have been getting the project approved for a year.",
+			"explanation": "Согласование проекта — длящийся бюрократический процесс; к выдаче разрешения накопится один год. Маркер: by the time + for a year."
+		},
+		{
+			"question": "К следующему году она будет преподавать медитацию уже шесть лет.",
+			"answer": "By next year, she will have been teaching meditation for six years.",
+			"explanation": "Преподавание медитации — длящийся процесс; к следующему году составит шесть лет. Маркер: by next year + for six years."
+		},
+		{
+			"question": "К тому времени, как начнётся лето, дети будут посещать эту секцию уже год.",
+			"answer": "By the time summer starts, the children will have been attending this club for a year.",
+			"explanation": "Посещение секции — регулярное длящееся действие; к началу лета накопится один год. Маркер: by the time + for a year."
+		},
+		{
+			"question": "К следующей зиме команда будет тестировать этот прототип уже полгода.",
+			"answer": "By next winter, the team will have been testing this prototype for six months.",
+			"explanation": "Тестирование прототипа — длящееся действие; к следующей зиме составит полгода. Маркер: by next winter + for six months."
+		},
+		{
+			"question": "К тому времени, как они начнут переговоры о мире, конфликт будет длиться уже три года.",
+			"answer": "By the time peace negotiations begin, the conflict will have been going on for three years.",
+			"explanation": "Продолжение конфликта — длящееся явление; к началу переговоров накопится три года. Маркер: by the time + for three years."
+		},
+		{
+			"question": "К следующему году она будет вышивать это панно уже полтора года.",
+			"answer": "By next year, she will have been embroidering this panel for a year and a half.",
+			"explanation": "Вышивка панно — длящееся творческое действие; к следующему году составит полтора года. Маркер: by next year + for a year and a half."
+		},
+		{
+			"question": "К тому времени, как опубликуют результаты, учёные будут анализировать данные уже два года.",
+			"answer": "By the time the results are published, the scientists will have been analysing the data for two years.",
+			"explanation": "Анализ данных — длящийся научный процесс; к публикации результатов накопится два года. Маркер: by the time + for two years."
+		},
+		{
+			"question": "К следующей неделе они будут кататься на яхте уже десять дней.",
+			"answer": "By next week, they will have been sailing on the yacht for ten days.",
+			"explanation": "Плавание на яхте — длящееся действие; к следующей неделе составит десять дней. Маркер: by next week + for ten days."
+		},
+		{
+			"question": "К тому времени, как закончится сезон дождей, земля будет пропитываться водой уже три месяца.",
+			"answer": "By the time the rainy season ends, the ground will have been absorbing water for three months.",
+			"explanation": "Пропитывание земли водой — длящийся природный процесс; к концу сезона дождей накопится три месяца. Маркер: by the time + for three months."
+		},
+		{
+			"question": "К следующему году он будет дрессировать собаку уже год.",
+			"answer": "By next year, he will have been training the dog for a year.",
+			"explanation": "Дрессировка собаки — длящийся процесс; к следующему году составит один год. Маркер: by next year + for a year."
+		},
+		{
+			"question": "К тому времени, как примут новый бюджет, депутаты будут обсуждать его уже три месяца.",
+			"answer": "By the time the new budget is approved, the deputies will have been discussing it for three months.",
+			"explanation": "Обсуждение бюджета — длящееся политическое действие; к принятию накопится три месяца. Маркер: by the time + for three months."
+		},
+		{
+			"question": "К следующей весне она будет вести дневник уже пять лет.",
+			"answer": "By next spring, she will have been keeping a diary for five years.",
+			"explanation": "Ведение дневника — длящийся процесс; к следующей весне составит пять лет. Маркер: by next spring + for five years."
+		},
+		{
+			"question": "К тому времени, как заработает новая электростанция, её будут строить уже четыре года.",
+			"answer": "By the time the new power station starts operating, they will have been building it for four years.",
+			"explanation": "Строительство электростанции — длящийся промышленный процесс; к запуску накопится четыре года. Маркер: by the time + for four years."
+		},
+		{
+			"question": "К следующему году она будет выступать на сцене этого театра уже двадцать лет.",
+			"answer": "By next year, she will have been performing on this theatre's stage for twenty years.",
+			"explanation": "Выступление на сцене — длящийся творческий процесс; к следующему году составит двадцать лет. Маркер: by next year + for twenty years."
+		},
+		{
+			"question": "К тому времени, как выпустят обновление программы, пользователи будут жаловаться на ошибки уже полгода.",
+			"answer": "By the time the software update is released, users will have been complaining about bugs for six months.",
+			"explanation": "Жалобы на ошибки — длящееся действие; к выпуску обновления накопится полгода. Маркер: by the time + for six months."
+		},
+		{
+			"question": "К следующей зиме он будет изучать санскрит уже три года.",
+			"answer": "By next winter, he will have been studying Sanskrit for three years.",
+			"explanation": "Изучение санскрита — длящийся лингвистический процесс; к следующей зиме составит три года. Маркер: by next winter + for three years."
+		},
+		{
+			"question": "К тому времени, как откроется мост после реконструкции, его будут ремонтировать уже два года.",
+			"answer": "By the time the bridge reopens after reconstruction, they will have been repairing it for two years.",
+			"explanation": "Ремонт моста — длящееся действие; к открытию накопится два года. Маркер: by the time + for two years."
+		},
+		{
+			"question": "К следующему году они будут жить без мяса уже три года.",
+			"answer": "By next year, they will have been living without meat for three years.",
+			"explanation": "Вегетарианский образ жизни — длящееся состояние; к следующему году составит три года. Маркер: by next year + for three years."
+		},
+		{
+			"question": "К тому времени, как солдаты вернутся домой, они будут служить за рубежом уже два года.",
+			"answer": "By the time the soldiers return home, they will have been serving abroad for two years.",
+			"explanation": "Служба за рубежом — длящееся действие; к возвращению домой накопится два года. Маркер: by the time + for two years."
+		},
+		{
+			"question": "К следующей неделе программа лояльности будет действовать уже год.",
+			"answer": "By next week, the loyalty programme will have been running for a year.",
+			"explanation": "Действие программы лояльности — длящийся коммерческий процесс; к следующей неделе составит один год. Маркер: by next week + for a year."
+		},
+		{
+			"question": "К тому времени, как он получит гражданство, он будет жить в этой стране уже десять лет.",
+			"answer": "By the time he receives citizenship, he will have been living in this country for ten years.",
+			"explanation": "Проживание в стране — длящееся состояние; к получению гражданства накопится десять лет. Маркер: by the time + for ten years."
+		},
+		{
+			"question": "К следующему году она будет бороться с этой проблемой со здоровьем уже пять лет.",
+			"answer": "By next year, she will have been dealing with this health issue for five years.",
+			"explanation": "Борьба со здоровьем — длящееся состояние; к следующему году составит пять лет. Маркер: by next year + for five years."
+		},
+		{
+			"question": "К тому времени, как завершится реформа образования, чиновники будут её разрабатывать уже три года.",
+			"answer": "By the time the education reform is completed, officials will have been developing it for three years.",
+			"explanation": "Разработка реформы — длящийся политический процесс; к завершению накопится три года. Маркер: by the time + for three years."
+		},
+		{
+			"question": "К следующему лету они будут пользоваться этим сервисом уже пять лет.",
+			"answer": "By next summer, they will have been using this service for five years.",
+			"explanation": "Использование сервиса — длящееся действие; к следующему лету составит пять лет. Маркер: by next summer + for five years."
+		},
+		{
+			"question": "К тому времени, как истекёт срок контракта, она будет работать по нему уже два года.",
+			"answer": "By the time the contract expires, she will have been working under it for two years.",
+			"explanation": "Работа по контракту — длящийся профессиональный процесс; к истечению срока накопится два года. Маркер: by the time + for two years."
+		},
+		{
+			"question": "К следующему году он будет участвовать в этом клубе дебатов уже четыре года.",
+			"answer": "By next year, he will have been participating in this debate club for four years.",
+			"explanation": "Участие в клубе дебатов — длящийся процесс; к следующему году составит четыре года. Маркер: by next year + for four years."
+		},
+		{
+			"question": "К тому времени, как прогреется духовка, я буду её ждать уже двадцать минут.",
+			"answer": "By the time the oven heats up, I will have been waiting for it for twenty minutes.",
+			"explanation": "Ожидание разогрева духовки — длящееся состояние; к нагреву накопится двадцать минут. Маркер: by the time + for twenty minutes."
+		},
+		{
+			"question": "К следующей осени она будет изучать диетологию уже два года.",
+			"answer": "By next autumn, she will have been studying nutrition for two years.",
+			"explanation": "Изучение диетологии — длящийся процесс; к следующей осени составит два года. Маркер: by next autumn + for two years."
+		},
+		{
+			"question": "К тому времени, как экономика восстановится, страна будет переживать кризис уже пять лет.",
+			"answer": "By the time the economy recovers, the country will have been going through a crisis for five years.",
+			"explanation": "Экономический кризис — длящееся явление; к восстановлению экономики накопится пять лет. Маркер: by the time + for five years."
+		},
+		{
+			"question": "К следующему году он будет изучать кинопроизводство уже три года.",
+			"answer": "By next year, he will have been studying filmmaking for three years.",
+			"explanation": "Изучение кинопроизводства — длящийся процесс; к следующему году составит три года. Маркер: by next year + for three years."
+		},
+		{
+			"question": "К тому времени, как придёт перемирие, жители будут страдать уже несколько лет.",
+			"answer": "By the time a ceasefire comes, the residents will have been suffering for several years.",
+			"explanation": "Страдания жителей — длящееся состояние; к перемирию накопится несколько лет. Маркер: by the time + for several years."
+		},
+		{
+			"question": "К следующему лету они будут разводить рыбу в этом пруду уже десять лет.",
+			"answer": "By next summer, they will have been breeding fish in this pond for ten years.",
+			"explanation": "Разведение рыбы — длящийся сельскохозяйственный процесс; к следующему лету составит десять лет. Маркер: by next summer + for ten years."
+		},
+		{
+			"question": "К тому времени, как обнародуют результаты выборов, граждане будут ждать их уже несколько часов.",
+			"answer": "By the time the election results are announced, citizens will have been waiting for them for several hours.",
+			"explanation": "Ожидание результатов выборов — длящееся состояние; к объявлению накопится несколько часов. Маркер: by the time + for several hours."
+		},
+		{
+			"question": "К следующей зиме она будет изучать астрологию уже полтора года.",
+			"answer": "By next winter, she will have been studying astrology for a year and a half.",
+			"explanation": "Изучение астрологии — длящийся процесс; к следующей зиме составит полтора года. Маркер: by next winter + for a year and a half."
+		},
+		{
+			"question": "К тому времени, как завершится испытание нового препарата, учёные будут его тестировать уже три года.",
+			"answer": "By the time the clinical trial of the new drug is complete, scientists will have been testing it for three years.",
+			"explanation": "Клинические испытания — длящийся медицинский процесс; к завершению накопится три года. Маркер: by the time + for three years."
+		},
+		{
+			"question": "К следующему году он будет собирать монеты уже двадцать лет.",
+			"answer": "By next year, he will have been collecting coins for twenty years.",
+			"explanation": "Коллекционирование монет — длящийся процесс; к следующему году составит двадцать лет. Маркер: by next year + for twenty years."
+		},
+		{
+			"question": "К тому времени, как они напишут финальный отчёт, группа будет работать над проектом уже полгода.",
+			"answer": "By the time they write the final report, the group will have been working on the project for six months.",
+			"explanation": "Работа над проектом — длящееся действие; к написанию финального отчёта накопится полгода. Маркер: by the time + for six months."
+		},
+		{
+			"question": "К следующей неделе она будет кататься на роликах уже месяц.",
+			"answer": "By next week, she will have been rollerblading for a month.",
+			"explanation": "Катание на роликах — длящееся действие; к следующей неделе составит один месяц. Маркер: by next week + for a month."
+		},
+		{
+			"question": "К тому времени, как начнут переводить эту книгу, она будет издаваться на языке оригинала уже год.",
+			"answer": "By the time they start translating this book, it will have been published in the original language for a year.",
+			"explanation": "Публикация книги на языке оригинала — длящееся состояние; к началу перевода накопится один год. Маркер: by the time + for a year."
+		},
+		{
+			"question": "К следующей осени он будет преподавать историю в колледже уже семь лет.",
+			"answer": "By next autumn, he will have been teaching history at the college for seven years.",
+			"explanation": "Преподавание истории — длящийся профессиональный процесс; к следующей осени составит семь лет. Маркер: by next autumn + for seven years."
+		},
+		{
+			"question": "К тому времени, как объявят об открытии, команда будет разрабатывать технологию уже десять лет.",
+			"answer": "By the time the discovery is announced, the team will have been developing the technology for ten years.",
+			"explanation": "Разработка технологии — длящийся научный процесс; к объявлению об открытии накопится десять лет. Маркер: by the time + for ten years."
+		},
+		{
+			"question": "К следующему году они будут помогать беженцам в этом лагере уже пять лет.",
+			"answer": "By next year, they will have been helping refugees at this camp for five years.",
+			"explanation": "Помощь беженцам — длящаяся гуманитарная деятельность; к следующему году составит пять лет. Маркер: by next year + for five years."
+		},
+		{
+			"question": "К тому времени, как начнётся посевная, фермер будет готовить почву уже две недели.",
+			"answer": "By the time the sowing season begins, the farmer will have been preparing the soil for two weeks.",
+			"explanation": "Подготовка почвы — длящееся сельскохозяйственное действие; к посевной накопится две недели. Маркер: by the time + for two weeks."
+		},
+		{
+			"question": "К следующей зиме она будет вести занятия по йоге в этом центре уже восемь лет.",
+			"answer": "By next winter, she will have been teaching yoga at this centre for eight years.",
+			"explanation": "Проведение занятий йогой — длящийся процесс; к следующей зиме составит восемь лет. Маркер: by next winter + for eight years."
+		},
+		{
+			"question": "К тому времени, как запустят новый сайт, разработчики будут его создавать уже год.",
+			"answer": "By the time the new website launches, the developers will have been building it for a year.",
+			"explanation": "Создание сайта — длящийся разработческий процесс; к запуску накопится один год. Маркер: by the time + for a year."
+		},
+		{
+			"question": "К следующему году они будут путешествовать по Азии уже восемь месяцев.",
+			"answer": "By next year, they will have been travelling through Asia for eight months.",
+			"explanation": "Путешествие по Азии — длящееся действие; к следующему году составит восемь месяцев. Маркер: by next year + for eight months."
+		},
+		{
+			"question": "К тому времени, как заработает новая система, специалисты будут её настраивать уже три месяца.",
+			"answer": "By the time the new system starts working, the specialists will have been configuring it for three months.",
+			"explanation": "Настройка системы — длящееся техническое действие; к её запуску накопится три месяца. Маркер: by the time + for three months."
+		},
+		{
+			"question": "К следующему году она будет участвовать в театральном кружке уже шесть лет.",
+			"answer": "By next year, she will have been taking part in the drama club for six years.",
+			"explanation": "Участие в театральном кружке — длящийся процесс; к следующему году составит шесть лет. Маркер: by next year + for six years."
+		},
+		{
+			"question": "К тому времени, как он откроет собственный бизнес, он будет работать на чужих условиях уже десять лет.",
+			"answer": "By the time he opens his own business, he will have been working on other people's terms for ten years.",
+			"explanation": "Работа на чужих условиях — длящееся профессиональное состояние; к открытию своего бизнеса накопится десять лет. Маркер: by the time + for ten years."
+		},
+		{
+			"question": "К следующему лету они будут жить без телевизора уже два года.",
+			"answer": "By next summer, they will have been living without a television for two years.",
+			"explanation": "Жизнь без телевизора — длящееся состояние; к следующему лету составит два года. Маркер: by next summer + for two years."
+		},
+		{
+			"question": "К тому времени, как объявят об итогах голосования, члены совета будут заседать уже четыре часа.",
+			"answer": "By the time the voting results are announced, the board members will have been meeting for four hours.",
+			"explanation": "Заседание совета — длящееся действие; к объявлению итогов накопится четыре часа. Маркер: by the time + for four hours."
+		},
+		{
+			"question": "К следующей осени он будет изучать экономику уже три года.",
+			"answer": "By next autumn, he will have been studying economics for three years.",
+			"explanation": "Изучение экономики — длящийся процесс; к следующей осени составит три года. Маркер: by next autumn + for three years."
+		},
+		{
+			"question": "К тому времени, как завершится реставрация картины, художники-реставраторы будут работать над ней уже год.",
+			"answer": "By the time the painting's restoration is finished, the restorers will have been working on it for a year.",
+			"explanation": "Реставрация картины — длящееся художественное действие; к завершению накопится один год. Маркер: by the time + for a year."
 		}
 	]
 }
