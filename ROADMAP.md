@@ -5,6 +5,11 @@
 - Option to handle user account locally in browser with import/export via JSON.
 - Implement PWA.
 
+## Testing
+
+- Test main ui components.
+- Test server logic.
+
 ## User Profile
 
 - Keep user result statistics (stored in localStorage, migrates to DB on account creation).
