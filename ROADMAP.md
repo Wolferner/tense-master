@@ -12,6 +12,10 @@
 - Correct answers chart.
 - Knowledge per tense breakdown.
 
+## Localization
+
+- Give opportunity use app in many countries.
+
 ## Data Migration
 
 - When user creates an account, migrate local history to the server.
