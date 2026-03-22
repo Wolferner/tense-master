@@ -9,7 +9,9 @@
 		"lint": "eslint",
 		"lint:check": "npx eslint .",
 		"format:check": "prettier --check .",
-		"format:write": "prettier --write ."
+		"format:write": "prettier --write .",
+		"prepare": "husky",
+		"postinstall": "npx prisma generate  "
 	},
 	"dependencies": {
 		"@prisma/adapter-neon": "^7.5.0",
