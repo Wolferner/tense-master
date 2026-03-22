@@ -119,23 +119,29 @@ const TenseTrainer = () => {
 								</button>
 							))}
 						</div>
-						{mode === 'fixed' && (
-							<div className='flex gap-2'>
-								{FIXED_LIMITS.map(limit => (
-									<button
-										key={limit}
-										onClick={() => setFixedLimit(limit as FixedLimit)}
-										className={`rounded-lg border px-4 py-2 text-sm transition-colors ${
-											fixedLimit === limit
-												? 'border-primary bg-primary text-primary-foreground'
-												: 'border-border bg-background text-muted-foreground hover:bg-muted'
-										}`}
-									>
-										{limit}
-									</button>
-								))}
+						<div
+							className={`grid transition-all duration-200 ease-in-out ${
+								mode === 'fixed' ? 'grid-rows-[1fr]' : '-mt-3 grid-rows-[0fr]'
+							}`}
+						>
+							<div className='overflow-hidden'>
+								<div className='flex gap-2'>
+									{FIXED_LIMITS.map(limit => (
+										<button
+											key={limit}
+											onClick={() => setFixedLimit(limit as FixedLimit)}
+											className={`rounded-lg border px-4 py-2 text-sm transition-colors ${
+												fixedLimit === limit
+													? 'border-primary bg-primary text-primary-foreground'
+													: 'border-border bg-background text-muted-foreground hover:bg-muted'
+											}`}
+										>
+											{limit}
+										</button>
+									))}
+								</div>
 							</div>
-						)}
+						</div>
 					</div>
 
 					<div className='flex gap-3'>
