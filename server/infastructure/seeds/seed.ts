@@ -10,7 +10,7 @@ import { Tense } from '../../domain/value-objects';
 
 // neonConfig.webSocketConstructor = ws;
 
-const adapter = new PrismaNeon({ connectionString: process.env.DATABASE_URL! });
+const adapter = new PrismaNeon({ connectionString: process.env.DATABASE_URL_UNPOOLED! });
 const prisma = new PrismaClient({ adapter });
 
 interface SeedFile {
