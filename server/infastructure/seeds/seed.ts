@@ -1,9 +1,17 @@
+import { PrismaClient } from '@/prisma/generated/prisma/client';
+import { neonConfig } from '@neondatabase/serverless';
+import { PrismaNeon } from '@prisma/adapter-neon';
 import 'dotenv/config';
 import { readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import ws from 'ws';
 import { Tense } from '../../domain/value-objects';
-import { prisma } from '../prisma-orm/prismaClient';
+
+neonConfig.webSocketConstructor = ws;
+
+const adapter = new PrismaNeon({ connectionString: process.env.DATABASE_URL! });
+const prisma = new PrismaClient({ adapter });
 
 interface SeedFile {
 	tense: Tense;
