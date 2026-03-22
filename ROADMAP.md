@@ -38,3 +38,13 @@
 - Telegram Mini App implementation.
 - Basic UI parity with web version.
 - Telegram bot(basic functional).
+
+## Add metrics
+
+- Need collect basic metrics to understand user flow.
+- Location metrics.
+
+## Donations
+
+- Add opportunity donate with crypto.
+- Add popup for asking donations.
