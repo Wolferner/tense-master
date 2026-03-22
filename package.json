@@ -2,6 +2,29 @@
 	"name": "tense-master",
 	"version": "0.1.0",
 	"private": true,
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Wolferner/tense-master.git"
+	},
+	"keywords": [
+		"nextjs",
+		"prisma",
+		"typescript",
+		"tailwindcss",
+		"react",
+		"postgres",
+		"english-learning",
+		"language-learning",
+		"spaced-repetition",
+		"flashcards",
+		"grammar-practice",
+		"language"
+	],
+	"author": {
+		"name": "Wolferner",
+		"email": "maksim.scerbuk@gmail.com"
+	},
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
