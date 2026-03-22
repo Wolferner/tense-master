@@ -6,6 +6,8 @@ on:
 jobs:
   seed:
     runs-on: ubuntu-latest
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
     steps:
       - uses: actions/checkout@v4
 
@@ -15,6 +17,12 @@ jobs:
 
       - run: npm ci
 
+      - name: Debug env
+        run: |
+          if [ -z "$DATABASE_URL" ]; then
+            echo "DATABASE_URL is EMPTY"
+          else
+            echo "DATABASE_URL is set (${#DATABASE_URL} chars)"
+          fi
+
       - run: npx tsx server/infastructure/seeds/seed.ts
-        env:
-          DATABASE_URL: ${{ secrets.DATABASE_URL }}
