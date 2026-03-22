@@ -8,9 +8,9 @@ English tenses practice app. User selects which tenses to practice, gets a sente
 
 Onion architecture. All server-side code lives under `server/`:
 
-- `server/domain/` — entities, value objects, repository interfaces. No external dependencies.
-- `server/aplication/` — use cases. Depends only on domain.
-- `server/infastructure/` — Prisma, DB, external services.
+- `server/domain/` — entities, value objects, repository interfaces (`IExerciseRepository`). No external dependencies.
+- `server/aplication/` — business logic (services) and DTOs. Depends only on domain.
+- `server/infastructure/` — controllers (HTTP handlers) and repository implementations (Prisma). Depends on domain + application.
 
 Client/UI code:
 
@@ -36,11 +36,11 @@ server/
 presentation/
   web/
     pages/            Home/, TenseTrainer/, Profile/, Settings/
-  telegram/
+  telegram/           (empty — not yet implemented)
   components/
 app/
   (web)/              page.tsx, tense-trainer/, profile/, settings.tsx/ ← bug: rename to settings/
-  telegram/
+  telegram/           (stubs only)
   api/excersises/
 shared/
 prisma/
@@ -57,7 +57,7 @@ prisma/
 
 - No auth, no user model — all settings and history stored in localStorage
 - DB is content-only: exercises + enum tenses
-- Prisma Client output: `app/generated/prisma`
+- Prisma Client output: `prisma/generated/prisma`
 
 ## Data model
 
@@ -72,6 +72,8 @@ model TenseExerciseQuestion {
   tense       Tense
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
+
+  @@unique([question, tense])
 }
 
 enum Tense {
@@ -87,5 +89,6 @@ enum Tense {
 - React 19, TypeScript, Tailwind CSS v4
 - Prisma 7, PostgreSQL (Neon), migrations in `prisma/migrations/`
 - Zod (validation), Zustand (client state)
+- shadcn/ui (radix-ui based components in `presentation/components/ui/`)
 - Prettier + ESLint + Husky + lint-staged
 - No testing setup
