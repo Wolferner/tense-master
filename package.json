@@ -10,6 +10,7 @@
 		"lint:check": "npx eslint .",
 		"format:check": "prettier --check .",
 		"format:write": "prettier --write .",
+		"typecheck": "tsc --noEmit",
 		"prepare": "husky",
 		"postinstall": "npx prisma generate  "
 	},
