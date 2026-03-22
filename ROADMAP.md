@@ -1,0 +1,31 @@
+# Roadmap
+
+## Local first
+
+- Option to handle user account locally in browser with import/export via JSON.
+- Implement PWA.
+
+## User Profile
+
+- Keep user result statistics (stored in localStorage, migrates to DB on account creation).
+- Learning speed chart.
+- Correct answers chart.
+- Knowledge per tense breakdown.
+
+## Data Migration
+
+- When user creates an account, migrate local history to the server.
+- Merge strategy for existing server data.
+
+## User Account
+
+- Option to login with:
+  - OAuth
+  - Credentials
+  - Crypto wallet
+
+## Telegram
+
+- Telegram Mini App implementation.
+- Basic UI parity with web version.
+- Telegram bot(basic functional).
