@@ -4,7 +4,6 @@ import { useCallback, useState } from 'react';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { ExerciseResponseDto } from '@/server/aplication/exercise';
 import { Tense, TenseType } from '@/server/domain/value-objects';
-import { Badge } from '@/presentation/components/ui/badge';
 import { Button } from '@/presentation/components/ui/button';
 import { Checkbox } from '@/presentation/components/ui/checkbox';
 import { Textarea } from '@/presentation/components/ui/textarea';
@@ -216,8 +215,7 @@ const TenseTrainer = () => {
 					key={currentIndex}
 					className='animate-in fade-in slide-in-from-bottom-4 flex flex-col gap-8 duration-300'
 				>
-					<div className='flex items-center justify-between'>
-						<Badge variant='outline'>{TENSE_LABELS[current.tense]}</Badge>
+					<div className='flex items-center justify-end'>
 						<span className='text-muted-foreground text-sm'>
 							{mode === 'infinite'
 								? `# ${currentIndex + 1}`
