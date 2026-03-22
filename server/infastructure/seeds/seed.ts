@@ -2,9 +2,8 @@ import 'dotenv/config';
 import { readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { PrismaClient } from '@/prisma/generated/prisma/client';
-import { PrismaNeon } from '@prisma/adapter-neon';
 import { Tense } from '../../domain/value-objects';
+import { prisma } from '../prisma-orm/prismaClient';
 
 interface SeedFile {
 	tense: Tense;
@@ -35,9 +34,6 @@ const __dirname = dirname(__filename);
 const DATA_DIR = join(__dirname, 'data');
 
 async function main() {
-	const adapter = new PrismaNeon({ connectionString: process.env.DATABASE_URL! });
-	const prisma = new PrismaClient({ adapter });
-
 	for (const [tense, filename] of Object.entries(FILES) as [Tense, string][]) {
 		const raw = readFileSync(join(DATA_DIR, filename), 'utf-8');
 		const file: SeedFile = JSON.parse(raw);
