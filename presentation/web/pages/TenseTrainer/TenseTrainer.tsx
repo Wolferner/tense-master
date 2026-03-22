@@ -8,7 +8,7 @@ import { Badge } from '@/presentation/components/ui/badge';
 import { Button } from '@/presentation/components/ui/button';
 import { Checkbox } from '@/presentation/components/ui/checkbox';
 import { Textarea } from '@/presentation/components/ui/textarea';
-import { TENSE_LABELS } from '@/shared/config/tenseLabels';
+import { TENSE_GROUPS, TENSE_LABELS } from '@/shared/config/tenseLabels';
 import { FIXED_LIMITS, FixedLimit, SessionMode, useTenseStore } from '@/shared/stores/useTenseStore';
 
 type Step = 'select' | 'training' | 'result';
@@ -27,7 +27,7 @@ async function fetchExercises(tenses: TenseType[], limit: number): Promise<Exerc
 }
 
 const TenseTrainer = () => {
-	const { selectedTenses, toggleTense, selectAll, clearAll, mode, fixedLimit, setMode, setFixedLimit } =
+	const { selectedTenses, toggleTense, selectAll, clearAll, mode, fixedLimit, setMode, setFixedLimit, setTenses } =
 		useTenseStore();
 
 	const [step, setStep] = useState<Step>('select');
@@ -134,19 +134,49 @@ const TenseTrainer = () => {
 						</Button>
 					</div>
 
-					<div className='grid grid-cols-1 gap-3 sm:grid-cols-2'>
-						{ALL_TENSES.map(tense => (
-							<label
-								key={tense}
-								className='flex cursor-pointer items-center gap-3 rounded-lg border border-border bg-card p-4 transition-colors hover:bg-muted'
-							>
-								<Checkbox
-									checked={selectedTenses.includes(tense)}
-									onCheckedChange={() => toggleTense(tense)}
-								/>
-								<span className='text-sm font-medium text-foreground'>{TENSE_LABELS[tense]}</span>
-							</label>
-						))}
+					<div className='flex flex-col gap-6'>
+						{TENSE_GROUPS.map(group => {
+							const allSelected = group.tenses.every(t => selectedTenses.includes(t));
+							const someSelected = group.tenses.some(t => selectedTenses.includes(t));
+
+							const toggleGroup = () => {
+								if (allSelected) {
+									setTenses(selectedTenses.filter(t => !group.tenses.includes(t)));
+								} else {
+									setTenses([...new Set([...selectedTenses, ...group.tenses])]);
+								}
+							};
+
+							return (
+								<div key={group.label} className='flex flex-col gap-2'>
+									<div className='flex items-center justify-between'>
+										<span className='text-sm font-semibold text-foreground'>{group.label}</span>
+										<button
+											onClick={toggleGroup}
+											className='text-xs text-primary hover:underline'
+										>
+											{allSelected ? 'Снять' : someSelected ? 'Выбрать все' : 'Выбрать все'}
+										</button>
+									</div>
+									<div className='grid grid-cols-1 gap-2 sm:grid-cols-2'>
+										{group.tenses.map(tense => (
+											<label
+												key={tense}
+												className='flex cursor-pointer items-center gap-3 rounded-lg border border-border bg-card p-4 transition-colors hover:bg-muted'
+											>
+												<Checkbox
+													checked={selectedTenses.includes(tense)}
+													onCheckedChange={() => toggleTense(tense)}
+												/>
+												<span className='text-sm font-medium text-foreground'>
+													{TENSE_LABELS[tense]}
+												</span>
+											</label>
+										))}
+									</div>
+								</div>
+							);
+						})}
 					</div>
 
 					<Button size='lg' onClick={startTraining} disabled={selectedTenses.length === 0 || isLoading}>

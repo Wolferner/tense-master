@@ -14,3 +14,33 @@ export const TENSE_LABELS: Record<TenseType, string> = {
 	[Tense.FUTURE_PERFECT]: 'Future Perfect',
 	[Tense.FUTURE_PERFECT_CONTINUOUS]: 'Future Perfect Continuous',
 };
+
+export const TENSE_GROUPS: { label: string; tenses: TenseType[] }[] = [
+	{
+		label: 'Present',
+		tenses: [
+			Tense.PRESENT_SIMPLE,
+			Tense.PRESENT_CONTINUOUS,
+			Tense.PRESENT_PERFECT,
+			Tense.PRESENT_PERFECT_CONTINUOUS,
+		],
+	},
+	{
+		label: 'Past',
+		tenses: [
+			Tense.PAST_SIMPLE,
+			Tense.PAST_CONTINUOUS,
+			Tense.PAST_PERFECT,
+			Tense.PAST_PERFECT_CONTINUOUS,
+		],
+	},
+	{
+		label: 'Future',
+		tenses: [
+			Tense.FUTURE_SIMPLE,
+			Tense.FUTURE_CONTINUOUS,
+			Tense.FUTURE_PERFECT,
+			Tense.FUTURE_PERFECT_CONTINUOUS,
+		],
+	},
+];

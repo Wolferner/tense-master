@@ -8,12 +8,14 @@ export class ExerciseService {
 	constructor(private readonly exerciseRepository: IExerciseRepository) {}
 
 	async create(dto: CreateExerciseDto): Promise<ExerciseResponseDto> {
+		//NOTE:  need to
 		const exercise = new Exercise(
-			crypto.randomUUID(),
 			dto.tense,
 			dto.question,
 			dto.answer,
 			dto.explanation,
+
+			crypto.randomUUID(), // generate id here since the domain entity is not responsible for it
 			new Date(), // createdAt
 			new Date(), // updatedAt
 		);

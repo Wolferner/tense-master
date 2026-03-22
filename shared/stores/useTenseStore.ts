@@ -15,6 +15,7 @@ interface TenseStore {
 	toggleTense: (tense: TenseType) => void;
 	selectAll: () => void;
 	clearAll: () => void;
+	setTenses: (tenses: TenseType[]) => void;
 	setMode: (mode: SessionMode) => void;
 	setFixedLimit: (limit: FixedLimit) => void;
 }
@@ -35,6 +36,7 @@ export const useTenseStore = create<TenseStore>()(
 				})),
 			selectAll: () => set({ selectedTenses: ALL_TENSES }),
 			clearAll: () => set({ selectedTenses: [] }),
+			setTenses: tenses => set({ selectedTenses: tenses }),
 			setMode: mode => set({ mode }),
 			setFixedLimit: fixedLimit => set({ fixedLimit }),
 		}),

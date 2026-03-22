@@ -9,7 +9,6 @@ export class PrismaExerciseRepository implements IExerciseRepository {
 	async create(exercise: Exercise): Promise<Exercise> {
 		const record = await this.prisma.tenseExerciseQuestion.create({
 			data: {
-				id: exercise.id,
 				tense: exercise.tense,
 				question: exercise.question,
 				answer: exercise.answer,
@@ -49,11 +48,11 @@ export class PrismaExerciseRepository implements IExerciseRepository {
 
 	private toDomain(record: TenseExerciseQuestion): Exercise {
 		return new Exercise(
-			record.id,
 			record.tense,
 			record.question,
 			record.answer,
 			record.explanation,
+			record.id,
 			record.createdAt,
 			record.updatedAt,
 		);
