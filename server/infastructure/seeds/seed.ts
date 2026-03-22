@@ -1,16 +1,14 @@
 import { PrismaClient } from '@/prisma/generated/prisma/client';
-// import { neonConfig } from '@neondatabase/serverless';
+import { neonConfig } from '@neondatabase/serverless';
 import { PrismaNeon } from '@prisma/adapter-neon';
 import 'dotenv/config';
 import { readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-// import ws from 'ws';
+import ws from 'ws';
 import { Tense } from '../../domain/value-objects';
 
-// neonConfig.webSocketConstructor = ws;
-
-// neonConfig.webSocketConstructor = ws;
+neonConfig.webSocketConstructor = ws;
 
 const adapter = new PrismaNeon({ connectionString: process.env.DATABASE_URL! });
 const prisma = new PrismaClient({ adapter });
