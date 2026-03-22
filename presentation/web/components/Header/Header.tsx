@@ -1,0 +1,59 @@
+'use client';
+
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import { User } from 'lucide-react';
+import { Button } from '@/presentation/components/ui/button';
+import { cn } from '@/shared/lib/utils';
+
+const NAV_LINKS = [
+	{ href: '/', label: 'Home' },
+	{ href: '/tense-trainer', label: 'Trainer' },
+];
+
+const Header = () => {
+	const pathname = usePathname();
+
+	return (
+		<header className='sticky top-0 z-50 border-b border-border bg-background/90 backdrop-blur-md'>
+			<div className='mx-auto flex h-16 max-w-5xl items-center justify-between px-6'>
+				<div className='flex items-center gap-10'>
+					<Link href='/' className='flex items-center gap-2'>
+						<span className='flex size-7 items-center justify-center rounded-md bg-primary text-xs font-bold text-primary-foreground'>
+							T
+						</span>
+						<span className='text-sm font-semibold tracking-tight text-foreground'>
+							Tense<span className='text-primary'>Master</span>
+						</span>
+					</Link>
+
+					<nav className='flex items-center gap-0.5'>
+						{NAV_LINKS.map(link => (
+							<Link
+								key={link.href}
+								href={link.href}
+								className={cn(
+									'relative px-4 py-1.5 text-sm font-medium transition-colors',
+									pathname === link.href
+										? 'text-foreground'
+										: 'text-muted-foreground hover:text-foreground',
+								)}
+							>
+								{link.label}
+								{pathname === link.href && (
+									<span className='absolute inset-x-2 -bottom-[17px] h-0.5 rounded-full bg-primary' />
+								)}
+							</Link>
+						))}
+					</nav>
+				</div>
+
+				<Button variant='ghost' size='icon-sm' disabled title='Coming soon'>
+					<User />
+				</Button>
+			</div>
+		</header>
+	);
+};
+
+export default Header;

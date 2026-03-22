@@ -74,8 +74,8 @@ const TenseTrainer = () => {
 
 	if (step === 'select') {
 		return (
-			<main className='min-h-screen overflow-hidden bg-background text-foreground'>
-				<div className='animate-in fade-in slide-in-from-bottom-4 duration-300 mx-auto flex min-h-screen max-w-2xl flex-col gap-8 px-6 py-16'>
+			<main className='flex flex-1 flex-col overflow-hidden bg-background text-foreground'>
+				<div className='animate-in fade-in slide-in-from-bottom-4 duration-300 mx-auto flex w-full max-w-2xl flex-col gap-8 px-6 py-16'>
 					<div className='flex items-center justify-between'>
 						<div>
 							<h1 className='text-3xl font-bold text-foreground'>Tense Trainer</h1>
@@ -190,8 +190,8 @@ const TenseTrainer = () => {
 	if (!current) return null;
 
 	return (
-		<main className='min-h-screen bg-background text-foreground'>
-			<div className='mx-auto flex min-h-screen max-w-2xl flex-col gap-8 px-6 py-16'>
+		<main className='flex flex-1 flex-col bg-background text-foreground'>
+			<div className='mx-auto flex w-full max-w-2xl flex-col gap-8 px-6 py-16'>
 				<Button variant='ghost' size='sm' className='-ml-2 w-fit' onClick={() => setStep('select')}>
 					<ArrowLeft />
 					Назад

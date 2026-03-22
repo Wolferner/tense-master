@@ -21,8 +21,8 @@ const REASONS = [
 
 const HomePage = () => {
 	return (
-		<main className='min-h-screen bg-background text-foreground'>
-			<div className='mx-auto flex min-h-screen max-w-3xl flex-col items-center justify-center gap-16 px-6 py-24'>
+		<main className='flex flex-1 flex-col bg-background text-foreground'>
+			<div className='mx-auto flex flex-1 max-w-3xl flex-col items-center justify-center gap-16 px-6 py-24'>
 				<section className='flex flex-col items-center gap-6 text-center'>
 					<span className='rounded-full border border-border bg-card px-4 py-1.5 text-sm text-primary'>
 						English Tenses Trainer
