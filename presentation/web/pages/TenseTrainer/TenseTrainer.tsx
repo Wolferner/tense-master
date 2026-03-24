@@ -1,35 +1,17 @@
 'use client';
 
-import { useCallback, useState } from 'react';
-import { ArrowLeft, ArrowRight } from 'lucide-react';
-import { ExerciseResponseDto } from '@/server/aplication/exercise';
-import { Tense, TenseType } from '@/server/domain/value-objects';
 import { Badge } from '@/presentation/components/ui/badge';
 import { Button } from '@/presentation/components/ui/button';
 import { Checkbox } from '@/presentation/components/ui/checkbox';
 import { Textarea } from '@/presentation/components/ui/textarea';
+import { ExerciseResponseDto } from '@/server/aplication/exercise';
 import { TENSE_GROUPS, TENSE_LABELS } from '@/shared/config/tenseLabels';
-import {
-	FIXED_LIMITS,
-	FixedLimit,
-	SessionMode,
-	useTenseStore,
-} from '@/shared/stores/useTenseStore';
+import { ArrowLeft, ArrowRight } from 'lucide-react';
+import { useCallback, useState } from 'react';
 
-type Step = 'select' | 'training' | 'result';
-
-const ALL_TENSES = Object.values(Tense) as TenseType[];
-
-const MODE_LABELS: Record<SessionMode, string> = {
-	fixed: 'Фиксированное количество',
-	infinite: 'Бесконечный режим',
-};
-
-async function fetchExercises(tenses: TenseType[], limit: number): Promise<ExerciseResponseDto[]> {
-	const params = new URLSearchParams({ tenses: tenses.join(','), limit: String(limit) });
-	const res = await fetch(`/api/excersises?${params}`);
-	return res.json();
-}
+import { useTenseStore } from '@/shared/stores/useTenseStore';
+import { fetchExercises } from './api/fetchExercises';
+import { FIXED_LIMITS, FixedLimit, MODE_LABELS, SessionMode, Step } from './logic/types';
 
 const TenseTrainer = () => {
 	const {

@@ -1,23 +1,7 @@
-import Link from 'next/link';
 import { Button } from '@/presentation/components/ui/button';
-
-const REASONS = [
-	{
-		title: 'Контекст решает всё',
-		description:
-			'В английском одно и то же действие может передаваться разными временами в зависимости от смысла, который вы хотите выразить.',
-	},
-	{
-		title: '12 времён — не миф',
-		description:
-			'Каждое время имеет свои маркеры и логику. Без практики они смешиваются и перестают ощущаться интуитивно.',
-	},
-	{
-		title: 'Рабочих тренажёров нет',
-		description:
-			'Я не нашёл ни одного инструмента, который действительно тренирует выбор времени по контексту — поэтому создал его сам.',
-	},
-];
+import Link from 'next/link';
+import { REASONS } from './logic/reason';
+import Reason from './ui/Reason';
 
 const HomePage = () => {
 	return (
@@ -40,10 +24,7 @@ const HomePage = () => {
 
 				<section className='grid w-full gap-4 sm:grid-cols-3'>
 					{REASONS.map(reason => (
-						<div key={reason.title} className='border-border bg-card rounded-xl border p-6'>
-							<h3 className='text-primary mb-2 font-semibold'>{reason.title}</h3>
-							<p className='text-muted-foreground text-sm leading-relaxed'>{reason.description}</p>
-						</div>
+						<Reason key={reason.title} reason={reason} />
 					))}
 				</section>
 			</div>

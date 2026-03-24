@@ -1,12 +1,10 @@
 'use client';
 
+import type { FixedLimit, SessionMode } from '@/presentation/web/pages/TenseTrainer/logic/types';
+import { TenseType } from '@/server/domain/value-objects';
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import { Tense, TenseType } from '@/server/domain/value-objects';
-
-export type SessionMode = 'fixed' | 'infinite';
-export const FIXED_LIMITS = [5, 10, 20] as const;
-export type FixedLimit = (typeof FIXED_LIMITS)[number];
+import { DEFAULT_TENSES } from '../config/storeDefaults';
 
 interface TenseStore {
 	selectedTenses: TenseType[];
@@ -20,12 +18,10 @@ interface TenseStore {
 	setFixedLimit: (limit: FixedLimit) => void;
 }
 
-const ALL_TENSES = Object.values(Tense) as TenseType[];
-
 export const useTenseStore = create<TenseStore>()(
 	persist(
 		set => ({
-			selectedTenses: ALL_TENSES,
+			selectedTenses: DEFAULT_TENSES,
 			mode: 'fixed',
 			fixedLimit: 10,
 			toggleTense: tense =>
@@ -34,7 +30,7 @@ export const useTenseStore = create<TenseStore>()(
 						? state.selectedTenses.filter(t => t !== tense)
 						: [...state.selectedTenses, tense],
 				})),
-			selectAll: () => set({ selectedTenses: ALL_TENSES }),
+			selectAll: () => set({ selectedTenses: DEFAULT_TENSES }),
 			clearAll: () => set({ selectedTenses: [] }),
 			setTenses: tenses => set({ selectedTenses: tenses }),
 			setMode: mode => set({ mode }),
