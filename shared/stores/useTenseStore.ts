@@ -12,11 +12,20 @@ import { persist } from 'zustand/middleware';
 import { fetchExercises } from '../api/fetchExercises';
 import { DEFAULT_TENSES } from '../config/storeDefaults';
 import { ITenseGroup } from '../config/tenseLabels';
+import { validateAnswer } from '../lib';
 
-export interface ExerciseAnswer {
+type ExerciseAnswerManual = {
 	answer: string;
-	skipped: boolean;
-}
+	skipped: false;
+	isCorrect: boolean;
+};
+
+type ExerciseAnswerSkipped = {
+	answer: string;
+	skipped: true;
+};
+
+export type ExerciseAnswer = ExerciseAnswerManual | ExerciseAnswerSkipped;
 
 interface TenseStoreState {
 	selectedTenses: TenseType[];
@@ -85,11 +94,14 @@ export const useTenseStore = create<TenseStore>()(
 			setStep: step => set({ step }),
 
 			submitAnswer: (answer, exerciseId) => {
+				const { exercises } = get();
+				const exercise = exercises.find(e => e.id === exerciseId)!;
+				const skipped = answer.trim().length === 0;
+				const record: ExerciseAnswer = skipped
+					? { answer, skipped: true }
+					: { answer, skipped: false, isCorrect: validateAnswer(answer, exercise.answer) };
 				set(state => ({
-					answers: {
-						...state.answers,
-						[exerciseId]: { answer, skipped: answer.trim().length === 0 },
-					},
+					answers: { ...state.answers, [exerciseId]: record },
 				}));
 			},
 

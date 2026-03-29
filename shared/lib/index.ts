@@ -1,3 +1,2 @@
-import { cn } from './utils';
-
-export { cn };
+export { cn } from './utils';
+export { validateAnswer } from './validateAnswer';
