@@ -1,22 +1,21 @@
 'use client';
 
-import { FIXED_LIMITS, FixedLimit, MODE_LABELS, SessionMode } from '../logic/types';
+import { FIXED_LIMITS, FixedLimit, MODE_LABELS, TrainingMode } from '../../logic/types';
 
 type Props = {
-	mode: SessionMode;
+	mode: TrainingMode;
 	fixedLimit: FixedLimit;
-	onModeChange: (mode: SessionMode) => void;
-	onLimitChange: (limit: FixedLimit) => void;
+	onUpdate: (patch: { mode?: TrainingMode; limit?: FixedLimit }) => void;
 };
 
-const ModeSelector = ({ mode, fixedLimit, onModeChange, onLimitChange }: Props) => (
+const ModeSelector = ({ mode, fixedLimit, onUpdate }: Props) => (
 	<div className='border-border bg-card flex flex-col gap-3 rounded-xl border p-5'>
 		<p className='text-foreground text-sm font-semibold'>Режим</p>
 		<div className='flex gap-2'>
-			{(['fixed', 'infinite'] as SessionMode[]).map(m => (
+			{(['fixed', 'infinite'] as TrainingMode[]).map(m => (
 				<button
 					key={m}
-					onClick={() => onModeChange(m)}
+					onClick={() => onUpdate({ mode: m })}
 					className={`rounded-lg border px-4 py-2 text-sm transition-colors ${
 						mode === m
 							? 'border-primary bg-primary text-primary-foreground'
@@ -37,7 +36,7 @@ const ModeSelector = ({ mode, fixedLimit, onModeChange, onLimitChange }: Props) 
 					{FIXED_LIMITS.map(limit => (
 						<button
 							key={limit}
-							onClick={() => onLimitChange(limit as FixedLimit)}
+							onClick={() => onUpdate({ limit: limit })}
 							className={`rounded-lg border px-4 py-2 text-sm transition-colors ${
 								fixedLimit === limit
 									? 'border-primary bg-primary text-primary-foreground'

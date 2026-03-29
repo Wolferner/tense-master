@@ -6,13 +6,13 @@ import { Textarea } from '@/presentation/components/ui/textarea';
 import { ExerciseResponseDto } from '@/server/aplication/exercise';
 import { TENSE_LABELS } from '@/shared/config/tenseLabels';
 import { ArrowLeft } from 'lucide-react';
-import { SessionMode, Step } from '../logic/types';
+import { Step, TrainingMode } from '../logic/types';
 
 type Props = {
 	current: ExerciseResponseDto;
 	currentIndex: number;
 	totalExercises: number;
-	mode: SessionMode;
+	mode: TrainingMode;
 	step: Exclude<Step, 'select'>;
 	userAnswer: string;
 	setUserAnswer: (v: string) => void;

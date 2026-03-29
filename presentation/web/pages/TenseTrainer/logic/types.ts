@@ -1,8 +1,9 @@
 export type Step = 'select' | 'training' | 'result';
-export type SessionMode = 'fixed' | 'infinite';
-export const FIXED_LIMITS = [5, 10, 20] as const;
+export type TrainingMode = 'fixed' | 'infinite';
 export type FixedLimit = (typeof FIXED_LIMITS)[number];
-export const MODE_LABELS: Record<SessionMode, string> = {
+
+export const FIXED_LIMITS = [5, 10, 20] as const;
+export const MODE_LABELS: Record<TrainingMode, string> = {
 	fixed: 'Фиксированное количество',
 	infinite: 'Бесконечный режим',
 };

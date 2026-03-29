@@ -1,92 +1,92 @@
 'use client';
 
-import { ExerciseResponseDto } from '@/server/aplication/exercise';
 import { useTenseStore } from '@/shared/stores/useTenseStore';
-import { useCallback, useState } from 'react';
+import { useState } from 'react';
 import { fetchExercises } from './api/fetchExercises';
-import { Step } from './logic/types';
-import SelectStep from './ui/SelectStep';
-import TrainingStep from './ui/TrainingStep';
+import SelectTrainingSection from './ui/SelectTrainingSection/SelectTrainingSection';
+import TrainingSection from './ui/TrainingSection';
 
 const TenseTrainer = () => {
 	const {
 		selectedTenses,
+		mode,
+		fixedLimit,
+		exercises,
+		step,
+		currentExerciseIndex,
+		isLoading,
 		toggleTense,
 		selectAll,
 		clearAll,
-		mode,
-		fixedLimit,
-		setMode,
-		setFixedLimit,
-		setTenses,
+		toggleGroup,
+
+		patchExercises,
+		setStep,
+		setCurrentExerciseIndex,
+		setIsLoading,
+
+		updateMode,
 	} = useTenseStore();
 
-	const [step, setStep] = useState<Step>('select');
-	const [exercises, setExercises] = useState<ExerciseResponseDto[]>([]);
-	const [currentIndex, setCurrentIndex] = useState(0);
 	const [userAnswer, setUserAnswer] = useState('');
-	const [isLoading, setIsLoading] = useState(false);
 
-	const current = exercises[currentIndex];
+	const currentExercises = exercises[currentExerciseIndex];
 
-	const startTraining = useCallback(async () => {
+	const startTraining = async () => {
 		if (selectedTenses.length === 0) return;
 		setIsLoading(true);
 		const data = await fetchExercises(selectedTenses, mode === 'fixed' ? fixedLimit : 10);
-		setExercises(data);
-		setCurrentIndex(0);
+		patchExercises(data);
+		setCurrentExerciseIndex(0);
 		setUserAnswer('');
 		setStep('training');
 		setIsLoading(false);
-	}, [selectedTenses, mode, fixedLimit]);
+	};
 
-	const nextExercise = useCallback(async () => {
+	const nextExercise = async () => {
 		if (mode === 'infinite') {
 			setIsLoading(true);
 			const data = await fetchExercises(selectedTenses, 1);
-			setExercises(prev => [...prev, ...data]);
-			setCurrentIndex(i => i + 1);
+			patchExercises(data);
+			setCurrentExerciseIndex(currentExerciseIndex + 1);
 			setUserAnswer('');
 			setStep('training');
 			setIsLoading(false);
 			return;
 		}
 
-		if (currentIndex + 1 < exercises.length) {
-			setCurrentIndex(i => i + 1);
+		if (currentExerciseIndex + 1 < exercises.length) {
+			setCurrentExerciseIndex(currentExerciseIndex + 1);
 			setUserAnswer('');
 			setStep('training');
 		} else {
 			setStep('select');
 		}
-	}, [mode, currentIndex, exercises.length, selectedTenses]);
+	};
 
 	if (step === 'select') {
 		return (
-			<SelectStep
+			<SelectTrainingSection
 				selectedTenses={selectedTenses}
-				toggleTense={toggleTense}
-				selectAll={selectAll}
-				clearAll={clearAll}
-				setTenses={setTenses}
 				mode={mode}
 				fixedLimit={fixedLimit}
-				setMode={setMode}
-				setFixedLimit={setFixedLimit}
 				hasExercises={exercises.length > 0}
 				isLoading={isLoading}
+				toggleTense={toggleTense}
+				onToggleGroup={toggleGroup}
+				selectAll={selectAll}
+				clearAll={clearAll}
+				onUpdateMode={updateMode}
 				onContinue={() => setStep('training')}
 				onStart={startTraining}
 			/>
 		);
 	}
 
-	if (!current) return null;
-
 	return (
-		<TrainingStep
-			current={current}
-			currentIndex={currentIndex}
+		<TrainingSection
+			current={currentExercises}
+			currentIndex={currentExerciseIndex}
 			totalExercises={exercises.length}
 			mode={mode}
 			step={step}

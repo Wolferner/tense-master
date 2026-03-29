@@ -15,7 +15,11 @@ export const TENSE_LABELS: Record<TenseType, string> = {
 	[Tense.FUTURE_PERFECT_CONTINUOUS]: 'Future Perfect Continuous',
 };
 
-export const TENSE_GROUPS: { label: string; tenses: TenseType[] }[] = [
+export type ITenseGroup = {
+	label: string;
+	tenses: TenseType[];
+};
+export const TENSE_GROUPS: ITenseGroup[] = [
 	{
 		label: 'Present',
 		tenses: [
