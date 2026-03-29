@@ -9,11 +9,11 @@ import { ExerciseResponseDto } from '@/server/aplication/exercise';
 import { TenseType } from '@/server/domain/value-objects';
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import { fetchExercises } from '../api/fetchExercises';
-import { INFINITE_MODE_LIMIT, MAX_EXERCISES } from '../config/constants';
-import { DEFAULT_TENSES } from '../config/storeDefaults';
-import { ITenseGroup } from '../config/tenseLabels';
-import { validateAnswer } from '../lib';
+import { fetchExercises } from '../../api/fetchExercises';
+import { INFINITE_MODE_LIMIT, MAX_EXERCISES } from '../../config/constants';
+import { DEFAULT_TENSES } from '../../config/storeDefaults';
+import { ITenseGroup } from '../../config/tenseLabels';
+import { validateAnswer } from '../../lib';
 
 type ExerciseAnswerManual = {
 	answer: string;
@@ -58,7 +58,7 @@ interface TenseStoreActions {
 	nextExercise: () => Promise<void>;
 }
 
-type TenseStore = TenseStoreState & TenseStoreActions;
+export type TenseStore = TenseStoreState & TenseStoreActions;
 
 export const useTenseStore = create<TenseStore>()(
 	persist(

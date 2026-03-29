@@ -4,9 +4,11 @@ import { Badge } from '@/presentation/components/ui/badge';
 import { Button } from '@/presentation/components/ui/button';
 import { Textarea } from '@/presentation/components/ui/textarea';
 import { TENSE_LABELS } from '@/shared/config/tenseLabels';
-import { useTenseStore } from '@/shared/stores/useTenseStore';
+import { selectTrainingSection } from '@/shared/stores/useTenseStore/tenseStoreSelectors';
+import { useTenseStore } from '@/shared/stores/useTenseStore/useTenseStore';
 import { ArrowLeft } from 'lucide-react';
 import { useState } from 'react';
+import { useShallow } from 'zustand/react/shallow';
 import TaskResult from './TaskResult';
 
 const TrainingSection = () => {
@@ -20,7 +22,7 @@ const TrainingSection = () => {
 		setStep,
 		nextExercise,
 		submitAnswer,
-	} = useTenseStore();
+	} = useTenseStore(useShallow(selectTrainingSection));
 
 	const current = exercises[currentExerciseIndex];
 	const totalExercises = exercises.length;

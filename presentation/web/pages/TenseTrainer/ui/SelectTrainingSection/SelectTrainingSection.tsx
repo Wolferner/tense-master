@@ -2,8 +2,10 @@
 
 import { Button } from '@/presentation/components/ui/button';
 import { TENSE_GROUPS } from '@/shared/config/tenseLabels';
-import { useTenseStore } from '@/shared/stores/useTenseStore';
+import { selectSelectSection } from '@/shared/stores/useTenseStore/tenseStoreSelectors';
+import { useTenseStore } from '@/shared/stores/useTenseStore/useTenseStore';
 import { ArrowRight } from 'lucide-react';
+import { useShallow } from 'zustand/react/shallow';
 import ModeSelector from './ModeSelector';
 import TenseGroup from './TenseGroup';
 
@@ -21,7 +23,7 @@ const SelectTrainingSection = () => {
 		updateMode,
 		setStep,
 		startTraining,
-	} = useTenseStore();
+	} = useTenseStore(useShallow(selectSelectSection));
 
 	const hasExercises = exercises.length > 0;
 
