@@ -19,12 +19,14 @@ type ExerciseAnswerManual = {
 	skipped: false;
 	isCorrect: boolean;
 	createdAt: string;
+	sessionId: string;
 };
 
 type ExerciseAnswerSkipped = {
 	answer: string;
 	skipped: true;
 	createdAt: string;
+	sessionId: string;
 };
 
 export type ExerciseAnswer = ExerciseAnswerManual | ExerciseAnswerSkipped;
@@ -35,6 +37,7 @@ interface TenseStoreState {
 	fixedLimit: FixedLimit;
 	exercises: ExerciseResponseDto[];
 	answers: Record<string, ExerciseAnswer[]>;
+	sessionId: string;
 	step: Step;
 	currentExerciseIndex: number;
 	isLoading: boolean;
@@ -64,6 +67,7 @@ export const useTenseStore = create<TenseStore>()(
 			fixedLimit: 10,
 			exercises: [],
 			answers: {},
+			sessionId: '',
 			step: 'select',
 			currentExerciseIndex: 0,
 			isLoading: false,
@@ -96,17 +100,18 @@ export const useTenseStore = create<TenseStore>()(
 			setStep: step => set({ step }),
 
 			submitAnswer: (answer, exerciseId) => {
-				const { exercises } = get();
+				const { exercises, sessionId } = get();
 				const exercise = exercises.find(e => e.id === exerciseId)!;
 				const skipped = answer.trim().length === 0;
 				const createdAt = new Date().toISOString();
 				const record: ExerciseAnswer = skipped
-					? { answer, skipped: true, createdAt }
+					? { answer, skipped: true, createdAt, sessionId }
 					: {
 							answer,
 							skipped: false,
 							isCorrect: validateAnswer(answer, exercise.answer),
 							createdAt,
+							sessionId,
 						};
 				set(state => {
 					const previousAnswers = state.answers[exerciseId] || [];
@@ -126,6 +131,7 @@ export const useTenseStore = create<TenseStore>()(
 				);
 				set({
 					exercises: newExercises,
+					sessionId: crypto.randomUUID(),
 					currentExerciseIndex: 0,
 					step: 'training',
 					isLoading: false,
@@ -153,6 +159,18 @@ export const useTenseStore = create<TenseStore>()(
 			},
 		}),
 
-		{ name: 'tense-settings' },
+		{
+			name: 'tense-settings',
+			partialize: state => ({
+				selectedTenses: state.selectedTenses,
+				mode: state.mode,
+				fixedLimit: state.fixedLimit,
+				answers: state.answers,
+				sessionId: state.sessionId,
+				exercises: state.exercises,
+				step: state.step,
+				currentExerciseIndex: state.currentExerciseIndex,
+			}),
+		},
 	),
 );

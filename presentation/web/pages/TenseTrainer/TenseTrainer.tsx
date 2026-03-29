@@ -24,6 +24,7 @@ const TenseTrainer = () => {
 		startTraining,
 		nextExercise,
 		submitAnswer,
+		sessionId,
 	} = useTenseStore();
 
 	return (
@@ -50,6 +51,7 @@ const TenseTrainer = () => {
 					mode={mode}
 					isLoading={isLoading}
 					answers={answers}
+					sessionId={sessionId}
 					onBack={() => setStep('select')}
 					onCheck={submitAnswer}
 					onNext={nextExercise}

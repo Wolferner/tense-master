@@ -17,6 +17,7 @@ type Props = {
 	currentIndex: number;
 	mode: TrainingMode;
 	isLoading: boolean;
+	sessionId: string;
 	onBack: () => void;
 	onCheck: (answer: ExerciseAnswer['answer'], exerciseId: ExerciseResponseDto['id']) => void;
 	onNext: () => void;
@@ -27,6 +28,7 @@ const TrainingSection = ({
 	currentIndex,
 	answers,
 	mode,
+	sessionId,
 	isLoading,
 	onBack,
 	onCheck,
@@ -34,7 +36,7 @@ const TrainingSection = ({
 }: Props) => {
 	const current = exercises[currentIndex];
 	const totalExercises = exercises.length;
-	const answerRecord: ExerciseAnswer[] | undefined = answers[current.id];
+	const answerRecord = answers[current.id]?.findLast(a => a.sessionId === sessionId);
 
 	const [userAnswer, setUserAnswer] = useState(answerRecord?.answer ?? '');
 
