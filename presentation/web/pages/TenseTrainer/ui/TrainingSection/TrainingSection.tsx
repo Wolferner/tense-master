@@ -3,7 +3,7 @@
 import { Badge } from '@/presentation/components/ui/badge';
 import { Button } from '@/presentation/components/ui/button';
 import { Textarea } from '@/presentation/components/ui/textarea';
-import { TENSE_LABELS } from '@/shared/config/tenseLabels';
+import { TENSE_LABELS } from '@/presentation/web/pages/TenseTrainer/logic/tenseLabels';
 import { selectTrainingSection } from '@/shared/stores/useTenseStore/tenseStoreSelectors';
 import { useTenseStore } from '@/shared/stores/useTenseStore/useTenseStore';
 import { ArrowLeftIcon } from 'lucide-react';

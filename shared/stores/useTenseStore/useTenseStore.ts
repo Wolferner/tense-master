@@ -4,16 +4,16 @@ import type {
 	FixedLimit,
 	Step,
 	TrainingMode,
-} from '@/presentation/web/pages/TenseTrainer/logic/types';
+} from '@/presentation/web/pages/TenseTrainer/logic/config';
 import { ExerciseResponseDto } from '@/server/aplication/exercise';
 import { TenseType } from '@/server/domain/value-objects';
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
+import { ITenseGroup } from '../../../presentation/web/pages/TenseTrainer/logic/tenseLabels';
 import { fetchExercises } from '../../api/fetchExercises';
 import { INFINITE_MODE_LIMIT, MAX_EXERCISES } from '../../config/constants';
-import { DEFAULT_TENSES } from '../../config/storeDefaults';
-import { ITenseGroup } from '../../config/tenseLabels';
 import { validateAnswer } from '../../lib';
+import { DEFAULT_TENSES } from './storeDefaults';
 
 type ExerciseAnswerManual = {
 	answer: string;

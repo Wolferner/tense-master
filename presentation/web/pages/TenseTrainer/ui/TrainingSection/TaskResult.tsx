@@ -1,6 +1,6 @@
 import { Button } from '@/presentation/components/ui/button';
 import { type ExerciseResponseDto } from '@/server/aplication/exercise';
-import { type TrainingMode } from '../../logic/types';
+import { type TrainingMode } from '../../logic/config';
 
 interface TaskResultProps {
 	current: ExerciseResponseDto;

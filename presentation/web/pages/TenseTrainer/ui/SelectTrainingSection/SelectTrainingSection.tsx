@@ -1,7 +1,7 @@
 'use client';
 
 import { Button } from '@/presentation/components/ui/button';
-import { TENSE_GROUPS } from '@/shared/config/tenseLabels';
+import { TENSE_GROUPS } from '@/presentation/web/pages/TenseTrainer/logic/tenseLabels';
 import { selectSelectSection } from '@/shared/stores/useTenseStore/tenseStoreSelectors';
 import { useTenseStore } from '@/shared/stores/useTenseStore/useTenseStore';
 import { ArrowRightIcon } from 'lucide-react';
