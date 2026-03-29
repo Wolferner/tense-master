@@ -17,7 +17,7 @@ type Props = {
 	step: Exclude<Step, 'select'>;
 	isLoading: boolean;
 	onBack: () => void;
-	onCheck: () => void;
+	onCheck: (answer: string, exerciseId: ExerciseResponseDto['id']) => void;
 	onNext: () => void;
 };
 
@@ -75,7 +75,7 @@ const TrainingStep = ({
 						/>
 						{step === 'training' && (
 							<Button
-								onClick={onCheck}
+								onClick={() => onCheck(userAnswer, current.id)}
 								variant={userAnswer.trim().length === 0 ? 'outline' : 'default'}
 							>
 								{userAnswer.trim().length === 0 ? 'Skip' : 'Проверить'}

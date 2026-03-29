@@ -13,11 +13,17 @@ import { fetchExercises } from '../api/fetchExercises';
 import { DEFAULT_TENSES } from '../config/storeDefaults';
 import { ITenseGroup } from '../config/tenseLabels';
 
+export interface ExerciseAnswer {
+	answer: string;
+	skipped: boolean;
+}
+
 interface TenseStoreState {
 	selectedTenses: TenseType[];
 	mode: TrainingMode;
 	fixedLimit: FixedLimit;
 	exercises: ExerciseResponseDto[];
+	answers: Record<string, ExerciseAnswer>;
 	step: Step;
 	currentExerciseIndex: number;
 	isLoading: boolean;
@@ -31,6 +37,7 @@ interface TenseStoreActions {
 	updateMode: (patch: { mode?: TrainingMode; limit?: FixedLimit }) => void;
 
 	setStep: (step: Step) => void;
+	submitAnswer: (answer: ExerciseAnswer['answer'], exerciseId: ExerciseResponseDto['id']) => void;
 
 	startTraining: () => Promise<void>;
 	nextExercise: () => Promise<void>;
@@ -45,10 +52,10 @@ export const useTenseStore = create<TenseStore>()(
 			mode: 'fixed',
 			fixedLimit: 10,
 			exercises: [],
+			answers: {},
 			step: 'select',
 			currentExerciseIndex: 0,
 			isLoading: false,
-			userAnswer: '',
 
 			toggleTense: tense =>
 				set(state => ({
@@ -56,16 +63,13 @@ export const useTenseStore = create<TenseStore>()(
 						? state.selectedTenses.filter(t => t !== tense)
 						: [...state.selectedTenses, tense],
 				})),
-
 			selectAll: () => set({ selectedTenses: DEFAULT_TENSES }),
 			clearAll: () => set({ selectedTenses: [] }),
-
 			updateMode: ({ mode, limit }) =>
 				set(prev => ({
 					mode: mode ?? prev.mode,
 					fixedLimit: limit ?? prev.fixedLimit,
 				})),
-
 			toggleGroup: group =>
 				set(state => {
 					const allSelected = group.tenses.every(tense => state.selectedTenses.includes(tense));
@@ -80,6 +84,16 @@ export const useTenseStore = create<TenseStore>()(
 
 			setStep: step => set({ step }),
 
+			submitAnswer: (answer, exerciseId) => {
+				set(state => ({
+					answers: {
+						...state.answers,
+						[exerciseId]: { answer, skipped: answer.trim().length === 0 },
+					},
+					step: 'result',
+				}));
+			},
+
 			startTraining: async () => {
 				const { selectedTenses, mode, fixedLimit } = get();
 				if (selectedTenses.length === 0) return;
@@ -87,8 +101,8 @@ export const useTenseStore = create<TenseStore>()(
 				const data = await fetchExercises(selectedTenses, mode === 'fixed' ? fixedLimit : 10);
 				set(prev => ({
 					exercises: [...prev.exercises, ...data],
+					answers: {},
 					currentExerciseIndex: 0,
-					userAnswer: '',
 					step: 'training',
 					isLoading: false,
 				}));
@@ -102,7 +116,6 @@ export const useTenseStore = create<TenseStore>()(
 					set(prev => ({
 						exercises: [...prev.exercises, ...data],
 						currentExerciseIndex: prev.currentExerciseIndex + 1,
-						userAnswer: '',
 						step: 'training',
 						isLoading: false,
 					}));
@@ -115,6 +128,7 @@ export const useTenseStore = create<TenseStore>()(
 				}
 			},
 		}),
+
 		{ name: 'tense-settings' },
 	),
 );
