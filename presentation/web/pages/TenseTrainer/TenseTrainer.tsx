@@ -1,8 +1,6 @@
 'use client';
 
 import { useTenseStore } from '@/shared/stores/useTenseStore';
-import { useState } from 'react';
-import { fetchExercises } from './api/fetchExercises';
 import SelectTrainingSection from './ui/SelectTrainingSection/SelectTrainingSection';
 import TrainingSection from './ui/TrainingSection';
 
@@ -15,54 +13,17 @@ const TenseTrainer = () => {
 		step,
 		currentExerciseIndex,
 		isLoading,
+		userAnswer,
 		toggleTense,
 		selectAll,
 		clearAll,
 		toggleGroup,
-
-		patchExercises,
-		setStep,
-		setCurrentExerciseIndex,
-		setIsLoading,
-
+		setUserAnswer,
 		updateMode,
+		setStep,
+		startTraining,
+		nextExercise,
 	} = useTenseStore();
-
-	const [userAnswer, setUserAnswer] = useState('');
-
-	const currentExercises = exercises[currentExerciseIndex];
-
-	const startTraining = async () => {
-		if (selectedTenses.length === 0) return;
-		setIsLoading(true);
-		const data = await fetchExercises(selectedTenses, mode === 'fixed' ? fixedLimit : 10);
-		patchExercises(data);
-		setCurrentExerciseIndex(0);
-		setUserAnswer('');
-		setStep('training');
-		setIsLoading(false);
-	};
-
-	const nextExercise = async () => {
-		if (mode === 'infinite') {
-			setIsLoading(true);
-			const data = await fetchExercises(selectedTenses, 1);
-			patchExercises(data);
-			setCurrentExerciseIndex(currentExerciseIndex + 1);
-			setUserAnswer('');
-			setStep('training');
-			setIsLoading(false);
-			return;
-		}
-
-		if (currentExerciseIndex + 1 < exercises.length) {
-			setCurrentExerciseIndex(currentExerciseIndex + 1);
-			setUserAnswer('');
-			setStep('training');
-		} else {
-			setStep('select');
-		}
-	};
 
 	if (step === 'select') {
 		return (
@@ -85,7 +46,7 @@ const TenseTrainer = () => {
 
 	return (
 		<TrainingSection
-			current={currentExercises}
+			current={exercises[currentExerciseIndex]}
 			currentIndex={currentExerciseIndex}
 			totalExercises={exercises.length}
 			mode={mode}

@@ -9,6 +9,7 @@ import { ExerciseResponseDto } from '@/server/aplication/exercise';
 import { TenseType } from '@/server/domain/value-objects';
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
+import { fetchExercises } from '../api/fetchExercises';
 import { DEFAULT_TENSES } from '../config/storeDefaults';
 import { ITenseGroup } from '../config/tenseLabels';
 
@@ -20,27 +21,28 @@ interface TenseStoreState {
 	step: Step;
 	currentExerciseIndex: number;
 	isLoading: boolean;
+	userAnswer: string;
 }
 
 interface TenseStoreActions {
 	toggleTense: (tense: TenseType) => void;
 	selectAll: () => void;
 	clearAll: () => void;
-
+	toggleGroup: (group: ITenseGroup) => void;
 	updateMode: (patch: { mode?: TrainingMode; limit?: FixedLimit }) => void;
 
 	setStep: (step: Step) => void;
-	setCurrentExerciseIndex: (index: number) => void;
-	setIsLoading: (isLoading: boolean) => void;
-	patchExercises: (exercises: ExerciseResponseDto[]) => void;
-	toggleGroup: (group: ITenseGroup) => void;
+	setUserAnswer: (answer: string) => void;
+
+	startTraining: () => Promise<void>;
+	nextExercise: () => Promise<void>;
 }
 
 type TenseStore = TenseStoreState & TenseStoreActions;
 
 export const useTenseStore = create<TenseStore>()(
 	persist(
-		set => ({
+		(set, get) => ({
 			selectedTenses: DEFAULT_TENSES,
 			mode: 'fixed',
 			fixedLimit: 10,
@@ -48,6 +50,7 @@ export const useTenseStore = create<TenseStore>()(
 			step: 'select',
 			currentExerciseIndex: 0,
 			isLoading: false,
+			userAnswer: '',
 
 			toggleTense: tense =>
 				set(state => ({
@@ -59,32 +62,62 @@ export const useTenseStore = create<TenseStore>()(
 			selectAll: () => set({ selectedTenses: DEFAULT_TENSES }),
 			clearAll: () => set({ selectedTenses: [] }),
 
-			patchExercises: exercises => set(prev => ({ exercises: [...prev.exercises, ...exercises] })),
-			setStep: step => set({ step }),
-			setCurrentExerciseIndex: index => set({ currentExerciseIndex: index }),
-			setIsLoading: isLoading => set({ isLoading }),
 			updateMode: ({ mode, limit }) =>
 				set(prev => ({
 					mode: mode ?? prev.mode,
 					fixedLimit: limit ?? prev.fixedLimit,
 				})),
-			toggleGroup: group => {
+
+			toggleGroup: group =>
 				set(state => {
 					const allSelected = group.tenses.every(tense => state.selectedTenses.includes(tense));
-
 					const newSelectedTenses = allSelected
 						? state.selectedTenses.filter(t => !group.tenses.includes(t))
 						: [
 								...state.selectedTenses,
 								...group.tenses.filter(t => !state.selectedTenses.includes(t)),
 							];
-
 					return { selectedTenses: newSelectedTenses };
-				});
+				}),
+
+			setStep: step => set({ step }),
+			setUserAnswer: answer => set({ userAnswer: answer }),
+
+			startTraining: async () => {
+				const { selectedTenses, mode, fixedLimit } = get();
+				if (selectedTenses.length === 0) return;
+				set({ isLoading: true });
+				const data = await fetchExercises(selectedTenses, mode === 'fixed' ? fixedLimit : 10);
+				set(prev => ({
+					exercises: [...prev.exercises, ...data],
+					currentExerciseIndex: 0,
+					userAnswer: '',
+					step: 'training',
+					isLoading: false,
+				}));
+			},
+
+			nextExercise: async () => {
+				const { mode, selectedTenses, currentExerciseIndex, exercises } = get();
+				if (mode === 'infinite') {
+					set({ isLoading: true });
+					const data = await fetchExercises(selectedTenses, 1);
+					set(prev => ({
+						exercises: [...prev.exercises, ...data],
+						currentExerciseIndex: prev.currentExerciseIndex + 1,
+						userAnswer: '',
+						step: 'training',
+						isLoading: false,
+					}));
+					return;
+				}
+				if (currentExerciseIndex + 1 < exercises.length) {
+					set({ currentExerciseIndex: currentExerciseIndex + 1, userAnswer: '', step: 'training' });
+				} else {
+					set({ step: 'select' });
+				}
 			},
 		}),
 		{ name: 'tense-settings' },
 	),
 );
-
-export const trainerSelector = (state: TenseStore) => ({});
