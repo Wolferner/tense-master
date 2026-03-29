@@ -18,7 +18,7 @@ type Props = {
 	mode: TrainingMode;
 	isLoading: boolean;
 	onBack: () => void;
-	onCheck: (answer: string, exerciseId: ExerciseResponseDto['id']) => void;
+	onCheck: (answer: ExerciseAnswer['answer'], exerciseId: ExerciseResponseDto['id']) => void;
 	onNext: () => void;
 };
 
@@ -92,7 +92,10 @@ const TrainingStep = ({
 							mode={mode}
 							currentIndex={currentIndex}
 							totalExercises={totalExercises}
-							onNext={onNext}
+							onNext={() => {
+								setUserAnswer('');
+								onNext();
+							}}
 						/>
 					)}
 				</div>
