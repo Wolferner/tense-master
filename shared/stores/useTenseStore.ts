@@ -144,31 +144,27 @@ export const useTenseStore = create<TenseStore>()(
 
 			nextExercise: async () => {
 				const { mode, selectedTenses, currentExerciseIndex, exercises } = get();
-				const isInfiniteMode = mode === 'infinite';
-				const hasNextExercise = currentExerciseIndex + 1 < exercises.length;
 
-				if (isInfiniteMode) {
-					if (hasNextExercise) {
-						set({ currentExerciseIndex: currentExerciseIndex + 1 });
-					} else {
-						set({ isLoading: true });
-
-						const additionalExercises = await fetchExercises(selectedTenses, INFINITE_MODE_LIMIT);
-
-						set(prev => ({
-							exercises: [...prev.exercises, ...additionalExercises],
-							currentExerciseIndex: prev.currentExerciseIndex + 1,
-
-							isLoading: false,
-						}));
-					}
-				} else {
-					if (hasNextExercise) {
-						set({ currentExerciseIndex: currentExerciseIndex + 1 });
-					} else {
-						set({ step: 'select' });
-					}
+				//NOTE: If there are more exercises in the current list, just move to the next one
+				if (currentExerciseIndex + 1 < exercises.length) {
+					set({ currentExerciseIndex: currentExerciseIndex + 1 });
+					return;
 				}
+
+				//NOTE: In fixed mode we have a predefined set of exercises, so if we reached the end of the list - it means the training is over
+				if (mode === 'fixed') {
+					set({ step: 'select' });
+					return;
+				}
+
+				//NOTE: In infinite mode we fetch new exercises
+				set({ isLoading: true });
+				const data = await fetchExercises(selectedTenses, INFINITE_MODE_LIMIT);
+				set(prev => ({
+					exercises: [...prev.exercises, ...data],
+					currentExerciseIndex: prev.currentExerciseIndex + 1,
+					isLoading: false,
+				}));
 			},
 		}),
 
