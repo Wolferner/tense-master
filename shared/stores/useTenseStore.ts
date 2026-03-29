@@ -10,6 +10,7 @@ import { TenseType } from '@/server/domain/value-objects';
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { fetchExercises } from '../api/fetchExercises';
+import { MAX_EXERCISES } from '../config/constants';
 import { DEFAULT_TENSES } from '../config/storeDefaults';
 import { ITenseGroup } from '../config/tenseLabels';
 import { validateAnswer } from '../lib';
@@ -124,11 +125,14 @@ export const useTenseStore = create<TenseStore>()(
 			startTraining: async () => {
 				const { selectedTenses, mode, fixedLimit } = get();
 				if (selectedTenses.length === 0) return;
+
 				set({ isLoading: true });
+
 				const newExercises = await fetchExercises(
 					selectedTenses,
-					mode === 'fixed' ? fixedLimit : 10,
+					mode === 'fixed' ? fixedLimit : MAX_EXERCISES,
 				);
+
 				set({
 					exercises: newExercises,
 					sessionId: crypto.randomUUID(),
@@ -140,6 +144,7 @@ export const useTenseStore = create<TenseStore>()(
 
 			nextExercise: async () => {
 				const { mode, selectedTenses, currentExerciseIndex, exercises } = get();
+
 				if (mode === 'infinite') {
 					set({ isLoading: true });
 					const data = await fetchExercises(selectedTenses, 1);
@@ -165,9 +170,9 @@ export const useTenseStore = create<TenseStore>()(
 				selectedTenses: state.selectedTenses,
 				mode: state.mode,
 				fixedLimit: state.fixedLimit,
+				exercises: state.exercises,
 				answers: state.answers,
 				sessionId: state.sessionId,
-				exercises: state.exercises,
 				step: state.step,
 				currentExerciseIndex: state.currentExerciseIndex,
 			}),

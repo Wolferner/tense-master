@@ -1,3 +1,4 @@
+import { MAX_EXERCISES } from '@/shared/config/constants';
 import { Exercise } from '../../domain/entities/Exercise';
 import { IExerciseRepository } from '../../domain/repositories';
 import { Tense } from '../../domain/value-objects';
@@ -24,6 +25,12 @@ export class ExerciseService {
 	}
 
 	async findRandom(tenses: Tense[], limit: number): Promise<ExerciseResponseDto[]> {
+		if (tenses.length === 0) return [];
+
+		if (limit < 0 || limit > MAX_EXERCISES) {
+			throw new Error(`Limit must be between 1 and ${MAX_EXERCISES}`);
+		}
+
 		const exercises = await this.exerciseRepository.findRandom(tenses, limit);
 		return exercises.map(this.toDto);
 	}
