@@ -18,11 +18,13 @@ type ExerciseAnswerManual = {
 	answer: string;
 	skipped: false;
 	isCorrect: boolean;
+	createdAt: string;
 };
 
 type ExerciseAnswerSkipped = {
 	answer: string;
 	skipped: true;
+	createdAt: string;
 };
 
 export type ExerciseAnswer = ExerciseAnswerManual | ExerciseAnswerSkipped;
@@ -97,9 +99,15 @@ export const useTenseStore = create<TenseStore>()(
 				const { exercises } = get();
 				const exercise = exercises.find(e => e.id === exerciseId)!;
 				const skipped = answer.trim().length === 0;
+				const createdAt = new Date().toISOString();
 				const record: ExerciseAnswer = skipped
-					? { answer, skipped: true }
-					: { answer, skipped: false, isCorrect: validateAnswer(answer, exercise.answer) };
+					? { answer, skipped: true, createdAt }
+					: {
+							answer,
+							skipped: false,
+							isCorrect: validateAnswer(answer, exercise.answer),
+							createdAt,
+						};
 				set(state => ({
 					answers: { ...state.answers, [exerciseId]: record },
 				}));
