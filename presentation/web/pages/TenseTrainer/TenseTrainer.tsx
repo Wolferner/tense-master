@@ -2,7 +2,7 @@
 
 import { useTenseStore } from '@/shared/stores/useTenseStore';
 import SelectTrainingSection from './ui/SelectTrainingSection/SelectTrainingSection';
-import TrainingSection from './ui/TrainingSection';
+import TrainingSection from './ui/TrainingSection/TrainingSection';
 
 const TenseTrainer = () => {
 	const {
@@ -13,12 +13,10 @@ const TenseTrainer = () => {
 		step,
 		currentExerciseIndex,
 		isLoading,
-		userAnswer,
 		toggleTense,
 		selectAll,
 		clearAll,
 		toggleGroup,
-		setUserAnswer,
 		updateMode,
 		setStep,
 		startTraining,
@@ -46,13 +44,10 @@ const TenseTrainer = () => {
 
 	return (
 		<TrainingSection
-			current={exercises[currentExerciseIndex]}
 			currentIndex={currentExerciseIndex}
-			totalExercises={exercises.length}
+			exercises={exercises}
 			mode={mode}
 			step={step}
-			userAnswer={userAnswer}
-			setUserAnswer={setUserAnswer}
 			isLoading={isLoading}
 			onBack={() => setStep('select')}
 			onCheck={() => setStep('result')}

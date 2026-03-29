@@ -21,7 +21,6 @@ interface TenseStoreState {
 	step: Step;
 	currentExerciseIndex: number;
 	isLoading: boolean;
-	userAnswer: string;
 }
 
 interface TenseStoreActions {
@@ -32,7 +31,6 @@ interface TenseStoreActions {
 	updateMode: (patch: { mode?: TrainingMode; limit?: FixedLimit }) => void;
 
 	setStep: (step: Step) => void;
-	setUserAnswer: (answer: string) => void;
 
 	startTraining: () => Promise<void>;
 	nextExercise: () => Promise<void>;
@@ -81,7 +79,6 @@ export const useTenseStore = create<TenseStore>()(
 				}),
 
 			setStep: step => set({ step }),
-			setUserAnswer: answer => set({ userAnswer: answer }),
 
 			startTraining: async () => {
 				const { selectedTenses, mode, fixedLimit } = get();
@@ -112,7 +109,7 @@ export const useTenseStore = create<TenseStore>()(
 					return;
 				}
 				if (currentExerciseIndex + 1 < exercises.length) {
-					set({ currentExerciseIndex: currentExerciseIndex + 1, userAnswer: '', step: 'training' });
+					set({ currentExerciseIndex: currentExerciseIndex + 1, step: 'training' });
 				} else {
 					set({ step: 'select' });
 				}
