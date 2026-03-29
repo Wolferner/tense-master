@@ -5,11 +5,11 @@ import type {
 	Step,
 	TrainingMode,
 } from '@/presentation/web/pages/TenseTrainer/logic/config';
-import { ExerciseResponseDto } from '@/server/aplication/exercise';
-import { TenseType } from '@/server/domain/value-objects';
+import { type ExerciseResponseDto } from '@/server/aplication/exercise';
+import { type TenseType } from '@/server/domain/value-objects';
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import { ITenseGroup } from '../../../presentation/web/pages/TenseTrainer/logic/tenseLabels';
+import { type ITenseGroup } from '../../../presentation/web/pages/TenseTrainer/logic/tenseLabels';
 import { fetchExercises } from '../../api/fetchExercises';
 import { INFINITE_MODE_LIMIT, MAX_EXERCISES } from '../../config/constants';
 import { validateAnswer } from '../../lib';

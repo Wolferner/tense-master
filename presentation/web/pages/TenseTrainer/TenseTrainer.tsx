@@ -1,7 +1,6 @@
 'use client';
 
-import { selectStep } from '@/shared/stores/useTenseStore/tenseStoreSelectors';
-import { useTenseStore } from '@/shared/stores/useTenseStore/useTenseStore';
+import { selectStep, useTenseStore } from '@/shared/stores/useTenseStore';
 import { Fragment } from 'react/jsx-runtime';
 import SelectTrainingSection from './ui/SelectTrainingSection/SelectTrainingSection';
 import TrainingSection from './ui/TrainingSection/TrainingSection';
