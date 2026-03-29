@@ -10,7 +10,7 @@ import { TenseType } from '@/server/domain/value-objects';
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { fetchExercises } from '../api/fetchExercises';
-import { MAX_EXERCISES } from '../config/constants';
+import { INFINITE_MODE_LIMIT, MAX_EXERCISES } from '../config/constants';
 import { DEFAULT_TENSES } from '../config/storeDefaults';
 import { ITenseGroup } from '../config/tenseLabels';
 import { validateAnswer } from '../lib';
@@ -144,22 +144,30 @@ export const useTenseStore = create<TenseStore>()(
 
 			nextExercise: async () => {
 				const { mode, selectedTenses, currentExerciseIndex, exercises } = get();
+				const isInfiniteMode = mode === 'infinite';
+				const hasNextExercise = currentExerciseIndex + 1 < exercises.length;
 
-				if (mode === 'infinite') {
-					set({ isLoading: true });
-					const data = await fetchExercises(selectedTenses, 1);
-					set(prev => ({
-						exercises: [...prev.exercises, ...data],
-						currentExerciseIndex: prev.currentExerciseIndex + 1,
-						step: 'training',
-						isLoading: false,
-					}));
-					return;
-				}
-				if (currentExerciseIndex + 1 < exercises.length) {
-					set({ currentExerciseIndex: currentExerciseIndex + 1, step: 'training' });
+				if (isInfiniteMode) {
+					if (hasNextExercise) {
+						set({ currentExerciseIndex: currentExerciseIndex + 1, step: 'training' });
+					} else {
+						set({ isLoading: true });
+
+						const additionalExercises = await fetchExercises(selectedTenses, INFINITE_MODE_LIMIT);
+
+						set(prev => ({
+							exercises: [...prev.exercises, ...additionalExercises],
+							currentExerciseIndex: prev.currentExerciseIndex + 1,
+							step: 'training',
+							isLoading: false,
+						}));
+					}
 				} else {
-					set({ step: 'select' });
+					if (hasNextExercise) {
+						set({ currentExerciseIndex: currentExerciseIndex + 1, step: 'training' });
+					} else {
+						set({ step: 'select' });
+					}
 				}
 			},
 		}),
