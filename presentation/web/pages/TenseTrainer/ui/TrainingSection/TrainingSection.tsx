@@ -13,7 +13,7 @@ import TaskResult from './TaskResult';
 
 type Props = {
 	exercises: ExerciseResponseDto[];
-	answers: Record<string, ExerciseAnswer>;
+	answers: Record<string, ExerciseAnswer[]>;
 	currentIndex: number;
 	mode: TrainingMode;
 	isLoading: boolean;
@@ -34,7 +34,7 @@ const TrainingSection = ({
 }: Props) => {
 	const current = exercises[currentIndex];
 	const totalExercises = exercises.length;
-	const answerRecord: ExerciseAnswer | undefined = answers[current.id];
+	const answerRecord: ExerciseAnswer[] | undefined = answers[current.id];
 
 	const [userAnswer, setUserAnswer] = useState(answerRecord?.answer ?? '');
 

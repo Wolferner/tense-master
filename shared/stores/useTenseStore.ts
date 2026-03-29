@@ -34,7 +34,7 @@ interface TenseStoreState {
 	mode: TrainingMode;
 	fixedLimit: FixedLimit;
 	exercises: ExerciseResponseDto[];
-	answers: Record<string, ExerciseAnswer>;
+	answers: Record<string, ExerciseAnswer[]>;
 	step: Step;
 	currentExerciseIndex: number;
 	isLoading: boolean;
@@ -108,19 +108,24 @@ export const useTenseStore = create<TenseStore>()(
 							isCorrect: validateAnswer(answer, exercise.answer),
 							createdAt,
 						};
-				set(state => ({
-					answers: { ...state.answers, [exerciseId]: record },
-				}));
+				set(state => {
+					const previousAnswers = state.answers[exerciseId] || [];
+					return {
+						answers: { ...state.answers, [exerciseId]: [...previousAnswers, record] },
+					};
+				});
 			},
 
 			startTraining: async () => {
 				const { selectedTenses, mode, fixedLimit } = get();
 				if (selectedTenses.length === 0) return;
 				set({ isLoading: true });
-				const data = await fetchExercises(selectedTenses, mode === 'fixed' ? fixedLimit : 10);
+				const newExercises = await fetchExercises(
+					selectedTenses,
+					mode === 'fixed' ? fixedLimit : 10,
+				);
 				set({
-					exercises: [...data],
-					answers: {},
+					exercises: newExercises,
 					currentExerciseIndex: 0,
 					step: 'training',
 					isLoading: false,
