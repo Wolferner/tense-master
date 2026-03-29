@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+## [1.0.1] - 2026-03-29
+
+### Changed
+
+- Moved `useTenseStore` calls from `TenseTrainer` into `SelectTrainingSection` and `TrainingSection` directly — each module subscribes only to its own slice, reducing unnecessary re-renders
+- Extracted store selectors into `shared/stores/useTenseStore/tenseStoreSelectors.ts` — components import named selectors instead of defining inline selector functions
+- Applied `useShallow` to all object selectors to prevent re-renders when references change but values don't
+- Reorganized shared config — tense labels and groups moved to a dedicated file, store defaults co-located with the store
+
 ## [1.0.0] - 2026-03-29
 
 ### Added
