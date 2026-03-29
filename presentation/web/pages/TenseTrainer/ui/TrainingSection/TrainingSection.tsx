@@ -22,7 +22,7 @@ type Props = {
 	onNext: () => void;
 };
 
-const TrainingStep = ({
+const TrainingSection = ({
 	exercises,
 	currentIndex,
 	answers,
@@ -34,9 +34,9 @@ const TrainingStep = ({
 }: Props) => {
 	const current = exercises[currentIndex];
 	const totalExercises = exercises.length;
-	const answerRecord = answers[current.id];
+	const answerRecord: ExerciseAnswer | undefined = answers[current.id];
 
-	const [userAnswer, setUserAnswer] = useState(answerRecord ? answerRecord.answer : '');
+	const [userAnswer, setUserAnswer] = useState(answerRecord?.answer ?? '');
 
 	return (
 		<main className='bg-background text-foreground flex flex-1 flex-col'>
@@ -104,4 +104,4 @@ const TrainingStep = ({
 	);
 };
 
-export default TrainingStep;
+export default TrainingSection;

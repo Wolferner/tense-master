@@ -98,13 +98,13 @@ export const useTenseStore = create<TenseStore>()(
 				if (selectedTenses.length === 0) return;
 				set({ isLoading: true });
 				const data = await fetchExercises(selectedTenses, mode === 'fixed' ? fixedLimit : 10);
-				set(prev => ({
+				set({
 					exercises: [...data],
 					answers: {},
 					currentExerciseIndex: 0,
 					step: 'training',
 					isLoading: false,
-				}));
+				});
 			},
 
 			nextExercise: async () => {
