@@ -1,6 +1,6 @@
 'use client';
 
-import { FIXED_LIMITS, FixedLimit, MODE_LABELS, TrainingMode } from '../../logic/types';
+import { FIXED_LIMITS, type FixedLimit, MODE_LABELS, type TrainingMode } from '../../logic/types';
 
 type Props = {
 	mode: TrainingMode;
