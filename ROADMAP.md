@@ -2,7 +2,6 @@
 
 ## Local first
 
-- Option to handle user account locally in browser with import/export via JSON.
 - Implement PWA.
 
 ## Testing
@@ -12,6 +11,7 @@
 
 ## User Profile
 
+- Option to handle user account locally in browser with import/export via JSON.
 - Keep user result statistics (stored in localStorage, migrates to DB on account creation).
 - Learning speed chart.
 - Correct answers chart.
