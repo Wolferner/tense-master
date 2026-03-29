@@ -4,16 +4,16 @@ import type {
 	FixedLimit,
 	Step,
 	TrainingMode,
-} from '@/presentation/web/pages/TenseTrainer/logic/types';
-import { ExerciseResponseDto } from '@/server/aplication/exercise';
-import { TenseType } from '@/server/domain/value-objects';
+} from '@/presentation/web/pages/TenseTrainer/logic/config';
+import { type ExerciseResponseDto } from '@/server/aplication/exercise';
+import { type TenseType } from '@/server/domain/value-objects';
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import { fetchExercises } from '../api/fetchExercises';
-import { INFINITE_MODE_LIMIT, MAX_EXERCISES } from '../config/constants';
-import { DEFAULT_TENSES } from '../config/storeDefaults';
-import { ITenseGroup } from '../config/tenseLabels';
-import { validateAnswer } from '../lib';
+import { type ITenseGroup } from '../../../presentation/web/pages/TenseTrainer/logic/tenseLabels';
+import { fetchExercises } from '../../api/fetchExercises';
+import { INFINITE_MODE_LIMIT, MAX_EXERCISES } from '../../config/constants';
+import { validateAnswer } from '../../lib';
+import { DEFAULT_TENSES } from './storeDefaults';
 
 type ExerciseAnswerManual = {
 	answer: string;
@@ -58,7 +58,7 @@ interface TenseStoreActions {
 	nextExercise: () => Promise<void>;
 }
 
-type TenseStore = TenseStoreState & TenseStoreActions;
+export type TenseStore = TenseStoreState & TenseStoreActions;
 
 export const useTenseStore = create<TenseStore>()(
 	persist(

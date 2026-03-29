@@ -1,6 +1,9 @@
 import { Checkbox } from '@/presentation/components/ui/checkbox';
-import { Tense } from '@/server/domain/value-objects';
-import { ITenseGroup, TENSE_LABELS } from '@/shared/config/tenseLabels';
+import {
+	type ITenseGroup,
+	TENSE_LABELS,
+} from '@/presentation/web/pages/TenseTrainer/logic/tenseLabels';
+import { type Tense } from '@/server/domain/value-objects';
 
 interface TenseGroupProps {
 	group: ITenseGroup;
