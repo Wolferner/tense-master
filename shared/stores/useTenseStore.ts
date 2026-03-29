@@ -149,7 +149,7 @@ export const useTenseStore = create<TenseStore>()(
 
 				if (isInfiniteMode) {
 					if (hasNextExercise) {
-						set({ currentExerciseIndex: currentExerciseIndex + 1, step: 'training' });
+						set({ currentExerciseIndex: currentExerciseIndex + 1 });
 					} else {
 						set({ isLoading: true });
 
@@ -158,13 +158,13 @@ export const useTenseStore = create<TenseStore>()(
 						set(prev => ({
 							exercises: [...prev.exercises, ...additionalExercises],
 							currentExerciseIndex: prev.currentExerciseIndex + 1,
-							step: 'training',
+
 							isLoading: false,
 						}));
 					}
 				} else {
 					if (hasNextExercise) {
-						set({ currentExerciseIndex: currentExerciseIndex + 1, step: 'training' });
+						set({ currentExerciseIndex: currentExerciseIndex + 1 });
 					} else {
 						set({ step: 'select' });
 					}
