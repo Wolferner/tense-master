@@ -5,16 +5,17 @@ import { Button } from '@/presentation/components/ui/button';
 import { Textarea } from '@/presentation/components/ui/textarea';
 import { ExerciseResponseDto } from '@/server/aplication/exercise';
 import { TENSE_LABELS } from '@/shared/config/tenseLabels';
+import { ExerciseAnswer } from '@/shared/stores/useTenseStore';
 import { ArrowLeft } from 'lucide-react';
 import { useState } from 'react';
-import { Step, TrainingMode } from '../../logic/types';
+import { TrainingMode } from '../../logic/types';
 import TaskResult from './TaskResult';
 
 type Props = {
 	exercises: ExerciseResponseDto[];
+	answers: Record<string, ExerciseAnswer>;
 	currentIndex: number;
 	mode: TrainingMode;
-	step: Exclude<Step, 'select'>;
 	isLoading: boolean;
 	onBack: () => void;
 	onCheck: (answer: string, exerciseId: ExerciseResponseDto['id']) => void;
@@ -24,17 +25,18 @@ type Props = {
 const TrainingStep = ({
 	exercises,
 	currentIndex,
+	answers,
 	mode,
-	step,
 	isLoading,
 	onBack,
 	onCheck,
 	onNext,
 }: Props) => {
-	const [userAnswer, setUserAnswer] = useState('');
-
 	const current = exercises[currentIndex];
 	const totalExercises = exercises.length;
+	const answerRecord = answers[current.id];
+
+	const [userAnswer, setUserAnswer] = useState(answerRecord ? answerRecord.answer : '');
 
 	return (
 		<main className='bg-background text-foreground flex flex-1 flex-col'>
@@ -49,7 +51,7 @@ const TrainingStep = ({
 					className='animate-in fade-in slide-in-from-bottom-4 flex flex-col gap-8 duration-300'
 				>
 					<div className='flex items-center justify-between'>
-						{step === 'result' ? (
+						{!!answerRecord ? (
 							<Badge variant='outline'>{TENSE_LABELS[current.tense]}</Badge>
 						) : (
 							<div />
@@ -70,10 +72,10 @@ const TrainingStep = ({
 							placeholder='Введи перевод на английском...'
 							value={userAnswer}
 							onChange={e => setUserAnswer(e.target.value)}
-							disabled={step === 'result'}
+							disabled={!!answerRecord}
 							rows={3}
 						/>
-						{step === 'training' && (
+						{!answerRecord && (
 							<Button
 								onClick={() => onCheck(userAnswer, current.id)}
 								variant={userAnswer.trim().length === 0 ? 'outline' : 'default'}
@@ -83,7 +85,7 @@ const TrainingStep = ({
 						)}
 					</div>
 
-					{step === 'result' && (
+					{!!answerRecord && (
 						<TaskResult
 							current={current}
 							isLoading={isLoading}

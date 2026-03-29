@@ -1,4 +1,4 @@
-export type Step = 'select' | 'training' | 'result';
+export type Step = 'select' | 'training';
 export type TrainingMode = 'fixed' | 'infinite';
 export type FixedLimit = (typeof FIXED_LIMITS)[number];
 

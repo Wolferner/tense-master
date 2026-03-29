@@ -90,7 +90,6 @@ export const useTenseStore = create<TenseStore>()(
 						...state.answers,
 						[exerciseId]: { answer, skipped: answer.trim().length === 0 },
 					},
-					step: 'result',
 				}));
 			},
 
@@ -100,7 +99,7 @@ export const useTenseStore = create<TenseStore>()(
 				set({ isLoading: true });
 				const data = await fetchExercises(selectedTenses, mode === 'fixed' ? fixedLimit : 10);
 				set(prev => ({
-					exercises: [...prev.exercises, ...data],
+					exercises: [...data],
 					answers: {},
 					currentExerciseIndex: 0,
 					step: 'training',

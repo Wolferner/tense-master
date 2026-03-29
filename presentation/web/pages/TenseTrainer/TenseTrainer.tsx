@@ -13,6 +13,7 @@ const TenseTrainer = () => {
 		step,
 		currentExerciseIndex,
 		isLoading,
+		answers,
 		toggleTense,
 		selectAll,
 		clearAll,
@@ -48,8 +49,8 @@ const TenseTrainer = () => {
 			currentIndex={currentExerciseIndex}
 			exercises={exercises}
 			mode={mode}
-			step={step}
 			isLoading={isLoading}
+			answers={answers}
 			onBack={() => setStep('select')}
 			onCheck={submitAnswer}
 			onNext={nextExercise}
