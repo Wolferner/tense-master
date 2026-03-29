@@ -10,7 +10,7 @@ interface TenseGroupProps {
 }
 
 const TenseGroup = ({ onToggle, onToggleGroup, group, selectedTenses }: TenseGroupProps) => {
-	const allSelected = group.tenses.every(tense => TENSE_LABELS[tense]);
+	const allSelected = group.tenses.every(tense => selectedTenses.includes(tense));
 
 	const toggleGroupHandler = () => {
 		onToggleGroup(group);
