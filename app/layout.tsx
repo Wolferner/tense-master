@@ -2,6 +2,7 @@ import { cn } from '@/shared/lib/utils';
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono, Inter } from 'next/font/google';
 import './globals.css';
+import { SerwistProvider } from './serwist';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
 
@@ -18,6 +19,25 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
 	title: 'Tense Master',
 	description: 'English tenses practice app',
+	appleWebApp: {
+		title: 'Tense Master',
+		capable: true,
+		statusBarStyle: 'default',
+	},
+	formatDetection: {
+		telephone: false,
+	},
+	openGraph: {
+		title: 'Tense Master',
+		type: 'website',
+		siteName: 'Tense Master',
+		description: 'English tenses practice app',
+	},
+	twitter: {
+		card: 'summary',
+		title: 'Tense Master',
+		description: 'English tenses practice app',
+	},
 	icons: {
 		icon: [
 			{ url: '/favicon.ico' },
@@ -45,7 +65,9 @@ export default function RootLayout({
 				inter.variable,
 			)}
 		>
-			<body className='flex min-h-full flex-col'>{children}</body>
+			<body className='flex min-h-full flex-col'>
+				<SerwistProvider swUrl='/api/serwist/sw.js'>{children}</SerwistProvider>
+			</body>
 		</html>
 	);
 }

@@ -55,13 +55,13 @@
 		"zustand": "^5.0.12"
 	},
 	"devDependencies": {
+		"@serwist/turbopack": "^9.5.7",
 		"@tailwindcss/postcss": "^4.2.2",
 		"@types/node": "^20",
 		"@types/react": "^19",
 		"@types/react-dom": "^19",
 		"@types/ws": "^8.18.1",
-		"shadcn": "^4.1.0",
-		"ws": "^8.20.0",
+		"esbuild": "^0.27.4",
 		"eslint": "^9",
 		"eslint-config-next": "16.2.1",
 		"eslint-config-prettier": "^10.1.8",
@@ -72,7 +72,10 @@
 		"prettier": "3.8.1",
 		"prettier-plugin-tailwindcss": "^0.7.2",
 		"prisma": "^7.5.0",
+		"serwist": "^9.5.7",
+		"shadcn": "^4.1.0",
 		"tailwindcss": "^4.2.2",
-		"typescript": "^5"
+		"typescript": "^5",
+		"ws": "^8.20.0"
 	}
 }
