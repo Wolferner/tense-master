@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation';
 import { User } from 'lucide-react';
 import { Button } from '@/presentation/components/ui/button';
 import { cn } from '@/shared/lib/utils';
+import NetworkBadge from '../NetworkBadge/NetworkBadge';
 
 const NAV_LINKS = [
 	{ href: '/', label: 'Home' },
@@ -48,9 +49,12 @@ const Header = () => {
 					</nav>
 				</div>
 
-				<Button variant='ghost' size='icon-sm' disabled title='Coming soon'>
-					<User />
-				</Button>
+				<div className='flex items-center gap-2'>
+					<NetworkBadge />
+					<Button variant='ghost' size='icon-sm' disabled title='Coming soon'>
+						<User />
+					</Button>
+				</div>
 			</div>
 		</header>
 	);
