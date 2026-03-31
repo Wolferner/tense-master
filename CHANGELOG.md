@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Screenshots to `manifest.json`.
 - Network connection badge and `useNetworkStatus` hook.
 - Handling cases when in fallback exercises not enough items.
+- Handling of cases when in DB not enough exercises(service).
 
 ## [1.0.2] - 2026-03-30
 
