@@ -1,3 +1,4 @@
+import { MAX_EXERCISES } from '@/shared/config/constants';
 import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
 import { ExerciseService } from '../../aplication/exercise';
@@ -19,7 +20,7 @@ export class ExerciseController {
 
 		const parsed = GetRandomSchema.safeParse({
 			tenses: tensesParam ? tensesParam.split(',') : [],
-			limit: limitParam ?? 10,
+			limit: limitParam ?? MAX_EXERCISES,
 		});
 
 		if (!parsed.success) {

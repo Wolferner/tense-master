@@ -1,13 +1,13 @@
 # Roadmap
 
-## Local first
-
-- Implement PWA.
-
 ## Testing
 
 - Test main ui components.
 - Test server logic.
+
+## Advanced Local Storage
+
+- Migrate from localStorage to IndexedDB.
 
 ## User Profile
 

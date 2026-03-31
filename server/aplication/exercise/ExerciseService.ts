@@ -32,7 +32,10 @@ export class ExerciseService {
 		}
 
 		const exercises = await this.exerciseRepository.findRandom(tenses, limit);
-		return exercises.map(this.toDto);
+		if (exercises.length === 0) return [];
+		if (exercises.length >= limit) return exercises.map(this.toDto);
+		const repeated = Array.from({ length: limit }, (_, i) => exercises[i % exercises.length]);
+		return repeated.map(this.toDto);
 	}
 
 	private toDto(exercise: Exercise): ExerciseResponseDto {

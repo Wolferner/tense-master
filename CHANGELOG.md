@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-04-01
+
+### Added
+
+- Offline support via service worker (Serwist): API route `/api/excersises` is cached with `NetworkFirst` strategy (5s timeout) — after the first online session, exercises load from cache when offline
+- Fallback seed data (`public/fallback-exercises.json`) — 10 exercises per tense (120 total) served as static JSON; used when the API is unreachable and no cached response exists, enabling offline use even on first launch
+- Service worker precache `fallback-exercises.json` on install, ensuring it is available offline without any prior API call
+- `robots.txt` file for `SEO`.
+- Screenshots to `manifest.json`.
+- Network connection badge and `useNetworkStatus` hook.
+- Handling cases when in fallback exercises not enough items.
+- Handling of cases when in DB not enough exercises(service).
+- Error, GlobalError and NotFound fallbacks in case of errors.
+
 ## [1.0.2] - 2026-03-30
 
 ### Changed
