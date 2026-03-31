@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fallback seed data (`public/fallback-exercises.json`) — 10 exercises per tense (120 total) served as static JSON; used when the API is unreachable and no cached response exists, enabling offline use even on first launch
 - Service worker precache `fallback-exercises.json` on install, ensuring it is available offline without any prior API call
 - `robots.txt` file for `SEO`.
+- Screenshots to `manifest.json`.
 
 ## [1.0.2] - 2026-03-30
 
