@@ -1,6 +1,7 @@
 'use client';
 
 import { Badge } from '@/presentation/components/ui/badge';
+import { cn } from '@/shared/lib/utils';
 import { useNetworkStatus } from '@/shared/hooks/useNetworkStatus';
 
 const NetworkBadge = () => {
@@ -10,7 +11,21 @@ const NetworkBadge = () => {
 
 	const label = BADGE_LABELS[status] || 'Unknown status';
 
-	return <Badge variant={status === 'offline' ? 'destructive' : 'outline'}>{label}</Badge>;
+	const isOffline = status === 'offline';
+
+	return (
+		<>
+			<span
+				className={cn(
+					'size-2 rounded-full md:hidden',
+					isOffline ? 'bg-destructive' : 'bg-yellow-500',
+				)}
+			/>
+			<Badge className='hidden md:inline-flex' variant={isOffline ? 'destructive' : 'outline'}>
+				{label}
+			</Badge>
+		</>
+	);
 };
 
 export default NetworkBadge;
