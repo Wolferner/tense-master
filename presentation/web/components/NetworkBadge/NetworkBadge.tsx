@@ -1,10 +1,10 @@
 'use client';
 
 import { Badge } from '@/presentation/components/ui/badge';
-import { useConnection } from '@/shared/hooks/useNetworkStatus';
+import { useNetworkStatus } from '@/shared/hooks/useNetworkStatus';
 
 const NetworkBadge = () => {
-	const { status } = useConnection();
+	const { status } = useNetworkStatus();
 
 	if (status === 'online') return null;
 

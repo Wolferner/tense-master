@@ -16,7 +16,7 @@ declare global {
 	}
 }
 
-export function useConnection() {
+export function useNetworkStatus() {
 	const [conn, setConn] = useState(getInitialConnectionState);
 
 	useEffect(() => {

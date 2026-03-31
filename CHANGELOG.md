@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Service worker precache `fallback-exercises.json` on install, ensuring it is available offline without any prior API call
 - `robots.txt` file for `SEO`.
 - Screenshots to `manifest.json`.
+- Network connection badge and `useNetworkStatus` hook.
 
 ## [1.0.2] - 2026-03-30
 
