@@ -10,9 +10,9 @@ type NetworkInformation = {
 	removeEventListener: (type: string, cb: () => void) => void;
 };
 
-type ConnectionStatus = 'unknown' | 'online' | 'slow' | 'offline';
+type ConnectionStatus = 'online' | 'slow' | 'offline';
 type ConnectionState =
-	| { status: Extract<ConnectionStatus, 'unknown' | 'online' | 'offline'> }
+	| { status: Extract<ConnectionStatus, 'online' | 'offline'> }
 	| { status: 'slow'; type: string; rtt: number; downlink: number };
 
 declare global {
@@ -22,7 +22,7 @@ declare global {
 }
 
 export function useNetworkStatus() {
-	const [conn, setConn] = useState<ConnectionState>({ status: 'unknown' });
+	const [conn, setConn] = useState<ConnectionState>({ status: 'online' });
 
 	useEffect(() => {
 		const update = () => setConn(getInitialConnectionState());
