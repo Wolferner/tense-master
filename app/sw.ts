@@ -3,7 +3,7 @@
 /// <reference lib="webworker" />
 import { defaultCache } from '@serwist/turbopack/worker';
 import type { PrecacheEntry, SerwistGlobalConfig } from 'serwist';
-import { Serwist } from 'serwist';
+import { NetworkFirst, Serwist } from 'serwist';
 
 declare global {
 	interface WorkerGlobalScope extends SerwistGlobalConfig {
@@ -18,7 +18,16 @@ const serwist = new Serwist({
 	skipWaiting: true,
 	clientsClaim: true,
 	navigationPreload: true,
-	runtimeCaching: defaultCache,
+	runtimeCaching: [
+		{
+			matcher: /^\/api\/excersises/,
+			handler: new NetworkFirst({
+				cacheName: 'exercises-api',
+				networkTimeoutSeconds: 5,
+			}),
+		},
+		...defaultCache,
+	],
 });
 
 serwist.addEventListeners();
