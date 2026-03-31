@@ -10,6 +10,11 @@ type NetworkInformation = {
 	removeEventListener: (type: string, cb: () => void) => void;
 };
 
+type ConnectionStatus = 'unknown' | 'online' | 'slow' | 'offline';
+type ConnectionState =
+	| { status: Extract<ConnectionStatus, 'unknown' | 'online' | 'offline'> }
+	| { status: 'slow'; type: string; rtt: number; downlink: number };
+
 declare global {
 	interface Navigator {
 		connection?: NetworkInformation;
@@ -17,10 +22,11 @@ declare global {
 }
 
 export function useNetworkStatus() {
-	const [conn, setConn] = useState(getInitialConnectionState);
+	const [conn, setConn] = useState<ConnectionState>({ status: 'unknown' });
 
 	useEffect(() => {
 		const update = () => setConn(getInitialConnectionState());
+		update();
 
 		window.addEventListener('online', update);
 		window.addEventListener('offline', update);
@@ -36,7 +42,7 @@ export function useNetworkStatus() {
 	return conn;
 }
 
-const getInitialConnectionState = () => {
+const getInitialConnectionState = (): ConnectionState => {
 	if (!navigator.onLine) return { status: 'offline' };
 
 	const c = navigator.connection;
