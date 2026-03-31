@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `robots.txt` file for `SEO`.
 - Screenshots to `manifest.json`.
 - Network connection badge and `useNetworkStatus` hook.
+- Handling cases when in fallback exercises not enough items.
 
 ## [1.0.2] - 2026-03-30
 

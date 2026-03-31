@@ -5,7 +5,11 @@ async function getSeedFallback(tenses: TenseType[], limit: number): Promise<Exer
 	const all: ExerciseResponseDto[] = await fetch('/fallback-exercises.json').then(r => r.json());
 	const pool = all.filter(e => tenses.includes(e.tense as TenseType));
 	const shuffled = pool.sort(() => Math.random() - 0.5);
-	return shuffled.slice(0, limit);
+
+	if (shuffled.length >= limit) return shuffled.slice(0, limit);
+
+	const repeated = Array.from({ length: limit }, (_, i) => shuffled[i % shuffled.length]);
+	return repeated;
 }
 
 export async function fetchExercises(
