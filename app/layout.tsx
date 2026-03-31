@@ -2,7 +2,7 @@ import { cn } from '@/shared/lib/utils';
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono, Inter } from 'next/font/google';
 import './globals.css';
-import { SerwistProvider } from './serwist';
+import { SerwistProvider } from '@/shared/pwa/serwist';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
 
