@@ -7,6 +7,7 @@ import type {
 } from '@/presentation/web/pages/TenseTrainer/logic/config';
 import { type ExerciseResponseDto } from '@/server/aplication/exercise';
 import { type TenseType } from '@/server/domain/value-objects';
+import { ExerciseAnswer } from '@/shared/types/ExerciseAnswer';
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { type ITenseGroup } from '../../../presentation/web/pages/TenseTrainer/logic/tenseLabels';
@@ -14,23 +15,6 @@ import { fetchExercises } from '../../api/fetchExercises';
 import { INFINITE_MODE_LIMIT, MAX_EXERCISES } from '../../config/constants';
 import { validateAnswer } from '../../lib';
 import { DEFAULT_TENSES } from './storeDefaults';
-
-type ExerciseAnswerManual = {
-	answer: string;
-	skipped: false;
-	isCorrect: boolean;
-	createdAt: string;
-	sessionId: string;
-};
-
-type ExerciseAnswerSkipped = {
-	answer: string;
-	skipped: true;
-	createdAt: string;
-	sessionId: string;
-};
-
-export type ExerciseAnswer = ExerciseAnswerManual | ExerciseAnswerSkipped;
 
 interface TenseStoreState {
 	selectedTenses: TenseType[];
@@ -105,9 +89,12 @@ export const useTenseStore = create<TenseStore>()(
 				const exercise = exercises.find(e => e.id === exerciseId)!;
 				const skipped = answer.trim().length === 0;
 				const createdAt = new Date().toISOString();
+
+				const id = Math.floor(Math.random() * 1_000_000);
 				const record: ExerciseAnswer = skipped
-					? { answer, skipped: true, createdAt, sessionId }
+					? { answer, skipped: true, createdAt, sessionId, id }
 					: {
+							id,
 							answer,
 							skipped: false,
 							isCorrect: validateAnswer(answer, exercise.answer),
