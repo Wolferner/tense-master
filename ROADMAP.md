@@ -1,14 +1,5 @@
 # Roadmap
 
-## Testing
-
-- Test main ui components.
-- Test server logic.
-
-## Advanced Local Storage
-
-- Migrate from localStorage to IndexedDB.
-
 ## User Profile
 
 - Option to handle user account locally in browser with import/export via JSON.
@@ -20,6 +11,10 @@
 ## Localization
 
 - Give opportunity use app in many countries.
+
+## Advanced Local Storage
+
+- Migrate from localStorage to IndexedDB.
 
 ## Data Migration
 
