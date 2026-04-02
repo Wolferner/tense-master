@@ -1,17 +1,17 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest';
+import { describe, it, expect, vi } from 'vitest';
 import { ExerciseService } from '../ExerciseService';
 import { IExerciseRepository } from '../../../domain/repositories';
 import { Exercise } from '../../../domain/entities/Exercise';
 import { Tense } from '../../../domain/value-objects';
 import { MAX_EXERCISES } from '@/shared/config/constants';
 
-function makeExercise(): Exercise {
+function makeExercise(id: string): Exercise {
 	return new Exercise(
 		Tense.PRESENT_SIMPLE,
 		'Он читает книгу',
 		'He reads a book',
 		'Present Simple for habits',
-		'test-id',
+		id,
 		new Date('2024-01-01'),
 		new Date('2024-01-01'),
 	);
@@ -37,12 +37,16 @@ describe('ExerciseService', () => {
 
 		it('throws when limit is negative', async () => {
 			const service = new ExerciseService(makeRepo());
-			await expect(service.findRandom([Tense.PAST_SIMPLE], -1)).rejects.toThrow();
+			await expect(service.findRandom([Tense.PAST_SIMPLE], -1)).rejects.toThrow(
+				`Limit must be between 1 and ${MAX_EXERCISES}`,
+			);
 		});
 
 		it(`throws when limit exceeds MAX_EXERCISES (${MAX_EXERCISES})`, async () => {
 			const service = new ExerciseService(makeRepo());
-			await expect(service.findRandom([Tense.PAST_SIMPLE], MAX_EXERCISES + 1)).rejects.toThrow();
+			await expect(service.findRandom([Tense.PAST_SIMPLE], MAX_EXERCISES + 1)).rejects.toThrow(
+				`Limit must be between 1 and ${MAX_EXERCISES}`,
+			);
 		});
 
 		it('returns [] when repo returns no exercises', async () => {
@@ -52,22 +56,23 @@ describe('ExerciseService', () => {
 			expect(result).toEqual([]);
 		});
 
-		it('repeats exercises to fill limit when repo returns fewer than requested', async () => {
-			const exercises = [makeExercise(), makeExercise()];
+		it('cycles exercises in order to fill limit when repo returns fewer than requested', async () => {
+			const exercises = [makeExercise('id-0'), makeExercise('id-1')];
 			const repo = makeRepo({ findRandom: vi.fn().mockResolvedValue(exercises) });
 			const service = new ExerciseService(repo);
 			const result = await service.findRandom([Tense.PAST_SIMPLE], 5);
 			expect(result).toHaveLength(5);
+			expect(result.map(e => e.id)).toEqual(['id-0', 'id-1', 'id-0', 'id-1', 'id-0']);
 		});
 
 		it('returns exercises mapped to DTO when repo returns enough', async () => {
-			const exercises = Array.from({ length: 5 }, () => makeExercise());
+			const exercises = Array.from({ length: 5 }, (_, i) => makeExercise(`id-${i}`));
 			const repo = makeRepo({ findRandom: vi.fn().mockResolvedValue(exercises) });
 			const service = new ExerciseService(repo);
 			const result = await service.findRandom([Tense.PAST_SIMPLE], 5);
 			expect(result).toHaveLength(5);
 			expect(result[0]).toMatchObject({
-				id: 'test-id',
+				id: 'id-0',
 				tense: Tense.PRESENT_SIMPLE,
 				question: 'Он читает книгу',
 				answer: 'He reads a book',
@@ -76,30 +81,40 @@ describe('ExerciseService', () => {
 		});
 
 		it('does not repeat when repo returns exactly the requested limit', async () => {
-			const exercises = Array.from({ length: 3 }, () => makeExercise());
+			const exercises = Array.from({ length: 3 }, (_, i) => makeExercise(`id-${i}`));
 			const repo = makeRepo({ findRandom: vi.fn().mockResolvedValue(exercises) });
 			const service = new ExerciseService(repo);
 			const result = await service.findRandom([Tense.PAST_SIMPLE], 3);
-			expect(result).toHaveLength(3);
+			expect(result.map(e => e.id)).toEqual(['id-0', 'id-1', 'id-2']);
 		});
 	});
 
 	describe('create', () => {
-		it('calls repo.create and returns mapped DTO', async () => {
-			const exercise = makeExercise();
+		it('passes correct data to repo.create and returns mapped DTO', async () => {
+			const exercise = makeExercise('created-id');
 			const repo = makeRepo({ create: vi.fn().mockResolvedValue(exercise) });
 			const service = new ExerciseService(repo);
-			const result = await service.create({
+			const dto = {
 				tense: Tense.PRESENT_SIMPLE,
 				question: 'Он читает книгу',
 				answer: 'He reads a book',
 				explanation: 'Present Simple for habits',
-			});
+			};
+			const result = await service.create(dto);
 			expect(repo.create).toHaveBeenCalledOnce();
+			const passedArg = vi.mocked(repo.create).mock.calls[0][0];
+			expect(passedArg).toMatchObject({
+				tense: dto.tense,
+				question: dto.question,
+				answer: dto.answer,
+				explanation: dto.explanation,
+			});
 			expect(result).toMatchObject({
+				id: 'created-id',
 				tense: Tense.PRESENT_SIMPLE,
 				question: 'Он читает книгу',
 				answer: 'He reads a book',
+				explanation: 'Present Simple for habits',
 			});
 		});
 	});
