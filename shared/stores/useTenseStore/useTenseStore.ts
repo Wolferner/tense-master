@@ -6,6 +6,7 @@ import type {
 	TrainingMode,
 } from '@/presentation/web/pages/TenseTrainer/logic/config';
 import { type ExerciseResponseDto } from '@/server/aplication/exercise';
+import { ExerciseAnswer } from '@/server/domain/entities/Answer';
 import { type TenseType } from '@/server/domain/value-objects';
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
@@ -14,23 +15,6 @@ import { fetchExercises } from '../../api/fetchExercises';
 import { INFINITE_MODE_LIMIT, MAX_EXERCISES } from '../../config/constants';
 import { validateAnswer } from '../../lib';
 import { DEFAULT_TENSES } from './storeDefaults';
-
-type ExerciseAnswerManual = {
-	answer: string;
-	skipped: false;
-	isCorrect: boolean;
-	createdAt: string;
-	sessionId: string;
-};
-
-type ExerciseAnswerSkipped = {
-	answer: string;
-	skipped: true;
-	createdAt: string;
-	sessionId: string;
-};
-
-export type ExerciseAnswer = ExerciseAnswerManual | ExerciseAnswerSkipped;
 
 interface TenseStoreState {
 	selectedTenses: TenseType[];
