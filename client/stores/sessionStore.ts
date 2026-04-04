@@ -3,8 +3,8 @@
 import { exerciseSessionService } from '@/client/infrastructure/container';
 import type { ExerciseAnswer } from '@/domain/entities/Answer';
 import type { TenseType } from '@/domain/value-objects';
-import type { ExerciseResponseDto } from '@/shared/dtos';
 import type { FixedLimit, Step, TrainingMode } from '@/shared/config/training';
+import type { ExerciseResponseDto } from '@/shared/dtos';
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
@@ -90,7 +90,14 @@ export const useSessionStore = create<SessionStore>()(
 					set({ currentExerciseIndex: result.nextIndex, currentAnswer: null, isLoading: false });
 				} else if (result.type === 'complete') {
 					await exerciseSessionService.completeSession(sessionId);
-					set({ step: 'select', currentAnswer: null, sessionId: '', isLoading: false });
+					set({
+						step: 'select',
+						currentAnswer: null,
+						exercises: [],
+						currentExerciseIndex: 0,
+						sessionId: '',
+						isLoading: false,
+					});
 				} else {
 					set(prev => ({
 						exercises: [...prev.exercises, ...result.exercises],
