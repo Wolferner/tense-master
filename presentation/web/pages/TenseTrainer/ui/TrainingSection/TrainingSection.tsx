@@ -6,7 +6,7 @@ import { Badge } from '@/presentation/components/ui/badge';
 import { Button } from '@/presentation/components/ui/button';
 import { Textarea } from '@/presentation/components/ui/textarea';
 import { TENSE_LABELS } from '@/presentation/web/pages/TenseTrainer/logic/tenseLabels';
-import { ArrowLeftIcon } from 'lucide-react';
+import { ArrowLeftIcon, ArrowRightIcon } from 'lucide-react';
 import { useState } from 'react';
 import { useShallow } from 'zustand/react/shallow';
 import TaskResult from './TaskResult';
@@ -20,6 +20,7 @@ const TrainingSection = () => {
 		setStep,
 		nextExercise,
 		submitAnswer,
+		finishSession,
 	} = useSessionStore(
 		useShallow(s => ({
 			exercises: s.exercises,
@@ -29,6 +30,7 @@ const TrainingSection = () => {
 			setStep: s.setStep,
 			nextExercise: s.nextExercise,
 			submitAnswer: s.submitAnswer,
+			finishSession: s.finishSession,
 		})),
 	);
 
@@ -52,10 +54,23 @@ const TrainingSection = () => {
 	return (
 		<main className='bg-background text-foreground flex flex-1 flex-col'>
 			<div className='mx-auto flex w-full max-w-2xl flex-col gap-8 px-6 py-16'>
-				<Button variant='ghost' size='sm' className='-ml-2 w-fit' onClick={() => setStep('select')}>
-					<ArrowLeftIcon />
-					Назад
-				</Button>
+				<div className='flex items-center justify-between'>
+					<Button variant='ghost' size='sm' className='-ml-2' onClick={() => setStep('select')}>
+						<ArrowLeftIcon />
+						Назад
+					</Button>
+					{mode === 'infinite' && (
+						<Button
+							variant='ghost'
+							size='sm'
+							className='-mr-2'
+							onClick={() => void finishSession()}
+						>
+							Завершить
+							<ArrowRightIcon />
+						</Button>
+					)}
+				</div>
 
 				<div
 					key={currentExerciseIndex}

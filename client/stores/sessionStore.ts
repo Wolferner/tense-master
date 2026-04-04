@@ -22,6 +22,7 @@ type SessionActions = {
 	submitAnswer(answer: string, exerciseId: string): Promise<void>;
 	startTraining(tenses: TenseType[], mode: TrainingMode, fixedLimit: FixedLimit): Promise<void>;
 	nextExercise(tenses: TenseType[], mode: TrainingMode): Promise<void>;
+	finishSession(): Promise<void>;
 };
 
 export type SessionStore = SessionState & SessionActions;
@@ -37,6 +38,18 @@ export const useSessionStore = create<SessionStore>()(
 			isLoading: false,
 
 			setStep: step => set({ step }),
+
+			finishSession: async () => {
+				const { sessionId } = get();
+				if (sessionId) await exerciseSessionService.completeSession(sessionId);
+				set({
+					step: 'select',
+					currentAnswer: null,
+					sessionId: '',
+					exercises: [],
+					currentExerciseIndex: 0,
+				});
+			},
 
 			submitAnswer: async (answer, exerciseId) => {
 				const { exercises, sessionId } = get();
