@@ -1,10 +1,13 @@
 import type { ExerciseAnswer } from '@/domain/entities/Answer';
+import type { Session } from '@/domain/entities/Session';
 import { validateAnswer } from '@/domain/services/AnswerValidator';
 import type { TenseType } from '@/domain/value-objects';
 import type { ExerciseResponseDto } from '@/shared/dtos';
 import { INFINITE_MODE_LIMIT, MAX_EXERCISES } from '@/shared/config/constants';
 import type { FixedLimit, TrainingMode } from '@/shared/config/training';
+import type { IAnswerRepository } from '../repositories/IAnswerRepository';
 import type { IExerciseLocalRepository } from '../repositories/IExerciseLocalRepository';
+import type { ISessionRepository } from '../repositories/ISessionRepository';
 
 export type NextExerciseResult =
 	| { type: 'advance'; nextIndex: number }
@@ -13,17 +16,53 @@ export type NextExerciseResult =
 
 export class ExerciseSessionService {
 	#exerciseLocal: IExerciseLocalRepository;
+	#sessionRepo: ISessionRepository;
+	#answerRepo: IAnswerRepository;
 
-	constructor(exerciseLocalRepo: IExerciseLocalRepository) {
+	constructor(
+		exerciseLocalRepo: IExerciseLocalRepository,
+		sessionRepo: ISessionRepository,
+		answerRepo: IAnswerRepository,
+	) {
 		this.#exerciseLocal = exerciseLocalRepo;
+		this.#sessionRepo = sessionRepo;
+		this.#answerRepo = answerRepo;
 	}
 
-	async loadExercises(
+	async beginSession(
 		tenses: TenseType[],
 		mode: TrainingMode,
 		fixedLimit: FixedLimit,
-	): Promise<ExerciseResponseDto[]> {
-		return this.#exerciseLocal.findRandom(tenses, mode === 'fixed' ? fixedLimit : MAX_EXERCISES);
+	): Promise<{ exercises: ExerciseResponseDto[]; sessionId: string }> {
+		const exercises = await this.#exerciseLocal.findRandom(
+			tenses,
+			mode === 'fixed' ? fixedLimit : MAX_EXERCISES,
+		);
+		const sessionId = crypto.randomUUID();
+		const session: Session = {
+			id: sessionId,
+			tenses,
+			mode,
+			fixedLimit,
+			status: 'active',
+			createdAt: new Date().toISOString(),
+		};
+		await this.#sessionRepo.create(session);
+		return { exercises, sessionId };
+	}
+
+	async saveAnswer(
+		exercise: ExerciseResponseDto,
+		userAnswer: string,
+		sessionId: string,
+	): Promise<ExerciseAnswer> {
+		const answer = this.#buildAnswer(exercise, userAnswer, sessionId);
+		await this.#answerRepo.create(answer);
+		return answer;
+	}
+
+	async completeSession(sessionId: string): Promise<void> {
+		await this.#sessionRepo.updateStatus(sessionId, 'completed', new Date().toISOString());
 	}
 
 	async resolveNext(
@@ -42,7 +81,7 @@ export class ExerciseSessionService {
 		return { type: 'fetchMore', exercises: more, nextIndex: currentIndex + 1 };
 	}
 
-	createAnswer(
+	#buildAnswer(
 		exercise: ExerciseResponseDto,
 		userAnswer: string,
 		sessionId: string,

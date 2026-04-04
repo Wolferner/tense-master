@@ -1,12 +1,7 @@
 'use client';
 
-import {
-	answerRepository,
-	exerciseSessionService,
-	sessionRepository,
-} from '@/client/infrastructure/dexie/container';
+import { exerciseSessionService } from '@/client/infrastructure/container';
 import type { ExerciseAnswer } from '@/domain/entities/Answer';
-import type { Session } from '@/domain/entities/Session';
 import type { TenseType } from '@/domain/value-objects';
 import type { ExerciseResponseDto } from '@/shared/dtos';
 import type { FixedLimit, Step, TrainingMode } from '@/shared/config/training';
@@ -47,25 +42,18 @@ export const useSessionStore = create<SessionStore>()(
 				const { exercises, sessionId } = get();
 				const exercise = exercises.find(e => e.id === exerciseId);
 				if (!exercise) return;
-				const record = exerciseSessionService.createAnswer(exercise, answer, sessionId);
-				await answerRepository.create(record);
+				const record = await exerciseSessionService.saveAnswer(exercise, answer, sessionId);
 				set({ currentAnswer: record });
 			},
 
 			startTraining: async (tenses, mode, fixedLimit) => {
 				if (tenses.length === 0) return;
 				set({ isLoading: true });
-				const exercises = await exerciseSessionService.loadExercises(tenses, mode, fixedLimit);
-				const sessionId = crypto.randomUUID();
-				const session: Session = {
-					id: sessionId,
+				const { exercises, sessionId } = await exerciseSessionService.beginSession(
 					tenses,
 					mode,
 					fixedLimit,
-					status: 'active',
-					createdAt: new Date().toISOString(),
-				};
-				await sessionRepository.create(session);
+				);
 				set({
 					exercises,
 					sessionId,
@@ -88,7 +76,7 @@ export const useSessionStore = create<SessionStore>()(
 				if (result.type === 'advance') {
 					set({ currentExerciseIndex: result.nextIndex, currentAnswer: null, isLoading: false });
 				} else if (result.type === 'complete') {
-					await sessionRepository.updateStatus(sessionId, 'completed', new Date().toISOString());
+					await exerciseSessionService.completeSession(sessionId);
 					set({ step: 'select', currentAnswer: null, isLoading: false });
 				} else {
 					set(prev => ({
