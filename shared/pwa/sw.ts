@@ -22,7 +22,7 @@ const serwist = new Serwist({
 	navigationPreload: true,
 	runtimeCaching: [
 		{
-			matcher: /^\/api\/excersises/,
+			matcher: /^\/api\/exercises/,
 			handler: new NetworkFirst({
 				cacheName: 'exercises-api',
 				networkTimeoutSeconds: 5,

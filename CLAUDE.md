@@ -53,7 +53,7 @@ app/
   (web)/            page.tsx, tense-trainer/, profile/, settings.tsx/ ← bug: rename to settings/
   telegram/         page.tsx, tense-trainer/, profile/, settings.tsx/
   api/
-    excersises/     route.ts
+    exercises/      route.ts
     serwist/        route.ts (PWA service worker)
 
 shared/

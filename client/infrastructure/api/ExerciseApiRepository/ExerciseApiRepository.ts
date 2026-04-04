@@ -6,7 +6,7 @@ export class ExerciseApiRepository implements IExerciseApiRepository {
 	async findRandom(tenses: TenseType[], limit: number): Promise<ExerciseResponseDto[]> {
 		try {
 			const params = new URLSearchParams({ tenses: tenses.join(','), limit: String(limit) });
-			const res = await fetch(`/api/excersises?${params}`);
+			const res = await fetch(`/api/exercises?${params}`);
 			if (!res.ok) throw new Error('Network response not ok');
 			return res.json();
 		} catch {

@@ -1,6 +1,6 @@
 'use client';
 
-import { exerciseSessionService } from '@/client/infrastructure/api/ExcersiseApiRepository/container';
+import { exerciseSessionService } from '@/client/infrastructure/api/ExerciseApiRepository/container';
 import { type ExerciseAnswer } from '@/domain/entities/Answer';
 import { type TenseType } from '@/domain/value-objects';
 import { type ExerciseResponseDto } from '@/server/application/exercise';
