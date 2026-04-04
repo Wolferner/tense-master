@@ -6,16 +6,18 @@ English tenses practice app. User selects which tenses to practice, gets a sente
 
 ## Architecture
 
-Ports and Adapters (Hexagonal) architecture. `domain/` is the core — no external dependencies. Server and client are separate sets of adapters over the same domain.
+Based on Onion Architecture (Palermo), adapted for fullstack and local-first.
+
+`domain/` is the shared core — used by both server and client, no external dependencies. Repository interfaces are defined in the `application/` layer of each side (server and client), not in `domain/`, because the server and client have different repository contracts (Prisma vs API client). This follows Clean Architecture's placement of interfaces at the application boundary.
 
 Dependency rule: `presentation → client → domain ← server`
 
-- `domain/` — entities, value objects, repository interfaces, domain services. No external dependencies. Shared by server and client.
-- `server/` — server-side adapters: application services (use cases), Prisma repository implementations, HTTP controllers.
-- `client/` — client-side adapters: application services, Dexie repository implementations, Zustand stores.
+- `domain/` — entities, value objects, domain services. No external dependencies. Shared by both server and client.
+- `server/` — server application layer (use cases, repository interfaces for Prisma) + infrastructure (Prisma, HTTP).
+- `client/` — client application layer (use cases, repository interfaces for API) + infrastructure (API client) + Zustand stores.
 - `presentation/` — React UI only. No business logic. Consumes Zustand stores.
 - `app/` — Next.js App Router routing only. Pages import from `presentation/`.
-- `shared/` — pure utilities with no business meaning (cn(), constants, hooks, PWA).
+- `shared/` — pure utilities and shared contracts (cn(), constants, hooks, PWA, DTOs).
 
 ## Folder structure
 
@@ -23,29 +25,30 @@ Dependency rule: `presentation → client → domain ← server`
 domain/
   entities/         Exercise.ts, Answer.ts
   value-objects/    Tense.ts (as const + type, no TS enums)
-  repositories/     IExerciseRepository.ts, IProgressRepository.ts, ISettingsRepository.ts
-  services/         AnswerValidator.ts, ExerciseSelector.ts, ProgressCalculator.ts
+  repositories/     IExerciseRepository.ts
+  services/         AnswerValidator.ts
 
 server/
   application/
-    exercise/       ExerciseService.ts, dto/, __tests__/
+    exercise/       ExerciseService.ts, dto/CreateExerciseDto.ts, __tests__/
   infrastructure/
     http/           ExerciseController.ts, container.ts
     prisma-orm/     PrismaExerciseRepository.ts, prismaClient.ts
     seeds/          seed.ts, data/*.json
 
 client/
-  application/      ExerciseSessionService.ts, ProgressService.ts, SettingsService.ts, SyncService.ts
-  stores/           sessionStore.ts, progressStore.ts, settingsStore.ts
+  application/
+    services/       ExerciseSessionService.ts
+    repositories/   IExerciseApiRepository.ts
+  stores/           sessionStore.ts, settingsStore.ts
   infrastructure/
-    dexie/          schema.ts, client.ts, DexieExerciseRepository.ts, DexieProgressRepository.ts, DexieSettingsRepository.ts
-    api/            ExerciseApiClient.ts
+    api/            ExerciseApiRepository/ExerciseApiRepository.ts, container.ts
 
 presentation/
   web/
     pages/          Home/, TenseTrainer/, Profile/, Settings/
     components/     Header/, InstallBanner/, NetworkBadge/
-  telegram/         (partially implemented)
+  telegram/         (not implemented)
   components/
     ui/             shadcn components (badge, button, checkbox, textarea)
 
@@ -57,8 +60,9 @@ app/
     serwist/        route.ts (PWA service worker)
 
 shared/
+  dtos/             ExerciseResponseDto.ts  ← shared API contract between server and client
   lib/              utils.ts
-  config/           constants.ts
+  config/           constants.ts, training.ts
   hooks/            useInstallPrompt.ts, useNetworkStatus.ts
   pwa/              serwist.ts, sw.ts
 
@@ -78,44 +82,30 @@ prisma/
 
 ### Repository interfaces
 
-- `IExerciseRepository` — `findByTenses`, `findById`
-- `IProgressRepository` — `save`, `findByExerciseId`, `findAll`, `clear`
-- `ISettingsRepository` — `get`, `save`
+- `IExerciseRepository` — `findRandom`, `create`
 
 ### Domain services (pure functions, no IO)
 
-- `AnswerValidator` — validates user answer against correct answer
-- `ExerciseSelector` — `selectRandom` / `selectWeighted` (weighted = more errors → shown more often)
-- `ProgressCalculator` — `calcExerciseStats`, `calcTenseStats`, `calcSessionStats`
+- `AnswerValidator` — validates user answer against correct answer (case-insensitive trim)
 
 ## Client layer
 
-### Dexie (IndexedDB) — local-first storage
-
-Tables: `exercises` (cached from server), `progress` (answer history), `settings` (user settings + anonymousId), `syncMeta` (sync timestamps for future sync).
-
-`syncedAt: null` on progress/settings records = not yet synced to server.
-
 ### Application services
 
-- `ExerciseSessionService` — loads exercises (Dexie first, API fallback), picks next exercise, submits/skips answers
-- `ProgressService` — reads history, computes stats via ProgressCalculator
-- `SettingsService` — reads/writes settings with default initialization
-- `SyncService` — stub, implements pull/push when sync is added
+- `ExerciseSessionService` — loads exercises from API (with fallback to `/fallback-exercises.json`), resolves next exercise, creates typed answers
 
 ### Zustand stores
 
-Stores are the glue between UI and application services. UI only calls store methods and reads store state — no direct access to services or Dexie.
+Stores are the glue between UI and application services. UI only calls store methods and reads store state — no direct access to services.
 
-- `sessionStore` — current training session (exercises, currentExercise, answers, sessionId)
-- `progressStore` — stats (exerciseStats, tenseStats, recentSessions)
-- `settingsStore` — user settings
+- `sessionStore` — current training session (exercises, answers, sessionId, step, currentExerciseIndex). Persisted to localStorage.
+- `settingsStore` — user settings (selectedTenses, mode, fixedLimit). Persisted to localStorage.
 
 ## Architecture decisions
 
-- Local-first: Dexie is the primary store for the client. Server is used for initial exercise load and future sync.
-- No auth yet — anonymousId (uuid) generated on first run, stored in Dexie settings table. Auth + sync planned as future extension.
-- Settings and progress stored in Dexie, not localStorage.
+- `ExerciseResponseDto` lives in `shared/dtos/` — it's the API contract used by both server and client. `CreateExerciseDto` stays in `server/` — it's server-only.
+- Client fetches exercises from `/api/exercises`, falls back to `/fallback-exercises.json` on error.
+- Settings and session state stored in localStorage via Zustand `persist` middleware (no Dexie yet).
 - Prisma Client output: `prisma/generated/prisma`
 - PWA support via serwist (service worker, install prompt, offline badge)
 - Full architecture spec: `docs/architecture/design.md`
@@ -157,7 +147,6 @@ enum Tense {
 - Next.js 16.2.1 (breaking changes — read node_modules/next/dist/docs/ before writing code)
 - React 19.2.4, TypeScript, Tailwind CSS v4
 - Prisma 7.5, PostgreSQL (Neon), `@prisma/adapter-neon`
-- Dexie (IndexedDB wrapper for local-first storage)
 - Zod (validation), Zustand (client state)
 - shadcn/ui (radix-ui based components in `presentation/components/ui/`)
 - serwist (PWA / service worker)
