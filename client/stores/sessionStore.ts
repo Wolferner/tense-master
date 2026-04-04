@@ -3,7 +3,7 @@
 import { exerciseSessionService } from '@/client/infrastructure/api/ExerciseApiRepository/container';
 import { type ExerciseAnswer } from '@/domain/entities/Answer';
 import { type TenseType } from '@/domain/value-objects';
-import { type ExerciseResponseDto } from '@/server/application/exercise';
+import { type ExerciseResponseDto } from '@/shared/dtos';
 import type { FixedLimit, Step, TrainingMode } from '@/shared/config/training';
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';

@@ -19,7 +19,7 @@ import { useSessionStore } from '@/client/stores/sessionStore';
 import type { SettingsStore } from '@/client/stores/settingsStore';
 import { useSettingsStore } from '@/client/stores/settingsStore';
 import { Tense } from '@/domain/value-objects';
-import { type ExerciseResponseDto } from '@/server/application/exercise';
+import { type ExerciseResponseDto } from '@/shared/dtos';
 import SelectTrainingSection from '../SelectTrainingSection';
 
 function makeExercise(): ExerciseResponseDto {

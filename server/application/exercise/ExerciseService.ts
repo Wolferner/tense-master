@@ -3,7 +3,7 @@ import { Exercise } from '../../../domain/entities/Exercise';
 import { IExerciseRepository } from '../../../domain/repositories';
 import { Tense } from '../../../domain/value-objects';
 import { CreateExerciseDto } from './dto/CreateExerciseDto';
-import { ExerciseResponseDto } from './dto/ExerciseResponseDto';
+import { ExerciseResponseDto } from '@/shared/dtos';
 
 export class ExerciseService {
 	constructor(private readonly exerciseRepository: IExerciseRepository) {}

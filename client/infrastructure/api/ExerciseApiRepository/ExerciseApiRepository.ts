@@ -1,6 +1,6 @@
 import { type IExerciseApiRepository } from '@/client/application/repositories/IExerciseApiRepository';
 import { type TenseType } from '@/domain/value-objects';
-import { type ExerciseResponseDto } from '@/server/application/exercise';
+import { type ExerciseResponseDto } from '@/shared/dtos';
 
 export class ExerciseApiRepository implements IExerciseApiRepository {
 	async findRandom(tenses: TenseType[], limit: number): Promise<ExerciseResponseDto[]> {

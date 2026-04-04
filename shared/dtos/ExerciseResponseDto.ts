@@ -1,4 +1,4 @@
-import { Tense } from '../../../../domain/value-objects';
+import { type Tense } from '@/domain/value-objects';
 
 export interface ExerciseResponseDto {
 	id: string;

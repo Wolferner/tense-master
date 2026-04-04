@@ -1,7 +1,7 @@
 import { type ExerciseAnswer } from '@/domain/entities/Answer';
 import { validateAnswer } from '@/domain/services/AnswerValidator';
 import { type TenseType } from '@/domain/value-objects';
-import { type ExerciseResponseDto } from '@/server/application/exercise';
+import { type ExerciseResponseDto } from '@/shared/dtos';
 import { INFINITE_MODE_LIMIT, MAX_EXERCISES } from '@/shared/config/constants';
 import type { FixedLimit, TrainingMode } from '@/shared/config/training';
 import { type IExerciseApiRepository } from '../repositories/IExerciseApiRepository';
