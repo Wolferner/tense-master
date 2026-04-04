@@ -77,7 +77,7 @@ export const useSessionStore = create<SessionStore>()(
 					set({ currentExerciseIndex: result.nextIndex, currentAnswer: null, isLoading: false });
 				} else if (result.type === 'complete') {
 					await exerciseSessionService.completeSession(sessionId);
-					set({ step: 'select', currentAnswer: null, isLoading: false });
+					set({ step: 'select', currentAnswer: null, sessionId: '', isLoading: false });
 				} else {
 					set(prev => ({
 						exercises: [...prev.exercises, ...result.exercises],
