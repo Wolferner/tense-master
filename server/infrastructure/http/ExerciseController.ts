@@ -14,6 +14,16 @@ const GetRandomSchema = z.object({
 export class ExerciseController {
 	constructor(private readonly exerciseService: ExerciseService) {}
 
+	async getMeta(): Promise<NextResponse> {
+		const lastUpdatedAt = await this.exerciseService.getLastUpdatedAt();
+		return NextResponse.json({ lastUpdatedAt }, { status: 200 });
+	}
+
+	async getAll(): Promise<NextResponse> {
+		const exercises = await this.exerciseService.findAll();
+		return NextResponse.json(exercises, { status: 200 });
+	}
+
 	async getRandom(req: NextRequest): Promise<NextResponse> {
 		const tensesParam = req.nextUrl.searchParams.get('tenses');
 		const limitParam = req.nextUrl.searchParams.get('limit');

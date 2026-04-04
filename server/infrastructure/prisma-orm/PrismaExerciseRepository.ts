@@ -46,6 +46,19 @@ export class PrismaExerciseRepository implements IExerciseRepository {
 			.map(r => this.toDomain(r));
 	}
 
+	async findLatestUpdatedAt(): Promise<Date | null> {
+		const result = await this.prisma.tenseExerciseQuestion.findFirst({
+			orderBy: { updatedAt: 'desc' },
+			select: { updatedAt: true },
+		});
+		return result?.updatedAt ?? null;
+	}
+
+	async findAll(): Promise<Exercise[]> {
+		const records = await this.prisma.tenseExerciseQuestion.findMany();
+		return records.map(r => this.toDomain(r));
+	}
+
 	private toDomain(record: TenseExerciseQuestion): Exercise {
 		return new Exercise(
 			record.tense,

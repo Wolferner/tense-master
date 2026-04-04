@@ -13,4 +13,6 @@ export interface IExerciseRepository {
 	findById(id: Exercise['id']): Promise<Exercise | null>;
 	findByTenses(tenses: Tense[]): Promise<Exercise[]>;
 	findRandom(tenses: Tense[], limit: number): Promise<Exercise[]>;
+	findLatestUpdatedAt(): Promise<Date | null>;
+	findAll(): Promise<Exercise[]>;
 }

@@ -38,6 +38,16 @@ export class ExerciseService {
 		return repeated.map(this.toDto);
 	}
 
+	async getLastUpdatedAt(): Promise<string | null> {
+		const latest = await this.exerciseRepository.findLatestUpdatedAt();
+		return latest ? latest.toISOString() : null;
+	}
+
+	async findAll(): Promise<ExerciseResponseDto[]> {
+		const exercises = await this.exerciseRepository.findAll();
+		return exercises.map(this.toDto);
+	}
+
 	private toDto(exercise: Exercise): ExerciseResponseDto {
 		return {
 			id: exercise.id,
