@@ -64,7 +64,17 @@ export class ExerciseSessionService {
 		userAnswer: string,
 		sessionId: string,
 	): Promise<ExerciseAnswer> {
-		const answer = this.#buildAnswer(exercise, userAnswer, sessionId);
+		const skipped = userAnswer.trim().length === 0;
+		const answer = new ExerciseAnswer(
+			crypto.randomUUID(),
+			sessionId,
+			exercise.id,
+			userAnswer,
+			skipped,
+			skipped ? null : validateAnswer(userAnswer, exercise.answer),
+			new Date().toISOString(),
+		);
+
 		await this.#answerRepo.create(answer);
 		return answer;
 	}
@@ -87,22 +97,5 @@ export class ExerciseSessionService {
 		}
 		const more = await this.#exerciseLocal.findRandom(tenses, INFINITE_MODE_LIMIT);
 		return { type: 'fetchMore', exercises: more, nextIndex: currentIndex + 1 };
-	}
-
-	#buildAnswer(
-		exercise: ExerciseResponseDto,
-		userAnswer: string,
-		sessionId: string,
-	): ExerciseAnswer {
-		const skipped = userAnswer.trim().length === 0;
-		return new ExerciseAnswer(
-			crypto.randomUUID(),
-			sessionId,
-			exercise.id,
-			userAnswer,
-			skipped,
-			skipped ? null : validateAnswer(userAnswer, exercise.answer),
-			new Date().toISOString(),
-		);
 	}
 }
