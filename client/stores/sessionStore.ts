@@ -1,16 +1,21 @@
 'use client';
 
-import { exerciseSessionService } from '@/client/infrastructure/api/ExerciseApiRepository/container';
-import { type ExerciseAnswer } from '@/domain/entities/Answer';
-import { type TenseType } from '@/domain/value-objects';
-import { type ExerciseResponseDto } from '@/shared/dtos';
+import {
+	answerRepository,
+	exerciseSessionService,
+	sessionRepository,
+} from '@/client/infrastructure/dexie/container';
+import type { ExerciseAnswer } from '@/domain/entities/Answer';
+import type { Session } from '@/domain/entities/Session';
+import type { TenseType } from '@/domain/value-objects';
+import type { ExerciseResponseDto } from '@/shared/dtos';
 import type { FixedLimit, Step, TrainingMode } from '@/shared/config/training';
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
 type SessionState = {
 	exercises: ExerciseResponseDto[];
-	answers: Record<string, ExerciseAnswer[]>;
+	currentAnswer: ExerciseAnswer | null;
 	sessionId: string;
 	step: Step;
 	currentExerciseIndex: number;
@@ -19,7 +24,7 @@ type SessionState = {
 
 type SessionActions = {
 	setStep(step: Step): void;
-	submitAnswer(answer: ExerciseAnswer['answer'], exerciseId: ExerciseResponseDto['id']): void;
+	submitAnswer(answer: string, exerciseId: string): Promise<void>;
 	startTraining(tenses: TenseType[], mode: TrainingMode, fixedLimit: FixedLimit): Promise<void>;
 	nextExercise(tenses: TenseType[], mode: TrainingMode): Promise<void>;
 };
@@ -30,7 +35,7 @@ export const useSessionStore = create<SessionStore>()(
 	persist(
 		(set, get) => ({
 			exercises: [],
-			answers: {},
+			currentAnswer: null,
 			sessionId: '',
 			step: 'select',
 			currentExerciseIndex: 0,
@@ -38,34 +43,41 @@ export const useSessionStore = create<SessionStore>()(
 
 			setStep: step => set({ step }),
 
-			submitAnswer: (answer, exerciseId) => {
+			submitAnswer: async (answer, exerciseId) => {
 				const { exercises, sessionId } = get();
 				const exercise = exercises.find(e => e.id === exerciseId);
 				if (!exercise) return;
 				const record = exerciseSessionService.createAnswer(exercise, answer, sessionId);
-				set(state => ({
-					answers: {
-						...state.answers,
-						[exerciseId]: [...(state.answers[exerciseId] || []), record],
-					},
-				}));
+				await answerRepository.create(record);
+				set({ currentAnswer: record });
 			},
 
 			startTraining: async (tenses, mode, fixedLimit) => {
 				if (tenses.length === 0) return;
 				set({ isLoading: true });
 				const exercises = await exerciseSessionService.loadExercises(tenses, mode, fixedLimit);
+				const sessionId = crypto.randomUUID();
+				const session: Session = {
+					id: sessionId,
+					tenses,
+					mode,
+					fixedLimit,
+					status: 'active',
+					createdAt: new Date().toISOString(),
+				};
+				await sessionRepository.create(session);
 				set({
 					exercises,
-					sessionId: crypto.randomUUID(),
+					sessionId,
 					currentExerciseIndex: 0,
+					currentAnswer: null,
 					step: 'training',
 					isLoading: false,
 				});
 			},
 
 			nextExercise: async (tenses, mode) => {
-				const { currentExerciseIndex, exercises } = get();
+				const { currentExerciseIndex, exercises, sessionId } = get();
 				set({ isLoading: true });
 				const result = await exerciseSessionService.resolveNext(
 					currentExerciseIndex,
@@ -74,13 +86,15 @@ export const useSessionStore = create<SessionStore>()(
 					mode,
 				);
 				if (result.type === 'advance') {
-					set({ currentExerciseIndex: result.nextIndex, isLoading: false });
+					set({ currentExerciseIndex: result.nextIndex, currentAnswer: null, isLoading: false });
 				} else if (result.type === 'complete') {
-					set({ step: 'select', isLoading: false });
+					await sessionRepository.updateStatus(sessionId, 'completed', new Date().toISOString());
+					set({ step: 'select', currentAnswer: null, isLoading: false });
 				} else {
 					set(prev => ({
 						exercises: [...prev.exercises, ...result.exercises],
 						currentExerciseIndex: result.nextIndex,
+						currentAnswer: null,
 						isLoading: false,
 					}));
 				}
@@ -90,10 +104,10 @@ export const useSessionStore = create<SessionStore>()(
 			name: 'tense-session',
 			partialize: state => ({
 				exercises: state.exercises,
-				answers: state.answers,
 				sessionId: state.sessionId,
 				step: state.step,
 				currentExerciseIndex: state.currentExerciseIndex,
+				currentAnswer: state.currentAnswer,
 			}),
 		},
 	),

@@ -13,21 +13,19 @@ import TaskResult from './TaskResult';
 
 const TrainingSection = () => {
 	const {
-		sessionId,
 		exercises,
 		currentExerciseIndex,
 		isLoading,
-		answers,
+		currentAnswer,
 		setStep,
 		nextExercise,
 		submitAnswer,
 	} = useSessionStore(
 		useShallow(s => ({
-			sessionId: s.sessionId,
 			exercises: s.exercises,
 			currentExerciseIndex: s.currentExerciseIndex,
 			isLoading: s.isLoading,
-			answers: s.answers,
+			currentAnswer: s.currentAnswer,
 			setStep: s.setStep,
 			nextExercise: s.nextExercise,
 			submitAnswer: s.submitAnswer,
@@ -40,9 +38,9 @@ const TrainingSection = () => {
 
 	const current = exercises[currentExerciseIndex];
 	const totalExercises = exercises.length;
-	const answerRecord = answers[current.id]?.findLast(a => a.sessionId === sessionId);
+	const answerRecord = currentAnswer?.exerciseId === current.id ? currentAnswer : null;
 
-	const [userAnswer, setUserAnswer] = useState(answerRecord?.answer ?? '');
+	const [userAnswer, setUserAnswer] = useState(answerRecord?.userAnswer ?? '');
 
 	const indexString =
 		mode === 'infinite'
@@ -86,7 +84,7 @@ const TrainingSection = () => {
 						/>
 						{!answerRecord && (
 							<Button
-								onClick={() => submitAnswer(userAnswer, current.id)}
+								onClick={() => void submitAnswer(userAnswer, current.id)}
 								variant={isEmptyAnswer ? 'outline' : 'default'}
 							>
 								{isEmptyAnswer ? 'Skip' : 'Проверить'}
