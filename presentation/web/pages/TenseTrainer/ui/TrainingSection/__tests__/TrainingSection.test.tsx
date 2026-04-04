@@ -14,12 +14,12 @@ vi.mock('@/client/stores/settingsStore', () => ({
 	useSettingsStore: vi.fn(),
 }));
 
-import { useSessionStore } from '@/client/stores/sessionStore';
 import type { SessionStore } from '@/client/stores/sessionStore';
-import { useSettingsStore } from '@/client/stores/settingsStore';
+import { useSessionStore } from '@/client/stores/sessionStore';
 import type { SettingsStore } from '@/client/stores/settingsStore';
+import { useSettingsStore } from '@/client/stores/settingsStore';
 import { Tense } from '@/domain/value-objects';
-import { type ExerciseResponseDto } from '@/server/aplication/exercise';
+import { type ExerciseResponseDto } from '@/server/application/exercise';
 import TrainingSection from '../TrainingSection';
 
 const exercise: ExerciseResponseDto = {

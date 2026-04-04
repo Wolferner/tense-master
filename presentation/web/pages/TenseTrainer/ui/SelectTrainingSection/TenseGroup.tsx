@@ -1,22 +1,19 @@
 import { type Tense } from '@/domain/value-objects';
 import { Checkbox } from '@/presentation/components/ui/checkbox';
-import {
-	type ITenseGroup,
-	TENSE_LABELS,
-} from '@/presentation/web/pages/TenseTrainer/logic/tenseLabels';
+import { ITenseGroup, TENSE_LABELS } from '@/presentation/web/pages/TenseTrainer/logic/tenseLabels';
 
 interface TenseGroupProps {
 	group: ITenseGroup;
 	selectedTenses: Tense[];
 	onToggle: (tense: Tense) => void;
-	onToggleGroup: (group: ITenseGroup) => void;
+	onToggleGroup: (tenses: Tense[]) => void;
 }
 
 const TenseGroup = ({ onToggle, onToggleGroup, group, selectedTenses }: TenseGroupProps) => {
 	const allSelected = group.tenses.every(tense => selectedTenses.includes(tense));
 
 	const toggleGroupHandler = () => {
-		onToggleGroup(group);
+		onToggleGroup(group.tenses);
 	};
 
 	return (

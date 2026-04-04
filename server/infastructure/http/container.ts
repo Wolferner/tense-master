@@ -1,4 +1,4 @@
-import { ExerciseService } from '../../aplication/exercise';
+import { ExerciseService } from '../../application/exercise';
 import { PrismaExerciseRepository } from '../prisma-orm/PrismaExerciseRepository';
 import { prisma } from '../prisma-orm/prismaClient';
 import { ExerciseController } from './ExerciseController';

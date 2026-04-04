@@ -1,16 +1,10 @@
 'use client';
 
-import { fetchExercises } from '@/client/infrastructure/api/fetchExercises';
-import { validateAnswer } from '@/domain/services/AnswerValidator';
+import { exerciseSessionService } from '@/client/infrastructure/api/ExcersiseApiRepository/container';
 import { type ExerciseAnswer } from '@/domain/entities/Answer';
 import { type TenseType } from '@/domain/value-objects';
-import { type ExerciseResponseDto } from '@/server/aplication/exercise';
-import { INFINITE_MODE_LIMIT, MAX_EXERCISES } from '@/shared/config/constants';
-import type {
-	FixedLimit,
-	Step,
-	TrainingMode,
-} from '@/presentation/web/pages/TenseTrainer/logic/config';
+import { type ExerciseResponseDto } from '@/server/application/exercise';
+import type { FixedLimit, Step, TrainingMode } from '@/shared/config/training';
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
@@ -46,38 +40,23 @@ export const useSessionStore = create<SessionStore>()(
 
 			submitAnswer: (answer, exerciseId) => {
 				const { exercises, sessionId } = get();
-				const exercise = exercises.find(e => e.id === exerciseId)!;
-				const skipped = answer.trim().length === 0;
-				const createdAt = new Date().toISOString();
-				const record: ExerciseAnswer = skipped
-					? { answer, skipped: true, createdAt, sessionId }
-					: {
-							answer,
-							skipped: false,
-							isCorrect: validateAnswer(answer, exercise.answer),
-							createdAt,
-							sessionId,
-						};
-				set(state => {
-					const previousAnswers = state.answers[exerciseId] || [];
-					return {
-						answers: { ...state.answers, [exerciseId]: [...previousAnswers, record] },
-					};
-				});
+				const exercise = exercises.find(e => e.id === exerciseId);
+				if (!exercise) return;
+				const record = exerciseSessionService.createAnswer(exercise, answer, sessionId);
+				set(state => ({
+					answers: {
+						...state.answers,
+						[exerciseId]: [...(state.answers[exerciseId] || []), record],
+					},
+				}));
 			},
 
 			startTraining: async (tenses, mode, fixedLimit) => {
 				if (tenses.length === 0) return;
-
 				set({ isLoading: true });
-
-				const newExercises = await fetchExercises(
-					tenses,
-					mode === 'fixed' ? fixedLimit : MAX_EXERCISES,
-				);
-
+				const exercises = await exerciseSessionService.loadExercises(tenses, mode, fixedLimit);
 				set({
-					exercises: newExercises,
+					exercises,
 					sessionId: crypto.randomUUID(),
 					currentExerciseIndex: 0,
 					step: 'training',
@@ -87,24 +66,24 @@ export const useSessionStore = create<SessionStore>()(
 
 			nextExercise: async (tenses, mode) => {
 				const { currentExerciseIndex, exercises } = get();
-
-				if (currentExerciseIndex + 1 < exercises.length) {
-					set({ currentExerciseIndex: currentExerciseIndex + 1 });
-					return;
-				}
-
-				if (mode === 'fixed') {
-					set({ step: 'select' });
-					return;
-				}
-
 				set({ isLoading: true });
-				const data = await fetchExercises(tenses, INFINITE_MODE_LIMIT);
-				set(prev => ({
-					exercises: [...prev.exercises, ...data],
-					currentExerciseIndex: prev.currentExerciseIndex + 1,
-					isLoading: false,
-				}));
+				const result = await exerciseSessionService.resolveNext(
+					currentExerciseIndex,
+					exercises,
+					tenses,
+					mode,
+				);
+				if (result.type === 'advance') {
+					set({ currentExerciseIndex: result.nextIndex, isLoading: false });
+				} else if (result.type === 'complete') {
+					set({ step: 'select', isLoading: false });
+				} else {
+					set(prev => ({
+						exercises: [...prev.exercises, ...result.exercises],
+						currentExerciseIndex: result.nextIndex,
+						isLoading: false,
+					}));
+				}
 			},
 		}),
 		{

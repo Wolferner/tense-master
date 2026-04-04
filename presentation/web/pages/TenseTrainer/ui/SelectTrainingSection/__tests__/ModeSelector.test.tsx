@@ -1,12 +1,8 @@
+import { FIXED_LIMITS, type FixedLimit, type TrainingMode } from '@/shared/config/training';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { describe, it, expect, vi } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
 import ModeSelector from '../ModeSelector';
-import {
-	FIXED_LIMITS,
-	type FixedLimit,
-	type TrainingMode,
-} from '@/presentation/web/pages/TenseTrainer/logic/config';
 
 const baseProps = {
 	mode: 'fixed' as TrainingMode,

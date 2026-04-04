@@ -1,8 +1,7 @@
 'use client';
 
 import { Tense, type TenseType } from '@/domain/value-objects';
-import type { FixedLimit, TrainingMode } from '@/presentation/web/pages/TenseTrainer/logic/config';
-import type { ITenseGroup } from '@/presentation/web/pages/TenseTrainer/logic/tenseLabels';
+import type { FixedLimit, TrainingMode } from '@/shared/config/training';
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
@@ -18,7 +17,7 @@ type SettingsActions = {
 	toggleTense(tense: TenseType): void;
 	selectAll(): void;
 	clearAll(): void;
-	toggleGroup(group: ITenseGroup): void;
+	toggleGroup(tenses: TenseType[]): void;
 	updateMode(patch: { mode?: TrainingMode; limit?: FixedLimit }): void;
 };
 
@@ -44,16 +43,13 @@ export const useSettingsStore = create<SettingsStore>()(
 					mode: mode ?? prev.mode,
 					fixedLimit: limit ?? prev.fixedLimit,
 				})),
-			toggleGroup: group =>
+			toggleGroup: tenses =>
 				set(state => {
-					const allSelected = group.tenses.every(tense => state.selectedTenses.includes(tense));
+					const allSelected = tenses.every(tense => state.selectedTenses.includes(tense));
 					return {
 						selectedTenses: allSelected
-							? state.selectedTenses.filter(t => !group.tenses.includes(t))
-							: [
-									...state.selectedTenses,
-									...group.tenses.filter(t => !state.selectedTenses.includes(t)),
-								],
+							? state.selectedTenses.filter(t => !tenses.includes(t))
+							: [...state.selectedTenses, ...tenses.filter(t => !state.selectedTenses.includes(t))],
 					};
 				}),
 		}),

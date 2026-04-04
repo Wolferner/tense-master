@@ -38,12 +38,12 @@ describe('TenseGroup', () => {
 		expect(screen.getByRole('button')).toHaveTextContent('Снять');
 	});
 
-	it('calls onToggleGroup with the group when toggle button is clicked', async () => {
+	it('calls onToggleGroup with the group tenses when toggle button is clicked', async () => {
 		const user = userEvent.setup();
 		const onToggleGroup = vi.fn();
 		render(<TenseGroup {...baseProps} onToggleGroup={onToggleGroup} />);
 		await user.click(screen.getByRole('button'));
-		expect(onToggleGroup).toHaveBeenCalledWith(group);
+		expect(onToggleGroup).toHaveBeenCalledWith(group.tenses);
 	});
 
 	it('renders a tense item for each tense in the group', () => {
