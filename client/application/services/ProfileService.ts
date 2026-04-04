@@ -30,10 +30,18 @@ export type SessionSummary = {
 
 export type AnswerWithExercise = ExerciseAnswer & { exercise: ExerciseResponseDto };
 
+export type ChartDataPoint = {
+	date: string;
+	cumulative: number;
+	sessionCorrect: number;
+	tenses: TenseType[];
+};
+
 export interface ProfileStats {
 	overallStats: OverallStats;
 	tenseStats: TenseStat[];
 	sessionSummaries: SessionSummary[];
+	chartData: ChartDataPoint[];
 	getSessionAnswers: (sessionId: string) => AnswerWithExercise[];
 }
 
@@ -65,10 +73,13 @@ export class ProfileService {
 
 		const allAnswersWithExercise = this.#joinAnswersWithExercises(answers, exercises);
 
+		const sessionSummaries = this.#getSessionSummaries(sessions, answers);
+
 		return {
 			overallStats: this.#getOverallStats(answers),
 			tenseStats: this.#getTenseStats(answers, exercises),
-			sessionSummaries: this.#getSessionSummaries(sessions, answers),
+			sessionSummaries,
+			chartData: this.#getChartData(sessionSummaries),
 			getSessionAnswers: (sessionId: string) =>
 				allAnswersWithExercise.filter(a => a.sessionId === sessionId),
 		};
@@ -112,6 +123,25 @@ export class ProfileService {
 			.sort(
 				(a, b) => new Date(b.session.createdAt).getTime() - new Date(a.session.createdAt).getTime(),
 			);
+	}
+
+	#getChartData(summaries: SessionSummary[]): ChartDataPoint[] {
+		const sorted = [...summaries].sort(
+			(a, b) => new Date(a.session.createdAt).getTime() - new Date(b.session.createdAt).getTime(),
+		);
+		let cumulative = 0;
+		return sorted.map(({ session, correct }) => {
+			cumulative += correct;
+			return {
+				date: new Date(session.createdAt).toLocaleDateString('ru-RU', {
+					day: 'numeric',
+					month: 'short',
+				}),
+				cumulative,
+				sessionCorrect: correct,
+				tenses: session.tenses,
+			};
+		});
 	}
 
 	#joinAnswersWithExercises(

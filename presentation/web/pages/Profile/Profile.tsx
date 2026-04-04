@@ -3,10 +3,11 @@
 import { StatsOverview } from './ui/StatsOverview/StatsOverview';
 import { TenseBreakdown } from './ui/TenseBreakdown/TenseBreakdown';
 import { SessionHistory } from './ui/SessionHistory/SessionHistory';
+import { ProgressChart } from './ui/ProgressChart/ProgressChart';
 import { useProfileData } from './useProfileData';
 
 const ProfilePage = () => {
-	const { overallStats, tenseStats, sessionSummaries, getSessionAnswers, isLoading } =
+	const { overallStats, tenseStats, sessionSummaries, chartData, getSessionAnswers, isLoading } =
 		useProfileData();
 
 	if (isLoading) {
@@ -23,6 +24,11 @@ const ProfilePage = () => {
 				<section>
 					<h2 className='text-foreground mb-4 text-lg font-semibold'>Общая статистика</h2>
 					<StatsOverview stats={overallStats} />
+				</section>
+
+				<section>
+					<h2 className='text-foreground mb-4 text-lg font-semibold'>Прогресс</h2>
+					<ProgressChart data={chartData} />
 				</section>
 
 				<section>
