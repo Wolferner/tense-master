@@ -1,5 +1,5 @@
-import type { ExerciseAnswer } from '@/domain/entities/Answer';
-import type { Session } from '@/domain/entities/Session';
+import { ExerciseAnswer } from '@/domain/entities/Answer';
+import { Session } from '@/domain/entities/Session';
 import { validateAnswer } from '@/domain/services/AnswerValidator';
 import type { TenseType } from '@/domain/value-objects';
 import { INFINITE_MODE_LIMIT, MAX_EXERCISES } from '@/shared/config/constants';
@@ -47,14 +47,14 @@ export class ExerciseSessionService {
 			mode === 'fixed' ? fixedLimit : MAX_EXERCISES,
 		);
 		const sessionId = crypto.randomUUID();
-		const session: Session = {
-			id: sessionId,
+		const session = new Session(
+			sessionId,
 			tenses,
 			mode,
 			fixedLimit,
-			status: 'active',
-			createdAt: new Date().toISOString(),
-		};
+			'active',
+			new Date().toISOString(),
+		);
 		await this.#sessionRepo.create(session);
 		return { exercises, sessionId };
 	}
@@ -95,14 +95,14 @@ export class ExerciseSessionService {
 		sessionId: string,
 	): ExerciseAnswer {
 		const skipped = userAnswer.trim().length === 0;
-		return {
-			id: crypto.randomUUID(),
+		return new ExerciseAnswer(
+			crypto.randomUUID(),
 			sessionId,
-			exerciseId: exercise.id,
+			exercise.id,
 			userAnswer,
 			skipped,
-			isCorrect: skipped ? null : validateAnswer(userAnswer, exercise.answer),
-			createdAt: new Date().toISOString(),
-		};
+			skipped ? null : validateAnswer(userAnswer, exercise.answer),
+			new Date().toISOString(),
+		);
 	}
 }
