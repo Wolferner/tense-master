@@ -1,8 +1,8 @@
 'use client';
 
+import { selectSelectSection, useTenseStore } from '@/client/stores/useTenseStore';
 import { Button } from '@/presentation/components/ui/button';
 import { TENSE_GROUPS } from '@/presentation/web/pages/TenseTrainer/logic/tenseLabels';
-import { selectSelectSection, useTenseStore } from '@/shared/stores/useTenseStore';
 import { ArrowRightIcon } from 'lucide-react';
 import { useShallow } from 'zustand/react/shallow';
 import ModeSelector from './ModeSelector';

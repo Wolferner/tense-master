@@ -1,9 +1,9 @@
+import { Tense } from '@/domain/value-objects';
+import { type ExerciseResponseDto } from '@/server/aplication/exercise';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { describe, it, expect, vi } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
 import TaskResult from '../TaskResult';
-import { Tense } from '@/server/domain/value-objects';
-import { type ExerciseResponseDto } from '@/server/aplication/exercise';
 
 const exercise: ExerciseResponseDto = {
 	id: 'ex-1',

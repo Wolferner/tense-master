@@ -1,7 +1,7 @@
 import { MAX_EXERCISES } from '@/shared/config/constants';
-import { Exercise } from '../../domain/entities/Exercise';
-import { IExerciseRepository } from '../../domain/repositories';
-import { Tense } from '../../domain/value-objects';
+import { Exercise } from '../../../domain/entities/Exercise';
+import { IExerciseRepository } from '../../../domain/repositories';
+import { Tense } from '../../../domain/value-objects';
 import { CreateExerciseDto } from './dto/CreateExerciseDto';
 import { ExerciseResponseDto } from './dto/ExerciseResponseDto';
 

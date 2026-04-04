@@ -1,7 +1,7 @@
+import type { TenseStore } from '@/client/stores/useTenseStore';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
-import type { TenseStore } from '@/shared/stores/useTenseStore';
 
 vi.mock('zustand/react/shallow', () => ({
 	useShallow: (fn: unknown) => fn,
@@ -12,8 +12,8 @@ vi.mock('@/shared/stores/useTenseStore', () => ({
 	selectSelectSection: (s: TenseStore) => s,
 }));
 
-import { useTenseStore } from '@/shared/stores/useTenseStore';
-import { Tense } from '@/server/domain/value-objects';
+import { useTenseStore } from '@/client/stores/useTenseStore';
+import { Tense } from '@/domain/value-objects';
 import { type ExerciseResponseDto } from '@/server/aplication/exercise';
 import SelectTrainingSection from '../SelectTrainingSection';
 

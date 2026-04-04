@@ -1,4 +1,4 @@
-import type { TenseStore } from '@/shared/stores/useTenseStore';
+import type { TenseStore } from '@/client/stores/useTenseStore';
 import { render, screen } from '@testing-library/react';
 import { describe, expect, it, vi } from 'vitest';
 
@@ -15,7 +15,7 @@ vi.mock('../ui/TrainingSection/TrainingSection', () => ({
 	default: () => <div data-testid='training-section' />,
 }));
 
-import { useTenseStore } from '@/shared/stores/useTenseStore';
+import { useTenseStore } from '@/client/stores/useTenseStore';
 import TenseTrainer from '../TenseTrainer';
 
 describe('TenseTrainer', () => {

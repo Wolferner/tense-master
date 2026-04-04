@@ -1,5 +1,5 @@
+import { TenseType } from '@/domain/value-objects';
 import { ExerciseResponseDto } from '@/server/aplication/exercise/dto/ExerciseResponseDto';
-import { TenseType } from '@/server/domain/value-objects';
 
 async function getSeedFallback(tenses: TenseType[], limit: number): Promise<ExerciseResponseDto[]> {
 	const all: ExerciseResponseDto[] = await fetch('/fallback-exercises.json').then(r => r.json());

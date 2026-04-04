@@ -1,9 +1,9 @@
-import { describe, it, expect, vi } from 'vitest';
-import { ExerciseService } from '../ExerciseService';
-import { IExerciseRepository } from '../../../domain/repositories';
-import { Exercise } from '../../../domain/entities/Exercise';
-import { Tense } from '../../../domain/value-objects';
 import { MAX_EXERCISES } from '@/shared/config/constants';
+import { describe, expect, it, vi } from 'vitest';
+import { Exercise } from '../../../../domain/entities/Exercise';
+import { IExerciseRepository } from '../../../../domain/repositories';
+import { Tense } from '../../../../domain/value-objects';
+import { ExerciseService } from '../ExerciseService';
 
 function makeExercise(id: string): Exercise {
 	return new Exercise(

@@ -1,19 +1,19 @@
 'use client';
 
+import { ExerciseAnswer } from '@/domain/entities/Answer';
+import { type TenseType } from '@/domain/value-objects';
 import type {
 	FixedLimit,
 	Step,
 	TrainingMode,
 } from '@/presentation/web/pages/TenseTrainer/logic/config';
 import { type ExerciseResponseDto } from '@/server/aplication/exercise';
-import { ExerciseAnswer } from '@/server/domain/entities/Answer';
-import { type TenseType } from '@/server/domain/value-objects';
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { type ITenseGroup } from '../../../presentation/web/pages/TenseTrainer/logic/tenseLabels';
-import { fetchExercises } from '../../api/fetchExercises';
-import { INFINITE_MODE_LIMIT, MAX_EXERCISES } from '../../config/constants';
-import { validateAnswer } from '../../lib';
+import { INFINITE_MODE_LIMIT, MAX_EXERCISES } from '../../../shared/config/constants';
+import { validateAnswer } from '../../../shared/lib';
+import { fetchExercises } from '../../infrastructure/api/fetchExercises';
 import { DEFAULT_TENSES } from './storeDefaults';
 
 interface TenseStoreState {

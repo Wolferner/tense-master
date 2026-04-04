@@ -1,4 +1,4 @@
-import type { TenseStore } from '@/shared/stores/useTenseStore';
+import type { TenseStore } from '@/client/stores/useTenseStore';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
@@ -12,9 +12,9 @@ vi.mock('@/shared/stores/useTenseStore', () => ({
 	selectTrainingSection: (s: TenseStore) => s,
 }));
 
+import { useTenseStore } from '@/client/stores/useTenseStore';
+import { Tense } from '@/domain/value-objects';
 import { type ExerciseResponseDto } from '@/server/aplication/exercise';
-import { Tense } from '@/server/domain/value-objects';
-import { useTenseStore } from '@/shared/stores/useTenseStore';
 import TrainingSection from '../TrainingSection';
 
 const exercise: ExerciseResponseDto = {

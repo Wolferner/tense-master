@@ -1,10 +1,10 @@
 'use client';
 
+import { selectTrainingSection, useTenseStore } from '@/client/stores/useTenseStore';
 import { Badge } from '@/presentation/components/ui/badge';
 import { Button } from '@/presentation/components/ui/button';
 import { Textarea } from '@/presentation/components/ui/textarea';
 import { TENSE_LABELS } from '@/presentation/web/pages/TenseTrainer/logic/tenseLabels';
-import { selectTrainingSection, useTenseStore } from '@/shared/stores/useTenseStore';
 import { ArrowLeftIcon } from 'lucide-react';
 import { useState } from 'react';
 import { useShallow } from 'zustand/react/shallow';

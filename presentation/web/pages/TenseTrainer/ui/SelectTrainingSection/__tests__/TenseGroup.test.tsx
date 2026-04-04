@@ -1,5 +1,5 @@
+import { Tense } from '@/domain/value-objects';
 import { type ITenseGroup } from '@/presentation/web/pages/TenseTrainer/logic/tenseLabels';
-import { Tense } from '@/server/domain/value-objects';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { describe, expect, it, vi } from 'vitest';

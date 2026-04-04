@@ -1,8 +1,8 @@
 import { MAX_EXERCISES } from '@/shared/config/constants';
 import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
+import { Tense } from '../../../domain/value-objects';
 import { ExerciseService } from '../../aplication/exercise';
-import { Tense } from '../../domain/value-objects';
 
 const TenseSchema = z.enum(Object.values(Tense) as [Tense, ...Tense[]]);
 

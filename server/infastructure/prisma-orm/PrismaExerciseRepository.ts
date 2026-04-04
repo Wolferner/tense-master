@@ -1,7 +1,7 @@
 import { PrismaClient, TenseExerciseQuestion } from '@/prisma/generated/prisma/client';
-import { Exercise } from '../../domain/entities/Exercise';
-import { IExerciseRepository } from '../../domain/repositories';
-import { Tense } from '../../domain/value-objects';
+import { Exercise } from '../../../domain/entities/Exercise';
+import { IExerciseRepository } from '../../../domain/repositories';
+import { Tense } from '../../../domain/value-objects';
 
 export class PrismaExerciseRepository implements IExerciseRepository {
 	constructor(private readonly prisma: PrismaClient) {}

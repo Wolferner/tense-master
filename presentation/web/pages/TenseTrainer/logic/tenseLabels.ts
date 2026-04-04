@@ -1,4 +1,4 @@
-import { Tense, TenseType } from '@/server/domain/value-objects';
+import { Tense, TenseType } from '@/domain/value-objects';
 
 export const TENSE_LABELS: Record<TenseType, string> = {
 	[Tense.PRESENT_SIMPLE]: 'Present Simple',
