@@ -19,4 +19,8 @@ export const exerciseSessionService = new ExerciseSessionService(
 	answerRepository,
 );
 export const exerciseSyncService = new ExerciseSyncService(exerciseLocalRepository, exerciseApi);
-export const profileService = new ProfileService();
+export const profileService = new ProfileService(
+	sessionRepository,
+	answerRepository,
+	exerciseLocalRepository,
+);

@@ -2,6 +2,9 @@ import type { ExerciseAnswer } from '@/domain/entities/Answer';
 import type { Session } from '@/domain/entities/Session';
 import type { TenseType } from '@/domain/value-objects';
 import type { ExerciseResponseDto } from '@/shared/dtos';
+import { IAnswerRepository } from '../repositories/IAnswerRepository';
+import { IExerciseRepository } from '../repositories/IExerciseRepository';
+import { ISessionRepository } from '../repositories/ISessionRepository';
 
 export type OverallStats = {
 	total: number;
@@ -27,19 +30,58 @@ export type SessionSummary = {
 
 export type AnswerWithExercise = ExerciseAnswer & { exercise: ExerciseResponseDto };
 
+export interface ProfileStats {
+	overallStats: OverallStats;
+	tenseStats: TenseStat[];
+	sessionSummaries: SessionSummary[];
+	getSessionAnswers: (sessionId: string) => AnswerWithExercise[];
+}
+
 function pct(correct: number, attempted: number): number {
 	return attempted === 0 ? 0 : Math.round((correct / attempted) * 100);
 }
 
 export class ProfileService {
-	getOverallStats(answers: ExerciseAnswer[]): OverallStats {
+	#sessionRepo: ISessionRepository;
+	#answerRepo: IAnswerRepository;
+	#exerciseRepo: IExerciseRepository;
+
+	constructor(
+		sessionRepo: ISessionRepository,
+		answerRepo: IAnswerRepository,
+		exerciseRepo: IExerciseRepository,
+	) {
+		this.#sessionRepo = sessionRepo;
+		this.#answerRepo = answerRepo;
+		this.#exerciseRepo = exerciseRepo;
+	}
+
+	async getProfileStats(): Promise<ProfileStats> {
+		const [sessions, answers, exercises] = await Promise.all([
+			this.#sessionRepo.findAll(),
+			this.#answerRepo.findAll(),
+			this.#exerciseRepo.findAll(),
+		]);
+
+		const allAnswersWithExercise = this.#joinAnswersWithExercises(answers, exercises);
+
+		return {
+			overallStats: this.#getOverallStats(answers),
+			tenseStats: this.#getTenseStats(answers, exercises),
+			sessionSummaries: this.#getSessionSummaries(sessions, answers),
+			getSessionAnswers: (sessionId: string) =>
+				allAnswersWithExercise.filter(a => a.sessionId === sessionId),
+		};
+	}
+
+	#getOverallStats(answers: ExerciseAnswer[]): OverallStats {
 		const total = answers.length;
 		const skipped = answers.filter(a => a.skipped).length;
 		const correct = answers.filter(a => !a.skipped && a.isCorrect).length;
 		return { total, correct, skipped, accuracy: pct(correct, total - skipped) };
 	}
 
-	getTenseStats(answers: ExerciseAnswer[], exercises: ExerciseResponseDto[]): TenseStat[] {
+	#getTenseStats(answers: ExerciseAnswer[], exercises: ExerciseResponseDto[]): TenseStat[] {
 		const exerciseMap = new Map(exercises.map(e => [e.id, e]));
 		const byTense = new Map<TenseType, ExerciseAnswer[]>();
 
@@ -58,7 +100,7 @@ export class ProfileService {
 		});
 	}
 
-	getSessionSummaries(sessions: Session[], answers: ExerciseAnswer[]): SessionSummary[] {
+	#getSessionSummaries(sessions: Session[], answers: ExerciseAnswer[]): SessionSummary[] {
 		return sessions
 			.map(session => {
 				const sa = answers.filter(a => a.sessionId === session.id);
@@ -72,7 +114,7 @@ export class ProfileService {
 			);
 	}
 
-	joinAnswersWithExercises(
+	#joinAnswersWithExercises(
 		answers: ExerciseAnswer[],
 		exercises: ExerciseResponseDto[],
 	): AnswerWithExercise[] {

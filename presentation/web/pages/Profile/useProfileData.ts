@@ -1,39 +1,26 @@
 'use client';
 
-import {
-	type AnswerWithExercise,
-	type OverallStats,
-	type SessionSummary,
-	type TenseStat,
-} from '@/client/application/services/ProfileService';
-import {
-	answerRepository,
-	exerciseLocalRepository,
-	profileService,
-	sessionRepository,
-} from '@/client/infrastructure/container';
+import { ProfileStats } from '@/client/application/services/ProfileService';
+import { profileService } from '@/client/infrastructure/container';
 
-import { useLiveQuery } from 'dexie-react-hooks';
+import { useEffect, useState } from 'react';
 
-type ProfileData = {
-	overallStats: OverallStats;
-	tenseStats: TenseStat[];
-	sessionSummaries: SessionSummary[];
-	getSessionAnswers: (sessionId: string) => AnswerWithExercise[];
+type ProfileData = ProfileStats & {
 	isLoading: boolean;
 };
 
 export function useProfileData(): ProfileData {
-	const data = useLiveQuery(async () => {
-		const [sessions, answers, exercises] = await Promise.all([
-			sessionRepository.findAll(),
-			answerRepository.findAll(),
-			exerciseLocalRepository.findAll(),
-		]);
-		return { sessions, answers, exercises };
-	});
+	const [stats, setStats] = useState<ProfileStats | null>(null);
+	const [isLoading, setIsLoading] = useState(true);
 
-	if (!data) {
+	useEffect(() => {
+		profileService
+			.getProfileStats()
+			.then(setStats)
+			.finally(() => setIsLoading(false));
+	}, []);
+
+	if (!stats) {
 		return {
 			overallStats: { total: 0, correct: 0, skipped: 0, accuracy: 0 },
 			tenseStats: [],
@@ -43,15 +30,8 @@ export function useProfileData(): ProfileData {
 		};
 	}
 
-	const { sessions, answers, exercises } = data;
-	const allAnswersWithExercise = profileService.joinAnswersWithExercises(answers, exercises);
-
 	return {
-		overallStats: profileService.getOverallStats(answers),
-		tenseStats: profileService.getTenseStats(answers, exercises),
-		sessionSummaries: profileService.getSessionSummaries(sessions, answers),
-		getSessionAnswers: (sessionId: string) =>
-			allAnswersWithExercise.filter(a => a.sessionId === sessionId),
-		isLoading: false,
+		...stats,
+		isLoading,
 	};
 }
