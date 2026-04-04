@@ -1,15 +1,14 @@
 import { MAX_EXERCISES } from '@/shared/config/constants';
-import { Exercise } from '../../../domain/entities/Exercise';
-import { IExerciseRepository } from '../../../domain/repositories';
-import { Tense } from '../../../domain/value-objects';
-import { CreateExerciseDto } from './dto/CreateExerciseDto';
 import { ExerciseResponseDto } from '@/shared/dtos';
+import { CreateExerciseDto } from '@/shared/dtos/CreateExerciseDto';
+import { Exercise } from '../../../domain/entities/Exercise';
+import { Tense } from '../../../domain/value-objects';
+import { IExerciseRepository } from '../repositories';
 
 export class ExerciseService {
 	constructor(private readonly exerciseRepository: IExerciseRepository) {}
 
 	async create(dto: CreateExerciseDto): Promise<ExerciseResponseDto> {
-		//NOTE:  need to
 		const exercise = new Exercise(
 			dto.tense,
 			dto.question,

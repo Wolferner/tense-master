@@ -1,6 +1,6 @@
 'use client';
 
-import { exerciseSyncService } from '@/client/infrastructure/dexie/container';
+import { exerciseSyncService } from '@/client/infrastructure/container';
 import { useEffect } from 'react';
 
 export function SyncProvider() {

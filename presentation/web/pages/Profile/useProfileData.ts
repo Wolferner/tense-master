@@ -1,17 +1,17 @@
 'use client';
 
 import {
-	answerRepository,
-	exerciseLocalRepository,
-	sessionRepository,
-} from '@/client/infrastructure/dexie/container';
-import {
-	profileService,
 	type AnswerWithExercise,
 	type OverallStats,
 	type SessionSummary,
 	type TenseStat,
 } from '@/client/application/services/ProfileService';
+import {
+	answerRepository,
+	exerciseLocalRepository,
+	profileService,
+	sessionRepository,
+} from '@/client/infrastructure/container';
 import { useLiveQuery } from 'dexie-react-hooks';
 
 type ProfileData = {

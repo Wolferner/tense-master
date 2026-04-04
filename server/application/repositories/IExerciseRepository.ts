@@ -1,5 +1,5 @@
-import { Exercise } from '../entities/Exercise';
-import { Tense } from '../value-objects';
+import { Exercise } from '../../../domain/entities/Exercise';
+import { Tense } from '../../../domain/value-objects';
 
 interface CreateExerciseDb {
 	tense: Tense;

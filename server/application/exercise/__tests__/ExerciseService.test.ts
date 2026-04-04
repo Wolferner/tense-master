@@ -1,8 +1,8 @@
 import { MAX_EXERCISES } from '@/shared/config/constants';
 import { describe, expect, it, vi } from 'vitest';
 import { Exercise } from '../../../../domain/entities/Exercise';
-import { IExerciseRepository } from '../../../../domain/repositories';
 import { Tense } from '../../../../domain/value-objects';
+import { IExerciseRepository } from '../../repositories';
 import { ExerciseService } from '../ExerciseService';
 
 function makeExercise(id: string): Exercise {
@@ -23,6 +23,8 @@ function makeRepo(overrides: Partial<IExerciseRepository> = {}): IExerciseReposi
 		findById: vi.fn(),
 		findByTenses: vi.fn(),
 		findRandom: vi.fn(),
+		findAll: vi.fn(),
+		findLatestUpdatedAt: vi.fn(),
 		...overrides,
 	};
 }

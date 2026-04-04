@@ -1,5 +1,6 @@
 import { ExerciseSessionService } from '@/client/application/services/ExerciseSessionService';
 import { ExerciseSyncService } from '@/client/application/services/ExerciseSyncService';
+import { ProfileService } from '../application/services/ProfileService';
 import { db } from './dexie/db';
 import { DexieAnswerRepository } from './dexie/DexieAnswerRepository';
 import { DexieExerciseRepository } from './dexie/DexieExerciseRepository';
@@ -15,3 +16,4 @@ export const exerciseSessionService = new ExerciseSessionService(
 	answerRepository,
 );
 export const exerciseSyncService = new ExerciseSyncService(exerciseLocalRepository);
+export const profileService = new ProfileService();
