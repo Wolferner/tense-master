@@ -1,10 +1,10 @@
-import { type ExerciseAnswer } from '@/domain/entities/Answer';
+import type { ExerciseAnswer } from '@/domain/entities/Answer';
 import { validateAnswer } from '@/domain/services/AnswerValidator';
-import { type TenseType } from '@/domain/value-objects';
-import { type ExerciseResponseDto } from '@/shared/dtos';
+import type { TenseType } from '@/domain/value-objects';
+import type { ExerciseResponseDto } from '@/shared/dtos';
 import { INFINITE_MODE_LIMIT, MAX_EXERCISES } from '@/shared/config/constants';
 import type { FixedLimit, TrainingMode } from '@/shared/config/training';
-import { type IExerciseApiRepository } from '../repositories/IExerciseApiRepository';
+import type { IExerciseLocalRepository } from '../repositories/IExerciseLocalRepository';
 
 export type NextExerciseResult =
 	| { type: 'advance'; nextIndex: number }
@@ -12,10 +12,10 @@ export type NextExerciseResult =
 	| { type: 'fetchMore'; exercises: ExerciseResponseDto[]; nextIndex: number };
 
 export class ExerciseSessionService {
-	#exerciseApi: IExerciseApiRepository;
+	#exerciseLocal: IExerciseLocalRepository;
 
-	constructor(exerciseRepo: IExerciseApiRepository) {
-		this.#exerciseApi = exerciseRepo;
+	constructor(exerciseLocalRepo: IExerciseLocalRepository) {
+		this.#exerciseLocal = exerciseLocalRepo;
 	}
 
 	async loadExercises(
@@ -23,7 +23,7 @@ export class ExerciseSessionService {
 		mode: TrainingMode,
 		fixedLimit: FixedLimit,
 	): Promise<ExerciseResponseDto[]> {
-		return this.#exerciseApi.findRandom(tenses, mode === 'fixed' ? fixedLimit : MAX_EXERCISES);
+		return this.#exerciseLocal.findRandom(tenses, mode === 'fixed' ? fixedLimit : MAX_EXERCISES);
 	}
 
 	async resolveNext(
@@ -38,7 +38,7 @@ export class ExerciseSessionService {
 		if (mode === 'fixed') {
 			return { type: 'complete' };
 		}
-		const more = await this.#exerciseApi.findRandom(tenses, INFINITE_MODE_LIMIT);
+		const more = await this.#exerciseLocal.findRandom(tenses, INFINITE_MODE_LIMIT);
 		return { type: 'fetchMore', exercises: more, nextIndex: currentIndex + 1 };
 	}
 
@@ -48,16 +48,14 @@ export class ExerciseSessionService {
 		sessionId: string,
 	): ExerciseAnswer {
 		const skipped = userAnswer.trim().length === 0;
-		const createdAt = new Date().toISOString();
-		if (skipped) {
-			return { answer: userAnswer, skipped: true, createdAt, sessionId };
-		}
 		return {
-			answer: userAnswer,
-			skipped: false,
-			isCorrect: validateAnswer(userAnswer, exercise.answer),
-			createdAt,
+			id: crypto.randomUUID(),
 			sessionId,
+			exerciseId: exercise.id,
+			userAnswer,
+			skipped,
+			isCorrect: skipped ? null : validateAnswer(userAnswer, exercise.answer),
+			createdAt: new Date().toISOString(),
 		};
 	}
 }

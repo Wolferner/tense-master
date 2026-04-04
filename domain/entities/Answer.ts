@@ -1,16 +1,9 @@
-type ExerciseAnswerManual = {
-	answer: string;
-	skipped: false;
-	isCorrect: boolean;
-	createdAt: string;
+export type ExerciseAnswer = {
+	id: string;
 	sessionId: string;
-};
-
-type ExerciseAnswerSkipped = {
-	answer: string;
-	skipped: true;
+	exerciseId: string;
+	userAnswer: string;
+	skipped: boolean;
+	isCorrect: boolean | null;
 	createdAt: string;
-	sessionId: string;
 };
-
-export type ExerciseAnswer = ExerciseAnswerManual | ExerciseAnswerSkipped;
