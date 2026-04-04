@@ -39,26 +39,24 @@ const mockActions = {
 };
 
 const baseSessionState: Partial<SessionStore> = {
-	sessionId: 'session-1',
 	exercises: [exercise],
 	currentExerciseIndex: 0,
 	isLoading: false,
-	answers: {},
+	currentAnswer: null,
+
 	...mockActions,
 };
 
 const answeredSessionState: Partial<SessionStore> = {
 	...baseSessionState,
-	answers: {
-		'ex-1': [
-			{
-				answer: 'He reads a book',
-				skipped: false,
-				isCorrect: true,
-				createdAt: new Date().toISOString(),
-				sessionId: 'session-1',
-			},
-		],
+	currentAnswer: {
+		id: 'answer-1',
+		sessionId: 'session-1',
+		exerciseId: 'ex-1',
+		userAnswer: 'He reads a book',
+		skipped: false,
+		isCorrect: true,
+		createdAt: new Date().toISOString(),
 	},
 };
 
