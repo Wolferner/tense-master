@@ -20,4 +20,8 @@ export class DexieSessionRepository implements ISessionRepository {
 	async findById(id: string): Promise<Session | undefined> {
 		return this.db.sessions.get(id);
 	}
+
+	async findActive(): Promise<Session[]> {
+		return this.db.sessions.where('status').equals('active').toArray();
+	}
 }

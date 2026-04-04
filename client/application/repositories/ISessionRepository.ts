@@ -5,4 +5,5 @@ export interface ISessionRepository {
 	updateStatus(id: string, status: Session['status'], completedAt?: string): Promise<void>;
 	findAll(): Promise<Session[]>;
 	findById(id: string): Promise<Session | undefined>;
+	findActive(): Promise<Session[]>;
 }

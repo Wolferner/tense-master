@@ -2,9 +2,9 @@ import type { ExerciseAnswer } from '@/domain/entities/Answer';
 import type { Session } from '@/domain/entities/Session';
 import { validateAnswer } from '@/domain/services/AnswerValidator';
 import type { TenseType } from '@/domain/value-objects';
-import type { ExerciseResponseDto } from '@/shared/dtos';
 import { INFINITE_MODE_LIMIT, MAX_EXERCISES } from '@/shared/config/constants';
 import type { FixedLimit, TrainingMode } from '@/shared/config/training';
+import type { ExerciseResponseDto } from '@/shared/dtos';
 import type { IAnswerRepository } from '../repositories/IAnswerRepository';
 import type { IExerciseLocalRepository } from '../repositories/IExerciseLocalRepository';
 import type { ISessionRepository } from '../repositories/ISessionRepository';
@@ -34,6 +34,14 @@ export class ExerciseSessionService {
 		mode: TrainingMode,
 		fixedLimit: FixedLimit,
 	): Promise<{ exercises: ExerciseResponseDto[]; sessionId: string }> {
+		const activeSessions = await this.#sessionRepo.findActive();
+
+		const now = new Date();
+
+		await Promise.all(
+			activeSessions.map(s => this.#sessionRepo.updateStatus(s.id, 'completed', now.toISOString())),
+		);
+
 		const exercises = await this.#exerciseLocal.findRandom(
 			tenses,
 			mode === 'fixed' ? fixedLimit : MAX_EXERCISES,
