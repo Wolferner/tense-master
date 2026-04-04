@@ -12,6 +12,7 @@ import {
 	profileService,
 	sessionRepository,
 } from '@/client/infrastructure/container';
+
 import { useLiveQuery } from 'dexie-react-hooks';
 
 type ProfileData = {

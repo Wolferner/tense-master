@@ -6,7 +6,7 @@ import { INFINITE_MODE_LIMIT, MAX_EXERCISES } from '@/shared/config/constants';
 import type { FixedLimit, TrainingMode } from '@/shared/config/training';
 import type { ExerciseResponseDto } from '@/shared/dtos';
 import type { IAnswerRepository } from '../repositories/IAnswerRepository';
-import type { IExerciseLocalRepository } from '../repositories/IExerciseLocalRepository';
+import type { IExerciseRepository } from '../repositories/IExerciseRepository';
 import type { ISessionRepository } from '../repositories/ISessionRepository';
 
 export type NextExerciseResult =
@@ -15,16 +15,16 @@ export type NextExerciseResult =
 	| { type: 'fetchMore'; exercises: ExerciseResponseDto[]; nextIndex: number };
 
 export class ExerciseSessionService {
-	#exerciseLocal: IExerciseLocalRepository;
+	#exerciseRepo: IExerciseRepository;
 	#sessionRepo: ISessionRepository;
 	#answerRepo: IAnswerRepository;
 
 	constructor(
-		exerciseLocalRepo: IExerciseLocalRepository,
+		exerciseRepo: IExerciseRepository,
 		sessionRepo: ISessionRepository,
 		answerRepo: IAnswerRepository,
 	) {
-		this.#exerciseLocal = exerciseLocalRepo;
+		this.#exerciseRepo = exerciseRepo;
 		this.#sessionRepo = sessionRepo;
 		this.#answerRepo = answerRepo;
 	}
@@ -42,7 +42,7 @@ export class ExerciseSessionService {
 			activeSessions.map(s => this.#sessionRepo.updateStatus(s.id, 'completed', now.toISOString())),
 		);
 
-		const exercises = await this.#exerciseLocal.findRandom(
+		const exercises = await this.#exerciseRepo.findRandom(
 			tenses,
 			mode === 'fixed' ? fixedLimit : MAX_EXERCISES,
 		);
@@ -95,7 +95,7 @@ export class ExerciseSessionService {
 		if (mode === 'fixed') {
 			return { type: 'complete' };
 		}
-		const more = await this.#exerciseLocal.findRandom(tenses, INFINITE_MODE_LIMIT);
+		const more = await this.#exerciseRepo.findRandom(tenses, INFINITE_MODE_LIMIT);
 		return { type: 'fetchMore', exercises: more, nextIndex: currentIndex + 1 };
 	}
 }

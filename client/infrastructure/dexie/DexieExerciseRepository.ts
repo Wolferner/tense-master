@@ -1,9 +1,9 @@
-import type { IExerciseLocalRepository } from '@/client/application/repositories/IExerciseLocalRepository';
+import type { IExerciseRepository } from '@/client/application/repositories/IExerciseRepository';
 import type { TenseType } from '@/domain/value-objects';
 import type { ExerciseResponseDto } from '@/shared/dtos';
 import type { TenseMasterDb } from './db';
 
-export class DexieExerciseRepository implements IExerciseLocalRepository {
+export class DexieExerciseRepository implements IExerciseRepository {
 	constructor(private readonly db: TenseMasterDb) {}
 
 	async findRandom(tenses: TenseType[], limit: number): Promise<ExerciseResponseDto[]> {
