@@ -12,7 +12,7 @@ import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { type ITenseGroup } from '../../../presentation/web/pages/TenseTrainer/logic/tenseLabels';
 import { INFINITE_MODE_LIMIT, MAX_EXERCISES } from '../../../shared/config/constants';
-import { validateAnswer } from '../../../shared/lib';
+import { validateAnswer } from '../../../domain/services/AnswerValidator';
 import { fetchExercises } from '../../infrastructure/api/fetchExercises';
 import { DEFAULT_TENSES } from './storeDefaults';
 
