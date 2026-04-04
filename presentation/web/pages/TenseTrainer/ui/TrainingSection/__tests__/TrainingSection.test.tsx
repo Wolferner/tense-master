@@ -1,4 +1,3 @@
-import type { TenseStore } from '@/client/stores/useTenseStore';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
@@ -7,12 +6,18 @@ vi.mock('zustand/react/shallow', () => ({
 	useShallow: (fn: unknown) => fn,
 }));
 
-vi.mock('@/shared/stores/useTenseStore', () => ({
-	useTenseStore: vi.fn(),
-	selectTrainingSection: (s: TenseStore) => s,
+vi.mock('@/client/stores/sessionStore', () => ({
+	useSessionStore: vi.fn(),
 }));
 
-import { useTenseStore } from '@/client/stores/useTenseStore';
+vi.mock('@/client/stores/settingsStore', () => ({
+	useSettingsStore: vi.fn(),
+}));
+
+import { useSessionStore } from '@/client/stores/sessionStore';
+import type { SessionStore } from '@/client/stores/sessionStore';
+import { useSettingsStore } from '@/client/stores/settingsStore';
+import type { SettingsStore } from '@/client/stores/settingsStore';
 import { Tense } from '@/domain/value-objects';
 import { type ExerciseResponseDto } from '@/server/aplication/exercise';
 import TrainingSection from '../TrainingSection';
@@ -33,23 +38,22 @@ const mockActions = {
 	submitAnswer: vi.fn(),
 };
 
-const baseState = {
+const baseSessionState: Partial<SessionStore> = {
 	sessionId: 'session-1',
-	mode: 'fixed' as const,
 	exercises: [exercise],
 	currentExerciseIndex: 0,
 	isLoading: false,
-	answers: {} as TenseStore['answers'],
+	answers: {},
 	...mockActions,
 };
 
-const answeredState = {
-	...baseState,
+const answeredSessionState: Partial<SessionStore> = {
+	...baseSessionState,
 	answers: {
 		'ex-1': [
 			{
 				answer: 'He reads a book',
-				skipped: false as const,
+				skipped: false,
 				isCorrect: true,
 				createdAt: new Date().toISOString(),
 				sessionId: 'session-1',
@@ -58,11 +62,27 @@ const answeredState = {
 	},
 };
 
+function mockSession(state: Partial<SessionStore>) {
+	vi.mocked(useSessionStore).mockImplementation(
+		<T,>(selector: (s: SessionStore) => T): T => selector(state as SessionStore),
+	);
+}
+
+const baseSettingsState: Partial<SettingsStore> = {
+	mode: 'fixed',
+	selectedTenses: [],
+};
+
+function mockSettings(state: Partial<SettingsStore>) {
+	vi.mocked(useSettingsStore).mockImplementation(
+		<T,>(selector: (s: SettingsStore) => T): T => selector(state as SettingsStore),
+	);
+}
+
 beforeEach(() => {
 	vi.clearAllMocks();
-	vi.mocked(useTenseStore).mockImplementation(
-		<T,>(selector: (state: TenseStore) => T): T => selector(baseState as unknown as TenseStore),
-	);
+	mockSession(baseSessionState);
+	mockSettings(baseSettingsState);
 });
 
 describe('TrainingSection', () => {
@@ -96,40 +116,27 @@ describe('TrainingSection', () => {
 	});
 
 	it('disables textarea after answer is submitted', () => {
-		vi.mocked(useTenseStore).mockImplementation(
-			<T,>(selector: (state: TenseStore) => T): T =>
-				selector(answeredState as unknown as TenseStore),
-		);
+		mockSession(answeredSessionState);
 		render(<TrainingSection />);
 		expect(screen.getByRole('textbox')).toBeDisabled();
 	});
 
 	it('hides the submit button after answer is submitted', () => {
-		vi.mocked(useTenseStore).mockImplementation(
-			<T,>(selector: (state: TenseStore) => T): T =>
-				selector(answeredState as unknown as TenseStore),
-		);
+		mockSession(answeredSessionState);
 		render(<TrainingSection />);
 		expect(screen.queryByRole('button', { name: 'Skip' })).not.toBeInTheDocument();
 		expect(screen.queryByRole('button', { name: 'Проверить' })).not.toBeInTheDocument();
 	});
 
 	it('shows tense label badge after answer is submitted', () => {
-		vi.mocked(useTenseStore).mockImplementation(
-			<T,>(selector: (state: TenseStore) => T): T =>
-				selector(answeredState as unknown as TenseStore),
-		);
+		mockSession(answeredSessionState);
 		render(<TrainingSection />);
 		expect(screen.getByText('Present Simple')).toBeInTheDocument();
 	});
 
 	it('shows the explanation after submission', () => {
-		vi.mocked(useTenseStore).mockImplementation(
-			<T,>(selector: (state: TenseStore) => T): T =>
-				selector(answeredState as unknown as TenseStore),
-		);
+		mockSession(answeredSessionState);
 		render(<TrainingSection />);
-		// Explanation only appears in TaskResult, not in the textarea
 		expect(screen.getByText('Present Simple for habits')).toBeInTheDocument();
 	});
 

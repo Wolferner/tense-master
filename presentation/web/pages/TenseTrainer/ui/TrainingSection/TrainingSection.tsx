@@ -1,6 +1,7 @@
 'use client';
 
-import { selectTrainingSection, useTenseStore } from '@/client/stores/useTenseStore';
+import { useSessionStore } from '@/client/stores/sessionStore';
+import { useSettingsStore } from '@/client/stores/settingsStore';
 import { Badge } from '@/presentation/components/ui/badge';
 import { Button } from '@/presentation/components/ui/button';
 import { Textarea } from '@/presentation/components/ui/textarea';
@@ -13,7 +14,6 @@ import TaskResult from './TaskResult';
 const TrainingSection = () => {
 	const {
 		sessionId,
-		mode,
 		exercises,
 		currentExerciseIndex,
 		isLoading,
@@ -21,7 +21,22 @@ const TrainingSection = () => {
 		setStep,
 		nextExercise,
 		submitAnswer,
-	} = useTenseStore(useShallow(selectTrainingSection));
+	} = useSessionStore(
+		useShallow(s => ({
+			sessionId: s.sessionId,
+			exercises: s.exercises,
+			currentExerciseIndex: s.currentExerciseIndex,
+			isLoading: s.isLoading,
+			answers: s.answers,
+			setStep: s.setStep,
+			nextExercise: s.nextExercise,
+			submitAnswer: s.submitAnswer,
+		})),
+	);
+
+	const { mode, selectedTenses } = useSettingsStore(
+		useShallow(s => ({ mode: s.mode, selectedTenses: s.selectedTenses })),
+	);
 
 	const current = exercises[currentExerciseIndex];
 	const totalExercises = exercises.length;
@@ -88,7 +103,7 @@ const TrainingSection = () => {
 							totalExercises={totalExercises}
 							onNext={() => {
 								setUserAnswer('');
-								nextExercise();
+								nextExercise(selectedTenses, mode);
 							}}
 						/>
 					)}

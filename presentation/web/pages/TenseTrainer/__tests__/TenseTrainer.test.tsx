@@ -1,10 +1,8 @@
-import type { TenseStore } from '@/client/stores/useTenseStore';
 import { render, screen } from '@testing-library/react';
 import { describe, expect, it, vi } from 'vitest';
 
-vi.mock('@/shared/stores/useTenseStore', () => ({
-	useTenseStore: vi.fn(),
-	selectStep: (s: TenseStore) => s.step,
+vi.mock('@/client/stores/sessionStore', () => ({
+	useSessionStore: vi.fn(),
 }));
 
 vi.mock('../ui/SelectTrainingSection/SelectTrainingSection', () => ({
@@ -15,13 +13,14 @@ vi.mock('../ui/TrainingSection/TrainingSection', () => ({
 	default: () => <div data-testid='training-section' />,
 }));
 
-import { useTenseStore } from '@/client/stores/useTenseStore';
+import { useSessionStore } from '@/client/stores/sessionStore';
+import type { SessionStore } from '@/client/stores/sessionStore';
 import TenseTrainer from '../TenseTrainer';
 
 describe('TenseTrainer', () => {
 	it('renders SelectTrainingSection when step is "select"', () => {
-		vi.mocked(useTenseStore).mockImplementation(
-			<T,>(selector: (state: TenseStore) => T): T => selector({ step: 'select' } as TenseStore),
+		vi.mocked(useSessionStore).mockImplementation(
+			<T,>(selector: (state: SessionStore) => T): T => selector({ step: 'select' } as SessionStore),
 		);
 		render(<TenseTrainer />);
 		expect(screen.getByTestId('select-section')).toBeInTheDocument();
@@ -29,8 +28,9 @@ describe('TenseTrainer', () => {
 	});
 
 	it('renders TrainingSection when step is "training"', () => {
-		vi.mocked(useTenseStore).mockImplementation(
-			<T,>(selector: (state: TenseStore) => T): T => selector({ step: 'training' } as TenseStore),
+		vi.mocked(useSessionStore).mockImplementation(
+			<T,>(selector: (state: SessionStore) => T): T =>
+				selector({ step: 'training' } as SessionStore),
 		);
 		render(<TenseTrainer />);
 		expect(screen.getByTestId('training-section')).toBeInTheDocument();
