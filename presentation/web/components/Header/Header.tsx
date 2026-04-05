@@ -28,7 +28,7 @@ const Header = () => {
 						</span>
 					</Link>
 
-					<nav className='flex items-center gap-0.5'>
+					<nav aria-label='Основная навигация' className='flex items-center gap-0.5'>
 						{NAV_LINKS.map(link => (
 							<Link
 								key={link.href}
