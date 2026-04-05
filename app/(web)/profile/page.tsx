@@ -2,8 +2,9 @@ import ProfilePage from '@/presentation/web/pages/Profile/Profile';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-	title: 'Profile | Tense Master',
-	description: 'Your progress and statistics',
+	title: 'Профиль | Tense Master',
+	description:
+		'Твой профиль в Tense Master. Здесь ты можешь увидеть свою статистику, достижения и настройки.',
 	robots: { index: false, follow: false },
 };
 
