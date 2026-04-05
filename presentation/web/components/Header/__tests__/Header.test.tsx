@@ -34,9 +34,13 @@ describe('Header', () => {
 		expect(screen.getByRole('link', { name: 'Home' })).toHaveClass('text-muted-foreground');
 	});
 
-	it('profile button is disabled', () => {
+	it('profile button is enabled', () => {
 		vi.mocked(usePathname).mockReturnValue('/');
 		render(<Header />);
-		expect(screen.getByRole('button')).toBeDisabled();
+		expect(
+			screen.getByRole('link', {
+				name: 'Profile',
+			}),
+		).toBeEnabled();
 	});
 });

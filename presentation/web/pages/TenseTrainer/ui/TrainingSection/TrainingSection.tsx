@@ -1,33 +1,48 @@
 'use client';
 
+import { useSessionStore } from '@/client/stores/sessionStore';
+import { useSettingsStore } from '@/client/stores/settingsStore';
 import { Badge } from '@/presentation/components/ui/badge';
 import { Button } from '@/presentation/components/ui/button';
 import { Textarea } from '@/presentation/components/ui/textarea';
 import { TENSE_LABELS } from '@/presentation/web/pages/TenseTrainer/logic/tenseLabels';
-import { selectTrainingSection, useTenseStore } from '@/shared/stores/useTenseStore';
-import { ArrowLeftIcon } from 'lucide-react';
+import { ArrowLeftIcon, ArrowRightIcon } from 'lucide-react';
 import { useState } from 'react';
 import { useShallow } from 'zustand/react/shallow';
 import TaskResult from './TaskResult';
 
 const TrainingSection = () => {
 	const {
-		sessionId,
-		mode,
 		exercises,
 		currentExerciseIndex,
 		isLoading,
-		answers,
+		currentAnswer,
 		setStep,
 		nextExercise,
 		submitAnswer,
-	} = useTenseStore(useShallow(selectTrainingSection));
+		finishSession,
+	} = useSessionStore(
+		useShallow(s => ({
+			exercises: s.exercises,
+			currentExerciseIndex: s.currentExerciseIndex,
+			isLoading: s.isLoading,
+			currentAnswer: s.currentAnswer,
+			setStep: s.setStep,
+			nextExercise: s.nextExercise,
+			submitAnswer: s.submitAnswer,
+			finishSession: s.finishSession,
+		})),
+	);
+
+	const { mode, selectedTenses } = useSettingsStore(
+		useShallow(s => ({ mode: s.mode, selectedTenses: s.selectedTenses })),
+	);
 
 	const current = exercises[currentExerciseIndex];
 	const totalExercises = exercises.length;
-	const answerRecord = answers[current.id]?.findLast(a => a.sessionId === sessionId);
+	const answerRecord = currentAnswer?.exerciseId === current.id ? currentAnswer : null;
 
-	const [userAnswer, setUserAnswer] = useState(answerRecord?.answer ?? '');
+	const [userAnswer, setUserAnswer] = useState(answerRecord?.userAnswer ?? '');
 
 	const indexString =
 		mode === 'infinite'
@@ -39,10 +54,23 @@ const TrainingSection = () => {
 	return (
 		<main className='bg-background text-foreground flex flex-1 flex-col'>
 			<div className='mx-auto flex w-full max-w-2xl flex-col gap-8 px-6 py-16'>
-				<Button variant='ghost' size='sm' className='-ml-2 w-fit' onClick={() => setStep('select')}>
-					<ArrowLeftIcon />
-					Назад
-				</Button>
+				<div className='flex items-center justify-between'>
+					<Button variant='ghost' size='sm' className='-ml-2' onClick={() => setStep('select')}>
+						<ArrowLeftIcon />
+						Назад
+					</Button>
+					{mode === 'infinite' && (
+						<Button
+							variant='ghost'
+							size='sm'
+							className='-mr-2'
+							onClick={() => void finishSession()}
+						>
+							Завершить
+							<ArrowRightIcon />
+						</Button>
+					)}
+				</div>
 
 				<div
 					key={currentExerciseIndex}
@@ -71,7 +99,7 @@ const TrainingSection = () => {
 						/>
 						{!answerRecord && (
 							<Button
-								onClick={() => submitAnswer(userAnswer, current.id)}
+								onClick={() => void submitAnswer(userAnswer, current.id)}
 								variant={isEmptyAnswer ? 'outline' : 'default'}
 							>
 								{isEmptyAnswer ? 'Skip' : 'Проверить'}
@@ -88,7 +116,7 @@ const TrainingSection = () => {
 							totalExercises={totalExercises}
 							onNext={() => {
 								setUserAnswer('');
-								nextExercise();
+								nextExercise(selectedTenses, mode);
 							}}
 						/>
 					)}

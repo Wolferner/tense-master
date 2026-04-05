@@ -51,8 +51,10 @@ const Header = () => {
 
 				<div className='flex items-center gap-2'>
 					<NetworkBadge />
-					<Button variant='ghost' size='icon-sm' disabled title='Coming soon'>
-						<User />
+					<Button variant='ghost' size='icon-sm' asChild>
+						<Link href='/profile' aria-label='Profile'>
+							<User />
+						</Link>
 					</Button>
 				</div>
 			</div>

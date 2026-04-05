@@ -1,20 +1,25 @@
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
-import type { TenseStore } from '@/shared/stores/useTenseStore';
 
 vi.mock('zustand/react/shallow', () => ({
 	useShallow: (fn: unknown) => fn,
 }));
 
-vi.mock('@/shared/stores/useTenseStore', () => ({
-	useTenseStore: vi.fn(),
-	selectSelectSection: (s: TenseStore) => s,
+vi.mock('@/client/stores/settingsStore', () => ({
+	useSettingsStore: vi.fn(),
 }));
 
-import { useTenseStore } from '@/shared/stores/useTenseStore';
-import { Tense } from '@/server/domain/value-objects';
-import { type ExerciseResponseDto } from '@/server/aplication/exercise';
+vi.mock('@/client/stores/sessionStore', () => ({
+	useSessionStore: vi.fn(),
+}));
+
+import type { SessionStore } from '@/client/stores/sessionStore';
+import { useSessionStore } from '@/client/stores/sessionStore';
+import type { SettingsStore } from '@/client/stores/settingsStore';
+import { useSettingsStore } from '@/client/stores/settingsStore';
+import { Tense } from '@/domain/value-objects';
+import { type ExerciseResponseDto } from '@/shared/dtos';
 import SelectTrainingSection from '../SelectTrainingSection';
 
 function makeExercise(): ExerciseResponseDto {
@@ -39,20 +44,40 @@ const mockActions = {
 	startTraining: vi.fn(),
 };
 
-const baseState = {
+const baseSettingsState: Partial<SettingsStore> = {
 	selectedTenses: [Tense.PRESENT_SIMPLE],
-	mode: 'fixed' as const,
+	mode: 'fixed',
 	fixedLimit: 10,
-	exercises: [] as ExerciseResponseDto[],
-	isLoading: false,
-	...mockActions,
+	toggleTense: mockActions.toggleTense,
+	selectAll: mockActions.selectAll,
+	clearAll: mockActions.clearAll,
+	toggleGroup: mockActions.toggleGroup,
+	updateMode: mockActions.updateMode,
 };
+
+const baseSessionState: Partial<SessionStore> = {
+	exercises: [],
+	isLoading: false,
+	setStep: mockActions.setStep,
+	startTraining: mockActions.startTraining,
+};
+
+function mockSettings(state: Partial<SettingsStore>) {
+	vi.mocked(useSettingsStore).mockImplementation(
+		<T,>(selector: (s: SettingsStore) => T): T => selector(state as SettingsStore),
+	);
+}
+
+function mockSession(state: Partial<SessionStore>) {
+	vi.mocked(useSessionStore).mockImplementation(
+		<T,>(selector: (s: SessionStore) => T): T => selector(state as SessionStore),
+	);
+}
 
 beforeEach(() => {
 	vi.clearAllMocks();
-	vi.mocked(useTenseStore).mockImplementation(
-		<T,>(selector: (state: TenseStore) => T): T => selector(baseState as unknown as TenseStore),
-	);
+	mockSettings(baseSettingsState);
+	mockSession(baseSessionState);
 });
 
 describe('SelectTrainingSection', () => {
@@ -62,19 +87,13 @@ describe('SelectTrainingSection', () => {
 	});
 
 	it('shows "Начать заново" when exercises already exist', () => {
-		vi.mocked(useTenseStore).mockImplementation(
-			<T,>(selector: (state: TenseStore) => T): T =>
-				selector({ ...baseState, exercises: [makeExercise()] } as unknown as TenseStore),
-		);
+		mockSession({ ...baseSessionState, exercises: [makeExercise()] });
 		render(<SelectTrainingSection />);
 		expect(screen.getByRole('button', { name: 'Начать заново' })).toBeInTheDocument();
 	});
 
 	it('"Начать" is disabled when no tenses are selected', () => {
-		vi.mocked(useTenseStore).mockImplementation(
-			<T,>(selector: (state: TenseStore) => T): T =>
-				selector({ ...baseState, selectedTenses: [] } as unknown as TenseStore),
-		);
+		mockSettings({ ...baseSettingsState, selectedTenses: [] });
 		render(<SelectTrainingSection />);
 		expect(screen.getByRole('button', { name: 'Начать' })).toBeDisabled();
 	});
@@ -85,10 +104,7 @@ describe('SelectTrainingSection', () => {
 	});
 
 	it('shows "Продолжить" button when exercises exist', () => {
-		vi.mocked(useTenseStore).mockImplementation(
-			<T,>(selector: (state: TenseStore) => T): T =>
-				selector({ ...baseState, exercises: [makeExercise()] } as unknown as TenseStore),
-		);
+		mockSession({ ...baseSessionState, exercises: [makeExercise()] });
 		render(<SelectTrainingSection />);
 		expect(screen.getByRole('button', { name: /Продолжить/ })).toBeInTheDocument();
 	});
@@ -108,7 +124,6 @@ describe('SelectTrainingSection', () => {
 	it('calls selectAll when "Выбрать все" is clicked', async () => {
 		const user = userEvent.setup();
 		render(<SelectTrainingSection />);
-		// The main "Выбрать все" button is first in DOM; TenseGroup toggles also use the same text
 		await user.click(screen.getAllByRole('button', { name: 'Выбрать все' })[0]);
 		expect(mockActions.selectAll).toHaveBeenCalledOnce();
 	});
@@ -121,10 +136,7 @@ describe('SelectTrainingSection', () => {
 	});
 
 	it('shows "Загрузка..." on the main button when isLoading', () => {
-		vi.mocked(useTenseStore).mockImplementation(
-			<T,>(selector: (state: TenseStore) => T): T =>
-				selector({ ...baseState, isLoading: true } as unknown as TenseStore),
-		);
+		mockSession({ ...baseSessionState, isLoading: true });
 		render(<SelectTrainingSection />);
 		expect(screen.getByRole('button', { name: 'Загрузка...' })).toBeInTheDocument();
 	});

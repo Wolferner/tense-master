@@ -1,5 +1,5 @@
+import { Tense } from '@/domain/value-objects';
 import { type ITenseGroup } from '@/presentation/web/pages/TenseTrainer/logic/tenseLabels';
-import { Tense } from '@/server/domain/value-objects';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { describe, expect, it, vi } from 'vitest';
@@ -38,12 +38,12 @@ describe('TenseGroup', () => {
 		expect(screen.getByRole('button')).toHaveTextContent('Снять');
 	});
 
-	it('calls onToggleGroup with the group when toggle button is clicked', async () => {
+	it('calls onToggleGroup with the group tenses when toggle button is clicked', async () => {
 		const user = userEvent.setup();
 		const onToggleGroup = vi.fn();
 		render(<TenseGroup {...baseProps} onToggleGroup={onToggleGroup} />);
 		await user.click(screen.getByRole('button'));
-		expect(onToggleGroup).toHaveBeenCalledWith(group);
+		expect(onToggleGroup).toHaveBeenCalledWith(group.tenses);
 	});
 
 	it('renders a tense item for each tense in the group', () => {

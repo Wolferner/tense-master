@@ -1,8 +1,9 @@
 'use client';
 
+import { useSessionStore } from '@/client/stores/sessionStore';
+import { useSettingsStore } from '@/client/stores/settingsStore';
 import { Button } from '@/presentation/components/ui/button';
 import { TENSE_GROUPS } from '@/presentation/web/pages/TenseTrainer/logic/tenseLabels';
-import { selectSelectSection, useTenseStore } from '@/shared/stores/useTenseStore';
 import { ArrowRightIcon } from 'lucide-react';
 import { useShallow } from 'zustand/react/shallow';
 import ModeSelector from './ModeSelector';
@@ -13,16 +14,34 @@ const SelectTrainingSection = () => {
 		selectedTenses,
 		mode,
 		fixedLimit,
-		exercises,
-		isLoading,
 		toggleTense,
 		selectAll,
 		clearAll,
 		toggleGroup,
 		updateMode,
-		setStep,
-		startTraining,
-	} = useTenseStore(useShallow(selectSelectSection));
+	} = useSettingsStore(
+		useShallow(s => ({
+			selectedTenses: s.selectedTenses,
+			mode: s.mode,
+			fixedLimit: s.fixedLimit,
+			toggleTense: s.toggleTense,
+			selectAll: s.selectAll,
+			clearAll: s.clearAll,
+			toggleGroup: s.toggleGroup,
+			updateMode: s.updateMode,
+		})),
+	);
+
+	const { exercises, isLoading, setStep, startTraining } = useSessionStore(
+		useShallow(s => ({
+			exercises: s.exercises,
+			isLoading: s.isLoading,
+			setStep: s.setStep,
+			startTraining: s.startTraining,
+		})),
+	);
+
+	const handleStartTraining = () => startTraining(selectedTenses, mode, fixedLimit);
 
 	const hasExercises = exercises.length > 0;
 
@@ -69,7 +88,7 @@ const SelectTrainingSection = () => {
 
 				<Button
 					size='lg'
-					onClick={startTraining}
+					onClick={handleStartTraining}
 					disabled={selectedTenses.length === 0 || isLoading}
 				>
 					{isLoading ? 'Загрузка...' : hasExercises ? 'Начать заново' : 'Начать'}

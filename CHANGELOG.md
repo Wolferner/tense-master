@@ -7,6 +7,41 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-04-03
+
+### Added
+
+- Profile page with overall stats (total, correct, skipped, wrong, accuracy)
+- Per-tense accuracy breakdown with progress bars
+- Session history with expandable answer details
+- Progress chart (cumulative correct answers over time) via recharts
+- `Session` domain entity
+- Dexie schema with `exercises`, `sessions`, `answers` tables
+- `DexieExerciseRepository`, `DexieSessionRepository`, `DexieAnswerRepository`
+- `ExerciseSyncService` — syncs exercises from server on app start, skips if `lastUpdatedAt` unchanged
+- `ProfileService` — computes stats, tense breakdown, chart data and session summaries from local DB
+- `GET /api/exercises/meta` — returns `lastUpdatedAt` for sync check (CDN cached 1 hour)
+- `GET /api/exercises/all` — returns all exercises for client sync (CDN cached 1 hour)
+- `proxy.ts` — blocks cross-origin browser requests via `Origin` header check (`ALLOWED_ORIGINS` env var, semicolon-separated list of allowed domains)
+- "Завершить" button for infinite mode to explicitly complete a session
+- Active sessions are auto-completed when a new session starts
+- Unit tests: `ExerciseSessionService`, `ExerciseSyncService`, `ProfileService`
+- Component tests: `ProfilePage`, `StatsOverview`, `TenseBreakdown`, `SessionHistory`, `SessionDetail`, `ProgressChart`
+
+### Changed
+
+- `ExerciseAnswer` converted from plain type to class
+- `ExerciseSessionService` now owns all session/answer persistence — removed direct repo usage from store
+- `sessionStore` — replaced `answers` record with single `currentAnswer`, added `finishSession` action
+- Header profile icon is now a clickable link to `/profile`
+- Client infrastructure split: Dexie implementations in `dexie/`, wiring in `container.ts`
+- `ExerciseResponseDto` moved to `shared/dtos/` so both server and client can use it
+
+### Fixed
+
+- Previous session not completed when starting a new training
+- ESLint hook warning — redundant `setIsLoading` call inside `useEffect`
+
 ## [1.1.1] - 2026-04-03
 
 ### Added
