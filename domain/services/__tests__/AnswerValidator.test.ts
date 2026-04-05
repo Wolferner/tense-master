@@ -6,6 +6,10 @@ describe('normalizeAnswer', () => {
 		expect(normalizeAnswer('  hello  ')).toBe('hello');
 	});
 
+	it('collapses internal double spaces', () => {
+		expect(normalizeAnswer('He  reads')).toBe('he reads');
+	});
+
 	it('lowercases', () => {
 		expect(normalizeAnswer('Hello World')).toBe('hello world');
 	});

@@ -40,7 +40,8 @@ export function normalizeAnswer(s: string): string {
 	let result = s
 		.trim()
 		.toLowerCase()
-		.replace(/[.!?]+$/, '');
+		.replace(/[.!?]+$/, '')
+		.replace(/\s+/g, ' ');
 	for (const [contraction, expanded] of Object.entries(CONTRACTIONS)) {
 		result = result.replace(new RegExp(`\\b${contraction}\\b`, 'g'), expanded);
 	}
