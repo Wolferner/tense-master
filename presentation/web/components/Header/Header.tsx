@@ -28,7 +28,7 @@ const Header = () => {
 						</span>
 						<span
 							aria-hidden='true'
-							className='text-foreground text-sm font-semibold tracking-tight'
+							className='text-foreground hidden text-sm font-semibold tracking-tight md:block'
 						>
 							Tense<span className='text-primary'>Master</span>
 						</span>
