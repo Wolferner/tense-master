@@ -61,7 +61,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html
-			lang='en'
+			lang='ru'
 			className={cn(
 				'h-full',
 				'antialiased',
