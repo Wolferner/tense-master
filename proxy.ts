@@ -10,7 +10,7 @@ export function proxy(request: NextRequest) {
 	const origin = request.headers.get('origin');
 
 	if (origin && !allowedOrigins.includes(origin)) {
-		return Response.json({ error: 'Forbidden' }, { status: 403 });
+		return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
 	}
 
 	return NextResponse.next();
