@@ -96,7 +96,7 @@ describe('TrainingSection', () => {
 
 	it('shows "Skip" button when textarea is empty', () => {
 		render(<TrainingSection />);
-		expect(screen.getByRole('button', { name: 'Skip' })).toBeInTheDocument();
+		expect(screen.getByRole('button', { name: 'Пропустить' })).toBeInTheDocument();
 	});
 
 	it('shows "Проверить" button when textarea has text', async () => {
@@ -109,7 +109,7 @@ describe('TrainingSection', () => {
 	it('calls submitAnswer with current answer and exercise id when submit is clicked', async () => {
 		const user = userEvent.setup();
 		render(<TrainingSection />);
-		await user.click(screen.getByRole('button', { name: 'Skip' }));
+		await user.click(screen.getByRole('button', { name: 'Пропустить' }));
 		expect(mockActions.submitAnswer).toHaveBeenCalledWith('', exercise.id);
 	});
 
@@ -122,7 +122,7 @@ describe('TrainingSection', () => {
 	it('hides the submit button after answer is submitted', () => {
 		mockSession(answeredSessionState);
 		render(<TrainingSection />);
-		expect(screen.queryByRole('button', { name: 'Skip' })).not.toBeInTheDocument();
+		expect(screen.queryByRole('button', { name: 'Пропустить' })).not.toBeInTheDocument();
 		expect(screen.queryByRole('button', { name: 'Проверить' })).not.toBeInTheDocument();
 	});
 

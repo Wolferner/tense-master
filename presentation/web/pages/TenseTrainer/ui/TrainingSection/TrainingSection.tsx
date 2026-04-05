@@ -102,7 +102,7 @@ const TrainingSection = () => {
 								onClick={() => void submitAnswer(userAnswer, current.id)}
 								variant={isEmptyAnswer ? 'outline' : 'default'}
 							>
-								{isEmptyAnswer ? 'Skip' : 'Проверить'}
+								{isEmptyAnswer ? 'Пропустить' : 'Проверить'}
 							</Button>
 						)}
 					</div>
