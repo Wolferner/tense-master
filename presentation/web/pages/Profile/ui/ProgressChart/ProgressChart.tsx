@@ -10,14 +10,14 @@ import {
 	Tooltip,
 	XAxis,
 	YAxis,
-	type TooltipProps,
+	type TooltipContentProps,
 } from 'recharts';
 
 interface Props {
 	data: ChartDataPoint[];
 }
 
-function ChartTooltip({ active, payload }: TooltipProps<number, string>) {
+function ChartTooltip({ active, payload }: TooltipContentProps) {
 	if (!active || !payload?.length) return null;
 	const point = payload[0].payload as ChartDataPoint;
 	return (
@@ -41,10 +41,10 @@ function ChartTooltip({ active, payload }: TooltipProps<number, string>) {
 }
 
 export function ProgressChart({ data }: Props) {
-	if (data.length < 2) {
+	if (data.length < 2 || data.every(p => p.cumulative === 0)) {
 		return (
 			<p className='text-muted-foreground text-sm'>
-				Нужно минимум 2 сессии чтобы показать прогресс
+				Нужно минимум 2 сессии с правильными ответами чтобы показать прогресс
 			</p>
 		);
 	}
@@ -71,7 +71,7 @@ export function ProgressChart({ data }: Props) {
 					axisLine={false}
 					allowDecimals={false}
 				/>
-				<Tooltip content={<ChartTooltip />} />
+				<Tooltip content={ChartTooltip} />
 				<Area
 					type='monotone'
 					dataKey='cumulative'

@@ -23,6 +23,7 @@ export function useProfileData(): ProfileData {
 	if (!stats) {
 		return {
 			overallStats: { total: 0, correct: 0, skipped: 0, accuracy: 0 },
+			chartData: [],
 			tenseStats: [],
 			sessionSummaries: [],
 			getSessionAnswers: () => [],

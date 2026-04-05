@@ -1,10 +1,10 @@
 'use client';
 
+import { useProfileData } from './logic/useProfileData';
+import { ProgressChart } from './ui/ProgressChart/ProgressChart';
+import { SessionHistory } from './ui/SessionHistory/SessionHistory';
 import { StatsOverview } from './ui/StatsOverview/StatsOverview';
 import { TenseBreakdown } from './ui/TenseBreakdown/TenseBreakdown';
-import { SessionHistory } from './ui/SessionHistory/SessionHistory';
-import { ProgressChart } from './ui/ProgressChart/ProgressChart';
-import { useProfileData } from './useProfileData';
 
 const ProfilePage = () => {
 	const { overallStats, tenseStats, sessionSummaries, chartData, getSessionAnswers, isLoading } =
