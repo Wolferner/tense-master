@@ -7,6 +7,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- `metadataBase` in root layout — enables absolute canonical and Open Graph URLs
+- `app/sitemap.ts` — generates `/sitemap.xml` with the home page as the only indexed entry
+- JSON-LD structured data (`WebApplication` schema) on the home page
+- OG image (`public/og.png`, 1200×630) referenced in Open Graph and Twitter card metadata
+- `aria-label="Основная навигация"` on the header `<nav>`
+- `aria-label="Tense Master"` on the logo link in the header
+- `aria-label="Профиль пользователя"` on the profile icon button
+- `aria-labelledby` on both home page sections linking to their respective headings
+- Visually hidden `<h2>` for the reasons section — fixes `h1 → h3` heading hierarchy skip
+
+### Changed
+
+- HTML `lang` attribute changed from `en` to `ru` to match Russian-language content
+- Page descriptions (meta, Open Graph, Twitter) updated to Russian
+- Twitter card type upgraded from `summary` to `summary_large_image`
+- Header navigation labels changed to Russian: `Home → Главная`, `Trainer → Тренажер`
+- Decorative elements in the header and home page marked `aria-hidden="true"`
+- Sitemap reference added to `robots.txt`
+
+### Fixed
+
+- App pages (`/tense-trainer`, `/profile`, `/settings`) and all `/telegram/*` routes now have `noindex, nofollow` to prevent search engine indexing
+
 ## [1.2.1] - 2026-04-05
 
 ### Changed
