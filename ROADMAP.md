@@ -1,20 +1,8 @@
 # Roadmap
 
-## User Profile
-
-- Option to handle user account locally in browser with import/export via JSON.
-- Keep user result statistics (stored in localStorage, migrates to DB on account creation).
-- Learning speed chart.
-- Correct answers chart.
-- Knowledge per tense breakdown.
-
 ## Localization
 
 - Give opportunity use app in many countries.
-
-## Advanced Local Storage
-
-- Migrate from localStorage to IndexedDB.
 
 ## Data Migration
 
