@@ -8,8 +8,8 @@ import { usePathname } from 'next/navigation';
 import NetworkBadge from '../NetworkBadge/NetworkBadge';
 
 const NAV_LINKS = [
-	{ href: '/', label: 'Home' },
-	{ href: '/tense-trainer', label: 'Trainer' },
+	{ href: '/', label: 'Главная' },
+	{ href: '/tense-trainer', label: 'Тренажер' },
 ];
 
 const Header = () => {
@@ -19,11 +19,17 @@ const Header = () => {
 		<header className='border-border bg-background/90 sticky top-0 z-50 border-b backdrop-blur-md'>
 			<div className='mx-auto flex h-16 max-w-5xl items-center justify-between px-6'>
 				<div className='flex items-center gap-10'>
-					<Link href='/' className='flex items-center gap-2'>
-						<span className='bg-primary text-primary-foreground flex size-7 items-center justify-center rounded-md text-xs font-bold'>
+					<Link href='/' aria-label='Tense Master' className='flex items-center gap-2'>
+						<span
+							aria-hidden='true'
+							className='bg-primary text-primary-foreground flex size-7 items-center justify-center rounded-md text-xs font-bold'
+						>
 							T
 						</span>
-						<span className='text-foreground text-sm font-semibold tracking-tight'>
+						<span
+							aria-hidden='true'
+							className='text-foreground text-sm font-semibold tracking-tight'
+						>
 							Tense<span className='text-primary'>Master</span>
 						</span>
 					</Link>
