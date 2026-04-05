@@ -23,14 +23,14 @@ Dependency rule: `presentation → client → domain ← server`
 
 ```
 domain/
-  entities/         Exercise.ts, Answer.ts
+  entities/         Exercise.ts, Answer.ts, Session.ts
   value-objects/    Tense.ts (as const + type, no TS enums)
-  repositories/     IExerciseRepository.ts
-  services/         AnswerValidator.ts
+  services/         AnswerValidator.ts, __tests__/
 
 server/
   application/
-    exercise/       ExerciseService.ts, dto/CreateExerciseDto.ts, __tests__/
+    exercise/       ExerciseService.ts, __tests__/
+    repositories/   IExerciseRepository.ts
   infrastructure/
     http/           ExerciseController.ts, container.ts
     prisma-orm/     PrismaExerciseRepository.ts, prismaClient.ts
@@ -38,16 +38,19 @@ server/
 
 client/
   application/
-    services/       ExerciseSessionService.ts
-    repositories/   IExerciseApiRepository.ts
+    api/            IExerciseApi.ts
+    services/       ExerciseSessionService.ts, ExerciseSyncService.ts, ProfileService.ts, __tests__/
+    repositories/   IAnswerRepository.ts, IExerciseRepository.ts, ISessionRepository.ts
   stores/           sessionStore.ts, settingsStore.ts
   infrastructure/
-    api/            ExerciseApiRepository/ExerciseApiRepository.ts, container.ts
+    http/           ExerciseApi.ts
+    dexie/          db.ts, DexieAnswerRepository.ts, DexieExerciseRepository.ts, DexieSessionRepository.ts
+    container.ts
 
 presentation/
   web/
     pages/          Home/, TenseTrainer/, Profile/, Settings/
-    components/     Header/, InstallBanner/, NetworkBadge/
+    components/     Header/, InstallBanner/, NetworkBadge/, SyncProvider/
   telegram/         (not implemented)
   components/
     ui/             shadcn components (badge, button, checkbox, textarea)
@@ -56,11 +59,11 @@ app/
   (web)/            page.tsx, tense-trainer/, profile/, settings.tsx/ ← bug: rename to settings/
   telegram/         page.tsx, tense-trainer/, profile/, settings.tsx/
   api/
-    exercises/      route.ts
+    exercises/      route.ts, all/route.ts, meta/route.ts
     serwist/        route.ts (PWA service worker)
 
 shared/
-  dtos/             ExerciseResponseDto.ts  ← shared API contract between server and client
+  dtos/             ExerciseResponseDto.ts, CreateExerciseDto.ts
   lib/              utils.ts
   config/           constants.ts, training.ts
   hooks/            useInstallPrompt.ts, useNetworkStatus.ts
@@ -78,11 +81,8 @@ prisma/
 
 - `Exercise` — `id: string`, `question`, `answer`, `explanation`, `tense: Tense`
 - `ExerciseAnswer` — union: `ExerciseAnswerManual` (has `isCorrect`) | `ExerciseAnswerSkipped`. Fields: `answer`, `skipped`, `createdAt`, `sessionId`
+- `Session` — `id`, `tenses`, `mode`, `fixedLimit`, `status` (`active` | `completed`), `createdAt`, `completedAt?`
 - `Tense` — `as const` object + union type. No TS enums anywhere in the project.
-
-### Repository interfaces
-
-- `IExerciseRepository` — `findRandom`, `create`
 
 ### Domain services (pure functions, no IO)
 
@@ -92,22 +92,25 @@ prisma/
 
 ### Application services
 
-- `ExerciseSessionService` — loads exercises from API (with fallback to `/fallback-exercises.json`), resolves next exercise, creates typed answers
+- `ExerciseSessionService` — loads exercises from Dexie local store (synced from API), resolves next exercise, creates typed answers, persists sessions and answers to Dexie
+- `ExerciseSyncService` — syncs exercises from API to Dexie; uses `/api/exercises/meta` to check `lastUpdatedAt` before fetching all via `/api/exercises/all`
+- `ProfileService` — reads overall stats (total, correct, skipped, accuracy) from Dexie answer/session repositories
 
 ### Zustand stores
 
 Stores are the glue between UI and application services. UI only calls store methods and reads store state — no direct access to services.
 
-- `sessionStore` — current training session (exercises, answers, sessionId, step, currentExerciseIndex). Persisted to localStorage.
+- `sessionStore` — current training session (exercises, currentAnswer, sessionId, step, currentExerciseIndex, isLoading). Persisted to localStorage.
 - `settingsStore` — user settings (selectedTenses, mode, fixedLimit). Persisted to localStorage.
 
 ## Architecture decisions
 
-- `ExerciseResponseDto` lives in `shared/dtos/` — it's the API contract used by both server and client. `CreateExerciseDto` stays in `server/` — it's server-only.
-- Client fetches exercises from `/api/exercises`, falls back to `/fallback-exercises.json` on error.
-- Settings and session state stored in localStorage via Zustand `persist` middleware (no Dexie yet).
+- `ExerciseResponseDto` and `CreateExerciseDto` both live in `shared/dtos/` — shared API contract between server and client.
+- Exercises are stored locally in Dexie (IndexedDB). `ExerciseSyncService` syncs from API using `/api/exercises/meta` + `/api/exercises/all`. Sessions and answers are also persisted in Dexie.
+- Zustand `sessionStore` persists only UI-level session state to localStorage (exercises list, step, index, currentAnswer). Dexie holds the authoritative data.
 - Prisma Client output: `prisma/generated/prisma`
 - PWA support via serwist (service worker, install prompt, offline badge)
+- `SyncProvider` component mounts at layout level to trigger `ExerciseSyncService.sync()` on app load
 - Full architecture spec: `docs/architecture/design.md`
 
 ## Data model
@@ -148,6 +151,7 @@ enum Tense {
 - React 19.2.4, TypeScript, Tailwind CSS v4
 - Prisma 7.5, PostgreSQL (Neon), `@prisma/adapter-neon`
 - Zod (validation), Zustand (client state)
+- Dexie 4.4.2 (IndexedDB — local storage for exercises, sessions, answers)
 - shadcn/ui (radix-ui based components in `presentation/components/ui/`)
 - serwist (PWA / service worker)
 - Prettier + ESLint + Husky + lint-staged
