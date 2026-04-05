@@ -37,6 +37,10 @@ describe('Header', () => {
 	it('profile button is enabled', () => {
 		vi.mocked(usePathname).mockReturnValue('/');
 		render(<Header />);
-		expect(screen.getByRole('button')).toBeEnabled();
+		expect(
+			screen.getByRole('link', {
+				name: 'Profile',
+			}),
+		).toBeEnabled();
 	});
 });
