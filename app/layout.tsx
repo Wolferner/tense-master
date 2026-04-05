@@ -17,8 +17,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+	metadataBase: new URL('https://tense-master.xyz'),
 	title: 'Tense Master',
-	description: 'English tenses practice app',
+	description:
+		'Практикуй английские времена — Present Simple, Past Perfect и другие — с упражнениями на перевод предложений',
 	appleWebApp: {
 		title: 'Tense Master',
 		capable: true,
@@ -31,12 +33,16 @@ export const metadata: Metadata = {
 		title: 'Tense Master',
 		type: 'website',
 		siteName: 'Tense Master',
-		description: 'English tenses practice app',
+		description:
+			'Практикуй английские времена — Present Simple, Past Perfect и другие — с упражнениями на перевод предложений',
+		images: [{ url: '/og.png', width: 1200, height: 630 }],
 	},
 	twitter: {
-		card: 'summary',
+		card: 'summary_large_image',
 		title: 'Tense Master',
-		description: 'English tenses practice app',
+		description:
+			'Практикуй английские времена — Present Simple, Past Perfect и другие — с упражнениями на перевод предложений',
+		images: ['/og.png'],
 	},
 	icons: {
 		icon: [
@@ -55,7 +61,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html
-			lang='en'
+			lang='ru'
 			className={cn(
 				'h-full',
 				'antialiased',

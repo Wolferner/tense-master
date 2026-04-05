@@ -1,3 +1,62 @@
+# Semantic Markup — Home Page Implementation Plan
+
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+
+**Goal:** Fix heading hierarchy and add ARIA attributes on the Home page and Header for correct semantic HTML and screen reader support.
+
+**Architecture:** Attribute-only changes to two existing components. No new files, no logic changes. `sr-only` Tailwind utility hides the `<h2>` visually while keeping it accessible.
+
+**Tech Stack:** React, Next.js, Tailwind CSS (`sr-only` utility class).
+
+---
+
+## File Map
+
+| Action | File                                            |
+| ------ | ----------------------------------------------- |
+| Modify | `presentation/web/components/Header/Header.tsx` |
+| Modify | `presentation/web/pages/Home/Home.tsx`          |
+
+---
+
+### Task 1: aria-label on Header nav
+
+**Files:**
+
+- Modify: `presentation/web/components/Header/Header.tsx:31`
+
+- [ ] **Step 1: Add `aria-label` to `<nav>`**
+
+Replace:
+
+```tsx
+<nav className='flex items-center gap-0.5'>
+```
+
+With:
+
+```tsx
+<nav aria-label='Основная навигация' className='flex items-center gap-0.5'>
+```
+
+- [ ] **Step 2: Commit**
+
+```bash
+git add presentation/web/components/Header/Header.tsx
+git commit -m "feat: add aria-label to main navigation"
+```
+
+---
+
+### Task 2: Semantic attributes on Home page
+
+**Files:**
+
+- Modify: `presentation/web/pages/Home/Home.tsx`
+
+- [ ] **Step 1: Replace the entire file content**
+
+```tsx
 import { Button } from '@/presentation/components/ui/button';
 import Link from 'next/link';
 import { REASONS } from './logic/reason';
@@ -46,3 +105,11 @@ const HomePage = () => {
 };
 
 export default HomePage;
+```
+
+- [ ] **Step 2: Commit**
+
+```bash
+git add presentation/web/pages/Home/Home.tsx
+git commit -m "feat: add semantic aria attributes and fix heading hierarchy on Home page"
+```

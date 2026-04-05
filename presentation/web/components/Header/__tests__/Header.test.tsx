@@ -12,26 +12,26 @@ describe('Header', () => {
 	it('renders the logo', () => {
 		vi.mocked(usePathname).mockReturnValue('/');
 		render(<Header />);
-		expect(screen.getByRole('link', { name: /TenseMaster/i })).toBeInTheDocument();
+		expect(screen.getByRole('link', { name: 'Tense Master' })).toBeInTheDocument();
 	});
 
 	it('renders Home and Trainer nav links', () => {
 		vi.mocked(usePathname).mockReturnValue('/');
 		render(<Header />);
-		expect(screen.getByRole('link', { name: 'Home' })).toBeInTheDocument();
-		expect(screen.getByRole('link', { name: 'Trainer' })).toBeInTheDocument();
+		expect(screen.getByRole('link', { name: 'Главная' })).toBeInTheDocument();
+		expect(screen.getByRole('link', { name: 'Тренажер' })).toBeInTheDocument();
 	});
 
 	it('applies active styling to the link matching the current pathname', () => {
 		vi.mocked(usePathname).mockReturnValue('/tense-trainer');
 		render(<Header />);
-		expect(screen.getByRole('link', { name: 'Trainer' })).toHaveClass('text-foreground');
+		expect(screen.getByRole('link', { name: 'Тренажер' })).toHaveClass('text-foreground');
 	});
 
 	it('applies inactive styling to links not matching the current pathname', () => {
 		vi.mocked(usePathname).mockReturnValue('/tense-trainer');
 		render(<Header />);
-		expect(screen.getByRole('link', { name: 'Home' })).toHaveClass('text-muted-foreground');
+		expect(screen.getByRole('link', { name: 'Главная' })).toHaveClass('text-muted-foreground');
 	});
 
 	it('profile button is enabled', () => {
@@ -39,7 +39,7 @@ describe('Header', () => {
 		render(<Header />);
 		expect(
 			screen.getByRole('link', {
-				name: 'Profile',
+				name: 'Профиль пользователя',
 			}),
 		).toBeEnabled();
 	});
