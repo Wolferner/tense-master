@@ -7,7 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.2.0] - 2026-04-03
+## [1.2.1] - 2026-04-05
+
+### Changed
+
+- Answer validation is now more lenient: punctuation is stripped, articles (`a`, `an`, `the`) are ignored, and common English contractions are expanded before comparison (`"He'll"` = `"He will"`, `"don't"` = `"do not"`, etc.)
+
+## [1.2.0] - 2026-04-05
 
 ### Added
 
