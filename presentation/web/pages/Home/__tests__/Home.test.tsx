@@ -12,7 +12,7 @@ describe('HomePage', () => {
 
 	it('renders the CTA link pointing to /tense-trainer', () => {
 		render(<HomePage />);
-		const cta = screen.getByRole('link', { name: 'Начать тренировку' });
+		const cta = screen.getByRole('link', { name: 'Начать тренировку по английским временам' });
 		expect(cta).toBeInTheDocument();
 		expect(cta).toHaveAttribute('href', '/tense-trainer');
 	});
