@@ -37,15 +37,14 @@ const CONTRACTIONS: Record<string, string> = {
 };
 
 export function normalizeAnswer(s: string): string {
-	let result = s
-		.trim()
-		.toLowerCase()
-		.replace(/[.!?]+$/, '')
-		.replace(/\s+/g, ' ');
+	let result = s.trim().toLowerCase();
 	for (const [contraction, expanded] of Object.entries(CONTRACTIONS)) {
 		result = result.replace(new RegExp(`\\b${contraction}\\b`, 'g'), expanded);
 	}
-	return result;
+	return result
+		.replace(/[^a-z0-9\s]/g, ' ') // Remove punctuation
+		.replace(/\s+/g, ' ') // Collapse multiple spaces into one
+		.trim();
 }
 
 export function validateAnswer(userAnswer: string, exerciseAnswer: string): boolean {

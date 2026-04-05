@@ -10,6 +10,18 @@ describe('normalizeAnswer', () => {
 		expect(normalizeAnswer('He  reads')).toBe('he reads');
 	});
 
+	it('removes mid-sentence period and preserves word boundary', () => {
+		expect(normalizeAnswer('He reads.She writes')).toBe('he reads she writes');
+	});
+
+	it('removes comma and preserves word boundary', () => {
+		expect(normalizeAnswer('Yes,he reads')).toBe('yes he reads');
+	});
+
+	it('removes all punctuation', () => {
+		expect(normalizeAnswer('Run!Go!')).toBe('run go');
+	});
+
 	it('lowercases', () => {
 		expect(normalizeAnswer('Hello World')).toBe('hello world');
 	});
