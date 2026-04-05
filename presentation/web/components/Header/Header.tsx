@@ -1,10 +1,10 @@
 'use client';
 
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-import { User } from 'lucide-react';
 import { Button } from '@/presentation/components/ui/button';
 import { cn } from '@/shared/lib/utils';
+import { User } from 'lucide-react';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import NetworkBadge from '../NetworkBadge/NetworkBadge';
 
 const NAV_LINKS = [
@@ -52,7 +52,7 @@ const Header = () => {
 				<div className='flex items-center gap-2'>
 					<NetworkBadge />
 					<Button variant='ghost' size='icon-sm' asChild>
-						<Link href='/profile' aria-label='Profile'>
+						<Link href='/profile' aria-label='Профиль пользователя'>
 							<User />
 						</Link>
 					</Button>
