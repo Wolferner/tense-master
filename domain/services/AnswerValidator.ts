@@ -43,6 +43,7 @@ export function normalizeAnswer(s: string): string {
 	}
 	return result
 		.replace(/[^a-z0-9\s]/g, ' ') // Remove punctuation
+		.replace(/\b(a|an|the)\b/g, ' ') // Remove articles
 		.replace(/\s+/g, ' ') // Collapse multiple spaces into one
 		.trim();
 }

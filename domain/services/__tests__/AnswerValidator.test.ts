@@ -22,6 +22,12 @@ describe('normalizeAnswer', () => {
 		expect(normalizeAnswer('Run!Go!')).toBe('run go');
 	});
 
+	it('removes articles a, an, the', () => {
+		expect(normalizeAnswer('He reads a book')).toBe('he reads book');
+		expect(normalizeAnswer('She is an engineer')).toBe('she is engineer');
+		expect(normalizeAnswer('The Earth revolves')).toBe('earth revolves');
+	});
+
 	it('lowercases', () => {
 		expect(normalizeAnswer('Hello World')).toBe('hello world');
 	});
