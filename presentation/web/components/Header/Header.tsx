@@ -2,24 +2,27 @@
 
 import { Button } from '@/presentation/components/ui/button';
 import { cn } from '@/shared/lib/utils';
+import { useSwipeNavigation } from '@/shared/hooks/useSwipeNavigation';
+import { NAV_ROUTES, ROUTES } from '@/shared/config/routes';
 import { User } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import NetworkBadge from '../NetworkBadge/NetworkBadge';
 
 const NAV_LINKS = [
-	{ href: '/', label: 'Главная' },
-	{ href: '/tense-trainer', label: 'Тренажер' },
+	{ href: ROUTES.home, label: 'Главная' },
+	{ href: ROUTES.trainer, label: 'Тренажер' },
 ];
 
 const Header = () => {
 	const pathname = usePathname();
+	useSwipeNavigation([...NAV_ROUTES]);
 
 	return (
 		<header className='border-border bg-background/90 sticky top-0 z-50 border-b backdrop-blur-md'>
 			<div className='mx-auto flex h-16 max-w-5xl items-center justify-between px-6'>
 				<div className='flex items-center gap-10'>
-					<Link href='/' aria-label='Tense Master' className='flex items-center gap-2'>
+					<Link href={ROUTES.home} aria-label='Tense Master' className='flex items-center gap-2'>
 						<span
 							aria-hidden='true'
 							className='bg-primary text-primary-foreground flex size-7 items-center justify-center rounded-md text-xs font-bold'
@@ -57,8 +60,15 @@ const Header = () => {
 
 				<div className='flex items-center gap-2'>
 					<NetworkBadge />
-					<Button variant='ghost' size='icon-sm' asChild>
-						<Link href='/profile' aria-label='Профиль пользователя'>
+					<Button
+						variant='ghost'
+						size='icon-sm'
+						className={cn(
+							pathname === ROUTES.profile && 'border-border bg-card text-card-foreground border',
+						)}
+						asChild
+					>
+						<Link href={ROUTES.profile} aria-label='Профиль пользователя'>
 							<User />
 						</Link>
 					</Button>

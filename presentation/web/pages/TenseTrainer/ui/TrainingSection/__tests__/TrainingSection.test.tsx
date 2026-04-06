@@ -60,6 +60,32 @@ const answeredSessionState: Partial<SessionStore> = {
 	},
 };
 
+const wrongAnswerSessionState: Partial<SessionStore> = {
+	...baseSessionState,
+	currentAnswer: {
+		id: 'answer-2',
+		sessionId: 'session-1',
+		exerciseId: 'ex-1',
+		userAnswer: 'He read a book',
+		skipped: false,
+		isCorrect: false,
+		createdAt: new Date().toISOString(),
+	},
+};
+
+const skippedSessionState: Partial<SessionStore> = {
+	...baseSessionState,
+	currentAnswer: {
+		id: 'answer-3',
+		sessionId: 'session-1',
+		exerciseId: 'ex-1',
+		userAnswer: '',
+		skipped: true,
+		isCorrect: null,
+		createdAt: new Date().toISOString(),
+	},
+};
+
 function mockSession(state: Partial<SessionStore>) {
 	vi.mocked(useSessionStore).mockImplementation(
 		<T,>(selector: (s: SessionStore) => T): T => selector(state as SessionStore),
@@ -132,10 +158,29 @@ describe('TrainingSection', () => {
 		expect(screen.getByText('Present Simple')).toBeInTheDocument();
 	});
 
-	it('shows the explanation after submission', () => {
-		mockSession(answeredSessionState);
+	it('shows the explanation after a wrong submission', () => {
+		mockSession(wrongAnswerSessionState);
 		render(<TrainingSection />);
 		expect(screen.getByText('Present Simple for habits')).toBeInTheDocument();
+	});
+
+	it('shows "Верно!" when answer is correct', () => {
+		mockSession(answeredSessionState);
+		render(<TrainingSection />);
+		expect(screen.getByText('Верно!')).toBeInTheDocument();
+	});
+
+	it('shows "Неверно" when answer is incorrect', () => {
+		mockSession(wrongAnswerSessionState);
+		render(<TrainingSection />);
+		expect(screen.getByText('Неверно')).toBeInTheDocument();
+	});
+
+	it('does not show result indicator when skipped', () => {
+		mockSession(skippedSessionState);
+		render(<TrainingSection />);
+		expect(screen.queryByText('Верно!')).not.toBeInTheDocument();
+		expect(screen.queryByText('Неверно')).not.toBeInTheDocument();
 	});
 
 	it('calls setStep("select") when back button is clicked', async () => {

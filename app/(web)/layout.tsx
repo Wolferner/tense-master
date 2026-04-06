@@ -1,5 +1,6 @@
-import InstallBanner from '@/presentation/web/components/InstallBanner/InstallBanner';
+import Footer from '@/presentation/web/components/Footer';
 import Header from '@/presentation/web/components/Header/Header';
+import InstallBanner from '@/presentation/web/components/InstallBanner/InstallBanner';
 import { SyncProvider } from '@/presentation/web/components/SyncProvider/SyncProvider';
 
 export default function WebLayout({ children }: { children: React.ReactNode }) {
@@ -9,6 +10,7 @@ export default function WebLayout({ children }: { children: React.ReactNode }) {
 			<Header />
 			<div className='flex flex-1 flex-col'>{children}</div>
 			<InstallBanner />
+			<Footer />
 		</div>
 	);
 }

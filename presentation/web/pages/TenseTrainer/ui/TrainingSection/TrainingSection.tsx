@@ -110,6 +110,7 @@ const TrainingSection = () => {
 					{!!answerRecord && (
 						<TaskResult
 							current={current}
+							answerRecord={answerRecord}
 							isLoading={isLoading}
 							mode={mode}
 							currentIndex={currentExerciseIndex}

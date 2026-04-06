@@ -1,3 +1,4 @@
+import { ExerciseAnswer } from '@/domain/entities/Answer';
 import { Tense } from '@/domain/value-objects';
 import { type ExerciseResponseDto } from '@/shared/dtos';
 import { render, screen } from '@testing-library/react';
@@ -15,18 +16,75 @@ const exercise: ExerciseResponseDto = {
 	updatedAt: new Date(),
 };
 
+const correctAnswer = new ExerciseAnswer(
+	'a-1',
+	's-1',
+	'ex-1',
+	'He reads a book',
+	false,
+	true,
+	new Date().toISOString(),
+);
+const wrongAnswer = new ExerciseAnswer(
+	'a-2',
+	's-1',
+	'ex-1',
+	'He read a book',
+	false,
+	false,
+	new Date().toISOString(),
+);
+const skippedAnswer = new ExerciseAnswer(
+	'a-3',
+	's-1',
+	'ex-1',
+	'',
+	true,
+	null,
+	new Date().toISOString(),
+);
+
 const baseProps = {
 	current: exercise,
 	isLoading: false,
 	mode: 'fixed' as const,
 	currentIndex: 0,
 	totalExercises: 3,
+	answerRecord: correctAnswer,
 	onNext: vi.fn(),
 };
 
 describe('TaskResult', () => {
-	it('renders the correct answer and explanation', () => {
-		render(<TaskResult {...baseProps} />);
+	it('shows "Верно!" when answer is correct', () => {
+		render(<TaskResult {...baseProps} answerRecord={correctAnswer} />);
+		expect(screen.getByText('Верно!')).toBeInTheDocument();
+	});
+
+	it('shows "Неверно" when answer is incorrect', () => {
+		render(<TaskResult {...baseProps} answerRecord={wrongAnswer} />);
+		expect(screen.getByText('Неверно')).toBeInTheDocument();
+	});
+
+	it('does not show result indicator when skipped', () => {
+		render(<TaskResult {...baseProps} answerRecord={skippedAnswer} />);
+		expect(screen.queryByText('Верно!')).not.toBeInTheDocument();
+		expect(screen.queryByText('Неверно')).not.toBeInTheDocument();
+	});
+
+	it('hides correct answer and explanation when answer is correct', () => {
+		render(<TaskResult {...baseProps} answerRecord={correctAnswer} />);
+		expect(screen.queryByText('He reads a book')).not.toBeInTheDocument();
+		expect(screen.queryByText('Present Simple for habits')).not.toBeInTheDocument();
+	});
+
+	it('shows correct answer and explanation when answer is wrong', () => {
+		render(<TaskResult {...baseProps} answerRecord={wrongAnswer} />);
+		expect(screen.getByText('He reads a book')).toBeInTheDocument();
+		expect(screen.getByText('Present Simple for habits')).toBeInTheDocument();
+	});
+
+	it('shows correct answer and explanation when skipped', () => {
+		render(<TaskResult {...baseProps} answerRecord={skippedAnswer} />);
 		expect(screen.getByText('He reads a book')).toBeInTheDocument();
 		expect(screen.getByText('Present Simple for habits')).toBeInTheDocument();
 	});

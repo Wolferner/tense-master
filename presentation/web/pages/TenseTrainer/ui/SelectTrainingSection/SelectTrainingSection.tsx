@@ -3,9 +3,9 @@
 import { useSessionStore } from '@/client/stores/sessionStore';
 import { useSettingsStore } from '@/client/stores/settingsStore';
 import { Button } from '@/presentation/components/ui/button';
-import { TENSE_GROUPS } from '@/presentation/web/pages/TenseTrainer/logic/tenseLabels';
 import { ArrowRightIcon } from 'lucide-react';
 import { useShallow } from 'zustand/react/shallow';
+import { TENSE_GROUPS } from '../../logic/tenseLabels';
 import ModeSelector from './ModeSelector';
 import TenseGroup from './TenseGroup';
 

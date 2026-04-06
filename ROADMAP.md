@@ -22,6 +22,19 @@
 - Basic UI parity with web version.
 - Telegram bot(basic functional).
 
+## Pages
+
+- Add Session review page.
+- Add Page with education articles.
+
+## Error handling
+
+- Need create helper to handle everywhere errors with one way.
+
+## Logging
+
+- Need add logging service to server side.
+
 ## Add metrics
 
 - Need collect basic metrics to understand user flow.

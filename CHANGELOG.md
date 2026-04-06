@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.5] - 2026-04-05
+
+### Added
+
+- Added highlight of profile icon when page is active.
+- Added useSwipeNavigation hook and usage in Header.
+- Added answer result to `TaskResult`.
+- Added section about local-first approach on home page.
+- Added `Footer`.
+
+### Changed
+
+- All routs encapsulated in `routes.ts`.
+- Updated semantic tags on `Home` page.
+- Don't show answer in `TaskResult` if user answer is correct.
+- Tenses badges now collapsed in one if in session was selected all variants.
+- Hide more than 5 exercises in Profile, and add opportunity to show all.
+- Actualize `README.md`.
+
 ## [1.2.4] - 2026-04-05
 
 ### Fixed

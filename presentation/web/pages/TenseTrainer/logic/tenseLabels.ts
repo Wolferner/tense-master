@@ -1,4 +1,5 @@
 import { Tense, TenseType } from '@/domain/value-objects';
+import { TENSES_GROUPS } from '@/shared/config/tenses';
 
 export const TENSE_LABELS: Record<TenseType, string> = {
 	[Tense.PRESENT_SIMPLE]: 'Present Simple',
@@ -22,29 +23,14 @@ export type ITenseGroup = {
 export const TENSE_GROUPS: ITenseGroup[] = [
 	{
 		label: 'Present',
-		tenses: [
-			Tense.PRESENT_SIMPLE,
-			Tense.PRESENT_CONTINUOUS,
-			Tense.PRESENT_PERFECT,
-			Tense.PRESENT_PERFECT_CONTINUOUS,
-		],
+		tenses: TENSES_GROUPS.present,
 	},
 	{
 		label: 'Past',
-		tenses: [
-			Tense.PAST_SIMPLE,
-			Tense.PAST_CONTINUOUS,
-			Tense.PAST_PERFECT,
-			Tense.PAST_PERFECT_CONTINUOUS,
-		],
+		tenses: TENSES_GROUPS.past,
 	},
 	{
 		label: 'Future',
-		tenses: [
-			Tense.FUTURE_SIMPLE,
-			Tense.FUTURE_CONTINUOUS,
-			Tense.FUTURE_PERFECT,
-			Tense.FUTURE_PERFECT_CONTINUOUS,
-		],
+		tenses: TENSES_GROUPS.future,
 	},
 ];

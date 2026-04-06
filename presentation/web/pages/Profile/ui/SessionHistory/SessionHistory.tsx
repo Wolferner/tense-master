@@ -5,8 +5,9 @@ import type {
 	SessionSummary,
 } from '@/client/application/services/ProfileService';
 import { Badge } from '@/presentation/components/ui/badge';
-import { TENSE_LABELS } from '@/presentation/web/pages/TenseTrainer/logic/tenseLabels';
+import { TENSES_GROUPS } from '@/shared/config/tenses';
 import { useState } from 'react';
+import { TENSE_LABELS } from '../../../TenseTrainer/logic/tenseLabels';
 import { SessionDetail } from './SessionDetail';
 
 interface Props {
@@ -32,6 +33,33 @@ export function SessionHistory({ summaries, getSessionAnswers }: Props) {
 					minute: '2-digit',
 				});
 
+				const groupDefs = [
+					{ label: 'Present tenses', tenses: TENSES_GROUPS.present },
+					{ label: 'Past tenses', tenses: TENSES_GROUPS.past },
+					{ label: 'Future tenses', tenses: TENSES_GROUPS.future },
+				];
+
+				const groupedTenses = new Set<string>();
+				const groupLabels: string[] = [];
+
+				const allTenses = session.tenses.length === 12;
+
+				if (!allTenses) {
+					groupDefs.forEach(({ label, tenses }) => {
+						if (tenses.every(t => session.tenses.includes(t))) {
+							groupLabels.push(label);
+							tenses.forEach(t => groupedTenses.add(t));
+						}
+					});
+				}
+
+				const finalTenses = allTenses
+					? ['All Tenses']
+					: [
+							...groupLabels,
+							...session.tenses.filter(t => !groupedTenses.has(t)).map(t => TENSE_LABELS[t]),
+						];
+
 				return (
 					<div key={session.id} className='border-border bg-card rounded-xl border'>
 						<button
@@ -41,9 +69,9 @@ export function SessionHistory({ summaries, getSessionAnswers }: Props) {
 							<div className='flex flex-col gap-1'>
 								<span className='text-foreground text-sm font-medium'>{date}</span>
 								<div className='flex flex-wrap gap-1'>
-									{session.tenses.map(t => (
-										<Badge key={t} variant='outline' className='text-xs'>
-											{TENSE_LABELS[t]}
+									{finalTenses.map(label => (
+										<Badge key={label} variant='outline' className='text-xs'>
+											{label}
 										</Badge>
 									))}
 								</div>
