@@ -3,6 +3,7 @@ import { describe, expect, it, vi } from 'vitest';
 
 vi.mock('next/navigation', () => ({
 	usePathname: vi.fn(),
+	useRouter: vi.fn(),
 }));
 
 import { usePathname } from 'next/navigation';
