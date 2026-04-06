@@ -26,6 +26,7 @@
 
 - Add Session review page.
 - Add Page with education articles.
+- Add animations.
 
 ## Error handling
 
