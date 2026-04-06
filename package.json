@@ -36,7 +36,8 @@
 		"typecheck": "tsc --noEmit",
 		"test": "vitest run",
 		"prepare": "husky",
-		"postinstall": "npx prisma generate  "
+		"postinstall": "npx prisma generate  ",
+		"ci:check": "npm run typecheck && npm run format:check && npm run lint:check && npm run test"
 	},
 	"dependencies": {
 		"@prisma/adapter-neon": "^7.5.0",

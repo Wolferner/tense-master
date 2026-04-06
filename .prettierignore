@@ -11,6 +11,9 @@ package-lock.json
 /node_modules
 /_dev_data_set
 
+# claude
+/doc
+
 # testing
 /coverage
 
