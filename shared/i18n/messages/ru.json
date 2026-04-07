@@ -99,6 +99,7 @@
 	},
 	"network": {
 		"offline": "Offline",
+		"online": "Online",
 		"slow": "Slow connection"
 	},
 	"install": {

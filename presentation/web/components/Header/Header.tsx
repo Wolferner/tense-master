@@ -3,19 +3,36 @@
 import { Button } from '@/presentation/components/ui/button';
 import { NAV_ROUTES, ROUTES } from '@/shared/config/routes';
 import { useSwipeNavigation } from '@/shared/hooks/useSwipeNavigation';
-import { Link, usePathname } from '@/shared/i18n/navigation';
+import { Locale, routing } from '@/shared/i18n/config';
+import { Link, usePathname, useRouter } from '@/shared/i18n/navigation';
 import { cn } from '@/shared/lib/utils';
 import { User } from 'lucide-react';
+import { useLocale, useTranslations } from 'next-intl';
 import NetworkBadge from '../NetworkBadge/NetworkBadge';
 
-const NAV_LINKS = [
-	{ href: ROUTES.home, label: 'Главная' },
-	{ href: ROUTES.trainer, label: 'Тренажер' },
-];
+const LOCALE_LABELS: Record<Locale, string> = {
+	ru: 'RU',
+	fr: 'FR',
+	de: 'DE',
+	es: 'ES',
+};
 
 const Header = () => {
+	const t = useTranslations('nav');
+	const locale = useLocale() as Locale;
+
 	const pathname = usePathname();
+	const router = useRouter();
+
+	const NAV_LINKS = [
+		{ href: ROUTES.home, label: t('home') },
+		{ href: ROUTES.trainer, label: t('trainer') },
+	];
 	useSwipeNavigation([...NAV_ROUTES]);
+
+	const handleLocaleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+		router.replace(pathname, { locale: e.target.value as Locale });
+	};
 
 	return (
 		<header className='border-border bg-background/90 sticky top-0 z-50 border-b backdrop-blur-md'>
@@ -36,7 +53,7 @@ const Header = () => {
 						</span>
 					</Link>
 
-					<nav aria-label='Основная навигация' className='flex items-center gap-0.5'>
+					<nav aria-label={t('mainNavLabel')} className='flex items-center gap-0.5'>
 						{NAV_LINKS.map(link => (
 							<Link
 								key={link.href}
@@ -59,6 +76,20 @@ const Header = () => {
 
 				<div className='flex items-center gap-2'>
 					<NetworkBadge />
+
+					<select
+						value={locale}
+						onChange={handleLocaleChange}
+						aria-label={t('languageSelectorLabel')}
+						className='text-foreground bg-background border-border rounded-md border px-2 py-1 text-xs font-medium'
+					>
+						{routing.locales.map(l => (
+							<option key={l} value={l}>
+								{LOCALE_LABELS[l]}
+							</option>
+						))}
+					</select>
+
 					<Button
 						variant='ghost'
 						size='icon-sm'
@@ -67,7 +98,7 @@ const Header = () => {
 						)}
 						asChild
 					>
-						<Link href={ROUTES.profile} aria-label='Профиль пользователя'>
+						<Link href={ROUTES.profile} aria-label={t('profileAriaLabel')}>
 							<User />
 						</Link>
 					</Button>
