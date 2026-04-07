@@ -1,13 +1,12 @@
-import { cn } from '@/shared/lib/utils';
+import '@/app/globals.css';
 import { routing } from '@/shared/i18n/config';
+import { cn } from '@/shared/lib/utils';
 import { SerwistProvider } from '@/shared/pwa/serwist';
-import { hasLocale } from 'next-intl';
-import { NextIntlClientProvider } from 'next-intl';
+import type { Metadata } from 'next';
+import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { Geist, Geist_Mono, Inter } from 'next/font/google';
-import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import '@/app/globals.css';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
 const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'] });

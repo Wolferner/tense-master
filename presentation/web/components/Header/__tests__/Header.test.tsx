@@ -1,12 +1,12 @@
 import { render, screen } from '@testing-library/react';
 import { describe, expect, it, vi } from 'vitest';
 
-vi.mock('next/navigation', () => ({
+vi.mock('@/shared/i18n/navigation', () => ({
 	usePathname: vi.fn(),
 	useRouter: vi.fn(),
 }));
 
-import { usePathname } from 'next/navigation';
+import { usePathname } from '@/shared/i18n/navigation';
 import Header from '../Header';
 
 describe('Header', () => {

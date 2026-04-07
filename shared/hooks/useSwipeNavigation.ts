@@ -1,4 +1,4 @@
-import { usePathname, useRouter } from 'next/navigation';
+import { usePathname, useRouter } from '@/shared/i18n/navigation';
 import { useEffect, useEffectEvent } from 'react';
 
 const MINIMUM_SWIPE_DISTANCE = 80;

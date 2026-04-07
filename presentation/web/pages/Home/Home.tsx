@@ -1,7 +1,7 @@
 import { Button } from '@/presentation/components/ui/button';
 import { ROUTES } from '@/shared/config/routes';
+import { Link } from '@/shared/i18n/navigation';
 import { HardDriveIcon, ShieldOffIcon, WifiOffIcon } from 'lucide-react';
-import Link from 'next/link';
 import { REASONS } from './logic/reasons';
 import Reason from './ui/Reason';
 

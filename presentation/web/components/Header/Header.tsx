@@ -1,12 +1,11 @@
 'use client';
 
 import { Button } from '@/presentation/components/ui/button';
-import { cn } from '@/shared/lib/utils';
-import { useSwipeNavigation } from '@/shared/hooks/useSwipeNavigation';
 import { NAV_ROUTES, ROUTES } from '@/shared/config/routes';
+import { useSwipeNavigation } from '@/shared/hooks/useSwipeNavigation';
+import { Link, usePathname } from '@/shared/i18n/navigation';
+import { cn } from '@/shared/lib/utils';
 import { User } from 'lucide-react';
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 import NetworkBadge from '../NetworkBadge/NetworkBadge';
 
 const NAV_LINKS = [
