@@ -1,0 +1,109 @@
+{
+	"common": {
+		"loading": "Загрузка..."
+	},
+	"nav": {
+		"home": "Главная",
+		"trainer": "Тренажер",
+		"mainNavLabel": "Основная навигация",
+		"profileAriaLabel": "Профиль пользователя",
+		"languageSelectorLabel": "Выбор языка"
+	},
+	"home": {
+		"tagline": "Практикуй английские времена офлайн",
+		"heroDescription": "Путаница с <bold>английскими временами</bold> — одна из самых частых проблем в изучении <bold>языка</bold>. Не потому что правила сложные, а потому что их нужно чувствовать в контексте. Этот <bold>тренажёр</bold> именно для этого.",
+		"startTraining": "Начать тренировку",
+		"startTrainingAriaLabel": "Начать тренировку по английским временам",
+		"whyHeading": "Почему этот тренажёр",
+		"privacy": {
+			"title": "Ваши данные остаются у вас",
+			"localStorage": {
+				"title": "Локальное хранилище",
+				"description": "Весь прогресс хранится в вашем браузере — никуда не уходит."
+			},
+			"noTracking": {
+				"title": "Без слежки",
+				"description": "Мы не собираем, не храним и не передаём никакие данные о вас."
+			},
+			"offline": {
+				"title": "Работает офлайн",
+				"description": "После первой загрузки приложение работает без интернета."
+			}
+		},
+		"reasons": {
+			"context": {
+				"title": "Контекст решает всё",
+				"description": "В английском одно и то же действие может передаваться разными <bold>временами</bold> в зависимости от смысла, который вы хотите выразить."
+			},
+			"forms": {
+				"title": "12 времён — не миф",
+				"description": "Каждое <bold>время</bold> имеет свои маркеры и логику. Без практики они смешиваются и перестают ощущаться интуитивно."
+			},
+			"noTools": {
+				"title": "Рабочих тренажёров нет",
+				"description": "Я не нашёл ни одного инструмента, который действительно <bold>тренирует</bold> выбор времени по контексту — поэтому создал его сам."
+			}
+		}
+	},
+	"trainer": {
+		"title": "Tense Trainer",
+		"subtitle": "Выбери времена для тренировки",
+		"continue": "Продолжить",
+		"selectAll": "Выбрать все",
+		"clearAll": "Сбросить",
+		"start": "Начать",
+		"restart": "Начать заново",
+		"back": "Назад",
+		"finish": "Завершить",
+		"inputPlaceholder": "Введи перевод на английском...",
+		"skip": "Пропустить",
+		"check": "Проверить",
+		"correct": "Верно!",
+		"incorrect": "Неверно",
+		"correctAnswer": "Правильный ответ",
+		"whyThisTense": "Почему это время",
+		"next": "Следующее",
+		"mode": "Режим",
+		"modeFixed": "Фиксированное количество",
+		"modeInfinite": "Бесконечный режим",
+		"groupSelectAll": "Выбрать все",
+		"groupDeselect": "Снять",
+		"group": {
+			"present": "Present",
+			"past": "Past",
+			"future": "Future"
+		}
+	},
+	"profile": {
+		"overallStats": "Общая статистика",
+		"progress": "Прогресс",
+		"byTenses": "По временам",
+		"sessionHistory": "История сессий",
+		"total": "Всего",
+		"correct": "Правильно",
+		"skipped": "Пропущено",
+		"incorrect": "Неверно",
+		"emptyHistory": "История пуста",
+		"noData": "Нет данных",
+		"noAnswers": "Нет ответов",
+		"showMore": "Показать ещё {count}",
+		"sessionCorrect": "{correct}/{attempted} верно",
+		"skippedAnswer": "Пропущено",
+		"correctAnswer": "Верно",
+		"incorrectAnswer": "Неверно",
+		"answer": "Ответ: {answer}",
+		"allTenses": "Все времена",
+		"presentTenses": "Present tenses",
+		"pastTenses": "Past tenses",
+		"futureTenses": "Future tenses"
+	},
+	"network": {
+		"offline": "Offline",
+		"slow": "Slow connection"
+	},
+	"install": {
+		"title": "Install Tense Master",
+		"description": "Use offline, faster access",
+		"installButton": "Install"
+	}
+}
