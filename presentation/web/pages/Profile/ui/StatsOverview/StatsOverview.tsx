@@ -1,16 +1,22 @@
 import type { OverallStats } from '@/client/application/services/ProfileService';
+import { useTranslations } from 'next-intl';
 
 interface Props {
 	stats: OverallStats;
 }
 
 export function StatsOverview({ stats }: Props) {
+	const t = useTranslations('profile');
+
 	return (
 		<div className='grid grid-cols-2 gap-4 sm:grid-cols-4'>
-			<StatCard label='Всего' value={String(stats.total)} />
-			<StatCard label='Правильно' value={String(stats.correct)} sub={`${stats.accuracy}%`} />
-			<StatCard label='Пропущено' value={String(stats.skipped)} />
-			<StatCard label='Неверно' value={String(stats.total - stats.correct - stats.skipped)} />
+			<StatCard label={t('total')} value={String(stats.total)} />
+			<StatCard label={t('correct')} value={String(stats.correct)} sub={`${stats.accuracy}%`} />
+			<StatCard label={t('skipped')} value={String(stats.skipped)} />
+			<StatCard
+				label={t('incorrect')}
+				value={String(stats.total - stats.correct - stats.skipped)}
+			/>
 		</div>
 	);
 }

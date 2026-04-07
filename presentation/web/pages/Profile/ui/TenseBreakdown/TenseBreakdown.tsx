@@ -1,13 +1,16 @@
 import type { TenseStat } from '@/client/application/services/ProfileService';
 import { TENSE_LABELS } from '@/presentation/web/pages/TenseTrainer/logic/tenseLabels';
+import { useTranslations } from 'next-intl';
 
 interface Props {
 	stats: TenseStat[];
 }
 
 export function TenseBreakdown({ stats }: Props) {
+	const t = useTranslations('profile');
+
 	if (stats.length === 0) {
-		return <p className='text-muted-foreground text-sm'>Нет данных</p>;
+		return <p className='text-muted-foreground text-sm'>{t('noData')}</p>;
 	}
 
 	return (
