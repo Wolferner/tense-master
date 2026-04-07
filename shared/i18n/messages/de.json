@@ -1,0 +1,110 @@
+{
+	"common": {
+		"loading": "Laden..."
+	},
+	"nav": {
+		"home": "Startseite",
+		"trainer": "Trainer",
+		"mainNavLabel": "Hauptnavigation",
+		"profileAriaLabel": "Benutzerprofil",
+		"languageSelectorLabel": "Sprachauswahl"
+	},
+	"home": {
+		"tagline": "Übe englische Zeitformen offline",
+		"heroDescription": "Verwirrung mit <bold>englischen Zeitformen</bold> ist eines der häufigsten Probleme beim Sprachenlernen. Nicht weil die Regeln schwierig sind, sondern weil man sie im Kontext fühlen muss. Dieser <bold>Trainer</bold> ist genau dafür gemacht.",
+		"startTraining": "Training starten",
+		"startTrainingAriaLabel": "Training für englische Zeitformen starten",
+		"whyHeading": "Warum dieser Trainer",
+		"privacy": {
+			"title": "Ihre Daten bleiben bei Ihnen",
+			"localStorage": {
+				"title": "Lokaler Speicher",
+				"description": "Der gesamte Fortschritt wird in Ihrem Browser gespeichert — er geht nirgendwo hin."
+			},
+			"noTracking": {
+				"title": "Ohne Tracking",
+				"description": "Wir sammeln, speichern oder übertragen keine Daten über Sie."
+			},
+			"offline": {
+				"title": "Funktioniert offline",
+				"description": "Nach dem ersten Laden funktioniert die App ohne Internet."
+			}
+		},
+		"reasons": {
+			"context": {
+				"title": "Kontext entscheidet alles",
+				"description": "Im Englischen kann dieselbe Handlung je nach Bedeutung durch verschiedene <bold>Zeitformen</bold> ausgedrückt werden."
+			},
+			"forms": {
+				"title": "12 Zeitformen — kein Mythos",
+				"description": "Jede <bold>Zeitform</bold> hat ihre eigenen Marker und Logik. Ohne Übung vermischen sie sich und werden nicht mehr intuitiv."
+			},
+			"noTools": {
+				"title": "Keine funktionierenden Trainer",
+				"description": "Ich habe kein einziges Tool gefunden, das wirklich die Wahl der Zeitform nach Kontext <bold>trainiert</bold> — also habe ich es selbst erstellt."
+			}
+		}
+	},
+	"trainer": {
+		"title": "Tense Trainer",
+		"subtitle": "Wähle die zu übenden Zeitformen",
+		"continue": "Weiter",
+		"selectAll": "Alle auswählen",
+		"clearAll": "Zurücksetzen",
+		"start": "Starten",
+		"restart": "Neu starten",
+		"back": "Zurück",
+		"finish": "Beenden",
+		"inputPlaceholder": "Übersetzung auf Englisch eingeben...",
+		"skip": "Überspringen",
+		"check": "Prüfen",
+		"correct": "Richtig!",
+		"incorrect": "Falsch",
+		"correctAnswer": "Richtige Antwort",
+		"whyThisTense": "Warum diese Zeitform",
+		"next": "Nächste",
+		"mode": "Modus",
+		"modeFixed": "Feste Anzahl",
+		"modeInfinite": "Unendlicher Modus",
+		"groupSelectAll": "Alle auswählen",
+		"groupDeselect": "Abwählen",
+		"group": {
+			"present": "Present",
+			"past": "Past",
+			"future": "Future"
+		}
+	},
+	"profile": {
+		"overallStats": "Gesamtstatistik",
+		"progress": "Fortschritt",
+		"byTenses": "Nach Zeitformen",
+		"sessionHistory": "Sitzungsverlauf",
+		"total": "Gesamt",
+		"correct": "Richtig",
+		"skipped": "Übersprungen",
+		"incorrect": "Falsch",
+		"emptyHistory": "Verlauf leer",
+		"noData": "Keine Daten",
+		"noAnswers": "Keine Antworten",
+		"showMore": "Noch {count} anzeigen",
+		"sessionCorrect": "{correct}/{attempted} richtig",
+		"skippedAnswer": "Übersprungen",
+		"correctAnswer": "Richtig",
+		"incorrectAnswer": "Falsch",
+		"answer": "Antwort: {answer}",
+		"allTenses": "Alle Zeitformen",
+		"presentTenses": "Present tenses",
+		"pastTenses": "Past tenses",
+		"futureTenses": "Future tenses"
+	},
+	"network": {
+		"offline": "Offline",
+		"online": "Online",
+		"slow": "Langsame Verbindung"
+	},
+	"install": {
+		"title": "Tense Master installieren",
+		"description": "Offline nutzen, schnellerer Zugriff",
+		"installButton": "Installieren"
+	}
+}

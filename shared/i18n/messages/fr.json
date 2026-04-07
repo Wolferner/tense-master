@@ -1,0 +1,110 @@
+{
+	"common": {
+		"loading": "Chargement..."
+	},
+	"nav": {
+		"home": "Accueil",
+		"trainer": "Entraîneur",
+		"mainNavLabel": "Navigation principale",
+		"profileAriaLabel": "Profil utilisateur",
+		"languageSelectorLabel": "Sélection de la langue"
+	},
+	"home": {
+		"tagline": "Entraîne-toi aux temps anglais hors ligne",
+		"heroDescription": "La confusion avec les <bold>temps anglais</bold> est l'un des problèmes les plus fréquents dans l'apprentissage de la <bold>langue</bold>. Non pas parce que les règles sont complexes, mais parce qu'il faut les ressentir en contexte. Cet <bold>entraîneur</bold> est fait pour ça.",
+		"startTraining": "Commencer l'entraînement",
+		"startTrainingAriaLabel": "Commencer l'entraînement aux temps anglais",
+		"whyHeading": "Pourquoi cet entraîneur",
+		"privacy": {
+			"title": "Vos données restent chez vous",
+			"localStorage": {
+				"title": "Stockage local",
+				"description": "Toute la progression est stockée dans votre navigateur — elle ne va nulle part."
+			},
+			"noTracking": {
+				"title": "Sans surveillance",
+				"description": "Nous ne collectons, ne stockons ni ne transmettons aucune donnée vous concernant."
+			},
+			"offline": {
+				"title": "Fonctionne hors ligne",
+				"description": "Après le premier chargement, l'application fonctionne sans internet."
+			}
+		},
+		"reasons": {
+			"context": {
+				"title": "Le contexte décide tout",
+				"description": "En anglais, la même action peut être exprimée par différents <bold>temps</bold> selon le sens que vous souhaitez exprimer."
+			},
+			"forms": {
+				"title": "12 temps — ce n'est pas un mythe",
+				"description": "Chaque <bold>temps</bold> a ses marqueurs et sa logique. Sans pratique, ils se mélangent et cessent d'être intuitifs."
+			},
+			"noTools": {
+				"title": "Pas d'entraîneurs efficaces",
+				"description": "Je n'ai trouvé aucun outil qui <bold>entraîne</bold> vraiment le choix du temps selon le contexte — alors je l'ai créé."
+			}
+		}
+	},
+	"trainer": {
+		"title": "Tense Trainer",
+		"subtitle": "Choisissez les temps à pratiquer",
+		"continue": "Continuer",
+		"selectAll": "Tout sélectionner",
+		"clearAll": "Réinitialiser",
+		"start": "Commencer",
+		"restart": "Recommencer",
+		"back": "Retour",
+		"finish": "Terminer",
+		"inputPlaceholder": "Entrez la traduction en anglais...",
+		"skip": "Passer",
+		"check": "Vérifier",
+		"correct": "Correct !",
+		"incorrect": "Incorrect",
+		"correctAnswer": "Bonne réponse",
+		"whyThisTense": "Pourquoi ce temps",
+		"next": "Suivant",
+		"mode": "Mode",
+		"modeFixed": "Nombre fixe",
+		"modeInfinite": "Mode infini",
+		"groupSelectAll": "Tout sélectionner",
+		"groupDeselect": "Désélectionner",
+		"group": {
+			"present": "Present",
+			"past": "Past",
+			"future": "Future"
+		}
+	},
+	"profile": {
+		"overallStats": "Statistiques générales",
+		"progress": "Progression",
+		"byTenses": "Par temps",
+		"sessionHistory": "Historique des sessions",
+		"total": "Total",
+		"correct": "Correct",
+		"skipped": "Passé",
+		"incorrect": "Incorrect",
+		"emptyHistory": "Historique vide",
+		"noData": "Pas de données",
+		"noAnswers": "Pas de réponses",
+		"showMore": "Afficher encore {count}",
+		"sessionCorrect": "{correct}/{attempted} correct",
+		"skippedAnswer": "Passé",
+		"correctAnswer": "Correct",
+		"incorrectAnswer": "Incorrect",
+		"answer": "Réponse : {answer}",
+		"allTenses": "Tous les temps",
+		"presentTenses": "Present tenses",
+		"pastTenses": "Past tenses",
+		"futureTenses": "Future tenses"
+	},
+	"network": {
+		"offline": "Hors ligne",
+		"online": "En ligne",
+		"slow": "Connexion lente"
+	},
+	"install": {
+		"title": "Installer Tense Master",
+		"description": "Utiliser hors ligne, accès plus rapide",
+		"installButton": "Installer"
+	}
+}
