@@ -4,6 +4,7 @@ import { type TrainingMode } from '@/shared/config/training';
 import { type ExerciseResponseDto } from '@/shared/dtos';
 import { cn } from '@/shared/lib/utils';
 import { CheckIcon, XIcon } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
 interface TaskResultProps {
 	current: ExerciseResponseDto;
@@ -24,11 +25,14 @@ const TaskResult = ({
 	totalExercises,
 	onNext,
 }: TaskResultProps) => {
+	const t = useTranslations('trainer');
+	const tCommon = useTranslations('common');
+
 	const buttonText = isLoading
-		? 'Загрузка...'
+		? tCommon('loading')
 		: mode === 'infinite' || currentIndex + 1 < totalExercises
-			? 'Следующее'
-			: 'Завершить';
+			? t('next')
+			: t('finish');
 
 	const showResult = !answerRecord.skipped;
 	const showCorrectAnswer = answerRecord.skipped || !answerRecord.isCorrect;
@@ -50,7 +54,7 @@ const TaskResult = ({
 						<XIcon className='size-5 shrink-0' />
 					)}
 					<span className='text-sm font-medium'>
-						{answerRecord.isCorrect ? 'Верно!' : 'Неверно'}
+						{answerRecord.isCorrect ? t('correct') : t('incorrect')}
 					</span>
 				</div>
 			)}
@@ -58,13 +62,13 @@ const TaskResult = ({
 				<>
 					<div className='border-border bg-card rounded-xl border p-6'>
 						<p className='text-muted-foreground mb-1 text-xs font-semibold tracking-wide uppercase'>
-							Правильный ответ
+							{t('correctAnswer')}
 						</p>
 						<p className='text-foreground'>{current.answer}</p>
 					</div>
 					<div className='border-border bg-card rounded-xl border p-6'>
 						<p className='text-muted-foreground mb-1 text-xs font-semibold tracking-wide uppercase'>
-							Почему это время
+							{t('whyThisTense')}
 						</p>
 						<p className='text-foreground text-sm leading-relaxed'>{current.explanation}</p>
 					</div>

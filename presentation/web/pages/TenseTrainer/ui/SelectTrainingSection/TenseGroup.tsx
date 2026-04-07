@@ -1,6 +1,9 @@
+'use client';
+
 import { type Tense } from '@/domain/value-objects';
 import { Checkbox } from '@/presentation/components/ui/checkbox';
 import { ITenseGroup, TENSE_LABELS } from '@/presentation/web/pages/TenseTrainer/logic/tenseLabels';
+import { useTranslations } from 'next-intl';
 
 interface TenseGroupProps {
 	group: ITenseGroup;
@@ -10,6 +13,8 @@ interface TenseGroupProps {
 }
 
 const TenseGroup = ({ onToggle, onToggleGroup, group, selectedTenses }: TenseGroupProps) => {
+	const t = useTranslations('trainer');
+
 	const allSelected = group.tenses.every(tense => selectedTenses.includes(tense));
 
 	const toggleGroupHandler = () => {
@@ -21,7 +26,7 @@ const TenseGroup = ({ onToggle, onToggleGroup, group, selectedTenses }: TenseGro
 			<div className='flex items-center justify-between'>
 				<span className='text-foreground text-sm font-semibold'>{group.label}</span>
 				<button onClick={toggleGroupHandler} className='text-primary text-xs hover:underline'>
-					{allSelected ? 'Снять' : 'Выбрать все'}
+					{allSelected ? t('groupDeselect') : t('groupSelectAll')}
 				</button>
 			</div>
 			<div className='grid grid-cols-1 gap-2 sm:grid-cols-2'>

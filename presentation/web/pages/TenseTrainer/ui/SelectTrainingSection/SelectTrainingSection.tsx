@@ -4,12 +4,16 @@ import { useSessionStore } from '@/client/stores/sessionStore';
 import { useSettingsStore } from '@/client/stores/settingsStore';
 import { Button } from '@/presentation/components/ui/button';
 import { ArrowRightIcon } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 import { useShallow } from 'zustand/react/shallow';
 import { TENSE_GROUPS } from '../../logic/tenseLabels';
 import ModeSelector from './ModeSelector';
 import TenseGroup from './TenseGroup';
 
 const SelectTrainingSection = () => {
+	const t = useTranslations('trainer');
+	const tCommon = useTranslations('common');
+
 	const {
 		selectedTenses,
 		mode,
@@ -51,11 +55,11 @@ const SelectTrainingSection = () => {
 				<div className='flex items-center justify-between'>
 					<div>
 						<h1 className='text-foreground text-3xl font-bold'>Tense Trainer</h1>
-						<p className='text-muted-foreground mt-2'>Выбери времена для тренировки</p>
+						<p className='text-muted-foreground mt-2'>{t('subtitle')}</p>
 					</div>
 					{hasExercises && (
 						<Button variant='ghost' size='sm' onClick={() => setStep('training')}>
-							Продолжить
+							{t('continue')}
 							<ArrowRightIcon />
 						</Button>
 					)}
@@ -65,10 +69,10 @@ const SelectTrainingSection = () => {
 
 				<div className='flex gap-3'>
 					<Button variant='outline' size='sm' onClick={selectAll}>
-						Выбрать все
+						{t('selectAll')}
 					</Button>
 					<Button variant='outline' size='sm' onClick={clearAll}>
-						Сбросить
+						{t('clearAll')}
 					</Button>
 				</div>
 
@@ -91,7 +95,7 @@ const SelectTrainingSection = () => {
 					onClick={handleStartTraining}
 					disabled={selectedTenses.length === 0 || isLoading}
 				>
-					{isLoading ? 'Загрузка...' : hasExercises ? 'Начать заново' : 'Начать'}
+					{isLoading ? tCommon('loading') : hasExercises ? t('restart') : t('start')}
 				</Button>
 			</div>
 		</main>

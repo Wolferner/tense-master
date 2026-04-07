@@ -7,11 +7,15 @@ import { Button } from '@/presentation/components/ui/button';
 import { Textarea } from '@/presentation/components/ui/textarea';
 import { TENSE_LABELS } from '@/presentation/web/pages/TenseTrainer/logic/tenseLabels';
 import { ArrowLeftIcon, ArrowRightIcon } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 import { useShallow } from 'zustand/react/shallow';
 import TaskResult from './TaskResult';
 
 const TrainingSection = () => {
+	const t = useTranslations('trainer');
+	const tCommon = useTranslations('common');
+
 	const {
 		exercises,
 		currentExerciseIndex,
@@ -57,7 +61,7 @@ const TrainingSection = () => {
 				<div className='flex items-center justify-between'>
 					<Button variant='ghost' size='sm' className='-ml-2' onClick={() => setStep('select')}>
 						<ArrowLeftIcon />
-						Назад
+						{t('back')}
 					</Button>
 					{mode === 'infinite' && (
 						<Button
@@ -66,7 +70,7 @@ const TrainingSection = () => {
 							className='-mr-2'
 							onClick={() => void finishSession()}
 						>
-							Завершить
+							{t('finish')}
 							<ArrowRightIcon />
 						</Button>
 					)}
@@ -102,7 +106,7 @@ const TrainingSection = () => {
 								onClick={() => void submitAnswer(userAnswer, current.id)}
 								variant={isEmptyAnswer ? 'outline' : 'default'}
 							>
-								{isEmptyAnswer ? 'Пропустить' : 'Проверить'}
+								{isEmptyAnswer ? t('skip') : t('check')}
 							</Button>
 						)}
 					</div>
