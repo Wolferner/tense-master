@@ -1,6 +1,8 @@
 import type { AnswerWithExercise } from '@/client/application/services/ProfileService';
 import type { ExerciseResponseDto } from '@/shared/dtos';
+import messages from '@/shared/i18n/messages/ru.json';
 import { render, screen } from '@testing-library/react';
+import { NextIntlClientProvider } from 'next-intl';
 import { describe, expect, it } from 'vitest';
 import { SessionDetail } from '../SessionDetail';
 
@@ -31,27 +33,39 @@ function makeAnswer(
 
 describe('SessionDetail', () => {
 	it('shows empty placeholder when no answers', () => {
-		render(<SessionDetail answers={[]} />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<SessionDetail answers={[]} />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.getByText('Нет ответов')).toBeInTheDocument();
 	});
 
 	it('shows "Верно" for a correct answer', () => {
-		render(<SessionDetail answers={[makeAnswer({ isCorrect: true, skipped: false })]} />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<SessionDetail answers={[makeAnswer({ isCorrect: true, skipped: false })]} />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.getByText('Верно')).toBeInTheDocument();
 	});
 
 	it('shows "Неверно" for a wrong answer', () => {
 		render(
-			<SessionDetail
-				answers={[makeAnswer({ isCorrect: false, skipped: false, userAnswer: 'He read' })]}
-			/>,
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<SessionDetail
+					answers={[makeAnswer({ isCorrect: false, skipped: false, userAnswer: 'He read' })]}
+				/>
+			</NextIntlClientProvider>,
 		);
 		expect(screen.getByText('Неверно')).toBeInTheDocument();
 	});
 
 	it('shows "Пропущено" and hides user answer for skipped', () => {
 		render(
-			<SessionDetail answers={[makeAnswer({ skipped: true, isCorrect: null, userAnswer: '' })]} />,
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<SessionDetail answers={[makeAnswer({ skipped: true, isCorrect: null, userAnswer: '' })]} />
+			</NextIntlClientProvider>,
 		);
 		expect(screen.getByText('Пропущено')).toBeInTheDocument();
 		expect(screen.queryByText(/Ответ:/)).not.toBeInTheDocument();
@@ -59,9 +73,11 @@ describe('SessionDetail', () => {
 
 	it('shows user answer text for non-skipped', () => {
 		render(
-			<SessionDetail
-				answers={[makeAnswer({ userAnswer: 'He reads', skipped: false, isCorrect: true })]}
-			/>,
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<SessionDetail
+					answers={[makeAnswer({ userAnswer: 'He reads', skipped: false, isCorrect: true })]}
+				/>
+			</NextIntlClientProvider>,
 		);
 		expect(screen.getByText('He reads')).toBeInTheDocument();
 	});

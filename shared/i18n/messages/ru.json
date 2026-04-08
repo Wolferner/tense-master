@@ -91,7 +91,7 @@
 		"skippedAnswer": "Пропущено",
 		"correctAnswer": "Верно",
 		"incorrectAnswer": "Неверно",
-		"answer": "Ответ: {answer}",
+		"answer": "{answer}",
 		"allTenses": "Все времена",
 		"presentTenses": "Present tenses",
 		"pastTenses": "Past tenses",

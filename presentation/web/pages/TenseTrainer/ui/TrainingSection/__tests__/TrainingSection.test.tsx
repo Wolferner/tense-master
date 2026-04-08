@@ -20,6 +20,8 @@ import type { SettingsStore } from '@/client/stores/settingsStore';
 import { useSettingsStore } from '@/client/stores/settingsStore';
 import { Tense } from '@/domain/value-objects';
 import { type ExerciseResponseDto } from '@/shared/dtos';
+import messages from '@/shared/i18n/messages/ru.json';
+import { NextIntlClientProvider } from 'next-intl';
 import TrainingSection from '../TrainingSection';
 
 const exercise: ExerciseResponseDto = {
@@ -111,81 +113,133 @@ beforeEach(() => {
 
 describe('TrainingSection', () => {
 	it('renders the current question', () => {
-		render(<TrainingSection />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<TrainingSection />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.getByText('Он читает книгу')).toBeInTheDocument();
 	});
 
 	it('shows an enabled textarea before answer is submitted', () => {
-		render(<TrainingSection />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<TrainingSection />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.getByRole('textbox')).toBeEnabled();
 	});
 
 	it('shows "Skip" button when textarea is empty', () => {
-		render(<TrainingSection />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<TrainingSection />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.getByRole('button', { name: 'Пропустить' })).toBeInTheDocument();
 	});
 
 	it('shows "Проверить" button when textarea has text', async () => {
 		const user = userEvent.setup();
-		render(<TrainingSection />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<TrainingSection />
+			</NextIntlClientProvider>,
+		);
 		await user.type(screen.getByRole('textbox'), 'He reads');
 		expect(screen.getByRole('button', { name: 'Проверить' })).toBeInTheDocument();
 	});
 
 	it('calls submitAnswer with current answer and exercise id when submit is clicked', async () => {
 		const user = userEvent.setup();
-		render(<TrainingSection />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<TrainingSection />
+			</NextIntlClientProvider>,
+		);
 		await user.click(screen.getByRole('button', { name: 'Пропустить' }));
 		expect(mockActions.submitAnswer).toHaveBeenCalledWith('', exercise.id);
 	});
 
 	it('disables textarea after answer is submitted', () => {
 		mockSession(answeredSessionState);
-		render(<TrainingSection />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<TrainingSection />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.getByRole('textbox')).toBeDisabled();
 	});
 
 	it('hides the submit button after answer is submitted', () => {
 		mockSession(answeredSessionState);
-		render(<TrainingSection />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<TrainingSection />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.queryByRole('button', { name: 'Пропустить' })).not.toBeInTheDocument();
 		expect(screen.queryByRole('button', { name: 'Проверить' })).not.toBeInTheDocument();
 	});
 
 	it('shows tense label badge after answer is submitted', () => {
 		mockSession(answeredSessionState);
-		render(<TrainingSection />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<TrainingSection />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.getByText('Present Simple')).toBeInTheDocument();
 	});
 
 	it('shows the explanation after a wrong submission', () => {
 		mockSession(wrongAnswerSessionState);
-		render(<TrainingSection />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<TrainingSection />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.getByText('Present Simple for habits')).toBeInTheDocument();
 	});
 
 	it('shows "Верно!" when answer is correct', () => {
 		mockSession(answeredSessionState);
-		render(<TrainingSection />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<TrainingSection />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.getByText('Верно!')).toBeInTheDocument();
 	});
 
 	it('shows "Неверно" when answer is incorrect', () => {
 		mockSession(wrongAnswerSessionState);
-		render(<TrainingSection />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<TrainingSection />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.getByText('Неверно')).toBeInTheDocument();
 	});
 
 	it('does not show result indicator when skipped', () => {
 		mockSession(skippedSessionState);
-		render(<TrainingSection />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<TrainingSection />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.queryByText('Верно!')).not.toBeInTheDocument();
 		expect(screen.queryByText('Неверно')).not.toBeInTheDocument();
 	});
 
 	it('calls setStep("select") when back button is clicked', async () => {
 		const user = userEvent.setup();
-		render(<TrainingSection />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<TrainingSection />
+			</NextIntlClientProvider>,
+		);
 		await user.click(screen.getByRole('button', { name: /Назад/ }));
 		expect(mockActions.setStep).toHaveBeenCalledWith('select');
 	});

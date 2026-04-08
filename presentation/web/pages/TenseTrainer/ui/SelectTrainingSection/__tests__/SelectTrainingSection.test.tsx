@@ -20,6 +20,8 @@ import type { SettingsStore } from '@/client/stores/settingsStore';
 import { useSettingsStore } from '@/client/stores/settingsStore';
 import { Tense } from '@/domain/value-objects';
 import { type ExerciseResponseDto } from '@/shared/dtos';
+import messages from '@/shared/i18n/messages/ru.json';
+import { NextIntlClientProvider } from 'next-intl';
 import SelectTrainingSection from '../SelectTrainingSection';
 
 function makeExercise(): ExerciseResponseDto {
@@ -82,62 +84,102 @@ beforeEach(() => {
 
 describe('SelectTrainingSection', () => {
 	it('shows "Начать" when there are no existing exercises', () => {
-		render(<SelectTrainingSection />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<SelectTrainingSection />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.getByRole('button', { name: 'Начать' })).toBeInTheDocument();
 	});
 
 	it('shows "Начать заново" when exercises already exist', () => {
 		mockSession({ ...baseSessionState, exercises: [makeExercise()] });
-		render(<SelectTrainingSection />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<SelectTrainingSection />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.getByRole('button', { name: 'Начать заново' })).toBeInTheDocument();
 	});
 
 	it('"Начать" is disabled when no tenses are selected', () => {
 		mockSettings({ ...baseSettingsState, selectedTenses: [] });
-		render(<SelectTrainingSection />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<SelectTrainingSection />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.getByRole('button', { name: 'Начать' })).toBeDisabled();
 	});
 
 	it('"Начать" is enabled when tenses are selected', () => {
-		render(<SelectTrainingSection />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<SelectTrainingSection />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.getByRole('button', { name: 'Начать' })).toBeEnabled();
 	});
 
 	it('shows "Продолжить" button when exercises exist', () => {
 		mockSession({ ...baseSessionState, exercises: [makeExercise()] });
-		render(<SelectTrainingSection />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<SelectTrainingSection />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.getByRole('button', { name: /Продолжить/ })).toBeInTheDocument();
 	});
 
 	it('does not show "Продолжить" button when no exercises exist', () => {
-		render(<SelectTrainingSection />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<SelectTrainingSection />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.queryByRole('button', { name: /Продолжить/ })).not.toBeInTheDocument();
 	});
 
 	it('calls startTraining when "Начать" is clicked', async () => {
 		const user = userEvent.setup();
-		render(<SelectTrainingSection />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<SelectTrainingSection />
+			</NextIntlClientProvider>,
+		);
 		await user.click(screen.getByRole('button', { name: 'Начать' }));
 		expect(mockActions.startTraining).toHaveBeenCalledOnce();
 	});
 
 	it('calls selectAll when "Выбрать все" is clicked', async () => {
 		const user = userEvent.setup();
-		render(<SelectTrainingSection />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<SelectTrainingSection />
+			</NextIntlClientProvider>,
+		);
 		await user.click(screen.getAllByRole('button', { name: 'Выбрать все' })[0]);
 		expect(mockActions.selectAll).toHaveBeenCalledOnce();
 	});
 
 	it('calls clearAll when "Сбросить" is clicked', async () => {
 		const user = userEvent.setup();
-		render(<SelectTrainingSection />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<SelectTrainingSection />
+			</NextIntlClientProvider>,
+		);
 		await user.click(screen.getByRole('button', { name: 'Сбросить' }));
 		expect(mockActions.clearAll).toHaveBeenCalledOnce();
 	});
 
 	it('shows "Загрузка..." on the main button when isLoading', () => {
 		mockSession({ ...baseSessionState, isLoading: true });
-		render(<SelectTrainingSection />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<SelectTrainingSection />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.getByRole('button', { name: 'Загрузка...' })).toBeInTheDocument();
 	});
 });

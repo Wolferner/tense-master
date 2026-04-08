@@ -1,8 +1,10 @@
 import { ExerciseAnswer } from '@/domain/entities/Answer';
 import { Tense } from '@/domain/value-objects';
 import { type ExerciseResponseDto } from '@/shared/dtos';
+import messages from '@/shared/i18n/messages/ru.json';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
+import { NextIntlClientProvider } from 'next-intl';
 import { describe, expect, it, vi } from 'vitest';
 import TaskResult from '../TaskResult';
 
@@ -56,68 +58,116 @@ const baseProps = {
 
 describe('TaskResult', () => {
 	it('shows "Верно!" when answer is correct', () => {
-		render(<TaskResult {...baseProps} answerRecord={correctAnswer} />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<TaskResult {...baseProps} answerRecord={correctAnswer} />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.getByText('Верно!')).toBeInTheDocument();
 	});
 
 	it('shows "Неверно" when answer is incorrect', () => {
-		render(<TaskResult {...baseProps} answerRecord={wrongAnswer} />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<TaskResult {...baseProps} answerRecord={wrongAnswer} />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.getByText('Неверно')).toBeInTheDocument();
 	});
 
 	it('does not show result indicator when skipped', () => {
-		render(<TaskResult {...baseProps} answerRecord={skippedAnswer} />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<TaskResult {...baseProps} answerRecord={skippedAnswer} />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.queryByText('Верно!')).not.toBeInTheDocument();
 		expect(screen.queryByText('Неверно')).not.toBeInTheDocument();
 	});
 
 	it('hides correct answer and explanation when answer is correct', () => {
-		render(<TaskResult {...baseProps} answerRecord={correctAnswer} />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<TaskResult {...baseProps} answerRecord={correctAnswer} />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.queryByText('He reads a book')).not.toBeInTheDocument();
 		expect(screen.queryByText('Present Simple for habits')).not.toBeInTheDocument();
 	});
 
 	it('shows correct answer and explanation when answer is wrong', () => {
-		render(<TaskResult {...baseProps} answerRecord={wrongAnswer} />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<TaskResult {...baseProps} answerRecord={wrongAnswer} />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.getByText('He reads a book')).toBeInTheDocument();
 		expect(screen.getByText('Present Simple for habits')).toBeInTheDocument();
 	});
 
 	it('shows correct answer and explanation when skipped', () => {
-		render(<TaskResult {...baseProps} answerRecord={skippedAnswer} />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<TaskResult {...baseProps} answerRecord={skippedAnswer} />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.getByText('He reads a book')).toBeInTheDocument();
 		expect(screen.getByText('Present Simple for habits')).toBeInTheDocument();
 	});
 
 	it('shows "Загрузка..." when isLoading is true', () => {
-		render(<TaskResult {...baseProps} isLoading />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<TaskResult {...baseProps} isLoading />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.getByRole('button')).toHaveTextContent('Загрузка...');
 	});
 
 	it('shows "Следующее" in infinite mode', () => {
-		render(<TaskResult {...baseProps} mode='infinite' />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<TaskResult {...baseProps} mode='infinite' />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.getByRole('button')).toHaveTextContent('Следующее');
 	});
 
 	it('shows "Следующее" in fixed mode when not on the last exercise', () => {
-		render(<TaskResult {...baseProps} mode='fixed' currentIndex={1} totalExercises={3} />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<TaskResult {...baseProps} mode='fixed' currentIndex={1} totalExercises={3} />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.getByRole('button')).toHaveTextContent('Следующее');
 	});
 
 	it('shows "Завершить" in fixed mode on the last exercise', () => {
-		render(<TaskResult {...baseProps} mode='fixed' currentIndex={2} totalExercises={3} />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<TaskResult {...baseProps} mode='fixed' currentIndex={2} totalExercises={3} />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.getByRole('button')).toHaveTextContent('Завершить');
 	});
 
 	it('disables the button when isLoading is true', () => {
-		render(<TaskResult {...baseProps} isLoading />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<TaskResult {...baseProps} isLoading />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.getByRole('button')).toBeDisabled();
 	});
 
 	it('calls onNext when button is clicked', async () => {
 		const user = userEvent.setup();
 		const onNext = vi.fn();
-		render(<TaskResult {...baseProps} onNext={onNext} />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<TaskResult {...baseProps} onNext={onNext} />
+			</NextIntlClientProvider>,
+		);
 		await user.click(screen.getByRole('button'));
 		expect(onNext).toHaveBeenCalledOnce();
 	});
