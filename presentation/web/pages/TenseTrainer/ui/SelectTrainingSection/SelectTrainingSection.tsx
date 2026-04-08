@@ -54,7 +54,7 @@ const SelectTrainingSection = () => {
 			<div className='animate-in fade-in slide-in-from-bottom-4 mx-auto flex w-full max-w-2xl flex-col gap-8 px-6 py-16 duration-300'>
 				<div className='flex items-center justify-between'>
 					<div>
-						<h1 className='text-foreground text-3xl font-bold'>Tense Trainer</h1>
+						<h1 className='text-foreground text-3xl font-bold'>{t('title')}</h1>
 						<p className='text-muted-foreground mt-2'>{t('subtitle')}</p>
 					</div>
 					{hasExercises && (

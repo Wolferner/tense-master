@@ -19,7 +19,7 @@ const ModeSelector = ({ mode, fixedLimit, onUpdate }: Props) => {
 
 	return (
 		<div className='border-border bg-card flex flex-col gap-3 rounded-xl border p-5'>
-			<p className='text-foreground text-sm font-semibold'>Режим</p>
+			<p className='text-foreground text-sm font-semibold'>{t('mode')}</p>
 			<div className='flex gap-2'>
 				{(['fixed', 'infinite'] as TrainingMode[]).map(m => (
 					<button

@@ -95,7 +95,7 @@ const TrainingSection = () => {
 
 					<div className='flex flex-col gap-3'>
 						<Textarea
-							placeholder='Введи перевод на английском...'
+							placeholder={t('inputPlaceholder')}
 							value={userAnswer}
 							onChange={e => setUserAnswer(e.target.value)}
 							disabled={!!answerRecord}

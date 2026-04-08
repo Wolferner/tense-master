@@ -30,7 +30,7 @@ export function SessionHistory({ summaries, getSessionAnswers }: Props) {
 		<div className='flex flex-col gap-3'>
 			{summaries.map(({ session, total, correct, skipped, accuracy }) => {
 				const isOpen = openId === session.id;
-				const date = new Date(session.createdAt).toLocaleDateString('ru-RU', {
+				const date = new Date(session.createdAt).toLocaleDateString(locale, {
 					day: 'numeric',
 					month: 'short',
 					hour: '2-digit',
