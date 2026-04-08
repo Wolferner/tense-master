@@ -8,7 +8,7 @@ const allowedOrigins = (process.env.ALLOWED_ORIGINS ?? '')
 	.filter(Boolean);
 const handleI18nRouting = createMiddleware(routing);
 
-export function proxy(request: NextRequest) {
+export default function proxy(request: NextRequest) {
 	//FIXME: Need to implement CORS check
 	// const origin = request.headers.get('origin');
 
