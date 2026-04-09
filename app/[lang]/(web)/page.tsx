@@ -7,20 +7,6 @@ export const metadata: Metadata = {
 		'Практикуй английские времена — Present Simple, Past Perfect и другие — с упражнениями на перевод предложений',
 };
 
-// export async function generateMetadata({
-//   params,
-// }: {
-//   params: Promise<{ locale: string }>;
-// }): Promise<Metadata> {
-//   const { locale } = await params;
-//   const t = await getTranslations({ locale, namespace: 'meta' });
-
-//   return {
-//     title: t('title'),
-//     description: t('description'),
-//   };
-// }
-
 const jsonLd = {
 	'@context': 'https://schema.org',
 	'@type': 'WebApplication',

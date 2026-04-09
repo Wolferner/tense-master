@@ -4,7 +4,7 @@ import { cn } from '@/shared/lib/utils';
 import { SerwistProvider } from '@/shared/pwa/serwist';
 import type { Metadata } from 'next';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
-import { setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Geist, Geist_Mono, Inter } from 'next/font/google';
 import { notFound } from 'next/navigation';
 
@@ -12,37 +12,45 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
 const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'] });
 const geistMono = Geist_Mono({ variable: '--font-geist-mono', subsets: ['latin'] });
 
-export const metadata: Metadata = {
-	metadataBase: new URL('https://tense-master.xyz'),
-	title: 'Tense Master',
-	description:
-		'Практикуй английские времена — Present Simple, Past Perfect и другие — с упражнениями на перевод предложений',
-	appleWebApp: { title: 'Tense Master', capable: true, statusBarStyle: 'default' },
-	formatDetection: { telephone: false },
-	openGraph: {
-		title: 'Tense Master',
-		type: 'website',
-		siteName: 'Tense Master',
-		description:
-			'Практикуй английские времена — Present Simple, Past Perfect и другие — с упражнениями на перевод предложений',
-		images: [{ url: '/og.png', width: 1200, height: 630 }],
-	},
-	twitter: {
-		card: 'summary_large_image',
-		title: 'Tense Master',
-		description:
-			'Практикуй английские времена — Present Simple, Past Perfect и другие — с упражнениями на перевод предложений',
-		images: ['/og.png'],
-	},
-	icons: {
-		icon: [
-			{ url: '/favicon.ico' },
-			{ url: '/favicon-96x96.png', sizes: '96x96', type: 'image/png' },
-			{ url: '/favicon.svg', type: 'image/svg+xml' },
-		],
-		apple: '/apple-touch-icon.png',
-	},
-};
+export async function generateMetadata({
+	params,
+}: {
+	params: Promise<{ lang: string }>;
+}): Promise<Metadata> {
+	const { lang } = await params;
+	const t = await getTranslations({ locale: lang, namespace: 'metadata' });
+	const title = t('title');
+	const description = t('description');
+
+	return {
+		metadataBase: new URL('https://tense-master.xyz'),
+		title,
+		description,
+		appleWebApp: { title, capable: true, statusBarStyle: 'default' },
+		formatDetection: { telephone: false },
+		openGraph: {
+			title,
+			type: 'website',
+			siteName: 'Tense Master',
+			description,
+			images: [{ url: '/og.png', width: 1200, height: 630 }],
+		},
+		twitter: {
+			card: 'summary_large_image',
+			title,
+			description,
+			images: ['/og.png'],
+		},
+		icons: {
+			icon: [
+				{ url: '/favicon.ico' },
+				{ url: '/favicon-96x96.png', sizes: '96x96', type: 'image/png' },
+				{ url: '/favicon.svg', type: 'image/svg+xml' },
+			],
+			apple: '/apple-touch-icon.png',
+		},
+	};
+}
 
 export function generateStaticParams() {
 	return routing.locales.map(lang => ({ lang }));
