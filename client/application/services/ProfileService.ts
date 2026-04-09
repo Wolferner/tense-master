@@ -133,10 +133,7 @@ export class ProfileService {
 		return sorted.map(({ session, correct }) => {
 			cumulative += correct;
 			return {
-				date: new Date(session.createdAt).toLocaleDateString('ru-RU', {
-					day: 'numeric',
-					month: 'short',
-				}),
+				date: new Date(session.createdAt).toISOString(),
 				cumulative,
 				sessionCorrect: correct,
 				tenses: session.tenses,

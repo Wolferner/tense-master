@@ -1,15 +1,24 @@
 import { ChartDataPoint } from '@/client/application/services/ProfileService';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { TooltipContentProps } from 'recharts';
 import { TENSE_LABELS } from '../../../TenseTrainer/logic/tenseLabels';
 
 function ChartTooltip({ active, payload }: TooltipContentProps) {
 	const t = useTranslations('profile');
+	const locale = useLocale();
 	if (!active || !payload?.length) return null;
 	const point = payload[0].payload as ChartDataPoint;
+
+	const date = new Date(point.date).toLocaleDateString(locale, {
+		day: 'numeric',
+		month: 'short',
+		hour: '2-digit',
+		minute: '2-digit',
+	});
+
 	return (
 		<div className='border-border bg-card rounded-xl border p-3 shadow-md'>
-			<p className='text-foreground text-sm font-medium'>{point.date}</p>
+			<p className='text-foreground text-sm font-medium'>{date}</p>
 			{point.sessionCorrect > 0 && (
 				<p className='text-muted-foreground text-xs'>
 					{t('tooltipSession')}:{' '}
