@@ -1,7 +1,22 @@
 {
 	"metadata": {
 		"title": "Tense Master",
-		"description": "Practica los tiempos verbales ingleses — Present Simple, Past Perfect y más — con ejercicios de traducción"
+		"description": "Practica los tiempos verbales ingleses — Present Simple, Past Perfect y más — con ejercicios de traducción",
+		"home": {
+			"jsonLdDescription": "Practica los tiempos verbales ingleses con ejercicios de traducción"
+		},
+		"trainer": {
+			"title": "Entrenador | Tense Master",
+			"description": "Entrenador de tiempos verbales ingleses. Practica Present Simple, Past Perfect y más con ejercicios de traducción y retroalimentación inmediata."
+		},
+		"profile": {
+			"title": "Perfil | Tense Master",
+			"description": "Tus estadísticas en Tense Master — respuestas correctas, omisiones y progreso por tiempo verbal."
+		},
+		"settings": {
+			"title": "Configuración | Tense Master",
+			"description": "Configuración de Tense Master — modo de entrenamiento y opciones de sesión."
+		}
 	},
 	"common": {
 		"loading": "Cargando..."

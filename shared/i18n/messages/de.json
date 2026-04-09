@@ -1,7 +1,22 @@
 {
 	"metadata": {
 		"title": "Tense Master",
-		"description": "Übe englische Zeitformen — Present Simple, Past Perfect und mehr — mit Übersetzungsübungen"
+		"description": "Übe englische Zeitformen — Present Simple, Past Perfect und mehr — mit Übersetzungsübungen",
+		"home": {
+			"jsonLdDescription": "Übe englische Zeitformen mit Übersetzungsübungen"
+		},
+		"trainer": {
+			"title": "Trainer | Tense Master",
+			"description": "Englische Zeitformen trainieren. Übe Present Simple, Past Perfect und mehr mit Übersetzungsaufgaben und sofortigem Feedback."
+		},
+		"profile": {
+			"title": "Profil | Tense Master",
+			"description": "Deine Statistiken bei Tense Master — richtige Antworten, Überspringen und Fortschritt pro Zeitform."
+		},
+		"settings": {
+			"title": "Einstellungen | Tense Master",
+			"description": "Einstellungen für Tense Master — Trainingsmodus und Sitzungsoptionen."
+		}
 	},
 	"common": {
 		"loading": "Laden..."

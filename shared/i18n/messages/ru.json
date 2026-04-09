@@ -1,7 +1,22 @@
 {
 	"metadata": {
 		"title": "Tense Master",
-		"description": "Практикуй английские времена — Present Simple, Past Perfect и другие — с упражнениями на перевод предложений"
+		"description": "Практикуй английские времена — Present Simple, Past Perfect и другие — с упражнениями на перевод предложений",
+		"home": {
+			"jsonLdDescription": "Практикуй английские времена с переводом предложений"
+		},
+		"trainer": {
+			"title": "Тренажёр | Tense Master",
+			"description": "Тренажёр английских времён. Практикуйся с Present Simple, Past Perfect и другими временами через упражнения на перевод с мгновенной обратной связью."
+		},
+		"profile": {
+			"title": "Профиль | Tense Master",
+			"description": "Твоя статистика в Tense Master — правильные ответы, пропуски и прогресс по каждому времени."
+		},
+		"settings": {
+			"title": "Настройки | Tense Master",
+			"description": "Настройки Tense Master — выбор режима тренировки и параметров сессии."
+		}
 	},
 	"common": {
 		"loading": "Загрузка..."

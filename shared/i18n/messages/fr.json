@@ -1,7 +1,22 @@
 {
 	"metadata": {
 		"title": "Tense Master",
-		"description": "Entraîne-toi aux temps anglais — Present Simple, Past Perfect et autres — avec des exercices de traduction"
+		"description": "Entraîne-toi aux temps anglais — Present Simple, Past Perfect et autres — avec des exercices de traduction",
+		"home": {
+			"jsonLdDescription": "Entraîne-toi aux temps anglais avec des exercices de traduction"
+		},
+		"trainer": {
+			"title": "Entraîneur | Tense Master",
+			"description": "Entraîneur de temps anglais. Pratique Present Simple, Past Perfect et autres avec des exercices de traduction et un retour immédiat."
+		},
+		"profile": {
+			"title": "Profil | Tense Master",
+			"description": "Tes statistiques sur Tense Master — réponses correctes, passages et progression par temps."
+		},
+		"settings": {
+			"title": "Paramètres | Tense Master",
+			"description": "Paramètres de Tense Master — choix du mode d'entraînement et des options de session."
+		}
 	},
 	"common": {
 		"loading": "Chargement..."
