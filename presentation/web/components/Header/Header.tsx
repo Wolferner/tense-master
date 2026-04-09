@@ -3,24 +3,15 @@
 import { Button } from '@/presentation/components/ui/button';
 import { NAV_ROUTES, ROUTES } from '@/shared/config/routes';
 import { useSwipeNavigation } from '@/shared/hooks/useSwipeNavigation';
-import { Locale, routing } from '@/shared/i18n/config';
 import { Link, usePathname } from '@/shared/i18n/navigation';
 import { cn } from '@/shared/lib/utils';
 import { User } from 'lucide-react';
-import { useLocale, useTranslations } from 'next-intl';
+import { useTranslations } from 'next-intl';
+import LocaleSelect from '../LocaleSelect/LocaleSelect';
 import NetworkBadge from '../NetworkBadge/NetworkBadge';
-
-const LOCALE_LABELS: Record<Locale, string> = {
-	ru: 'RU',
-	fr: 'FR',
-	de: 'DE',
-	es: 'ES',
-};
 
 const Header = () => {
 	const t = useTranslations('nav');
-	const locale = useLocale() as Locale;
-
 	const pathname = usePathname();
 
 	const NAV_LINKS = [
@@ -28,11 +19,6 @@ const Header = () => {
 		{ href: ROUTES.trainer, label: t('trainer') },
 	];
 	useSwipeNavigation([...NAV_ROUTES]);
-
-	const handleLocaleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-		const newLocale = e.target.value as Locale;
-		window.location.href = `/${newLocale}${pathname === '/' ? '' : pathname}`;
-	};
 
 	return (
 		<header className='border-border bg-background/90 sticky top-0 z-50 border-b backdrop-blur-md'>
@@ -76,20 +62,7 @@ const Header = () => {
 
 				<div className='flex items-center gap-2'>
 					<NetworkBadge />
-
-					<select
-						defaultValue={locale}
-						onChange={handleLocaleChange}
-						aria-label={t('languageSelectorLabel')}
-						className='text-foreground bg-background border-border rounded-md border px-2 py-1 text-xs font-medium'
-					>
-						{routing.locales.map(l => (
-							<option key={l} value={l}>
-								{LOCALE_LABELS[l]}
-							</option>
-						))}
-					</select>
-
+					<LocaleSelect />
 					<Button
 						variant='ghost'
 						size='icon-sm'
