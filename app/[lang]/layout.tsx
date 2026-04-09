@@ -4,7 +4,7 @@ import { cn } from '@/shared/lib/utils';
 import { SerwistProvider } from '@/shared/pwa/serwist';
 import type { Metadata } from 'next';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 import { Geist, Geist_Mono, Inter } from 'next/font/google';
 import { notFound } from 'next/navigation';
 
@@ -57,8 +57,7 @@ export default async function LocaleLayout({
 }) {
 	const { lang } = await params;
 	if (!hasLocale(routing.locales, lang)) notFound();
-
-	const messages = await getMessages();
+	setRequestLocale(lang);
 
 	return (
 		<html
@@ -73,7 +72,7 @@ export default async function LocaleLayout({
 			)}
 		>
 			<body className='flex min-h-full flex-col'>
-				<NextIntlClientProvider messages={messages}>
+				<NextIntlClientProvider>
 					<SerwistProvider swUrl='/api/serwist/sw.js'>{children}</SerwistProvider>
 				</NextIntlClientProvider>
 			</body>

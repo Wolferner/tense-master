@@ -4,7 +4,7 @@ import { Button } from '@/presentation/components/ui/button';
 import { NAV_ROUTES, ROUTES } from '@/shared/config/routes';
 import { useSwipeNavigation } from '@/shared/hooks/useSwipeNavigation';
 import { Locale, routing } from '@/shared/i18n/config';
-import { Link, usePathname, useRouter } from '@/shared/i18n/navigation';
+import { Link, usePathname } from '@/shared/i18n/navigation';
 import { cn } from '@/shared/lib/utils';
 import { User } from 'lucide-react';
 import { useLocale, useTranslations } from 'next-intl';
@@ -22,7 +22,6 @@ const Header = () => {
 	const locale = useLocale() as Locale;
 
 	const pathname = usePathname();
-	const router = useRouter();
 
 	const NAV_LINKS = [
 		{ href: ROUTES.home, label: t('home') },
@@ -31,7 +30,8 @@ const Header = () => {
 	useSwipeNavigation([...NAV_ROUTES]);
 
 	const handleLocaleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-		router.replace(pathname, { locale: e.target.value as Locale });
+		const newLocale = e.target.value as Locale;
+		window.location.href = `/${newLocale}${pathname === '/' ? '' : pathname}`;
 	};
 
 	return (
@@ -78,7 +78,7 @@ const Header = () => {
 					<NetworkBadge />
 
 					<select
-						value={locale}
+						defaultValue={locale}
 						onChange={handleLocaleChange}
 						aria-label={t('languageSelectorLabel')}
 						className='text-foreground bg-background border-border rounded-md border px-2 py-1 text-xs font-medium'
