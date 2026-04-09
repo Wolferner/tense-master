@@ -114,7 +114,10 @@
 		"allTenses": "Todos los tiempos",
 		"presentTenses": "Present tenses",
 		"pastTenses": "Past tenses",
-		"futureTenses": "Future tenses"
+		"futureTenses": "Future tenses",
+		"progressMinSessions": "Se necesitan al menos 2 sesiones con respuestas correctas para mostrar el progreso",
+		"tooltipSession": "Esta sesión",
+		"tooltipTotal": "Total"
 	},
 	"network": {
 		"offline": "Sin conexión",

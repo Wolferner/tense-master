@@ -114,7 +114,10 @@
 		"allTenses": "Все времена",
 		"presentTenses": "Present tenses",
 		"pastTenses": "Past tenses",
-		"futureTenses": "Future tenses"
+		"futureTenses": "Future tenses",
+		"progressMinSessions": "Нужно минимум 2 сессии с правильными ответами чтобы показать прогресс",
+		"tooltipSession": "За сессию",
+		"tooltipTotal": "Всего"
 	},
 	"network": {
 		"offline": "Offline",
