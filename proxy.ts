@@ -1,5 +1,5 @@
 import createMiddleware from 'next-intl/middleware';
-import { type NextRequest } from 'next/server';
+import { NextResponse, type NextRequest } from 'next/server';
 import { routing } from './shared/i18n/config';
 
 const allowedOrigins = (process.env.ALLOWED_ORIGINS ?? '')
@@ -9,16 +9,20 @@ const allowedOrigins = (process.env.ALLOWED_ORIGINS ?? '')
 const handleI18nRouting = createMiddleware(routing);
 
 export default function proxy(request: NextRequest) {
-	//FIXME: Need to implement CORS check
-	// const origin = request.headers.get('origin');
+	const origin = request.headers.get('origin');
+	const isOriginNotAllowed =
+		origin && allowedOrigins.length > 0 && !allowedOrigins.includes(origin);
+	if (isOriginNotAllowed) {
+		return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
+	}
 
-	// if (origin && !allowedOrigins.includes(origin)) {
-	// 	return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
-	// }
+	if (request.nextUrl.pathname.startsWith('/api')) {
+		return NextResponse.next();
+	}
 
 	return handleI18nRouting(request);
 }
 
 export const config = {
-	matcher: ['/((?!api|_next|telegram|.*\..*).*)'],
+	matcher: ['/((?!_next|telegram|.*\\..*).*)'],
 };
