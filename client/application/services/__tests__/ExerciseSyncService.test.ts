@@ -4,7 +4,7 @@ import type { IExerciseApi } from '../../api/IExerciseApi';
 import type { IExerciseRepository } from '../../repositories/IExerciseRepository';
 import { ExerciseSyncService } from '../ExerciseSyncService';
 
-const LAST_SYNCED_KEY = 'tense-last-synced';
+const LAST_SYNCED_KEY = 'tense-last-synced-ru';
 
 function makeExercise(id = 'ex-1'): ExerciseResponseDto {
 	return {
