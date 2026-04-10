@@ -130,7 +130,7 @@ describe('ExerciseSessionService', () => {
 			const answerRepo = makeAnswerRepo();
 			const service = makeService(makeExerciseRepo(), makeSessionRepo(), answerRepo);
 
-			const answer = await service.saveAnswer(makeExercise(), '', 'session-1');
+			const answer = await service.saveAnswer(makeExercise(), '', 'session-1', 'ru');
 
 			expect(answer.skipped).toBe(true);
 			expect(answer.isCorrect).toBeNull();
@@ -138,7 +138,7 @@ describe('ExerciseSessionService', () => {
 
 		it('marks answer as skipped when userAnswer is whitespace only', async () => {
 			const service = makeService();
-			const answer = await service.saveAnswer(makeExercise(), '   ', 'session-1');
+			const answer = await service.saveAnswer(makeExercise(), '   ', 'session-1', 'ru');
 
 			expect(answer.skipped).toBe(true);
 			expect(answer.isCorrect).toBeNull();
@@ -148,8 +148,8 @@ describe('ExerciseSessionService', () => {
 			const service = makeService();
 			const exercise = makeExercise();
 
-			const correct = await service.saveAnswer(exercise, 'He reads', 'session-1');
-			const wrong = await service.saveAnswer(exercise, 'He read', 'session-1');
+			const correct = await service.saveAnswer(exercise, 'He reads', 'session-1', 'ru');
+			const wrong = await service.saveAnswer(exercise, 'He read', 'session-1', 'ru');
 
 			expect(correct.isCorrect).toBe(true);
 			expect(wrong.isCorrect).toBe(false);
@@ -159,7 +159,7 @@ describe('ExerciseSessionService', () => {
 			const service = makeService();
 			const exercise = makeExercise('ex-42');
 
-			const answer = await service.saveAnswer(exercise, 'He reads', 'session-abc');
+			const answer = await service.saveAnswer(exercise, 'He reads', 'session-abc', 'ru');
 
 			expect(answer).toBeInstanceOf(ExerciseAnswer);
 			expect(answer.id).toBe(FIXED_UUID);

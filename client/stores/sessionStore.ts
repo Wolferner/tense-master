@@ -2,7 +2,7 @@
 
 import { exerciseSessionService } from '@/client/infrastructure/container';
 import type { ExerciseAnswer } from '@/domain/entities/Answer';
-import type { TenseType } from '@/domain/value-objects';
+import type { Locale, TenseType } from '@/domain/value-objects';
 import type { FixedLimit, Step, TrainingMode } from '@/shared/config/training';
 import type { ExerciseResponseDto } from '@/shared/dtos';
 import { create } from 'zustand';
@@ -15,12 +15,18 @@ type SessionState = {
 	step: Step;
 	currentExerciseIndex: number;
 	isLoading: boolean;
+	locale: Locale;
 };
 
 type SessionActions = {
 	setStep(step: Step): void;
 	submitAnswer(answer: string, exerciseId: string): Promise<void>;
-	startTraining(tenses: TenseType[], mode: TrainingMode, fixedLimit: FixedLimit): Promise<void>;
+	startTraining(
+		tenses: TenseType[],
+		mode: TrainingMode,
+		fixedLimit: FixedLimit,
+		locale: Locale,
+	): Promise<void>;
 	nextExercise(tenses: TenseType[], mode: TrainingMode): Promise<void>;
 	finishSession(): Promise<void>;
 };
@@ -36,6 +42,7 @@ export const useSessionStore = create<SessionStore>()(
 			step: 'select',
 			currentExerciseIndex: 0,
 			isLoading: false,
+			locale: 'ru',
 
 			setStep: step => set({ step }),
 
@@ -52,14 +59,14 @@ export const useSessionStore = create<SessionStore>()(
 			},
 
 			submitAnswer: async (answer, exerciseId) => {
-				const { exercises, sessionId } = get();
+				const { exercises, sessionId, locale } = get();
 				const exercise = exercises.find(e => e.id === exerciseId);
 				if (!exercise) return;
-				const record = await exerciseSessionService.saveAnswer(exercise, answer, sessionId);
+				const record = await exerciseSessionService.saveAnswer(exercise, answer, sessionId, locale);
 				set({ currentAnswer: record });
 			},
 
-			startTraining: async (tenses, mode, fixedLimit) => {
+			startTraining: async (tenses, mode, fixedLimit, locale) => {
 				if (tenses.length === 0) return;
 				set({ isLoading: true });
 				const { exercises, sessionId } = await exerciseSessionService.beginSession(
@@ -70,6 +77,7 @@ export const useSessionStore = create<SessionStore>()(
 				set({
 					exercises,
 					sessionId,
+					locale,
 					currentExerciseIndex: 0,
 					currentAnswer: null,
 					step: 'training',

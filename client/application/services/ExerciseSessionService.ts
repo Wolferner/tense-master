@@ -1,7 +1,7 @@
 import { ExerciseAnswer } from '@/domain/entities/Answer';
 import { Session } from '@/domain/entities/Session';
 import { validateAnswer } from '@/domain/services/AnswerValidator';
-import type { TenseType } from '@/domain/value-objects';
+import type { Locale, TenseType } from '@/domain/value-objects';
 import { INFINITE_MODE_LIMIT, MAX_EXERCISES } from '@/shared/config/constants';
 import type { FixedLimit, TrainingMode } from '@/shared/config/training';
 import type { ExerciseResponseDto } from '@/shared/dtos';
@@ -63,6 +63,7 @@ export class ExerciseSessionService {
 		exercise: ExerciseResponseDto,
 		userAnswer: string,
 		sessionId: string,
+		locale: Locale,
 	): Promise<ExerciseAnswer> {
 		const skipped = userAnswer.trim().length === 0;
 		const answer = new ExerciseAnswer(
@@ -72,7 +73,7 @@ export class ExerciseSessionService {
 			userAnswer,
 			skipped,
 			skipped ? null : validateAnswer(userAnswer, exercise.answer),
-			'ru',
+			locale,
 			new Date().toISOString(),
 		);
 

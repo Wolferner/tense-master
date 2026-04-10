@@ -4,7 +4,8 @@ import { useSessionStore } from '@/client/stores/sessionStore';
 import { useSettingsStore } from '@/client/stores/settingsStore';
 import { Button } from '@/presentation/components/ui/button';
 import { ArrowRightIcon } from 'lucide-react';
-import { useTranslations } from 'next-intl';
+import type { Locale } from '@/domain/value-objects';
+import { useLocale, useTranslations } from 'next-intl';
 import { useShallow } from 'zustand/react/shallow';
 import { TENSE_GROUPS } from '../../logic/tenseLabels';
 import ModeSelector from './ModeSelector';
@@ -13,6 +14,7 @@ import TenseGroup from './TenseGroup';
 const SelectTrainingSection = () => {
 	const t = useTranslations('trainer');
 	const tCommon = useTranslations('common');
+	const locale = useLocale() as Locale;
 
 	const {
 		selectedTenses,
@@ -45,7 +47,7 @@ const SelectTrainingSection = () => {
 		})),
 	);
 
-	const handleStartTraining = () => startTraining(selectedTenses, mode, fixedLimit);
+	const handleStartTraining = () => startTraining(selectedTenses, mode, fixedLimit, locale);
 
 	const hasExercises = exercises.length > 0;
 
