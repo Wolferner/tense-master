@@ -1,18 +1,19 @@
 import { Exercise } from '../../../domain/entities/Exercise';
-import { Tense } from '../../../domain/value-objects';
+import { Locale, Tense } from '../../../domain/value-objects';
 
 interface CreateExerciseDb {
 	tense: Tense;
-	question: string;
 	answer: string;
+	locale: Locale;
+	question: string;
 	explanation: string;
 }
 
 export interface IExerciseRepository {
 	create(data: CreateExerciseDb): Promise<Exercise>;
-	findById(id: Exercise['id']): Promise<Exercise | null>;
-	findByTenses(tenses: Tense[]): Promise<Exercise[]>;
-	findRandom(tenses: Tense[], limit: number): Promise<Exercise[]>;
-	findLatestUpdatedAt(): Promise<Date | null>;
-	findAll(): Promise<Exercise[]>;
+	findById(id: Exercise['id'], locale: Locale): Promise<Exercise | null>;
+	findByTenses(tenses: Tense[], locale: Locale): Promise<Exercise[]>;
+	findRandom(tenses: Tense[], limit: number, locale: Locale): Promise<Exercise[]>;
+	findLatestUpdatedAt(locale: Locale): Promise<Date | null>;
+	findAll(locale: Locale): Promise<Exercise[]>;
 }
