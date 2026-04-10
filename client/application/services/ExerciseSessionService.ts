@@ -72,6 +72,7 @@ export class ExerciseSessionService {
 			userAnswer,
 			skipped,
 			skipped ? null : validateAnswer(userAnswer, exercise.answer),
+			'ru',
 			new Date().toISOString(),
 		);
 

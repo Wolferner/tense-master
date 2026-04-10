@@ -25,6 +25,7 @@ const correctAnswer = new ExerciseAnswer(
 	'He reads a book',
 	false,
 	true,
+	'ru',
 	new Date().toISOString(),
 );
 const wrongAnswer = new ExerciseAnswer(
@@ -34,6 +35,7 @@ const wrongAnswer = new ExerciseAnswer(
 	'He read a book',
 	false,
 	false,
+	'ru',
 	new Date().toISOString(),
 );
 const skippedAnswer = new ExerciseAnswer(
@@ -43,6 +45,7 @@ const skippedAnswer = new ExerciseAnswer(
 	'',
 	true,
 	null,
+	'ru',
 	new Date().toISOString(),
 );
 

@@ -58,6 +58,7 @@ const answeredSessionState: Partial<SessionStore> = {
 		userAnswer: 'He reads a book',
 		skipped: false,
 		isCorrect: true,
+		locale: 'ru' as const,
 		createdAt: new Date().toISOString(),
 	},
 };
@@ -71,6 +72,7 @@ const wrongAnswerSessionState: Partial<SessionStore> = {
 		userAnswer: 'He read a book',
 		skipped: false,
 		isCorrect: false,
+		locale: 'ru' as const,
 		createdAt: new Date().toISOString(),
 	},
 };
@@ -84,6 +86,7 @@ const skippedSessionState: Partial<SessionStore> = {
 		userAnswer: '',
 		skipped: true,
 		isCorrect: null,
+		locale: 'ru' as const,
 		createdAt: new Date().toISOString(),
 	},
 };
