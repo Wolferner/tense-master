@@ -12,18 +12,11 @@ datasource db {
   provider = "postgresql"
 }
 
-model TenseExerciseQuestion {
-  id          String @id @default(uuid())
-  question    String
-  answer      String
-  tense       Tense
-  explanation String
-
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-
-  @@unique([question, tense])
-  @@map("tense_exercise_questions")
+enum Locale {
+  ru
+  fr
+  de
+  es
 }
 
 enum Tense {
@@ -39,4 +32,29 @@ enum Tense {
   FUTURE_CONTINUOUS
   FUTURE_PERFECT
   FUTURE_PERFECT_CONTINUOUS
+}
+
+model TenseExerciseQuestion {
+  id           String                     @id @default(uuid())
+  answer       String
+  tense        Tense
+  createdAt    DateTime                   @default(now())
+  updatedAt    DateTime                   @updatedAt
+  translations TenseExerciseTranslation[]
+
+  @@unique([answer, tense])
+  @@map("tense_exercise_questions")
+}
+
+model TenseExerciseTranslation {
+  id          String                @id @default(uuid())
+  exerciseId  String
+  locale      Locale
+  question    String
+  explanation String
+  updatedAt   DateTime              @updatedAt
+  exercise    TenseExerciseQuestion @relation(fields: [exerciseId], references: [id], onDelete: Cascade)
+
+  @@unique([exerciseId, locale])
+  @@map("tense_exercise_translations")
 }
