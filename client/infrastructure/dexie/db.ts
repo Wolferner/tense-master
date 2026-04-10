@@ -15,6 +15,11 @@ export class TenseMasterDb extends Dexie {
 			sessions: 'id, status, createdAt',
 			answers: 'id, sessionId, exerciseId, createdAt',
 		});
+		this.version(2).stores({
+			exercises: 'id, tense, updatedAt',
+			sessions: 'id, status, createdAt',
+			answers: 'id, sessionId, exerciseId, locale, createdAt',
+		});
 	}
 }
 
