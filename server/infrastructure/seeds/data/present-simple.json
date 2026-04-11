@@ -2,959 +2,4015 @@
 	"tense": "PRESENT_SIMPLE",
 	"exercises": [
 		{
-			"question": "Он каждое утро пьёт кофе.",
 			"answer": "He drinks coffee every morning.",
-			"explanation": "Present Simple используется для регулярных действий. Глагол в 3-м лице ед.ч. получает окончание -s."
+			"translations": {
+				"ru": {
+					"question": "Он каждое утро пьёт кофе.",
+					"explanation": "Present Simple используется для регулярных действий. Глагол в 3-м лице ед.ч. получает окончание -s."
+				},
+				"fr": {
+					"question": "Il boit du café chaque matin.",
+					"explanation": "Le Present Simple s'utilise pour des actions régulières. Le verbe à la 3e personne du singulier prend la terminaison -s."
+				},
+				"de": {
+					"question": "Er trinkt jeden Morgen Kaffee.",
+					"explanation": "Das Present Simple wird für regelmäßige Handlungen verwendet. Das Verb in der 3. Person Singular erhält die Endung -s."
+				},
+				"es": {
+					"question": "Él bebe café cada mañana.",
+					"explanation": "El Present Simple se usa para acciones regulares. El verbo en 3.ª persona del singular recibe la terminación -s."
+				}
+			}
 		},
 		{
-			"question": "Земля вращается вокруг Солнца.",
 			"answer": "The Earth revolves around the Sun.",
-			"explanation": "Present Simple используется для научных фактов и постоянных истин."
+			"translations": {
+				"ru": {
+					"question": "Земля вращается вокруг Солнца.",
+					"explanation": "Present Simple используется для научных фактов и постоянных истин."
+				},
+				"fr": {
+					"question": "La Terre tourne autour du Soleil.",
+					"explanation": "Le Present Simple s'utilise pour des faits scientifiques et des vérités permanentes."
+				},
+				"de": {
+					"question": "Die Erde dreht sich um die Sonne.",
+					"explanation": "Das Present Simple wird für wissenschaftliche Fakten und dauerhafte Wahrheiten verwendet."
+				},
+				"es": {
+					"question": "La Tierra gira alrededor del Sol.",
+					"explanation": "El Present Simple se usa para hechos científicos y verdades permanentes."
+				}
+			}
 		},
 		{
-			"question": "Я живу в Москве.",
 			"answer": "I live in Moscow.",
-			"explanation": "Present Simple выражает постоянное состояние или факт. С местоимением I глагол без изменений."
+			"translations": {
+				"ru": {
+					"question": "Я живу в Москве.",
+					"explanation": "Present Simple выражает постоянное состояние или факт. С местоимением I глагол без изменений."
+				},
+				"fr": {
+					"question": "J'habite à Moscou.",
+					"explanation": "Le Present Simple exprime un état permanent ou un fait. Avec le pronom I, le verbe ne change pas."
+				},
+				"de": {
+					"question": "Ich wohne in Moskau.",
+					"explanation": "Das Present Simple drückt einen dauerhaften Zustand oder eine Tatsache aus. Mit dem Pronomen I bleibt das Verb unverändert."
+				},
+				"es": {
+					"question": "Yo vivo en Moscú.",
+					"explanation": "El Present Simple expresa un estado permanente o un hecho. Con el pronombre I, el verbo no cambia."
+				}
+			}
 		},
 		{
-			"question": "Она работает учителем.",
 			"answer": "She works as a teacher.",
-			"explanation": "Present Simple для постоянных фактов. Глагол в 3-м лице ед.ч. получает -s."
+			"translations": {
+				"ru": {
+					"question": "Она работает учителем.",
+					"explanation": "Present Simple для постоянных фактов. Глагол в 3-м лице ед.ч. получает -s."
+				},
+				"fr": {
+					"question": "Elle travaille comme enseignante.",
+					"explanation": "Le Present Simple pour des faits permanents. Le verbe à la 3e personne du singulier prend -s."
+				},
+				"de": {
+					"question": "Sie arbeitet als Lehrerin.",
+					"explanation": "Das Present Simple für dauerhafte Tatsachen. Das Verb in der 3. Person Singular erhält -s."
+				},
+				"es": {
+					"question": "Ella trabaja como maestra.",
+					"explanation": "El Present Simple para hechos permanentes. El verbo en 3.ª persona del singular recibe -s."
+				}
+			}
 		},
 		{
-			"question": "Поезд отправляется в восемь утра.",
 			"answer": "The train departs at eight in the morning.",
-			"explanation": "Present Simple используется для расписаний и фиксированных событий."
+			"translations": {
+				"ru": {
+					"question": "Поезд отправляется в восемь утра.",
+					"explanation": "Present Simple используется для расписаний и фиксированных событий."
+				},
+				"fr": {
+					"question": "Le train part à huit heures du matin.",
+					"explanation": "Le Present Simple s'utilise pour les horaires et les événements fixes."
+				},
+				"de": {
+					"question": "Der Zug fährt um acht Uhr morgens ab.",
+					"explanation": "Das Present Simple wird für Fahrpläne und feste Ereignisse verwendet."
+				},
+				"es": {
+					"question": "El tren sale a las ocho de la mañana.",
+					"explanation": "El Present Simple se usa para horarios y eventos fijos."
+				}
+			}
 		},
 		{
-			"question": "Мы каждую пятницу ходим в кино.",
 			"answer": "We go to the cinema every Friday.",
-			"explanation": "Present Simple для регулярных, повторяющихся действий. С местоимением we глагол без изменений."
+			"translations": {
+				"ru": {
+					"question": "Мы каждую пятницу ходим в кино.",
+					"explanation": "Present Simple для регулярных, повторяющихся действий. С местоимением we глагол без изменений."
+				},
+				"fr": {
+					"question": "Nous allons au cinéma chaque vendredi.",
+					"explanation": "Le Present Simple pour des actions régulières et répétitives. Avec le pronom we, le verbe ne change pas."
+				},
+				"de": {
+					"question": "Wir gehen jeden Freitag ins Kino.",
+					"explanation": "Das Present Simple für regelmäßige, sich wiederholende Handlungen. Mit dem Pronomen we bleibt das Verb unverändert."
+				},
+				"es": {
+					"question": "Nosotros vamos al cine todos los viernes.",
+					"explanation": "El Present Simple para acciones regulares y repetitivas. Con el pronombre we, el verbo no cambia."
+				}
+			}
 		},
 		{
-			"question": "Кошки любят рыбу.",
 			"answer": "Cats love fish.",
-			"explanation": "Present Simple для общих истин и привычек. Во множественном числе глагол без -s."
+			"translations": {
+				"ru": {
+					"question": "Кошки любят рыбу.",
+					"explanation": "Present Simple для общих истин и привычек. Во множественном числе глагол без -s."
+				},
+				"fr": {
+					"question": "Les chats aiment le poisson.",
+					"explanation": "Le Present Simple pour des vérités générales et des habitudes. Au pluriel, le verbe est sans -s."
+				},
+				"de": {
+					"question": "Katzen mögen Fisch.",
+					"explanation": "Das Present Simple für allgemeine Wahrheiten und Gewohnheiten. Im Plural bleibt das Verb ohne -s."
+				},
+				"es": {
+					"question": "Los gatos aman el pescado.",
+					"explanation": "El Present Simple para verdades generales y hábitos. En plural, el verbo no lleva -s."
+				}
+			}
 		},
 		{
-			"question": "Он никогда не завтракает.",
 			"answer": "He never has breakfast.",
-			"explanation": "Present Simple с наречием never для отрицательных привычек. Глагол has в 3-м лице ед.ч."
+			"translations": {
+				"ru": {
+					"question": "Он никогда не завтракает.",
+					"explanation": "Present Simple с наречием never для отрицательных привычек. Глагол has в 3-м лице ед.ч."
+				},
+				"fr": {
+					"question": "Il ne prend jamais son petit-déjeuner.",
+					"explanation": "Le Present Simple avec l'adverbe never pour les habitudes négatives. Le verbe has à la 3e personne du singulier."
+				},
+				"de": {
+					"question": "Er frühstückt nie.",
+					"explanation": "Das Present Simple mit dem Adverb never für negative Gewohnheiten. Das Verb has in der 3. Person Singular."
+				},
+				"es": {
+					"question": "Él nunca desayuna.",
+					"explanation": "El Present Simple con el adverbio never para hábitos negativos. El verbo has en 3.ª persona del singular."
+				}
+			}
 		},
 		{
-			"question": "Магазин открывается в девять.",
 			"answer": "The shop opens at nine.",
-			"explanation": "Present Simple для расписаний. Глагол в 3-м лице ед.ч. получает -s."
+			"translations": {
+				"ru": {
+					"question": "Магазин открывается в девять.",
+					"explanation": "Present Simple для расписаний. Глагол в 3-м лице ед.ч. получает -s."
+				},
+				"fr": {
+					"question": "Le magasin ouvre à neuf heures.",
+					"explanation": "Le Present Simple pour les horaires. Le verbe à la 3e personne du singulier prend -s."
+				},
+				"de": {
+					"question": "Das Geschäft öffnet um neun.",
+					"explanation": "Das Present Simple für Zeitpläne. Das Verb in der 3. Person Singular erhält -s."
+				},
+				"es": {
+					"question": "La tienda abre a las nueve.",
+					"explanation": "El Present Simple para horarios. El verbo en 3.ª persona del singular recibe -s."
+				}
+			}
 		},
 		{
-			"question": "Я не люблю холодную погоду.",
 			"answer": "I don't like cold weather.",
-			"explanation": "Отрицание в Present Simple образуется с don't для I/you/we/they."
+			"translations": {
+				"ru": {
+					"question": "Я не люблю холодную погоду.",
+					"explanation": "Отрицание в Present Simple образуется с don't для I/you/we/they."
+				},
+				"fr": {
+					"question": "Je n'aime pas le temps froid.",
+					"explanation": "La négation au Present Simple se forme avec don't pour I/you/we/they."
+				},
+				"de": {
+					"question": "Ich mag kein kaltes Wetter.",
+					"explanation": "Die Verneinung im Present Simple wird mit don't für I/you/we/they gebildet."
+				},
+				"es": {
+					"question": "No me gusta el clima frío.",
+					"explanation": "La negación en Present Simple se forma con don't para I/you/we/they."
+				}
+			}
 		},
 		{
-			"question": "Она не ест мяса.",
 			"answer": "She doesn't eat meat.",
-			"explanation": "Отрицание в Present Simple с doesn't для he/she/it. Основной глагол без изменений."
+			"translations": {
+				"ru": {
+					"question": "Она не ест мяса.",
+					"explanation": "Отрицание в Present Simple с doesn't для he/she/it. Основной глагол без изменений."
+				},
+				"fr": {
+					"question": "Elle ne mange pas de viande.",
+					"explanation": "La négation au Present Simple avec doesn't pour he/she/it. Le verbe principal reste sans modification."
+				},
+				"de": {
+					"question": "Sie isst kein Fleisch.",
+					"explanation": "Die Verneinung im Present Simple mit doesn't für he/she/it. Das Hauptverb bleibt unverändert."
+				},
+				"es": {
+					"question": "Ella no come carne.",
+					"explanation": "La negación en Present Simple con doesn't para he/she/it. El verbo principal no cambia."
+				}
+			}
 		},
 		{
-			"question": "Они живут в большом доме.",
 			"answer": "They live in a big house.",
-			"explanation": "Present Simple для постоянного состояния. С they глагол без -s."
+			"translations": {
+				"ru": {
+					"question": "Они живут в большом доме.",
+					"explanation": "Present Simple для постоянного состояния. С they глагол без -s."
+				},
+				"fr": {
+					"question": "Ils vivent dans une grande maison.",
+					"explanation": "Le Present Simple pour un état permanent. Avec they, le verbe est sans -s."
+				},
+				"de": {
+					"question": "Sie wohnen in einem großen Haus.",
+					"explanation": "Das Present Simple für einen dauerhaften Zustand. Mit they bleibt das Verb ohne -s."
+				},
+				"es": {
+					"question": "Ellos viven en una casa grande.",
+					"explanation": "El Present Simple para un estado permanente. Con they, el verbo no lleva -s."
+				}
+			}
 		},
 		{
-			"question": "Вода замерзает при нуле градусов.",
 			"answer": "Water freezes at zero degrees.",
-			"explanation": "Present Simple для научных фактов. Глагол в 3-м лице ед.ч."
+			"translations": {
+				"ru": {
+					"question": "Вода замерзает при нуле градусов.",
+					"explanation": "Present Simple для научных фактов. Глагол в 3-м лице ед.ч."
+				},
+				"fr": {
+					"question": "L'eau gèle à zéro degré.",
+					"explanation": "Le Present Simple pour les faits scientifiques. Le verbe à la 3e personne du singulier."
+				},
+				"de": {
+					"question": "Wasser gefriert bei null Grad.",
+					"explanation": "Das Present Simple für wissenschaftliche Fakten. Das Verb in der 3. Person Singular."
+				},
+				"es": {
+					"question": "El agua se congela a cero grados.",
+					"explanation": "El Present Simple para hechos científicos. El verbo en 3.ª persona del singular."
+				}
+			}
 		},
 		{
-			"question": "Ты часто читаешь книги?",
 			"answer": "Do you often read books?",
-			"explanation": "Вопрос в Present Simple с do для you. Основной глагол без изменений."
+			"translations": {
+				"ru": {
+					"question": "Ты часто читаешь книги?",
+					"explanation": "Вопрос в Present Simple с do для you. Основной глагол без изменений."
+				},
+				"fr": {
+					"question": "Lis-tu souvent des livres ?",
+					"explanation": "La question au Present Simple avec do pour you. Le verbe principal reste sans modification."
+				},
+				"de": {
+					"question": "Liest du oft Bücher?",
+					"explanation": "Die Frage im Present Simple mit do für you. Das Hauptverb bleibt unverändert."
+				},
+				"es": {
+					"question": "¿Lees libros con frecuencia?",
+					"explanation": "La pregunta en Present Simple con do para you. El verbo principal no cambia."
+				}
+			}
 		},
 		{
-			"question": "Он играет в футбол по выходным.",
 			"answer": "He plays football at weekends.",
-			"explanation": "Present Simple для регулярных действий. Глагол в 3-м лице ед.ч. получает -s."
+			"translations": {
+				"ru": {
+					"question": "Он играет в футбол по выходным.",
+					"explanation": "Present Simple для регулярных действий. Глагол в 3-м лице ед.ч. получает -s."
+				},
+				"fr": {
+					"question": "Il joue au football le week-end.",
+					"explanation": "Le Present Simple pour des actions régulières. Le verbe à la 3e personne du singulier prend -s."
+				},
+				"de": {
+					"question": "Er spielt am Wochenende Fußball.",
+					"explanation": "Das Present Simple für regelmäßige Handlungen. Das Verb in der 3. Person Singular erhält -s."
+				},
+				"es": {
+					"question": "Él juega al fútbol los fines de semana.",
+					"explanation": "El Present Simple para acciones regulares. El verbo en 3.ª persona del singular recibe -s."
+				}
+			}
 		},
 		{
-			"question": "Мы говорим по-английски на уроке.",
 			"answer": "We speak English in class.",
-			"explanation": "Present Simple для привычных действий. С we глагол без изменений."
+			"translations": {
+				"ru": {
+					"question": "Мы говорим по-английски на уроке.",
+					"explanation": "Present Simple для привычных действий. С we глагол без изменений."
+				},
+				"fr": {
+					"question": "Nous parlons anglais en classe.",
+					"explanation": "Le Present Simple pour les actions habituelles. Avec we, le verbe ne change pas."
+				},
+				"de": {
+					"question": "Wir sprechen im Unterricht Englisch.",
+					"explanation": "Das Present Simple für gewohnheitsmäßige Handlungen. Mit we bleibt das Verb unverändert."
+				},
+				"es": {
+					"question": "Nosotros hablamos inglés en clase.",
+					"explanation": "El Present Simple para acciones habituales. Con we, el verbo no cambia."
+				}
+			}
 		},
 		{
-			"question": "Солнце встаёт на востоке.",
 			"answer": "The Sun rises in the east.",
-			"explanation": "Present Simple для постоянных истин. Глагол в 3-м лице ед.ч."
+			"translations": {
+				"ru": {
+					"question": "Солнце встаёт на востоке.",
+					"explanation": "Present Simple для постоянных истин. Глагол в 3-м лице ед.ч."
+				},
+				"fr": {
+					"question": "Le soleil se lève à l'est.",
+					"explanation": "Le Present Simple pour les vérités permanentes. Le verbe à la 3e personne du singulier."
+				},
+				"de": {
+					"question": "Die Sonne geht im Osten auf.",
+					"explanation": "Das Present Simple für dauerhafte Wahrheiten. Das Verb in der 3. Person Singular."
+				},
+				"es": {
+					"question": "El sol sale por el este.",
+					"explanation": "El Present Simple para verdades permanentes. El verbo en 3.ª persona del singular."
+				}
+			}
 		},
 		{
-			"question": "Он редко смотрит телевизор.",
 			"answer": "He rarely watches television.",
-			"explanation": "Present Simple с наречием rarely. Глагол watches в 3-м лице ед.ч."
+			"translations": {
+				"ru": {
+					"question": "Он редко смотрит телевизор.",
+					"explanation": "Present Simple с наречием rarely. Глагол watches в 3-м лице ед.ч."
+				},
+				"fr": {
+					"question": "Il regarde rarement la télévision.",
+					"explanation": "Le Present Simple avec l'adverbe rarely. Le verbe watches à la 3e personne du singulier."
+				},
+				"de": {
+					"question": "Er schaut selten fern.",
+					"explanation": "Das Present Simple mit dem Adverb rarely. Das Verb watches in der 3. Person Singular."
+				},
+				"es": {
+					"question": "Él raramente ve la televisión.",
+					"explanation": "El Present Simple con el adverbio rarely. El verbo watches en 3.ª persona del singular."
+				}
+			}
 		},
 		{
-			"question": "Я обычно встаю в семь часов.",
 			"answer": "I usually get up at seven o'clock.",
-			"explanation": "Present Simple с наречием usually для регулярных действий. С I глагол без изменений."
+			"translations": {
+				"ru": {
+					"question": "Я обычно встаю в семь часов.",
+					"explanation": "Present Simple с наречием usually для регулярных действий. С I глагол без изменений."
+				},
+				"fr": {
+					"question": "Je me lève habituellement à sept heures.",
+					"explanation": "Le Present Simple avec l'adverbe usually pour des actions régulières. Avec I, le verbe ne change pas."
+				},
+				"de": {
+					"question": "Ich stehe normalerweise um sieben Uhr auf.",
+					"explanation": "Das Present Simple mit dem Adverb usually für regelmäßige Handlungen. Mit I bleibt das Verb unverändert."
+				},
+				"es": {
+					"question": "Yo generalmente me levanto a las siete.",
+					"explanation": "El Present Simple con el adverbio usually para acciones regulares. Con I, el verbo no cambia."
+				}
+			}
 		},
 		{
-			"question": "Они ездят на работу на метро.",
 			"answer": "They take the metro to work.",
-			"explanation": "Present Simple для привычных действий. С they глагол без изменений."
+			"translations": {
+				"ru": {
+					"question": "Они ездят на работу на метро.",
+					"explanation": "Present Simple для привычных действий. С they глагол без изменений."
+				},
+				"fr": {
+					"question": "Ils vont au travail en métro.",
+					"explanation": "Le Present Simple pour les actions habituelles. Avec they, le verbe ne change pas."
+				},
+				"de": {
+					"question": "Sie fahren mit der U-Bahn zur Arbeit.",
+					"explanation": "Das Present Simple für gewohnheitsmäßige Handlungen. Mit they bleibt das Verb unverändert."
+				},
+				"es": {
+					"question": "Ellos van al trabajo en metro.",
+					"explanation": "El Present Simple para acciones habituales. Con they, el verbo no cambia."
+				}
+			}
 		},
 		{
-			"question": "Она часто готовит ужин дома.",
 			"answer": "She often cooks dinner at home.",
-			"explanation": "Present Simple с наречием often. Глагол в 3-м лице ед.ч."
+			"translations": {
+				"ru": {
+					"question": "Она часто готовит ужин дома.",
+					"explanation": "Present Simple с наречием often. Глагол в 3-м лице ед.ч."
+				},
+				"fr": {
+					"question": "Elle cuisine souvent le dîner à la maison.",
+					"explanation": "Present Simple avec l'adverbe often. Verbe à la 3e personne du singulier."
+				},
+				"de": {
+					"question": "Sie kocht oft das Abendessen zu Hause.",
+					"explanation": "Present Simple mit dem Adverb often. Verb in der 3. Person Singular."
+				},
+				"es": {
+					"question": "Ella a menudo cocina la cena en casa.",
+					"explanation": "Present Simple con el adverbio often. Verbo en 3ª persona del singular."
+				}
+			}
 		},
 		{
-			"question": "Птицы летят на юг зимой.",
 			"answer": "Birds fly south in winter.",
-			"explanation": "Present Simple для регулярных природных явлений."
+			"translations": {
+				"ru": {
+					"question": "Птицы летят на юг зимой.",
+					"explanation": "Present Simple для регулярных природных явлений."
+				},
+				"fr": {
+					"question": "Les oiseaux volent vers le sud en hiver.",
+					"explanation": "Present Simple pour les phénomènes naturels réguliers."
+				},
+				"de": {
+					"question": "Die Vögel fliegen im Winter nach Süden.",
+					"explanation": "Present Simple für regelmäßige Naturphänomene."
+				},
+				"es": {
+					"question": "Los pájaros vuelan hacia el sur en invierno.",
+					"explanation": "Present Simple para fenómenos naturales regulares."
+				}
+			}
 		},
 		{
-			"question": "Он ходит в спортзал три раза в неделю.",
 			"answer": "He goes to the gym three times a week.",
-			"explanation": "Present Simple для регулярных действий. Глагол goes в 3-м лице ед.ч."
+			"translations": {
+				"ru": {
+					"question": "Он ходит в спортзал три раза в неделю.",
+					"explanation": "Present Simple для регулярных действий. Глагол goes в 3-м лице ед.ч."
+				},
+				"fr": {
+					"question": "Il va à la salle de sport trois fois par semaine.",
+					"explanation": "Present Simple pour les actions régulières. Le verbe goes est à la 3e personne du singulier."
+				},
+				"de": {
+					"question": "Er geht dreimal pro Woche ins Fitnessstudio.",
+					"explanation": "Present Simple für regelmäßige Handlungen. Das Verb goes steht in der 3. Person Singular."
+				},
+				"es": {
+					"question": "Él va al gimnasio tres veces a la semana.",
+					"explanation": "Present Simple para acciones regulares. El verbo goes está en 3ª persona del singular."
+				}
+			}
 		},
 		{
-			"question": "Мы едим обед в час дня.",
 			"answer": "We have lunch at one o'clock.",
-			"explanation": "Present Simple для регулярного распорядка дня. С we глагол без изменений."
+			"translations": {
+				"ru": {
+					"question": "Мы едим обед в час дня.",
+					"explanation": "Present Simple для регулярного распорядка дня. С we глагол без изменений."
+				},
+				"fr": {
+					"question": "Nous déjeunons à une heure de l'après-midi.",
+					"explanation": "Present Simple pour la routine quotidienne régulière. Avec we, le verbe reste inchangé."
+				},
+				"de": {
+					"question": "Wir essen um ein Uhr zu Mittag.",
+					"explanation": "Present Simple für den regelmäßigen Tagesablauf. Mit we bleibt das Verb unverändert."
+				},
+				"es": {
+					"question": "Nosotros almorzamos a la una de la tarde.",
+					"explanation": "Present Simple para la rutina diaria regular. Con we, el verbo no cambia."
+				}
+			}
 		},
 		{
-			"question": "Ты знаешь ответ на этот вопрос?",
 			"answer": "Do you know the answer to this question?",
-			"explanation": "Вопрос в Present Simple с do. Глагол know — глагол состояния."
+			"translations": {
+				"ru": {
+					"question": "Ты знаешь ответ на этот вопрос?",
+					"explanation": "Вопрос в Present Simple с do. Глагол know — глагол состояния."
+				},
+				"fr": {
+					"question": "Connais-tu la réponse à cette question ?",
+					"explanation": "Question au Present Simple avec do. Le verbe know est un verbe d'état."
+				},
+				"de": {
+					"question": "Weißt du die Antwort auf diese Frage?",
+					"explanation": "Frage im Present Simple mit do. Das Verb know ist ein Zustandsverb."
+				},
+				"es": {
+					"question": "¿Sabes la respuesta a esta pregunta?",
+					"explanation": "Pregunta en Present Simple con do. El verbo know es un verbo de estado."
+				}
+			}
 		},
 		{
-			"question": "Он понимает по-французски.",
 			"answer": "He understands French.",
-			"explanation": "Present Simple с глаголом состояния understand. Глагол в 3-м лице ед.ч."
+			"translations": {
+				"ru": {
+					"question": "Он понимает по-французски.",
+					"explanation": "Present Simple с глаголом состояния understand. Глагол в 3-м лице ед.ч."
+				},
+				"fr": {
+					"question": "Il comprend le français.",
+					"explanation": "Present Simple avec le verbe d'état understand. Verbe à la 3e personne du singulier."
+				},
+				"de": {
+					"question": "Er versteht Französisch.",
+					"explanation": "Present Simple mit dem Zustandsverb understand. Verb in der 3. Person Singular."
+				},
+				"es": {
+					"question": "Él entiende el francés.",
+					"explanation": "Present Simple con el verbo de estado understand. Verbo en 3ª persona del singular."
+				}
+			}
 		},
 		{
-			"question": "Я хочу стакан воды.",
 			"answer": "I want a glass of water.",
-			"explanation": "Present Simple с глаголом состояния want. Глаголы состояния не используются в Continuous."
+			"translations": {
+				"ru": {
+					"question": "Я хочу стакан воды.",
+					"explanation": "Present Simple с глаголом состояния want. Глаголы состояния не используются в Continuous."
+				},
+				"fr": {
+					"question": "Je veux un verre d'eau.",
+					"explanation": "Present Simple avec le verbe d'état want. Les verbes d'état ne s'utilisent pas au Continuous."
+				},
+				"de": {
+					"question": "Ich möchte ein Glas Wasser.",
+					"explanation": "Present Simple mit dem Zustandsverb want. Zustandsverben werden nicht im Continuous verwendet."
+				},
+				"es": {
+					"question": "Quiero un vaso de agua.",
+					"explanation": "Present Simple con el verbo de estado want. Los verbos de estado no se usan en Continuous."
+				}
+			}
 		},
 		{
-			"question": "Она знает его очень хорошо.",
 			"answer": "She knows him very well.",
-			"explanation": "Present Simple с глаголом состояния know. Глагол в 3-м лице ед.ч."
+			"translations": {
+				"ru": {
+					"question": "Она знает его очень хорошо.",
+					"explanation": "Present Simple с глаголом состояния know. Глагол в 3-м лице ед.ч."
+				},
+				"fr": {
+					"question": "Elle le connaît très bien.",
+					"explanation": "Present Simple avec le verbe d'état know. Verbe à la 3e personne du singulier."
+				},
+				"de": {
+					"question": "Sie kennt ihn sehr gut.",
+					"explanation": "Present Simple mit dem Zustandsverb know. Verb in der 3. Person Singular."
+				},
+				"es": {
+					"question": "Ella lo conoce muy bien.",
+					"explanation": "Present Simple con el verbo de estado know. Verbo en 3ª persona del singular."
+				}
+			}
 		},
 		{
-			"question": "Этот автобус идёт до центра.",
 			"answer": "This bus goes to the city centre.",
-			"explanation": "Present Simple для постоянных маршрутов и расписаний."
+			"translations": {
+				"ru": {
+					"question": "Этот автобус идёт до центра.",
+					"explanation": "Present Simple для постоянных маршрутов и расписаний."
+				},
+				"fr": {
+					"question": "Ce bus va jusqu'au centre-ville.",
+					"explanation": "Present Simple pour les itinéraires permanents et les horaires."
+				},
+				"de": {
+					"question": "Dieser Bus fährt bis ins Stadtzentrum.",
+					"explanation": "Present Simple für feste Routen und Fahrpläne."
+				},
+				"es": {
+					"question": "Este autobús va hasta el centro de la ciudad.",
+					"explanation": "Present Simple para rutas permanentes y horarios."
+				}
+			}
 		},
 		{
-			"question": "Дети играют во дворе каждый день.",
 			"answer": "The children play in the yard every day.",
-			"explanation": "Present Simple для регулярных действий. Во множественном числе глагол без -s."
+			"translations": {
+				"ru": {
+					"question": "Дети играют во дворе каждый день.",
+					"explanation": "Present Simple для регулярных действий. Во множественном числе глагол без -s."
+				},
+				"fr": {
+					"question": "Les enfants jouent dans la cour chaque jour.",
+					"explanation": "Present Simple pour les actions régulières. Au pluriel, le verbe n'a pas de -s."
+				},
+				"de": {
+					"question": "Die Kinder spielen jeden Tag auf dem Hof.",
+					"explanation": "Present Simple für regelmäßige Handlungen. Im Plural hat das Verb kein -s."
+				},
+				"es": {
+					"question": "Los niños juegan en el patio todos los días.",
+					"explanation": "Present Simple para acciones regulares. En plural, el verbo no lleva -s."
+				}
+			}
 		},
 		{
-			"question": "Он думает, что ты прав.",
 			"answer": "He thinks you are right.",
-			"explanation": "Present Simple с глаголом мнения think. Глагол в 3-м лице ед.ч."
+			"translations": {
+				"ru": {
+					"question": "Он думает, что ты прав.",
+					"explanation": "Present Simple с глаголом мнения think. Глагол в 3-м лице ед.ч."
+				},
+				"fr": {
+					"question": "Il pense que tu as raison.",
+					"explanation": "Present Simple avec le verbe d'opinion think. Verbe à la 3e personne du singulier."
+				},
+				"de": {
+					"question": "Er denkt, dass du recht hast.",
+					"explanation": "Present Simple mit dem Meinungsverb think. Verb in der 3. Person Singular."
+				},
+				"es": {
+					"question": "Él piensa que tienes razón.",
+					"explanation": "Present Simple con el verbo de opinión think. Verbo en 3ª persona del singular."
+				}
+			}
 		},
 		{
-			"question": "Мы верим в честность.",
 			"answer": "We believe in honesty.",
-			"explanation": "Present Simple с глаголом состояния believe. С we глагол без изменений."
+			"translations": {
+				"ru": {
+					"question": "Мы верим в честность.",
+					"explanation": "Present Simple с глаголом состояния believe. С we глагол без изменений."
+				},
+				"fr": {
+					"question": "Nous croyons en l'honnêteté.",
+					"explanation": "Present Simple avec le verbe d'état believe. Avec we, le verbe reste inchangé."
+				},
+				"de": {
+					"question": "Wir glauben an Ehrlichkeit.",
+					"explanation": "Present Simple mit dem Zustandsverb believe. Mit we bleibt das Verb unverändert."
+				},
+				"es": {
+					"question": "Nosotros creemos en la honestidad.",
+					"explanation": "Present Simple con el verbo de estado believe. Con we, el verbo no cambia."
+				}
+			}
 		},
 		{
-			"question": "Он всегда опаздывает на встречи.",
 			"answer": "He always arrives late to meetings.",
-			"explanation": "Present Simple с наречием always для критики привычек."
+			"translations": {
+				"ru": {
+					"question": "Он всегда опаздывает на встречи.",
+					"explanation": "Present Simple с наречием always для критики привычек."
+				},
+				"fr": {
+					"question": "Il est toujours en retard aux réunions.",
+					"explanation": "Present Simple avec l'adverbe always pour critiquer des habitudes."
+				},
+				"de": {
+					"question": "Er kommt immer zu spät zu Besprechungen.",
+					"explanation": "Present Simple mit dem Adverb always zur Kritik an Gewohnheiten."
+				},
+				"es": {
+					"question": "Él siempre llega tarde a las reuniones.",
+					"explanation": "Present Simple con el adverbio always para criticar hábitos."
+				}
+			}
 		},
 		{
-			"question": "Она преподаёт математику в школе.",
 			"answer": "She teaches mathematics at school.",
-			"explanation": "Present Simple для постоянной работы. Глагол teaches в 3-м лице ед.ч."
+			"translations": {
+				"ru": {
+					"question": "Она преподаёт математику в школе.",
+					"explanation": "Present Simple для постоянной работы. Глагол teaches в 3-м лице ед.ч."
+				},
+				"fr": {
+					"question": "Elle enseigne les mathématiques à l'école.",
+					"explanation": "Present Simple pour un emploi permanent. Le verbe teaches est à la 3e personne du singulier."
+				},
+				"de": {
+					"question": "Sie unterrichtet Mathematik in der Schule.",
+					"explanation": "Present Simple für eine dauerhafte Tätigkeit. Das Verb teaches steht in der 3. Person Singular."
+				},
+				"es": {
+					"question": "Ella enseña matemáticas en la escuela.",
+					"explanation": "Present Simple para trabajo permanente. El verbo teaches está en 3ª persona del singular."
+				}
+			}
 		},
 		{
-			"question": "Я не понимаю этого правила.",
 			"answer": "I don't understand this rule.",
-			"explanation": "Отрицание в Present Simple с don't. Глагол состояния understand."
+			"translations": {
+				"ru": {
+					"question": "Я не понимаю этого правила.",
+					"explanation": "Отрицание в Present Simple с don't. Глагол состояния understand."
+				},
+				"fr": {
+					"question": "Je ne comprends pas cette règle.",
+					"explanation": "Négation au Present Simple avec don't. Verbe d'état understand."
+				},
+				"de": {
+					"question": "Ich verstehe diese Regel nicht.",
+					"explanation": "Verneinung im Present Simple mit don't. Zustandsverb understand."
+				},
+				"es": {
+					"question": "No entiendo esta regla.",
+					"explanation": "Negación en Present Simple con don't. Verbo de estado understand."
+				}
+			}
 		},
 		{
-			"question": "Ты любишь джазовую музыку?",
 			"answer": "Do you like jazz music?",
-			"explanation": "Вопрос в Present Simple с do. Глагол like — глагол состояния."
+			"translations": {
+				"ru": {
+					"question": "Ты любишь джазовую музыку?",
+					"explanation": "Вопрос в Present Simple с do. Глагол like — глагол состояния."
+				},
+				"fr": {
+					"question": "Est-ce que tu aimes la musique jazz ?",
+					"explanation": "Question au Present Simple avec do. Le verbe like est un verbe d'état."
+				},
+				"de": {
+					"question": "Magst du Jazzmusik?",
+					"explanation": "Frage im Present Simple mit do. Das Verb like ist ein Zustandsverb."
+				},
+				"es": {
+					"question": "¿Te gusta la música jazz?",
+					"explanation": "Pregunta en Present Simple con do. El verbo like es un verbo de estado."
+				}
+			}
 		},
 		{
-			"question": "Река впадает в море.",
 			"answer": "The river flows into the sea.",
-			"explanation": "Present Simple для постоянных географических фактов."
+			"translations": {
+				"ru": {
+					"question": "Река впадает в море.",
+					"explanation": "Present Simple для постоянных географических фактов."
+				},
+				"fr": {
+					"question": "La rivière se jette dans la mer.",
+					"explanation": "Present Simple pour les faits géographiques permanents."
+				},
+				"de": {
+					"question": "Der Fluss mündet ins Meer.",
+					"explanation": "Present Simple für dauerhafte geografische Fakten."
+				},
+				"es": {
+					"question": "El río desemboca en el mar.",
+					"explanation": "Present Simple para hechos geográficos permanentes."
+				}
+			}
 		},
 		{
-			"question": "Он курит после ужина.",
 			"answer": "He smokes after dinner.",
-			"explanation": "Present Simple для привычных действий. Глагол в 3-м лице ед.ч."
+			"translations": {
+				"ru": {
+					"question": "Он курит после ужина.",
+					"explanation": "Present Simple для привычных действий. Глагол в 3-м лице ед.ч."
+				},
+				"fr": {
+					"question": "Il fume après le dîner.",
+					"explanation": "Present Simple pour les actions habituelles. Verbe à la 3e personne du singulier."
+				},
+				"de": {
+					"question": "Er raucht nach dem Abendessen.",
+					"explanation": "Present Simple für gewohnheitsmäßige Handlungen. Verb in der 3. Person Singular."
+				},
+				"es": {
+					"question": "Él fuma después de la cena.",
+					"explanation": "Present Simple para acciones habituales. Verbo en 3ª persona del singular."
+				}
+			}
 		},
 		{
-			"question": "Мы встречаемся каждую субботу.",
 			"answer": "We meet every Saturday.",
-			"explanation": "Present Simple для регулярных событий. С we глагол без изменений."
+			"translations": {
+				"ru": {
+					"question": "Мы встречаемся каждую субботу.",
+					"explanation": "Present Simple для регулярных событий. С we глагол без изменений."
+				},
+				"fr": {
+					"question": "Nous nous retrouvons chaque samedi.",
+					"explanation": "Present Simple pour les événements réguliers. Avec we, le verbe reste inchangé."
+				},
+				"de": {
+					"question": "Wir treffen uns jeden Samstag.",
+					"explanation": "Present Simple für regelmäßige Ereignisse. Mit we bleibt das Verb unverändert."
+				},
+				"es": {
+					"question": "Nos reunimos cada sábado.",
+					"explanation": "Present Simple para eventos regulares. Con we, el verbo no cambia."
+				}
+			}
 		},
 		{
-			"question": "Она рано ложится спать.",
 			"answer": "She goes to bed early.",
-			"explanation": "Present Simple для привычек. Глагол goes в 3-м лице ед.ч."
+			"translations": {
+				"ru": {
+					"question": "Она рано ложится спать.",
+					"explanation": "Present Simple для привычек. Глагол goes в 3-м лице ед.ч."
+				},
+				"fr": {
+					"question": "Elle se couche tôt.",
+					"explanation": "Present Simple pour les habitudes. Le verbe goes est à la 3e personne du singulier."
+				},
+				"de": {
+					"question": "Sie geht früh ins Bett.",
+					"explanation": "Present Simple für Gewohnheiten. Das Verb goes steht in der 3. Person Singular."
+				},
+				"es": {
+					"question": "Ella se acuesta temprano.",
+					"explanation": "Present Simple para hábitos. El verbo goes está en 3ª persona del singular."
+				}
+			}
 		},
 		{
-			"question": "Лёд тает при плюсовой температуре.",
 			"answer": "Ice melts at a positive temperature.",
-			"explanation": "Present Simple для научных фактов."
+			"translations": {
+				"ru": {
+					"question": "Лёд тает при плюсовой температуре.",
+					"explanation": "Present Simple для научных фактов."
+				},
+				"fr": {
+					"question": "La glace fond à des températures positives.",
+					"explanation": "Present Simple pour les faits scientifiques."
+				},
+				"de": {
+					"question": "Eis schmilzt bei Plusgraden.",
+					"explanation": "Present Simple für wissenschaftliche Fakten."
+				},
+				"es": {
+					"question": "El hielo se derrite a temperaturas positivas.",
+					"explanation": "Present Simple para hechos científicos."
+				}
+			}
 		},
 		{
-			"question": "Он не пьёт алкоголь.",
 			"answer": "He doesn't drink alcohol.",
-			"explanation": "Отрицание в Present Simple с doesn't. Основной глагол без изменений."
+			"translations": {
+				"ru": {
+					"question": "Он не пьёт алкоголь.",
+					"explanation": "Отрицание в Present Simple с doesn't. Основной глагол без изменений."
+				},
+				"fr": {
+					"question": "Il ne boit pas d'alcool.",
+					"explanation": "Négation au Present Simple avec doesn't. Le verbe principal reste inchangé."
+				},
+				"de": {
+					"question": "Er trinkt keinen Alkohol.",
+					"explanation": "Verneinung im Present Simple mit doesn't. Das Hauptverb bleibt unverändert."
+				},
+				"es": {
+					"question": "Él no bebe alcohol.",
+					"explanation": "Negación en Present Simple con doesn't. El verbo principal no cambia."
+				}
+			}
 		},
 		{
-			"question": "Ты умеешь играть на гитаре?",
 			"answer": "Do you know how to play the guitar?",
-			"explanation": "Вопрос в Present Simple о постоянном умении."
+			"translations": {
+				"ru": {
+					"question": "Ты умеешь играть на гитаре?",
+					"explanation": "Вопрос в Present Simple о постоянном умении."
+				},
+				"fr": {
+					"question": "Sais-tu jouer de la guitare ?",
+					"explanation": "Question au Present Simple sur une capacité permanente."
+				},
+				"de": {
+					"question": "Kannst du Gitarre spielen?",
+					"explanation": "Frage im Present Simple über eine dauerhafte Fähigkeit."
+				},
+				"es": {
+					"question": "¿Sabes tocar la guitarra?",
+					"explanation": "Pregunta en Present Simple sobre una habilidad permanente."
+				}
+			}
 		},
 		{
-			"question": "Они работают в одном офисе.",
 			"answer": "They work in the same office.",
-			"explanation": "Present Simple для постоянного факта. С they глагол без изменений."
+			"translations": {
+				"ru": {
+					"question": "Они работают в одном офисе.",
+					"explanation": "Present Simple для постоянного факта. С they глагол без изменений."
+				},
+				"fr": {
+					"question": "Ils travaillent dans le même bureau.",
+					"explanation": "Present Simple pour un fait permanent. Avec they, le verbe reste inchangé."
+				},
+				"de": {
+					"question": "Sie arbeiten im selben Büro.",
+					"explanation": "Present Simple für eine dauerhafte Tatsache. Mit they bleibt das Verb unverändert."
+				},
+				"es": {
+					"question": "Ellos trabajan en la misma oficina.",
+					"explanation": "Present Simple para un hecho permanente. Con they, el verbo no cambia."
+				}
+			}
 		},
 		{
-			"question": "Этот фильм начинается в восемь вечера.",
 			"answer": "This film starts at eight in the evening.",
-			"explanation": "Present Simple для фиксированного расписания."
+			"translations": {
+				"ru": {
+					"question": "Этот фильм начинается в восемь вечера.",
+					"explanation": "Present Simple для фиксированного расписания."
+				},
+				"fr": {
+					"question": "Ce film commence à huit heures du soir.",
+					"explanation": "Present Simple pour un horaire fixe."
+				},
+				"de": {
+					"question": "Dieser Film beginnt um acht Uhr abends.",
+					"explanation": "Present Simple für einen festen Zeitplan."
+				},
+				"es": {
+					"question": "Esta película comienza a las ocho de la tarde.",
+					"explanation": "Present Simple para un horario fijo."
+				}
+			}
 		},
 		{
-			"question": "Я принимаю душ каждое утро.",
 			"answer": "I take a shower every morning.",
-			"explanation": "Present Simple для ежедневных привычек. С I глагол без изменений."
+			"translations": {
+				"ru": {
+					"question": "Я принимаю душ каждое утро.",
+					"explanation": "Present Simple для ежедневных привычек. С I глагол без изменений."
+				},
+				"fr": {
+					"question": "Je prends une douche chaque matin.",
+					"explanation": "Present Simple pour les habitudes quotidiennes. Avec I, le verbe reste inchangé."
+				},
+				"de": {
+					"question": "Ich dusche jeden Morgen.",
+					"explanation": "Present Simple für tägliche Gewohnheiten. Mit I bleibt das Verb unverändert."
+				},
+				"es": {
+					"question": "Me ducho cada mañana.",
+					"explanation": "Present Simple para hábitos diarios. Con I, el verbo no cambia."
+				}
+			}
 		},
 		{
-			"question": "Она верит каждому слову.",
 			"answer": "She believes every word.",
-			"explanation": "Present Simple с глаголом состояния believe. Глагол в 3-м лице ед.ч."
+			"translations": {
+				"ru": {
+					"question": "Она верит каждому слову.",
+					"explanation": "Present Simple с глаголом состояния believe. Глагол в 3-м лице ед.ч."
+				},
+				"fr": {
+					"question": "Elle croit chaque mot.",
+					"explanation": "Present Simple avec le verbe d'état believe. Verbe à la 3e personne du singulier."
+				},
+				"de": {
+					"question": "Sie glaubt jedem Wort.",
+					"explanation": "Present Simple mit dem Zustandsverb believe. Verb in der 3. Person Singular."
+				},
+				"es": {
+					"question": "Ella cree cada palabra.",
+					"explanation": "Present Simple con el verbo de estado believe. Verbo en tercera persona del singular."
+				}
+			}
 		},
 		{
-			"question": "Он помнит все даты.",
 			"answer": "He remembers all the dates.",
-			"explanation": "Present Simple с глаголом состояния remember. Глагол в 3-м лице ед.ч."
+			"translations": {
+				"ru": {
+					"question": "Он помнит все даты.",
+					"explanation": "Present Simple с глаголом состояния remember. Глагол в 3-м лице ед.ч."
+				},
+				"fr": {
+					"question": "Il se souvient de toutes les dates.",
+					"explanation": "Present Simple avec le verbe d'état remember. Verbe à la 3e personne du singulier."
+				},
+				"de": {
+					"question": "Er erinnert sich an alle Daten.",
+					"explanation": "Present Simple mit dem Zustandsverb remember. Verb in der 3. Person Singular."
+				},
+				"es": {
+					"question": "Él recuerda todas las fechas.",
+					"explanation": "Present Simple con el verbo de estado remember. Verbo en tercera persona del singular."
+				}
+			}
 		},
 		{
-			"question": "Мы не едим фастфуд.",
 			"answer": "We don't eat fast food.",
-			"explanation": "Отрицание в Present Simple с don't. С we глагол без изменений."
+			"translations": {
+				"ru": {
+					"question": "Мы не едим фастфуд.",
+					"explanation": "Отрицание в Present Simple с don't. С we глагол без изменений."
+				},
+				"fr": {
+					"question": "Nous ne mangeons pas de fast-food.",
+					"explanation": "Négation au Present Simple avec don't. Avec we, le verbe reste inchangé."
+				},
+				"de": {
+					"question": "Wir essen kein Fast Food.",
+					"explanation": "Verneinung im Present Simple mit don't. Mit we bleibt das Verb unverändert."
+				},
+				"es": {
+					"question": "No comemos comida rápida.",
+					"explanation": "Negación en Present Simple con don't. Con we, el verbo no cambia."
+				}
+			}
 		},
 		{
-			"question": "Ты знаешь, где он живёт?",
 			"answer": "Do you know where he lives?",
-			"explanation": "Вопрос в Present Simple с косвенным вопросом."
+			"translations": {
+				"ru": {
+					"question": "Ты знаешь, где он живёт?",
+					"explanation": "Вопрос в Present Simple с косвенным вопросом."
+				},
+				"fr": {
+					"question": "Sais-tu où il habite ?",
+					"explanation": "Question au Present Simple avec une question indirecte."
+				},
+				"de": {
+					"question": "Weißt du, wo er wohnt?",
+					"explanation": "Frage im Present Simple mit einem indirekten Fragesatz."
+				},
+				"es": {
+					"question": "¿Sabes dónde vive él?",
+					"explanation": "Pregunta en Present Simple con una pregunta indirecta."
+				}
+			}
 		},
 		{
-			"question": "Самолёт вылетает в полдень.",
 			"answer": "The plane takes off at noon.",
-			"explanation": "Present Simple для расписания транспорта."
+			"translations": {
+				"ru": {
+					"question": "Самолёт вылетает в полдень.",
+					"explanation": "Present Simple для расписания транспорта."
+				},
+				"fr": {
+					"question": "L'avion décolle à midi.",
+					"explanation": "Present Simple pour les horaires de transport."
+				},
+				"de": {
+					"question": "Das Flugzeug fliegt um Mittag ab.",
+					"explanation": "Present Simple für Transportfahrpläne."
+				},
+				"es": {
+					"question": "El avión despega al mediodía.",
+					"explanation": "Present Simple para horarios de transporte."
+				}
+			}
 		},
 		{
-			"question": "Она ненавидит опаздывать.",
 			"answer": "She hates being late.",
-			"explanation": "Present Simple с глаголом состояния hate. Глагол в 3-м лице ед.ч."
+			"translations": {
+				"ru": {
+					"question": "Она ненавидит опаздывать.",
+					"explanation": "Present Simple с глаголом состояния hate. Глагол в 3-м лице ед.ч."
+				},
+				"fr": {
+					"question": "Elle déteste être en retard.",
+					"explanation": "Present Simple avec le verbe d'état hate. Verbe à la 3e personne du singulier."
+				},
+				"de": {
+					"question": "Sie hasst es, zu spät zu kommen.",
+					"explanation": "Present Simple mit dem Zustandsverb hate. Verb in der 3. Person Singular."
+				},
+				"es": {
+					"question": "Ella odia llegar tarde.",
+					"explanation": "Present Simple con el verbo de estado hate. Verbo en tercera persona del singular."
+				}
+			}
 		},
 		{
-			"question": "Он зарабатывает много денег.",
 			"answer": "He earns a lot of money.",
-			"explanation": "Present Simple для постоянного факта о работе."
+			"translations": {
+				"ru": {
+					"question": "Он зарабатывает много денег.",
+					"explanation": "Present Simple для постоянного факта о работе."
+				},
+				"fr": {
+					"question": "Il gagne beaucoup d'argent.",
+					"explanation": "Present Simple pour un fait permanent lié au travail."
+				},
+				"de": {
+					"question": "Er verdient viel Geld.",
+					"explanation": "Present Simple für eine dauerhafte Tatsache über die Arbeit."
+				},
+				"es": {
+					"question": "Él gana mucho dinero.",
+					"explanation": "Present Simple para un hecho permanente sobre el trabajo."
+				}
+			}
 		},
 		{
-			"question": "Мы каждое лето едем на море.",
 			"answer": "We go to the seaside every summer.",
-			"explanation": "Present Simple для ежегодных привычек. С we глагол без изменений."
+			"translations": {
+				"ru": {
+					"question": "Мы каждое лето едем на море.",
+					"explanation": "Present Simple для ежегодных привычек. С we глагол без изменений."
+				},
+				"fr": {
+					"question": "Nous allons à la mer chaque été.",
+					"explanation": "Present Simple pour les habitudes annuelles. Avec we, le verbe reste inchangé."
+				},
+				"de": {
+					"question": "Wir fahren jeden Sommer ans Meer.",
+					"explanation": "Present Simple für jährliche Gewohnheiten. Mit we bleibt das Verb unverändert."
+				},
+				"es": {
+					"question": "Vamos al mar cada verano.",
+					"explanation": "Present Simple para hábitos anuales. Con we, el verbo no cambia."
+				}
+			}
 		},
 		{
-			"question": "Этот магазин работает круглосуточно.",
 			"answer": "This shop works around the clock.",
-			"explanation": "Present Simple для постоянного режима работы."
+			"translations": {
+				"ru": {
+					"question": "Этот магазин работает круглосуточно.",
+					"explanation": "Present Simple для постоянного режима работы."
+				},
+				"fr": {
+					"question": "Ce magasin est ouvert vingt-quatre heures sur vingt-quatre.",
+					"explanation": "Present Simple pour un régime de travail permanent."
+				},
+				"de": {
+					"question": "Dieses Geschäft ist rund um die Uhr geöffnet.",
+					"explanation": "Present Simple für einen dauerhaften Arbeitsbetrieb."
+				},
+				"es": {
+					"question": "Esta tienda está abierta las veinticuatro horas.",
+					"explanation": "Present Simple para un horario de trabajo permanente."
+				}
+			}
 		},
 		{
-			"question": "Они редко ссорятся.",
 			"answer": "They rarely argue.",
-			"explanation": "Present Simple с наречием rarely. Во множественном числе глагол без -s."
+			"translations": {
+				"ru": {
+					"question": "Они редко ссорятся.",
+					"explanation": "Present Simple с наречием rarely. Во множественном числе глагол без -s."
+				},
+				"fr": {
+					"question": "Ils se disputent rarement.",
+					"explanation": "Present Simple avec l'adverbe rarely. Au pluriel, le verbe ne prend pas de -s."
+				},
+				"de": {
+					"question": "Sie streiten sich selten.",
+					"explanation": "Present Simple mit dem Adverb rarely. Im Plural erhält das Verb kein -s."
+				},
+				"es": {
+					"question": "Ellos rara vez se pelean.",
+					"explanation": "Present Simple con el adverbio rarely. En plural, el verbo no lleva -s."
+				}
+			}
 		},
 		{
-			"question": "Она всегда улыбается.",
 			"answer": "She always smiles.",
-			"explanation": "Present Simple с наречием always для характеристики человека."
+			"translations": {
+				"ru": {
+					"question": "Она всегда улыбается.",
+					"explanation": "Present Simple с наречием always для характеристики человека."
+				},
+				"fr": {
+					"question": "Elle sourit toujours.",
+					"explanation": "Present Simple avec l'adverbe always pour caractériser une personne."
+				},
+				"de": {
+					"question": "Sie lächelt immer.",
+					"explanation": "Present Simple mit dem Adverb always zur Charakterisierung einer Person."
+				},
+				"es": {
+					"question": "Ella siempre sonríe.",
+					"explanation": "Present Simple con el adverbio always para describir a una persona."
+				}
+			}
 		},
 		{
-			"question": "Я предпочитаю чай кофе.",
 			"answer": "I prefer tea to coffee.",
-			"explanation": "Present Simple с глаголом состояния prefer."
+			"translations": {
+				"ru": {
+					"question": "Я предпочитаю чай кофе.",
+					"explanation": "Present Simple с глаголом состояния prefer."
+				},
+				"fr": {
+					"question": "Je préfère le thé au café.",
+					"explanation": "Present Simple avec le verbe d'état prefer."
+				},
+				"de": {
+					"question": "Ich bevorzuge Tee gegenüber Kaffee.",
+					"explanation": "Present Simple mit dem Zustandsverb prefer."
+				},
+				"es": {
+					"question": "Prefiero el té al café.",
+					"explanation": "Present Simple con el verbo de estado prefer."
+				}
+			}
 		},
 		{
-			"question": "Он обожает путешествовать.",
 			"answer": "He loves travelling.",
-			"explanation": "Present Simple с глаголом состояния love. Глагол в 3-м лице ед.ч."
+			"translations": {
+				"ru": {
+					"question": "Он обожает путешествовать.",
+					"explanation": "Present Simple с глаголом состояния love. Глагол в 3-м лице ед.ч."
+				},
+				"fr": {
+					"question": "Il adore voyager.",
+					"explanation": "Present Simple avec le verbe d'état love. Verbe à la 3e personne du singulier."
+				},
+				"de": {
+					"question": "Er liebt es zu reisen.",
+					"explanation": "Present Simple mit dem Zustandsverb love. Verb in der 3. Person Singular."
+				},
+				"es": {
+					"question": "Él adora viajar.",
+					"explanation": "Present Simple con el verbo de estado love. Verbo en tercera persona del singular."
+				}
+			}
 		},
 		{
-			"question": "Ты понимаешь меня?",
 			"answer": "Do you understand me?",
-			"explanation": "Вопрос в Present Simple. Глагол understand — глагол состояния."
+			"translations": {
+				"ru": {
+					"question": "Ты понимаешь меня?",
+					"explanation": "Вопрос в Present Simple. Глагол understand — глагол состояния."
+				},
+				"fr": {
+					"question": "Tu me comprends ?",
+					"explanation": "Question au Present Simple. Le verbe understand est un verbe d'état."
+				},
+				"de": {
+					"question": "Verstehst du mich?",
+					"explanation": "Frage im Present Simple. Das Verb understand ist ein Zustandsverb."
+				},
+				"es": {
+					"question": "¿Me entiendes?",
+					"explanation": "Pregunta en Present Simple. El verbo understand es un verbo de estado."
+				}
+			}
 		},
 		{
-			"question": "Они приходят на работу вовремя.",
 			"answer": "They come to work on time.",
-			"explanation": "Present Simple для привычных действий. С they глагол без изменений."
+			"translations": {
+				"ru": {
+					"question": "Они приходят на работу вовремя.",
+					"explanation": "Present Simple для привычных действий. С they глагол без изменений."
+				},
+				"fr": {
+					"question": "Ils arrivent au travail à l'heure.",
+					"explanation": "Le Present Simple pour les actions habituelles. Avec they, le verbe ne change pas."
+				},
+				"de": {
+					"question": "Sie kommen pünktlich zur Arbeit.",
+					"explanation": "Present Simple für gewohnheitsmäßige Handlungen. Mit they bleibt das Verb unverändert."
+				},
+				"es": {
+					"question": "Ellos llegan al trabajo a tiempo.",
+					"explanation": "El Present Simple para acciones habituales. Con they, el verbo no cambia."
+				}
+			}
 		},
 		{
-			"question": "Она занимается йогой по утрам.",
 			"answer": "She does yoga in the mornings.",
-			"explanation": "Present Simple для утренних привычек. Глагол в 3-м лице ед.ч."
+			"translations": {
+				"ru": {
+					"question": "Она занимается йогой по утрам.",
+					"explanation": "Present Simple для утренних привычек. Глагол в 3-м лице ед.ч."
+				},
+				"fr": {
+					"question": "Elle fait du yoga le matin.",
+					"explanation": "Le Present Simple pour les habitudes matinales. Le verbe est à la 3e personne du singulier."
+				},
+				"de": {
+					"question": "Sie macht morgens Yoga.",
+					"explanation": "Present Simple für morgendliche Gewohnheiten. Das Verb steht in der 3. Person Singular."
+				},
+				"es": {
+					"question": "Ella practica yoga por las mañanas.",
+					"explanation": "El Present Simple para hábitos matutinos. El verbo va en 3.ª persona del singular."
+				}
+			}
 		},
 		{
-			"question": "Снег падает зимой.",
 			"answer": "Snow falls in winter.",
-			"explanation": "Present Simple для регулярных природных явлений."
+			"translations": {
+				"ru": {
+					"question": "Снег падает зимой.",
+					"explanation": "Present Simple для регулярных природных явлений."
+				},
+				"fr": {
+					"question": "La neige tombe en hiver.",
+					"explanation": "Le Present Simple pour les phénomènes naturels réguliers."
+				},
+				"de": {
+					"question": "Schnee fällt im Winter.",
+					"explanation": "Present Simple für regelmäßige Naturphänomene."
+				},
+				"es": {
+					"question": "La nieve cae en invierno.",
+					"explanation": "El Present Simple para fenómenos naturales regulares."
+				}
+			}
 		},
 		{
-			"question": "Он не любит громкую музыку.",
 			"answer": "He doesn't like loud music.",
-			"explanation": "Отрицание с doesn't и глаголом состояния like."
+			"translations": {
+				"ru": {
+					"question": "Он не любит громкую музыку.",
+					"explanation": "Отрицание с doesn't и глаголом состояния like."
+				},
+				"fr": {
+					"question": "Il n'aime pas la musique forte.",
+					"explanation": "La négation avec doesn't et le verbe d'état like."
+				},
+				"de": {
+					"question": "Er mag keine laute Musik.",
+					"explanation": "Verneinung mit doesn't und dem Zustandsverb like."
+				},
+				"es": {
+					"question": "A él no le gusta la música alta.",
+					"explanation": "La negación con doesn't y el verbo de estado like."
+				}
+			}
 		},
 		{
-			"question": "Мы изучаем английский язык.",
 			"answer": "We study English.",
-			"explanation": "Present Simple для постоянного занятия. С we глагол без изменений."
+			"translations": {
+				"ru": {
+					"question": "Мы изучаем английский язык.",
+					"explanation": "Present Simple для постоянного занятия. С we глагол без изменений."
+				},
+				"fr": {
+					"question": "Nous étudions la langue anglaise.",
+					"explanation": "Le Present Simple pour une activité permanente. Avec we, le verbe ne change pas."
+				},
+				"de": {
+					"question": "Wir lernen Englisch.",
+					"explanation": "Present Simple für eine dauerhafte Tätigkeit. Mit we bleibt das Verb unverändert."
+				},
+				"es": {
+					"question": "Nosotros estudiamos inglés.",
+					"explanation": "El Present Simple para una actividad permanente. Con we, el verbo no cambia."
+				}
+			}
 		},
 		{
-			"question": "Я ем овощи каждый день.",
 			"answer": "I eat vegetables every day.",
-			"explanation": "Present Simple для ежедневных привычек в питании."
+			"translations": {
+				"ru": {
+					"question": "Я ем овощи каждый день.",
+					"explanation": "Present Simple для ежедневных привычек в питании."
+				},
+				"fr": {
+					"question": "Je mange des légumes chaque jour.",
+					"explanation": "Le Present Simple pour les habitudes alimentaires quotidiennes."
+				},
+				"de": {
+					"question": "Ich esse jeden Tag Gemüse.",
+					"explanation": "Present Simple für tägliche Ernährungsgewohnheiten."
+				},
+				"es": {
+					"question": "Yo como verduras todos los días.",
+					"explanation": "El Present Simple para hábitos alimenticios diarios."
+				}
+			}
 		},
 		{
-			"question": "Она носит очки.",
 			"answer": "She wears glasses.",
-			"explanation": "Present Simple для постоянного состояния. Глагол в 3-м лице ед.ч."
+			"translations": {
+				"ru": {
+					"question": "Она носит очки.",
+					"explanation": "Present Simple для постоянного состояния. Глагол в 3-м лице ед.ч."
+				},
+				"fr": {
+					"question": "Elle porte des lunettes.",
+					"explanation": "Le Present Simple pour un état permanent. Le verbe est à la 3e personne du singulier."
+				},
+				"de": {
+					"question": "Sie trägt eine Brille.",
+					"explanation": "Present Simple für einen dauerhaften Zustand. Das Verb steht in der 3. Person Singular."
+				},
+				"es": {
+					"question": "Ella usa gafas.",
+					"explanation": "El Present Simple para un estado permanente. El verbo va en 3.ª persona del singular."
+				}
+			}
 		},
 		{
-			"question": "Этот завод производит автомобили.",
 			"answer": "This factory produces cars.",
-			"explanation": "Present Simple для постоянной деятельности предприятия."
+			"translations": {
+				"ru": {
+					"question": "Этот завод производит автомобили.",
+					"explanation": "Present Simple для постоянной деятельности предприятия."
+				},
+				"fr": {
+					"question": "Cette usine produit des voitures.",
+					"explanation": "Le Present Simple pour l'activité permanente d'une entreprise."
+				},
+				"de": {
+					"question": "Diese Fabrik produziert Autos.",
+					"explanation": "Present Simple für die dauerhafte Tätigkeit eines Unternehmens."
+				},
+				"es": {
+					"question": "Esta fábrica produce automóviles.",
+					"explanation": "El Present Simple para la actividad permanente de una empresa."
+				}
+			}
 		},
 		{
-			"question": "Он не смотрит новости.",
 			"answer": "He doesn't watch the news.",
-			"explanation": "Отрицание с doesn't. Глагол watch без изменений после doesn't."
+			"translations": {
+				"ru": {
+					"question": "Он не смотрит новости.",
+					"explanation": "Отрицание с doesn't. Глагол watch без изменений после doesn't."
+				},
+				"fr": {
+					"question": "Il ne regarde pas les informations.",
+					"explanation": "La négation avec doesn't. Le verbe watch reste inchangé après doesn't."
+				},
+				"de": {
+					"question": "Er schaut keine Nachrichten.",
+					"explanation": "Verneinung mit doesn't. Das Verb watch bleibt nach doesn't unverändert."
+				},
+				"es": {
+					"question": "Él no ve las noticias.",
+					"explanation": "La negación con doesn't. El verbo watch no cambia después de doesn't."
+				}
+			}
 		},
 		{
-			"question": "Ты веришь в удачу?",
 			"answer": "Do you believe in luck?",
-			"explanation": "Вопрос в Present Simple с глаголом состояния believe."
+			"translations": {
+				"ru": {
+					"question": "Ты веришь в удачу?",
+					"explanation": "Вопрос в Present Simple с глаголом состояния believe."
+				},
+				"fr": {
+					"question": "Tu crois en la chance ?",
+					"explanation": "Une question au Present Simple avec le verbe d'état believe."
+				},
+				"de": {
+					"question": "Glaubst du an Glück?",
+					"explanation": "Eine Frage im Present Simple mit dem Zustandsverb believe."
+				},
+				"es": {
+					"question": "¿Tú crees en la suerte?",
+					"explanation": "Pregunta en Present Simple con el verbo de estado believe."
+				}
+			}
 		},
 		{
-			"question": "Она умеет рисовать.",
 			"answer": "She can draw.",
-			"explanation": "Модальный глагол can в Present Simple для выражения умения."
+			"translations": {
+				"ru": {
+					"question": "Она умеет рисовать.",
+					"explanation": "Модальный глагол can в Present Simple для выражения умения."
+				},
+				"fr": {
+					"question": "Elle sait dessiner.",
+					"explanation": "Le verbe modal can au Present Simple pour exprimer une capacité."
+				},
+				"de": {
+					"question": "Sie kann zeichnen.",
+					"explanation": "Das Modalverb can im Present Simple zum Ausdruck einer Fähigkeit."
+				},
+				"es": {
+					"question": "Ella sabe dibujar.",
+					"explanation": "El verbo modal can en Present Simple para expresar habilidad."
+				}
+			}
 		},
 		{
-			"question": "Мы живём недалеко от парка.",
 			"answer": "We live near the park.",
-			"explanation": "Present Simple для постоянного места жительства."
+			"translations": {
+				"ru": {
+					"question": "Мы живём недалеко от парка.",
+					"explanation": "Present Simple для постоянного места жительства."
+				},
+				"fr": {
+					"question": "Nous habitons près du parc.",
+					"explanation": "Le Present Simple pour un lieu de résidence permanent."
+				},
+				"de": {
+					"question": "Wir wohnen in der Nähe des Parks.",
+					"explanation": "Present Simple für einen dauerhaften Wohnort."
+				},
+				"es": {
+					"question": "Vivimos cerca del parque.",
+					"explanation": "El Present Simple para un lugar de residencia permanente."
+				}
+			}
 		},
 		{
-			"question": "Он пишет письма от руки.",
 			"answer": "He writes letters by hand.",
-			"explanation": "Present Simple для привычного способа действия."
+			"translations": {
+				"ru": {
+					"question": "Он пишет письма от руки.",
+					"explanation": "Present Simple для привычного способа действия."
+				},
+				"fr": {
+					"question": "Il écrit des lettres à la main.",
+					"explanation": "Le Present Simple pour une manière habituelle d'agir."
+				},
+				"de": {
+					"question": "Er schreibt Briefe mit der Hand.",
+					"explanation": "Present Simple für eine gewohnheitsmäßige Handlungsweise."
+				},
+				"es": {
+					"question": "Él escribe cartas a mano.",
+					"explanation": "El Present Simple para una forma habitual de actuar."
+				}
+			}
 		},
 		{
-			"question": "Кофе содержит кофеин.",
 			"answer": "Coffee contains caffeine.",
-			"explanation": "Present Simple для постоянного факта или свойства."
+			"translations": {
+				"ru": {
+					"question": "Кофе содержит кофеин.",
+					"explanation": "Present Simple для постоянного факта или свойства."
+				},
+				"fr": {
+					"question": "Le café contient de la caféine.",
+					"explanation": "Le Present Simple pour un fait permanent ou une propriété."
+				},
+				"de": {
+					"question": "Kaffee enthält Koffein.",
+					"explanation": "Present Simple für eine dauerhafte Tatsache oder Eigenschaft."
+				},
+				"es": {
+					"question": "El café contiene cafeína.",
+					"explanation": "El Present Simple para un hecho permanente o una propiedad."
+				}
+			}
 		},
 		{
-			"question": "Я занимаюсь спортом трижды в неделю.",
 			"answer": "I do sport three times a week.",
-			"explanation": "Present Simple для регулярных действий. С I глагол без изменений."
+			"translations": {
+				"ru": {
+					"question": "Я занимаюсь спортом трижды в неделю.",
+					"explanation": "Present Simple для регулярных действий. С I глагол без изменений."
+				},
+				"fr": {
+					"question": "Je fais du sport trois fois par semaine.",
+					"explanation": "Le Present Simple pour les actions régulières. Avec I, le verbe ne change pas."
+				},
+				"de": {
+					"question": "Ich treibe dreimal pro Woche Sport.",
+					"explanation": "Present Simple für regelmäßige Handlungen. Mit I bleibt das Verb unverändert."
+				},
+				"es": {
+					"question": "Hago ejercicio tres veces a la semana.",
+					"explanation": "El Present Simple para acciones regulares. Con I, el verbo no cambia."
+				}
+			}
 		},
 		{
-			"question": "Она не пьёт газировку.",
 			"answer": "She doesn't drink fizzy drinks.",
-			"explanation": "Отрицание с doesn't для he/she/it."
+			"translations": {
+				"ru": {
+					"question": "Она не пьёт газировку.",
+					"explanation": "Отрицание с doesn't для he/she/it."
+				},
+				"fr": {
+					"question": "Elle ne boit pas de boissons gazeuses.",
+					"explanation": "La négation avec doesn't pour he/she/it."
+				},
+				"de": {
+					"question": "Sie trinkt keine Limonade.",
+					"explanation": "Verneinung mit doesn't für he/she/it."
+				},
+				"es": {
+					"question": "Ella no bebe refrescos.",
+					"explanation": "La negación con doesn't para he/she/it."
+				}
+			}
 		},
 		{
-			"question": "Они встают очень рано.",
 			"answer": "They get up very early.",
-			"explanation": "Present Simple для привычного распорядка. С they глагол без изменений."
+			"translations": {
+				"ru": {
+					"question": "Они встают очень рано.",
+					"explanation": "Present Simple для привычного распорядка. С they глагол без изменений."
+				},
+				"fr": {
+					"question": "Ils se lèvent très tôt.",
+					"explanation": "Le Present Simple pour une routine habituelle. Avec they, le verbe ne change pas."
+				},
+				"de": {
+					"question": "Sie stehen sehr früh auf.",
+					"explanation": "Present Simple für eine gewohnheitsmäßige Routine. Mit they bleibt das Verb unverändert."
+				},
+				"es": {
+					"question": "Ellos se levantan muy temprano.",
+					"explanation": "El Present Simple para una rutina habitual. Con they, el verbo no cambia."
+				}
+			}
 		},
 		{
-			"question": "Этот поезд останавливается на каждой станции.",
 			"answer": "This train stops at every station.",
-			"explanation": "Present Simple для постоянного маршрута."
+			"translations": {
+				"ru": {
+					"question": "Этот поезд останавливается на каждой станции.",
+					"explanation": "Present Simple для постоянного маршрута."
+				},
+				"fr": {
+					"question": "Ce train s'arrête à chaque gare.",
+					"explanation": "Le Present Simple pour un itinéraire permanent."
+				},
+				"de": {
+					"question": "Dieser Zug hält an jeder Station.",
+					"explanation": "Present Simple für eine feste Route."
+				},
+				"es": {
+					"question": "Este tren se detiene en cada estación.",
+					"explanation": "El Present Simple para una ruta permanente."
+				}
+			}
 		},
 		{
-			"question": "Он чувствует себя хорошо.",
 			"answer": "He feels well.",
-			"explanation": "Present Simple с глаголом состояния feel. Глагол в 3-м лице ед.ч."
+			"translations": {
+				"ru": {
+					"question": "Он чувствует себя хорошо.",
+					"explanation": "Present Simple с глаголом состояния feel. Глагол в 3-м лице ед.ч."
+				},
+				"fr": {
+					"question": "Il se sent bien.",
+					"explanation": "Le Present Simple avec le verbe d'état feel. Le verbe est à la 3e personne du singulier."
+				},
+				"de": {
+					"question": "Er fühlt sich gut.",
+					"explanation": "Present Simple mit dem Zustandsverb feel. Das Verb steht in der 3. Person Singular."
+				},
+				"es": {
+					"question": "Él se siente bien.",
+					"explanation": "El Present Simple con el verbo de estado feel. El verbo va en 3.ª persona del singular."
+				}
+			}
 		},
 		{
-			"question": "Мы иногда ходим в театр.",
 			"answer": "We sometimes go to the theatre.",
-			"explanation": "Present Simple с наречием sometimes. С we глагол без изменений."
+			"translations": {
+				"ru": {
+					"question": "Мы иногда ходим в театр.",
+					"explanation": "Present Simple с наречием sometimes. С we глагол без изменений."
+				},
+				"fr": {
+					"question": "Nous allons parfois au théâtre.",
+					"explanation": "Le Present Simple avec l'adverbe sometimes. Avec we, le verbe ne change pas."
+				},
+				"de": {
+					"question": "Wir gehen manchmal ins Theater.",
+					"explanation": "Present Simple mit dem Adverb sometimes. Mit we bleibt das Verb unverändert."
+				},
+				"es": {
+					"question": "Nosotros a veces vamos al teatro.",
+					"explanation": "El Present Simple con el adverbio sometimes. Con we, el verbo no cambia."
+				}
+			}
 		},
 		{
-			"question": "Я хожу к врачу раз в год.",
 			"answer": "I go to the doctor once a year.",
-			"explanation": "Present Simple для регулярных действий с указанием частоты."
+			"translations": {
+				"ru": {
+					"question": "Я хожу к врачу раз в год.",
+					"explanation": "Present Simple для регулярных действий с указанием частоты."
+				},
+				"fr": {
+					"question": "Je vais chez le médecin une fois par an.",
+					"explanation": "Present Simple pour les actions régulières avec indication de fréquence."
+				},
+				"de": {
+					"question": "Ich gehe einmal im Jahr zum Arzt.",
+					"explanation": "Present Simple für regelmäßige Handlungen mit Häufigkeitsangabe."
+				},
+				"es": {
+					"question": "Voy al médico una vez al año.",
+					"explanation": "Present Simple para acciones regulares con indicación de frecuencia."
+				}
+			}
 		},
 		{
-			"question": "Она слушает классическую музыку.",
 			"answer": "She listens to classical music.",
-			"explanation": "Present Simple для привычек и предпочтений."
+			"translations": {
+				"ru": {
+					"question": "Она слушает классическую музыку.",
+					"explanation": "Present Simple для привычек и предпочтений."
+				},
+				"fr": {
+					"question": "Elle écoute de la musique classique.",
+					"explanation": "Present Simple pour les habitudes et les préférences."
+				},
+				"de": {
+					"question": "Sie hört klassische Musik.",
+					"explanation": "Present Simple für Gewohnheiten und Vorlieben."
+				},
+				"es": {
+					"question": "Ella escucha música clásica.",
+					"explanation": "Present Simple para hábitos y preferencias."
+				}
+			}
 		},
 		{
-			"question": "Он не знает правды.",
 			"answer": "He doesn't know the truth.",
-			"explanation": "Отрицание с doesn't и глаголом состояния know."
+			"translations": {
+				"ru": {
+					"question": "Он не знает правды.",
+					"explanation": "Отрицание с doesn't и глаголом состояния know."
+				},
+				"fr": {
+					"question": "Il ne connaît pas la vérité.",
+					"explanation": "Négation avec doesn't et le verbe d'état know."
+				},
+				"de": {
+					"question": "Er kennt die Wahrheit nicht.",
+					"explanation": "Verneinung mit doesn't und dem Zustandsverb know."
+				},
+				"es": {
+					"question": "Él no sabe la verdad.",
+					"explanation": "Negación con doesn't y el verbo de estado know."
+				}
+			}
 		},
 		{
-			"question": "Ты смотришь спортивные передачи?",
 			"answer": "Do you watch sports programmes?",
-			"explanation": "Вопрос в Present Simple для выяснения привычек."
+			"translations": {
+				"ru": {
+					"question": "Ты смотришь спортивные передачи?",
+					"explanation": "Вопрос в Present Simple для выяснения привычек."
+				},
+				"fr": {
+					"question": "Tu regardes des émissions sportives ?",
+					"explanation": "Question au Present Simple pour s'informer sur les habitudes."
+				},
+				"de": {
+					"question": "Schaust du dir Sportsendungen an?",
+					"explanation": "Frage im Present Simple zur Erkundigung nach Gewohnheiten."
+				},
+				"es": {
+					"question": "¿Ves programas deportivos?",
+					"explanation": "Pregunta en Present Simple para indagar sobre hábitos."
+				}
+			}
 		},
 		{
-			"question": "Они покупают продукты в супермаркете.",
 			"answer": "They buy groceries at the supermarket.",
-			"explanation": "Present Simple для привычных действий."
+			"translations": {
+				"ru": {
+					"question": "Они покупают продукты в супермаркете.",
+					"explanation": "Present Simple для привычных действий."
+				},
+				"fr": {
+					"question": "Ils font leurs courses au supermarché.",
+					"explanation": "Present Simple pour les actions habituelles."
+				},
+				"de": {
+					"question": "Sie kaufen Lebensmittel im Supermarkt.",
+					"explanation": "Present Simple für gewohnheitsmäßige Handlungen."
+				},
+				"es": {
+					"question": "Ellos compran productos en el supermercado.",
+					"explanation": "Present Simple para acciones habituales."
+				}
+			}
 		},
 		{
-			"question": "Земля имеет форму шара.",
 			"answer": "The Earth has the shape of a sphere.",
-			"explanation": "Present Simple для постоянных научных фактов."
+			"translations": {
+				"ru": {
+					"question": "Земля имеет форму шара.",
+					"explanation": "Present Simple для постоянных научных фактов."
+				},
+				"fr": {
+					"question": "La Terre a la forme d'une sphère.",
+					"explanation": "Present Simple pour les faits scientifiques permanents."
+				},
+				"de": {
+					"question": "Die Erde hat die Form einer Kugel.",
+					"explanation": "Present Simple für dauerhafte wissenschaftliche Fakten."
+				},
+				"es": {
+					"question": "La Tierra tiene forma de esfera.",
+					"explanation": "Present Simple para hechos científicos permanentes."
+				}
+			}
 		},
 		{
-			"question": "Она преподаёт в университете.",
 			"answer": "She teaches at university.",
-			"explanation": "Present Simple для постоянного рода занятий."
+			"translations": {
+				"ru": {
+					"question": "Она преподаёт в университете.",
+					"explanation": "Present Simple для постоянного рода занятий."
+				},
+				"fr": {
+					"question": "Elle enseigne à l'université.",
+					"explanation": "Present Simple pour une occupation permanente."
+				},
+				"de": {
+					"question": "Sie unterrichtet an der Universität.",
+					"explanation": "Present Simple für eine dauerhafte Beschäftigung."
+				},
+				"es": {
+					"question": "Ella enseña en la universidad.",
+					"explanation": "Present Simple para una ocupación permanente."
+				}
+			}
 		},
 		{
-			"question": "Я обожаю итальянскую кухню.",
 			"answer": "I love Italian food.",
-			"explanation": "Present Simple с глаголом состояния love для выражения предпочтений."
+			"translations": {
+				"ru": {
+					"question": "Я обожаю итальянскую кухню.",
+					"explanation": "Present Simple с глаголом состояния love для выражения предпочтений."
+				},
+				"fr": {
+					"question": "J'adore la cuisine italienne.",
+					"explanation": "Present Simple avec le verbe d'état love pour exprimer des préférences."
+				},
+				"de": {
+					"question": "Ich liebe die italienische Küche.",
+					"explanation": "Present Simple mit dem Zustandsverb love zum Ausdruck von Vorlieben."
+				},
+				"es": {
+					"question": "Me encanta la cocina italiana.",
+					"explanation": "Present Simple con el verbo de estado love para expresar preferencias."
+				}
+			}
 		},
 		{
-			"question": "Он всегда держит своё слово.",
 			"answer": "He always keeps his word.",
-			"explanation": "Present Simple с наречием always для характеристики человека."
+			"translations": {
+				"ru": {
+					"question": "Он всегда держит своё слово.",
+					"explanation": "Present Simple с наречием always для характеристики человека."
+				},
+				"fr": {
+					"question": "Il tient toujours sa parole.",
+					"explanation": "Present Simple avec l'adverbe always pour caractériser une personne."
+				},
+				"de": {
+					"question": "Er hält immer sein Wort.",
+					"explanation": "Present Simple mit dem Adverb always zur Charakterisierung einer Person."
+				},
+				"es": {
+					"question": "Él siempre cumple su palabra.",
+					"explanation": "Present Simple con el adverbio always para caracterizar a una persona."
+				}
+			}
 		},
 		{
-			"question": "Мы платим за квартиру каждый месяц.",
 			"answer": "We pay rent every month.",
-			"explanation": "Present Simple для регулярных действий."
+			"translations": {
+				"ru": {
+					"question": "Мы платим за квартиру каждый месяц.",
+					"explanation": "Present Simple для регулярных действий."
+				},
+				"fr": {
+					"question": "Nous payons le loyer chaque mois.",
+					"explanation": "Present Simple pour les actions régulières."
+				},
+				"de": {
+					"question": "Wir zahlen jeden Monat die Miete.",
+					"explanation": "Present Simple für regelmäßige Handlungen."
+				},
+				"es": {
+					"question": "Pagamos el alquiler cada mes.",
+					"explanation": "Present Simple para acciones regulares."
+				}
+			}
 		},
 		{
-			"question": "Собаки лают на незнакомцев.",
 			"answer": "Dogs bark at strangers.",
-			"explanation": "Present Simple для типичного поведения."
+			"translations": {
+				"ru": {
+					"question": "Собаки лают на незнакомцев.",
+					"explanation": "Present Simple для типичного поведения."
+				},
+				"fr": {
+					"question": "Les chiens aboient contre les étrangers.",
+					"explanation": "Present Simple pour un comportement typique."
+				},
+				"de": {
+					"question": "Hunde bellen Fremde an.",
+					"explanation": "Present Simple für typisches Verhalten."
+				},
+				"es": {
+					"question": "Los perros ladran a los desconocidos.",
+					"explanation": "Present Simple para el comportamiento típico."
+				}
+			}
 		},
 		{
-			"question": "Он не говорит по-немецки.",
 			"answer": "He doesn't speak German.",
-			"explanation": "Отрицание с doesn't для he/she/it."
+			"translations": {
+				"ru": {
+					"question": "Он не говорит по-немецки.",
+					"explanation": "Отрицание с doesn't для he/she/it."
+				},
+				"fr": {
+					"question": "Il ne parle pas allemand.",
+					"explanation": "Négation avec doesn't pour he/she/it."
+				},
+				"de": {
+					"question": "Er spricht kein Deutsch.",
+					"explanation": "Verneinung mit doesn't für he/she/it."
+				},
+				"es": {
+					"question": "Él no habla alemán.",
+					"explanation": "Negación con doesn't para he/she/it."
+				}
+			}
 		},
 		{
-			"question": "Ты занимаешься плаванием?",
 			"answer": "Do you do swimming?",
-			"explanation": "Вопрос в Present Simple для выяснения привычек."
+			"translations": {
+				"ru": {
+					"question": "Ты занимаешься плаванием?",
+					"explanation": "Вопрос в Present Simple для выяснения привычек."
+				},
+				"fr": {
+					"question": "Tu fais de la natation ?",
+					"explanation": "Question au Present Simple pour s'informer sur les habitudes."
+				},
+				"de": {
+					"question": "Schwimmst du?",
+					"explanation": "Frage im Present Simple zur Erkundigung nach Gewohnheiten."
+				},
+				"es": {
+					"question": "¿Practicas natación?",
+					"explanation": "Pregunta en Present Simple para indagar sobre hábitos."
+				}
+			}
 		},
 		{
-			"question": "Она работает до позднего вечера.",
 			"answer": "She works until late in the evening.",
-			"explanation": "Present Simple для постоянного рабочего распорядка."
+			"translations": {
+				"ru": {
+					"question": "Она работает до позднего вечера.",
+					"explanation": "Present Simple для постоянного рабочего распорядка."
+				},
+				"fr": {
+					"question": "Elle travaille jusqu'en fin de soirée.",
+					"explanation": "Present Simple pour une routine de travail permanente."
+				},
+				"de": {
+					"question": "Sie arbeitet bis spät abends.",
+					"explanation": "Present Simple für einen dauerhaften Arbeitsablauf."
+				},
+				"es": {
+					"question": "Ella trabaja hasta tarde por la noche.",
+					"explanation": "Present Simple para una rutina de trabajo permanente."
+				}
+			}
 		},
 		{
-			"question": "Этот рецепт требует двух яиц.",
 			"answer": "This recipe requires two eggs.",
-			"explanation": "Present Simple для постоянных инструкций или требований."
+			"translations": {
+				"ru": {
+					"question": "Этот рецепт требует двух яиц.",
+					"explanation": "Present Simple для постоянных инструкций или требований."
+				},
+				"fr": {
+					"question": "Cette recette nécessite deux œufs.",
+					"explanation": "Present Simple pour les instructions ou exigences permanentes."
+				},
+				"de": {
+					"question": "Dieses Rezept erfordert zwei Eier.",
+					"explanation": "Present Simple für dauerhafte Anleitungen oder Anforderungen."
+				},
+				"es": {
+					"question": "Esta receta requiere dos huevos.",
+					"explanation": "Present Simple para instrucciones o requisitos permanentes."
+				}
+			}
 		},
 		{
-			"question": "Он занимается боксом.",
 			"answer": "He does boxing.",
-			"explanation": "Present Simple для постоянного занятия."
+			"translations": {
+				"ru": {
+					"question": "Он занимается боксом.",
+					"explanation": "Present Simple для постоянного занятия."
+				},
+				"fr": {
+					"question": "Il fait de la boxe.",
+					"explanation": "Present Simple pour une activité permanente."
+				},
+				"de": {
+					"question": "Er betreibt Boxen.",
+					"explanation": "Present Simple für eine dauerhafte Freizeitbeschäftigung."
+				},
+				"es": {
+					"question": "Él practica boxeo.",
+					"explanation": "Present Simple para una actividad permanente."
+				}
+			}
 		},
 		{
-			"question": "Мы не смотрим мультфильмы.",
 			"answer": "We don't watch cartoons.",
-			"explanation": "Отрицание в Present Simple с don't для we."
+			"translations": {
+				"ru": {
+					"question": "Мы не смотрим мультфильмы.",
+					"explanation": "Отрицание в Present Simple с don't для we."
+				},
+				"fr": {
+					"question": "Nous ne regardons pas les dessins animés.",
+					"explanation": "Négation au Present Simple avec don't pour we."
+				},
+				"de": {
+					"question": "Wir schauen keine Zeichentrickfilme.",
+					"explanation": "Verneinung im Present Simple mit don't für we."
+				},
+				"es": {
+					"question": "No vemos dibujos animados.",
+					"explanation": "Negación en Present Simple con don't para we."
+				}
+			}
 		},
 		{
-			"question": "Луна вращается вокруг Земли.",
 			"answer": "The Moon revolves around the Earth.",
-			"explanation": "Present Simple для постоянных астрономических фактов."
+			"translations": {
+				"ru": {
+					"question": "Луна вращается вокруг Земли.",
+					"explanation": "Present Simple для постоянных астрономических фактов."
+				},
+				"fr": {
+					"question": "La Lune tourne autour de la Terre.",
+					"explanation": "Present Simple pour les faits astronomiques permanents."
+				},
+				"de": {
+					"question": "Der Mond dreht sich um die Erde.",
+					"explanation": "Present Simple für dauerhafte astronomische Fakten."
+				},
+				"es": {
+					"question": "La Luna gira alrededor de la Tierra.",
+					"explanation": "Present Simple para hechos astronómicos permanentes."
+				}
+			}
 		},
 		{
-			"question": "Я думаю, что ты не прав.",
 			"answer": "I think you are wrong.",
-			"explanation": "Present Simple с глаголом мнения think."
+			"translations": {
+				"ru": {
+					"question": "Я думаю, что ты не прав.",
+					"explanation": "Present Simple с глаголом мнения think."
+				},
+				"fr": {
+					"question": "Je pense que tu as tort.",
+					"explanation": "Present Simple avec le verbe d'opinion think."
+				},
+				"de": {
+					"question": "Ich denke, dass du Unrecht hast.",
+					"explanation": "Present Simple mit dem Meinungsverb think."
+				},
+				"es": {
+					"question": "Creo que no tienes razón.",
+					"explanation": "Present Simple con el verbo de opinión think."
+				}
+			}
 		},
 		{
-			"question": "Она умеет готовить очень вкусно.",
 			"answer": "She can cook very well.",
-			"explanation": "Модальный глагол can в Present Simple для выражения умения."
+			"translations": {
+				"ru": {
+					"question": "Она умеет готовить очень вкусно.",
+					"explanation": "Модальный глагол can в Present Simple для выражения умения."
+				},
+				"fr": {
+					"question": "Elle sait très bien cuisiner.",
+					"explanation": "Verbe modal can au Present Simple pour exprimer une capacité."
+				},
+				"de": {
+					"question": "Sie kann sehr gut kochen.",
+					"explanation": "Modalverb can im Present Simple zum Ausdruck einer Fähigkeit."
+				},
+				"es": {
+					"question": "Ella sabe cocinar muy bien.",
+					"explanation": "Verbo modal can en Present Simple para expresar habilidad."
+				}
+			}
 		},
 		{
-			"question": "Он ведёт здоровый образ жизни.",
 			"answer": "He leads a healthy lifestyle.",
-			"explanation": "Present Simple для постоянной характеристики образа жизни."
+			"translations": {
+				"ru": {
+					"question": "Он ведёт здоровый образ жизни.",
+					"explanation": "Present Simple для постоянной характеристики образа жизни."
+				},
+				"fr": {
+					"question": "Il mène une vie saine.",
+					"explanation": "Le Present Simple pour caractériser de façon permanente un mode de vie."
+				},
+				"de": {
+					"question": "Er führt einen gesunden Lebensstil.",
+					"explanation": "Present Simple für eine dauerhafte Charakterisierung des Lebensstils."
+				},
+				"es": {
+					"question": "Él lleva un estilo de vida saludable.",
+					"explanation": "El Present Simple para una característica permanente del estilo de vida."
+				}
+			}
 		},
 		{
-			"question": "Ты помнишь его имя?",
 			"answer": "Do you remember his name?",
-			"explanation": "Вопрос в Present Simple с глаголом состояния remember."
+			"translations": {
+				"ru": {
+					"question": "Ты помнишь его имя?",
+					"explanation": "Вопрос в Present Simple с глаголом состояния remember."
+				},
+				"fr": {
+					"question": "Tu te souviens de son nom ?",
+					"explanation": "Question au Present Simple avec le verbe d'état remember."
+				},
+				"de": {
+					"question": "Erinnerst du dich an seinen Namen?",
+					"explanation": "Frage im Present Simple mit dem Zustandsverb remember."
+				},
+				"es": {
+					"question": "¿Recuerdas su nombre?",
+					"explanation": "Pregunta en Present Simple con el verbo de estado remember."
+				}
+			}
 		},
 		{
-			"question": "Они смотрят новости каждый вечер.",
 			"answer": "They watch the news every evening.",
-			"explanation": "Present Simple для ежевечерних привычек."
+			"translations": {
+				"ru": {
+					"question": "Они смотрят новости каждый вечер.",
+					"explanation": "Present Simple для ежевечерних привычек."
+				},
+				"fr": {
+					"question": "Ils regardent les informations chaque soir.",
+					"explanation": "Le Present Simple pour les habitudes du soir répétées chaque jour."
+				},
+				"de": {
+					"question": "Sie schauen jeden Abend die Nachrichten.",
+					"explanation": "Present Simple für abendliche Gewohnheiten."
+				},
+				"es": {
+					"question": "Ellos ven las noticias cada tarde.",
+					"explanation": "El Present Simple para hábitos que se repiten cada tarde."
+				}
+			}
 		},
 		{
-			"question": "Кровь содержит железо.",
 			"answer": "Blood contains iron.",
-			"explanation": "Present Simple для постоянных научных фактов."
+			"translations": {
+				"ru": {
+					"question": "Кровь содержит железо.",
+					"explanation": "Present Simple для постоянных научных фактов."
+				},
+				"fr": {
+					"question": "Le sang contient du fer.",
+					"explanation": "Le Present Simple pour les faits scientifiques permanents."
+				},
+				"de": {
+					"question": "Blut enthält Eisen.",
+					"explanation": "Present Simple für dauerhafte wissenschaftliche Fakten."
+				},
+				"es": {
+					"question": "La sangre contiene hierro.",
+					"explanation": "El Present Simple para hechos científicos permanentes."
+				}
+			}
 		},
 		{
-			"question": "Она занимается рисованием.",
 			"answer": "She does painting.",
-			"explanation": "Present Simple для постоянного хобби."
+			"translations": {
+				"ru": {
+					"question": "Она занимается рисованием.",
+					"explanation": "Present Simple для постоянного хобби."
+				},
+				"fr": {
+					"question": "Elle fait du dessin.",
+					"explanation": "Le Present Simple pour un hobby permanent."
+				},
+				"de": {
+					"question": "Sie beschäftigt sich mit Zeichnen.",
+					"explanation": "Present Simple für ein dauerhaftes Hobby."
+				},
+				"es": {
+					"question": "Ella se dedica al dibujo.",
+					"explanation": "El Present Simple para un hobby permanente."
+				}
+			}
 		},
 		{
-			"question": "Он не хочет переезжать.",
 			"answer": "He doesn't want to move.",
-			"explanation": "Отрицание с doesn't и глаголом состояния want."
+			"translations": {
+				"ru": {
+					"question": "Он не хочет переезжать.",
+					"explanation": "Отрицание с doesn't и глаголом состояния want."
+				},
+				"fr": {
+					"question": "Il ne veut pas déménager.",
+					"explanation": "Négation avec doesn't et le verbe d'état want."
+				},
+				"de": {
+					"question": "Er will nicht umziehen.",
+					"explanation": "Verneinung mit doesn't und dem Zustandsverb want."
+				},
+				"es": {
+					"question": "Él no quiere mudarse.",
+					"explanation": "Negación con doesn't y el verbo de estado want."
+				}
+			}
 		},
 		{
-			"question": "Мы ужинаем вместе по воскресеньям.",
 			"answer": "We have dinner together on Sundays.",
-			"explanation": "Present Simple для еженедельных традиций."
+			"translations": {
+				"ru": {
+					"question": "Мы ужинаем вместе по воскресеньям.",
+					"explanation": "Present Simple для еженедельных традиций."
+				},
+				"fr": {
+					"question": "Nous dînons ensemble le dimanche.",
+					"explanation": "Le Present Simple pour les traditions hebdomadaires."
+				},
+				"de": {
+					"question": "Wir essen sonntags gemeinsam zu Abend.",
+					"explanation": "Present Simple für wöchentliche Traditionen."
+				},
+				"es": {
+					"question": "Cenamos juntos los domingos.",
+					"explanation": "El Present Simple para tradiciones semanales."
+				}
+			}
 		},
 		{
-			"question": "Я ненавижу ждать.",
 			"answer": "I hate waiting.",
-			"explanation": "Present Simple с глаголом состояния hate."
+			"translations": {
+				"ru": {
+					"question": "Я ненавижу ждать.",
+					"explanation": "Present Simple с глаголом состояния hate."
+				},
+				"fr": {
+					"question": "Je déteste attendre.",
+					"explanation": "Le Present Simple avec le verbe d'état hate."
+				},
+				"de": {
+					"question": "Ich hasse es zu warten.",
+					"explanation": "Present Simple mit dem Zustandsverb hate."
+				},
+				"es": {
+					"question": "Odio esperar.",
+					"explanation": "El Present Simple con el verbo de estado hate."
+				}
+			}
 		},
 		{
-			"question": "Эта книга стоит дорого.",
 			"answer": "This book costs a lot.",
-			"explanation": "Present Simple для постоянного факта о цене."
+			"translations": {
+				"ru": {
+					"question": "Эта книга стоит дорого.",
+					"explanation": "Present Simple для постоянного факта о цене."
+				},
+				"fr": {
+					"question": "Ce livre coûte cher.",
+					"explanation": "Le Present Simple pour un fait permanent sur le prix."
+				},
+				"de": {
+					"question": "Dieses Buch ist teuer.",
+					"explanation": "Present Simple für eine dauerhafte Tatsache über den Preis."
+				},
+				"es": {
+					"question": "Este libro cuesta mucho.",
+					"explanation": "El Present Simple para un hecho permanente sobre el precio."
+				}
+			}
 		},
 		{
-			"question": "Она звонит маме каждое воскресенье.",
 			"answer": "She calls her mother every Sunday.",
-			"explanation": "Present Simple для регулярных действий."
+			"translations": {
+				"ru": {
+					"question": "Она звонит маме каждое воскресенье.",
+					"explanation": "Present Simple для регулярных действий."
+				},
+				"fr": {
+					"question": "Elle appelle sa mère chaque dimanche.",
+					"explanation": "Le Present Simple pour des actions régulières."
+				},
+				"de": {
+					"question": "Sie ruft jeden Sonntag ihre Mutter an.",
+					"explanation": "Present Simple für regelmäßige Handlungen."
+				},
+				"es": {
+					"question": "Ella llama a su madre cada domingo.",
+					"explanation": "El Present Simple para acciones regulares."
+				}
+			}
 		},
 		{
-			"question": "Он тренируется каждый день.",
 			"answer": "He trains every day.",
-			"explanation": "Present Simple для ежедневных привычек."
+			"translations": {
+				"ru": {
+					"question": "Он тренируется каждый день.",
+					"explanation": "Present Simple для ежедневных привычек."
+				},
+				"fr": {
+					"question": "Il s'entraîne chaque jour.",
+					"explanation": "Le Present Simple pour les habitudes quotidiennes."
+				},
+				"de": {
+					"question": "Er trainiert jeden Tag.",
+					"explanation": "Present Simple für tägliche Gewohnheiten."
+				},
+				"es": {
+					"question": "Él entrena todos los días.",
+					"explanation": "El Present Simple para hábitos diarios."
+				}
+			}
 		},
 		{
-			"question": "Вы курите?",
 			"answer": "Do you smoke?",
-			"explanation": "Вопрос в Present Simple для выяснения привычек."
+			"translations": {
+				"ru": {
+					"question": "Вы курите?",
+					"explanation": "Вопрос в Present Simple для выяснения привычек."
+				},
+				"fr": {
+					"question": "Vous fumez ?",
+					"explanation": "Question au Present Simple pour déterminer les habitudes."
+				},
+				"de": {
+					"question": "Rauchen Sie?",
+					"explanation": "Frage im Present Simple zur Ermittlung von Gewohnheiten."
+				},
+				"es": {
+					"question": "¿Fuma usted?",
+					"explanation": "Pregunta en Present Simple para averiguar hábitos."
+				}
+			}
 		},
 		{
-			"question": "Они не едят острую пищу.",
 			"answer": "They don't eat spicy food.",
-			"explanation": "Отрицание в Present Simple для they."
+			"translations": {
+				"ru": {
+					"question": "Они не едят острую пищу.",
+					"explanation": "Отрицание в Present Simple для they."
+				},
+				"fr": {
+					"question": "Ils ne mangent pas de nourriture épicée.",
+					"explanation": "Négation au Present Simple pour they."
+				},
+				"de": {
+					"question": "Sie essen kein scharfes Essen.",
+					"explanation": "Verneinung im Present Simple für they."
+				},
+				"es": {
+					"question": "Ellos no comen comida picante.",
+					"explanation": "Negación en Present Simple para they."
+				}
+			}
 		},
 		{
-			"question": "Солнце садится на западе.",
 			"answer": "The Sun sets in the west.",
-			"explanation": "Present Simple для постоянных фактов о природе."
+			"translations": {
+				"ru": {
+					"question": "Солнце садится на западе.",
+					"explanation": "Present Simple для постоянных фактов о природе."
+				},
+				"fr": {
+					"question": "Le soleil se couche à l'ouest.",
+					"explanation": "Le Present Simple pour les faits permanents sur la nature."
+				},
+				"de": {
+					"question": "Die Sonne geht im Westen unter.",
+					"explanation": "Present Simple für dauerhafte Fakten über die Natur."
+				},
+				"es": {
+					"question": "El sol se pone en el oeste.",
+					"explanation": "El Present Simple para hechos permanentes sobre la naturaleza."
+				}
+			}
 		},
 		{
-			"question": "Он следит за своим здоровьем.",
 			"answer": "He takes care of his health.",
-			"explanation": "Present Simple для постоянных привычек."
+			"translations": {
+				"ru": {
+					"question": "Он следит за своим здоровьем.",
+					"explanation": "Present Simple для постоянных привычек."
+				},
+				"fr": {
+					"question": "Il fait attention à sa santé.",
+					"explanation": "Le Present Simple pour les habitudes permanentes."
+				},
+				"de": {
+					"question": "Er achtet auf seine Gesundheit.",
+					"explanation": "Present Simple für dauerhafte Gewohnheiten."
+				},
+				"es": {
+					"question": "Él cuida su salud.",
+					"explanation": "El Present Simple para hábitos permanentes."
+				}
+			}
 		},
 		{
-			"question": "Я знаю этого человека.",
 			"answer": "I know this person.",
-			"explanation": "Present Simple с глаголом состояния know."
+			"translations": {
+				"ru": {
+					"question": "Я знаю этого человека.",
+					"explanation": "Present Simple с глаголом состояния know."
+				},
+				"fr": {
+					"question": "Je connais cette personne.",
+					"explanation": "Le Present Simple avec le verbe d'état know."
+				},
+				"de": {
+					"question": "Ich kenne diesen Menschen.",
+					"explanation": "Present Simple mit dem Zustandsverb know."
+				},
+				"es": {
+					"question": "Conozco a esta persona.",
+					"explanation": "El Present Simple con el verbo de estado know."
+				}
+			}
 		},
 		{
-			"question": "Она читает по книге в неделю.",
 			"answer": "She reads one book a week.",
-			"explanation": "Present Simple для регулярных действий с указанием частоты."
+			"translations": {
+				"ru": {
+					"question": "Она читает по книге в неделю.",
+					"explanation": "Present Simple для регулярных действий с указанием частоты."
+				},
+				"fr": {
+					"question": "Elle lit un livre par semaine.",
+					"explanation": "Le Present Simple pour des actions régulières avec indication de fréquence."
+				},
+				"de": {
+					"question": "Sie liest ein Buch pro Woche.",
+					"explanation": "Present Simple für regelmäßige Handlungen mit Häufigkeitsangabe."
+				},
+				"es": {
+					"question": "Ella lee un libro por semana.",
+					"explanation": "El Present Simple para acciones regulares con indicación de frecuencia."
+				}
+			}
 		},
 		{
-			"question": "Эта машина потребляет много топлива.",
 			"answer": "This car uses a lot of fuel.",
-			"explanation": "Present Simple для постоянных характеристик."
+			"translations": {
+				"ru": {
+					"question": "Эта машина потребляет много топлива.",
+					"explanation": "Present Simple для постоянных характеристик."
+				},
+				"fr": {
+					"question": "Cette voiture consomme beaucoup d'essence.",
+					"explanation": "Le Present Simple pour des caractéristiques permanentes."
+				},
+				"de": {
+					"question": "Dieses Auto verbraucht viel Kraftstoff.",
+					"explanation": "Present Simple für dauerhafte Eigenschaften."
+				},
+				"es": {
+					"question": "Este coche consume mucho combustible.",
+					"explanation": "El Present Simple para características permanentes."
+				}
+			}
 		},
 		{
-			"question": "Мы не любим грустные фильмы.",
 			"answer": "We don't like sad films.",
-			"explanation": "Отрицание в Present Simple с глаголом состояния like."
+			"translations": {
+				"ru": {
+					"question": "Мы не любим грустные фильмы.",
+					"explanation": "Отрицание в Present Simple с глаголом состояния like."
+				},
+				"fr": {
+					"question": "Nous n'aimons pas les films tristes.",
+					"explanation": "Négation au Present Simple avec le verbe d'état like."
+				},
+				"de": {
+					"question": "Wir mögen keine traurigen Filme.",
+					"explanation": "Verneinung im Present Simple mit dem Zustandsverb like."
+				},
+				"es": {
+					"question": "No nos gustan las películas tristes.",
+					"explanation": "Negación en Present Simple con el verbo de estado like."
+				}
+			}
 		},
 		{
-			"question": "Ты веришь в то, что он говорит?",
 			"answer": "Do you believe what he says?",
-			"explanation": "Вопрос в Present Simple с глаголом состояния believe."
+			"translations": {
+				"ru": {
+					"question": "Ты веришь в то, что он говорит?",
+					"explanation": "Вопрос в Present Simple с глаголом состояния believe."
+				},
+				"fr": {
+					"question": "Tu crois ce qu'il dit ?",
+					"explanation": "Question au Present Simple avec le verbe d'état believe."
+				},
+				"de": {
+					"question": "Glaubst du, was er sagt?",
+					"explanation": "Frage im Present Simple mit dem Zustandsverb believe."
+				},
+				"es": {
+					"question": "¿Crees lo que él dice?",
+					"explanation": "Pregunta en Present Simple con el verbo de estado believe."
+				}
+			}
 		},
 		{
-			"question": "Он работает допоздна каждую среду.",
 			"answer": "He works late every Wednesday.",
-			"explanation": "Present Simple для еженедельных привычек."
+			"translations": {
+				"ru": {
+					"question": "Он работает допоздна каждую среду.",
+					"explanation": "Present Simple для еженедельных привычек."
+				},
+				"fr": {
+					"question": "Il travaille tard chaque mercredi.",
+					"explanation": "Present Simple pour les habitudes hebdomadaires."
+				},
+				"de": {
+					"question": "Er arbeitet jeden Mittwoch bis spät.",
+					"explanation": "Present Simple für wöchentliche Gewohnheiten."
+				},
+				"es": {
+					"question": "Él trabaja hasta tarde cada miércoles.",
+					"explanation": "Present Simple para hábitos semanales."
+				}
+			}
 		},
 		{
-			"question": "Она изучает иностранные языки.",
 			"answer": "She studies foreign languages.",
-			"explanation": "Present Simple для постоянных занятий."
+			"translations": {
+				"ru": {
+					"question": "Она изучает иностранные языки.",
+					"explanation": "Present Simple для постоянных занятий."
+				},
+				"fr": {
+					"question": "Elle étudie les langues étrangères.",
+					"explanation": "Present Simple pour les activités permanentes."
+				},
+				"de": {
+					"question": "Sie lernt Fremdsprachen.",
+					"explanation": "Present Simple für dauerhafte Tätigkeiten."
+				},
+				"es": {
+					"question": "Ella estudia idiomas extranjeros.",
+					"explanation": "Present Simple para actividades permanentes."
+				}
+			}
 		},
 		{
-			"question": "Дети любят сладкое.",
 			"answer": "Children love sweets.",
-			"explanation": "Present Simple для общих предпочтений."
+			"translations": {
+				"ru": {
+					"question": "Дети любят сладкое.",
+					"explanation": "Present Simple для общих предпочтений."
+				},
+				"fr": {
+					"question": "Les enfants aiment les sucreries.",
+					"explanation": "Present Simple pour les préférences générales."
+				},
+				"de": {
+					"question": "Kinder lieben Süßigkeiten.",
+					"explanation": "Present Simple für allgemeine Vorlieben."
+				},
+				"es": {
+					"question": "Los niños aman los dulces.",
+					"explanation": "Present Simple para preferencias generales."
+				}
+			}
 		},
 		{
-			"question": "Он замечает все детали.",
 			"answer": "He notices every detail.",
-			"explanation": "Present Simple с глаголом восприятия notice."
+			"translations": {
+				"ru": {
+					"question": "Он замечает все детали.",
+					"explanation": "Present Simple с глаголом восприятия notice."
+				},
+				"fr": {
+					"question": "Il remarque tous les détails.",
+					"explanation": "Present Simple avec le verbe de perception notice."
+				},
+				"de": {
+					"question": "Er bemerkt alle Details.",
+					"explanation": "Present Simple mit dem Wahrnehmungsverb notice."
+				},
+				"es": {
+					"question": "Él nota todos los detalles.",
+					"explanation": "Present Simple con el verbo de percepción notice."
+				}
+			}
 		},
 		{
-			"question": "Я иногда смотрю фильмы на английском.",
 			"answer": "I sometimes watch films in English.",
-			"explanation": "Present Simple с наречием sometimes."
+			"translations": {
+				"ru": {
+					"question": "Я иногда смотрю фильмы на английском.",
+					"explanation": "Present Simple с наречием sometimes."
+				},
+				"fr": {
+					"question": "Je regarde parfois des films en anglais.",
+					"explanation": "Present Simple avec l'adverbe sometimes."
+				},
+				"de": {
+					"question": "Ich schaue manchmal Filme auf Englisch.",
+					"explanation": "Present Simple mit dem Adverb sometimes."
+				},
+				"es": {
+					"question": "A veces veo películas en inglés.",
+					"explanation": "Present Simple con el adverbio sometimes."
+				}
+			}
 		},
 		{
-			"question": "Она не хочет разговаривать.",
 			"answer": "She doesn't want to talk.",
-			"explanation": "Отрицание с doesn't и глаголом want."
+			"translations": {
+				"ru": {
+					"question": "Она не хочет разговаривать.",
+					"explanation": "Отрицание с doesn't и глаголом want."
+				},
+				"fr": {
+					"question": "Elle ne veut pas parler.",
+					"explanation": "Négation avec doesn't et le verbe want."
+				},
+				"de": {
+					"question": "Sie will nicht reden.",
+					"explanation": "Verneinung mit doesn't und dem Verb want."
+				},
+				"es": {
+					"question": "Ella no quiere hablar.",
+					"explanation": "Negación con doesn't y el verbo want."
+				}
+			}
 		},
 		{
-			"question": "Этот завод работает пять дней в неделю.",
 			"answer": "This factory operates five days a week.",
-			"explanation": "Present Simple для постоянного режима работы."
+			"translations": {
+				"ru": {
+					"question": "Этот завод работает пять дней в неделю.",
+					"explanation": "Present Simple для постоянного режима работы."
+				},
+				"fr": {
+					"question": "Cette usine fonctionne cinq jours par semaine.",
+					"explanation": "Present Simple pour un régime de travail permanent."
+				},
+				"de": {
+					"question": "Diese Fabrik arbeitet fünf Tage die Woche.",
+					"explanation": "Present Simple für einen dauerhaften Arbeitsbetrieb."
+				},
+				"es": {
+					"question": "Esta fábrica trabaja cinco días a la semana.",
+					"explanation": "Present Simple para un régimen de trabajo permanente."
+				}
+			}
 		},
 		{
-			"question": "Мы знаем ответ.",
 			"answer": "We know the answer.",
-			"explanation": "Present Simple с глаголом состояния know."
+			"translations": {
+				"ru": {
+					"question": "Мы знаем ответ.",
+					"explanation": "Present Simple с глаголом состояния know."
+				},
+				"fr": {
+					"question": "Nous connaissons la réponse.",
+					"explanation": "Present Simple avec le verbe d'état know."
+				},
+				"de": {
+					"question": "Wir kennen die Antwort.",
+					"explanation": "Present Simple mit dem Zustandsverb know."
+				},
+				"es": {
+					"question": "Sabemos la respuesta.",
+					"explanation": "Present Simple con el verbo de estado know."
+				}
+			}
 		},
 		{
-			"question": "Они платят налоги каждый год.",
 			"answer": "They pay taxes every year.",
-			"explanation": "Present Simple для ежегодных регулярных действий."
+			"translations": {
+				"ru": {
+					"question": "Они платят налоги каждый год.",
+					"explanation": "Present Simple для ежегодных регулярных действий."
+				},
+				"fr": {
+					"question": "Ils paient des impôts chaque année.",
+					"explanation": "Present Simple pour les actions régulières annuelles."
+				},
+				"de": {
+					"question": "Sie zahlen jedes Jahr Steuern.",
+					"explanation": "Present Simple für jährliche regelmäßige Handlungen."
+				},
+				"es": {
+					"question": "Ellos pagan impuestos cada año.",
+					"explanation": "Present Simple para acciones regulares anuales."
+				}
+			}
 		},
 		{
-			"question": "Он ценит своё время.",
 			"answer": "He values his time.",
-			"explanation": "Present Simple для постоянного отношения."
+			"translations": {
+				"ru": {
+					"question": "Он ценит своё время.",
+					"explanation": "Present Simple для постоянного отношения."
+				},
+				"fr": {
+					"question": "Il apprécie son temps.",
+					"explanation": "Present Simple pour une attitude permanente."
+				},
+				"de": {
+					"question": "Er schätzt seine Zeit.",
+					"explanation": "Present Simple für eine dauerhafte Einstellung."
+				},
+				"es": {
+					"question": "Él valora su tiempo.",
+					"explanation": "Present Simple para una actitud permanente."
+				}
+			}
 		},
 		{
-			"question": "Я встречаю его каждое утро в кафе.",
 			"answer": "I meet him every morning at the café.",
-			"explanation": "Present Simple для регулярных встреч."
+			"translations": {
+				"ru": {
+					"question": "Я встречаю его каждое утро в кафе.",
+					"explanation": "Present Simple для регулярных встреч."
+				},
+				"fr": {
+					"question": "Je le rencontre chaque matin au café.",
+					"explanation": "Present Simple pour les rencontres régulières."
+				},
+				"de": {
+					"question": "Ich treffe ihn jeden Morgen im Café.",
+					"explanation": "Present Simple für regelmäßige Treffen."
+				},
+				"es": {
+					"question": "Lo encuentro cada mañana en el café.",
+					"explanation": "Present Simple para encuentros regulares."
+				}
+			}
 		},
 		{
-			"question": "Она иногда забывает ключи.",
 			"answer": "She sometimes forgets her keys.",
-			"explanation": "Present Simple с наречием sometimes для нерегулярных привычек."
+			"translations": {
+				"ru": {
+					"question": "Она иногда забывает ключи.",
+					"explanation": "Present Simple с наречием sometimes для нерегулярных привычек."
+				},
+				"fr": {
+					"question": "Elle oublie parfois ses clés.",
+					"explanation": "Present Simple avec l'adverbe sometimes pour les habitudes irrégulières."
+				},
+				"de": {
+					"question": "Sie vergisst manchmal ihre Schlüssel.",
+					"explanation": "Present Simple mit dem Adverb sometimes für unregelmäßige Gewohnheiten."
+				},
+				"es": {
+					"question": "Ella a veces olvida las llaves.",
+					"explanation": "Present Simple con el adverbio sometimes para hábitos irregulares."
+				}
+			}
 		},
 		{
-			"question": "Рыба живёт в воде.",
 			"answer": "Fish live in water.",
-			"explanation": "Present Simple для биологических фактов."
+			"translations": {
+				"ru": {
+					"question": "Рыба живёт в воде.",
+					"explanation": "Present Simple для биологических фактов."
+				},
+				"fr": {
+					"question": "Les poissons vivent dans l'eau.",
+					"explanation": "Present Simple pour les faits biologiques."
+				},
+				"de": {
+					"question": "Fische leben im Wasser.",
+					"explanation": "Present Simple für biologische Fakten."
+				},
+				"es": {
+					"question": "Los peces viven en el agua.",
+					"explanation": "Present Simple para hechos biológicos."
+				}
+			}
 		},
 		{
-			"question": "Он не ест сахара.",
 			"answer": "He doesn't eat sugar.",
-			"explanation": "Отрицание с doesn't для he/she/it."
+			"translations": {
+				"ru": {
+					"question": "Он не ест сахара.",
+					"explanation": "Отрицание с doesn't для he/she/it."
+				},
+				"fr": {
+					"question": "Il ne mange pas de sucre.",
+					"explanation": "Négation avec doesn't pour he/she/it."
+				},
+				"de": {
+					"question": "Er isst keinen Zucker.",
+					"explanation": "Verneinung mit doesn't für he/she/it."
+				},
+				"es": {
+					"question": "Él no come azúcar.",
+					"explanation": "Negación con doesn't para he/she/it."
+				}
+			}
 		},
 		{
-			"question": "Ты понимаешь по-испански?",
 			"answer": "Do you understand Spanish?",
-			"explanation": "Вопрос в Present Simple с глаголом состояния understand."
+			"translations": {
+				"ru": {
+					"question": "Ты понимаешь по-испански?",
+					"explanation": "Вопрос в Present Simple с глаголом состояния understand."
+				},
+				"fr": {
+					"question": "Est-ce que tu comprends l'espagnol ?",
+					"explanation": "Question en Present Simple avec le verbe d'état understand."
+				},
+				"de": {
+					"question": "Verstehst du Spanisch?",
+					"explanation": "Frage im Present Simple mit dem Zustandsverb understand."
+				},
+				"es": {
+					"question": "¿Entiendes español?",
+					"explanation": "Pregunta en Present Simple con el verbo de estado understand."
+				}
+			}
 		},
 		{
-			"question": "Она любит проводить время на природе.",
 			"answer": "She loves spending time in nature.",
-			"explanation": "Present Simple с глаголом состояния love."
+			"translations": {
+				"ru": {
+					"question": "Она любит проводить время на природе.",
+					"explanation": "Present Simple с глаголом состояния love."
+				},
+				"fr": {
+					"question": "Elle aime passer du temps dans la nature.",
+					"explanation": "Present Simple avec le verbe d'état love."
+				},
+				"de": {
+					"question": "Sie liebt es, Zeit in der Natur zu verbringen.",
+					"explanation": "Present Simple mit dem Zustandsverb love."
+				},
+				"es": {
+					"question": "Ella ama pasar tiempo en la naturaleza.",
+					"explanation": "Present Simple con el verbo de estado love."
+				}
+			}
 		},
 		{
-			"question": "Мы часто ходим на прогулки.",
 			"answer": "We often go for walks.",
-			"explanation": "Present Simple с наречием often."
+			"translations": {
+				"ru": {
+					"question": "Мы часто ходим на прогулки.",
+					"explanation": "Present Simple с наречием often."
+				},
+				"fr": {
+					"question": "Nous allons souvent nous promener.",
+					"explanation": "Present Simple avec l'adverbe often."
+				},
+				"de": {
+					"question": "Wir gehen oft spazieren.",
+					"explanation": "Present Simple mit dem Adverb often."
+				},
+				"es": {
+					"question": "A menudo salimos a caminar.",
+					"explanation": "Present Simple con el adverbio often."
+				}
+			}
 		},
 		{
-			"question": "Эта компания нанимает сотрудников каждый год.",
 			"answer": "This company hires employees every year.",
-			"explanation": "Present Simple для регулярной корпоративной практики."
+			"translations": {
+				"ru": {
+					"question": "Эта компания нанимает сотрудников каждый год.",
+					"explanation": "Present Simple для регулярной корпоративной практики."
+				},
+				"fr": {
+					"question": "Cette entreprise embauche des employés chaque année.",
+					"explanation": "Present Simple pour les pratiques régulières en entreprise."
+				},
+				"de": {
+					"question": "Dieses Unternehmen stellt jedes Jahr Mitarbeiter ein.",
+					"explanation": "Present Simple für regelmäßige Unternehmenspraktiken."
+				},
+				"es": {
+					"question": "Esta empresa contrata empleados cada año.",
+					"explanation": "Present Simple para prácticas corporativas regulares."
+				}
+			}
 		},
 		{
-			"question": "Он не курит и не пьёт.",
 			"answer": "He doesn't smoke or drink.",
-			"explanation": "Отрицание с doesn't для двух действий сразу."
+			"translations": {
+				"ru": {
+					"question": "Он не курит и не пьёт.",
+					"explanation": "Отрицание с doesn't для двух действий сразу."
+				},
+				"fr": {
+					"question": "Il ne fume pas et ne boit pas.",
+					"explanation": "Négation avec doesn't pour deux actions à la fois."
+				},
+				"de": {
+					"question": "Er raucht nicht und trinkt nicht.",
+					"explanation": "Verneinung mit doesn't für zwei Handlungen gleichzeitig."
+				},
+				"es": {
+					"question": "Él no fuma ni bebe.",
+					"explanation": "Negación con doesn't para dos acciones a la vez."
+				}
+			}
 		},
 		{
-			"question": "Я верю в тебя.",
 			"answer": "I believe in you.",
-			"explanation": "Present Simple с глаголом состояния believe."
+			"translations": {
+				"ru": {
+					"question": "Я верю в тебя.",
+					"explanation": "Present Simple с глаголом состояния believe."
+				},
+				"fr": {
+					"question": "Je crois en toi.",
+					"explanation": "Present Simple avec le verbe d'état believe."
+				},
+				"de": {
+					"question": "Ich glaube an dich.",
+					"explanation": "Present Simple mit dem Zustandsverb believe."
+				},
+				"es": {
+					"question": "Creo en ti.",
+					"explanation": "Present Simple con el verbo de estado believe."
+				}
+			}
 		},
 		{
-			"question": "Она занимается танцами.",
 			"answer": "She does dancing.",
-			"explanation": "Present Simple для хобби и постоянных занятий."
+			"translations": {
+				"ru": {
+					"question": "Она занимается танцами.",
+					"explanation": "Present Simple для хобби и постоянных занятий."
+				},
+				"fr": {
+					"question": "Elle fait de la danse.",
+					"explanation": "Present Simple pour les hobbies et les activités régulières."
+				},
+				"de": {
+					"question": "Sie tanzt.",
+					"explanation": "Present Simple für Hobbys und regelmäßige Aktivitäten."
+				},
+				"es": {
+					"question": "Ella practica la danza.",
+					"explanation": "Present Simple para hobbies y actividades habituales."
+				}
+			}
 		},
 		{
-			"question": "Они никогда не жалуются.",
 			"answer": "They never complain.",
-			"explanation": "Present Simple с наречием never."
+			"translations": {
+				"ru": {
+					"question": "Они никогда не жалуются.",
+					"explanation": "Present Simple с наречием never."
+				},
+				"fr": {
+					"question": "Ils ne se plaignent jamais.",
+					"explanation": "Present Simple avec l'adverbe never."
+				},
+				"de": {
+					"question": "Sie beschweren sich nie.",
+					"explanation": "Present Simple mit dem Adverb never."
+				},
+				"es": {
+					"question": "Ellos nunca se quejan.",
+					"explanation": "Present Simple con el adverbio never."
+				}
+			}
 		},
 		{
-			"question": "Этот инструмент измеряет температуру.",
 			"answer": "This instrument measures temperature.",
-			"explanation": "Present Simple для постоянной функции."
+			"translations": {
+				"ru": {
+					"question": "Этот инструмент измеряет температуру.",
+					"explanation": "Present Simple для постоянной функции."
+				},
+				"fr": {
+					"question": "Cet instrument mesure la température.",
+					"explanation": "Present Simple pour une fonction permanente."
+				},
+				"de": {
+					"question": "Dieses Instrument misst die Temperatur.",
+					"explanation": "Present Simple für eine dauerhafte Funktion."
+				},
+				"es": {
+					"question": "Este instrumento mide la temperatura.",
+					"explanation": "Present Simple para una función permanente."
+				}
+			}
 		},
 		{
-			"question": "Он ест только органическую еду.",
 			"answer": "He only eats organic food.",
-			"explanation": "Present Simple с ограничительным наречием only."
+			"translations": {
+				"ru": {
+					"question": "Он ест только органическую еду.",
+					"explanation": "Present Simple с ограничительным наречием only."
+				},
+				"fr": {
+					"question": "Il ne mange que des aliments biologiques.",
+					"explanation": "Present Simple avec l'adverbe restrictif only."
+				},
+				"de": {
+					"question": "Er isst nur Bio-Lebensmittel.",
+					"explanation": "Present Simple mit dem einschränkenden Adverb only."
+				},
+				"es": {
+					"question": "Él come solo comida orgánica.",
+					"explanation": "Present Simple con el adverbio restrictivo only."
+				}
+			}
 		},
 		{
-			"question": "Мы разговариваем по телефону раз в неделю.",
 			"answer": "We talk on the phone once a week.",
-			"explanation": "Present Simple для регулярного общения."
+			"translations": {
+				"ru": {
+					"question": "Мы разговариваем по телефону раз в неделю.",
+					"explanation": "Present Simple для регулярного общения."
+				},
+				"fr": {
+					"question": "Nous parlons au téléphone une fois par semaine.",
+					"explanation": "Present Simple pour une communication régulière."
+				},
+				"de": {
+					"question": "Wir telefonieren einmal pro Woche.",
+					"explanation": "Present Simple für regelmäßige Kommunikation."
+				},
+				"es": {
+					"question": "Hablamos por teléfono una vez a la semana.",
+					"explanation": "Present Simple para la comunicación regular."
+				}
+			}
 		},
 		{
-			"question": "Она любит читать перед сном.",
 			"answer": "She likes reading before bed.",
-			"explanation": "Present Simple с глаголом состояния like."
+			"translations": {
+				"ru": {
+					"question": "Она любит читать перед сном.",
+					"explanation": "Present Simple с глаголом состояния like."
+				},
+				"fr": {
+					"question": "Elle aime lire avant de dormir.",
+					"explanation": "Present Simple avec le verbe d'état like."
+				},
+				"de": {
+					"question": "Sie liest gerne vor dem Schlafengehen.",
+					"explanation": "Present Simple mit dem Zustandsverb like."
+				},
+				"es": {
+					"question": "A ella le gusta leer antes de dormir.",
+					"explanation": "Present Simple con el verbo de estado like."
+				}
+			}
 		},
 		{
-			"question": "Я не верю в совпадения.",
 			"answer": "I don't believe in coincidences.",
-			"explanation": "Отрицание с don't и глаголом состояния believe."
+			"translations": {
+				"ru": {
+					"question": "Я не верю в совпадения.",
+					"explanation": "Отрицание с don't и глаголом состояния believe."
+				},
+				"fr": {
+					"question": "Je ne crois pas aux coïncidences.",
+					"explanation": "Négation avec don't et le verbe d'état believe."
+				},
+				"de": {
+					"question": "Ich glaube nicht an Zufälle.",
+					"explanation": "Verneinung mit don't und dem Zustandsverb believe."
+				},
+				"es": {
+					"question": "No creo en las coincidencias.",
+					"explanation": "Negación con don't y el verbo de estado believe."
+				}
+			}
 		},
 		{
-			"question": "Ты хочешь попробовать?",
 			"answer": "Do you want to try?",
-			"explanation": "Вопрос в Present Simple с глаголом состояния want."
+			"translations": {
+				"ru": {
+					"question": "Ты хочешь попробовать?",
+					"explanation": "Вопрос в Present Simple с глаголом состояния want."
+				},
+				"fr": {
+					"question": "Tu veux essayer ?",
+					"explanation": "Question au Present Simple avec le verbe d'état want."
+				},
+				"de": {
+					"question": "Willst du es versuchen?",
+					"explanation": "Frage im Present Simple mit dem Zustandsverb want."
+				},
+				"es": {
+					"question": "¿Quieres intentarlo?",
+					"explanation": "Pregunta en Present Simple con el verbo de estado want."
+				}
+			}
 		},
 		{
-			"question": "Он ненавидит понедельники.",
 			"answer": "He hates Mondays.",
-			"explanation": "Present Simple с глаголом состояния hate."
+			"translations": {
+				"ru": {
+					"question": "Он ненавидит понедельники.",
+					"explanation": "Present Simple с глаголом состояния hate."
+				},
+				"fr": {
+					"question": "Il déteste les lundis.",
+					"explanation": "Present Simple avec le verbe d'état hate."
+				},
+				"de": {
+					"question": "Er hasst Montage.",
+					"explanation": "Present Simple mit dem Zustandsverb hate."
+				},
+				"es": {
+					"question": "Él odia los lunes.",
+					"explanation": "Present Simple con el verbo de estado hate."
+				}
+			}
 		},
 		{
-			"question": "Они переезжают каждые два года.",
 			"answer": "They move every two years.",
-			"explanation": "Present Simple для регулярных событий."
+			"translations": {
+				"ru": {
+					"question": "Они переезжают каждые два года.",
+					"explanation": "Present Simple для регулярных событий."
+				},
+				"fr": {
+					"question": "Ils déménagent tous les deux ans.",
+					"explanation": "Present Simple pour des événements réguliers."
+				},
+				"de": {
+					"question": "Sie ziehen alle zwei Jahre um.",
+					"explanation": "Present Simple für regelmäßige Ereignisse."
+				},
+				"es": {
+					"question": "Ellos se mudan cada dos años.",
+					"explanation": "Present Simple para eventos regulares."
+				}
+			}
 		},
 		{
-			"question": "Она занимается фотографией.",
 			"answer": "She does photography.",
-			"explanation": "Present Simple для хобби."
+			"translations": {
+				"ru": {
+					"question": "Она занимается фотографией.",
+					"explanation": "Present Simple для хобби."
+				},
+				"fr": {
+					"question": "Elle fait de la photographie.",
+					"explanation": "Present Simple pour un hobby."
+				},
+				"de": {
+					"question": "Sie betreibt Fotografie.",
+					"explanation": "Present Simple für ein Hobby."
+				},
+				"es": {
+					"question": "Ella practica la fotografía.",
+					"explanation": "Present Simple para un hobby."
+				}
+			}
 		},
 		{
-			"question": "Нил — самая длинная река в мире.",
 			"answer": "The Nile is the longest river in the world.",
-			"explanation": "Present Simple для постоянных географических фактов."
+			"translations": {
+				"ru": {
+					"question": "Нил — самая длинная река в мире.",
+					"explanation": "Present Simple для постоянных географических фактов."
+				},
+				"fr": {
+					"question": "Le Nil est le fleuve le plus long du monde.",
+					"explanation": "Present Simple pour des faits géographiques permanents."
+				},
+				"de": {
+					"question": "Der Nil ist der längste Fluss der Welt.",
+					"explanation": "Present Simple für dauerhafte geografische Fakten."
+				},
+				"es": {
+					"question": "El Nilo es el río más largo del mundo.",
+					"explanation": "Present Simple para hechos geográficos permanentes."
+				}
+			}
 		},
 		{
-			"question": "Он читает газету каждое утро.",
 			"answer": "He reads the newspaper every morning.",
-			"explanation": "Present Simple для ежеутренних привычек."
+			"translations": {
+				"ru": {
+					"question": "Он читает газету каждое утро.",
+					"explanation": "Present Simple для ежеутренних привычек."
+				},
+				"fr": {
+					"question": "Il lit le journal chaque matin.",
+					"explanation": "Present Simple pour les habitudes matinales."
+				},
+				"de": {
+					"question": "Er liest jeden Morgen die Zeitung.",
+					"explanation": "Present Simple für morgendliche Gewohnheiten."
+				},
+				"es": {
+					"question": "Él lee el periódico cada mañana.",
+					"explanation": "Present Simple para los hábitos matutinos."
+				}
+			}
 		},
 		{
-			"question": "Мы смотрим матчи вместе.",
 			"answer": "We watch matches together.",
-			"explanation": "Present Simple для совместных привычек."
+			"translations": {
+				"ru": {
+					"question": "Мы смотрим матчи вместе.",
+					"explanation": "Present Simple для совместных привычек."
+				},
+				"fr": {
+					"question": "Nous regardons les matchs ensemble.",
+					"explanation": "Present Simple pour des habitudes communes."
+				},
+				"de": {
+					"question": "Wir schauen die Spiele zusammen an.",
+					"explanation": "Present Simple für gemeinsame Gewohnheiten."
+				},
+				"es": {
+					"question": "Vemos los partidos juntos.",
+					"explanation": "Present Simple para hábitos compartidos."
+				}
+			}
 		},
 		{
-			"question": "Она посещает родителей каждую неделю.",
 			"answer": "She visits her parents every week.",
-			"explanation": "Present Simple для регулярных посещений."
+			"translations": {
+				"ru": {
+					"question": "Она посещает родителей каждую неделю.",
+					"explanation": "Present Simple для регулярных посещений."
+				},
+				"fr": {
+					"question": "Elle rend visite à ses parents chaque semaine.",
+					"explanation": "Present Simple pour des visites régulières."
+				},
+				"de": {
+					"question": "Sie besucht ihre Eltern jede Woche.",
+					"explanation": "Present Simple für regelmäßige Besuche."
+				},
+				"es": {
+					"question": "Ella visita a sus padres cada semana.",
+					"explanation": "Present Simple para visitas regulares."
+				}
+			}
 		},
 		{
-			"question": "Я уважаю его мнение.",
 			"answer": "I respect his opinion.",
-			"explanation": "Present Simple с глаголом состояния respect."
+			"translations": {
+				"ru": {
+					"question": "Я уважаю его мнение.",
+					"explanation": "Present Simple с глаголом состояния respect."
+				},
+				"fr": {
+					"question": "Je respecte son opinion.",
+					"explanation": "Present Simple avec le verbe d'état respect."
+				},
+				"de": {
+					"question": "Ich respektiere seine Meinung.",
+					"explanation": "Present Simple mit dem Zustandsverb respect."
+				},
+				"es": {
+					"question": "Respeto su opinión.",
+					"explanation": "Present Simple con el verbo de estado respect."
+				}
+			}
 		},
 		{
-			"question": "Этот препарат снижает давление.",
 			"answer": "This medicine lowers blood pressure.",
-			"explanation": "Present Simple для постоянных свойств."
+			"translations": {
+				"ru": {
+					"question": "Этот препарат снижает давление.",
+					"explanation": "Present Simple для постоянных свойств."
+				},
+				"fr": {
+					"question": "Ce médicament abaisse la tension artérielle.",
+					"explanation": "Present Simple pour des propriétés permanentes."
+				},
+				"de": {
+					"question": "Dieses Medikament senkt den Blutdruck.",
+					"explanation": "Present Simple für dauerhafte Eigenschaften."
+				},
+				"es": {
+					"question": "Este medicamento reduce la presión arterial.",
+					"explanation": "Present Simple para propiedades permanentes."
+				}
+			}
 		},
 		{
-			"question": "Он не согласен со мной.",
 			"answer": "He doesn't agree with me.",
-			"explanation": "Отрицание с doesn't и глаголом состояния agree."
+			"translations": {
+				"ru": {
+					"question": "Он не согласен со мной.",
+					"explanation": "Отрицание с doesn't и глаголом состояния agree."
+				},
+				"fr": {
+					"question": "Il n'est pas d'accord avec moi.",
+					"explanation": "Négation avec doesn't et le verbe d'état agree."
+				},
+				"de": {
+					"question": "Er stimmt mir nicht zu.",
+					"explanation": "Verneinung mit doesn't und dem Zustandsverb agree."
+				},
+				"es": {
+					"question": "Él no está de acuerdo conmigo.",
+					"explanation": "Negación con doesn't y el verbo de estado agree."
+				}
+			}
 		},
 		{
-			"question": "Ты доверяешь ему?",
 			"answer": "Do you trust him?",
-			"explanation": "Вопрос в Present Simple с глаголом состояния trust."
+			"translations": {
+				"ru": {
+					"question": "Ты доверяешь ему?",
+					"explanation": "Вопрос в Present Simple с глаголом состояния trust."
+				},
+				"fr": {
+					"question": "Tu lui fais confiance ?",
+					"explanation": "Question au Present Simple avec le verbe d'état trust."
+				},
+				"de": {
+					"question": "Vertraust du ihm?",
+					"explanation": "Frage im Present Simple mit dem Zustandsverb trust."
+				},
+				"es": {
+					"question": "¿Confías en él?",
+					"explanation": "Pregunta en Present Simple con el verbo de estado trust."
+				}
+			}
 		},
 		{
-			"question": "Она пишет в блог каждую неделю.",
 			"answer": "She writes a blog every week.",
-			"explanation": "Present Simple для регулярных действий."
+			"translations": {
+				"ru": {
+					"question": "Она пишет в блог каждую неделю.",
+					"explanation": "Present Simple для регулярных действий."
+				},
+				"fr": {
+					"question": "Elle écrit sur son blog chaque semaine.",
+					"explanation": "Present Simple pour des actions régulières."
+				},
+				"de": {
+					"question": "Sie schreibt jede Woche einen Blogbeitrag.",
+					"explanation": "Present Simple für regelmäßige Handlungen."
+				},
+				"es": {
+					"question": "Ella escribe en su blog cada semana.",
+					"explanation": "Present Simple para acciones regulares."
+				}
+			}
 		},
 		{
-			"question": "Они ходят в церковь по воскресеньям.",
 			"answer": "They go to church on Sundays.",
-			"explanation": "Present Simple для еженедельных традиций."
+			"translations": {
+				"ru": {
+					"question": "Они ходят в церковь по воскресеньям.",
+					"explanation": "Present Simple для еженедельных традиций."
+				},
+				"fr": {
+					"question": "Ils vont à l'église le dimanche.",
+					"explanation": "Le Present Simple pour les traditions hebdomadaires."
+				},
+				"de": {
+					"question": "Sie gehen sonntags in die Kirche.",
+					"explanation": "Present Simple für wöchentliche Traditionen."
+				},
+				"es": {
+					"question": "Ellos van a la iglesia los domingos.",
+					"explanation": "El Present Simple para las tradiciones semanales."
+				}
+			}
 		},
 		{
-			"question": "Я слышу странный звук.",
 			"answer": "I hear a strange sound.",
-			"explanation": "Present Simple с глаголом восприятия hear."
+			"translations": {
+				"ru": {
+					"question": "Я слышу странный звук.",
+					"explanation": "Present Simple с глаголом восприятия hear."
+				},
+				"fr": {
+					"question": "J'entends un bruit étrange.",
+					"explanation": "Le Present Simple avec le verbe de perception hear."
+				},
+				"de": {
+					"question": "Ich höre ein seltsames Geräusch.",
+					"explanation": "Present Simple mit dem Wahrnehmungsverb hear."
+				},
+				"es": {
+					"question": "Escucho un sonido extraño.",
+					"explanation": "El Present Simple con el verbo de percepción hear."
+				}
+			}
 		},
 		{
-			"question": "Он не любит спорить.",
 			"answer": "He doesn't like arguing.",
-			"explanation": "Отрицание с doesn't и глаголом состояния like."
+			"translations": {
+				"ru": {
+					"question": "Он не любит спорить.",
+					"explanation": "Отрицание с doesn't и глаголом состояния like."
+				},
+				"fr": {
+					"question": "Il n'aime pas se disputer.",
+					"explanation": "La négation avec doesn't et le verbe d'état like."
+				},
+				"de": {
+					"question": "Er mag es nicht, zu streiten.",
+					"explanation": "Verneinung mit doesn't und dem Zustandsverb like."
+				},
+				"es": {
+					"question": "A él no le gusta discutir.",
+					"explanation": "La negación con doesn't y el verbo de estado like."
+				}
+			}
 		},
 		{
-			"question": "Мы ужинаем в ресторане раз в месяц.",
 			"answer": "We dine at a restaurant once a month.",
-			"explanation": "Present Simple для регулярных событий с указанием частоты."
+			"translations": {
+				"ru": {
+					"question": "Мы ужинаем в ресторане раз в месяц.",
+					"explanation": "Present Simple для регулярных событий с указанием частоты."
+				},
+				"fr": {
+					"question": "Nous dînons au restaurant une fois par mois.",
+					"explanation": "Le Present Simple pour les événements réguliers avec indication de fréquence."
+				},
+				"de": {
+					"question": "Wir essen einmal im Monat im Restaurant zu Abend.",
+					"explanation": "Present Simple für regelmäßige Ereignisse mit Häufigkeitsangabe."
+				},
+				"es": {
+					"question": "Cenamos en el restaurante una vez al mes.",
+					"explanation": "El Present Simple para eventos regulares con indicación de frecuencia."
+				}
+			}
 		},
 		{
-			"question": "Этот самолёт летит из Москвы в Лондон.",
 			"answer": "This plane flies from Moscow to London.",
-			"explanation": "Present Simple для регулярных маршрутов."
+			"translations": {
+				"ru": {
+					"question": "Этот самолёт летит из Москвы в Лондон.",
+					"explanation": "Present Simple для регулярных маршрутов."
+				},
+				"fr": {
+					"question": "Cet avion va de Moscou à Londres.",
+					"explanation": "Le Present Simple pour les itinéraires réguliers."
+				},
+				"de": {
+					"question": "Dieses Flugzeug fliegt von Moskau nach London.",
+					"explanation": "Present Simple für regelmäßige Routen."
+				},
+				"es": {
+					"question": "Este avión vuela de Moscú a Londres.",
+					"explanation": "El Present Simple para rutas regulares."
+				}
+			}
 		},
 		{
-			"question": "Она хочет стать врачом.",
 			"answer": "She wants to become a doctor.",
-			"explanation": "Present Simple с глаголом состояния want."
+			"translations": {
+				"ru": {
+					"question": "Она хочет стать врачом.",
+					"explanation": "Present Simple с глаголом состояния want."
+				},
+				"fr": {
+					"question": "Elle veut devenir médecin.",
+					"explanation": "Le Present Simple avec le verbe d'état want."
+				},
+				"de": {
+					"question": "Sie möchte Ärztin werden.",
+					"explanation": "Present Simple mit dem Zustandsverb want."
+				},
+				"es": {
+					"question": "Ella quiere ser médica.",
+					"explanation": "El Present Simple con el verbo de estado want."
+				}
+			}
 		},
 		{
-			"question": "Он доверяет своим друзьям.",
 			"answer": "He trusts his friends.",
-			"explanation": "Present Simple с глаголом состояния trust."
+			"translations": {
+				"ru": {
+					"question": "Он доверяет своим друзьям.",
+					"explanation": "Present Simple с глаголом состояния trust."
+				},
+				"fr": {
+					"question": "Il fait confiance à ses amis.",
+					"explanation": "Le Present Simple avec le verbe d'état trust."
+				},
+				"de": {
+					"question": "Er vertraut seinen Freunden.",
+					"explanation": "Present Simple mit dem Zustandsverb trust."
+				},
+				"es": {
+					"question": "Él confía en sus amigos.",
+					"explanation": "El Present Simple con el verbo de estado trust."
+				}
+			}
 		},
 		{
-			"question": "Я иногда хожу в кино.",
 			"answer": "I sometimes go to the cinema.",
-			"explanation": "Present Simple с наречием sometimes."
+			"translations": {
+				"ru": {
+					"question": "Я иногда хожу в кино.",
+					"explanation": "Present Simple с наречием sometimes."
+				},
+				"fr": {
+					"question": "Je vais parfois au cinéma.",
+					"explanation": "Le Present Simple avec l'adverbe sometimes."
+				},
+				"de": {
+					"question": "Ich gehe manchmal ins Kino.",
+					"explanation": "Present Simple mit dem Adverb sometimes."
+				},
+				"es": {
+					"question": "A veces voy al cine.",
+					"explanation": "El Present Simple con el adverbio sometimes."
+				}
+			}
 		},
 		{
-			"question": "Мы отдыхаем в горах каждое лето.",
 			"answer": "We rest in the mountains every summer.",
-			"explanation": "Present Simple для ежегодных традиций."
+			"translations": {
+				"ru": {
+					"question": "Мы отдыхаем в горах каждое лето.",
+					"explanation": "Present Simple для ежегодных традиций."
+				},
+				"fr": {
+					"question": "Nous passons nos vacances à la montagne chaque été.",
+					"explanation": "Le Present Simple pour les traditions annuelles."
+				},
+				"de": {
+					"question": "Wir erholen uns jeden Sommer in den Bergen.",
+					"explanation": "Present Simple für jährliche Traditionen."
+				},
+				"es": {
+					"question": "Cada verano nos relajamos en las montañas.",
+					"explanation": "El Present Simple para las tradiciones anuales."
+				}
+			}
 		},
 		{
-			"question": "Она не любит шум.",
 			"answer": "She doesn't like noise.",
-			"explanation": "Отрицание с doesn't и глаголом состояния like."
+			"translations": {
+				"ru": {
+					"question": "Она не любит шум.",
+					"explanation": "Отрицание с doesn't и глаголом состояния like."
+				},
+				"fr": {
+					"question": "Elle n'aime pas le bruit.",
+					"explanation": "La négation avec doesn't et le verbe d'état like."
+				},
+				"de": {
+					"question": "Sie mag keinen Lärm.",
+					"explanation": "Verneinung mit doesn't und dem Zustandsverb like."
+				},
+				"es": {
+					"question": "A ella no le gusta el ruido.",
+					"explanation": "La negación con doesn't y el verbo de estado like."
+				}
+			}
 		},
 		{
-			"question": "Ты чувствуешь себя лучше?",
 			"answer": "Do you feel better?",
-			"explanation": "Вопрос в Present Simple с глаголом состояния feel."
+			"translations": {
+				"ru": {
+					"question": "Ты чувствуешь себя лучше?",
+					"explanation": "Вопрос в Present Simple с глаголом состояния feel."
+				},
+				"fr": {
+					"question": "Tu te sens mieux ?",
+					"explanation": "Question au Present Simple avec le verbe d'état feel."
+				},
+				"de": {
+					"question": "Fühlst du dich besser?",
+					"explanation": "Frage im Present Simple mit dem Zustandsverb feel."
+				},
+				"es": {
+					"question": "¿Te sientes mejor?",
+					"explanation": "Pregunta en Present Simple con el verbo de estado feel."
+				}
+			}
 		},
 		{
-			"question": "Этот экзамен проходит дважды в год.",
 			"answer": "This exam takes place twice a year.",
-			"explanation": "Present Simple для регулярных событий."
+			"translations": {
+				"ru": {
+					"question": "Этот экзамен проходит дважды в год.",
+					"explanation": "Present Simple для регулярных событий."
+				},
+				"fr": {
+					"question": "Cet examen a lieu deux fois par an.",
+					"explanation": "Le Present Simple pour les événements réguliers."
+				},
+				"de": {
+					"question": "Diese Prüfung findet zweimal im Jahr statt.",
+					"explanation": "Present Simple für regelmäßige Ereignisse."
+				},
+				"es": {
+					"question": "Este examen se realiza dos veces al año.",
+					"explanation": "El Present Simple para eventos regulares."
+				}
+			}
 		},
 		{
-			"question": "Он никогда не лжёт.",
 			"answer": "He never lies.",
-			"explanation": "Present Simple с наречием never для характеристики человека."
+			"translations": {
+				"ru": {
+					"question": "Он никогда не лжёт.",
+					"explanation": "Present Simple с наречием never для характеристики человека."
+				},
+				"fr": {
+					"question": "Il ne ment jamais.",
+					"explanation": "Le Present Simple avec l'adverbe never pour décrire le caractère d'une personne."
+				},
+				"de": {
+					"question": "Er lügt nie.",
+					"explanation": "Present Simple mit dem Adverb never zur Charakterisierung einer Person."
+				},
+				"es": {
+					"question": "Él nunca miente.",
+					"explanation": "El Present Simple con el adverbio never para caracterizar a una persona."
+				}
+			}
 		},
 		{
-			"question": "Они изучают право в университете.",
 			"answer": "They study law at university.",
-			"explanation": "Present Simple для постоянного занятия."
+			"translations": {
+				"ru": {
+					"question": "Они изучают право в университете.",
+					"explanation": "Present Simple для постоянного занятия."
+				},
+				"fr": {
+					"question": "Ils étudient le droit à l'université.",
+					"explanation": "Le Present Simple pour une activité permanente."
+				},
+				"de": {
+					"question": "Sie studieren Jura an der Universität.",
+					"explanation": "Present Simple für eine dauerhafte Tätigkeit."
+				},
+				"es": {
+					"question": "Ellos estudian derecho en la universidad.",
+					"explanation": "El Present Simple para una actividad permanente."
+				}
+			}
 		},
 		{
-			"question": "Я обожаю кататься на лыжах.",
 			"answer": "I love skiing.",
-			"explanation": "Present Simple с глаголом состояния love."
+			"translations": {
+				"ru": {
+					"question": "Я обожаю кататься на лыжах.",
+					"explanation": "Present Simple с глаголом состояния love."
+				},
+				"fr": {
+					"question": "J'adore faire du ski.",
+					"explanation": "Le Present Simple avec le verbe d'état love."
+				},
+				"de": {
+					"question": "Ich liebe es, Ski zu fahren.",
+					"explanation": "Present Simple mit dem Zustandsverb love."
+				},
+				"es": {
+					"question": "Me encanta esquiar.",
+					"explanation": "El Present Simple con el verbo de estado love."
+				}
+			}
 		},
 		{
-			"question": "Она ест сыр каждый день.",
 			"answer": "She eats cheese every day.",
-			"explanation": "Present Simple для ежедневных привычек в питании."
+			"translations": {
+				"ru": {
+					"question": "Она ест сыр каждый день.",
+					"explanation": "Present Simple для ежедневных привычек в питании."
+				},
+				"fr": {
+					"question": "Elle mange du fromage tous les jours.",
+					"explanation": "Le Present Simple pour les habitudes alimentaires quotidiennes."
+				},
+				"de": {
+					"question": "Sie isst jeden Tag Käse.",
+					"explanation": "Present Simple für tägliche Ernährungsgewohnheiten."
+				},
+				"es": {
+					"question": "Ella come queso todos los días.",
+					"explanation": "El Present Simple para los hábitos alimenticios diarios."
+				}
+			}
 		},
 		{
-			"question": "Он не хочет ничего менять.",
 			"answer": "He doesn't want to change anything.",
-			"explanation": "Отрицание с doesn't и глаголом состояния want."
+			"translations": {
+				"ru": {
+					"question": "Он не хочет ничего менять.",
+					"explanation": "Отрицание с doesn't и глаголом состояния want."
+				},
+				"fr": {
+					"question": "Il ne veut rien changer.",
+					"explanation": "La négation avec doesn't et le verbe d'état want."
+				},
+				"de": {
+					"question": "Er will nichts ändern.",
+					"explanation": "Verneinung mit doesn't und dem Zustandsverb want."
+				},
+				"es": {
+					"question": "Él no quiere cambiar nada.",
+					"explanation": "La negación con doesn't y el verbo de estado want."
+				}
+			}
 		},
 		{
-			"question": "Мы снимаем квартиру.",
 			"answer": "We rent a flat.",
-			"explanation": "Present Simple для постоянного факта о жилье."
+			"translations": {
+				"ru": {
+					"question": "Мы снимаем квартиру.",
+					"explanation": "Present Simple для постоянного факта о жилье."
+				},
+				"fr": {
+					"question": "Nous louons un appartement.",
+					"explanation": "Le Present Simple pour un fait permanent concernant le logement."
+				},
+				"de": {
+					"question": "Wir mieten eine Wohnung.",
+					"explanation": "Present Simple für eine dauerhafte Tatsache über die Wohnsituation."
+				},
+				"es": {
+					"question": "Alquilamos un apartamento.",
+					"explanation": "El Present Simple para un hecho permanente sobre la vivienda."
+				}
+			}
 		},
 		{
-			"question": "Эта компания продаёт электронику.",
 			"answer": "This company sells electronics.",
-			"explanation": "Present Simple для постоянной деятельности компании."
+			"translations": {
+				"ru": {
+					"question": "Эта компания продаёт электронику.",
+					"explanation": "Present Simple для постоянной деятельности компании."
+				},
+				"fr": {
+					"question": "Cette entreprise vend de l'électronique.",
+					"explanation": "Le Present Simple pour l'activité permanente d'une entreprise."
+				},
+				"de": {
+					"question": "Dieses Unternehmen verkauft Elektronik.",
+					"explanation": "Present Simple für die dauerhafte Tätigkeit eines Unternehmens."
+				},
+				"es": {
+					"question": "Esta empresa vende electrónica.",
+					"explanation": "El Present Simple para la actividad permanente de una empresa."
+				}
+			}
 		},
 		{
-			"question": "Ты слышишь меня?",
 			"answer": "Do you hear me?",
-			"explanation": "Вопрос в Present Simple с глаголом восприятия hear."
+			"translations": {
+				"ru": {
+					"question": "Ты слышишь меня?",
+					"explanation": "Вопрос в Present Simple с глаголом восприятия hear."
+				},
+				"fr": {
+					"question": "Tu m'entends ?",
+					"explanation": "Question au Present Simple avec le verbe de perception hear."
+				},
+				"de": {
+					"question": "Hörst du mich?",
+					"explanation": "Frage im Present Simple mit dem Wahrnehmungsverb hear."
+				},
+				"es": {
+					"question": "¿Me escuchas?",
+					"explanation": "Pregunta en Present Simple con el verbo de percepción hear."
+				}
+			}
 		},
 		{
-			"question": "Они занимаются благотворительностью.",
 			"answer": "They do charity work.",
-			"explanation": "Present Simple для постоянной деятельности."
+			"translations": {
+				"ru": {
+					"question": "Они занимаются благотворительностью.",
+					"explanation": "Present Simple для постоянной деятельности."
+				},
+				"fr": {
+					"question": "Ils font du bénévolat.",
+					"explanation": "Le Present Simple pour une activité permanente."
+				},
+				"de": {
+					"question": "Sie engagieren sich für wohltätige Zwecke.",
+					"explanation": "Das Present Simple für dauerhafte Tätigkeiten."
+				},
+				"es": {
+					"question": "Hacen trabajo de caridad.",
+					"explanation": "El Present Simple para actividades permanentes."
+				}
+			}
 		},
 		{
-			"question": "Солнце даёт нам тепло и свет.",
 			"answer": "The Sun gives us heat and light.",
-			"explanation": "Present Simple для постоянных фактов о природе."
+			"translations": {
+				"ru": {
+					"question": "Солнце даёт нам тепло и свет.",
+					"explanation": "Present Simple для постоянных фактов о природе."
+				},
+				"fr": {
+					"question": "Le soleil nous donne de la chaleur et de la lumière.",
+					"explanation": "Le Present Simple pour les faits permanents sur la nature."
+				},
+				"de": {
+					"question": "Die Sonne gibt uns Wärme und Licht.",
+					"explanation": "Das Present Simple für dauerhafte Naturgegebenheiten."
+				},
+				"es": {
+					"question": "El sol nos da calor y luz.",
+					"explanation": "El Present Simple para hechos permanentes sobre la naturaleza."
+				}
+			}
 		},
 		{
-			"question": "Он не умеет плавать.",
 			"answer": "He can't swim.",
-			"explanation": "Отрицание модального глагола can в Present Simple."
+			"translations": {
+				"ru": {
+					"question": "Он не умеет плавать.",
+					"explanation": "Отрицание модального глагола can в Present Simple."
+				},
+				"fr": {
+					"question": "Il ne sait pas nager.",
+					"explanation": "La négation du verbe modal can au Present Simple."
+				},
+				"de": {
+					"question": "Er kann nicht schwimmen.",
+					"explanation": "Die Verneinung des Modalverbs can im Present Simple."
+				},
+				"es": {
+					"question": "Él no sabe nadar.",
+					"explanation": "La negación del verbo modal can en Present Simple."
+				}
+			}
 		},
 		{
-			"question": "Я люблю свою работу.",
 			"answer": "I love my job.",
-			"explanation": "Present Simple с глаголом состояния love."
+			"translations": {
+				"ru": {
+					"question": "Я люблю свою работу.",
+					"explanation": "Present Simple с глаголом состояния love."
+				},
+				"fr": {
+					"question": "J'aime mon travail.",
+					"explanation": "Le Present Simple avec le verbe d'état love."
+				},
+				"de": {
+					"question": "Ich liebe meinen Job.",
+					"explanation": "Das Present Simple mit dem Zustandsverb love."
+				},
+				"es": {
+					"question": "Amo mi trabajo.",
+					"explanation": "El Present Simple con el verbo de estado love."
+				}
+			}
 		},
 		{
-			"question": "Она бегает по парку каждое утро.",
 			"answer": "She runs through the park every morning.",
-			"explanation": "Present Simple для ежеутренних привычек."
+			"translations": {
+				"ru": {
+					"question": "Она бегает по парку каждое утро.",
+					"explanation": "Present Simple для ежеутренних привычек."
+				},
+				"fr": {
+					"question": "Elle court dans le parc chaque matin.",
+					"explanation": "Le Present Simple pour les habitudes matinales quotidiennes."
+				},
+				"de": {
+					"question": "Sie läuft jeden Morgen durch den Park.",
+					"explanation": "Das Present Simple für tägliche Morgengewohnheiten."
+				},
+				"es": {
+					"question": "Ella corre por el parque cada mañana.",
+					"explanation": "El Present Simple para los hábitos matutinos diarios."
+				}
+			}
 		},
 		{
-			"question": "Мы не согласны с тобой.",
 			"answer": "We don't agree with you.",
-			"explanation": "Отрицание в Present Simple с don't."
+			"translations": {
+				"ru": {
+					"question": "Мы не согласны с тобой.",
+					"explanation": "Отрицание в Present Simple с don't."
+				},
+				"fr": {
+					"question": "Nous ne sommes pas d'accord avec toi.",
+					"explanation": "La négation au Present Simple avec don't."
+				},
+				"de": {
+					"question": "Wir stimmen dir nicht zu.",
+					"explanation": "Die Verneinung im Present Simple mit don't."
+				},
+				"es": {
+					"question": "No estamos de acuerdo contigo.",
+					"explanation": "La negación en Present Simple con don't."
+				}
+			}
 		},
 		{
-			"question": "Этот завод выпускает тысячи деталей в день.",
 			"answer": "This factory produces thousands of parts a day.",
-			"explanation": "Present Simple для постоянного производственного процесса."
+			"translations": {
+				"ru": {
+					"question": "Этот завод выпускает тысячи деталей в день.",
+					"explanation": "Present Simple для постоянного производственного процесса."
+				},
+				"fr": {
+					"question": "Cette usine produit des milliers de pièces par jour.",
+					"explanation": "Le Present Simple pour un processus de production permanent."
+				},
+				"de": {
+					"question": "Diese Fabrik produziert täglich Tausende von Teilen.",
+					"explanation": "Das Present Simple für einen dauerhaften Produktionsprozess."
+				},
+				"es": {
+					"question": "Esta fábrica produce miles de piezas al día.",
+					"explanation": "El Present Simple para un proceso de producción permanente."
+				}
+			}
 		},
 		{
-			"question": "Он знает все правила.",
 			"answer": "He knows all the rules.",
-			"explanation": "Present Simple с глаголом состояния know."
+			"translations": {
+				"ru": {
+					"question": "Он знает все правила.",
+					"explanation": "Present Simple с глаголом состояния know."
+				},
+				"fr": {
+					"question": "Il connaît toutes les règles.",
+					"explanation": "Le Present Simple avec le verbe d'état know."
+				},
+				"de": {
+					"question": "Er kennt alle Regeln.",
+					"explanation": "Das Present Simple mit dem Zustandsverb know."
+				},
+				"es": {
+					"question": "Él conoce todas las reglas.",
+					"explanation": "El Present Simple con el verbo de estado know."
+				}
+			}
 		},
 		{
-			"question": "Ты любишь животных?",
 			"answer": "Do you like animals?",
-			"explanation": "Вопрос в Present Simple с глаголом состояния like."
+			"translations": {
+				"ru": {
+					"question": "Ты любишь животных?",
+					"explanation": "Вопрос в Present Simple с глаголом состояния like."
+				},
+				"fr": {
+					"question": "Tu aimes les animaux ?",
+					"explanation": "La question au Present Simple avec le verbe d'état like."
+				},
+				"de": {
+					"question": "Magst du Tiere?",
+					"explanation": "Die Frage im Present Simple mit dem Zustandsverb like."
+				},
+				"es": {
+					"question": "¿Te gustan los animales?",
+					"explanation": "La pregunta en Present Simple con el verbo de estado like."
+				}
+			}
 		},
 		{
-			"question": "Они проводят выходные на даче.",
 			"answer": "They spend weekends at their country house.",
-			"explanation": "Present Simple для регулярных выходных привычек."
+			"translations": {
+				"ru": {
+					"question": "Они проводят выходные на даче.",
+					"explanation": "Present Simple для регулярных выходных привычек."
+				},
+				"fr": {
+					"question": "Ils passent les week-ends à la datcha.",
+					"explanation": "Le Present Simple pour les habitudes régulières du week-end."
+				},
+				"de": {
+					"question": "Sie verbringen die Wochenenden auf der Datscha.",
+					"explanation": "Das Present Simple für regelmäßige Wochenendgewohnheiten."
+				},
+				"es": {
+					"question": "Pasan los fines de semana en la dacha.",
+					"explanation": "El Present Simple para los hábitos regulares de fin de semana."
+				}
+			}
 		},
 		{
-			"question": "Она изучает биологию в школе.",
 			"answer": "She studies biology at school.",
-			"explanation": "Present Simple для постоянного учебного занятия."
+			"translations": {
+				"ru": {
+					"question": "Она изучает биологию в школе.",
+					"explanation": "Present Simple для постоянного учебного занятия."
+				},
+				"fr": {
+					"question": "Elle étudie la biologie à l'école.",
+					"explanation": "Le Present Simple pour une activité scolaire permanente."
+				},
+				"de": {
+					"question": "Sie lernt Biologie in der Schule.",
+					"explanation": "Das Present Simple für eine dauerhafte schulische Tätigkeit."
+				},
+				"es": {
+					"question": "Ella estudia biología en la escuela.",
+					"explanation": "El Present Simple para una actividad escolar permanente."
+				}
+			}
 		}
 	]
 }
