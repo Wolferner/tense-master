@@ -7,6 +7,18 @@
 				"ru": {
 					"question": "Он работает здесь уже пять лет.",
 					"explanation": "Present Perfect Continuous: действие началось в прошлом и продолжается сейчас. 'For five years' указывает на продолжительность."
+				},
+				"fr": {
+					"question": "Il travaille ici depuis cinq ans.",
+					"explanation": "Le Present Perfect Continuous exprime une action commencée dans le passé et qui se poursuit maintenant. 'For five years' indique la durée."
+				},
+				"de": {
+					"question": "Er arbeitet hier seit fünf Jahren.",
+					"explanation": "Das Present Perfect Continuous drückt eine in der Vergangenheit begonnene und bis jetzt andauernde Handlung aus. 'For five years' gibt die Dauer an."
+				},
+				"es": {
+					"question": "Él lleva cinco años trabajando aquí.",
+					"explanation": "El Present Perfect Continuous expresa una acción iniciada en el pasado que continúa ahora. 'For five years' indica la duración."
 				}
 			}
 		},
@@ -16,6 +28,18 @@
 				"ru": {
 					"question": "Я изучаю английский весь день.",
 					"explanation": "Present Perfect Continuous: 'all day' подчёркивает непрерывность действия от утра до сейчас."
+				},
+				"fr": {
+					"question": "J'étudie l'anglais depuis ce matin.",
+					"explanation": "Le Present Perfect Continuous : 'all day' souligne la continuité de l'action depuis le matin jusqu'à maintenant."
+				},
+				"de": {
+					"question": "Ich lerne den ganzen Tag Englisch.",
+					"explanation": "Das Present Perfect Continuous: 'all day' betont die Kontinuität der Handlung vom Morgen bis jetzt."
+				},
+				"es": {
+					"question": "Llevo todo el día estudiando inglés.",
+					"explanation": "El Present Perfect Continuous: 'all day' enfatiza la continuidad de la acción desde la mañana hasta ahora."
 				}
 			}
 		},
@@ -25,6 +49,18 @@
 				"ru": {
 					"question": "Они ждут уже два часа.",
 					"explanation": "Present Perfect Continuous: 'for two hours' — продолжительность ожидания, которое ещё не закончилось."
+				},
+				"fr": {
+					"question": "Ils attendent depuis deux heures.",
+					"explanation": "Le Present Perfect Continuous : 'for two hours' indique la durée de l'attente qui n'est pas encore terminée."
+				},
+				"de": {
+					"question": "Sie warten seit zwei Stunden.",
+					"explanation": "Das Present Perfect Continuous: 'for two hours' gibt die Dauer des Wartens an, das noch nicht beendet ist."
+				},
+				"es": {
+					"question": "Llevan esperando dos horas.",
+					"explanation": "El Present Perfect Continuous: 'for two hours' indica la duración de la espera que aún no ha terminado."
 				}
 			}
 		},
@@ -34,6 +70,18 @@
 				"ru": {
 					"question": "Мы разговариваем по телефону уже полчаса.",
 					"explanation": "Present Perfect Continuous: действие продолжается прямо сейчас, началось 30 минут назад."
+				},
+				"fr": {
+					"question": "Nous parlons au téléphone depuis une demi-heure.",
+					"explanation": "Le Present Perfect Continuous : l'action se poursuit en ce moment, elle a commencé il y a 30 minutes."
+				},
+				"de": {
+					"question": "Wir telefonieren seit einer halben Stunde.",
+					"explanation": "Das Present Perfect Continuous: Die Handlung dauert gerade an und hat vor 30 Minuten begonnen."
+				},
+				"es": {
+					"question": "Llevamos media hora hablando por teléfono.",
+					"explanation": "El Present Perfect Continuous: la acción continúa ahora mismo, comenzó hace 30 minutos."
 				}
 			}
 		},
@@ -43,6 +91,18 @@
 				"ru": {
 					"question": "Она плачет с утра.",
 					"explanation": "Present Perfect Continuous: 'since morning' — начальная точка продолжающегося действия."
+				},
+				"fr": {
+					"question": "Elle pleure depuis ce matin.",
+					"explanation": "Le Present Perfect Continuous : 'since morning' indique le point de départ de l'action qui continue."
+				},
+				"de": {
+					"question": "Sie weint seit heute Morgen.",
+					"explanation": "Das Present Perfect Continuous: 'since morning' gibt den Startpunkt der andauernden Handlung an."
+				},
+				"es": {
+					"question": "Lleva llorando desde la mañana.",
+					"explanation": "El Present Perfect Continuous: 'since morning' indica el punto de inicio de la acción que continúa."
 				}
 			}
 		},
@@ -52,6 +112,18 @@
 				"ru": {
 					"question": "Дети играют на улице уже три часа.",
 					"explanation": "Present Perfect Continuous: продолжительное действие, начатое три часа назад."
+				},
+				"fr": {
+					"question": "Les enfants jouent dehors depuis trois heures.",
+					"explanation": "Le Present Perfect Continuous : action prolongée commencée il y a trois heures."
+				},
+				"de": {
+					"question": "Die Kinder spielen seit drei Stunden draußen.",
+					"explanation": "Das Present Perfect Continuous: andauernde Handlung, die vor drei Stunden begann."
+				},
+				"es": {
+					"question": "Los niños llevan tres horas jugando fuera.",
+					"explanation": "El Present Perfect Continuous: acción prolongada comenzada hace tres horas."
 				}
 			}
 		},
@@ -61,6 +133,18 @@
 				"ru": {
 					"question": "Я живу в этом городе уже десять лет.",
 					"explanation": "Present Perfect Continuous: 'for ten years' — продолжительность жизни в городе."
+				},
+				"fr": {
+					"question": "Je vis dans cette ville depuis dix ans.",
+					"explanation": "Le Present Perfect Continuous : 'for ten years' indique la durée de vie dans la ville."
+				},
+				"de": {
+					"question": "Ich wohne seit zehn Jahren in dieser Stadt.",
+					"explanation": "Das Present Perfect Continuous: 'for ten years' gibt die Dauer des Lebens in der Stadt an."
+				},
+				"es": {
+					"question": "Llevo diez años viviendo en esta ciudad.",
+					"explanation": "El Present Perfect Continuous: 'for ten years' indica la duración de la vida en la ciudad."
 				}
 			}
 		},
@@ -70,6 +154,18 @@
 				"ru": {
 					"question": "Он бегает каждое утро уже год.",
 					"explanation": "Present Perfect Continuous: регулярное действие, продолжающееся на протяжении года."
+				},
+				"fr": {
+					"question": "Il court tous les matins depuis un an.",
+					"explanation": "Le Present Perfect Continuous : action régulière qui se poursuit depuis un an."
+				},
+				"de": {
+					"question": "Er läuft seit einem Jahr jeden Morgen.",
+					"explanation": "Das Present Perfect Continuous: regelmäßige Handlung, die seit einem Jahr andauert."
+				},
+				"es": {
+					"question": "Lleva un año corriendo cada mañana.",
+					"explanation": "El Present Perfect Continuous: acción regular que continúa desde hace un año."
 				}
 			}
 		},
@@ -79,6 +175,18 @@
 				"ru": {
 					"question": "Ты выглядишь устало — ты долго работал?",
 					"explanation": "Present Perfect Continuous: вопрос о продолжительности действия, результат которого виден сейчас."
+				},
+				"fr": {
+					"question": "Tu as l'air fatigué — tu travailles depuis longtemps ?",
+					"explanation": "Le Present Perfect Continuous : question sur la durée d'une action dont le résultat est visible maintenant."
+				},
+				"de": {
+					"question": "Du siehst müde aus — arbeitest du schon lange?",
+					"explanation": "Das Present Perfect Continuous: Frage nach der Dauer einer Handlung, deren Ergebnis jetzt sichtbar ist."
+				},
+				"es": {
+					"question": "Pareces cansado — ¿llevas mucho tiempo trabajando?",
+					"explanation": "El Present Perfect Continuous: pregunta sobre la duración de una acción cuyo resultado es visible ahora."
 				}
 			}
 		},
@@ -88,6 +196,18 @@
 				"ru": {
 					"question": "Они строят этот дом уже шесть месяцев.",
 					"explanation": "Present Perfect Continuous: незавершённое строительство, начатое шесть месяцев назад."
+				},
+				"fr": {
+					"question": "Ils construisent cette maison depuis six mois.",
+					"explanation": "Le Present Perfect Continuous : construction inachevée commencée il y a six mois."
+				},
+				"de": {
+					"question": "Sie bauen dieses Haus seit sechs Monaten.",
+					"explanation": "Das Present Perfect Continuous: unvollendeter Bau, der vor sechs Monaten begann."
+				},
+				"es": {
+					"question": "Llevan seis meses construyendo esta casa.",
+					"explanation": "El Present Perfect Continuous: construcción sin terminar, comenzada hace seis meses."
 				}
 			}
 		},
@@ -97,6 +217,18 @@
 				"ru": {
 					"question": "Я жду автобуса уже двадцать минут.",
 					"explanation": "Present Perfect Continuous: ожидание, которое ещё не закончилось."
+				},
+				"fr": {
+					"question": "J'attends le bus depuis vingt minutes.",
+					"explanation": "Le Present Perfect Continuous : attente qui n'est pas encore terminée."
+				},
+				"de": {
+					"question": "Ich warte seit zwanzig Minuten auf den Bus.",
+					"explanation": "Das Present Perfect Continuous: Warten, das noch nicht beendet ist."
+				},
+				"es": {
+					"question": "Llevo veinte minutos esperando el autobús.",
+					"explanation": "El Present Perfect Continuous: espera que aún no ha terminado."
 				}
 			}
 		},
@@ -106,6 +238,18 @@
 				"ru": {
 					"question": "Она учит испанский язык с прошлого года.",
 					"explanation": "Present Perfect Continuous: 'since last year' — начало изучения."
+				},
+				"fr": {
+					"question": "Elle apprend l'espagnol depuis l'année dernière.",
+					"explanation": "Le Present Perfect Continuous : 'since last year' indique le début de l'apprentissage."
+				},
+				"de": {
+					"question": "Sie lernt Spanisch seit letztem Jahr.",
+					"explanation": "Das Present Perfect Continuous: 'since last year' gibt den Beginn des Lernens an."
+				},
+				"es": {
+					"question": "Lleva aprendiendo español desde el año pasado.",
+					"explanation": "El Present Perfect Continuous: 'since last year' indica el inicio del aprendizaje."
 				}
 			}
 		},
@@ -115,6 +259,18 @@
 				"ru": {
 					"question": "Мы смотрим этот сериал уже неделю.",
 					"explanation": "Present Perfect Continuous: продолжающееся действие длиной в неделю."
+				},
+				"fr": {
+					"question": "Nous regardons cette série depuis une semaine.",
+					"explanation": "Le Present Perfect Continuous : action qui dure depuis une semaine."
+				},
+				"de": {
+					"question": "Wir schauen diese Serie seit einer Woche.",
+					"explanation": "Das Present Perfect Continuous: andauernde Handlung, die seit einer Woche läuft."
+				},
+				"es": {
+					"question": "Llevamos una semana viendo esta serie.",
+					"explanation": "El Present Perfect Continuous: acción que dura desde hace una semana."
 				}
 			}
 		},
@@ -124,6 +280,18 @@
 				"ru": {
 					"question": "Он кашляет уже несколько дней.",
 					"explanation": "Present Perfect Continuous: симптом, длящийся несколько дней — результат виден сейчас."
+				},
+				"fr": {
+					"question": "Il tousse depuis plusieurs jours.",
+					"explanation": "Le Present Perfect Continuous : symptôme qui dure depuis plusieurs jours — le résultat est visible maintenant."
+				},
+				"de": {
+					"question": "Er hustet seit mehreren Tagen.",
+					"explanation": "Das Present Perfect Continuous: Symptom, das seit mehreren Tagen andauert — das Ergebnis ist jetzt sichtbar."
+				},
+				"es": {
+					"question": "Lleva varios días tosiendo.",
+					"explanation": "El Present Perfect Continuous: síntoma que dura varios días — el resultado es visible ahora."
 				}
 			}
 		},
@@ -133,6 +301,18 @@
 				"ru": {
 					"question": "Я пишу этот отчёт с девяти утра.",
 					"explanation": "Present Perfect Continuous: 'since nine o'clock' — момент начала работы."
+				},
+				"fr": {
+					"question": "J'écris ce rapport depuis neuf heures du matin.",
+					"explanation": "Le Present Perfect Continuous : 'since nine o'clock' indique le moment du début du travail."
+				},
+				"de": {
+					"question": "Ich schreibe diesen Bericht seit neun Uhr.",
+					"explanation": "Das Present Perfect Continuous: 'since nine o'clock' gibt den Zeitpunkt des Arbeitsbeginns an."
+				},
+				"es": {
+					"question": "Llevo escribiendo este informe desde las nueve.",
+					"explanation": "El Present Perfect Continuous: 'since nine o'clock' indica el momento de inicio del trabajo."
 				}
 			}
 		},
@@ -142,6 +322,18 @@
 				"ru": {
 					"question": "Они спорят уже час.",
 					"explanation": "Present Perfect Continuous: спор, начавшийся час назад и не прекратившийся."
+				},
+				"fr": {
+					"question": "Ils se disputent depuis une heure.",
+					"explanation": "Le Present Perfect Continuous : dispute commencée il y a une heure et non terminée."
+				},
+				"de": {
+					"question": "Sie streiten sich seit einer Stunde.",
+					"explanation": "Das Present Perfect Continuous: Streit, der vor einer Stunde begann und nicht aufgehört hat."
+				},
+				"es": {
+					"question": "Llevan una hora discutiendo.",
+					"explanation": "El Present Perfect Continuous: discusión comenzada hace una hora y no terminada."
 				}
 			}
 		},
@@ -151,6 +343,18 @@
 				"ru": {
 					"question": "Снег идёт с вчерашнего вечера.",
 					"explanation": "Present Perfect Continuous: природное явление, начавшееся вечером и продолжающееся."
+				},
+				"fr": {
+					"question": "Il neige depuis hier soir.",
+					"explanation": "Le Present Perfect Continuous : phénomène naturel commencé hier soir et qui continue."
+				},
+				"de": {
+					"question": "Es schneit seit gestern Abend.",
+					"explanation": "Das Present Perfect Continuous: Naturphänomen, das gestern Abend begann und andauert."
+				},
+				"es": {
+					"question": "Lleva nevando desde ayer por la noche.",
+					"explanation": "El Present Perfect Continuous: fenómeno natural comenzado ayer por la noche que continúa."
 				}
 			}
 		},
@@ -160,6 +364,18 @@
 				"ru": {
 					"question": "Он ищет работу уже три месяца.",
 					"explanation": "Present Perfect Continuous: поиск работы ещё не завершён."
+				},
+				"fr": {
+					"question": "Il cherche du travail depuis trois mois.",
+					"explanation": "Le Present Perfect Continuous : la recherche d'emploi n'est pas encore terminée."
+				},
+				"de": {
+					"question": "Er sucht seit drei Monaten einen Job.",
+					"explanation": "Das Present Perfect Continuous: die Jobsuche ist noch nicht abgeschlossen."
+				},
+				"es": {
+					"question": "Lleva tres meses buscando trabajo.",
+					"explanation": "El Present Perfect Continuous: la búsqueda de empleo aún no ha terminado."
 				}
 			}
 		},
@@ -169,6 +385,18 @@
 				"ru": {
 					"question": "Ты весь в краске — ты рисовал?",
 					"explanation": "Present Perfect Continuous: видимый результат указывает на недавнее действие."
+				},
+				"fr": {
+					"question": "Tu es couvert de peinture — tu peignais ?",
+					"explanation": "Le Present Perfect Continuous : le résultat visible indique une action récente."
+				},
+				"de": {
+					"question": "Du bist voller Farbe — hast du gemalt?",
+					"explanation": "Das Present Perfect Continuous: das sichtbare Ergebnis weist auf eine kürzliche Handlung hin."
+				},
+				"es": {
+					"question": "Estás lleno de pintura — ¿has estado pintando?",
+					"explanation": "El Present Perfect Continuous: el resultado visible indica una acción reciente."
 				}
 			}
 		},
@@ -178,6 +406,18 @@
 				"ru": {
 					"question": "Мы путешествуем уже две недели.",
 					"explanation": "Present Perfect Continuous: путешествие продолжается уже две недели."
+				},
+				"fr": {
+					"question": "Nous voyageons depuis deux semaines.",
+					"explanation": "Le Present Perfect Continuous : le voyage dure depuis deux semaines."
+				},
+				"de": {
+					"question": "Wir reisen seit zwei Wochen.",
+					"explanation": "Das Present Perfect Continuous: die Reise dauert seit zwei Wochen."
+				},
+				"es": {
+					"question": "Llevamos dos semanas viajando.",
+					"explanation": "El Present Perfect Continuous: el viaje dura desde hace dos semanas."
 				}
 			}
 		},
@@ -187,6 +427,18 @@
 				"ru": {
 					"question": "Она работает над проектом с понедельника.",
 					"explanation": "Present Perfect Continuous: 'since Monday' — начало работы над проектом."
+				},
+				"fr": {
+					"question": "Elle travaille sur le projet depuis lundi.",
+					"explanation": "Le Present Perfect Continuous : 'since Monday' indique le début du travail sur le projet."
+				},
+				"de": {
+					"question": "Sie arbeitet seit Montag an dem Projekt.",
+					"explanation": "Das Present Perfect Continuous: 'since Monday' gibt den Beginn der Arbeit am Projekt an."
+				},
+				"es": {
+					"question": "Lleva trabajando en el proyecto desde el lunes.",
+					"explanation": "El Present Perfect Continuous: 'since Monday' indica el inicio del trabajo en el proyecto."
 				}
 			}
 		},
@@ -196,6 +448,18 @@
 				"ru": {
 					"question": "Я тренируюсь каждый день уже полгода.",
 					"explanation": "Present Perfect Continuous: регулярные тренировки в течение полугода."
+				},
+				"fr": {
+					"question": "Je m'entraîne tous les jours depuis six mois.",
+					"explanation": "Le Present Perfect Continuous : entraînements réguliers sur une période de six mois."
+				},
+				"de": {
+					"question": "Ich trainiere seit sechs Monaten jeden Tag.",
+					"explanation": "Das Present Perfect Continuous: regelmäßiges Training über einen Zeitraum von sechs Monaten."
+				},
+				"es": {
+					"question": "Llevo seis meses entrenando cada día.",
+					"explanation": "El Present Perfect Continuous: entrenamientos regulares durante un período de seis meses."
 				}
 			}
 		},
@@ -205,6 +469,18 @@
 				"ru": {
 					"question": "Он читает эту книгу уже неделю.",
 					"explanation": "Present Perfect Continuous: чтение ещё не завершено, длится неделю."
+				},
+				"fr": {
+					"question": "Il lit ce livre depuis une semaine.",
+					"explanation": "Le Present Perfect Continuous : la lecture n'est pas terminée, elle dure depuis une semaine."
+				},
+				"de": {
+					"question": "Er liest dieses Buch seit einer Woche.",
+					"explanation": "Das Present Perfect Continuous: das Lesen ist nicht abgeschlossen, es dauert seit einer Woche."
+				},
+				"es": {
+					"question": "Lleva una semana leyendo este libro.",
+					"explanation": "El Present Perfect Continuous: la lectura no ha terminado, dura desde hace una semana."
 				}
 			}
 		},
@@ -214,6 +490,18 @@
 				"ru": {
 					"question": "Дождь идёт уже два дня.",
 					"explanation": "Present Perfect Continuous: дождь не прекращается уже два дня."
+				},
+				"fr": {
+					"question": "Il pleut depuis deux jours.",
+					"explanation": "Le Present Perfect Continuous : la pluie ne s'arrête pas depuis deux jours."
+				},
+				"de": {
+					"question": "Es regnet seit zwei Tagen.",
+					"explanation": "Das Present Perfect Continuous: der Regen hört seit zwei Tagen nicht auf."
+				},
+				"es": {
+					"question": "Lleva dos días lloviendo.",
+					"explanation": "El Present Perfect Continuous: la lluvia no para desde hace dos días."
 				}
 			}
 		},
@@ -223,6 +511,18 @@
 				"ru": {
 					"question": "Они живут вместе уже пять лет.",
 					"explanation": "Present Perfect Continuous: совместная жизнь продолжается."
+				},
+				"fr": {
+					"question": "Ils vivent ensemble depuis cinq ans.",
+					"explanation": "Le Present Perfect Continuous : la vie commune continue."
+				},
+				"de": {
+					"question": "Sie leben seit fünf Jahren zusammen.",
+					"explanation": "Das Present Perfect Continuous: das Zusammenleben dauert an."
+				},
+				"es": {
+					"question": "Llevan cinco años viviendo juntos.",
+					"explanation": "El Present Perfect Continuous: la convivencia continúa."
 				}
 			}
 		},
@@ -232,6 +532,18 @@
 				"ru": {
 					"question": "Я готовлюсь к экзамену с прошлой недели.",
 					"explanation": "Present Perfect Continuous: подготовка идёт с прошлой недели."
+				},
+				"fr": {
+					"question": "Je me prépare pour l'examen depuis la semaine dernière.",
+					"explanation": "Le Present Perfect Continuous : la préparation se poursuit depuis la semaine dernière."
+				},
+				"de": {
+					"question": "Ich bereite mich seit letzter Woche auf die Prüfung vor.",
+					"explanation": "Das Present Perfect Continuous: die Vorbereitung läuft seit letzter Woche."
+				},
+				"es": {
+					"question": "Llevo preparándome para el examen desde la semana pasada.",
+					"explanation": "El Present Perfect Continuous: la preparación continúa desde la semana pasada."
 				}
 			}
 		},
@@ -241,6 +553,18 @@
 				"ru": {
 					"question": "Она танцует с детства.",
 					"explanation": "Present Perfect Continuous: занятие танцами, начавшееся в детстве, продолжается."
+				},
+				"fr": {
+					"question": "Elle danse depuis son enfance.",
+					"explanation": "Le Present Perfect Continuous : activité de danse commencée dans l'enfance qui continue."
+				},
+				"de": {
+					"question": "Sie tanzt seit ihrer Kindheit.",
+					"explanation": "Das Present Perfect Continuous: Tanzaktivität, die in der Kindheit begann und andauert."
+				},
+				"es": {
+					"question": "Lleva bailando desde la infancia.",
+					"explanation": "El Present Perfect Continuous: actividad de baile comenzada en la infancia que continúa."
 				}
 			}
 		},
@@ -250,6 +574,18 @@
 				"ru": {
 					"question": "Мы обсуждаем этот вопрос уже два часа.",
 					"explanation": "Present Perfect Continuous: обсуждение не завершено."
+				},
+				"fr": {
+					"question": "Nous discutons de cette question depuis deux heures.",
+					"explanation": "Le Present Perfect Continuous : la discussion n'est pas terminée."
+				},
+				"de": {
+					"question": "Wir diskutieren seit zwei Stunden über dieses Thema.",
+					"explanation": "Das Present Perfect Continuous: die Diskussion ist nicht abgeschlossen."
+				},
+				"es": {
+					"question": "Llevamos dos horas discutiendo este asunto.",
+					"explanation": "El Present Perfect Continuous: la discusión no ha terminado."
 				}
 			}
 		},
@@ -259,6 +595,18 @@
 				"ru": {
 					"question": "Он водит машину уже двадцать лет.",
 					"explanation": "Present Perfect Continuous: навык, приобретённый 20 лет назад и используемый до сих пор."
+				},
+				"fr": {
+					"question": "Il conduit depuis vingt ans.",
+					"explanation": "Le Present Perfect Continuous : compétence acquise il y a 20 ans et utilisée jusqu'à aujourd'hui."
+				},
+				"de": {
+					"question": "Er fährt seit zwanzig Jahren Auto.",
+					"explanation": "Das Present Perfect Continuous: Fähigkeit, die vor 20 Jahren erworben wurde und bis heute genutzt wird."
+				},
+				"es": {
+					"question": "Lleva veinte años conduciendo.",
+					"explanation": "El Present Perfect Continuous: habilidad adquirida hace 20 años y usada hasta hoy."
 				}
 			}
 		},
@@ -268,6 +616,18 @@
 				"ru": {
 					"question": "Я слушаю эту группу с подросткового возраста.",
 					"explanation": "Present Perfect Continuous: действие началось в подростковом возрасте и продолжается."
+				},
+				"fr": {
+					"question": "J'écoute ce groupe depuis mon adolescence.",
+					"explanation": "Le Present Perfect Continuous : action commencée à l'adolescence et qui continue."
+				},
+				"de": {
+					"question": "Ich höre diese Band seit meiner Jugend.",
+					"explanation": "Das Present Perfect Continuous: Handlung, die in der Jugend begann und andauert."
+				},
+				"es": {
+					"question": "Llevo escuchando a este grupo desde la adolescencia.",
+					"explanation": "El Present Perfect Continuous: acción comenzada en la adolescencia que continúa."
 				}
 			}
 		},
@@ -277,6 +637,18 @@
 				"ru": {
 					"question": "Они ремонтируют квартиру уже месяц.",
 					"explanation": "Present Perfect Continuous: ремонт ещё не закончен."
+				},
+				"fr": {
+					"question": "Ils rénovent l'appartement depuis un mois.",
+					"explanation": "Le Present Perfect Continuous : la rénovation n'est pas encore terminée."
+				},
+				"de": {
+					"question": "Sie renovieren die Wohnung seit einem Monat.",
+					"explanation": "Das Present Perfect Continuous: die Renovierung ist noch nicht abgeschlossen."
+				},
+				"es": {
+					"question": "Llevan un mes renovando el piso.",
+					"explanation": "El Present Perfect Continuous: la renovación aún no ha terminado."
 				}
 			}
 		},
@@ -286,6 +658,18 @@
 				"ru": {
 					"question": "Она ждёт ответа уже несколько дней.",
 					"explanation": "Present Perfect Continuous: ожидание продолжается."
+				},
+				"fr": {
+					"question": "Elle attend une réponse depuis plusieurs jours.",
+					"explanation": "Le Present Perfect Continuous : l'attente continue."
+				},
+				"de": {
+					"question": "Sie wartet seit mehreren Tagen auf eine Antwort.",
+					"explanation": "Das Present Perfect Continuous: das Warten dauert an."
+				},
+				"es": {
+					"question": "Lleva varios días esperando una respuesta.",
+					"explanation": "El Present Perfect Continuous: la espera continúa."
 				}
 			}
 		},
@@ -295,6 +679,18 @@
 				"ru": {
 					"question": "Я работаю над этой задачей с утра.",
 					"explanation": "Present Perfect Continuous: работа началась утром и продолжается."
+				},
+				"fr": {
+					"question": "Je travaille sur cette tâche depuis ce matin.",
+					"explanation": "Le Present Perfect Continuous : le travail a commencé le matin et continue."
+				},
+				"de": {
+					"question": "Ich arbeite seit heute Morgen an dieser Aufgabe.",
+					"explanation": "Das Present Perfect Continuous: die Arbeit begann morgens und dauert an."
+				},
+				"es": {
+					"question": "Llevo trabajando en esta tarea desde esta mañana.",
+					"explanation": "El Present Perfect Continuous: el trabajo comenzó por la mañana y continúa."
 				}
 			}
 		},
@@ -304,6 +700,18 @@
 				"ru": {
 					"question": "Он учится в этом университете уже три года.",
 					"explanation": "Present Perfect Continuous: обучение продолжается три года."
+				},
+				"fr": {
+					"question": "Il étudie dans cette université depuis trois ans.",
+					"explanation": "Le Present Perfect Continuous : les études continuent depuis trois ans."
+				},
+				"de": {
+					"question": "Er studiert seit drei Jahren an dieser Universität.",
+					"explanation": "Das Present Perfect Continuous: das Studium dauert seit drei Jahren an."
+				},
+				"es": {
+					"question": "Lleva tres años estudiando en esta universidad.",
+					"explanation": "El Present Perfect Continuous: los estudios continúan desde hace tres años."
 				}
 			}
 		},
@@ -313,6 +721,18 @@
 				"ru": {
 					"question": "Мы дружим с детского сада.",
 					"explanation": "Present Perfect Continuous: дружба началась в детском саду и продолжается."
+				},
+				"fr": {
+					"question": "Nous sommes amis depuis la maternelle.",
+					"explanation": "Le Present Perfect Continuous : l'amitié a commencé à la maternelle et continue."
+				},
+				"de": {
+					"question": "Wir sind seit dem Kindergarten befreundet.",
+					"explanation": "Das Present Perfect Continuous: die Freundschaft begann im Kindergarten und dauert an."
+				},
+				"es": {
+					"question": "Somos amigos desde el jardín de infancia.",
+					"explanation": "El Present Perfect Continuous: la amistad comenzó en el jardín de infancia y continúa."
 				}
 			}
 		},
@@ -322,6 +742,18 @@
 				"ru": {
 					"question": "Она преподаёт математику уже пятнадцать лет.",
 					"explanation": "Present Perfect Continuous: преподавание продолжается."
+				},
+				"fr": {
+					"question": "Elle enseigne les mathématiques depuis quinze ans.",
+					"explanation": "Le Present Perfect Continuous : l'enseignement continue."
+				},
+				"de": {
+					"question": "Sie unterrichtet seit fünfzehn Jahren Mathematik.",
+					"explanation": "Das Present Perfect Continuous: das Unterrichten dauert an."
+				},
+				"es": {
+					"question": "Lleva quince años enseñando matemáticas.",
+					"explanation": "El Present Perfect Continuous: la enseñanza continúa."
 				}
 			}
 		},
@@ -331,6 +763,18 @@
 				"ru": {
 					"question": "Они соревнуются между собой уже давно.",
 					"explanation": "Present Perfect Continuous: соперничество, длящееся долгое время."
+				},
+				"fr": {
+					"question": "Ils rivalisent entre eux depuis longtemps.",
+					"explanation": "Le Present Perfect Continuous : rivalité qui dure depuis longtemps."
+				},
+				"de": {
+					"question": "Sie konkurrieren schon lange miteinander.",
+					"explanation": "Das Present Perfect Continuous: Rivalität, die schon lange andauert."
+				},
+				"es": {
+					"question": "Llevan mucho tiempo compitiendo entre sí.",
+					"explanation": "El Present Perfect Continuous: rivalidad que dura desde hace mucho tiempo."
 				}
 			}
 		},
@@ -340,6 +784,18 @@
 				"ru": {
 					"question": "Я пытаюсь дозвониться до него весь вечер.",
 					"explanation": "Present Perfect Continuous: попытки позвонить продолжались весь вечер."
+				},
+				"fr": {
+					"question": "J'essaie de le joindre depuis toute la soirée.",
+					"explanation": "Le Present Perfect Continuous : les tentatives d'appel ont duré toute la soirée."
+				},
+				"de": {
+					"question": "Ich versuche den ganzen Abend, ihn zu erreichen.",
+					"explanation": "Das Present Perfect Continuous: die Anrufversuche dauerten den ganzen Abend."
+				},
+				"es": {
+					"question": "Llevo toda la tarde intentando llamarle.",
+					"explanation": "El Present Perfect Continuous: los intentos de llamar han durado toda la tarde."
 				}
 			}
 		},
@@ -349,6 +805,18 @@
 				"ru": {
 					"question": "Он копит деньги на машину уже год.",
 					"explanation": "Present Perfect Continuous: накопление средств продолжается год."
+				},
+				"fr": {
+					"question": "Il économise pour une voiture depuis un an.",
+					"explanation": "Le Present Perfect Continuous : l'épargne continue depuis un an."
+				},
+				"de": {
+					"question": "Er spart seit einem Jahr für ein Auto.",
+					"explanation": "Das Present Perfect Continuous: das Sparen dauert seit einem Jahr an."
+				},
+				"es": {
+					"question": "Lleva un año ahorrando para un coche.",
+					"explanation": "El Present Perfect Continuous: el ahorro continúa desde hace un año."
 				}
 			}
 		},
@@ -358,6 +826,18 @@
 				"ru": {
 					"question": "Мы используем эту программу с момента её выхода.",
 					"explanation": "Present Perfect Continuous: использование программы с момента её выпуска."
+				},
+				"fr": {
+					"question": "Nous utilisons ce logiciel depuis sa sortie.",
+					"explanation": "Le Present Perfect Continuous : utilisation du logiciel depuis sa sortie."
+				},
+				"de": {
+					"question": "Wir benutzen diese Software seit ihrer Veröffentlichung.",
+					"explanation": "Das Present Perfect Continuous: Nutzung der Software seit ihrer Veröffentlichung."
+				},
+				"es": {
+					"question": "Llevamos usando este software desde su lanzamiento.",
+					"explanation": "El Present Perfect Continuous: uso del software desde su lanzamiento."
 				}
 			}
 		},
@@ -367,6 +847,18 @@
 				"ru": {
 					"question": "Она занимается йогой уже два года.",
 					"explanation": "Present Perfect Continuous: занятия йогой продолжаются два года."
+				},
+				"fr": {
+					"question": "Elle fait du yoga depuis deux ans.",
+					"explanation": "Le Present Perfect Continuous : les cours de yoga durent depuis deux ans."
+				},
+				"de": {
+					"question": "Sie macht seit zwei Jahren Yoga.",
+					"explanation": "Das Present Perfect Continuous: die Yoga-Kurse dauern seit zwei Jahren an."
+				},
+				"es": {
+					"question": "Lleva dos años practicando yoga.",
+					"explanation": "El Present Perfect Continuous: las clases de yoga llevan dos años."
 				}
 			}
 		},
@@ -376,6 +868,18 @@
 				"ru": {
 					"question": "Дети смотрят мультфильмы уже час.",
 					"explanation": "Present Perfect Continuous: просмотр продолжается уже час."
+				},
+				"fr": {
+					"question": "Les enfants regardent des dessins animés depuis une heure.",
+					"explanation": "Le Present Perfect Continuous : le visionnage continue depuis une heure."
+				},
+				"de": {
+					"question": "Die Kinder schauen seit einer Stunde Zeichentrickfilme.",
+					"explanation": "Das Present Perfect Continuous: das Schauen dauert seit einer Stunde an."
+				},
+				"es": {
+					"question": "Los niños llevan una hora viendo dibujos animados.",
+					"explanation": "El Present Perfect Continuous: el visionado continúa desde hace una hora."
 				}
 			}
 		},
@@ -385,6 +889,18 @@
 				"ru": {
 					"question": "Я думаю об этом весь день.",
 					"explanation": "Present Perfect Continuous: мысли не покидают весь день."
+				},
+				"fr": {
+					"question": "J'y pense depuis toute la journée.",
+					"explanation": "Le Present Perfect Continuous : les pensées n'ont pas quitté de toute la journée."
+				},
+				"de": {
+					"question": "Ich denke den ganzen Tag daran.",
+					"explanation": "Das Present Perfect Continuous: die Gedanken ließen den ganzen Tag nicht los."
+				},
+				"es": {
+					"question": "Llevo todo el día pensando en ello.",
+					"explanation": "El Present Perfect Continuous: los pensamientos no me han abandonado en todo el día."
 				}
 			}
 		},
@@ -394,6 +910,18 @@
 				"ru": {
 					"question": "Он занимается программированием с шестнадцати лет.",
 					"explanation": "Present Perfect Continuous: занятие программированием началось в 16 лет."
+				},
+				"fr": {
+					"question": "Il fait de la programmation depuis ses seize ans.",
+					"explanation": "Le Present Perfect Continuous : la programmation a commencé à 16 ans."
+				},
+				"de": {
+					"question": "Er programmiert seit er sechzehn ist.",
+					"explanation": "Das Present Perfect Continuous: das Programmieren begann mit 16 Jahren."
+				},
+				"es": {
+					"question": "Lleva programando desde los dieciséis años.",
+					"explanation": "El Present Perfect Continuous: la programación comenzó a los 16 años."
 				}
 			}
 		},
@@ -403,6 +931,18 @@
 				"ru": {
 					"question": "Мы работаем над этим проектом уже три недели.",
 					"explanation": "Present Perfect Continuous: работа ещё не завершена."
+				},
+				"fr": {
+					"question": "Nous travaillons sur ce projet depuis trois semaines.",
+					"explanation": "Le Present Perfect Continuous : le travail n'est pas encore terminé."
+				},
+				"de": {
+					"question": "Wir arbeiten seit drei Wochen an diesem Projekt.",
+					"explanation": "Das Present Perfect Continuous: die Arbeit ist noch nicht abgeschlossen."
+				},
+				"es": {
+					"question": "Llevamos tres semanas trabajando en este proyecto.",
+					"explanation": "El Present Perfect Continuous: el trabajo aún no ha terminado."
 				}
 			}
 		},
@@ -412,6 +952,18 @@
 				"ru": {
 					"question": "Она учит детей читать уже двадцать лет.",
 					"explanation": "Present Perfect Continuous: многолетнее занятие, продолжающееся по сей день."
+				},
+				"fr": {
+					"question": "Elle apprend aux enfants à lire depuis vingt ans.",
+					"explanation": "Le Present Perfect Continuous : activité qui continue à ce jour."
+				},
+				"de": {
+					"question": "Sie bringt Kindern seit zwanzig Jahren das Lesen bei.",
+					"explanation": "Das Present Perfect Continuous: langjährige Tätigkeit, die bis heute andauert."
+				},
+				"es": {
+					"question": "Lleva veinte años enseñando a leer a niños.",
+					"explanation": "El Present Perfect Continuous: actividad que continúa hasta hoy."
 				}
 			}
 		},
@@ -421,6 +973,18 @@
 				"ru": {
 					"question": "Вода течёт из крана уже час.",
 					"explanation": "Present Perfect Continuous: продолжающаяся ситуация, начавшаяся час назад."
+				},
+				"fr": {
+					"question": "L'eau coule du robinet depuis une heure.",
+					"explanation": "Le Present Perfect Continuous : situation qui continue depuis une heure."
+				},
+				"de": {
+					"question": "Wasser läuft seit einer Stunde aus dem Hahn.",
+					"explanation": "Das Present Perfect Continuous: andauernde Situation, die vor einer Stunde begann."
+				},
+				"es": {
+					"question": "El agua lleva corriendo del grifo una hora.",
+					"explanation": "El Present Perfect Continuous: situación que continúa desde hace una hora."
 				}
 			}
 		},
@@ -430,6 +994,18 @@
 				"ru": {
 					"question": "Я изучаю эту тему с начала семестра.",
 					"explanation": "Present Perfect Continuous: изучение темы продолжается с начала семестра."
+				},
+				"fr": {
+					"question": "J'étudie ce sujet depuis le début du semestre.",
+					"explanation": "Le Present Perfect Continuous : l'étude du sujet continue depuis le début du semestre."
+				},
+				"de": {
+					"question": "Ich studiere dieses Thema seit Semesterbeginn.",
+					"explanation": "Das Present Perfect Continuous: das Studium des Themas dauert seit Semesterbeginn an."
+				},
+				"es": {
+					"question": "Llevo estudiando este tema desde el principio del semestre.",
+					"explanation": "El Present Perfect Continuous: el estudio del tema continúa desde el inicio del semestre."
 				}
 			}
 		},
@@ -439,6 +1015,18 @@
 				"ru": {
 					"question": "Они тренируются к марафону уже четыре месяца.",
 					"explanation": "Present Perfect Continuous: подготовка к марафону продолжается."
+				},
+				"fr": {
+					"question": "Ils s'entraînent pour le marathon depuis quatre mois.",
+					"explanation": "Le Present Perfect Continuous : la préparation au marathon continue."
+				},
+				"de": {
+					"question": "Sie trainieren seit vier Monaten für den Marathon.",
+					"explanation": "Das Present Perfect Continuous: die Marathon-Vorbereitung dauert an."
+				},
+				"es": {
+					"question": "Llevan cuatro meses entrenando para el maratón.",
+					"explanation": "El Present Perfect Continuous: la preparación para el maratón continúa."
 				}
 			}
 		},
@@ -448,6 +1036,18 @@
 				"ru": {
 					"question": "Он пишет свой роман уже два года.",
 					"explanation": "Present Perfect Continuous: написание романа ещё не завершено."
+				},
+				"fr": {
+					"question": "Il écrit son roman depuis deux ans.",
+					"explanation": "Le Present Perfect Continuous : l'écriture du roman n'est pas encore terminée."
+				},
+				"de": {
+					"question": "Er schreibt seit zwei Jahren an seinem Roman.",
+					"explanation": "Das Present Perfect Continuous: das Schreiben des Romans ist noch nicht abgeschlossen."
+				},
+				"es": {
+					"question": "Lleva dos años escribiendo su novela.",
+					"explanation": "El Present Perfect Continuous: la escritura de la novela aún no ha terminado."
 				}
 			}
 		},
@@ -457,6 +1057,18 @@
 				"ru": {
 					"question": "Я чувствую себя плохо с прошлой ночи.",
 					"explanation": "Present Perfect Continuous: плохое самочувствие с прошлой ночи."
+				},
+				"fr": {
+					"question": "Je me sens mal depuis la nuit dernière.",
+					"explanation": "Le Present Perfect Continuous : mauvais état de santé depuis la nuit dernière."
+				},
+				"de": {
+					"question": "Ich fühle mich seit gestern Nacht unwohl.",
+					"explanation": "Das Present Perfect Continuous: schlechtes Befinden seit der letzten Nacht."
+				},
+				"es": {
+					"question": "Me siento mal desde anoche.",
+					"explanation": "El Present Perfect Continuous: mal estado de salud desde anoche."
 				}
 			}
 		},
@@ -466,6 +1078,18 @@
 				"ru": {
 					"question": "Она разговаривает с подругой уже сорок минут.",
 					"explanation": "Present Perfect Continuous: разговор идёт уже сорок минут."
+				},
+				"fr": {
+					"question": "Elle parle avec son amie depuis quarante minutes.",
+					"explanation": "Le Present Perfect Continuous : la conversation dure depuis quarante minutes."
+				},
+				"de": {
+					"question": "Sie redet seit vierzig Minuten mit ihrer Freundin.",
+					"explanation": "Das Present Perfect Continuous: das Gespräch dauert seit vierzig Minuten."
+				},
+				"es": {
+					"question": "Lleva cuarenta minutos hablando con su amiga.",
+					"explanation": "El Present Perfect Continuous: la conversación dura desde hace cuarenta minutos."
 				}
 			}
 		},
@@ -475,6 +1099,18 @@
 				"ru": {
 					"question": "Мы ждём результатов уже неделю.",
 					"explanation": "Present Perfect Continuous: ожидание результатов продолжается."
+				},
+				"fr": {
+					"question": "Nous attendons les résultats depuis une semaine.",
+					"explanation": "Le Present Perfect Continuous : l'attente des résultats continue."
+				},
+				"de": {
+					"question": "Wir warten seit einer Woche auf die Ergebnisse.",
+					"explanation": "Das Present Perfect Continuous: das Warten auf Ergebnisse dauert an."
+				},
+				"es": {
+					"question": "Llevamos una semana esperando los resultados.",
+					"explanation": "El Present Perfect Continuous: la espera de resultados continúa."
 				}
 			}
 		},
@@ -484,6 +1120,18 @@
 				"ru": {
 					"question": "Он играет на гитаре с двенадцати лет.",
 					"explanation": "Present Perfect Continuous: игра на гитаре с детского возраста."
+				},
+				"fr": {
+					"question": "Il joue de la guitare depuis ses douze ans.",
+					"explanation": "Le Present Perfect Continuous : jeu de guitare depuis l'enfance."
+				},
+				"de": {
+					"question": "Er spielt seit er zwölf ist Gitarre.",
+					"explanation": "Das Present Perfect Continuous: Gitarrespielen seit der Kindheit."
+				},
+				"es": {
+					"question": "Lleva tocando la guitarra desde los doce años.",
+					"explanation": "El Present Perfect Continuous: toca la guitarra desde la infancia."
 				}
 			}
 		},
@@ -493,6 +1141,18 @@
 				"ru": {
 					"question": "Я слежу за этим делом уже несколько недель.",
 					"explanation": "Present Perfect Continuous: наблюдение за делом продолжается."
+				},
+				"fr": {
+					"question": "Je suis cette affaire depuis plusieurs semaines.",
+					"explanation": "Le Present Perfect Continuous : le suivi de l'affaire continue."
+				},
+				"de": {
+					"question": "Ich verfolge diesen Fall seit mehreren Wochen.",
+					"explanation": "Das Present Perfect Continuous: das Verfolgen des Falls dauert an."
+				},
+				"es": {
+					"question": "Llevo varias semanas siguiendo este caso.",
+					"explanation": "El Present Perfect Continuous: el seguimiento del caso continúa."
 				}
 			}
 		},
@@ -502,6 +1162,18 @@
 				"ru": {
 					"question": "Они переписываются уже несколько лет.",
 					"explanation": "Present Perfect Continuous: переписка продолжается несколько лет."
+				},
+				"fr": {
+					"question": "Ils correspondent depuis plusieurs années.",
+					"explanation": "Le Present Perfect Continuous : la correspondance dure depuis plusieurs années."
+				},
+				"de": {
+					"question": "Sie korrespondieren seit mehreren Jahren.",
+					"explanation": "Das Present Perfect Continuous: die Korrespondenz dauert mehrere Jahre."
+				},
+				"es": {
+					"question": "Llevan varios años escribiéndose.",
+					"explanation": "El Present Perfect Continuous: la correspondencia dura varios años."
 				}
 			}
 		},
@@ -511,6 +1183,18 @@
 				"ru": {
 					"question": "Снег таял весь день.",
 					"explanation": "Present Perfect Continuous: таяние снега продолжалось весь день."
+				},
+				"fr": {
+					"question": "La neige fondait toute la journée.",
+					"explanation": "Le Present Perfect Continuous : la fonte de neige a duré toute la journée."
+				},
+				"de": {
+					"question": "Der Schnee ist den ganzen Tag geschmolzen.",
+					"explanation": "Das Present Perfect Continuous: das Schmelzen des Schnees dauerte den ganzen Tag."
+				},
+				"es": {
+					"question": "La nieve ha estado derritiéndose todo el día.",
+					"explanation": "El Present Perfect Continuous: el deshielo de la nieve duró todo el día."
 				}
 			}
 		},
@@ -520,6 +1204,18 @@
 				"ru": {
 					"question": "Я жду твоего звонка с обеда.",
 					"explanation": "Present Perfect Continuous: ожидание звонка с обеда."
+				},
+				"fr": {
+					"question": "J'attends ton appel depuis le déjeuner.",
+					"explanation": "Le Present Perfect Continuous : l'attente de l'appel depuis le déjeuner."
+				},
+				"de": {
+					"question": "Ich warte seit dem Mittagessen auf deinen Anruf.",
+					"explanation": "Das Present Perfect Continuous: Warten auf den Anruf seit dem Mittagessen."
+				},
+				"es": {
+					"question": "Llevo esperando tu llamada desde la hora de comer.",
+					"explanation": "El Present Perfect Continuous: espera de la llamada desde la comida."
 				}
 			}
 		},
@@ -529,6 +1225,18 @@
 				"ru": {
 					"question": "Она занимается рисованием с юности.",
 					"explanation": "Present Perfect Continuous: занятие живописью с юности."
+				},
+				"fr": {
+					"question": "Elle peint depuis sa jeunesse.",
+					"explanation": "Le Present Perfect Continuous : pratique de la peinture depuis la jeunesse."
+				},
+				"de": {
+					"question": "Sie malt seit ihrer Jugend.",
+					"explanation": "Das Present Perfect Continuous: Malerei seit der Jugend."
+				},
+				"es": {
+					"question": "Lleva pintando desde su juventud.",
+					"explanation": "El Present Perfect Continuous: práctica de la pintura desde la juventud."
 				}
 			}
 		},
@@ -538,6 +1246,18 @@
 				"ru": {
 					"question": "Мы работаем над этим вопросом уже довольно долго.",
 					"explanation": "Present Perfect Continuous: длительная работа над вопросом."
+				},
+				"fr": {
+					"question": "Nous travaillons sur cette question depuis assez longtemps.",
+					"explanation": "Le Present Perfect Continuous : travail prolongé sur la question."
+				},
+				"de": {
+					"question": "Wir arbeiten schon ziemlich lange an dieser Frage.",
+					"explanation": "Das Present Perfect Continuous: langwierige Arbeit an der Frage."
+				},
+				"es": {
+					"question": "Llevamos bastante tiempo trabajando en este asunto.",
+					"explanation": "El Present Perfect Continuous: trabajo prolongado sobre el asunto."
 				}
 			}
 		},
@@ -547,6 +1267,18 @@
 				"ru": {
 					"question": "Он ремонтирует машину весь день.",
 					"explanation": "Present Perfect Continuous: ремонт машины занял весь день."
+				},
+				"fr": {
+					"question": "Il répare la voiture depuis toute la journée.",
+					"explanation": "Le Present Perfect Continuous : la réparation de la voiture a pris toute la journée."
+				},
+				"de": {
+					"question": "Er repariert den ganzen Tag das Auto.",
+					"explanation": "Das Present Perfect Continuous: die Autoreparatur hat den ganzen Tag gedauert."
+				},
+				"es": {
+					"question": "Lleva todo el día arreglando el coche.",
+					"explanation": "El Present Perfect Continuous: la reparación del coche ha ocupado todo el día."
 				}
 			}
 		},
@@ -556,6 +1288,18 @@
 				"ru": {
 					"question": "Я пытаюсь решить эту задачу уже час.",
 					"explanation": "Present Perfect Continuous: попытки решить задачу продолжаются час."
+				},
+				"fr": {
+					"question": "J'essaie de résoudre ce problème depuis une heure.",
+					"explanation": "Le Present Perfect Continuous : les tentatives de résolution durent depuis une heure."
+				},
+				"de": {
+					"question": "Ich versuche seit einer Stunde, dieses Problem zu lösen.",
+					"explanation": "Das Present Perfect Continuous: die Lösungsversuche dauern seit einer Stunde an."
+				},
+				"es": {
+					"question": "Llevo una hora intentando resolver este problema.",
+					"explanation": "El Present Perfect Continuous: los intentos de resolución duran desde hace una hora."
 				}
 			}
 		},
@@ -565,6 +1309,18 @@
 				"ru": {
 					"question": "Она готовит к праздничному обеду с утра.",
 					"explanation": "Present Perfect Continuous: приготовления к обеду с утра."
+				},
+				"fr": {
+					"question": "Elle prépare le repas de fête depuis ce matin.",
+					"explanation": "Le Present Perfect Continuous : les préparatifs du repas depuis ce matin."
+				},
+				"de": {
+					"question": "Sie kocht seit heute Morgen für das Festessen.",
+					"explanation": "Das Present Perfect Continuous: Vorbereitungen für das Essen seit heute Morgen."
+				},
+				"es": {
+					"question": "Lleva cocinando para la cena de fiesta desde esta mañana.",
+					"explanation": "El Present Perfect Continuous: preparativos para la cena desde esta mañana."
 				}
 			}
 		},
@@ -574,6 +1330,18 @@
 				"ru": {
 					"question": "Они встречаются уже полгода.",
 					"explanation": "Present Perfect Continuous: отношения длятся полгода."
+				},
+				"fr": {
+					"question": "Ils sortent ensemble depuis six mois.",
+					"explanation": "Le Present Perfect Continuous : la relation dure depuis six mois."
+				},
+				"de": {
+					"question": "Sie sind seit einem halben Jahr zusammen.",
+					"explanation": "Das Present Perfect Continuous: die Beziehung dauert seit einem halben Jahr."
+				},
+				"es": {
+					"question": "Llevan medio año saliendo juntos.",
+					"explanation": "El Present Perfect Continuous: la relación dura desde hace medio año."
 				}
 			}
 		},
@@ -583,6 +1351,18 @@
 				"ru": {
 					"question": "Я читаю эту книгу уже месяц.",
 					"explanation": "Present Perfect Continuous: чтение продолжается уже месяц."
+				},
+				"fr": {
+					"question": "Je lis ce livre depuis un mois.",
+					"explanation": "Le Present Perfect Continuous : la lecture continue depuis un mois."
+				},
+				"de": {
+					"question": "Ich lese dieses Buch seit einem Monat.",
+					"explanation": "Das Present Perfect Continuous: das Lesen dauert seit einem Monat an."
+				},
+				"es": {
+					"question": "Llevo un mes leyendo este libro.",
+					"explanation": "El Present Perfect Continuous: la lectura continúa desde hace un mes."
 				}
 			}
 		},
@@ -592,6 +1372,18 @@
 				"ru": {
 					"question": "Он занимается бизнесом с девяностых годов.",
 					"explanation": "Present Perfect Continuous: бизнес ведётся с 90-х годов."
+				},
+				"fr": {
+					"question": "Il dirige une entreprise depuis les années quatre-vingt-dix.",
+					"explanation": "Le Present Perfect Continuous : l'entreprise est gérée depuis les années 90."
+				},
+				"de": {
+					"question": "Er führt seit den neunziger Jahren ein Unternehmen.",
+					"explanation": "Das Present Perfect Continuous: das Unternehmen wird seit den 90ern geführt."
+				},
+				"es": {
+					"question": "Lleva dirigiendo un negocio desde los años noventa.",
+					"explanation": "El Present Perfect Continuous: el negocio se lleva desde los años 90."
 				}
 			}
 		},
@@ -601,6 +1393,18 @@
 				"ru": {
 					"question": "Мы обсуждаем план уже два часа.",
 					"explanation": "Present Perfect Continuous: обсуждение плана не завершено."
+				},
+				"fr": {
+					"question": "Nous discutons du plan depuis deux heures.",
+					"explanation": "Le Present Perfect Continuous : la discussion du plan n'est pas terminée."
+				},
+				"de": {
+					"question": "Wir diskutieren seit zwei Stunden den Plan.",
+					"explanation": "Das Present Perfect Continuous: die Plandiskussion ist nicht abgeschlossen."
+				},
+				"es": {
+					"question": "Llevamos dos horas discutiendo el plan.",
+					"explanation": "El Present Perfect Continuous: la discusión del plan no ha terminado."
 				}
 			}
 		},
@@ -610,6 +1414,18 @@
 				"ru": {
 					"question": "Она работает в этой компании уже семь лет.",
 					"explanation": "Present Perfect Continuous: работа в компании продолжается семь лет."
+				},
+				"fr": {
+					"question": "Elle travaille dans cette entreprise depuis sept ans.",
+					"explanation": "Le Present Perfect Continuous : le travail dans l'entreprise dure depuis sept ans."
+				},
+				"de": {
+					"question": "Sie arbeitet seit sieben Jahren in diesem Unternehmen.",
+					"explanation": "Das Present Perfect Continuous: die Arbeit im Unternehmen dauert seit sieben Jahren."
+				},
+				"es": {
+					"question": "Lleva siete años trabajando en esta empresa.",
+					"explanation": "El Present Perfect Continuous: el trabajo en la empresa dura desde hace siete años."
 				}
 			}
 		},
@@ -619,6 +1435,18 @@
 				"ru": {
 					"question": "Дети играют в видеоигры весь вечер.",
 					"explanation": "Present Perfect Continuous: игры не прекращались весь вечер."
+				},
+				"fr": {
+					"question": "Les enfants jouent aux jeux vidéo depuis toute la soirée.",
+					"explanation": "Le Present Perfect Continuous : les jeux n'ont pas cessé de toute la soirée."
+				},
+				"de": {
+					"question": "Die Kinder spielen den ganzen Abend Videospiele.",
+					"explanation": "Das Present Perfect Continuous: das Spielen hörte den ganzen Abend nicht auf."
+				},
+				"es": {
+					"question": "Los niños llevan toda la tarde jugando a videojuegos.",
+					"explanation": "El Present Perfect Continuous: los juegos no han cesado en toda la tarde."
 				}
 			}
 		},
@@ -628,6 +1456,18 @@
 				"ru": {
 					"question": "Я практикую произношение уже несколько недель.",
 					"explanation": "Present Perfect Continuous: практика произношения продолжается несколько недель."
+				},
+				"fr": {
+					"question": "Je travaille ma prononciation depuis plusieurs semaines.",
+					"explanation": "Le Present Perfect Continuous : la pratique de la prononciation dure depuis plusieurs semaines."
+				},
+				"de": {
+					"question": "Ich übe seit mehreren Wochen meine Aussprache.",
+					"explanation": "Das Present Perfect Continuous: das Aussprachetraining dauert mehrere Wochen."
+				},
+				"es": {
+					"question": "Llevo varias semanas practicando la pronunciación.",
+					"explanation": "El Present Perfect Continuous: la práctica de la pronunciación dura desde hace varias semanas."
 				}
 			}
 		},
@@ -637,6 +1477,18 @@
 				"ru": {
 					"question": "Он переводит документ с прошлого вечера.",
 					"explanation": "Present Perfect Continuous: перевод идёт с прошлого вечера."
+				},
+				"fr": {
+					"question": "Il traduit le document depuis hier soir.",
+					"explanation": "Le Present Perfect Continuous : la traduction est en cours depuis hier soir."
+				},
+				"de": {
+					"question": "Er übersetzt das Dokument seit gestern Abend.",
+					"explanation": "Das Present Perfect Continuous: die Übersetzung läuft seit gestern Abend."
+				},
+				"es": {
+					"question": "Lleva traduciendo el documento desde ayer por la noche.",
+					"explanation": "El Present Perfect Continuous: la traducción lleva en curso desde ayer por la noche."
 				}
 			}
 		},
@@ -646,6 +1498,18 @@
 				"ru": {
 					"question": "Мы ищем подходящую квартиру уже три месяца.",
 					"explanation": "Present Perfect Continuous: поиск квартиры ещё не завершён."
+				},
+				"fr": {
+					"question": "Nous cherchons un appartement convenable depuis trois mois.",
+					"explanation": "Le Present Perfect Continuous : la recherche d'appartement n'est pas terminée."
+				},
+				"de": {
+					"question": "Wir suchen seit drei Monaten eine passende Wohnung.",
+					"explanation": "Das Present Perfect Continuous: die Wohnungssuche ist noch nicht abgeschlossen."
+				},
+				"es": {
+					"question": "Llevamos tres meses buscando un piso adecuado.",
+					"explanation": "El Present Perfect Continuous: la búsqueda de piso aún no ha terminado."
 				}
 			}
 		},
@@ -655,6 +1519,18 @@
 				"ru": {
 					"question": "Она тренируется в этом зале уже два года.",
 					"explanation": "Present Perfect Continuous: тренировки продолжаются два года."
+				},
+				"fr": {
+					"question": "Elle s'entraîne dans cette salle de sport depuis deux ans.",
+					"explanation": "Le Present Perfect Continuous : les entraînements durent depuis deux ans."
+				},
+				"de": {
+					"question": "Sie trainiert seit zwei Jahren in diesem Fitnessstudio.",
+					"explanation": "Das Present Perfect Continuous: das Training dauert seit zwei Jahren."
+				},
+				"es": {
+					"question": "Lleva dos años entrenando en este gimnasio.",
+					"explanation": "El Present Perfect Continuous: los entrenamientos duran desde hace dos años."
 				}
 			}
 		},
@@ -664,6 +1540,18 @@
 				"ru": {
 					"question": "Я слежу за новостями с утра.",
 					"explanation": "Present Perfect Continuous: слежение за новостями с утра."
+				},
+				"fr": {
+					"question": "Je suis l'actualité depuis ce matin.",
+					"explanation": "Le Present Perfect Continuous : le suivi des informations depuis ce matin."
+				},
+				"de": {
+					"question": "Ich verfolge seit heute Morgen die Nachrichten.",
+					"explanation": "Das Present Perfect Continuous: das Verfolgen der Nachrichten seit heute Morgen."
+				},
+				"es": {
+					"question": "Llevo siguiendo las noticias desde esta mañana.",
+					"explanation": "El Present Perfect Continuous: el seguimiento de las noticias desde esta mañana."
 				}
 			}
 		},
@@ -673,6 +1561,18 @@
 				"ru": {
 					"question": "Он пишет диссертацию уже три года.",
 					"explanation": "Present Perfect Continuous: написание диссертации продолжается три года."
+				},
+				"fr": {
+					"question": "Il rédige sa thèse depuis trois ans.",
+					"explanation": "Le Present Perfect Continuous : la rédaction de la thèse dure depuis trois ans."
+				},
+				"de": {
+					"question": "Er schreibt seit drei Jahren an seiner Dissertation.",
+					"explanation": "Das Present Perfect Continuous: das Schreiben der Dissertation dauert seit drei Jahren."
+				},
+				"es": {
+					"question": "Lleva tres años escribiendo su tesis doctoral.",
+					"explanation": "El Present Perfect Continuous: la escritura de la tesis dura desde hace tres años."
 				}
 			}
 		},
@@ -682,6 +1582,18 @@
 				"ru": {
 					"question": "Мы спорим об этом уже целый час.",
 					"explanation": "Present Perfect Continuous: спор длится целый час."
+				},
+				"fr": {
+					"question": "Nous nous disputons à ce sujet depuis une heure entière.",
+					"explanation": "Le Present Perfect Continuous : la dispute dure depuis une heure entière."
+				},
+				"de": {
+					"question": "Wir streiten seit einer ganzen Stunde darüber.",
+					"explanation": "Das Present Perfect Continuous: der Streit dauert seit einer ganzen Stunde."
+				},
+				"es": {
+					"question": "Llevamos toda una hora discutiendo sobre esto.",
+					"explanation": "El Present Perfect Continuous: la discusión dura desde hace una hora entera."
 				}
 			}
 		},
@@ -691,6 +1603,18 @@
 				"ru": {
 					"question": "Она учит детей играть на пианино уже десять лет.",
 					"explanation": "Present Perfect Continuous: обучение продолжается десять лет."
+				},
+				"fr": {
+					"question": "Elle apprend aux enfants à jouer du piano depuis dix ans.",
+					"explanation": "Le Present Perfect Continuous : l'enseignement dure depuis dix ans."
+				},
+				"de": {
+					"question": "Sie bringt Kindern seit zehn Jahren Klavierspielen bei.",
+					"explanation": "Das Present Perfect Continuous: das Unterrichten dauert seit zehn Jahren."
+				},
+				"es": {
+					"question": "Lleva diez años enseñando a niños a tocar el piano.",
+					"explanation": "El Present Perfect Continuous: la enseñanza dura desde hace diez años."
 				}
 			}
 		},
@@ -700,6 +1624,18 @@
 				"ru": {
 					"question": "Я чиню этот велосипед весь день.",
 					"explanation": "Present Perfect Continuous: ремонт велосипеда занял весь день."
+				},
+				"fr": {
+					"question": "Je répare ce vélo depuis toute la journée.",
+					"explanation": "Le Present Perfect Continuous : la réparation du vélo a pris toute la journée."
+				},
+				"de": {
+					"question": "Ich repariere den ganzen Tag dieses Fahrrad.",
+					"explanation": "Das Present Perfect Continuous: die Fahrradreparatur hat den ganzen Tag gedauert."
+				},
+				"es": {
+					"question": "Llevo todo el día arreglando esta bicicleta.",
+					"explanation": "El Present Perfect Continuous: la reparación de la bicicleta ha ocupado todo el día."
 				}
 			}
 		},
@@ -709,6 +1645,18 @@
 				"ru": {
 					"question": "Они копают траншею уже несколько часов.",
 					"explanation": "Present Perfect Continuous: работа по рытью траншеи продолжается."
+				},
+				"fr": {
+					"question": "Ils creusent la tranchée depuis plusieurs heures.",
+					"explanation": "Le Present Perfect Continuous : le travail de creusement continue."
+				},
+				"de": {
+					"question": "Sie graben seit mehreren Stunden den Graben.",
+					"explanation": "Das Present Perfect Continuous: die Grabungsarbeit dauert an."
+				},
+				"es": {
+					"question": "Llevan varias horas cavando la zanja.",
+					"explanation": "El Present Perfect Continuous: el trabajo de excavación continúa."
 				}
 			}
 		},
@@ -718,6 +1666,18 @@
 				"ru": {
 					"question": "Он живёт за границей с двадцати пяти лет.",
 					"explanation": "Present Perfect Continuous: жизнь за рубежом с 25 лет."
+				},
+				"fr": {
+					"question": "Il vit à l'étranger depuis ses vingt-cinq ans.",
+					"explanation": "Le Present Perfect Continuous : vie à l'étranger depuis 25 ans."
+				},
+				"de": {
+					"question": "Er lebt seit seinem fünfundzwanzigsten Geburtstag im Ausland.",
+					"explanation": "Das Present Perfect Continuous: Leben im Ausland seit dem 25. Lebensjahr."
+				},
+				"es": {
+					"question": "Lleva viviendo en el extranjero desde los veinticinco años.",
+					"explanation": "El Present Perfect Continuous: vida en el extranjero desde los 25 años."
 				}
 			}
 		},
@@ -727,6 +1687,18 @@
 				"ru": {
 					"question": "Я думаю о смене работы уже несколько месяцев.",
 					"explanation": "Present Perfect Continuous: размышления о смене работы продолжаются."
+				},
+				"fr": {
+					"question": "Je réfléchis à changer de travail depuis plusieurs mois.",
+					"explanation": "Le Present Perfect Continuous : les réflexions sur le changement de travail continuent."
+				},
+				"de": {
+					"question": "Ich denke seit mehreren Monaten über einen Jobwechsel nach.",
+					"explanation": "Das Present Perfect Continuous: die Überlegungen zum Jobwechsel dauern an."
+				},
+				"es": {
+					"question": "Llevo varios meses pensando en cambiar de trabajo.",
+					"explanation": "El Present Perfect Continuous: las reflexiones sobre el cambio de trabajo continúan."
 				}
 			}
 		},
@@ -736,6 +1708,18 @@
 				"ru": {
 					"question": "Она занимается благотворительностью уже много лет.",
 					"explanation": "Present Perfect Continuous: благотворительность на протяжении многих лет."
+				},
+				"fr": {
+					"question": "Elle fait du bénévolat depuis de nombreuses années.",
+					"explanation": "Le Present Perfect Continuous : le bénévolat dure depuis de nombreuses années."
+				},
+				"de": {
+					"question": "Sie macht seit vielen Jahren Wohltätigkeitsarbeit.",
+					"explanation": "Das Present Perfect Continuous: Wohltätigkeit über viele Jahre."
+				},
+				"es": {
+					"question": "Lleva muchos años haciendo trabajo voluntario.",
+					"explanation": "El Present Perfect Continuous: el voluntariado dura desde hace muchos años."
 				}
 			}
 		},
@@ -745,6 +1729,18 @@
 				"ru": {
 					"question": "Мы разрабатываем это приложение уже полгода.",
 					"explanation": "Present Perfect Continuous: разработка приложения ещё не завершена."
+				},
+				"fr": {
+					"question": "Nous développons cette application depuis six mois.",
+					"explanation": "Le Present Perfect Continuous : le développement de l'application n'est pas encore terminé."
+				},
+				"de": {
+					"question": "Wir entwickeln diese App seit sechs Monaten.",
+					"explanation": "Das Present Perfect Continuous: die App-Entwicklung ist noch nicht abgeschlossen."
+				},
+				"es": {
+					"question": "Llevamos seis meses desarrollando esta aplicación.",
+					"explanation": "El Present Perfect Continuous: el desarrollo de la aplicación aún no ha terminado."
 				}
 			}
 		},
@@ -754,6 +1750,18 @@
 				"ru": {
 					"question": "Он учится водить машину уже месяц.",
 					"explanation": "Present Perfect Continuous: обучение вождению продолжается месяц."
+				},
+				"fr": {
+					"question": "Il apprend à conduire depuis un mois.",
+					"explanation": "Le Present Perfect Continuous : l'apprentissage de la conduite dure depuis un mois."
+				},
+				"de": {
+					"question": "Er lernt seit einem Monat Autofahren.",
+					"explanation": "Das Present Perfect Continuous: das Fahrenlernen dauert seit einem Monat."
+				},
+				"es": {
+					"question": "Lleva un mes aprendiendo a conducir.",
+					"explanation": "El Present Perfect Continuous: el aprendizaje de la conducción dura desde hace un mes."
 				}
 			}
 		},
@@ -763,6 +1771,18 @@
 				"ru": {
 					"question": "Я хожу в эту кофейню с открытия.",
 					"explanation": "Present Perfect Continuous: посещение кофейни с момента открытия."
+				},
+				"fr": {
+					"question": "Je vais dans ce café depuis son ouverture.",
+					"explanation": "Le Present Perfect Continuous : visites au café depuis son ouverture."
+				},
+				"de": {
+					"question": "Ich gehe seit der Eröffnung in dieses Café.",
+					"explanation": "Das Present Perfect Continuous: Besuche im Café seit seiner Eröffnung."
+				},
+				"es": {
+					"question": "Llevo yendo a esta cafetería desde que abrió.",
+					"explanation": "El Present Perfect Continuous: visitas a la cafetería desde su apertura."
 				}
 			}
 		},
@@ -772,6 +1792,18 @@
 				"ru": {
 					"question": "Она работает над романом уже год.",
 					"explanation": "Present Perfect Continuous: работа над романом продолжается год."
+				},
+				"fr": {
+					"question": "Elle travaille sur son roman depuis un an.",
+					"explanation": "Le Present Perfect Continuous : le travail sur le roman dure depuis un an."
+				},
+				"de": {
+					"question": "Sie arbeitet seit einem Jahr an ihrem Roman.",
+					"explanation": "Das Present Perfect Continuous: die Arbeit am Roman dauert seit einem Jahr."
+				},
+				"es": {
+					"question": "Lleva un año trabajando en su novela.",
+					"explanation": "El Present Perfect Continuous: el trabajo en la novela dura desde hace un año."
 				}
 			}
 		},
@@ -781,6 +1813,18 @@
 				"ru": {
 					"question": "Мы следим за этим судебным процессом с начала.",
 					"explanation": "Present Perfect Continuous: наблюдение за процессом с самого начала."
+				},
+				"fr": {
+					"question": "Nous suivons ce procès depuis le début.",
+					"explanation": "Le Present Perfect Continuous : suivi du procès depuis le tout début."
+				},
+				"de": {
+					"question": "Wir verfolgen diesen Prozess von Anfang an.",
+					"explanation": "Das Present Perfect Continuous: Verfolgung des Prozesses von Anfang an."
+				},
+				"es": {
+					"question": "Llevamos siguiendo este juicio desde el principio.",
+					"explanation": "El Present Perfect Continuous: seguimiento del juicio desde el principio."
 				}
 			}
 		},
@@ -790,6 +1834,18 @@
 				"ru": {
 					"question": "Он тренирует команду уже пять лет.",
 					"explanation": "Present Perfect Continuous: тренерская работа продолжается пять лет."
+				},
+				"fr": {
+					"question": "Il entraîne l'équipe depuis cinq ans.",
+					"explanation": "Le Present Perfect Continuous : le travail d'entraîneur dure depuis cinq ans."
+				},
+				"de": {
+					"question": "Er trainiert die Mannschaft seit fünf Jahren.",
+					"explanation": "Das Present Perfect Continuous: die Trainerarbeit dauert seit fünf Jahren."
+				},
+				"es": {
+					"question": "Lleva cinco años entrenando al equipo.",
+					"explanation": "El Present Perfect Continuous: el trabajo de entrenador dura desde hace cinco años."
 				}
 			}
 		},
@@ -799,6 +1855,18 @@
 				"ru": {
 					"question": "Я жду посылку уже две недели.",
 					"explanation": "Present Perfect Continuous: ожидание посылки затянулось на две недели."
+				},
+				"fr": {
+					"question": "J'attends le colis depuis deux semaines.",
+					"explanation": "Le Present Perfect Continuous : l'attente du colis s'est prolongée deux semaines."
+				},
+				"de": {
+					"question": "Ich warte seit zwei Wochen auf das Paket.",
+					"explanation": "Das Present Perfect Continuous: das Warten auf das Paket hat sich auf zwei Wochen hingezogen."
+				},
+				"es": {
+					"question": "Llevo dos semanas esperando el paquete.",
+					"explanation": "El Present Perfect Continuous: la espera del paquete se ha prolongado dos semanas."
 				}
 			}
 		},
@@ -808,6 +1876,18 @@
 				"ru": {
 					"question": "Она изучает историю Японии уже несколько лет.",
 					"explanation": "Present Perfect Continuous: изучение истории продолжается."
+				},
+				"fr": {
+					"question": "Elle étudie l'histoire du Japon depuis plusieurs années.",
+					"explanation": "Le Present Perfect Continuous : l'étude de l'histoire continue."
+				},
+				"de": {
+					"question": "Sie studiert seit mehreren Jahren die Geschichte Japans.",
+					"explanation": "Das Present Perfect Continuous: das Studium der Geschichte dauert an."
+				},
+				"es": {
+					"question": "Lleva varios años estudiando la historia de Japón.",
+					"explanation": "El Present Perfect Continuous: el estudio de la historia continúa."
 				}
 			}
 		},
@@ -817,6 +1897,18 @@
 				"ru": {
 					"question": "Мы снимаем эту квартиру с прошлого года.",
 					"explanation": "Present Perfect Continuous: аренда квартиры с прошлого года."
+				},
+				"fr": {
+					"question": "Nous louons cet appartement depuis l'année dernière.",
+					"explanation": "Le Present Perfect Continuous : la location de l'appartement depuis l'année dernière."
+				},
+				"de": {
+					"question": "Wir mieten diese Wohnung seit letztem Jahr.",
+					"explanation": "Das Present Perfect Continuous: Mietung der Wohnung seit letztem Jahr."
+				},
+				"es": {
+					"question": "Llevamos alquilando este piso desde el año pasado.",
+					"explanation": "El Present Perfect Continuous: el alquiler del piso desde el año pasado."
 				}
 			}
 		},
@@ -826,6 +1918,18 @@
 				"ru": {
 					"question": "Он слушает музыку весь вечер.",
 					"explanation": "Present Perfect Continuous: прослушивание музыки весь вечер."
+				},
+				"fr": {
+					"question": "Il écoute de la musique depuis toute la soirée.",
+					"explanation": "Le Present Perfect Continuous : écoute de la musique de toute la soirée."
+				},
+				"de": {
+					"question": "Er hört den ganzen Abend Musik.",
+					"explanation": "Das Present Perfect Continuous: Musikhören den ganzen Abend."
+				},
+				"es": {
+					"question": "Lleva toda la tarde escuchando música.",
+					"explanation": "El Present Perfect Continuous: escucha de música durante toda la tarde."
 				}
 			}
 		},
@@ -835,6 +1939,18 @@
 				"ru": {
 					"question": "Я занимаюсь этим делом уже несколько часов.",
 					"explanation": "Present Perfect Continuous: занятие делом продолжается несколько часов."
+				},
+				"fr": {
+					"question": "Je m'occupe de cette affaire depuis plusieurs heures.",
+					"explanation": "Le Present Perfect Continuous : l'occupation de l'affaire dure plusieurs heures."
+				},
+				"de": {
+					"question": "Ich beschäftige mich seit mehreren Stunden mit dieser Angelegenheit.",
+					"explanation": "Das Present Perfect Continuous: die Beschäftigung mit der Angelegenheit dauert mehrere Stunden."
+				},
+				"es": {
+					"question": "Llevo varias horas ocupándome de este asunto.",
+					"explanation": "El Present Perfect Continuous: la ocupación del asunto dura varias horas."
 				}
 			}
 		},
@@ -844,6 +1960,18 @@
 				"ru": {
 					"question": "Она работает в больнице уже двенадцать лет.",
 					"explanation": "Present Perfect Continuous: работа в больнице продолжается."
+				},
+				"fr": {
+					"question": "Elle travaille à l'hôpital depuis douze ans.",
+					"explanation": "Le Present Perfect Continuous : le travail à l'hôpital continue."
+				},
+				"de": {
+					"question": "Sie arbeitet seit zwölf Jahren im Krankenhaus.",
+					"explanation": "Das Present Perfect Continuous: die Arbeit im Krankenhaus dauert an."
+				},
+				"es": {
+					"question": "Lleva doce años trabajando en el hospital.",
+					"explanation": "El Present Perfect Continuous: el trabajo en el hospital continúa."
 				}
 			}
 		},
@@ -853,6 +1981,18 @@
 				"ru": {
 					"question": "Мы обсуждаем условия контракта уже несколько дней.",
 					"explanation": "Present Perfect Continuous: переговоры по контракту продолжаются."
+				},
+				"fr": {
+					"question": "Nous négocions les termes du contrat depuis plusieurs jours.",
+					"explanation": "Le Present Perfect Continuous : les négociations sur le contrat continuent."
+				},
+				"de": {
+					"question": "Wir verhandeln seit mehreren Tagen über die Vertragsbedingungen.",
+					"explanation": "Das Present Perfect Continuous: die Vertragsverhandlungen dauern an."
+				},
+				"es": {
+					"question": "Llevamos varios días negociando las condiciones del contrato.",
+					"explanation": "El Present Perfect Continuous: las negociaciones del contrato continúan."
 				}
 			}
 		},
@@ -862,6 +2002,18 @@
 				"ru": {
 					"question": "Он пишет код с утра.",
 					"explanation": "Present Perfect Continuous: написание кода с утра."
+				},
+				"fr": {
+					"question": "Il écrit du code depuis ce matin.",
+					"explanation": "Le Present Perfect Continuous : l'écriture du code depuis ce matin."
+				},
+				"de": {
+					"question": "Er schreibt seit heute Morgen Code.",
+					"explanation": "Das Present Perfect Continuous: das Codeschreiben seit heute Morgen."
+				},
+				"es": {
+					"question": "Lleva escribiendo código desde esta mañana.",
+					"explanation": "El Present Perfect Continuous: la escritura de código desde esta mañana."
 				}
 			}
 		},
@@ -871,6 +2023,18 @@
 				"ru": {
 					"question": "Я занимаюсь медитацией уже три года.",
 					"explanation": "Present Perfect Continuous: практика медитации продолжается три года."
+				},
+				"fr": {
+					"question": "Je pratique la méditation depuis trois ans.",
+					"explanation": "Le Present Perfect Continuous : la pratique de la méditation dure depuis trois ans."
+				},
+				"de": {
+					"question": "Ich meditiere seit drei Jahren.",
+					"explanation": "Das Present Perfect Continuous: die Meditationspraxis dauert seit drei Jahren."
+				},
+				"es": {
+					"question": "Llevo tres años meditando.",
+					"explanation": "El Present Perfect Continuous: la práctica de la meditación dura desde hace tres años."
 				}
 			}
 		},
@@ -880,6 +2044,18 @@
 				"ru": {
 					"question": "Она выступает на этой сцене уже много лет.",
 					"explanation": "Present Perfect Continuous: выступления на сцене продолжаются много лет."
+				},
+				"fr": {
+					"question": "Elle se produit sur cette scène depuis de nombreuses années.",
+					"explanation": "Le Present Perfect Continuous : les représentations sur scène durent depuis de nombreuses années."
+				},
+				"de": {
+					"question": "Sie tritt seit vielen Jahren auf dieser Bühne auf.",
+					"explanation": "Das Present Perfect Continuous: die Bühnenauftritte dauern seit vielen Jahren an."
+				},
+				"es": {
+					"question": "Lleva muchos años actuando en este escenario.",
+					"explanation": "El Present Perfect Continuous: las actuaciones en el escenario duran desde hace muchos años."
 				}
 			}
 		},
@@ -889,6 +2065,18 @@
 				"ru": {
 					"question": "Мы строим отношения с клиентом уже год.",
 					"explanation": "Present Perfect Continuous: построение отношений продолжается."
+				},
+				"fr": {
+					"question": "Nous construisons une relation avec le client depuis un an.",
+					"explanation": "Le Present Perfect Continuous : la construction de la relation continue."
+				},
+				"de": {
+					"question": "Wir bauen seit einem Jahr eine Beziehung zum Kunden auf.",
+					"explanation": "Das Present Perfect Continuous: der Beziehungsaufbau dauert an."
+				},
+				"es": {
+					"question": "Llevamos un año construyendo una relación con el cliente.",
+					"explanation": "El Present Perfect Continuous: la construcción de la relación continúa."
 				}
 			}
 		},
@@ -898,6 +2086,18 @@
 				"ru": {
 					"question": "Он занимается серфингом с подросткового возраста.",
 					"explanation": "Present Perfect Continuous: занятие серфингом с юных лет."
+				},
+				"fr": {
+					"question": "Il fait du surf depuis son adolescence.",
+					"explanation": "Le Present Perfect Continuous : pratique du surf depuis la jeunesse."
+				},
+				"de": {
+					"question": "Er surft seit seiner Jugend.",
+					"explanation": "Das Present Perfect Continuous: Surfen seit der Jugend."
+				},
+				"es": {
+					"question": "Lleva practicando surf desde la adolescencia.",
+					"explanation": "El Present Perfect Continuous: práctica del surf desde la juventud."
 				}
 			}
 		},
@@ -907,6 +2107,18 @@
 				"ru": {
 					"question": "Я наблюдаю за этой ситуацией уже несколько недель.",
 					"explanation": "Present Perfect Continuous: наблюдение продолжается несколько недель."
+				},
+				"fr": {
+					"question": "J'observe cette situation depuis plusieurs semaines.",
+					"explanation": "Le Present Perfect Continuous : l'observation continue depuis plusieurs semaines."
+				},
+				"de": {
+					"question": "Ich beobachte diese Situation seit mehreren Wochen.",
+					"explanation": "Das Present Perfect Continuous: das Beobachten dauert seit mehreren Wochen."
+				},
+				"es": {
+					"question": "Llevo varias semanas observando esta situación.",
+					"explanation": "El Present Perfect Continuous: la observación continúa desde hace varias semanas."
 				}
 			}
 		},
@@ -916,6 +2128,18 @@
 				"ru": {
 					"question": "Она пишет стихи с юности.",
 					"explanation": "Present Perfect Continuous: написание стихов с юности."
+				},
+				"fr": {
+					"question": "Elle écrit de la poésie depuis sa jeunesse.",
+					"explanation": "Le Present Perfect Continuous : l'écriture de poèmes depuis la jeunesse."
+				},
+				"de": {
+					"question": "Sie schreibt seit ihrer Jugend Gedichte.",
+					"explanation": "Das Present Perfect Continuous: Gedichteschreiben seit der Jugend."
+				},
+				"es": {
+					"question": "Lleva escribiendo poesía desde su juventud.",
+					"explanation": "El Present Perfect Continuous: escritura de poesía desde la juventud."
 				}
 			}
 		},
@@ -925,6 +2149,18 @@
 				"ru": {
 					"question": "Мы тестируем новую версию программы уже неделю.",
 					"explanation": "Present Perfect Continuous: тестирование продолжается неделю."
+				},
+				"fr": {
+					"question": "Nous testons la nouvelle version du logiciel depuis une semaine.",
+					"explanation": "Le Present Perfect Continuous : les tests durent depuis une semaine."
+				},
+				"de": {
+					"question": "Wir testen seit einer Woche die neue Version der Software.",
+					"explanation": "Das Present Perfect Continuous: das Testen dauert seit einer Woche."
+				},
+				"es": {
+					"question": "Llevamos una semana probando la nueva versión del software.",
+					"explanation": "El Present Perfect Continuous: las pruebas duran desde hace una semana."
 				}
 			}
 		},
@@ -934,6 +2170,18 @@
 				"ru": {
 					"question": "Он копит на отпуск уже полгода.",
 					"explanation": "Present Perfect Continuous: накопление денег продолжается полгода."
+				},
+				"fr": {
+					"question": "Il économise pour les vacances depuis six mois.",
+					"explanation": "Le Present Perfect Continuous : l'épargne dure depuis six mois."
+				},
+				"de": {
+					"question": "Er spart seit sechs Monaten für den Urlaub.",
+					"explanation": "Das Present Perfect Continuous: das Sparen dauert seit sechs Monaten."
+				},
+				"es": {
+					"question": "Lleva seis meses ahorrando para las vacaciones.",
+					"explanation": "El Present Perfect Continuous: el ahorro dura desde hace seis meses."
 				}
 			}
 		},
@@ -943,6 +2191,18 @@
 				"ru": {
 					"question": "Я хожу к этому врачу уже несколько лет.",
 					"explanation": "Present Perfect Continuous: посещение врача продолжается несколько лет."
+				},
+				"fr": {
+					"question": "Je vais chez ce médecin depuis plusieurs années.",
+					"explanation": "Le Present Perfect Continuous : les visites chez le médecin durent depuis plusieurs années."
+				},
+				"de": {
+					"question": "Ich gehe seit mehreren Jahren zu diesem Arzt.",
+					"explanation": "Das Present Perfect Continuous: die Arztbesuche dauern seit mehreren Jahren."
+				},
+				"es": {
+					"question": "Llevo varios años yendo a este médico.",
+					"explanation": "El Present Perfect Continuous: las visitas al médico duran desde hace varios años."
 				}
 			}
 		},
@@ -952,6 +2212,18 @@
 				"ru": {
 					"question": "Она учится на программиста уже два года.",
 					"explanation": "Present Perfect Continuous: обучение программированию продолжается."
+				},
+				"fr": {
+					"question": "Elle étudie pour devenir programmeuse depuis deux ans.",
+					"explanation": "Le Present Perfect Continuous : la formation en programmation continue."
+				},
+				"de": {
+					"question": "Sie studiert seit zwei Jahren, um Programmiererin zu werden.",
+					"explanation": "Das Present Perfect Continuous: die Programmierausbildung dauert an."
+				},
+				"es": {
+					"question": "Lleva dos años estudiando para ser programadora.",
+					"explanation": "El Present Perfect Continuous: la formación en programación continúa."
 				}
 			}
 		},
@@ -961,6 +2233,18 @@
 				"ru": {
 					"question": "Мы работаем в партнёрстве уже пять лет.",
 					"explanation": "Present Perfect Continuous: партнёрство длится пять лет."
+				},
+				"fr": {
+					"question": "Nous travaillons en partenariat depuis cinq ans.",
+					"explanation": "Le Present Perfect Continuous : le partenariat dure depuis cinq ans."
+				},
+				"de": {
+					"question": "Wir arbeiten seit fünf Jahren in einer Partnerschaft.",
+					"explanation": "Das Present Perfect Continuous: die Partnerschaft dauert seit fünf Jahren."
+				},
+				"es": {
+					"question": "Llevamos cinco años trabajando en asociación.",
+					"explanation": "El Present Perfect Continuous: la asociación dura desde hace cinco años."
 				}
 			}
 		},
@@ -970,6 +2254,18 @@
 				"ru": {
 					"question": "Он готовится к выступлению с прошлой недели.",
 					"explanation": "Present Perfect Continuous: подготовка к выступлению с прошлой недели."
+				},
+				"fr": {
+					"question": "Il se prépare pour le spectacle depuis la semaine dernière.",
+					"explanation": "Le Present Perfect Continuous : la préparation au spectacle depuis la semaine dernière."
+				},
+				"de": {
+					"question": "Er bereitet sich seit letzter Woche auf die Vorstellung vor.",
+					"explanation": "Das Present Perfect Continuous: die Vorbereitung auf die Vorstellung seit letzter Woche."
+				},
+				"es": {
+					"question": "Lleva preparándose para la actuación desde la semana pasada.",
+					"explanation": "El Present Perfect Continuous: la preparación para la actuación desde la semana pasada."
 				}
 			}
 		},
@@ -979,6 +2275,18 @@
 				"ru": {
 					"question": "Я изучаю эту тему уже довольно долго.",
 					"explanation": "Present Perfect Continuous: изучение темы продолжается долго."
+				},
+				"fr": {
+					"question": "J'étudie ce sujet depuis assez longtemps.",
+					"explanation": "Le Present Perfect Continuous : l'étude du sujet dure depuis longtemps."
+				},
+				"de": {
+					"question": "Ich studiere dieses Thema schon ziemlich lange.",
+					"explanation": "Das Present Perfect Continuous: das Studium des Themas dauert schon lange."
+				},
+				"es": {
+					"question": "Llevo bastante tiempo estudiando este tema.",
+					"explanation": "El Present Perfect Continuous: el estudio del tema dura desde hace bastante tiempo."
 				}
 			}
 		},
@@ -988,6 +2296,18 @@
 				"ru": {
 					"question": "Она ухаживает за больной матерью уже несколько месяцев.",
 					"explanation": "Present Perfect Continuous: уход за матерью продолжается несколько месяцев."
+				},
+				"fr": {
+					"question": "Elle prend soin de sa mère malade depuis plusieurs mois.",
+					"explanation": "Le Present Perfect Continuous : les soins à la mère durent depuis plusieurs mois."
+				},
+				"de": {
+					"question": "Sie kümmert sich seit mehreren Monaten um ihre kranke Mutter.",
+					"explanation": "Das Present Perfect Continuous: die Pflege der Mutter dauert seit mehreren Monaten."
+				},
+				"es": {
+					"question": "Lleva varios meses cuidando a su madre enferma.",
+					"explanation": "El Present Perfect Continuous: los cuidados a la madre duran desde hace varios meses."
 				}
 			}
 		},
@@ -997,6 +2317,18 @@
 				"ru": {
 					"question": "Мы развиваем этот стартап уже два года.",
 					"explanation": "Present Perfect Continuous: развитие стартапа продолжается."
+				},
+				"fr": {
+					"question": "Nous développons cette startup depuis deux ans.",
+					"explanation": "Le Present Perfect Continuous : le développement de la startup continue."
+				},
+				"de": {
+					"question": "Wir entwickeln dieses Startup seit zwei Jahren.",
+					"explanation": "Das Present Perfect Continuous: die Startup-Entwicklung dauert an."
+				},
+				"es": {
+					"question": "Llevamos dos años desarrollando esta startup.",
+					"explanation": "El Present Perfect Continuous: el desarrollo de la startup continúa."
 				}
 			}
 		},
@@ -1006,6 +2338,18 @@
 				"ru": {
 					"question": "Он снимает документальный фильм уже год.",
 					"explanation": "Present Perfect Continuous: съёмка документального фильма продолжается."
+				},
+				"fr": {
+					"question": "Il tourne un documentaire depuis un an.",
+					"explanation": "Le Present Perfect Continuous : le tournage du documentaire continue."
+				},
+				"de": {
+					"question": "Er dreht seit einem Jahr einen Dokumentarfilm.",
+					"explanation": "Das Present Perfect Continuous: das Drehen des Dokumentarfilms dauert an."
+				},
+				"es": {
+					"question": "Lleva un año rodando un documental.",
+					"explanation": "El Present Perfect Continuous: el rodaje del documental continúa."
 				}
 			}
 		},
@@ -1015,6 +2359,18 @@
 				"ru": {
 					"question": "Я хожу на курсы испанского с сентября.",
 					"explanation": "Present Perfect Continuous: посещение курсов с сентября."
+				},
+				"fr": {
+					"question": "Je suis des cours d'espagnol depuis septembre.",
+					"explanation": "Le Present Perfect Continuous : fréquentation des cours depuis septembre."
+				},
+				"de": {
+					"question": "Ich besuche seit September Spanischkurse.",
+					"explanation": "Das Present Perfect Continuous: Besuch der Kurse seit September."
+				},
+				"es": {
+					"question": "Llevo asistiendo a clases de español desde septiembre.",
+					"explanation": "El Present Perfect Continuous: asistencia a las clases desde septiembre."
 				}
 			}
 		},
@@ -1024,6 +2380,18 @@
 				"ru": {
 					"question": "Она занимается верховой ездой с детства.",
 					"explanation": "Present Perfect Continuous: верховая езда с детства."
+				},
+				"fr": {
+					"question": "Elle fait de l'équitation depuis son enfance.",
+					"explanation": "Le Present Perfect Continuous : équitation depuis l'enfance."
+				},
+				"de": {
+					"question": "Sie reitet seit ihrer Kindheit.",
+					"explanation": "Das Present Perfect Continuous: Reiten seit der Kindheit."
+				},
+				"es": {
+					"question": "Lleva practicando equitación desde la infancia.",
+					"explanation": "El Present Perfect Continuous: equitación desde la infancia."
 				}
 			}
 		},
@@ -1033,6 +2401,18 @@
 				"ru": {
 					"question": "Мы ищем нового сотрудника уже месяц.",
 					"explanation": "Present Perfect Continuous: поиск сотрудника продолжается."
+				},
+				"fr": {
+					"question": "Nous cherchons un nouvel employé depuis un mois.",
+					"explanation": "Le Present Perfect Continuous : la recherche d'employé continue."
+				},
+				"de": {
+					"question": "Wir suchen seit einem Monat einen neuen Mitarbeiter.",
+					"explanation": "Das Present Perfect Continuous: die Mitarbeitersuche dauert an."
+				},
+				"es": {
+					"question": "Llevamos un mes buscando un nuevo empleado.",
+					"explanation": "El Present Perfect Continuous: la búsqueda de empleado continúa."
 				}
 			}
 		},
@@ -1042,6 +2422,18 @@
 				"ru": {
 					"question": "Он восстанавливается после операции уже несколько недель.",
 					"explanation": "Present Perfect Continuous: восстановление продолжается несколько недель."
+				},
+				"fr": {
+					"question": "Il se remet d'une opération depuis plusieurs semaines.",
+					"explanation": "Le Present Perfect Continuous : la récupération dure depuis plusieurs semaines."
+				},
+				"de": {
+					"question": "Er erholt sich seit mehreren Wochen von einer Operation.",
+					"explanation": "Das Present Perfect Continuous: die Genesung dauert seit mehreren Wochen."
+				},
+				"es": {
+					"question": "Lleva varias semanas recuperándose de la operación.",
+					"explanation": "El Present Perfect Continuous: la recuperación dura desde hace varias semanas."
 				}
 			}
 		},
@@ -1051,6 +2443,18 @@
 				"ru": {
 					"question": "Я работаю над этим заданием весь день.",
 					"explanation": "Present Perfect Continuous: работа над заданием весь день."
+				},
+				"fr": {
+					"question": "Je travaille sur ce devoir depuis toute la journée.",
+					"explanation": "Le Present Perfect Continuous : le travail sur le devoir a duré toute la journée."
+				},
+				"de": {
+					"question": "Ich arbeite den ganzen Tag an dieser Aufgabe.",
+					"explanation": "Das Present Perfect Continuous: die Arbeit an der Aufgabe hat den ganzen Tag gedauert."
+				},
+				"es": {
+					"question": "Llevo todo el día trabajando en esta tarea.",
+					"explanation": "El Present Perfect Continuous: el trabajo en la tarea ha durado todo el día."
 				}
 			}
 		},
@@ -1060,6 +2464,18 @@
 				"ru": {
 					"question": "Она учит детей плавать уже восемь лет.",
 					"explanation": "Present Perfect Continuous: обучение плаванию продолжается восемь лет."
+				},
+				"fr": {
+					"question": "Elle apprend aux enfants à nager depuis huit ans.",
+					"explanation": "Le Present Perfect Continuous : l'enseignement de la natation dure depuis huit ans."
+				},
+				"de": {
+					"question": "Sie bringt Kindern seit acht Jahren das Schwimmen bei.",
+					"explanation": "Das Present Perfect Continuous: das Schwimmunterrichten dauert seit acht Jahren."
+				},
+				"es": {
+					"question": "Lleva ocho años enseñando a nadar a niños.",
+					"explanation": "El Present Perfect Continuous: la enseñanza de natación dura desde hace ocho años."
 				}
 			}
 		},
@@ -1069,6 +2485,18 @@
 				"ru": {
 					"question": "Мы используем этот метод уже несколько лет.",
 					"explanation": "Present Perfect Continuous: применение метода продолжается."
+				},
+				"fr": {
+					"question": "Nous utilisons cette méthode depuis plusieurs années.",
+					"explanation": "Le Present Perfect Continuous : l'utilisation de la méthode continue."
+				},
+				"de": {
+					"question": "Wir benutzen diese Methode seit mehreren Jahren.",
+					"explanation": "Das Present Perfect Continuous: die Anwendung der Methode dauert an."
+				},
+				"es": {
+					"question": "Llevamos varios años usando este método.",
+					"explanation": "El Present Perfect Continuous: el uso del método continúa."
 				}
 			}
 		},
@@ -1078,6 +2506,18 @@
 				"ru": {
 					"question": "Он играет в шахматы с семи лет.",
 					"explanation": "Present Perfect Continuous: игра в шахматы с семи лет."
+				},
+				"fr": {
+					"question": "Il joue aux échecs depuis ses sept ans.",
+					"explanation": "Le Present Perfect Continuous : jeu d'échecs depuis sept ans."
+				},
+				"de": {
+					"question": "Er spielt seit seinem siebten Lebensjahr Schach.",
+					"explanation": "Das Present Perfect Continuous: Schachspielen seit dem siebten Lebensjahr."
+				},
+				"es": {
+					"question": "Lleva jugando al ajedrez desde los siete años.",
+					"explanation": "El Present Perfect Continuous: juego de ajedrez desde los siete años."
 				}
 			}
 		},
@@ -1087,6 +2527,18 @@
 				"ru": {
 					"question": "Я слежу за его карьерой с самого начала.",
 					"explanation": "Present Perfect Continuous: наблюдение за карьерой с самого начала."
+				},
+				"fr": {
+					"question": "Je suis sa carrière depuis le tout début.",
+					"explanation": "Le Present Perfect Continuous : suivi de la carrière depuis le début."
+				},
+				"de": {
+					"question": "Ich verfolge seine Karriere von Anfang an.",
+					"explanation": "Das Present Perfect Continuous: Verfolgen der Karriere von Anfang an."
+				},
+				"es": {
+					"question": "Llevo siguiendo su carrera desde el principio.",
+					"explanation": "El Present Perfect Continuous: seguimiento de la carrera desde el principio."
 				}
 			}
 		},
@@ -1096,6 +2548,18 @@
 				"ru": {
 					"question": "Она занимается волонтёрством уже три года.",
 					"explanation": "Present Perfect Continuous: волонтёрство продолжается три года."
+				},
+				"fr": {
+					"question": "Elle fait du bénévolat depuis trois ans.",
+					"explanation": "Le Present Perfect Continuous : le bénévolat dure depuis trois ans."
+				},
+				"de": {
+					"question": "Sie arbeitet seit drei Jahren ehrenamtlich.",
+					"explanation": "Das Present Perfect Continuous: das Ehrenamt dauert seit drei Jahren."
+				},
+				"es": {
+					"question": "Lleva tres años haciendo voluntariado.",
+					"explanation": "El Present Perfect Continuous: el voluntariado dura desde hace tres años."
 				}
 			}
 		},
@@ -1105,6 +2569,18 @@
 				"ru": {
 					"question": "Мы ждём разрешения на строительство уже полгода.",
 					"explanation": "Present Perfect Continuous: ожидание разрешения затянулось."
+				},
+				"fr": {
+					"question": "Nous attendons le permis de construire depuis six mois.",
+					"explanation": "Le Present Perfect Continuous : l'attente du permis s'est prolongée."
+				},
+				"de": {
+					"question": "Wir warten seit sechs Monaten auf die Baugenehmigung.",
+					"explanation": "Das Present Perfect Continuous: das Warten auf die Genehmigung hat sich hingezogen."
+				},
+				"es": {
+					"question": "Llevamos seis meses esperando el permiso de construcción.",
+					"explanation": "El Present Perfect Continuous: la espera del permiso se ha prolongado."
 				}
 			}
 		},
@@ -1114,6 +2590,18 @@
 				"ru": {
 					"question": "Он изучает квантовую физику уже два года.",
 					"explanation": "Present Perfect Continuous: изучение физики продолжается два года."
+				},
+				"fr": {
+					"question": "Il étudie la physique quantique depuis deux ans.",
+					"explanation": "Le Present Perfect Continuous : l'étude de la physique dure depuis deux ans."
+				},
+				"de": {
+					"question": "Er studiert seit zwei Jahren Quantenphysik.",
+					"explanation": "Das Present Perfect Continuous: das Studium der Physik dauert seit zwei Jahren."
+				},
+				"es": {
+					"question": "Lleva dos años estudiando física cuántica.",
+					"explanation": "El Present Perfect Continuous: el estudio de la física dura desde hace dos años."
 				}
 			}
 		},
@@ -1123,6 +2611,18 @@
 				"ru": {
 					"question": "Я практикую медитацию каждый день с прошлого года.",
 					"explanation": "Present Perfect Continuous: ежедневная медитация с прошлого года."
+				},
+				"fr": {
+					"question": "Je pratique la méditation tous les jours depuis l'année dernière.",
+					"explanation": "Le Present Perfect Continuous : méditation quotidienne depuis l'année dernière."
+				},
+				"de": {
+					"question": "Ich meditiere seit letztem Jahr jeden Tag.",
+					"explanation": "Das Present Perfect Continuous: tägliche Meditation seit letztem Jahr."
+				},
+				"es": {
+					"question": "Llevo practicando meditación cada día desde el año pasado.",
+					"explanation": "El Present Perfect Continuous: meditación diaria desde el año pasado."
 				}
 			}
 		},
@@ -1132,6 +2632,18 @@
 				"ru": {
 					"question": "Она помогает в этом приюте с открытия.",
 					"explanation": "Present Perfect Continuous: помощь в приюте с его открытия."
+				},
+				"fr": {
+					"question": "Elle aide dans ce refuge depuis son ouverture.",
+					"explanation": "Le Present Perfect Continuous : aide au refuge depuis son ouverture."
+				},
+				"de": {
+					"question": "Sie hilft seit der Eröffnung in diesem Tierheim.",
+					"explanation": "Das Present Perfect Continuous: Helfen im Tierheim seit seiner Eröffnung."
+				},
+				"es": {
+					"question": "Lleva ayudando en este refugio desde que abrió.",
+					"explanation": "El Present Perfect Continuous: ayuda en el refugio desde su apertura."
 				}
 			}
 		},
@@ -1141,6 +2653,18 @@
 				"ru": {
 					"question": "Мы платим за эту подписку уже год.",
 					"explanation": "Present Perfect Continuous: оплата подписки продолжается год."
+				},
+				"fr": {
+					"question": "Nous payons cet abonnement depuis un an.",
+					"explanation": "Le Present Perfect Continuous : paiement de l'abonnement depuis un an."
+				},
+				"de": {
+					"question": "Wir bezahlen seit einem Jahr dieses Abonnement.",
+					"explanation": "Das Present Perfect Continuous: Bezahlung des Abonnements seit einem Jahr."
+				},
+				"es": {
+					"question": "Llevamos un año pagando esta suscripción.",
+					"explanation": "El Present Perfect Continuous: pago de la suscripción desde hace un año."
 				}
 			}
 		},
@@ -1150,6 +2674,18 @@
 				"ru": {
 					"question": "Он учится на пилота уже три года.",
 					"explanation": "Present Perfect Continuous: обучение на пилота продолжается."
+				},
+				"fr": {
+					"question": "Il se forme pour être pilote depuis trois ans.",
+					"explanation": "Le Present Perfect Continuous : la formation de pilote continue."
+				},
+				"de": {
+					"question": "Er bildet sich seit drei Jahren zum Piloten aus.",
+					"explanation": "Das Present Perfect Continuous: die Pilotenausbildung dauert an."
+				},
+				"es": {
+					"question": "Lleva tres años formándose para ser piloto.",
+					"explanation": "El Present Perfect Continuous: la formación de piloto continúa."
 				}
 			}
 		},
@@ -1159,6 +2695,18 @@
 				"ru": {
 					"question": "Я думаю о переезде уже несколько месяцев.",
 					"explanation": "Present Perfect Continuous: мысли о переезде не покидают несколько месяцев."
+				},
+				"fr": {
+					"question": "Je réfléchis à un déménagement depuis plusieurs mois.",
+					"explanation": "Le Present Perfect Continuous : les pensées de déménagement ne partent pas depuis plusieurs mois."
+				},
+				"de": {
+					"question": "Ich denke seit mehreren Monaten über einen Umzug nach.",
+					"explanation": "Das Present Perfect Continuous: die Gedanken über einen Umzug halten seit mehreren Monaten an."
+				},
+				"es": {
+					"question": "Llevo varios meses pensando en mudarme.",
+					"explanation": "El Present Perfect Continuous: los pensamientos sobre la mudanza llevan varios meses."
 				}
 			}
 		},
@@ -1168,6 +2716,18 @@
 				"ru": {
 					"question": "Она занимается акробатикой с шести лет.",
 					"explanation": "Present Perfect Continuous: занятие акробатикой с шести лет."
+				},
+				"fr": {
+					"question": "Elle fait de l'acrobatie depuis ses six ans.",
+					"explanation": "Le Present Perfect Continuous : pratique de l'acrobatie depuis ses six ans."
+				},
+				"de": {
+					"question": "Sie macht seit sie sechs ist Akrobatik.",
+					"explanation": "Das Present Perfect Continuous: Akrobatik seit dem sechsten Lebensjahr."
+				},
+				"es": {
+					"question": "Lleva practicando acrobacia desde los seis años.",
+					"explanation": "El Present Perfect Continuous: práctica de la acrobacia desde los seis años."
 				}
 			}
 		},
@@ -1177,6 +2737,18 @@
 				"ru": {
 					"question": "Мы пытаемся договориться уже несколько дней.",
 					"explanation": "Present Perfect Continuous: попытки договориться продолжаются."
+				},
+				"fr": {
+					"question": "Nous essayons de trouver un accord depuis plusieurs jours.",
+					"explanation": "Le Present Perfect Continuous : les tentatives de négociation continuent."
+				},
+				"de": {
+					"question": "Wir versuchen seit mehreren Tagen, eine Einigung zu erzielen.",
+					"explanation": "Das Present Perfect Continuous: die Verhandlungsversuche dauern an."
+				},
+				"es": {
+					"question": "Llevamos varios días intentando llegar a un acuerdo.",
+					"explanation": "El Present Perfect Continuous: los intentos de negociación continúan."
 				}
 			}
 		},
@@ -1186,6 +2758,18 @@
 				"ru": {
 					"question": "Он печёт хлеб каждое утро уже пять лет.",
 					"explanation": "Present Perfect Continuous: регулярное занятие, продолжающееся пять лет."
+				},
+				"fr": {
+					"question": "Il fait du pain chaque matin depuis cinq ans.",
+					"explanation": "Le Present Perfect Continuous : activité régulière qui dure depuis cinq ans."
+				},
+				"de": {
+					"question": "Er backt seit fünf Jahren jeden Morgen Brot.",
+					"explanation": "Das Present Perfect Continuous: regelmäßige Tätigkeit, die seit fünf Jahren dauert."
+				},
+				"es": {
+					"question": "Lleva cinco años haciendo pan cada mañana.",
+					"explanation": "El Present Perfect Continuous: actividad regular que dura desde hace cinco años."
 				}
 			}
 		},
@@ -1195,6 +2779,18 @@
 				"ru": {
 					"question": "Она пишет дипломную работу с октября.",
 					"explanation": "Present Perfect Continuous: написание диплома с октября."
+				},
+				"fr": {
+					"question": "Elle rédige son mémoire depuis octobre.",
+					"explanation": "Le Present Perfect Continuous : rédaction du mémoire depuis octobre."
+				},
+				"de": {
+					"question": "Sie schreibt seit Oktober ihre Abschlussarbeit.",
+					"explanation": "Das Present Perfect Continuous: Abschlussarbeit schreiben seit Oktober."
+				},
+				"es": {
+					"question": "Lleva escribiendo su trabajo de fin de grado desde octubre.",
+					"explanation": "El Present Perfect Continuous: redacción del trabajo desde octubre."
 				}
 			}
 		},
@@ -1204,6 +2800,18 @@
 				"ru": {
 					"question": "Мы живём в этом доме уже десять лет.",
 					"explanation": "Present Perfect Continuous: жизнь в этом доме продолжается десять лет."
+				},
+				"fr": {
+					"question": "Nous vivons dans cette maison depuis dix ans.",
+					"explanation": "Le Present Perfect Continuous : vie dans cette maison depuis dix ans."
+				},
+				"de": {
+					"question": "Wir wohnen seit zehn Jahren in diesem Haus.",
+					"explanation": "Das Present Perfect Continuous: Leben in diesem Haus seit zehn Jahren."
+				},
+				"es": {
+					"question": "Llevamos diez años viviendo en esta casa.",
+					"explanation": "El Present Perfect Continuous: vida en esta casa desde hace diez años."
 				}
 			}
 		},
@@ -1213,6 +2821,18 @@
 				"ru": {
 					"question": "Он занимается скалолазанием уже несколько лет.",
 					"explanation": "Present Perfect Continuous: занятие скалолазанием продолжается."
+				},
+				"fr": {
+					"question": "Il fait de l'escalade depuis plusieurs années.",
+					"explanation": "Le Present Perfect Continuous : pratique de l'escalade depuis plusieurs années."
+				},
+				"de": {
+					"question": "Er klettert seit mehreren Jahren.",
+					"explanation": "Das Present Perfect Continuous: Klettern seit mehreren Jahren."
+				},
+				"es": {
+					"question": "Lleva varios años practicando escalada.",
+					"explanation": "El Present Perfect Continuous: práctica de la escalada desde hace varios años."
 				}
 			}
 		},
@@ -1222,6 +2842,18 @@
 				"ru": {
 					"question": "Я читаю статьи по этой теме уже несколько часов.",
 					"explanation": "Present Perfect Continuous: чтение статей продолжается несколько часов."
+				},
+				"fr": {
+					"question": "Je lis des articles sur ce sujet depuis plusieurs heures.",
+					"explanation": "Le Present Perfect Continuous : la lecture des articles dure depuis plusieurs heures."
+				},
+				"de": {
+					"question": "Ich lese seit mehreren Stunden Artikel zu diesem Thema.",
+					"explanation": "Das Present Perfect Continuous: das Lesen der Artikel dauert seit mehreren Stunden."
+				},
+				"es": {
+					"question": "Llevo varias horas leyendo artículos sobre este tema.",
+					"explanation": "El Present Perfect Continuous: la lectura de artículos dura desde hace varias horas."
 				}
 			}
 		},
@@ -1231,6 +2863,18 @@
 				"ru": {
 					"question": "Она руководит этим отделом уже шесть лет.",
 					"explanation": "Present Perfect Continuous: руководство отделом продолжается шесть лет."
+				},
+				"fr": {
+					"question": "Elle dirige ce département depuis six ans.",
+					"explanation": "Le Present Perfect Continuous : la direction du département dure depuis six ans."
+				},
+				"de": {
+					"question": "Sie leitet seit sechs Jahren diese Abteilung.",
+					"explanation": "Das Present Perfect Continuous: die Abteilungsleitung dauert seit sechs Jahren."
+				},
+				"es": {
+					"question": "Lleva seis años dirigiendo este departamento.",
+					"explanation": "El Present Perfect Continuous: la dirección del departamento dura desde hace seis años."
 				}
 			}
 		},
@@ -1240,6 +2884,18 @@
 				"ru": {
 					"question": "Мы обновляем сайт уже несколько недель.",
 					"explanation": "Present Perfect Continuous: обновление сайта ещё не завершено."
+				},
+				"fr": {
+					"question": "Nous mettons à jour le site web depuis plusieurs semaines.",
+					"explanation": "Le Present Perfect Continuous : la mise à jour du site n'est pas encore terminée."
+				},
+				"de": {
+					"question": "Wir aktualisieren seit mehreren Wochen die Website.",
+					"explanation": "Das Present Perfect Continuous: die Website-Aktualisierung ist noch nicht abgeschlossen."
+				},
+				"es": {
+					"question": "Llevamos varias semanas actualizando el sitio web.",
+					"explanation": "El Present Perfect Continuous: la actualización del sitio aún no ha terminado."
 				}
 			}
 		},
@@ -1249,6 +2905,18 @@
 				"ru": {
 					"question": "Он занимается фотографией с университета.",
 					"explanation": "Present Perfect Continuous: занятие фотографией с университетских лет."
+				},
+				"fr": {
+					"question": "Il fait de la photographie depuis l'université.",
+					"explanation": "Le Present Perfect Continuous : pratique de la photographie depuis les années d'université."
+				},
+				"de": {
+					"question": "Er fotografiert seit seiner Studienzeit.",
+					"explanation": "Das Present Perfect Continuous: Fotografieren seit der Studienzeit."
+				},
+				"es": {
+					"question": "Lleva haciendo fotografía desde la universidad.",
+					"explanation": "El Present Perfect Continuous: práctica de la fotografía desde los años universitarios."
 				}
 			}
 		},
@@ -1258,6 +2926,18 @@
 				"ru": {
 					"question": "Я работаю дистанционно уже два года.",
 					"explanation": "Present Perfect Continuous: дистанционная работа продолжается два года."
+				},
+				"fr": {
+					"question": "Je travaille à distance depuis deux ans.",
+					"explanation": "Le Present Perfect Continuous : le travail à distance dure depuis deux ans."
+				},
+				"de": {
+					"question": "Ich arbeite seit zwei Jahren im Homeoffice.",
+					"explanation": "Das Present Perfect Continuous: das Homeoffice dauert seit zwei Jahren."
+				},
+				"es": {
+					"question": "Llevo dos años trabajando en remoto.",
+					"explanation": "El Present Perfect Continuous: el trabajo en remoto dura desde hace dos años."
 				}
 			}
 		},
@@ -1267,6 +2947,18 @@
 				"ru": {
 					"question": "Она изучает право уже четыре года.",
 					"explanation": "Present Perfect Continuous: изучение права продолжается четыре года."
+				},
+				"fr": {
+					"question": "Elle étudie le droit depuis quatre ans.",
+					"explanation": "Le Present Perfect Continuous : l'étude du droit dure depuis quatre ans."
+				},
+				"de": {
+					"question": "Sie studiert seit vier Jahren Jura.",
+					"explanation": "Das Present Perfect Continuous: das Jura-Studium dauert seit vier Jahren."
+				},
+				"es": {
+					"question": "Lleva cuatro años estudiando derecho.",
+					"explanation": "El Present Perfect Continuous: el estudio del derecho dura desde hace cuatro años."
 				}
 			}
 		},
@@ -1276,6 +2968,18 @@
 				"ru": {
 					"question": "Мы сотрудничаем с этой компанией уже несколько лет.",
 					"explanation": "Present Perfect Continuous: сотрудничество продолжается."
+				},
+				"fr": {
+					"question": "Nous collaborons avec cette entreprise depuis plusieurs années.",
+					"explanation": "Le Present Perfect Continuous : la collaboration continue."
+				},
+				"de": {
+					"question": "Wir arbeiten seit mehreren Jahren mit diesem Unternehmen zusammen.",
+					"explanation": "Das Present Perfect Continuous: die Zusammenarbeit dauert an."
+				},
+				"es": {
+					"question": "Llevamos varios años colaborando con esta empresa.",
+					"explanation": "El Present Perfect Continuous: la colaboración continúa."
 				}
 			}
 		},
@@ -1285,6 +2989,18 @@
 				"ru": {
 					"question": "Он занимается боксом с пятнадцати лет.",
 					"explanation": "Present Perfect Continuous: занятие боксом с пятнадцати лет."
+				},
+				"fr": {
+					"question": "Il fait de la boxe depuis ses quinze ans.",
+					"explanation": "Le Present Perfect Continuous : pratique de la boxe depuis quinze ans."
+				},
+				"de": {
+					"question": "Er boxt seit seinem fünfzehnten Lebensjahr.",
+					"explanation": "Das Present Perfect Continuous: Boxen seit dem fünfzehnten Lebensjahr."
+				},
+				"es": {
+					"question": "Lleva practicando boxeo desde los quince años.",
+					"explanation": "El Present Perfect Continuous: práctica del boxeo desde los quince años."
 				}
 			}
 		},
@@ -1294,6 +3010,18 @@
 				"ru": {
 					"question": "Я слушаю подкасты по дороге на работу уже год.",
 					"explanation": "Present Perfect Continuous: прослушивание подкастов в дороге продолжается год."
+				},
+				"fr": {
+					"question": "J'écoute des podcasts sur le chemin du travail depuis un an.",
+					"explanation": "Le Present Perfect Continuous : écoute de podcasts en route depuis un an."
+				},
+				"de": {
+					"question": "Ich höre seit einem Jahr auf dem Weg zur Arbeit Podcasts.",
+					"explanation": "Das Present Perfect Continuous: Podcasts hören auf dem Weg zur Arbeit seit einem Jahr."
+				},
+				"es": {
+					"question": "Llevo un año escuchando podcasts de camino al trabajo.",
+					"explanation": "El Present Perfect Continuous: escucha de podcasts en el camino al trabajo desde hace un año."
 				}
 			}
 		},
@@ -1303,6 +3031,18 @@
 				"ru": {
 					"question": "Она ведёт блог уже три года.",
 					"explanation": "Present Perfect Continuous: ведение блога продолжается три года."
+				},
+				"fr": {
+					"question": "Elle tient un blog depuis trois ans.",
+					"explanation": "Le Present Perfect Continuous : la tenue du blog dure depuis trois ans."
+				},
+				"de": {
+					"question": "Sie führt seit drei Jahren einen Blog.",
+					"explanation": "Das Present Perfect Continuous: das Blogführen dauert seit drei Jahren."
+				},
+				"es": {
+					"question": "Lleva tres años llevando un blog.",
+					"explanation": "El Present Perfect Continuous: la gestión del blog dura desde hace tres años."
 				}
 			}
 		},
@@ -1312,6 +3052,18 @@
 				"ru": {
 					"question": "Мы ждём решения суда уже несколько месяцев.",
 					"explanation": "Present Perfect Continuous: ожидание решения затянулось."
+				},
+				"fr": {
+					"question": "Nous attendons la décision du tribunal depuis plusieurs mois.",
+					"explanation": "Le Present Perfect Continuous : l'attente de la décision s'est prolongée."
+				},
+				"de": {
+					"question": "Wir warten seit mehreren Monaten auf das Urteil des Gerichts.",
+					"explanation": "Das Present Perfect Continuous: das Warten auf die Entscheidung hat sich hingezogen."
+				},
+				"es": {
+					"question": "Llevamos varios meses esperando la decisión del tribunal.",
+					"explanation": "El Present Perfect Continuous: la espera de la decisión se ha prolongado."
 				}
 			}
 		},
@@ -1321,6 +3073,18 @@
 				"ru": {
 					"question": "Он собирает марки с детства.",
 					"explanation": "Present Perfect Continuous: коллекционирование марок с детства."
+				},
+				"fr": {
+					"question": "Il collectionne des timbres depuis son enfance.",
+					"explanation": "Le Present Perfect Continuous : collection de timbres depuis l'enfance."
+				},
+				"de": {
+					"question": "Er sammelt seit seiner Kindheit Briefmarken.",
+					"explanation": "Das Present Perfect Continuous: Briefmarkensammeln seit der Kindheit."
+				},
+				"es": {
+					"question": "Lleva coleccionando sellos desde la infancia.",
+					"explanation": "El Present Perfect Continuous: colección de sellos desde la infancia."
 				}
 			}
 		},
@@ -1330,6 +3094,18 @@
 				"ru": {
 					"question": "Я пишу сценарий уже полгода.",
 					"explanation": "Present Perfect Continuous: написание сценария продолжается полгода."
+				},
+				"fr": {
+					"question": "J'écris le scénario depuis six mois.",
+					"explanation": "Le Present Perfect Continuous : l'écriture du scénario dure depuis six mois."
+				},
+				"de": {
+					"question": "Ich schreibe seit sechs Monaten das Drehbuch.",
+					"explanation": "Das Present Perfect Continuous: das Drehbuchschreiben dauert seit sechs Monaten."
+				},
+				"es": {
+					"question": "Llevo seis meses escribiendo el guion.",
+					"explanation": "El Present Perfect Continuous: la escritura del guion dura desde hace seis meses."
 				}
 			}
 		},
@@ -1339,6 +3115,18 @@
 				"ru": {
 					"question": "Она занимается каллиграфией уже несколько лет.",
 					"explanation": "Present Perfect Continuous: занятие каллиграфией продолжается."
+				},
+				"fr": {
+					"question": "Elle pratique la calligraphie depuis plusieurs années.",
+					"explanation": "Le Present Perfect Continuous : pratique de la calligraphie depuis plusieurs années."
+				},
+				"de": {
+					"question": "Sie praktiziert seit mehreren Jahren Kalligrafie.",
+					"explanation": "Das Present Perfect Continuous: Kalligrafie-Übung seit mehreren Jahren."
+				},
+				"es": {
+					"question": "Lleva varios años practicando caligrafía.",
+					"explanation": "El Present Perfect Continuous: práctica de la caligrafía desde hace varios años."
 				}
 			}
 		},
@@ -1348,6 +3136,18 @@
 				"ru": {
 					"question": "Мы готовимся к свадьбе уже три месяца.",
 					"explanation": "Present Perfect Continuous: подготовка к свадьбе продолжается три месяца."
+				},
+				"fr": {
+					"question": "Nous nous préparons pour le mariage depuis trois mois.",
+					"explanation": "Le Present Perfect Continuous : les préparatifs du mariage durent depuis trois mois."
+				},
+				"de": {
+					"question": "Wir bereiten uns seit drei Monaten auf die Hochzeit vor.",
+					"explanation": "Das Present Perfect Continuous: die Hochzeitsvorbereitungen dauern seit drei Monaten."
+				},
+				"es": {
+					"question": "Llevamos tres meses preparando la boda.",
+					"explanation": "El Present Perfect Continuous: los preparativos de la boda duran desde hace tres meses."
 				}
 			}
 		},
@@ -1357,6 +3157,18 @@
 				"ru": {
 					"question": "Он переводит книгу уже полгода.",
 					"explanation": "Present Perfect Continuous: перевод книги продолжается полгода."
+				},
+				"fr": {
+					"question": "Il traduit le livre depuis six mois.",
+					"explanation": "Le Present Perfect Continuous : la traduction du livre dure depuis six mois."
+				},
+				"de": {
+					"question": "Er übersetzt seit sechs Monaten das Buch.",
+					"explanation": "Das Present Perfect Continuous: die Buchübersetzung dauert seit sechs Monaten."
+				},
+				"es": {
+					"question": "Lleva seis meses traduciendo el libro.",
+					"explanation": "El Present Perfect Continuous: la traducción del libro dura desde hace seis meses."
 				}
 			}
 		},
@@ -1366,6 +3178,18 @@
 				"ru": {
 					"question": "Я занимаюсь дизайном уже пять лет.",
 					"explanation": "Present Perfect Continuous: работа в дизайне продолжается пять лет."
+				},
+				"fr": {
+					"question": "Je travaille dans le design depuis cinq ans.",
+					"explanation": "Le Present Perfect Continuous : le travail dans le design dure depuis cinq ans."
+				},
+				"de": {
+					"question": "Ich arbeite seit fünf Jahren im Design.",
+					"explanation": "Das Present Perfect Continuous: die Arbeit im Design dauert seit fünf Jahren."
+				},
+				"es": {
+					"question": "Llevo cinco años trabajando en diseño.",
+					"explanation": "El Present Perfect Continuous: el trabajo en diseño dura desde hace cinco años."
 				}
 			}
 		},
@@ -1375,6 +3199,18 @@
 				"ru": {
 					"question": "Она преподаёт в школе уже восемнадцать лет.",
 					"explanation": "Present Perfect Continuous: преподавание продолжается восемнадцать лет."
+				},
+				"fr": {
+					"question": "Elle enseigne à l'école depuis dix-huit ans.",
+					"explanation": "Le Present Perfect Continuous : l'enseignement dure depuis dix-huit ans."
+				},
+				"de": {
+					"question": "Sie unterrichtet seit achtzehn Jahren an der Schule.",
+					"explanation": "Das Present Perfect Continuous: das Unterrichten dauert seit achtzehn Jahren."
+				},
+				"es": {
+					"question": "Lleva dieciocho años enseñando en el colegio.",
+					"explanation": "El Present Perfect Continuous: la enseñanza dura desde hace dieciocho años."
 				}
 			}
 		},
@@ -1384,6 +3220,18 @@
 				"ru": {
 					"question": "Мы наблюдаем за этим экспериментом уже неделю.",
 					"explanation": "Present Perfect Continuous: наблюдение за экспериментом продолжается неделю."
+				},
+				"fr": {
+					"question": "Nous observons cette expérience depuis une semaine.",
+					"explanation": "Le Present Perfect Continuous : l'observation de l'expérience dure depuis une semaine."
+				},
+				"de": {
+					"question": "Wir beobachten seit einer Woche dieses Experiment.",
+					"explanation": "Das Present Perfect Continuous: das Beobachten des Experiments dauert seit einer Woche."
+				},
+				"es": {
+					"question": "Llevamos una semana observando este experimento.",
+					"explanation": "El Present Perfect Continuous: la observación del experimento dura desde hace una semana."
 				}
 			}
 		},
@@ -1393,6 +3241,18 @@
 				"ru": {
 					"question": "Он изучает китайский язык уже три года.",
 					"explanation": "Present Perfect Continuous: изучение китайского продолжается три года."
+				},
+				"fr": {
+					"question": "Il étudie le chinois depuis trois ans.",
+					"explanation": "Le Present Perfect Continuous : l'apprentissage du chinois dure depuis trois ans."
+				},
+				"de": {
+					"question": "Er lernt seit drei Jahren Chinesisch.",
+					"explanation": "Das Present Perfect Continuous: das Chinesischlernen dauert seit drei Jahren."
+				},
+				"es": {
+					"question": "Lleva tres años estudiando chino.",
+					"explanation": "El Present Perfect Continuous: el estudio del chino dura desde hace tres años."
 				}
 			}
 		},
@@ -1402,6 +3262,18 @@
 				"ru": {
 					"question": "Я провожу исследование по этой теме уже год.",
 					"explanation": "Present Perfect Continuous: исследование продолжается год."
+				},
+				"fr": {
+					"question": "Je mène des recherches sur ce sujet depuis un an.",
+					"explanation": "Le Present Perfect Continuous : la recherche dure depuis un an."
+				},
+				"de": {
+					"question": "Ich forsche seit einem Jahr zu diesem Thema.",
+					"explanation": "Das Present Perfect Continuous: die Forschung dauert seit einem Jahr."
+				},
+				"es": {
+					"question": "Llevo un año investigando sobre este tema.",
+					"explanation": "El Present Perfect Continuous: la investigación dura desde hace un año."
 				}
 			}
 		},
@@ -1411,6 +3283,18 @@
 				"ru": {
 					"question": "Она занимается дайвингом с двадцати лет.",
 					"explanation": "Present Perfect Continuous: занятие дайвингом с двадцати лет."
+				},
+				"fr": {
+					"question": "Elle fait de la plongée sous-marine depuis ses vingt ans.",
+					"explanation": "Le Present Perfect Continuous : pratique de la plongée depuis ses vingt ans."
+				},
+				"de": {
+					"question": "Sie taucht seit ihrem zwanzigsten Lebensjahr.",
+					"explanation": "Das Present Perfect Continuous: Tauchen seit dem zwanzigsten Lebensjahr."
+				},
+				"es": {
+					"question": "Lleva practicando buceo desde los veinte años.",
+					"explanation": "El Present Perfect Continuous: práctica del buceo desde los veinte años."
 				}
 			}
 		},
@@ -1420,6 +3304,18 @@
 				"ru": {
 					"question": "Мы организуем это мероприятие уже несколько недель.",
 					"explanation": "Present Perfect Continuous: подготовка к мероприятию продолжается."
+				},
+				"fr": {
+					"question": "Nous organisons cet événement depuis plusieurs semaines.",
+					"explanation": "Le Present Perfect Continuous : la préparation à l'événement continue."
+				},
+				"de": {
+					"question": "Wir organisieren seit mehreren Wochen diese Veranstaltung.",
+					"explanation": "Das Present Perfect Continuous: die Veranstaltungsvorbereitung dauert an."
+				},
+				"es": {
+					"question": "Llevamos varias semanas organizando este evento.",
+					"explanation": "El Present Perfect Continuous: la preparación del evento continúa."
 				}
 			}
 		},
@@ -1429,6 +3325,18 @@
 				"ru": {
 					"question": "Он занимается садоводством на даче уже много лет.",
 					"explanation": "Present Perfect Continuous: садоводство на даче много лет."
+				},
+				"fr": {
+					"question": "Il jardine à la datcha depuis de nombreuses années.",
+					"explanation": "Le Present Perfect Continuous : jardinage à la datcha depuis de nombreuses années."
+				},
+				"de": {
+					"question": "Er gärtnert seit vielen Jahren auf der Datscha.",
+					"explanation": "Das Present Perfect Continuous: Gärtnern auf der Datscha seit vielen Jahren."
+				},
+				"es": {
+					"question": "Lleva muchos años haciendo jardinería en la dacha.",
+					"explanation": "El Present Perfect Continuous: jardinería en la dacha desde hace muchos años."
 				}
 			}
 		},
@@ -1438,6 +3346,18 @@
 				"ru": {
 					"question": "Я читаю книги по психологии уже несколько месяцев.",
 					"explanation": "Present Perfect Continuous: чтение книг по психологии продолжается."
+				},
+				"fr": {
+					"question": "Je lis des livres de psychologie depuis plusieurs mois.",
+					"explanation": "Le Present Perfect Continuous : la lecture de livres de psychologie continue."
+				},
+				"de": {
+					"question": "Ich lese seit mehreren Monaten Bücher über Psychologie.",
+					"explanation": "Das Present Perfect Continuous: das Lesen von Psychologiebüchern dauert an."
+				},
+				"es": {
+					"question": "Llevo varios meses leyendo libros de psicología.",
+					"explanation": "El Present Perfect Continuous: la lectura de libros de psicología continúa."
 				}
 			}
 		},
@@ -1447,6 +3367,18 @@
 				"ru": {
 					"question": "Она занимается флористикой с прошлого года.",
 					"explanation": "Present Perfect Continuous: занятие флористикой с прошлого года."
+				},
+				"fr": {
+					"question": "Elle fait de la fleuristerie depuis l'année dernière.",
+					"explanation": "Le Present Perfect Continuous : pratique de la fleuristerie depuis l'année dernière."
+				},
+				"de": {
+					"question": "Sie macht seit letztem Jahr Floristik.",
+					"explanation": "Das Present Perfect Continuous: Floristik seit letztem Jahr."
+				},
+				"es": {
+					"question": "Lleva practicando floristería desde el año pasado.",
+					"explanation": "El Present Perfect Continuous: práctica de la floristería desde el año pasado."
 				}
 			}
 		},
@@ -1456,6 +3388,18 @@
 				"ru": {
 					"question": "Мы снимаем этот документальный фильм уже восемь месяцев.",
 					"explanation": "Present Perfect Continuous: съёмка продолжается восемь месяцев."
+				},
+				"fr": {
+					"question": "Nous tournons ce documentaire depuis huit mois.",
+					"explanation": "Le Present Perfect Continuous : le tournage dure depuis huit mois."
+				},
+				"de": {
+					"question": "Wir drehen seit acht Monaten diesen Dokumentarfilm.",
+					"explanation": "Das Present Perfect Continuous: das Drehen dauert seit acht Monaten."
+				},
+				"es": {
+					"question": "Llevamos ocho meses rodando este documental.",
+					"explanation": "El Present Perfect Continuous: el rodaje dura desde hace ocho meses."
 				}
 			}
 		},
@@ -1465,6 +3409,18 @@
 				"ru": {
 					"question": "Он занимается бегом по утрам уже три года.",
 					"explanation": "Present Perfect Continuous: утренние пробежки продолжаются три года."
+				},
+				"fr": {
+					"question": "Il court le matin depuis trois ans.",
+					"explanation": "Le Present Perfect Continuous : les courses matinales durent depuis trois ans."
+				},
+				"de": {
+					"question": "Er läuft seit drei Jahren morgens.",
+					"explanation": "Das Present Perfect Continuous: die Morgenläufe dauern seit drei Jahren."
+				},
+				"es": {
+					"question": "Lleva tres años corriendo por las mañanas.",
+					"explanation": "El Present Perfect Continuous: las carreras matutinas duran desde hace tres años."
 				}
 			}
 		},
@@ -1474,6 +3430,18 @@
 				"ru": {
 					"question": "Я изучаю астрономию с подросткового возраста.",
 					"explanation": "Present Perfect Continuous: изучение астрономии с юных лет."
+				},
+				"fr": {
+					"question": "J'étudie l'astronomie depuis mon adolescence.",
+					"explanation": "Le Present Perfect Continuous : l'étude de l'astronomie depuis la jeunesse."
+				},
+				"de": {
+					"question": "Ich studiere Astronomie seit meiner Jugend.",
+					"explanation": "Das Present Perfect Continuous: Astronomie-Studium seit der Jugend."
+				},
+				"es": {
+					"question": "Llevo estudiando astronomía desde la adolescencia.",
+					"explanation": "El Present Perfect Continuous: el estudio de la astronomía desde la juventud."
 				}
 			}
 		},
@@ -1483,6 +3451,18 @@
 				"ru": {
 					"question": "Она вяжет этот свитер уже две недели.",
 					"explanation": "Present Perfect Continuous: вязание свитера ещё не завершено."
+				},
+				"fr": {
+					"question": "Elle tricote ce pull depuis deux semaines.",
+					"explanation": "Le Present Perfect Continuous : le tricot n'est pas encore terminé."
+				},
+				"de": {
+					"question": "Sie strickt seit zwei Wochen an diesem Pullover.",
+					"explanation": "Das Present Perfect Continuous: das Stricken ist noch nicht abgeschlossen."
+				},
+				"es": {
+					"question": "Lleva dos semanas tejiendo este jersey.",
+					"explanation": "El Present Perfect Continuous: el tejido aún no ha terminado."
 				}
 			}
 		},
@@ -1492,6 +3472,18 @@
 				"ru": {
 					"question": "Мы используем возобновляемую энергию уже несколько лет.",
 					"explanation": "Present Perfect Continuous: использование возобновляемой энергии продолжается."
+				},
+				"fr": {
+					"question": "Nous utilisons les énergies renouvelables depuis plusieurs années.",
+					"explanation": "Le Present Perfect Continuous : l'utilisation des énergies renouvelables continue."
+				},
+				"de": {
+					"question": "Wir nutzen seit mehreren Jahren erneuerbare Energien.",
+					"explanation": "Das Present Perfect Continuous: die Nutzung erneuerbarer Energien dauert an."
+				},
+				"es": {
+					"question": "Llevamos varios años usando energías renovables.",
+					"explanation": "El Present Perfect Continuous: el uso de energías renovables continúa."
 				}
 			}
 		},
@@ -1501,6 +3493,18 @@
 				"ru": {
 					"question": "Он занимается архитектурой уже двадцать лет.",
 					"explanation": "Present Perfect Continuous: работа архитектором продолжается двадцать лет."
+				},
+				"fr": {
+					"question": "Il travaille comme architecte depuis vingt ans.",
+					"explanation": "Le Present Perfect Continuous : le travail d'architecte dure depuis vingt ans."
+				},
+				"de": {
+					"question": "Er arbeitet seit zwanzig Jahren als Architekt.",
+					"explanation": "Das Present Perfect Continuous: die Arbeit als Architekt dauert seit zwanzig Jahren."
+				},
+				"es": {
+					"question": "Lleva veinte años trabajando como arquitecto.",
+					"explanation": "El Present Perfect Continuous: el trabajo como arquitecto dura desde hace veinte años."
 				}
 			}
 		},
@@ -1510,6 +3514,18 @@
 				"ru": {
 					"question": "Я веду этот дневник уже несколько лет.",
 					"explanation": "Present Perfect Continuous: ведение дневника продолжается несколько лет."
+				},
+				"fr": {
+					"question": "Je tiens ce journal depuis plusieurs années.",
+					"explanation": "Le Present Perfect Continuous : la tenue du journal dure depuis plusieurs années."
+				},
+				"de": {
+					"question": "Ich führe seit mehreren Jahren dieses Tagebuch.",
+					"explanation": "Das Present Perfect Continuous: das Tagebuchführen dauert seit mehreren Jahren."
+				},
+				"es": {
+					"question": "Llevo varios años escribiendo este diario.",
+					"explanation": "El Present Perfect Continuous: la escritura del diario dura desde hace varios años."
 				}
 			}
 		},
@@ -1519,6 +3535,18 @@
 				"ru": {
 					"question": "Она играет на скрипке с пяти лет.",
 					"explanation": "Present Perfect Continuous: игра на скрипке с пяти лет."
+				},
+				"fr": {
+					"question": "Elle joue du violon depuis ses cinq ans.",
+					"explanation": "Le Present Perfect Continuous : jeu du violon depuis cinq ans."
+				},
+				"de": {
+					"question": "Sie spielt seit ihrem fünften Lebensjahr Geige.",
+					"explanation": "Das Present Perfect Continuous: Geigenspielen seit dem fünften Lebensjahr."
+				},
+				"es": {
+					"question": "Lleva tocando el violín desde los cinco años.",
+					"explanation": "El Present Perfect Continuous: toca el violín desde los cinco años."
 				}
 			}
 		},
@@ -1528,6 +3556,18 @@
 				"ru": {
 					"question": "Мы обучаем персонал новым методам уже месяц.",
 					"explanation": "Present Perfect Continuous: обучение персонала продолжается месяц."
+				},
+				"fr": {
+					"question": "Nous formons le personnel aux nouvelles méthodes depuis un mois.",
+					"explanation": "Le Present Perfect Continuous : la formation du personnel dure depuis un mois."
+				},
+				"de": {
+					"question": "Wir schulen seit einem Monat das Personal in neuen Methoden.",
+					"explanation": "Das Present Perfect Continuous: die Personalschulung dauert seit einem Monat."
+				},
+				"es": {
+					"question": "Llevamos un mes formando al personal en nuevos métodos.",
+					"explanation": "El Present Perfect Continuous: la formación del personal dura desde hace un mes."
 				}
 			}
 		},
@@ -1537,6 +3577,18 @@
 				"ru": {
 					"question": "Он изучает экономику уже четыре года.",
 					"explanation": "Present Perfect Continuous: изучение экономики продолжается четыре года."
+				},
+				"fr": {
+					"question": "Il étudie l'économie depuis quatre ans.",
+					"explanation": "Le Present Perfect Continuous : l'étude de l'économie dure depuis quatre ans."
+				},
+				"de": {
+					"question": "Er studiert seit vier Jahren Wirtschaft.",
+					"explanation": "Das Present Perfect Continuous: das Wirtschaftsstudium dauert seit vier Jahren."
+				},
+				"es": {
+					"question": "Lleva cuatro años estudiando economía.",
+					"explanation": "El Present Perfect Continuous: el estudio de la economía dura desde hace cuatro años."
 				}
 			}
 		},
@@ -1546,6 +3598,18 @@
 				"ru": {
 					"question": "Я занимаюсь плаванием три раза в неделю уже год.",
 					"explanation": "Present Perfect Continuous: регулярное плавание в течение года."
+				},
+				"fr": {
+					"question": "Je fais de la natation trois fois par semaine depuis un an.",
+					"explanation": "Le Present Perfect Continuous : natation régulière pendant un an."
+				},
+				"de": {
+					"question": "Ich schwimme seit einem Jahr dreimal pro Woche.",
+					"explanation": "Das Present Perfect Continuous: regelmäßiges Schwimmen seit einem Jahr."
+				},
+				"es": {
+					"question": "Llevo un año nadando tres veces por semana.",
+					"explanation": "El Present Perfect Continuous: natación regular durante un año."
 				}
 			}
 		},
@@ -1555,6 +3619,18 @@
 				"ru": {
 					"question": "Она читает лекции в университете уже десять лет.",
 					"explanation": "Present Perfect Continuous: чтение лекций продолжается десять лет."
+				},
+				"fr": {
+					"question": "Elle fait des conférences à l'université depuis dix ans.",
+					"explanation": "Le Present Perfect Continuous : les conférences durent depuis dix ans."
+				},
+				"de": {
+					"question": "Sie hält seit zehn Jahren Vorlesungen an der Universität.",
+					"explanation": "Das Present Perfect Continuous: das Vorlesungshalten dauert seit zehn Jahren."
+				},
+				"es": {
+					"question": "Lleva diez años dando clases en la universidad.",
+					"explanation": "El Present Perfect Continuous: las clases duran desde hace diez años."
 				}
 			}
 		},
@@ -1564,6 +3640,18 @@
 				"ru": {
 					"question": "Мы следим за прогрессом проекта уже несколько месяцев.",
 					"explanation": "Present Perfect Continuous: мониторинг прогресса продолжается."
+				},
+				"fr": {
+					"question": "Nous suivons les progrès du projet depuis plusieurs mois.",
+					"explanation": "Le Present Perfect Continuous : le suivi des progrès continue."
+				},
+				"de": {
+					"question": "Wir überwachen seit mehreren Monaten den Projektfortschritt.",
+					"explanation": "Das Present Perfect Continuous: die Fortschrittsüberwachung dauert an."
+				},
+				"es": {
+					"question": "Llevamos varios meses monitorizando el progreso del proyecto.",
+					"explanation": "El Present Perfect Continuous: el seguimiento del progreso continúa."
 				}
 			}
 		},
@@ -1573,6 +3661,18 @@
 				"ru": {
 					"question": "Он занимается горными лыжами с детства.",
 					"explanation": "Present Perfect Continuous: занятие горными лыжами с детства."
+				},
+				"fr": {
+					"question": "Il fait du ski depuis son enfance.",
+					"explanation": "Le Present Perfect Continuous : pratique du ski depuis l'enfance."
+				},
+				"de": {
+					"question": "Er fährt seit seiner Kindheit Ski.",
+					"explanation": "Das Present Perfect Continuous: Skifahren seit der Kindheit."
+				},
+				"es": {
+					"question": "Lleva practicando esquí desde la infancia.",
+					"explanation": "El Present Perfect Continuous: práctica del esquí desde la infancia."
 				}
 			}
 		},
@@ -1582,6 +3682,18 @@
 				"ru": {
 					"question": "Я пишу эту статью уже три дня.",
 					"explanation": "Present Perfect Continuous: написание статьи ещё не завершено."
+				},
+				"fr": {
+					"question": "J'écris cet article depuis trois jours.",
+					"explanation": "Le Present Perfect Continuous : l'écriture de l'article n'est pas encore terminée."
+				},
+				"de": {
+					"question": "Ich schreibe seit drei Tagen diesen Artikel.",
+					"explanation": "Das Present Perfect Continuous: das Schreiben des Artikels ist noch nicht abgeschlossen."
+				},
+				"es": {
+					"question": "Llevo tres días escribiendo este artículo.",
+					"explanation": "El Present Perfect Continuous: la escritura del artículo aún no ha terminado."
 				}
 			}
 		},
@@ -1591,6 +3703,18 @@
 				"ru": {
 					"question": "Она занимается пилатесом уже полгода.",
 					"explanation": "Present Perfect Continuous: занятия пилатесом продолжаются полгода."
+				},
+				"fr": {
+					"question": "Elle fait du Pilates depuis six mois.",
+					"explanation": "Le Present Perfect Continuous : les cours de Pilates durent depuis six mois."
+				},
+				"de": {
+					"question": "Sie macht seit sechs Monaten Pilates.",
+					"explanation": "Das Present Perfect Continuous: die Pilates-Kurse dauern seit sechs Monaten."
+				},
+				"es": {
+					"question": "Lleva seis meses practicando Pilates.",
+					"explanation": "El Present Perfect Continuous: las clases de Pilates duran desde hace seis meses."
 				}
 			}
 		}
