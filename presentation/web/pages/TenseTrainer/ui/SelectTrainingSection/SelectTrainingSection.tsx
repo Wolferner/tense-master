@@ -2,9 +2,9 @@
 
 import { useSessionStore } from '@/client/stores/sessionStore';
 import { useSettingsStore } from '@/client/stores/settingsStore';
+import type { Locale } from '@/domain/value-objects';
 import { Button } from '@/presentation/components/ui/button';
 import { ArrowRightIcon } from 'lucide-react';
-import type { Locale } from '@/domain/value-objects';
 import { useLocale, useTranslations } from 'next-intl';
 import { useShallow } from 'zustand/react/shallow';
 import { TENSE_GROUPS } from '../../logic/tenseLabels';

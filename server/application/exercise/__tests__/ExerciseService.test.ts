@@ -1,4 +1,5 @@
 import { MAX_EXERCISES } from '@/shared/config/constants';
+import { CreateExerciseDto } from '@/shared/dtos/CreateExerciseDto';
 import { describe, expect, it, vi } from 'vitest';
 import { Exercise } from '../../../../domain/entities/Exercise';
 import { Tense } from '../../../../domain/value-objects';
@@ -96,21 +97,31 @@ describe('ExerciseService', () => {
 			const exercise = makeExercise('created-id');
 			const repo = makeRepo({ create: vi.fn().mockResolvedValue(exercise) });
 			const service = new ExerciseService(repo);
-			const dto = {
+			const dto: CreateExerciseDto = {
 				tense: Tense.PRESENT_SIMPLE,
-				question: 'Он читает книгу',
 				answer: 'He reads a book',
-				explanation: 'Present Simple for habits',
-				locale: 'ru' as const,
+				translations: [
+					{
+						locale: 'ru',
+						question: 'Он читает книгу',
+						explanation: 'Present Simple для привычек',
+					},
+				],
 			};
 			const result = await service.create(dto);
 			expect(repo.create).toHaveBeenCalledOnce();
 			const passedArg = vi.mocked(repo.create).mock.calls[0][0];
 			expect(passedArg).toMatchObject({
 				tense: dto.tense,
-				question: dto.question,
+
 				answer: dto.answer,
-				explanation: dto.explanation,
+				translations: [
+					{
+						locale: 'ru',
+						question: 'Он читает книгу',
+						explanation: 'Present Simple для привычек',
+					},
+				],
 			});
 			expect(result).toMatchObject({
 				id: 'created-id',

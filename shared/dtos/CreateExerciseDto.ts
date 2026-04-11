@@ -1,8 +1,11 @@
-import { type Tense } from '@/domain/value-objects';
+import { Locale, type Tense } from '@/domain/value-objects';
 
 export interface CreateExerciseDto {
 	tense: Tense;
-	question: string;
 	answer: string;
-	explanation: string;
+	translations: {
+		locale: Locale;
+		question: string;
+		explanation: string;
+	}[];
 }

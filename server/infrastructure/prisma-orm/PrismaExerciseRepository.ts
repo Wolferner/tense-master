@@ -1,9 +1,10 @@
 import {
 	PrismaClient,
+	Locale as PrismaLocale,
 	TenseExerciseQuestion,
 	TenseExerciseTranslation,
-	Locale as PrismaLocale,
 } from '@/prisma/generated/prisma/client';
+import { CreateExerciseDb } from '@/server/application/repositories/IExerciseRepository';
 import { Exercise } from '../../../domain/entities/Exercise';
 import { Locale, Tense } from '../../../domain/value-objects';
 import { IExerciseRepository } from '../../application/repositories';
@@ -15,33 +16,23 @@ type ExerciseWithTranslation = TenseExerciseQuestion & {
 export class PrismaExerciseRepository implements IExerciseRepository {
 	constructor(private readonly prisma: PrismaClient) {}
 
-	async create(data: {
-		tense: Tense;
-		answer: string;
-		locale: Locale;
-		question: string;
-		explanation: string;
-	}): Promise<Exercise> {
+	async create(data: CreateExerciseDb): Promise<void> {
 		const record = await this.prisma.tenseExerciseQuestion.create({
 			data: {
 				tense: data.tense,
 				answer: data.answer,
 				translations: {
-					create: {
-						locale: data.locale as PrismaLocale,
-						question: data.question,
-						explanation: data.explanation,
+					createMany: {
+						data: data.translations.map(t => ({
+							locale: t.locale as PrismaLocale,
+							question: t.question,
+							explanation: t.explanation,
+						})),
+						skipDuplicates: true,
 					},
 				},
 			},
-			include: {
-				translations: {
-					where: { locale: data.locale as PrismaLocale },
-				},
-			},
 		});
-
-		return this.toDomain(record as ExerciseWithTranslation);
 	}
 
 	async findById(id: Exercise['id'], locale: Locale): Promise<Exercise | null> {

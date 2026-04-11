@@ -1,22 +1,23 @@
 import { MAX_EXERCISES } from '@/shared/config/constants';
 import { ExerciseResponseDto } from '@/shared/dtos';
 import { CreateExerciseDto } from '@/shared/dtos/CreateExerciseDto';
+import { Exercise } from '../../../domain/entities/Exercise';
 import { Locale, Tense } from '../../../domain/value-objects';
 import { IExerciseRepository } from '../repositories';
-import { Exercise } from '../../../domain/entities/Exercise';
 
 export class ExerciseService {
 	constructor(private readonly exerciseRepository: IExerciseRepository) {}
 
-	async create(dto: CreateExerciseDto & { locale: Locale }): Promise<ExerciseResponseDto> {
-		const createdExercise = await this.exerciseRepository.create({
+	async create(dto: CreateExerciseDto): Promise<void> {
+		await this.exerciseRepository.create({
 			tense: dto.tense,
 			answer: dto.answer,
-			locale: dto.locale,
-			question: dto.question,
-			explanation: dto.explanation,
+			translations: dto.translations.map(t => ({
+				locale: t.locale,
+				question: t.question,
+				explanation: t.explanation,
+			})),
 		});
-		return this.toDto(createdExercise);
 	}
 
 	async findRandom(tenses: Tense[], limit: number, locale: Locale): Promise<ExerciseResponseDto[]> {
