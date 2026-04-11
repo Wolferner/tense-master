@@ -2,7 +2,7 @@ import { Locale } from '@/domain/value-objects/Locale';
 import { defineRouting } from 'next-intl/routing';
 
 export const routing = defineRouting({
-	locales: Object.values(Locale) as [Locale, ...Locale[]],
+	locales: [Locale.ru, Locale.de, Locale.fr, Locale.es],
 	defaultLocale: Locale.ru,
 	// localeDetection: false,
 });
