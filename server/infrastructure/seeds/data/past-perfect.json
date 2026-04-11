@@ -2,1214 +2,2182 @@
 	"tense": "PAST_PERFECT",
 	"exercises": [
 		{
-			"question": "Когда я пришёл, он уже ушёл.",
 			"answer": "When I arrived, he had already left.",
-			"explanation": "Past Perfect используется для действия, завершённого до другого момента в прошлом. Маркер: already / уже."
+			"translations": {
+				"ru": {
+					"question": "Когда я пришёл, он уже ушёл.",
+					"explanation": "Past Perfect используется для действия, завершённого до другого момента в прошлом. Маркер: already / уже."
+				}
+			}
 		},
 		{
-			"question": "Она уже поела, когда позвонила мама.",
 			"answer": "She had already eaten when mum called.",
-			"explanation": "Past Perfect показывает что одно прошлое действие произошло раньше другого."
+			"translations": {
+				"ru": {
+					"question": "Она уже поела, когда позвонила мама.",
+					"explanation": "Past Perfect показывает что одно прошлое действие произошло раньше другого."
+				}
+			}
 		},
 		{
-			"question": "Поезд уже отправился, когда мы приехали.",
 			"answer": "The train had already departed when we arrived.",
-			"explanation": "Past Perfect используется для действия, завершённого прежде чем произошло другое прошлое событие."
+			"translations": {
+				"ru": {
+					"question": "Поезд уже отправился, когда мы приехали.",
+					"explanation": "Past Perfect используется для действия, завершённого прежде чем произошло другое прошлое событие."
+				}
+			}
 		},
 		{
-			"question": "Я никогда не видел такого красивого заката.",
 			"answer": "I had never seen such a beautiful sunset.",
-			"explanation": "Past Perfect с never используется для отрицания опыта до определённого момента в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я никогда не видел такого красивого заката.",
+					"explanation": "Past Perfect с never используется для отрицания опыта до определённого момента в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Они уже закончили проект к пятнице.",
 			"answer": "They had already finished the project by Friday.",
-			"explanation": "Past Perfect с by указывает на завершение действия к определённому времени в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Они уже закончили проект к пятнице.",
+					"explanation": "Past Perfect с by указывает на завершение действия к определённому времени в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он только что вернулся домой, когда начался дождь.",
 			"answer": "He had just returned home when it started to rain.",
-			"explanation": "Past Perfect с just подчёркивает что первое действие произошло незадолго до второго."
+			"translations": {
+				"ru": {
+					"question": "Он только что вернулся домой, когда начался дождь.",
+					"explanation": "Past Perfect с just подчёркивает что первое действие произошло незадолго до второго."
+				}
+			}
 		},
 		{
-			"question": "Мы уже поговорили с учителем до собрания.",
 			"answer": "We had already spoken to the teacher before the meeting.",
-			"explanation": "Past Perfect показывает последовательность прошлых событий: сначала поговорили, потом собрание."
+			"translations": {
+				"ru": {
+					"question": "Мы уже поговорили с учителем до собрания.",
+					"explanation": "Past Perfect показывает последовательность прошлых событий: сначала поговорили, потом собрание."
+				}
+			}
 		},
 		{
-			"question": "Она сказала, что никогда не была в Париже.",
 			"answer": "She said that she had never been to Paris.",
-			"explanation": "Past Perfect в косвенной речи после глагола said в прошедшем времени."
+			"translations": {
+				"ru": {
+					"question": "Она сказала, что никогда не была в Париже.",
+					"explanation": "Past Perfect в косвенной речи после глагола said в прошедшем времени."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как он позвонил, фильм уже закончился.",
 			"answer": "By the time he called, the film had already ended.",
-			"explanation": "Конструкция by the time требует Past Perfect для более раннего из двух прошлых действий."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как он позвонил, фильм уже закончился.",
+					"explanation": "Конструкция by the time требует Past Perfect для более раннего из двух прошлых действий."
+				}
+			}
 		},
 		{
-			"question": "Если бы она позвонила раньше, я бы остался.",
 			"answer": "If she had called earlier, I would have stayed.",
-			"explanation": "Третье условное: If + Past Perfect, would have + V3. Нереальное условие в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Если бы она позвонила раньше, я бы остался.",
+					"explanation": "Третье условное: If + Past Perfect, would have + V3. Нереальное условие в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Они никогда не пробовали суши до той вечеринки.",
 			"answer": "They had never tried sushi before that party.",
-			"explanation": "Past Perfect с never показывает отсутствие опыта до конкретного прошлого момента."
+			"translations": {
+				"ru": {
+					"question": "Они никогда не пробовали суши до той вечеринки.",
+					"explanation": "Past Perfect с never показывает отсутствие опыта до конкретного прошлого момента."
+				}
+			}
 		},
 		{
-			"question": "Я уже купил билеты, когда она отменила поездку.",
 			"answer": "I had already bought the tickets when she cancelled the trip.",
-			"explanation": "Past Perfect для действия, завершённого раньше другого прошлого события."
+			"translations": {
+				"ru": {
+					"question": "Я уже купил билеты, когда она отменила поездку.",
+					"explanation": "Past Perfect для действия, завершённого раньше другого прошлого события."
+				}
+			}
 		},
 		{
-			"question": "Он сказал, что уже видел этот фильм.",
 			"answer": "He said that he had already seen that film.",
-			"explanation": "Past Perfect в косвенной речи: present perfect переходит в past perfect после глагола в прошедшем."
+			"translations": {
+				"ru": {
+					"question": "Он сказал, что уже видел этот фильм.",
+					"explanation": "Past Perfect в косвенной речи: present perfect переходит в past perfect после глагола в прошедшем."
+				}
+			}
 		},
 		{
-			"question": "К моменту её приезда мы уже поужинали.",
 			"answer": "By the time she arrived, we had already had dinner.",
-			"explanation": "By the time + Past Simple требует Past Perfect для ранее завершённого действия."
+			"translations": {
+				"ru": {
+					"question": "К моменту её приезда мы уже поужинали.",
+					"explanation": "By the time + Past Simple требует Past Perfect для ранее завершённого действия."
+				}
+			}
 		},
 		{
-			"question": "Если бы ты учился больше, ты бы сдал экзамен.",
 			"answer": "If you had studied more, you would have passed the exam.",
-			"explanation": "Третье условное предложение: нереальное условие в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Если бы ты учился больше, ты бы сдал экзамен.",
+					"explanation": "Третье условное предложение: нереальное условие в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она уже слышала эту новость до нашего разговора.",
 			"answer": "She had already heard the news before our conversation.",
-			"explanation": "Past Perfect указывает что действие завершилось до другого прошлого события."
+			"translations": {
+				"ru": {
+					"question": "Она уже слышала эту новость до нашего разговора.",
+					"explanation": "Past Perfect указывает что действие завершилось до другого прошлого события."
+				}
+			}
 		},
 		{
-			"question": "Врач ушёл до того, как приехала скорая.",
 			"answer": "The doctor had left before the ambulance arrived.",
-			"explanation": "Past Perfect показывает что первое действие предшествовало второму в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Врач ушёл до того, как приехала скорая.",
+					"explanation": "Past Perfect показывает что первое действие предшествовало второму в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы уже решили эту проблему к тому времени.",
 			"answer": "We had already solved the problem by that time.",
-			"explanation": "Past Perfect с by that time указывает на завершение к определённому прошлому моменту."
+			"translations": {
+				"ru": {
+					"question": "Мы уже решили эту проблему к тому времени.",
+					"explanation": "Past Perfect с by that time указывает на завершение к определённому прошлому моменту."
+				}
+			}
 		},
 		{
-			"question": "Он только что закончил читать книгу, когда погас свет.",
 			"answer": "He had just finished reading the book when the lights went out.",
-			"explanation": "Past Perfect с just: действие завершилось непосредственно перед другим прошлым событием."
+			"translations": {
+				"ru": {
+					"question": "Он только что закончил читать книгу, когда погас свет.",
+					"explanation": "Past Perfect с just: действие завершилось непосредственно перед другим прошлым событием."
+				}
+			}
 		},
 		{
-			"question": "Она не знала, что он уже женился.",
 			"answer": "She didn't know that he had already got married.",
-			"explanation": "Past Perfect после didn't know — более раннее прошлое действие."
+			"translations": {
+				"ru": {
+					"question": "Она не знала, что он уже женился.",
+					"explanation": "Past Perfect после didn't know — более раннее прошлое действие."
+				}
+			}
 		},
 		{
-			"question": "К 2010 году они уже построили новый мост.",
 			"answer": "By 2010 they had already built a new bridge.",
-			"explanation": "Past Perfect с конкретной датой в прошлом (by + год)."
+			"translations": {
+				"ru": {
+					"question": "К 2010 году они уже построили новый мост.",
+					"explanation": "Past Perfect с конкретной датой в прошлом (by + год)."
+				}
+			}
 		},
 		{
-			"question": "Если бы мы взяли зонт, мы бы не промокли.",
 			"answer": "If we had taken an umbrella, we would not have got wet.",
-			"explanation": "Третье условное: нереальное условие в прошлом с отрицательным следствием."
+			"translations": {
+				"ru": {
+					"question": "Если бы мы взяли зонт, мы бы не промокли.",
+					"explanation": "Третье условное: нереальное условие в прошлом с отрицательным следствием."
+				}
+			}
 		},
 		{
-			"question": "Он сказал, что никогда не читал эту книгу.",
 			"answer": "He said that he had never read that book.",
-			"explanation": "Косвенная речь: present perfect переходит в past perfect."
+			"translations": {
+				"ru": {
+					"question": "Он сказал, что никогда не читал эту книгу.",
+					"explanation": "Косвенная речь: present perfect переходит в past perfect."
+				}
+			}
 		},
 		{
-			"question": "Дети уже легли спать, когда вернулись родители.",
 			"answer": "The children had already gone to bed when the parents returned.",
-			"explanation": "Past Perfect для завершённого действия (дети легли) до другого прошлого события."
+			"translations": {
+				"ru": {
+					"question": "Дети уже легли спать, когда вернулись родители.",
+					"explanation": "Past Perfect для завершённого действия (дети легли) до другого прошлого события."
+				}
+			}
 		},
 		{
-			"question": "К полудню она уже написала три письма.",
 			"answer": "By noon she had already written three letters.",
-			"explanation": "Past Perfect с by noon — завершение к конкретному прошлому времени."
+			"translations": {
+				"ru": {
+					"question": "К полудню она уже написала три письма.",
+					"explanation": "Past Perfect с by noon — завершение к конкретному прошлому времени."
+				}
+			}
 		},
 		{
-			"question": "Мы не знали, что он уже уехал.",
 			"answer": "We didn't know that he had already left.",
-			"explanation": "Past Perfect выражает действие более раннее, чем другое прошлое действие."
+			"translations": {
+				"ru": {
+					"question": "Мы не знали, что он уже уехал.",
+					"explanation": "Past Perfect выражает действие более раннее, чем другое прошлое действие."
+				}
+			}
 		},
 		{
-			"question": "Если бы она не опоздала, мы бы успели на поезд.",
 			"answer": "If she had not been late, we would have caught the train.",
-			"explanation": "Третье условное предложение с отрицанием в условной части."
+			"translations": {
+				"ru": {
+					"question": "Если бы она не опоздала, мы бы успели на поезд.",
+					"explanation": "Третье условное предложение с отрицанием в условной части."
+				}
+			}
 		},
 		{
-			"question": "Он уже познакомился с её родителями до свадьбы.",
 			"answer": "He had already met her parents before the wedding.",
-			"explanation": "Past Perfect показывает что знакомство произошло раньше свадьбы."
+			"translations": {
+				"ru": {
+					"question": "Он уже познакомился с её родителями до свадьбы.",
+					"explanation": "Past Perfect показывает что знакомство произошло раньше свадьбы."
+				}
+			}
 		},
 		{
-			"question": "К тому моменту я уже забыл его имя.",
 			"answer": "By that moment I had already forgotten his name.",
-			"explanation": "Past Perfect с by that moment для действия, предшествующего другому в прошлом."
+			"translations": {
+				"ru": {
+					"question": "К тому моменту я уже забыл его имя.",
+					"explanation": "Past Perfect с by that moment для действия, предшествующего другому в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она сказала, что уже позвонила врачу.",
 			"answer": "She said that she had already called the doctor.",
-			"explanation": "Косвенная речь: маркер already переходит с present perfect на past perfect."
+			"translations": {
+				"ru": {
+					"question": "Она сказала, что уже позвонила врачу.",
+					"explanation": "Косвенная речь: маркер already переходит с present perfect на past perfect."
+				}
+			}
 		},
 		{
-			"question": "Когда мы пришли в кино, фильм уже начался.",
 			"answer": "When we arrived at the cinema, the film had already started.",
-			"explanation": "Past Perfect для события, начавшегося до нашего прихода."
+			"translations": {
+				"ru": {
+					"question": "Когда мы пришли в кино, фильм уже начался.",
+					"explanation": "Past Perfect для события, начавшегося до нашего прихода."
+				}
+			}
 		},
 		{
-			"question": "Он никогда не водил машину до того дня.",
 			"answer": "He had never driven a car before that day.",
-			"explanation": "Past Perfect с never до конкретного прошлого момента."
+			"translations": {
+				"ru": {
+					"question": "Он никогда не водил машину до того дня.",
+					"explanation": "Past Perfect с never до конкретного прошлого момента."
+				}
+			}
 		},
 		{
-			"question": "Они уже переехали в новый дом к декабрю.",
 			"answer": "They had already moved to the new house by December.",
-			"explanation": "Past Perfect с by + месяц — завершение до конкретного времени."
+			"translations": {
+				"ru": {
+					"question": "Они уже переехали в новый дом к декабрю.",
+					"explanation": "Past Perfect с by + месяц — завершение до конкретного времени."
+				}
+			}
 		},
 		{
-			"question": "Если бы я знал об этом, я бы поступил иначе.",
 			"answer": "If I had known about it, I would have acted differently.",
-			"explanation": "Третье условное: нереальное условие в прошлом и его воображаемый результат."
+			"translations": {
+				"ru": {
+					"question": "Если бы я знал об этом, я бы поступил иначе.",
+					"explanation": "Третье условное: нереальное условие в прошлом и его воображаемый результат."
+				}
+			}
 		},
 		{
-			"question": "Он понял, что потерял ключи.",
 			"answer": "He realized that he had lost his keys.",
-			"explanation": "Past Perfect после realized: потеря ключей произошла раньше осознания."
+			"translations": {
+				"ru": {
+					"question": "Он понял, что потерял ключи.",
+					"explanation": "Past Perfect после realized: потеря ключей произошла раньше осознания."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как пришёл доктор, температура уже спала.",
 			"answer": "By the time the doctor arrived, the temperature had already gone down.",
-			"explanation": "By the time + Past Simple / Past Perfect — последовательность прошлых событий."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как пришёл доктор, температура уже спала.",
+					"explanation": "By the time + Past Simple / Past Perfect — последовательность прошлых событий."
+				}
+			}
 		},
 		{
-			"question": "Мы уже обсудили этот вопрос до встречи.",
 			"answer": "We had already discussed the issue before the meeting.",
-			"explanation": "Past Perfect указывает что обсуждение предшествовало встрече."
+			"translations": {
+				"ru": {
+					"question": "Мы уже обсудили этот вопрос до встречи.",
+					"explanation": "Past Perfect указывает что обсуждение предшествовало встрече."
+				}
+			}
 		},
 		{
-			"question": "Она только что вышла, когда он позвонил.",
 			"answer": "She had just gone out when he called.",
-			"explanation": "Past Perfect с just: действие завершилось непосредственно перед звонком."
+			"translations": {
+				"ru": {
+					"question": "Она только что вышла, когда он позвонил.",
+					"explanation": "Past Perfect с just: действие завершилось непосредственно перед звонком."
+				}
+			}
 		},
 		{
-			"question": "Если бы ты пришёл раньше, ты бы увидел её.",
 			"answer": "If you had come earlier, you would have seen her.",
-			"explanation": "Третье условное предложение: нереальное условие в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Если бы ты пришёл раньше, ты бы увидел её.",
+					"explanation": "Третье условное предложение: нереальное условие в прошлом."
+				}
+			}
 		},
 		{
-			"question": "К 9 утра он уже сделал зарядку.",
 			"answer": "By 9 a.m. he had already done his exercises.",
-			"explanation": "Past Perfect с конкретным временем суток (by + время)."
+			"translations": {
+				"ru": {
+					"question": "К 9 утра он уже сделал зарядку.",
+					"explanation": "Past Perfect с конкретным временем суток (by + время)."
+				}
+			}
 		},
 		{
-			"question": "Она не ожидала, что он уже всё продал.",
 			"answer": "She hadn't expected that he had already sold everything.",
-			"explanation": "Past Perfect после hadn't expected — более раннее прошлое действие."
+			"translations": {
+				"ru": {
+					"question": "Она не ожидала, что он уже всё продал.",
+					"explanation": "Past Perfect после hadn't expected — более раннее прошлое действие."
+				}
+			}
 		},
 		{
-			"question": "Они уже перестали спорить, когда вошёл менеджер.",
 			"answer": "They had already stopped arguing when the manager came in.",
-			"explanation": "Past Perfect для завершённого действия до другого прошлого события."
+			"translations": {
+				"ru": {
+					"question": "Они уже перестали спорить, когда вошёл менеджер.",
+					"explanation": "Past Perfect для завершённого действия до другого прошлого события."
+				}
+			}
 		},
 		{
-			"question": "Он сказал, что никогда не слышал такой истории.",
 			"answer": "He said that he had never heard such a story.",
-			"explanation": "Косвенная речь: present perfect с never переходит в past perfect."
+			"translations": {
+				"ru": {
+					"question": "Он сказал, что никогда не слышал такой истории.",
+					"explanation": "Косвенная речь: present perfect с never переходит в past perfect."
+				}
+			}
 		},
 		{
-			"question": "Если бы они не забыли паспорта, они бы вылетели.",
 			"answer": "If they had not forgotten their passports, they would have flown.",
-			"explanation": "Третье условное с отрицанием в условной части."
+			"translations": {
+				"ru": {
+					"question": "Если бы они не забыли паспорта, они бы вылетели.",
+					"explanation": "Третье условное с отрицанием в условной части."
+				}
+			}
 		},
 		{
-			"question": "К моменту его рождения родители уже переехали в город.",
 			"answer": "By the time he was born, his parents had already moved to the city.",
-			"explanation": "Past Perfect показывает действие, завершённое до момента рождения."
+			"translations": {
+				"ru": {
+					"question": "К моменту его рождения родители уже переехали в город.",
+					"explanation": "Past Perfect показывает действие, завершённое до момента рождения."
+				}
+			}
 		},
 		{
-			"question": "Мы не понимали, что произошло.",
 			"answer": "We didn't understand what had happened.",
-			"explanation": "Past Perfect в придаточном предложении после didn't understand."
+			"translations": {
+				"ru": {
+					"question": "Мы не понимали, что произошло.",
+					"explanation": "Past Perfect в придаточном предложении после didn't understand."
+				}
+			}
 		},
 		{
-			"question": "Она уже написала отчёт к утру.",
 			"answer": "She had already written the report by morning.",
-			"explanation": "Past Perfect с by morning — завершение к определённому времени утром."
+			"translations": {
+				"ru": {
+					"question": "Она уже написала отчёт к утру.",
+					"explanation": "Past Perfect с by morning — завершение к определённому времени утром."
+				}
+			}
 		},
 		{
-			"question": "Когда началась война, он уже эмигрировал.",
 			"answer": "When the war started, he had already emigrated.",
-			"explanation": "Past Perfect: эмиграция произошла раньше начала войны."
+			"translations": {
+				"ru": {
+					"question": "Когда началась война, он уже эмигрировал.",
+					"explanation": "Past Perfect: эмиграция произошла раньше начала войны."
+				}
+			}
 		},
 		{
-			"question": "Если бы она спросила меня, я бы помог.",
 			"answer": "If she had asked me, I would have helped.",
-			"explanation": "Третье условное: нереальное условие в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Если бы она спросила меня, я бы помог.",
+					"explanation": "Третье условное: нереальное условие в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Они уже договорились о встрече до его звонка.",
 			"answer": "They had already arranged the meeting before his call.",
-			"explanation": "Past Perfect для действия, предшествующего другому в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Они уже договорились о встрече до его звонка.",
+					"explanation": "Past Perfect для действия, предшествующего другому в прошлом."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как подали еду, гости уже проголодались.",
 			"answer": "By the time the food was served, the guests had already got hungry.",
-			"explanation": "By the time + Past Simple и Past Perfect для хронологии прошлых событий."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как подали еду, гости уже проголодались.",
+					"explanation": "By the time + Past Simple и Past Perfect для хронологии прошлых событий."
+				}
+			}
 		},
 		{
-			"question": "Он сказал, что уже сдал экзамен.",
 			"answer": "He said that he had already passed the exam.",
-			"explanation": "Косвенная речь: already с past perfect после said."
+			"translations": {
+				"ru": {
+					"question": "Он сказал, что уже сдал экзамен.",
+					"explanation": "Косвенная речь: already с past perfect после said."
+				}
+			}
 		},
 		{
-			"question": "Я только что сел в такси, когда позвонил друг.",
 			"answer": "I had just got into the taxi when my friend called.",
-			"explanation": "Past Perfect с just: действие завершилось прямо перед звонком."
+			"translations": {
+				"ru": {
+					"question": "Я только что сел в такси, когда позвонил друг.",
+					"explanation": "Past Perfect с just: действие завершилось прямо перед звонком."
+				}
+			}
 		},
 		{
-			"question": "Она не знала, что он уже уволился.",
 			"answer": "She didn't know that he had already resigned.",
-			"explanation": "Past Perfect после didn't know — более раннее событие в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она не знала, что он уже уволился.",
+					"explanation": "Past Perfect после didn't know — более раннее событие в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Если бы они выехали раньше, они бы не попали в пробку.",
 			"answer": "If they had left earlier, they would not have got stuck in traffic.",
-			"explanation": "Третье условное предложение с отрицательным следствием."
+			"translations": {
+				"ru": {
+					"question": "Если бы они выехали раньше, они бы не попали в пробку.",
+					"explanation": "Третье условное предложение с отрицательным следствием."
+				}
+			}
 		},
 		{
-			"question": "К концу недели я уже прочитал всю книгу.",
 			"answer": "By the end of the week I had already read the whole book.",
-			"explanation": "Past Perfect с by the end of — завершение к концу определённого периода."
+			"translations": {
+				"ru": {
+					"question": "К концу недели я уже прочитал всю книгу.",
+					"explanation": "Past Perfect с by the end of — завершение к концу определённого периода."
+				}
+			}
 		},
 		{
-			"question": "Они уже отметили годовщину до нашего приезда.",
 			"answer": "They had already celebrated their anniversary before we arrived.",
-			"explanation": "Past Perfect для действия, завершённого до нашего приезда."
+			"translations": {
+				"ru": {
+					"question": "Они уже отметили годовщину до нашего приезда.",
+					"explanation": "Past Perfect для действия, завершённого до нашего приезда."
+				}
+			}
 		},
 		{
-			"question": "Она поняла, что забыла ключи дома.",
 			"answer": "She realized that she had left her keys at home.",
-			"explanation": "Past Perfect после realized: забытые ключи — более раннее событие."
+			"translations": {
+				"ru": {
+					"question": "Она поняла, что забыла ключи дома.",
+					"explanation": "Past Perfect после realized: забытые ключи — более раннее событие."
+				}
+			}
 		},
 		{
-			"question": "Он никогда не летал на самолёте до той поездки.",
 			"answer": "He had never flown on a plane before that trip.",
-			"explanation": "Past Perfect с never до конкретного прошлого события."
+			"translations": {
+				"ru": {
+					"question": "Он никогда не летал на самолёте до той поездки.",
+					"explanation": "Past Perfect с never до конкретного прошлого события."
+				}
+			}
 		},
 		{
-			"question": "Если бы ты позвонил мне, я бы приехал.",
 			"answer": "If you had called me, I would have come.",
-			"explanation": "Третье условное предложение: нереальное прошлое условие."
+			"translations": {
+				"ru": {
+					"question": "Если бы ты позвонил мне, я бы приехал.",
+					"explanation": "Третье условное предложение: нереальное прошлое условие."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как мы нашли парковку, концерт уже начался.",
 			"answer": "By the time we found parking, the concert had already begun.",
-			"explanation": "By the time с Past Simple и Past Perfect — хронология прошлых событий."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как мы нашли парковку, концерт уже начался.",
+					"explanation": "By the time с Past Simple и Past Perfect — хронология прошлых событий."
+				}
+			}
 		},
 		{
-			"question": "Она сказала, что уже сделала домашнее задание.",
 			"answer": "She said that she had already done her homework.",
-			"explanation": "Косвенная речь: present perfect → past perfect после said."
+			"translations": {
+				"ru": {
+					"question": "Она сказала, что уже сделала домашнее задание.",
+					"explanation": "Косвенная речь: present perfect → past perfect после said."
+				}
+			}
 		},
 		{
-			"question": "К полуночи гости уже разошлись.",
 			"answer": "By midnight the guests had already left.",
-			"explanation": "Past Perfect с by midnight — завершение к конкретному ночному времени."
+			"translations": {
+				"ru": {
+					"question": "К полуночи гости уже разошлись.",
+					"explanation": "Past Perfect с by midnight — завершение к конкретному ночному времени."
+				}
+			}
 		},
 		{
-			"question": "Он только что подписал контракт, когда получил лучшее предложение.",
 			"answer": "He had just signed the contract when he received a better offer.",
-			"explanation": "Past Perfect с just: подписание контракта случилось прямо перед получением предложения."
+			"translations": {
+				"ru": {
+					"question": "Он только что подписал контракт, когда получил лучшее предложение.",
+					"explanation": "Past Perfect с just: подписание контракта случилось прямо перед получением предложения."
+				}
+			}
 		},
 		{
-			"question": "Если бы мы забронировали отель заранее, всё было бы иначе.",
 			"answer": "If we had booked the hotel in advance, everything would have been different.",
-			"explanation": "Третье условное: нереальное прошлое условие и его воображаемый результат."
+			"translations": {
+				"ru": {
+					"question": "Если бы мы забронировали отель заранее, всё было бы иначе.",
+					"explanation": "Третье условное: нереальное прошлое условие и его воображаемый результат."
+				}
+			}
 		},
 		{
-			"question": "Она не знала, что уже опоздала.",
 			"answer": "She didn't know that she had already been late.",
-			"explanation": "Past Perfect после didn't know — осознание опоздания пришло позже."
+			"translations": {
+				"ru": {
+					"question": "Она не знала, что уже опоздала.",
+					"explanation": "Past Perfect после didn't know — осознание опоздания пришло позже."
+				}
+			}
 		},
 		{
-			"question": "Он сообщил, что никогда не встречал этого человека.",
 			"answer": "He reported that he had never met that person.",
-			"explanation": "Косвенная речь: present perfect → past perfect после reported."
+			"translations": {
+				"ru": {
+					"question": "Он сообщил, что никогда не встречал этого человека.",
+					"explanation": "Косвенная речь: present perfect → past perfect после reported."
+				}
+			}
 		},
 		{
-			"question": "К моменту окончания школы она уже определилась с профессией.",
 			"answer": "By the time she finished school, she had already decided on her career.",
-			"explanation": "Past Perfect: решение о профессии предшествовало окончанию школы."
+			"translations": {
+				"ru": {
+					"question": "К моменту окончания школы она уже определилась с профессией.",
+					"explanation": "Past Perfect: решение о профессии предшествовало окончанию школы."
+				}
+			}
 		},
 		{
-			"question": "Мы уже съели всё печенье до прихода гостей.",
 			"answer": "We had already eaten all the cookies before the guests arrived.",
-			"explanation": "Past Perfect: поедание печенья завершилось раньше прихода гостей."
+			"translations": {
+				"ru": {
+					"question": "Мы уже съели всё печенье до прихода гостей.",
+					"explanation": "Past Perfect: поедание печенья завершилось раньше прихода гостей."
+				}
+			}
 		},
 		{
-			"question": "Если бы они прислушались к совету, всё было бы лучше.",
 			"answer": "If they had listened to the advice, everything would have been better.",
-			"explanation": "Третье условное: нереальное прошлое условие."
+			"translations": {
+				"ru": {
+					"question": "Если бы они прислушались к совету, всё было бы лучше.",
+					"explanation": "Третье условное: нереальное прошлое условие."
+				}
+			}
 		},
 		{
-			"question": "Он сказал, что уже встречался с директором.",
 			"answer": "He said that he had already met the director.",
-			"explanation": "Косвенная речь: present perfect → past perfect."
+			"translations": {
+				"ru": {
+					"question": "Он сказал, что уже встречался с директором.",
+					"explanation": "Косвенная речь: present perfect → past perfect."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как пришли результаты, мы уже всё забыли.",
 			"answer": "By the time the results came, we had already forgotten everything.",
-			"explanation": "Past Perfect: забывание произошло до получения результатов."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как пришли результаты, мы уже всё забыли.",
+					"explanation": "Past Perfect: забывание произошло до получения результатов."
+				}
+			}
 		},
 		{
-			"question": "Она только что помылась, когда выключили воду.",
 			"answer": "She had just washed when the water was turned off.",
-			"explanation": "Past Perfect с just: действие завершилось непосредственно перед следующим."
+			"translations": {
+				"ru": {
+					"question": "Она только что помылась, когда выключили воду.",
+					"explanation": "Past Perfect с just: действие завершилось непосредственно перед следующим."
+				}
+			}
 		},
 		{
-			"question": "Он никогда не готовил сам до того, как переехал.",
 			"answer": "He had never cooked for himself before he moved out.",
-			"explanation": "Past Perfect с never до конкретного прошлого события."
+			"translations": {
+				"ru": {
+					"question": "Он никогда не готовил сам до того, как переехал.",
+					"explanation": "Past Perfect с never до конкретного прошлого события."
+				}
+			}
 		},
 		{
-			"question": "Если бы они не поссорились, всё было бы хорошо.",
 			"answer": "If they had not argued, everything would have been fine.",
-			"explanation": "Третье условное с отрицанием в условной части."
+			"translations": {
+				"ru": {
+					"question": "Если бы они не поссорились, всё было бы хорошо.",
+					"explanation": "Третье условное с отрицанием в условной части."
+				}
+			}
 		},
 		{
-			"question": "К началу лета они уже сняли квартиру.",
 			"answer": "By the beginning of summer they had already rented a flat.",
-			"explanation": "Past Perfect с by the beginning of — завершение к началу определённого периода."
+			"translations": {
+				"ru": {
+					"question": "К началу лета они уже сняли квартиру.",
+					"explanation": "Past Perfect с by the beginning of — завершение к началу определённого периода."
+				}
+			}
 		},
 		{
-			"question": "Мы не ожидали, что он уже знал правду.",
 			"answer": "We hadn't expected that he had already known the truth.",
-			"explanation": "Past Perfect после hadn't expected — знание правды предшествовало нашему удивлению."
+			"translations": {
+				"ru": {
+					"question": "Мы не ожидали, что он уже знал правду.",
+					"explanation": "Past Perfect после hadn't expected — знание правды предшествовало нашему удивлению."
+				}
+			}
 		},
 		{
-			"question": "Она сказала, что никогда не видела этого актёра.",
 			"answer": "She said that she had never seen that actor.",
-			"explanation": "Косвенная речь: present perfect → past perfect."
+			"translations": {
+				"ru": {
+					"question": "Она сказала, что никогда не видела этого актёра.",
+					"explanation": "Косвенная речь: present perfect → past perfect."
+				}
+			}
 		},
 		{
-			"question": "Когда пришёл мой черёд, все уже проголосовали.",
 			"answer": "When it was my turn, everyone had already voted.",
-			"explanation": "Past Perfect для действия, завершённого до наступления моей очереди."
+			"translations": {
+				"ru": {
+					"question": "Когда пришёл мой черёд, все уже проголосовали.",
+					"explanation": "Past Perfect для действия, завершённого до наступления моей очереди."
+				}
+			}
 		},
 		{
-			"question": "Если бы она не потеряла телефон, она бы не опоздала.",
 			"answer": "If she had not lost her phone, she would not have been late.",
-			"explanation": "Третье условное с отрицанием в обеих частях."
+			"translations": {
+				"ru": {
+					"question": "Если бы она не потеряла телефон, она бы не опоздала.",
+					"explanation": "Третье условное с отрицанием в обеих частях."
+				}
+			}
 		},
 		{
-			"question": "К пяти вечера мы уже закончили совещание.",
 			"answer": "By five o'clock we had already finished the meeting.",
-			"explanation": "Past Perfect с конкретным временем суток."
+			"translations": {
+				"ru": {
+					"question": "К пяти вечера мы уже закончили совещание.",
+					"explanation": "Past Perfect с конкретным временем суток."
+				}
+			}
 		},
 		{
-			"question": "Он понял, что раньше видел эту женщину.",
 			"answer": "He realized that he had seen that woman before.",
-			"explanation": "Past Perfect после realized — узнавание произошло позже, чем первоначальная встреча."
+			"translations": {
+				"ru": {
+					"question": "Он понял, что раньше видел эту женщину.",
+					"explanation": "Past Perfect после realized — узнавание произошло позже, чем первоначальная встреча."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как началась вечеринка, они уже поссорились.",
 			"answer": "By the time the party started, they had already had a fight.",
-			"explanation": "Past Perfect для события, предшествующего началу вечеринки."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как началась вечеринка, они уже поссорились.",
+					"explanation": "Past Perfect для события, предшествующего началу вечеринки."
+				}
+			}
 		},
 		{
-			"question": "Она только что уснула, когда зазвонил будильник.",
 			"answer": "She had just fallen asleep when the alarm went off.",
-			"explanation": "Past Perfect с just — засыпание произошло прямо перед звонком будильника."
+			"translations": {
+				"ru": {
+					"question": "Она только что уснула, когда зазвонил будильник.",
+					"explanation": "Past Perfect с just — засыпание произошло прямо перед звонком будильника."
+				}
+			}
 		},
 		{
-			"question": "Он никогда не был за границей до этой командировки.",
 			"answer": "He had never been abroad before this business trip.",
-			"explanation": "Past Perfect с never до конкретного прошлого момента."
+			"translations": {
+				"ru": {
+					"question": "Он никогда не был за границей до этой командировки.",
+					"explanation": "Past Perfect с never до конкретного прошлого момента."
+				}
+			}
 		},
 		{
-			"question": "Если бы мы позвонили заранее, нас бы ждали.",
 			"answer": "If we had called in advance, they would have been waiting for us.",
-			"explanation": "Третье условное с would have been + -ing в главной части."
+			"translations": {
+				"ru": {
+					"question": "Если бы мы позвонили заранее, нас бы ждали.",
+					"explanation": "Третье условное с would have been + -ing в главной части."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как мы приехали, снег уже растаял.",
 			"answer": "By the time we arrived, the snow had already melted.",
-			"explanation": "Past Perfect: таяние снега завершилось до нашего приезда."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как мы приехали, снег уже растаял.",
+					"explanation": "Past Perfect: таяние снега завершилось до нашего приезда."
+				}
+			}
 		},
 		{
-			"question": "Он сказал, что уже передумал.",
 			"answer": "He said that he had already changed his mind.",
-			"explanation": "Косвенная речь: present perfect → past perfect."
+			"translations": {
+				"ru": {
+					"question": "Он сказал, что уже передумал.",
+					"explanation": "Косвенная речь: present perfect → past perfect."
+				}
+			}
 		},
 		{
-			"question": "Когда объявили результаты, она уже ушла.",
 			"answer": "When the results were announced, she had already left.",
-			"explanation": "Past Perfect: уход произошёл до объявления результатов."
+			"translations": {
+				"ru": {
+					"question": "Когда объявили результаты, она уже ушла.",
+					"explanation": "Past Perfect: уход произошёл до объявления результатов."
+				}
+			}
 		},
 		{
-			"question": "Если бы ты сказал мне правду, я бы понял.",
 			"answer": "If you had told me the truth, I would have understood.",
-			"explanation": "Третье условное предложение: нереальное прошлое условие."
+			"translations": {
+				"ru": {
+					"question": "Если бы ты сказал мне правду, я бы понял.",
+					"explanation": "Третье условное предложение: нереальное прошлое условие."
+				}
+			}
 		},
 		{
-			"question": "Они уже приняли решение до разговора с нами.",
 			"answer": "They had already made the decision before talking to us.",
-			"explanation": "Past Perfect: решение было принято прежде нашего разговора."
+			"translations": {
+				"ru": {
+					"question": "Они уже приняли решение до разговора с нами.",
+					"explanation": "Past Perfect: решение было принято прежде нашего разговора."
+				}
+			}
 		},
 		{
-			"question": "К тому времени мы уже сделали все покупки.",
 			"answer": "By that time we had already done all the shopping.",
-			"explanation": "Past Perfect с by that time — к тому моменту покупки были завершены."
+			"translations": {
+				"ru": {
+					"question": "К тому времени мы уже сделали все покупки.",
+					"explanation": "Past Perfect с by that time — к тому моменту покупки были завершены."
+				}
+			}
 		},
 		{
-			"question": "Она поняла, что не выключила газ.",
 			"answer": "She realized that she had not turned off the gas.",
-			"explanation": "Past Perfect в отрицательной форме: осознание позже, чем само действие."
+			"translations": {
+				"ru": {
+					"question": "Она поняла, что не выключила газ.",
+					"explanation": "Past Perfect в отрицательной форме: осознание позже, чем само действие."
+				}
+			}
 		},
 		{
-			"question": "Он никогда не пробовал этот напиток раньше.",
 			"answer": "He had never tried this drink before.",
-			"explanation": "Past Perfect с never + before для отсутствия опыта до данного прошлого момента."
+			"translations": {
+				"ru": {
+					"question": "Он никогда не пробовал этот напиток раньше.",
+					"explanation": "Past Perfect с never + before для отсутствия опыта до данного прошлого момента."
+				}
+			}
 		},
 		{
-			"question": "К концу урока ученики уже выполнили упражнение.",
 			"answer": "By the end of the lesson the students had already completed the exercise.",
-			"explanation": "Past Perfect с by the end of the lesson."
+			"translations": {
+				"ru": {
+					"question": "К концу урока ученики уже выполнили упражнение.",
+					"explanation": "Past Perfect с by the end of the lesson."
+				}
+			}
 		},
 		{
-			"question": "Если бы он заправил машину, они бы не остановились.",
 			"answer": "If he had filled up the car, they would not have stopped.",
-			"explanation": "Третье условное с отрицанием в главной части."
+			"translations": {
+				"ru": {
+					"question": "Если бы он заправил машину, они бы не остановились.",
+					"explanation": "Третье условное с отрицанием в главной части."
+				}
+			}
 		},
 		{
-			"question": "Мы уже несколько раз встречались до той конференции.",
 			"answer": "We had already met several times before that conference.",
-			"explanation": "Past Perfect указывает что несколько встреч предшествовали конференции."
+			"translations": {
+				"ru": {
+					"question": "Мы уже несколько раз встречались до той конференции.",
+					"explanation": "Past Perfect указывает что несколько встреч предшествовали конференции."
+				}
+			}
 		},
 		{
-			"question": "Она сказала, что уже прочитала эту статью.",
 			"answer": "She said that she had already read that article.",
-			"explanation": "Косвенная речь: present perfect → past perfect после said."
+			"translations": {
+				"ru": {
+					"question": "Она сказала, что уже прочитала эту статью.",
+					"explanation": "Косвенная речь: present perfect → past perfect после said."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как начался матч, стадион уже заполнился.",
 			"answer": "By the time the match started, the stadium had already filled up.",
-			"explanation": "Past Perfect: заполнение стадиона произошло до начала матча."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как начался матч, стадион уже заполнился.",
+					"explanation": "Past Perfect: заполнение стадиона произошло до начала матча."
+				}
+			}
 		},
 		{
-			"question": "Он только что выключил компьютер, когда вспомнил о письме.",
 			"answer": "He had just turned off the computer when he remembered the email.",
-			"explanation": "Past Perfect с just: выключение компьютера — непосредственно перед воспоминанием."
+			"translations": {
+				"ru": {
+					"question": "Он только что выключил компьютер, когда вспомнил о письме.",
+					"explanation": "Past Perfect с just: выключение компьютера — непосредственно перед воспоминанием."
+				}
+			}
 		},
 		{
-			"question": "Если бы она не забыла зарядник, телефон не разрядился бы.",
 			"answer": "If she had not forgotten the charger, the phone would not have died.",
-			"explanation": "Третье условное с отрицанием в обеих частях."
+			"translations": {
+				"ru": {
+					"question": "Если бы она не забыла зарядник, телефон не разрядился бы.",
+					"explanation": "Третье условное с отрицанием в обеих частях."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как она доехала, магазин уже закрылся.",
 			"answer": "By the time she got there, the shop had already closed.",
-			"explanation": "Past Perfect: закрытие магазина произошло до её приезда."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как она доехала, магазин уже закрылся.",
+					"explanation": "Past Perfect: закрытие магазина произошло до её приезда."
+				}
+			}
 		},
 		{
-			"question": "Он сказал, что уже попробовал все варианты.",
 			"answer": "He said that he had already tried all the options.",
-			"explanation": "Косвенная речь: present perfect → past perfect."
+			"translations": {
+				"ru": {
+					"question": "Он сказал, что уже попробовал все варианты.",
+					"explanation": "Косвенная речь: present perfect → past perfect."
+				}
+			}
 		},
 		{
-			"question": "Когда они вошли, лекция уже началась.",
 			"answer": "When they entered, the lecture had already started.",
-			"explanation": "Past Perfect: лекция началась до их прихода."
+			"translations": {
+				"ru": {
+					"question": "Когда они вошли, лекция уже началась.",
+					"explanation": "Past Perfect: лекция началась до их прихода."
+				}
+			}
 		},
 		{
-			"question": "Если бы ты взял карту, мы бы не заблудились.",
 			"answer": "If you had taken the map, we would not have got lost.",
-			"explanation": "Третье условное предложение: нереальное прошлое условие."
+			"translations": {
+				"ru": {
+					"question": "Если бы ты взял карту, мы бы не заблудились.",
+					"explanation": "Третье условное предложение: нереальное прошлое условие."
+				}
+			}
 		},
 		{
-			"question": "К следующему утру она уже приняла решение.",
 			"answer": "By the next morning she had already made her decision.",
-			"explanation": "Past Perfect с by the next morning."
+			"translations": {
+				"ru": {
+					"question": "К следующему утру она уже приняла решение.",
+					"explanation": "Past Perfect с by the next morning."
+				}
+			}
 		},
 		{
-			"question": "Мы уже поздравили его до официального объявления.",
 			"answer": "We had already congratulated him before the official announcement.",
-			"explanation": "Past Perfect: поздравление случилось раньше официального объявления."
+			"translations": {
+				"ru": {
+					"question": "Мы уже поздравили его до официального объявления.",
+					"explanation": "Past Perfect: поздравление случилось раньше официального объявления."
+				}
+			}
 		},
 		{
-			"question": "Она поняла, что потеряла кошелёк.",
 			"answer": "She realized that she had lost her purse.",
-			"explanation": "Past Perfect после realized — потеря кошелька предшествует осознанию."
+			"translations": {
+				"ru": {
+					"question": "Она поняла, что потеряла кошелёк.",
+					"explanation": "Past Perfect после realized — потеря кошелька предшествует осознанию."
+				}
+			}
 		},
 		{
-			"question": "Он никогда не проигрывал в шахматы до того матча.",
 			"answer": "He had never lost at chess before that match.",
-			"explanation": "Past Perfect с never до конкретного прошлого события."
+			"translations": {
+				"ru": {
+					"question": "Он никогда не проигрывал в шахматы до того матча.",
+					"explanation": "Past Perfect с never до конкретного прошлого события."
+				}
+			}
 		},
 		{
-			"question": "Если бы они вовремя предупредили нас, мы бы успели.",
 			"answer": "If they had warned us in time, we would have made it.",
-			"explanation": "Третье условное: нереальное прошлое условие."
+			"translations": {
+				"ru": {
+					"question": "Если бы они вовремя предупредили нас, мы бы успели.",
+					"explanation": "Третье условное: нереальное прошлое условие."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как приехала полиция, вор уже скрылся.",
 			"answer": "By the time the police arrived, the thief had already escaped.",
-			"explanation": "Past Perfect: побег произошёл до прибытия полиции."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как приехала полиция, вор уже скрылся.",
+					"explanation": "Past Perfect: побег произошёл до прибытия полиции."
+				}
+			}
 		},
 		{
-			"question": "Она сказала, что уже занималась этим вопросом.",
 			"answer": "She said that she had already dealt with the matter.",
-			"explanation": "Косвенная речь: present perfect → past perfect."
+			"translations": {
+				"ru": {
+					"question": "Она сказала, что уже занималась этим вопросом.",
+					"explanation": "Косвенная речь: present perfect → past perfect."
+				}
+			}
 		},
 		{
-			"question": "Когда я зашёл в офис, все уже разошлись.",
 			"answer": "When I entered the office, everyone had already gone.",
-			"explanation": "Past Perfect: уход всех предшествует моему приходу."
+			"translations": {
+				"ru": {
+					"question": "Когда я зашёл в офис, все уже разошлись.",
+					"explanation": "Past Perfect: уход всех предшествует моему приходу."
+				}
+			}
 		},
 		{
-			"question": "Если бы он не поспешил, он бы не упал.",
 			"answer": "If he had not rushed, he would not have fallen.",
-			"explanation": "Третье условное с отрицанием в обеих частях."
+			"translations": {
+				"ru": {
+					"question": "Если бы он не поспешил, он бы не упал.",
+					"explanation": "Третье условное с отрицанием в обеих частях."
+				}
+			}
 		},
 		{
-			"question": "К десяти утра команда уже провела планёрку.",
 			"answer": "By ten a.m. the team had already held the briefing.",
-			"explanation": "Past Perfect с конкретным временем суток."
+			"translations": {
+				"ru": {
+					"question": "К десяти утра команда уже провела планёрку.",
+					"explanation": "Past Perfect с конкретным временем суток."
+				}
+			}
 		},
 		{
-			"question": "Они не подозревали, что он уже знал об этом плане.",
 			"answer": "They didn't suspect that he had already known about the plan.",
-			"explanation": "Past Perfect после didn't suspect — знание предшествует подозрению."
+			"translations": {
+				"ru": {
+					"question": "Они не подозревали, что он уже знал об этом плане.",
+					"explanation": "Past Perfect после didn't suspect — знание предшествует подозрению."
+				}
+			}
 		},
 		{
-			"question": "Он сказал, что никогда не видел ничего подобного.",
 			"answer": "He said that he had never seen anything like that.",
-			"explanation": "Косвенная речь: present perfect → past perfect с never."
+			"translations": {
+				"ru": {
+					"question": "Он сказал, что никогда не видел ничего подобного.",
+					"explanation": "Косвенная речь: present perfect → past perfect с never."
+				}
+			}
 		},
 		{
-			"question": "К концу месяца они уже израсходовали бюджет.",
 			"answer": "By the end of the month they had already spent the budget.",
-			"explanation": "Past Perfect с by the end of the month."
+			"translations": {
+				"ru": {
+					"question": "К концу месяца они уже израсходовали бюджет.",
+					"explanation": "Past Perfect с by the end of the month."
+				}
+			}
 		},
 		{
-			"question": "Она только что отправила письмо, когда узнала адрес.",
 			"answer": "She had just sent the letter when she found out the address.",
-			"explanation": "Past Perfect с just: отправка письма — прямо перед нахождением адреса."
+			"translations": {
+				"ru": {
+					"question": "Она только что отправила письмо, когда узнала адрес.",
+					"explanation": "Past Perfect с just: отправка письма — прямо перед нахождением адреса."
+				}
+			}
 		},
 		{
-			"question": "Если бы они больше тренировались, они бы выиграли.",
 			"answer": "If they had trained more, they would have won.",
-			"explanation": "Третье условное: нереальное прошлое условие."
+			"translations": {
+				"ru": {
+					"question": "Если бы они больше тренировались, они бы выиграли.",
+					"explanation": "Третье условное: нереальное прошлое условие."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как поступили жалобы, сотрудника уже уволили.",
 			"answer": "By the time the complaints came in, the employee had already been dismissed.",
-			"explanation": "Past Perfect Passive: увольнение произошло до поступления жалоб."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как поступили жалобы, сотрудника уже уволили.",
+					"explanation": "Past Perfect Passive: увольнение произошло до поступления жалоб."
+				}
+			}
 		},
 		{
-			"question": "Он сообщил, что уже связался с клиентом.",
 			"answer": "He reported that he had already contacted the client.",
-			"explanation": "Косвенная речь: present perfect → past perfect после reported."
+			"translations": {
+				"ru": {
+					"question": "Он сообщил, что уже связался с клиентом.",
+					"explanation": "Косвенная речь: present perfect → past perfect после reported."
+				}
+			}
 		},
 		{
-			"question": "Когда мы вернулись, кот уже съел всю рыбу.",
 			"answer": "When we returned, the cat had already eaten all the fish.",
-			"explanation": "Past Perfect: кот съел рыбу до нашего возвращения."
+			"translations": {
+				"ru": {
+					"question": "Когда мы вернулись, кот уже съел всю рыбу.",
+					"explanation": "Past Perfect: кот съел рыбу до нашего возвращения."
+				}
+			}
 		},
 		{
-			"question": "Если бы ты поспал больше, ты бы не устал так.",
 			"answer": "If you had slept more, you would not have been so tired.",
-			"explanation": "Третье условное: нереальное прошлое условие с отрицательным следствием."
+			"translations": {
+				"ru": {
+					"question": "Если бы ты поспал больше, ты бы не устал так.",
+					"explanation": "Третье условное: нереальное прошлое условие с отрицательным следствием."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как она нашла кошелёк, деньги уже исчезли.",
 			"answer": "By the time she found the purse, the money had already disappeared.",
-			"explanation": "Past Perfect: деньги исчезли до нахождения кошелька."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как она нашла кошелёк, деньги уже исчезли.",
+					"explanation": "Past Perfect: деньги исчезли до нахождения кошелька."
+				}
+			}
 		},
 		{
-			"question": "Мы уже встретили нового директора до официального знакомства.",
 			"answer": "We had already met the new director before the formal introduction.",
-			"explanation": "Past Perfect: встреча произошла до официального знакомства."
+			"translations": {
+				"ru": {
+					"question": "Мы уже встретили нового директора до официального знакомства.",
+					"explanation": "Past Perfect: встреча произошла до официального знакомства."
+				}
+			}
 		},
 		{
-			"question": "Она поняла, что перепутала даты.",
 			"answer": "She realized that she had mixed up the dates.",
-			"explanation": "Past Perfect после realized — путаница с датами предшествует осознанию."
+			"translations": {
+				"ru": {
+					"question": "Она поняла, что перепутала даты.",
+					"explanation": "Past Perfect после realized — путаница с датами предшествует осознанию."
+				}
+			}
 		},
 		{
-			"question": "Он никогда не слышал эту песню до той ночи.",
 			"answer": "He had never heard that song before that night.",
-			"explanation": "Past Perfect с never до конкретного прошлого момента."
+			"translations": {
+				"ru": {
+					"question": "Он никогда не слышал эту песню до той ночи.",
+					"explanation": "Past Perfect с never до конкретного прошлого момента."
+				}
+			}
 		},
 		{
-			"question": "Если бы она объяснила ситуацию, мы бы помогли.",
 			"answer": "If she had explained the situation, we would have helped.",
-			"explanation": "Третье условное: нереальное прошлое условие."
+			"translations": {
+				"ru": {
+					"question": "Если бы она объяснила ситуацию, мы бы помогли.",
+					"explanation": "Третье условное: нереальное прошлое условие."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как прибыла помощь, положение ухудшилось.",
 			"answer": "By the time help arrived, the situation had got worse.",
-			"explanation": "Past Perfect: ухудшение ситуации произошло до прибытия помощи."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как прибыла помощь, положение ухудшилось.",
+					"explanation": "Past Perfect: ухудшение ситуации произошло до прибытия помощи."
+				}
+			}
 		},
 		{
-			"question": "Он сказал, что уже отправил посылку.",
 			"answer": "He said that he had already sent the parcel.",
-			"explanation": "Косвенная речь: present perfect → past perfect."
+			"translations": {
+				"ru": {
+					"question": "Он сказал, что уже отправил посылку.",
+					"explanation": "Косвенная речь: present perfect → past perfect."
+				}
+			}
 		},
 		{
-			"question": "Когда я включил телевизор, передача уже закончилась.",
 			"answer": "When I turned on the TV, the programme had already ended.",
-			"explanation": "Past Perfect: передача закончилась до включения телевизора."
+			"translations": {
+				"ru": {
+					"question": "Когда я включил телевизор, передача уже закончилась.",
+					"explanation": "Past Perfect: передача закончилась до включения телевизора."
+				}
+			}
 		},
 		{
-			"question": "Если бы они прочитали инструкцию, поломки бы не было.",
 			"answer": "If they had read the manual, there would not have been a breakdown.",
-			"explanation": "Третье условное с отрицательным следствием."
+			"translations": {
+				"ru": {
+					"question": "Если бы они прочитали инструкцию, поломки бы не было.",
+					"explanation": "Третье условное с отрицательным следствием."
+				}
+			}
 		},
 		{
-			"question": "К полудню они уже обошли весь музей.",
 			"answer": "By noon they had already walked through the whole museum.",
-			"explanation": "Past Perfect с by noon — завершение к полудню."
+			"translations": {
+				"ru": {
+					"question": "К полудню они уже обошли весь музей.",
+					"explanation": "Past Perfect с by noon — завершение к полудню."
+				}
+			}
 		},
 		{
-			"question": "Она не ожидала, что он уже купил кольцо.",
 			"answer": "She hadn't expected that he had already bought the ring.",
-			"explanation": "Past Perfect после hadn't expected — покупка произошла раньше."
+			"translations": {
+				"ru": {
+					"question": "Она не ожидала, что он уже купил кольцо.",
+					"explanation": "Past Perfect после hadn't expected — покупка произошла раньше."
+				}
+			}
 		},
 		{
-			"question": "Он сообщил, что уже подтвердил бронирование.",
 			"answer": "He reported that he had already confirmed the reservation.",
-			"explanation": "Косвенная речь: present perfect → past perfect после reported."
+			"translations": {
+				"ru": {
+					"question": "Он сообщил, что уже подтвердил бронирование.",
+					"explanation": "Косвенная речь: present perfect → past perfect после reported."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как началась зима, они уже переехали на юг.",
 			"answer": "By the time winter began, they had already moved south.",
-			"explanation": "Past Perfect: переезд предшествует началу зимы."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как началась зима, они уже переехали на юг.",
+					"explanation": "Past Perfect: переезд предшествует началу зимы."
+				}
+			}
 		},
 		{
-			"question": "Она только что записалась на приём, когда врач ушёл в отпуск.",
 			"answer": "She had just made an appointment when the doctor went on holiday.",
-			"explanation": "Past Perfect с just: запись — непосредственно перед уходом врача."
+			"translations": {
+				"ru": {
+					"question": "Она только что записалась на приём, когда врач ушёл в отпуск.",
+					"explanation": "Past Perfect с just: запись — непосредственно перед уходом врача."
+				}
+			}
 		},
 		{
-			"question": "Если бы он сохранил документ, данные не потерялись бы.",
 			"answer": "If he had saved the document, the data would not have been lost.",
-			"explanation": "Третье условное с Past Perfect Passive в главной части."
+			"translations": {
+				"ru": {
+					"question": "Если бы он сохранил документ, данные не потерялись бы.",
+					"explanation": "Третье условное с Past Perfect Passive в главной части."
+				}
+			}
 		},
 		{
-			"question": "К тому моменту, как пришли новости, игра уже завершилась.",
 			"answer": "By the time the news arrived, the game had already finished.",
-			"explanation": "Past Perfect: игра завершилась до получения новостей."
+			"translations": {
+				"ru": {
+					"question": "К тому моменту, как пришли новости, игра уже завершилась.",
+					"explanation": "Past Perfect: игра завершилась до получения новостей."
+				}
+			}
 		},
 		{
-			"question": "Он сказал, что уже решил эту задачу.",
 			"answer": "He said that he had already solved the problem.",
-			"explanation": "Косвенная речь: present perfect → past perfect."
+			"translations": {
+				"ru": {
+					"question": "Он сказал, что уже решил эту задачу.",
+					"explanation": "Косвенная речь: present perfect → past perfect."
+				}
+			}
 		},
 		{
-			"question": "Когда пришёл курьер, они уже вышли из офиса.",
 			"answer": "When the courier arrived, they had already left the office.",
-			"explanation": "Past Perfect: уход из офиса предшествует приходу курьера."
+			"translations": {
+				"ru": {
+					"question": "Когда пришёл курьер, они уже вышли из офиса.",
+					"explanation": "Past Perfect: уход из офиса предшествует приходу курьера."
+				}
+			}
 		},
 		{
-			"question": "Если бы ты спросил меня раньше, я бы объяснил.",
 			"answer": "If you had asked me earlier, I would have explained.",
-			"explanation": "Третье условное: нереальное прошлое условие."
+			"translations": {
+				"ru": {
+					"question": "Если бы ты спросил меня раньше, я бы объяснил.",
+					"explanation": "Третье условное: нереальное прошлое условие."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как специалист приехал, проблема исчезла сама.",
 			"answer": "By the time the specialist came, the problem had already gone away on its own.",
-			"explanation": "Past Perfect: проблема исчезла до приезда специалиста."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как специалист приехал, проблема исчезла сама.",
+					"explanation": "Past Perfect: проблема исчезла до приезда специалиста."
+				}
+			}
 		},
 		{
-			"question": "Мы уже поели, когда нас пригласили к столу.",
 			"answer": "We had already eaten when we were invited to the table.",
-			"explanation": "Past Perfect: еда завершена до приглашения к столу."
+			"translations": {
+				"ru": {
+					"question": "Мы уже поели, когда нас пригласили к столу.",
+					"explanation": "Past Perfect: еда завершена до приглашения к столу."
+				}
+			}
 		},
 		{
-			"question": "Она поняла, что дала неправильный ответ.",
 			"answer": "She realized that she had given the wrong answer.",
-			"explanation": "Past Perfect после realized — неверный ответ дан раньше осознания."
+			"translations": {
+				"ru": {
+					"question": "Она поняла, что дала неправильный ответ.",
+					"explanation": "Past Perfect после realized — неверный ответ дан раньше осознания."
+				}
+			}
 		},
 		{
-			"question": "Он никогда не занимался йогой до той поездки в Индию.",
 			"answer": "He had never done yoga before that trip to India.",
-			"explanation": "Past Perfect с never до конкретного прошлого события."
+			"translations": {
+				"ru": {
+					"question": "Он никогда не занимался йогой до той поездки в Индию.",
+					"explanation": "Past Perfect с never до конкретного прошлого события."
+				}
+			}
 		},
 		{
-			"question": "Если бы они взяли другой маршрут, добрались бы быстрее.",
 			"answer": "If they had taken a different route, they would have got there faster.",
-			"explanation": "Третье условное: нереальное прошлое условие."
+			"translations": {
+				"ru": {
+					"question": "Если бы они взяли другой маршрут, добрались бы быстрее.",
+					"explanation": "Третье условное: нереальное прошлое условие."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как объявили победителя, все уже ставки сделали.",
 			"answer": "By the time the winner was announced, everyone had already placed their bets.",
-			"explanation": "Past Perfect Passive: ставки были сделаны до объявления победителя."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как объявили победителя, все уже ставки сделали.",
+					"explanation": "Past Perfect Passive: ставки были сделаны до объявления победителя."
+				}
+			}
 		},
 		{
-			"question": "Он сообщил, что уже обсудил вопрос с коллегами.",
 			"answer": "He reported that he had already discussed the matter with colleagues.",
-			"explanation": "Косвенная речь: present perfect → past perfect после reported."
+			"translations": {
+				"ru": {
+					"question": "Он сообщил, что уже обсудил вопрос с коллегами.",
+					"explanation": "Косвенная речь: present perfect → past perfect после reported."
+				}
+			}
 		},
 		{
-			"question": "Когда они включили нагреватель, комната уже остыла.",
 			"answer": "When they turned on the heater, the room had already gone cold.",
-			"explanation": "Past Perfect: комната остыла до включения нагревателя."
+			"translations": {
+				"ru": {
+					"question": "Когда они включили нагреватель, комната уже остыла.",
+					"explanation": "Past Perfect: комната остыла до включения нагревателя."
+				}
+			}
 		},
 		{
-			"question": "Если бы она не солгала, всё бы обошлось.",
 			"answer": "If she had not lied, everything would have been fine.",
-			"explanation": "Третье условное с отрицанием в условной части."
+			"translations": {
+				"ru": {
+					"question": "Если бы она не солгала, всё бы обошлось.",
+					"explanation": "Третье условное с отрицанием в условной части."
+				}
+			}
 		},
 		{
-			"question": "К полуночи дети уже несколько часов спали.",
 			"answer": "By midnight the children had already been asleep for several hours.",
-			"explanation": "Past Perfect с состоянием (been asleep) и указанием длительности."
+			"translations": {
+				"ru": {
+					"question": "К полуночи дети уже несколько часов спали.",
+					"explanation": "Past Perfect с состоянием (been asleep) и указанием длительности."
+				}
+			}
 		},
 		{
-			"question": "Она не подозревала, что он уже всё организовал.",
 			"answer": "She didn't suspect that he had already organised everything.",
-			"explanation": "Past Perfect после didn't suspect — организация предшествует осознанию."
+			"translations": {
+				"ru": {
+					"question": "Она не подозревала, что он уже всё организовал.",
+					"explanation": "Past Perfect после didn't suspect — организация предшествует осознанию."
+				}
+			}
 		},
 		{
-			"question": "Он сказал, что уже сообщил об этом начальнику.",
 			"answer": "He said that he had already reported it to his boss.",
-			"explanation": "Косвенная речь: present perfect → past perfect."
+			"translations": {
+				"ru": {
+					"question": "Он сказал, что уже сообщил об этом начальнику.",
+					"explanation": "Косвенная речь: present perfect → past perfect."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как вышла книга, автор уже написал следующую.",
 			"answer": "By the time the book came out, the author had already written the next one.",
-			"explanation": "Past Perfect: написание следующей книги предшествует выходу текущей."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как вышла книга, автор уже написал следующую.",
+					"explanation": "Past Perfect: написание следующей книги предшествует выходу текущей."
+				}
+			}
 		},
 		{
-			"question": "Она только что заварила чай, когда отключился свет.",
 			"answer": "She had just made the tea when the electricity went off.",
-			"explanation": "Past Perfect с just: заваривание чая непосредственно перед отключением света."
+			"translations": {
+				"ru": {
+					"question": "Она только что заварила чай, когда отключился свет.",
+					"explanation": "Past Perfect с just: заваривание чая непосредственно перед отключением света."
+				}
+			}
 		},
 		{
-			"question": "Если бы он выучил слова, он бы не запнулся на сцене.",
 			"answer": "If he had learnt the words, he would not have stumbled on stage.",
-			"explanation": "Третье условное: нереальное прошлое условие."
+			"translations": {
+				"ru": {
+					"question": "Если бы он выучил слова, он бы не запнулся на сцене.",
+					"explanation": "Третье условное: нереальное прошлое условие."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как она проснулась, он уже приготовил завтрак.",
 			"answer": "By the time she woke up, he had already made breakfast.",
-			"explanation": "Past Perfect: приготовление завтрака — до её пробуждения."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как она проснулась, он уже приготовил завтрак.",
+					"explanation": "Past Perfect: приготовление завтрака — до её пробуждения."
+				}
+			}
 		},
 		{
-			"question": "Мы уже подписали договор до появления нового инвестора.",
 			"answer": "We had already signed the contract before the new investor appeared.",
-			"explanation": "Past Perfect: подписание договора предшествует появлению инвестора."
+			"translations": {
+				"ru": {
+					"question": "Мы уже подписали договор до появления нового инвестора.",
+					"explanation": "Past Perfect: подписание договора предшествует появлению инвестора."
+				}
+			}
 		},
 		{
-			"question": "Она поняла, что совершила ошибку.",
 			"answer": "She realized that she had made a mistake.",
-			"explanation": "Past Perfect после realized — ошибка совершена раньше осознания."
+			"translations": {
+				"ru": {
+					"question": "Она поняла, что совершила ошибку.",
+					"explanation": "Past Perfect после realized — ошибка совершена раньше осознания."
+				}
+			}
 		},
 		{
-			"question": "Он никогда не думал, что окажется в такой ситуации.",
 			"answer": "He had never thought that he would end up in such a situation.",
-			"explanation": "Past Perfect с never — отсутствие подобной мысли до данного момента."
+			"translations": {
+				"ru": {
+					"question": "Он никогда не думал, что окажется в такой ситуации.",
+					"explanation": "Past Perfect с never — отсутствие подобной мысли до данного момента."
+				}
+			}
 		},
 		{
-			"question": "Если бы вы предупредили нас, мы бы приготовились.",
 			"answer": "If you had warned us, we would have prepared.",
-			"explanation": "Третье условное: нереальное прошлое условие."
+			"translations": {
+				"ru": {
+					"question": "Если бы вы предупредили нас, мы бы приготовились.",
+					"explanation": "Третье условное: нереальное прошлое условие."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как пришла замена, он уже отработал двойную смену.",
 			"answer": "By the time the replacement came, he had already worked a double shift.",
-			"explanation": "Past Perfect: двойная смена отработана до прихода замены."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как пришла замена, он уже отработал двойную смену.",
+					"explanation": "Past Perfect: двойная смена отработана до прихода замены."
+				}
+			}
 		},
 		{
-			"question": "Он сказал, что уже договорился о встрече.",
 			"answer": "He said that he had already arranged a meeting.",
-			"explanation": "Косвенная речь: present perfect → past perfect."
+			"translations": {
+				"ru": {
+					"question": "Он сказал, что уже договорился о встрече.",
+					"explanation": "Косвенная речь: present perfect → past perfect."
+				}
+			}
 		},
 		{
-			"question": "Когда мы позвонили, они уже пообедали.",
 			"answer": "When we called, they had already had lunch.",
-			"explanation": "Past Perfect: обед завершён до нашего звонка."
+			"translations": {
+				"ru": {
+					"question": "Когда мы позвонили, они уже пообедали.",
+					"explanation": "Past Perfect: обед завершён до нашего звонка."
+				}
+			}
 		},
 		{
-			"question": "Если бы он не нарушил правила, его бы не дисквалифицировали.",
 			"answer": "If he had not broken the rules, he would not have been disqualified.",
-			"explanation": "Третье условное с Past Perfect Passive в главной части."
+			"translations": {
+				"ru": {
+					"question": "Если бы он не нарушил правила, его бы не дисквалифицировали.",
+					"explanation": "Третье условное с Past Perfect Passive в главной части."
+				}
+			}
 		},
 		{
-			"question": "К концу года компания уже выпустила три новых продукта.",
 			"answer": "By the end of the year the company had already launched three new products.",
-			"explanation": "Past Perfect с by the end of the year."
+			"translations": {
+				"ru": {
+					"question": "К концу года компания уже выпустила три новых продукта.",
+					"explanation": "Past Perfect с by the end of the year."
+				}
+			}
 		},
 		{
-			"question": "Она не знала, что он уже был в этом городе.",
 			"answer": "She didn't know that he had already been to that city.",
-			"explanation": "Past Perfect после didn't know — предшествующий визит."
+			"translations": {
+				"ru": {
+					"question": "Она не знала, что он уже был в этом городе.",
+					"explanation": "Past Perfect после didn't know — предшествующий визит."
+				}
+			}
 		},
 		{
-			"question": "Он сообщил, что уже проверил все данные.",
 			"answer": "He reported that he had already checked all the data.",
-			"explanation": "Косвенная речь: present perfect → past perfect."
+			"translations": {
+				"ru": {
+					"question": "Он сообщил, что уже проверил все данные.",
+					"explanation": "Косвенная речь: present perfect → past perfect."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как он принял решение, возможность уже упустили.",
 			"answer": "By the time he made the decision, the opportunity had already been missed.",
-			"explanation": "Past Perfect Passive: возможность была упущена до принятия решения."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как он принял решение, возможность уже упустили.",
+					"explanation": "Past Perfect Passive: возможность была упущена до принятия решения."
+				}
+			}
 		},
 		{
-			"question": "Она только что легла, когда услышала стук в дверь.",
 			"answer": "She had just gone to bed when she heard a knock at the door.",
-			"explanation": "Past Perfect с just: укладывание — непосредственно перед стуком."
+			"translations": {
+				"ru": {
+					"question": "Она только что легла, когда услышала стук в дверь.",
+					"explanation": "Past Perfect с just: укладывание — непосредственно перед стуком."
+				}
+			}
 		},
 		{
-			"question": "Если бы он внимательнее слушал, он бы не перепутал.",
 			"answer": "If he had listened more carefully, he would not have got confused.",
-			"explanation": "Третье условное: нереальное прошлое условие."
+			"translations": {
+				"ru": {
+					"question": "Если бы он внимательнее слушал, он бы не перепутал.",
+					"explanation": "Третье условное: нереальное прошлое условие."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как приехала пожарная машина, огонь уже потушили.",
 			"answer": "By the time the fire engine arrived, the fire had already been put out.",
-			"explanation": "Past Perfect Passive: огонь потушен до прибытия пожарных."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как приехала пожарная машина, огонь уже потушили.",
+					"explanation": "Past Perfect Passive: огонь потушен до прибытия пожарных."
+				}
+			}
 		},
 		{
-			"question": "Мы уже оформили документы до закрытия офиса.",
 			"answer": "We had already processed the documents before the office closed.",
-			"explanation": "Past Perfect: оформление документов — до закрытия офиса."
+			"translations": {
+				"ru": {
+					"question": "Мы уже оформили документы до закрытия офиса.",
+					"explanation": "Past Perfect: оформление документов — до закрытия офиса."
+				}
+			}
 		},
 		{
-			"question": "Он поверить не мог, что она уже уехала.",
 			"answer": "He couldn't believe that she had already left.",
-			"explanation": "Past Perfect после couldn't believe — отъезд предшествует неверию."
+			"translations": {
+				"ru": {
+					"question": "Он поверить не мог, что она уже уехала.",
+					"explanation": "Past Perfect после couldn't believe — отъезд предшествует неверию."
+				}
+			}
 		},
 		{
-			"question": "Она никогда не бывала так далеко от дома до той экспедиции.",
 			"answer": "She had never been so far from home before that expedition.",
-			"explanation": "Past Perfect с never до конкретного прошлого события."
+			"translations": {
+				"ru": {
+					"question": "Она никогда не бывала так далеко от дома до той экспедиции.",
+					"explanation": "Past Perfect с never до конкретного прошлого события."
+				}
+			}
 		},
 		{
-			"question": "Если бы мы не опоздали, мы бы поймали рейс.",
 			"answer": "If we had not been late, we would have caught the flight.",
-			"explanation": "Третье условное с отрицанием в условной части."
+			"translations": {
+				"ru": {
+					"question": "Если бы мы не опоздали, мы бы поймали рейс.",
+					"explanation": "Третье условное с отрицанием в условной части."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как вернулся отец, дети уже легли спать.",
 			"answer": "By the time the father returned, the children had already gone to bed.",
-			"explanation": "Past Perfect: дети легли до возвращения отца."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как вернулся отец, дети уже легли спать.",
+					"explanation": "Past Perfect: дети легли до возвращения отца."
+				}
+			}
 		},
 		{
-			"question": "Он сказал, что уже оплатил счёт.",
 			"answer": "He said that he had already paid the bill.",
-			"explanation": "Косвенная речь: present perfect → past perfect."
+			"translations": {
+				"ru": {
+					"question": "Он сказал, что уже оплатил счёт.",
+					"explanation": "Косвенная речь: present perfect → past perfect."
+				}
+			}
 		},
 		{
-			"question": "Когда мы сели за стол, суп уже остыл.",
 			"answer": "When we sat down, the soup had already gone cold.",
-			"explanation": "Past Perfect: суп остыл до нашего появления за столом."
+			"translations": {
+				"ru": {
+					"question": "Когда мы сели за стол, суп уже остыл.",
+					"explanation": "Past Perfect: суп остыл до нашего появления за столом."
+				}
+			}
 		},
 		{
-			"question": "Если бы она не переработала, она бы не заболела.",
 			"answer": "If she had not overworked, she would not have got ill.",
-			"explanation": "Третье условное с отрицанием в обеих частях."
+			"translations": {
+				"ru": {
+					"question": "Если бы она не переработала, она бы не заболела.",
+					"explanation": "Третье условное с отрицанием в обеих частях."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как мы добрались до вершины, туман уже рассеялся.",
 			"answer": "By the time we reached the top, the fog had already cleared.",
-			"explanation": "Past Perfect: туман рассеялся до нашего восхождения."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как мы добрались до вершины, туман уже рассеялся.",
+					"explanation": "Past Perfect: туман рассеялся до нашего восхождения."
+				}
+			}
 		},
 		{
-			"question": "Мы уже купили подарок до того, как узнали о его предпочтениях.",
 			"answer": "We had already bought the present before we found out about his preferences.",
-			"explanation": "Past Perfect: покупка подарка — до получения информации о предпочтениях."
+			"translations": {
+				"ru": {
+					"question": "Мы уже купили подарок до того, как узнали о его предпочтениях.",
+					"explanation": "Past Perfect: покупка подарка — до получения информации о предпочтениях."
+				}
+			}
 		},
 		{
-			"question": "Она поняла, что неправильно поняла задание.",
 			"answer": "She realized that she had misunderstood the task.",
-			"explanation": "Past Perfect после realized — неправильное понимание предшествует осознанию."
+			"translations": {
+				"ru": {
+					"question": "Она поняла, что неправильно поняла задание.",
+					"explanation": "Past Perfect после realized — неправильное понимание предшествует осознанию."
+				}
+			}
 		},
 		{
-			"question": "Он никогда не участвовал в подобном соревновании до того дня.",
 			"answer": "He had never taken part in such a competition before that day.",
-			"explanation": "Past Perfect с never до конкретного прошлого момента."
+			"translations": {
+				"ru": {
+					"question": "Он никогда не участвовал в подобном соревновании до того дня.",
+					"explanation": "Past Perfect с never до конкретного прошлого момента."
+				}
+			}
 		},
 		{
-			"question": "Если бы они согласились раньше, проект бы не провалился.",
 			"answer": "If they had agreed earlier, the project would not have failed.",
-			"explanation": "Третье условное с отрицательным следствием."
+			"translations": {
+				"ru": {
+					"question": "Если бы они согласились раньше, проект бы не провалился.",
+					"explanation": "Третье условное с отрицательным следствием."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как начался суд, адвокат уже подготовил речь.",
 			"answer": "By the time the trial began, the lawyer had already prepared the speech.",
-			"explanation": "Past Perfect: подготовка речи завершена до начала суда."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как начался суд, адвокат уже подготовил речь.",
+					"explanation": "Past Perfect: подготовка речи завершена до начала суда."
+				}
+			}
 		},
 		{
-			"question": "Он сообщил, что уже передал дело другому сотруднику.",
 			"answer": "He reported that he had already handed the case over to another employee.",
-			"explanation": "Косвенная речь: present perfect → past perfect после reported."
+			"translations": {
+				"ru": {
+					"question": "Он сообщил, что уже передал дело другому сотруднику.",
+					"explanation": "Косвенная речь: present perfect → past perfect после reported."
+				}
+			}
 		},
 		{
-			"question": "Когда она вернулась, посуда уже была вымыта.",
 			"answer": "When she came back, the dishes had already been washed.",
-			"explanation": "Past Perfect Passive: посуда вымыта до её возвращения."
+			"translations": {
+				"ru": {
+					"question": "Когда она вернулась, посуда уже была вымыта.",
+					"explanation": "Past Perfect Passive: посуда вымыта до её возвращения."
+				}
+			}
 		},
 		{
-			"question": "Если бы мы купили страховку, это было бы покрыто.",
 			"answer": "If we had bought insurance, it would have been covered.",
-			"explanation": "Третье условное с Past Perfect Passive в главной части."
+			"translations": {
+				"ru": {
+					"question": "Если бы мы купили страховку, это было бы покрыто.",
+					"explanation": "Третье условное с Past Perfect Passive в главной части."
+				}
+			}
 		},
 		{
-			"question": "К утру снег уже перестал идти.",
 			"answer": "By morning the snow had already stopped falling.",
-			"explanation": "Past Perfect: снегопад закончился до утра."
+			"translations": {
+				"ru": {
+					"question": "К утру снег уже перестал идти.",
+					"explanation": "Past Perfect: снегопад закончился до утра."
+				}
+			}
 		},
 		{
-			"question": "Она не знала, что он уже запланировал всё на вечер.",
 			"answer": "She didn't know that he had already planned everything for the evening.",
-			"explanation": "Past Perfect после didn't know — планирование предшествует осознанию."
+			"translations": {
+				"ru": {
+					"question": "Она не знала, что он уже запланировал всё на вечер.",
+					"explanation": "Past Perfect после didn't know — планирование предшествует осознанию."
+				}
+			}
 		},
 		{
-			"question": "Он сказал, что уже позвонил в страховую компанию.",
 			"answer": "He said that he had already called the insurance company.",
-			"explanation": "Косвенная речь: present perfect → past perfect."
+			"translations": {
+				"ru": {
+					"question": "Он сказал, что уже позвонил в страховую компанию.",
+					"explanation": "Косвенная речь: present perfect → past perfect."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как завершилась конференция, делегаты уже разъехались.",
 			"answer": "By the time the conference ended, the delegates had already left.",
-			"explanation": "Past Perfect: делегаты уехали до официального окончания конференции."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как завершилась конференция, делегаты уже разъехались.",
+					"explanation": "Past Perfect: делегаты уехали до официального окончания конференции."
+				}
+			}
 		},
 		{
-			"question": "Она только что закрыла дверь, когда зазвонил телефон.",
 			"answer": "She had just closed the door when the phone rang.",
-			"explanation": "Past Perfect с just: закрытие двери — прямо перед звонком телефона."
+			"translations": {
+				"ru": {
+					"question": "Она только что закрыла дверь, когда зазвонил телефон.",
+					"explanation": "Past Perfect с just: закрытие двери — прямо перед звонком телефона."
+				}
+			}
 		},
 		{
-			"question": "Если бы они не потратили все деньги, у них было бы достаточно.",
 			"answer": "If they had not spent all the money, they would have had enough.",
-			"explanation": "Третье условное с отрицанием в условной части."
+			"translations": {
+				"ru": {
+					"question": "Если бы они не потратили все деньги, у них было бы достаточно.",
+					"explanation": "Третье условное с отрицанием в условной части."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как мы связались с поставщиком, товар уже распродали.",
 			"answer": "By the time we contacted the supplier, the goods had already been sold out.",
-			"explanation": "Past Perfect Passive: товар распродан до нашего обращения."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как мы связались с поставщиком, товар уже распродали.",
+					"explanation": "Past Perfect Passive: товар распродан до нашего обращения."
+				}
+			}
 		},
 		{
-			"question": "Мы уже убрали в квартире до прихода гостей.",
 			"answer": "We had already cleaned the flat before the guests arrived.",
-			"explanation": "Past Perfect: уборка завершена до прихода гостей."
+			"translations": {
+				"ru": {
+					"question": "Мы уже убрали в квартире до прихода гостей.",
+					"explanation": "Past Perfect: уборка завершена до прихода гостей."
+				}
+			}
 		},
 		{
-			"question": "Она поняла, что пропустила важную встречу.",
 			"answer": "She realized that she had missed an important meeting.",
-			"explanation": "Past Perfect после realized — пропуск встречи предшествует осознанию."
+			"translations": {
+				"ru": {
+					"question": "Она поняла, что пропустила важную встречу.",
+					"explanation": "Past Perfect после realized — пропуск встречи предшествует осознанию."
+				}
+			}
 		},
 		{
-			"question": "Он никогда не видел такого количества людей в одном месте.",
 			"answer": "He had never seen so many people in one place.",
-			"explanation": "Past Perfect с never — отсутствие подобного опыта до данного момента."
+			"translations": {
+				"ru": {
+					"question": "Он никогда не видел такого количества людей в одном месте.",
+					"explanation": "Past Perfect с never — отсутствие подобного опыта до данного момента."
+				}
+			}
 		},
 		{
-			"question": "Если бы он не был так уверен в себе, он бы прислушался.",
 			"answer": "If he had not been so confident, he would have listened.",
-			"explanation": "Третье условное с отрицанием в условной части."
+			"translations": {
+				"ru": {
+					"question": "Если бы он не был так уверен в себе, он бы прислушался.",
+					"explanation": "Третье условное с отрицанием в условной части."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как закончились переговоры, обе стороны устали.",
 			"answer": "By the time the negotiations ended, both sides had got tired.",
-			"explanation": "Past Perfect: усталость наступила к концу переговоров."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как закончились переговоры, обе стороны устали.",
+					"explanation": "Past Perfect: усталость наступила к концу переговоров."
+				}
+			}
 		},
 		{
-			"question": "Он сказал, что уже нашёл нужную информацию.",
 			"answer": "He said that he had already found the necessary information.",
-			"explanation": "Косвенная речь: present perfect → past perfect."
+			"translations": {
+				"ru": {
+					"question": "Он сказал, что уже нашёл нужную информацию.",
+					"explanation": "Косвенная речь: present perfect → past perfect."
+				}
+			}
 		},
 		{
-			"question": "Когда открылись двери театра, очередь уже стояла.",
 			"answer": "When the theatre doors opened, the queue had already formed.",
-			"explanation": "Past Perfect: очередь образовалась до открытия дверей."
+			"translations": {
+				"ru": {
+					"question": "Когда открылись двери театра, очередь уже стояла.",
+					"explanation": "Past Perfect: очередь образовалась до открытия дверей."
+				}
+			}
 		},
 		{
-			"question": "Если бы она ответила на письмо, недоразумения не возникло бы.",
 			"answer": "If she had replied to the email, there would not have been a misunderstanding.",
-			"explanation": "Третье условное с отрицательным следствием."
+			"translations": {
+				"ru": {
+					"question": "Если бы она ответила на письмо, недоразумения не возникло бы.",
+					"explanation": "Третье условное с отрицательным следствием."
+				}
+			}
 		},
 		{
-			"question": "К восьми утра все сотрудники уже пришли на работу.",
 			"answer": "By eight a.m. all the employees had already arrived at work.",
-			"explanation": "Past Perfect с конкретным временем суток."
+			"translations": {
+				"ru": {
+					"question": "К восьми утра все сотрудники уже пришли на работу.",
+					"explanation": "Past Perfect с конкретным временем суток."
+				}
+			}
 		},
 		{
-			"question": "Она не ожидала, что он уже отменил заказ.",
 			"answer": "She hadn't expected that he had already cancelled the order.",
-			"explanation": "Past Perfect после hadn't expected — отмена предшествует неожиданности."
+			"translations": {
+				"ru": {
+					"question": "Она не ожидала, что он уже отменил заказ.",
+					"explanation": "Past Perfect после hadn't expected — отмена предшествует неожиданности."
+				}
+			}
 		},
 		{
-			"question": "Он сообщил, что уже рассмотрел все кандидатуры.",
 			"answer": "He reported that he had already considered all the candidates.",
-			"explanation": "Косвенная речь: present perfect → past perfect."
+			"translations": {
+				"ru": {
+					"question": "Он сообщил, что уже рассмотрел все кандидатуры.",
+					"explanation": "Косвенная речь: present perfect → past perfect."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как решение приняли официально, все уже обо всём знали.",
 			"answer": "By the time the decision was officially made, everyone had already known everything.",
-			"explanation": "Past Perfect: знание распространилось до официального объявления."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как решение приняли официально, все уже обо всём знали.",
+					"explanation": "Past Perfect: знание распространилось до официального объявления."
+				}
+			}
 		},
 		{
-			"question": "Она только что повесила трубку, когда снова позвонили.",
 			"answer": "She had just hung up when the phone rang again.",
-			"explanation": "Past Perfect с just: завершение звонка — прямо перед следующим."
+			"translations": {
+				"ru": {
+					"question": "Она только что повесила трубку, когда снова позвонили.",
+					"explanation": "Past Perfect с just: завершение звонка — прямо перед следующим."
+				}
+			}
 		},
 		{
-			"question": "Если бы они выбрали другого подрядчика, объект сдали бы вовремя.",
 			"answer": "If they had chosen a different contractor, the facility would have been delivered on time.",
-			"explanation": "Третье условное с Past Perfect Passive в главной части."
+			"translations": {
+				"ru": {
+					"question": "Если бы они выбрали другого подрядчика, объект сдали бы вовремя.",
+					"explanation": "Третье условное с Past Perfect Passive в главной части."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как вернулся директор, совещание уже завершилось.",
 			"answer": "By the time the director returned, the meeting had already come to an end.",
-			"explanation": "Past Perfect: совещание завершено до возвращения директора."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как вернулся директор, совещание уже завершилось.",
+					"explanation": "Past Perfect: совещание завершено до возвращения директора."
+				}
+			}
 		},
 		{
-			"question": "Мы уже обсудили детали до переговоров.",
 			"answer": "We had already discussed the details before the negotiations.",
-			"explanation": "Past Perfect: обсуждение деталей предшествовало переговорам."
+			"translations": {
+				"ru": {
+					"question": "Мы уже обсудили детали до переговоров.",
+					"explanation": "Past Perfect: обсуждение деталей предшествовало переговорам."
+				}
+			}
 		},
 		{
-			"question": "Она поняла, что сказала лишнее.",
 			"answer": "She realized that she had said too much.",
-			"explanation": "Past Perfect после realized — слова произнесены раньше осознания."
+			"translations": {
+				"ru": {
+					"question": "Она поняла, что сказала лишнее.",
+					"explanation": "Past Perfect после realized — слова произнесены раньше осознания."
+				}
+			}
 		},
 		{
-			"question": "Он никогда не видел такого беспорядка у себя дома.",
 			"answer": "He had never seen such a mess in his house.",
-			"explanation": "Past Perfect с never — отсутствие подобного опыта до данного прошлого момента."
+			"translations": {
+				"ru": {
+					"question": "Он никогда не видел такого беспорядка у себя дома.",
+					"explanation": "Past Perfect с never — отсутствие подобного опыта до данного прошлого момента."
+				}
+			}
 		},
 		{
-			"question": "Если бы она не пропустила занятие, она бы знала материал.",
 			"answer": "If she had not missed the class, she would have known the material.",
-			"explanation": "Третье условное с отрицанием в условной части."
+			"translations": {
+				"ru": {
+					"question": "Если бы она не пропустила занятие, она бы знала материал.",
+					"explanation": "Третье условное с отрицанием в условной части."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как они решили проблему, клиент уже ушёл.",
 			"answer": "By the time they solved the problem, the client had already left.",
-			"explanation": "Past Perfect: уход клиента предшествует решению проблемы."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как они решили проблему, клиент уже ушёл.",
+					"explanation": "Past Perfect: уход клиента предшествует решению проблемы."
+				}
+			}
 		},
 		{
-			"question": "Он сказал, что уже посмотрел этот сериал.",
 			"answer": "He said that he had already watched that series.",
-			"explanation": "Косвенная речь: present perfect → past perfect."
+			"translations": {
+				"ru": {
+					"question": "Он сказал, что уже посмотрел этот сериал.",
+					"explanation": "Косвенная речь: present perfect → past perfect."
+				}
+			}
 		},
 		{
-			"question": "Когда мы зашли в магазин, скидки уже закончились.",
 			"answer": "When we entered the shop, the discounts had already ended.",
-			"explanation": "Past Perfect: скидки закончились до нашего прихода."
+			"translations": {
+				"ru": {
+					"question": "Когда мы зашли в магазин, скидки уже закончились.",
+					"explanation": "Past Perfect: скидки закончились до нашего прихода."
+				}
+			}
 		},
 		{
-			"question": "Если бы ты позаботился об этом заранее, не было бы проблем.",
 			"answer": "If you had taken care of it in advance, there would not have been any problems.",
-			"explanation": "Третье условное с отрицательным следствием."
+			"translations": {
+				"ru": {
+					"question": "Если бы ты позаботился об этом заранее, не было бы проблем.",
+					"explanation": "Третье условное с отрицательным следствием."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как вышла вакцина, эпидемия уже пошла на убыль.",
 			"answer": "By the time the vaccine was released, the epidemic had already started to decline.",
-			"explanation": "Past Perfect: снижение эпидемии началось до выпуска вакцины."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как вышла вакцина, эпидемия уже пошла на убыль.",
+					"explanation": "Past Perfect: снижение эпидемии началось до выпуска вакцины."
+				}
+			}
 		},
 		{
-			"question": "Мы уже зарегистрировались до начала регистрации онлайн.",
 			"answer": "We had already registered before the online check-in opened.",
-			"explanation": "Past Perfect: регистрация завершена до открытия онлайн-регистрации."
+			"translations": {
+				"ru": {
+					"question": "Мы уже зарегистрировались до начала регистрации онлайн.",
+					"explanation": "Past Perfect: регистрация завершена до открытия онлайн-регистрации."
+				}
+			}
 		},
 		{
-			"question": "Она поняла, что потратила слишком много времени.",
 			"answer": "She realized that she had spent too much time.",
-			"explanation": "Past Perfect после realized — время потрачено раньше осознания."
+			"translations": {
+				"ru": {
+					"question": "Она поняла, что потратила слишком много времени.",
+					"explanation": "Past Perfect после realized — время потрачено раньше осознания."
+				}
+			}
 		},
 		{
-			"question": "Он никогда не чувствовал себя так одиноко.",
 			"answer": "He had never felt so lonely.",
-			"explanation": "Past Perfect с never — отсутствие подобного ощущения до данного прошлого момента."
+			"translations": {
+				"ru": {
+					"question": "Он никогда не чувствовал себя так одиноко.",
+					"explanation": "Past Perfect с never — отсутствие подобного ощущения до данного прошлого момента."
+				}
+			}
 		},
 		{
-			"question": "Если бы они ушли раньше, они бы избежали пробки.",
 			"answer": "If they had left earlier, they would have avoided the traffic jam.",
-			"explanation": "Третье условное: нереальное прошлое условие."
+			"translations": {
+				"ru": {
+					"question": "Если бы они ушли раньше, они бы избежали пробки.",
+					"explanation": "Третье условное: нереальное прошлое условие."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как он получил диплом, уже нашёл работу.",
 			"answer": "By the time he got his degree, he had already found a job.",
-			"explanation": "Past Perfect: нахождение работы предшествует получению диплома."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как он получил диплом, уже нашёл работу.",
+					"explanation": "Past Perfect: нахождение работы предшествует получению диплома."
+				}
+			}
 		},
 		{
-			"question": "Он сказал, что уже забронировал столик.",
 			"answer": "He said that he had already booked a table.",
-			"explanation": "Косвенная речь: present perfect → past perfect."
+			"translations": {
+				"ru": {
+					"question": "Он сказал, что уже забронировал столик.",
+					"explanation": "Косвенная речь: present perfect → past perfect."
+				}
+			}
 		},
 		{
-			"question": "Когда пришла проверка, все документы уже были на месте.",
 			"answer": "When the inspection came, all the documents had already been put in place.",
-			"explanation": "Past Perfect Passive: документы были подготовлены до проверки."
+			"translations": {
+				"ru": {
+					"question": "Когда пришла проверка, все документы уже были на месте.",
+					"explanation": "Past Perfect Passive: документы были подготовлены до проверки."
+				}
+			}
 		},
 		{
-			"question": "Если бы он послушал совета, всё сложилось бы иначе.",
 			"answer": "If he had taken the advice, things would have turned out differently.",
-			"explanation": "Третье условное: нереальное прошлое условие."
+			"translations": {
+				"ru": {
+					"question": "Если бы он послушал совета, всё сложилось бы иначе.",
+					"explanation": "Третье условное: нереальное прошлое условие."
+				}
+			}
 		},
 		{
-			"question": "К концу рабочей недели сотрудники уже выполнили план.",
 			"answer": "By the end of the working week the employees had already met the target.",
-			"explanation": "Past Perfect с by the end of the working week."
+			"translations": {
+				"ru": {
+					"question": "К концу рабочей недели сотрудники уже выполнили план.",
+					"explanation": "Past Perfect с by the end of the working week."
+				}
+			}
 		},
 		{
-			"question": "Она не подозревала, что он уже продал дом.",
 			"answer": "She didn't suspect that he had already sold the house.",
-			"explanation": "Past Perfect после didn't suspect — продажа предшествует подозрению."
+			"translations": {
+				"ru": {
+					"question": "Она не подозревала, что он уже продал дом.",
+					"explanation": "Past Perfect после didn't suspect — продажа предшествует подозрению."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как пришёл новый тренер, команда уже распалась.",
 			"answer": "By the time the new coach arrived, the team had already broken up.",
-			"explanation": "Past Perfect: распад команды произошёл до прихода тренера."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как пришёл новый тренер, команда уже распалась.",
+					"explanation": "Past Perfect: распад команды произошёл до прихода тренера."
+				}
+			}
 		},
 		{
-			"question": "Она только что закончила разговор, когда вошёл директор.",
 			"answer": "She had just finished the conversation when the director walked in.",
-			"explanation": "Past Perfect с just: окончание разговора — прямо перед приходом директора."
+			"translations": {
+				"ru": {
+					"question": "Она только что закончила разговор, когда вошёл директор.",
+					"explanation": "Past Perfect с just: окончание разговора — прямо перед приходом директора."
+				}
+			}
 		},
 		{
-			"question": "Если бы они не перепутали время, они бы не опоздали.",
 			"answer": "If they had not confused the time, they would not have been late.",
-			"explanation": "Третье условное с отрицанием в обеих частях."
+			"translations": {
+				"ru": {
+					"question": "Если бы они не перепутали время, они бы не опоздали.",
+					"explanation": "Третье условное с отрицанием в обеих частях."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как мы нашли гостиницу, стемнело.",
 			"answer": "By the time we found the hotel, it had already got dark.",
-			"explanation": "Past Perfect: темнота наступила до нахождения гостиницы."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как мы нашли гостиницу, стемнело.",
+					"explanation": "Past Perfect: темнота наступила до нахождения гостиницы."
+				}
+			}
 		},
 		{
-			"question": "Мы уже отпраздновали день рождения до его отъезда.",
 			"answer": "We had already celebrated his birthday before he left.",
-			"explanation": "Past Perfect: празднование завершено до отъезда."
+			"translations": {
+				"ru": {
+					"question": "Мы уже отпраздновали день рождения до его отъезда.",
+					"explanation": "Past Perfect: празднование завершено до отъезда."
+				}
+			}
 		},
 		{
-			"question": "Она поняла, что пришла не по тому адресу.",
 			"answer": "She realized that she had come to the wrong address.",
-			"explanation": "Past Perfect после realized — ошибочный приход предшествует осознанию."
+			"translations": {
+				"ru": {
+					"question": "Она поняла, что пришла не по тому адресу.",
+					"explanation": "Past Perfect после realized — ошибочный приход предшествует осознанию."
+				}
+			}
 		},
 		{
-			"question": "Он никогда не получал такой большой награды.",
 			"answer": "He had never received such a big award.",
-			"explanation": "Past Perfect с never — отсутствие опыта получения подобной награды."
+			"translations": {
+				"ru": {
+					"question": "Он никогда не получал такой большой награды.",
+					"explanation": "Past Perfect с never — отсутствие опыта получения подобной награды."
+				}
+			}
 		},
 		{
-			"question": "Если бы вы сохранили резервную копию, данные можно было бы восстановить.",
 			"answer": "If you had kept a backup, the data could have been recovered.",
-			"explanation": "Третье условное с could have + V3 вместо would have."
+			"translations": {
+				"ru": {
+					"question": "Если бы вы сохранили резервную копию, данные можно было бы восстановить.",
+					"explanation": "Третье условное с could have + V3 вместо would have."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как подоспела помощь, пациент уже пришёл в себя.",
 			"answer": "By the time help arrived, the patient had already regained consciousness.",
-			"explanation": "Past Perfect: пациент пришёл в себя до прибытия помощи."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как подоспела помощь, пациент уже пришёл в себя.",
+					"explanation": "Past Perfect: пациент пришёл в себя до прибытия помощи."
+				}
+			}
 		},
 		{
-			"question": "Он сообщил, что уже оформил все необходимые бумаги.",
 			"answer": "He reported that he had already completed all the necessary paperwork.",
-			"explanation": "Косвенная речь: present perfect → past perfect."
+			"translations": {
+				"ru": {
+					"question": "Он сообщил, что уже оформил все необходимые бумаги.",
+					"explanation": "Косвенная речь: present perfect → past perfect."
+				}
+			}
 		}
 	]
 }

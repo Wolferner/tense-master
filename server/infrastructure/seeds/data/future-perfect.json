@@ -2,1404 +2,2524 @@
 	"tense": "FUTURE_PERFECT",
 	"exercises": [
 		{
-			"question": "К пятнице я закончу этот проект.",
 			"answer": "By Friday, I will have finished this project.",
-			"explanation": "Future Perfect используется, так как действие (завершение проекта) будет выполнено к определённому моменту в будущем — к пятнице."
+			"translations": {
+				"ru": {
+					"question": "К пятнице я закончу этот проект.",
+					"explanation": "Future Perfect используется, так как действие (завершение проекта) будет выполнено к определённому моменту в будущем — к пятнице."
+				}
+			}
 		},
 		{
-			"question": "К следующему понедельнику они уже сдадут отчёт.",
 			"answer": "By next Monday, they will have submitted the report.",
-			"explanation": "Маркер 'by next Monday' указывает на крайний срок, к которому действие будет завершено."
+			"translations": {
+				"ru": {
+					"question": "К следующему понедельнику они уже сдадут отчёт.",
+					"explanation": "Маркер 'by next Monday' указывает на крайний срок, к которому действие будет завершено."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как ты приедешь, я приготовлю ужин.",
 			"answer": "By the time you arrive, I will have cooked dinner.",
-			"explanation": "Конструкция 'by the time + clause' требует Future Perfect в главном предложении для обозначения действия, завершённого к моменту другого будущего события."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как ты приедешь, я приготовлю ужин.",
+					"explanation": "Конструкция 'by the time + clause' требует Future Perfect в главном предложении для обозначения действия, завершённого к моменту другого будущего события."
+				}
+			}
 		},
 		{
-			"question": "К концу недели она прочитает всю книгу.",
 			"answer": "By the end of the week, she will have read the whole book.",
-			"explanation": "'By the end of the week' — временной маркер, после которого ставится Future Perfect."
+			"translations": {
+				"ru": {
+					"question": "К концу недели она прочитает всю книгу.",
+					"explanation": "'By the end of the week' — временной маркер, после которого ставится Future Perfect."
+				}
+			}
 		},
 		{
-			"question": "К следующему лету мы накопим достаточно денег на путешествие.",
 			"answer": "By next summer, we will have saved enough money for the trip.",
-			"explanation": "Future Perfect показывает завершённость накопления к конкретному сроку — следующему лету."
+			"translations": {
+				"ru": {
+					"question": "К следующему лету мы накопим достаточно денег на путешествие.",
+					"explanation": "Future Perfect показывает завершённость накопления к конкретному сроку — следующему лету."
+				}
+			}
 		},
 		{
-			"question": "Он не успеет доделать работу к завтрашнему утру.",
 			"answer": "He won't have finished the work by tomorrow morning.",
-			"explanation": "Отрицательная форма Future Perfect (won't have + V3) означает, что действие не будет завершено к указанному сроку."
+			"translations": {
+				"ru": {
+					"question": "Он не успеет доделать работу к завтрашнему утру.",
+					"explanation": "Отрицательная форма Future Perfect (won't have + V3) означает, что действие не будет завершено к указанному сроку."
+				}
+			}
 		},
 		{
-			"question": "Ты уже прочитаешь эту статью к вечеру?",
 			"answer": "Will you have read this article by the evening?",
-			"explanation": "Вопросительная форма Future Perfect: Will + подлежащее + have + V3."
+			"translations": {
+				"ru": {
+					"question": "Ты уже прочитаешь эту статью к вечеру?",
+					"explanation": "Вопросительная форма Future Perfect: Will + подлежащее + have + V3."
+				}
+			}
 		},
 		{
-			"question": "К концу месяца компания выполнит все заказы.",
 			"answer": "By the end of the month, the company will have fulfilled all orders.",
-			"explanation": "Маркер 'by the end of the month' указывает на срок завершения всех заказов."
+			"translations": {
+				"ru": {
+					"question": "К концу месяца компания выполнит все заказы.",
+					"explanation": "Маркер 'by the end of the month' указывает на срок завершения всех заказов."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как закончится урок, мы решим все задачи.",
 			"answer": "By the time the lesson ends, we will have solved all the tasks.",
-			"explanation": "'By the time' + Present Simple в придаточном, Future Perfect в главном."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как закончится урок, мы решим все задачи.",
+					"explanation": "'By the time' + Present Simple в придаточном, Future Perfect в главном."
+				}
+			}
 		},
 		{
-			"question": "К следующей неделе они уже переедут в новую квартиру.",
 			"answer": "By next week, they will have moved into the new apartment.",
-			"explanation": "Future Perfect подчёркивает завершённость переезда к следующей неделе."
+			"translations": {
+				"ru": {
+					"question": "К следующей неделе они уже переедут в новую квартиру.",
+					"explanation": "Future Perfect подчёркивает завершённость переезда к следующей неделе."
+				}
+			}
 		},
 		{
-			"question": "Она уже уйдёт к тому моменту, как ты позвонишь.",
 			"answer": "She will have already left by the time you call.",
-			"explanation": "'Already' усиливает значение завершённости действия к определённому будущему моменту."
+			"translations": {
+				"ru": {
+					"question": "Она уже уйдёт к тому моменту, как ты позвонишь.",
+					"explanation": "'Already' усиливает значение завершённости действия к определённому будущему моменту."
+				}
+			}
 		},
 		{
-			"question": "Он не выучит все слова к экзамену.",
 			"answer": "He won't have learned all the words by the exam.",
-			"explanation": "Отрицательная форма: won't have + V3 — действие не будет завершено к сроку."
+			"translations": {
+				"ru": {
+					"question": "Он не выучит все слова к экзамену.",
+					"explanation": "Отрицательная форма: won't have + V3 — действие не будет завершено к сроку."
+				}
+			}
 		},
 		{
-			"question": "Ты уже купишь билеты к завтрашнему дню?",
 			"answer": "Will you have bought the tickets by tomorrow?",
-			"explanation": "Вопрос о завершённости действия к определённому сроку в будущем."
+			"translations": {
+				"ru": {
+					"question": "Ты уже купишь билеты к завтрашнему дню?",
+					"explanation": "Вопрос о завершённости действия к определённому сроку в будущем."
+				}
+			}
 		},
 		{
-			"question": "К концу года студенты сдадут все экзамены.",
 			"answer": "By the end of the year, the students will have passed all their exams.",
-			"explanation": "Маркер 'by the end of the year' требует Future Perfect."
+			"translations": {
+				"ru": {
+					"question": "К концу года студенты сдадут все экзамены.",
+					"explanation": "Маркер 'by the end of the year' требует Future Perfect."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как приедут гости, мы уберём квартиру.",
 			"answer": "By the time the guests arrive, we will have cleaned the apartment.",
-			"explanation": "Future Perfect обозначает действие, завершённое до прихода гостей."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как приедут гости, мы уберём квартиру.",
+					"explanation": "Future Perfect обозначает действие, завершённое до прихода гостей."
+				}
+			}
 		},
 		{
-			"question": "К следующему году он получит диплом.",
 			"answer": "By next year, he will have received his diploma.",
-			"explanation": "Future Perfect показывает, что к следующему году получение диплома будет фактом."
+			"translations": {
+				"ru": {
+					"question": "К следующему году он получит диплом.",
+					"explanation": "Future Perfect показывает, что к следующему году получение диплома будет фактом."
+				}
+			}
 		},
 		{
-			"question": "Мы не закончим ремонт к выходным.",
 			"answer": "We won't have finished the renovation by the weekend.",
-			"explanation": "Отрицательная форма: действие не будет выполнено к выходным."
+			"translations": {
+				"ru": {
+					"question": "Мы не закончим ремонт к выходным.",
+					"explanation": "Отрицательная форма: действие не будет выполнено к выходным."
+				}
+			}
 		},
 		{
-			"question": "Она уже напишет письмо к тому времени, как придёт почтальон?",
 			"answer": "Will she have written the letter by the time the postman comes?",
-			"explanation": "Вопрос о завершённости действия к наступлению другого события."
+			"translations": {
+				"ru": {
+					"question": "Она уже напишет письмо к тому времени, как придёт почтальон?",
+					"explanation": "Вопрос о завершённости действия к наступлению другого события."
+				}
+			}
 		},
 		{
-			"question": "К полудню повар приготовит все блюда.",
 			"answer": "By noon, the chef will have prepared all the dishes.",
-			"explanation": "'By noon' — конкретное время, к которому действие будет завершено."
+			"translations": {
+				"ru": {
+					"question": "К полудню повар приготовит все блюда.",
+					"explanation": "'By noon' — конкретное время, к которому действие будет завершено."
+				}
+			}
 		},
 		{
-			"question": "К концу сезона команда выиграет чемпионат.",
 			"answer": "By the end of the season, the team will have won the championship.",
-			"explanation": "Future Perfect указывает на завершённость победы к концу сезона."
+			"translations": {
+				"ru": {
+					"question": "К концу сезона команда выиграет чемпионат.",
+					"explanation": "Future Perfect указывает на завершённость победы к концу сезона."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как ты вернёшься, я закончу рисовать картину.",
 			"answer": "By the time you return, I will have finished painting the picture.",
-			"explanation": "'By the time you return' задаёт временную точку отсчёта для Future Perfect."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как ты вернёшься, я закончу рисовать картину.",
+					"explanation": "'By the time you return' задаёт временную точку отсчёта для Future Perfect."
+				}
+			}
 		},
 		{
-			"question": "К следующему месяцу они установят новое оборудование.",
 			"answer": "By next month, they will have installed the new equipment.",
-			"explanation": "Future Perfect показывает завершённость установки к следующему месяцу."
+			"translations": {
+				"ru": {
+					"question": "К следующему месяцу они установят новое оборудование.",
+					"explanation": "Future Perfect показывает завершённость установки к следующему месяцу."
+				}
+			}
 		},
 		{
-			"question": "Он не выполнит задание к сроку.",
 			"answer": "He won't have completed the assignment by the deadline.",
-			"explanation": "Отрицательная форма указывает на то, что задание не будет выполнено вовремя."
+			"translations": {
+				"ru": {
+					"question": "Он не выполнит задание к сроку.",
+					"explanation": "Отрицательная форма указывает на то, что задание не будет выполнено вовремя."
+				}
+			}
 		},
 		{
-			"question": "Они уже закончат переговоры к концу дня?",
 			"answer": "Will they have finished the negotiations by the end of the day?",
-			"explanation": "Вопросительная форма Future Perfect о завершении переговоров."
+			"translations": {
+				"ru": {
+					"question": "Они уже закончат переговоры к концу дня?",
+					"explanation": "Вопросительная форма Future Perfect о завершении переговоров."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как откроется магазин, я уже составлю список покупок.",
 			"answer": "By the time the shop opens, I will have made the shopping list.",
-			"explanation": "Future Perfect в главном предложении при 'by the time'."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как откроется магазин, я уже составлю список покупок.",
+					"explanation": "Future Perfect в главном предложении при 'by the time'."
+				}
+			}
 		},
 		{
-			"question": "К следующей пятнице программист напишет весь код.",
 			"answer": "By next Friday, the programmer will have written all the code.",
-			"explanation": "Маркер 'by next Friday' + Future Perfect."
+			"translations": {
+				"ru": {
+					"question": "К следующей пятнице программист напишет весь код.",
+					"explanation": "Маркер 'by next Friday' + Future Perfect."
+				}
+			}
 		},
 		{
-			"question": "К концу квартала отдел выполнит план продаж.",
 			"answer": "By the end of the quarter, the department will have met the sales target.",
-			"explanation": "Future Perfect обозначает выполнение плана к концу квартала."
+			"translations": {
+				"ru": {
+					"question": "К концу квартала отдел выполнит план продаж.",
+					"explanation": "Future Perfect обозначает выполнение плана к концу квартала."
+				}
+			}
 		},
 		{
-			"question": "Она не успеет выучить все правила к тесту.",
 			"answer": "She won't have learned all the rules by the test.",
-			"explanation": "Отрицательная форма: действие не будет завершено к указанному моменту."
+			"translations": {
+				"ru": {
+					"question": "Она не успеет выучить все правила к тесту.",
+					"explanation": "Отрицательная форма: действие не будет завершено к указанному моменту."
+				}
+			}
 		},
 		{
-			"question": "Ты уже поговоришь с менеджером к обеду?",
 			"answer": "Will you have spoken to the manager by lunchtime?",
-			"explanation": "Вопрос о завершённости разговора к обеду."
+			"translations": {
+				"ru": {
+					"question": "Ты уже поговоришь с менеджером к обеду?",
+					"explanation": "Вопрос о завершённости разговора к обеду."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как начнётся фильм, мы уже займём места.",
 			"answer": "By the time the film starts, we will have taken our seats.",
-			"explanation": "'By the time + clause' требует Future Perfect в главном предложении."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как начнётся фильм, мы уже займём места.",
+					"explanation": "'By the time + clause' требует Future Perfect в главном предложении."
+				}
+			}
 		},
 		{
-			"question": "К концу путешествия они посетят десять стран.",
 			"answer": "By the end of the trip, they will have visited ten countries.",
-			"explanation": "Future Perfect показывает, что посещение десяти стран будет завершено к концу поездки."
+			"translations": {
+				"ru": {
+					"question": "К концу путешествия они посетят десять стран.",
+					"explanation": "Future Perfect показывает, что посещение десяти стран будет завершено к концу поездки."
+				}
+			}
 		},
 		{
-			"question": "К следующей осени строители сдадут дом.",
 			"answer": "By next autumn, the builders will have handed over the house.",
-			"explanation": "Маркер 'by next autumn' + Future Perfect."
+			"translations": {
+				"ru": {
+					"question": "К следующей осени строители сдадут дом.",
+					"explanation": "Маркер 'by next autumn' + Future Perfect."
+				}
+			}
 		},
 		{
-			"question": "Он уже приземлится к тому времени, как мы доедем до аэропорта?",
 			"answer": "Will he have landed by the time we get to the airport?",
-			"explanation": "Вопрос о завершённости приземления к моменту прибытия в аэропорт."
+			"translations": {
+				"ru": {
+					"question": "Он уже приземлится к тому времени, как мы доедем до аэропорта?",
+					"explanation": "Вопрос о завершённости приземления к моменту прибытия в аэропорт."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как объявят результаты, она уже уйдёт домой.",
 			"answer": "By the time the results are announced, she will have gone home.",
-			"explanation": "Future Perfect указывает на завершённость ухода до объявления результатов."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как объявят результаты, она уже уйдёт домой.",
+					"explanation": "Future Perfect указывает на завершённость ухода до объявления результатов."
+				}
+			}
 		},
 		{
-			"question": "К концу тренировки спортсмен пробежит десять километров.",
 			"answer": "By the end of the training, the athlete will have run ten kilometres.",
-			"explanation": "Future Perfect подчёркивает завершённость дистанции к концу тренировки."
+			"translations": {
+				"ru": {
+					"question": "К концу тренировки спортсмен пробежит десять километров.",
+					"explanation": "Future Perfect подчёркивает завершённость дистанции к концу тренировки."
+				}
+			}
 		},
 		{
-			"question": "К следующей среде дизайнер подготовит все макеты.",
 			"answer": "By next Wednesday, the designer will have prepared all the mockups.",
-			"explanation": "Маркер 'by next Wednesday' + Future Perfect."
+			"translations": {
+				"ru": {
+					"question": "К следующей среде дизайнер подготовит все макеты.",
+					"explanation": "Маркер 'by next Wednesday' + Future Perfect."
+				}
+			}
 		},
 		{
-			"question": "Они не успеют отправить посылку к праздникам.",
 			"answer": "They won't have sent the parcel by the holidays.",
-			"explanation": "Отрицательная форма: посылка не будет отправлена к праздникам."
+			"translations": {
+				"ru": {
+					"question": "Они не успеют отправить посылку к праздникам.",
+					"explanation": "Отрицательная форма: посылка не будет отправлена к праздникам."
+				}
+			}
 		},
 		{
-			"question": "Ты уже сделаешь домашнее задание к тому времени, как придёт мама?",
 			"answer": "Will you have done your homework by the time mum comes?",
-			"explanation": "Вопрос о завершённости домашнего задания к приходу мамы."
+			"translations": {
+				"ru": {
+					"question": "Ты уже сделаешь домашнее задание к тому времени, как придёт мама?",
+					"explanation": "Вопрос о завершённости домашнего задания к приходу мамы."
+				}
+			}
 		},
 		{
-			"question": "К концу недели менеджер проверит все заявки.",
 			"answer": "By the end of the week, the manager will have reviewed all applications.",
-			"explanation": "Future Perfect — завершение проверки заявок к концу недели."
+			"translations": {
+				"ru": {
+					"question": "К концу недели менеджер проверит все заявки.",
+					"explanation": "Future Perfect — завершение проверки заявок к концу недели."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как он встанет, я уже позавтракаю.",
 			"answer": "By the time he gets up, I will have had breakfast.",
-			"explanation": "Future Perfect обозначает завершение завтрака до пробуждения другого человека."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как он встанет, я уже позавтракаю.",
+					"explanation": "Future Perfect обозначает завершение завтрака до пробуждения другого человека."
+				}
+			}
 		},
 		{
-			"question": "К следующему году фермер соберёт рекордный урожай.",
 			"answer": "By next year, the farmer will have harvested a record crop.",
-			"explanation": "Future Perfect показывает завершённость сбора урожая к следующему году."
+			"translations": {
+				"ru": {
+					"question": "К следующему году фермер соберёт рекордный урожай.",
+					"explanation": "Future Perfect показывает завершённость сбора урожая к следующему году."
+				}
+			}
 		},
 		{
-			"question": "Она не выберет подарок к дню рождения друга.",
 			"answer": "She won't have chosen a gift by her friend's birthday.",
-			"explanation": "Отрицательная форма Future Perfect."
+			"translations": {
+				"ru": {
+					"question": "Она не выберет подарок к дню рождения друга.",
+					"explanation": "Отрицательная форма Future Perfect."
+				}
+			}
 		},
 		{
-			"question": "Они уже построят мост к открытию движения?",
 			"answer": "Will they have built the bridge by the opening of traffic?",
-			"explanation": "Вопрос о завершённости строительства к открытию."
+			"translations": {
+				"ru": {
+					"question": "Они уже построят мост к открытию движения?",
+					"explanation": "Вопрос о завершённости строительства к открытию."
+				}
+			}
 		},
 		{
-			"question": "К концу семестра студенты напишут дипломную работу.",
 			"answer": "By the end of the semester, the students will have written their thesis.",
-			"explanation": "Future Perfect подчёркивает завершённость написания к концу семестра."
+			"translations": {
+				"ru": {
+					"question": "К концу семестра студенты напишут дипломную работу.",
+					"explanation": "Future Perfect подчёркивает завершённость написания к концу семестра."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как кончится батарея, я дочитаю книгу.",
 			"answer": "By the time the battery dies, I will have finished reading the book.",
-			"explanation": "Future Perfect в главном предложении при 'by the time'."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как кончится батарея, я дочитаю книгу.",
+					"explanation": "Future Perfect в главном предложении при 'by the time'."
+				}
+			}
 		},
 		{
-			"question": "К следующему месяцу они обучат всех новых сотрудников.",
 			"answer": "By next month, they will have trained all the new employees.",
-			"explanation": "Маркер 'by next month' + Future Perfect."
+			"translations": {
+				"ru": {
+					"question": "К следующему месяцу они обучат всех новых сотрудников.",
+					"explanation": "Маркер 'by next month' + Future Perfect."
+				}
+			}
 		},
 		{
-			"question": "К тому времени он уже уйдёт на пенсию.",
 			"answer": "By then, he will have retired.",
-			"explanation": "'By then' — временной маркер Future Perfect, означающий 'к тому времени'."
+			"translations": {
+				"ru": {
+					"question": "К тому времени он уже уйдёт на пенсию.",
+					"explanation": "'By then' — временной маркер Future Perfect, означающий 'к тому времени'."
+				}
+			}
 		},
 		{
-			"question": "Мы не успеем загрузить все файлы к совещанию.",
 			"answer": "We won't have uploaded all the files by the meeting.",
-			"explanation": "Отрицательная форма: файлы не будут загружены к совещанию."
+			"translations": {
+				"ru": {
+					"question": "Мы не успеем загрузить все файлы к совещанию.",
+					"explanation": "Отрицательная форма: файлы не будут загружены к совещанию."
+				}
+			}
 		},
 		{
-			"question": "Ты уже изучишь испанский к лету?",
 			"answer": "Will you have learned Spanish by summer?",
-			"explanation": "Вопрос о завершённости изучения языка к лету."
+			"translations": {
+				"ru": {
+					"question": "Ты уже изучишь испанский к лету?",
+					"explanation": "Вопрос о завершённости изучения языка к лету."
+				}
+			}
 		},
 		{
-			"question": "К концу года врачи разработают новый метод лечения.",
 			"answer": "By the end of the year, the doctors will have developed a new treatment method.",
-			"explanation": "Future Perfect — завершение разработки к концу года."
+			"translations": {
+				"ru": {
+					"question": "К концу года врачи разработают новый метод лечения.",
+					"explanation": "Future Perfect — завершение разработки к концу года."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как наступит рассвет, туристы дойдут до вершины.",
 			"answer": "By the time dawn breaks, the tourists will have reached the summit.",
-			"explanation": "'By the time dawn breaks' задаёт временную точку для Future Perfect."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как наступит рассвет, туристы дойдут до вершины.",
+					"explanation": "'By the time dawn breaks' задаёт временную точку для Future Perfect."
+				}
+			}
 		},
 		{
-			"question": "К следующей зиме они откроют новый магазин.",
 			"answer": "By next winter, they will have opened a new shop.",
-			"explanation": "Future Perfect с маркером 'by next winter'."
+			"translations": {
+				"ru": {
+					"question": "К следующей зиме они откроют новый магазин.",
+					"explanation": "Future Perfect с маркером 'by next winter'."
+				}
+			}
 		},
 		{
-			"question": "Она не успеет сшить платье к свадьбе.",
 			"answer": "She won't have sewn the dress by the wedding.",
-			"explanation": "Отрицательная форма: платье не будет готово к свадьбе."
+			"translations": {
+				"ru": {
+					"question": "Она не успеет сшить платье к свадьбе.",
+					"explanation": "Отрицательная форма: платье не будет готово к свадьбе."
+				}
+			}
 		},
 		{
-			"question": "Он уже просмотрит все резюме к концу дня?",
 			"answer": "Will he have reviewed all the CVs by the end of the day?",
-			"explanation": "Вопрос о завершённости просмотра резюме."
+			"translations": {
+				"ru": {
+					"question": "Он уже просмотрит все резюме к концу дня?",
+					"explanation": "Вопрос о завершённости просмотра резюме."
+				}
+			}
 		},
 		{
-			"question": "К концу марафона бегун преодолеет сорок два километра.",
 			"answer": "By the end of the marathon, the runner will have covered forty-two kilometres.",
-			"explanation": "Future Perfect подчёркивает завершённость дистанции к концу забега."
+			"translations": {
+				"ru": {
+					"question": "К концу марафона бегун преодолеет сорок два километра.",
+					"explanation": "Future Perfect подчёркивает завершённость дистанции к концу забега."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как придут результаты анализов, он уже поправится.",
 			"answer": "By the time the test results come, he will have already recovered.",
-			"explanation": "Future Perfect с 'already' — действие завершится раньше другого будущего события."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как придут результаты анализов, он уже поправится.",
+					"explanation": "Future Perfect с 'already' — действие завершится раньше другого будущего события."
+				}
+			}
 		},
 		{
-			"question": "К следующему вторнику команда разработает прототип.",
 			"answer": "By next Tuesday, the team will have developed the prototype.",
-			"explanation": "Маркер 'by next Tuesday' + Future Perfect."
+			"translations": {
+				"ru": {
+					"question": "К следующему вторнику команда разработает прототип.",
+					"explanation": "Маркер 'by next Tuesday' + Future Perfect."
+				}
+			}
 		},
 		{
-			"question": "Мы уже примем решение к завтрашнему совещанию?",
 			"answer": "Will we have made a decision by tomorrow's meeting?",
-			"explanation": "Вопрос о завершённости принятия решения к совещанию."
+			"translations": {
+				"ru": {
+					"question": "Мы уже примем решение к завтрашнему совещанию?",
+					"explanation": "Вопрос о завершённости принятия решения к совещанию."
+				}
+			}
 		},
 		{
-			"question": "К концу дня курьер доставит все заказы.",
 			"answer": "By the end of the day, the courier will have delivered all orders.",
-			"explanation": "Future Perfect — завершение доставки к концу дня."
+			"translations": {
+				"ru": {
+					"question": "К концу дня курьер доставит все заказы.",
+					"explanation": "Future Perfect — завершение доставки к концу дня."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как ты прочитаешь это письмо, я уже уеду.",
 			"answer": "By the time you read this letter, I will have already left.",
-			"explanation": "'Already' в Future Perfect подчёркивает, что отъезд завершится до прочтения письма."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как ты прочитаешь это письмо, я уже уеду.",
+					"explanation": "'Already' в Future Perfect подчёркивает, что отъезд завершится до прочтения письма."
+				}
+			}
 		},
 		{
-			"question": "К следующему году учёные опубликуют результаты исследования.",
 			"answer": "By next year, the scientists will have published the research results.",
-			"explanation": "Future Perfect с маркером 'by next year'."
+			"translations": {
+				"ru": {
+					"question": "К следующему году учёные опубликуют результаты исследования.",
+					"explanation": "Future Perfect с маркером 'by next year'."
+				}
+			}
 		},
 		{
-			"question": "Она не выучит роль к премьере спектакля.",
 			"answer": "She won't have learned her role by the opening night.",
-			"explanation": "Отрицательная форма: роль не будет выучена к премьере."
+			"translations": {
+				"ru": {
+					"question": "Она не выучит роль к премьере спектакля.",
+					"explanation": "Отрицательная форма: роль не будет выучена к премьере."
+				}
+			}
 		},
 		{
-			"question": "Ты уже сдашь экзамен к тому времени, как я вернусь из отпуска?",
 			"answer": "Will you have passed the exam by the time I return from holiday?",
-			"explanation": "Вопрос о завершённости сдачи экзамена к возвращению из отпуска."
+			"translations": {
+				"ru": {
+					"question": "Ты уже сдашь экзамен к тому времени, как я вернусь из отпуска?",
+					"explanation": "Вопрос о завершённости сдачи экзамена к возвращению из отпуска."
+				}
+			}
 		},
 		{
-			"question": "К концу тура музыкант даст пятьдесят концертов.",
 			"answer": "By the end of the tour, the musician will have given fifty concerts.",
-			"explanation": "Future Perfect подчёркивает завершённость гастрольной деятельности."
+			"translations": {
+				"ru": {
+					"question": "К концу тура музыкант даст пятьдесят концертов.",
+					"explanation": "Future Perfect подчёркивает завершённость гастрольной деятельности."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как закроется библиотека, он вернёт книги.",
 			"answer": "By the time the library closes, he will have returned the books.",
-			"explanation": "Future Perfect в главном предложении при 'by the time'."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как закроется библиотека, он вернёт книги.",
+					"explanation": "Future Perfect в главном предложении при 'by the time'."
+				}
+			}
 		},
 		{
-			"question": "К следующей неделе рабочие починят дорогу.",
 			"answer": "By next week, the workers will have repaired the road.",
-			"explanation": "Future Perfect с маркером 'by next week'."
+			"translations": {
+				"ru": {
+					"question": "К следующей неделе рабочие починят дорогу.",
+					"explanation": "Future Perfect с маркером 'by next week'."
+				}
+			}
 		},
 		{
-			"question": "К полуночи они не закончат переговоры.",
 			"answer": "By midnight, they won't have finished the negotiations.",
-			"explanation": "Отрицательная форма: переговоры не будут закончены к полуночи."
+			"translations": {
+				"ru": {
+					"question": "К полуночи они не закончат переговоры.",
+					"explanation": "Отрицательная форма: переговоры не будут закончены к полуночи."
+				}
+			}
 		},
 		{
-			"question": "Она уже проверит работы к следующему уроку?",
 			"answer": "Will she have marked the papers by the next lesson?",
-			"explanation": "Вопрос о завершённости проверки работ к следующему уроку."
+			"translations": {
+				"ru": {
+					"question": "Она уже проверит работы к следующему уроку?",
+					"explanation": "Вопрос о завершённости проверки работ к следующему уроку."
+				}
+			}
 		},
 		{
-			"question": "К концу проекта команда встретится с сотней клиентов.",
 			"answer": "By the end of the project, the team will have met a hundred clients.",
-			"explanation": "Future Perfect указывает на завершённость серии встреч."
+			"translations": {
+				"ru": {
+					"question": "К концу проекта команда встретится с сотней клиентов.",
+					"explanation": "Future Perfect указывает на завершённость серии встреч."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как начнётся конкурс, участники подготовят свои выступления.",
 			"answer": "By the time the competition begins, the participants will have prepared their performances.",
-			"explanation": "Future Perfect — завершение подготовки к началу конкурса."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как начнётся конкурс, участники подготовят свои выступления.",
+					"explanation": "Future Perfect — завершение подготовки к началу конкурса."
+				}
+			}
 		},
 		{
-			"question": "К следующему кварталу инженеры устранят все неполадки.",
 			"answer": "By next quarter, the engineers will have fixed all the issues.",
-			"explanation": "Future Perfect с маркером 'by next quarter'."
+			"translations": {
+				"ru": {
+					"question": "К следующему кварталу инженеры устранят все неполадки.",
+					"explanation": "Future Perfect с маркером 'by next quarter'."
+				}
+			}
 		},
 		{
-			"question": "Он не накопит на машину к концу года.",
 			"answer": "He won't have saved up for a car by the end of the year.",
-			"explanation": "Отрицательная форма: накопление не будет завершено к концу года."
+			"translations": {
+				"ru": {
+					"question": "Он не накопит на машину к концу года.",
+					"explanation": "Отрицательная форма: накопление не будет завершено к концу года."
+				}
+			}
 		},
 		{
-			"question": "Ты уже выберешь профессию к окончанию школы?",
 			"answer": "Will you have chosen a profession by the time you finish school?",
-			"explanation": "Вопрос о завершённости выбора профессии к окончанию школы."
+			"translations": {
+				"ru": {
+					"question": "Ты уже выберешь профессию к окончанию школы?",
+					"explanation": "Вопрос о завершённости выбора профессии к окончанию школы."
+				}
+			}
 		},
 		{
-			"question": "К концу смены медсестра примет тридцать пациентов.",
 			"answer": "By the end of the shift, the nurse will have seen thirty patients.",
-			"explanation": "Future Perfect подчёркивает завершённость работы к концу смены."
+			"translations": {
+				"ru": {
+					"question": "К концу смены медсестра примет тридцать пациентов.",
+					"explanation": "Future Perfect подчёркивает завершённость работы к концу смены."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как ты проснёшься, я уже постираю бельё.",
 			"answer": "By the time you wake up, I will have done the laundry.",
-			"explanation": "Future Perfect: действие будет завершено к пробуждению другого человека."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как ты проснёшься, я уже постираю бельё.",
+					"explanation": "Future Perfect: действие будет завершено к пробуждению другого человека."
+				}
+			}
 		},
 		{
-			"question": "К следующему апрелю они запустят новый продукт.",
 			"answer": "By next April, they will have launched the new product.",
-			"explanation": "Future Perfect с маркером 'by next April'."
+			"translations": {
+				"ru": {
+					"question": "К следующему апрелю они запустят новый продукт.",
+					"explanation": "Future Perfect с маркером 'by next April'."
+				}
+			}
 		},
 		{
-			"question": "Мы не успеем забронировать отель к началу сезона.",
 			"answer": "We won't have booked a hotel by the start of the season.",
-			"explanation": "Отрицательная форма: бронирование не будет выполнено к началу сезона."
+			"translations": {
+				"ru": {
+					"question": "Мы не успеем забронировать отель к началу сезона.",
+					"explanation": "Отрицательная форма: бронирование не будет выполнено к началу сезона."
+				}
+			}
 		},
 		{
-			"question": "Они уже напечатают пригласительные к вечеринке к пятнице?",
 			"answer": "Will they have printed the invitations by Friday?",
-			"explanation": "Вопрос о завершённости печати пригласительных к пятнице."
+			"translations": {
+				"ru": {
+					"question": "Они уже напечатают пригласительные к вечеринке к пятнице?",
+					"explanation": "Вопрос о завершённости печати пригласительных к пятнице."
+				}
+			}
 		},
 		{
-			"question": "К концу года правительство примет новый закон.",
 			"answer": "By the end of the year, the government will have passed the new law.",
-			"explanation": "Future Perfect — завершение законодательного процесса к концу года."
+			"translations": {
+				"ru": {
+					"question": "К концу года правительство примет новый закон.",
+					"explanation": "Future Perfect — завершение законодательного процесса к концу года."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как приедет делегация, мы согласуем все детали.",
 			"answer": "By the time the delegation arrives, we will have agreed on all the details.",
-			"explanation": "'By the time' + Future Perfect в главном предложении."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как приедет делегация, мы согласуем все детали.",
+					"explanation": "'By the time' + Future Perfect в главном предложении."
+				}
+			}
 		},
 		{
-			"question": "К следующему сентябрю школа откроет новый спортзал.",
 			"answer": "By next September, the school will have opened a new gym.",
-			"explanation": "Future Perfect с маркером 'by next September'."
+			"translations": {
+				"ru": {
+					"question": "К следующему сентябрю школа откроет новый спортзал.",
+					"explanation": "Future Perfect с маркером 'by next September'."
+				}
+			}
 		},
 		{
-			"question": "Она не дочитает роман к концу недели.",
 			"answer": "She won't have finished the novel by the end of the week.",
-			"explanation": "Отрицательная форма: чтение не будет завершено к концу недели."
+			"translations": {
+				"ru": {
+					"question": "Она не дочитает роман к концу недели.",
+					"explanation": "Отрицательная форма: чтение не будет завершено к концу недели."
+				}
+			}
 		},
 		{
-			"question": "Ты уже напишешь заявление к понедельнику?",
 			"answer": "Will you have written the application by Monday?",
-			"explanation": "Вопрос о завершённости написания заявления к понедельнику."
+			"translations": {
+				"ru": {
+					"question": "Ты уже напишешь заявление к понедельнику?",
+					"explanation": "Вопрос о завершённости написания заявления к понедельнику."
+				}
+			}
 		},
 		{
-			"question": "К концу экспедиции исследователи соберут тысячу образцов.",
 			"answer": "By the end of the expedition, the researchers will have collected a thousand samples.",
-			"explanation": "Future Perfect: завершение сбора образцов к концу экспедиции."
+			"translations": {
+				"ru": {
+					"question": "К концу экспедиции исследователи соберут тысячу образцов.",
+					"explanation": "Future Perfect: завершение сбора образцов к концу экспедиции."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как выйдет следующий номер журнала, редакторы подготовят статьи.",
 			"answer": "By the time the next issue comes out, the editors will have prepared the articles.",
-			"explanation": "Future Perfect в главном предложении при 'by the time'."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как выйдет следующий номер журнала, редакторы подготовят статьи.",
+					"explanation": "Future Perfect в главном предложении при 'by the time'."
+				}
+			}
 		},
 		{
-			"question": "К следующему февралю завод выпустит новую модель автомобиля.",
 			"answer": "By next February, the factory will have released the new car model.",
-			"explanation": "Future Perfect с маркером 'by next February'."
+			"translations": {
+				"ru": {
+					"question": "К следующему февралю завод выпустит новую модель автомобиля.",
+					"explanation": "Future Perfect с маркером 'by next February'."
+				}
+			}
 		},
 		{
-			"question": "Они не закончат укладку плитки к заселению.",
 			"answer": "They won't have finished laying the tiles by the move-in date.",
-			"explanation": "Отрицательная форма: работа не будет завершена к заселению."
+			"translations": {
+				"ru": {
+					"question": "Они не закончат укладку плитки к заселению.",
+					"explanation": "Отрицательная форма: работа не будет завершена к заселению."
+				}
+			}
 		},
 		{
-			"question": "Он уже сделает предложение к Новому году?",
 			"answer": "Will he have proposed by New Year?",
-			"explanation": "Вопрос о завершённости события к Новому году."
+			"translations": {
+				"ru": {
+					"question": "Он уже сделает предложение к Новому году?",
+					"explanation": "Вопрос о завершённости события к Новому году."
+				}
+			}
 		},
 		{
-			"question": "К концу совещания все примут решение.",
 			"answer": "By the end of the meeting, everyone will have made a decision.",
-			"explanation": "Future Perfect показывает завершённость принятия решения к концу совещания."
+			"translations": {
+				"ru": {
+					"question": "К концу совещания все примут решение.",
+					"explanation": "Future Perfect показывает завершённость принятия решения к концу совещания."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как мы доберёмся до вокзала, поезд уже уйдёт.",
 			"answer": "By the time we get to the station, the train will have already left.",
-			"explanation": "Future Perfect с 'already': поезд уйдёт до нашего прибытия."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как мы доберёмся до вокзала, поезд уже уйдёт.",
+					"explanation": "Future Perfect с 'already': поезд уйдёт до нашего прибытия."
+				}
+			}
 		},
 		{
-			"question": "К следующей неделе разработчики выпустят обновление приложения.",
 			"answer": "By next week, the developers will have released the app update.",
-			"explanation": "Future Perfect с маркером 'by next week'."
+			"translations": {
+				"ru": {
+					"question": "К следующей неделе разработчики выпустят обновление приложения.",
+					"explanation": "Future Perfect с маркером 'by next week'."
+				}
+			}
 		},
 		{
-			"question": "Мы не успеем доделать презентацию к утреннему совещанию.",
 			"answer": "We won't have finished the presentation by the morning meeting.",
-			"explanation": "Отрицательная форма: презентация не будет готова к утреннему совещанию."
+			"translations": {
+				"ru": {
+					"question": "Мы не успеем доделать презентацию к утреннему совещанию.",
+					"explanation": "Отрицательная форма: презентация не будет готова к утреннему совещанию."
+				}
+			}
 		},
 		{
-			"question": "Ты уже поговоришь с тренером к соревнованиям?",
 			"answer": "Will you have spoken to the coach by the competition?",
-			"explanation": "Вопрос о завершённости разговора с тренером к соревнованиям."
+			"translations": {
+				"ru": {
+					"question": "Ты уже поговоришь с тренером к соревнованиям?",
+					"explanation": "Вопрос о завершённости разговора с тренером к соревнованиям."
+				}
+			}
 		},
 		{
-			"question": "К концу учебного года ученики освоят программу.",
 			"answer": "By the end of the school year, the pupils will have mastered the curriculum.",
-			"explanation": "Future Perfect: завершение освоения программы к концу года."
+			"translations": {
+				"ru": {
+					"question": "К концу учебного года ученики освоят программу.",
+					"explanation": "Future Perfect: завершение освоения программы к концу года."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как стемнеет, мы разобьём лагерь.",
 			"answer": "By the time it gets dark, we will have set up camp.",
-			"explanation": "Future Perfect в главном предложении при 'by the time'."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как стемнеет, мы разобьём лагерь.",
+					"explanation": "Future Perfect в главном предложении при 'by the time'."
+				}
+			}
 		},
 		{
-			"question": "К следующему маю компания откроет офис в Берлине.",
 			"answer": "By next May, the company will have opened an office in Berlin.",
-			"explanation": "Future Perfect с маркером 'by next May'."
+			"translations": {
+				"ru": {
+					"question": "К следующему маю компания откроет офис в Берлине.",
+					"explanation": "Future Perfect с маркером 'by next May'."
+				}
+			}
 		},
 		{
-			"question": "Она не освоит новую программу к концу стажировки.",
 			"answer": "She won't have mastered the new programme by the end of the internship.",
-			"explanation": "Отрицательная форма: навык не будет приобретён к концу стажировки."
+			"translations": {
+				"ru": {
+					"question": "Она не освоит новую программу к концу стажировки.",
+					"explanation": "Отрицательная форма: навык не будет приобретён к концу стажировки."
+				}
+			}
 		},
 		{
-			"question": "Он уже переведёт документ к обеду?",
 			"answer": "Will he have translated the document by lunchtime?",
-			"explanation": "Вопрос о завершённости перевода к обеду."
+			"translations": {
+				"ru": {
+					"question": "Он уже переведёт документ к обеду?",
+					"explanation": "Вопрос о завершённости перевода к обеду."
+				}
+			}
 		},
 		{
-			"question": "К концу рабочего дня бухгалтер подготовит все отчёты.",
 			"answer": "By the end of the working day, the accountant will have prepared all the reports.",
-			"explanation": "Future Perfect — завершение подготовки отчётов к концу рабочего дня."
+			"translations": {
+				"ru": {
+					"question": "К концу рабочего дня бухгалтер подготовит все отчёты.",
+					"explanation": "Future Perfect — завершение подготовки отчётов к концу рабочего дня."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как ты доберёшься до дома, я уже поужинаю.",
 			"answer": "By the time you get home, I will have had dinner.",
-			"explanation": "Future Perfect: ужин будет завершён до прихода другого человека."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как ты доберёшься до дома, я уже поужинаю.",
+					"explanation": "Future Perfect: ужин будет завершён до прихода другого человека."
+				}
+			}
 		},
 		{
-			"question": "К следующему июлю путешественник объедет весь континент.",
 			"answer": "By next July, the traveller will have toured the entire continent.",
-			"explanation": "Future Perfect с маркером 'by next July'."
+			"translations": {
+				"ru": {
+					"question": "К следующему июлю путешественник объедет весь континент.",
+					"explanation": "Future Perfect с маркером 'by next July'."
+				}
+			}
 		},
 		{
-			"question": "Мы не успеем оформить визу к отъезду.",
 			"answer": "We won't have obtained the visa by our departure.",
-			"explanation": "Отрицательная форма: виза не будет оформлена к отъезду."
+			"translations": {
+				"ru": {
+					"question": "Мы не успеем оформить визу к отъезду.",
+					"explanation": "Отрицательная форма: виза не будет оформлена к отъезду."
+				}
+			}
 		},
 		{
-			"question": "Она уже напишет дипломную работу к защите?",
 			"answer": "Will she have written her dissertation by the defence?",
-			"explanation": "Вопрос о завершённости написания диссертации к защите."
+			"translations": {
+				"ru": {
+					"question": "Она уже напишет дипломную работу к защите?",
+					"explanation": "Вопрос о завершённости написания диссертации к защите."
+				}
+			}
 		},
 		{
-			"question": "К концу турнира шахматист сыграет двадцать партий.",
 			"answer": "By the end of the tournament, the chess player will have played twenty games.",
-			"explanation": "Future Perfect: завершение серии партий к концу турнира."
+			"translations": {
+				"ru": {
+					"question": "К концу турнира шахматист сыграет двадцать партий.",
+					"explanation": "Future Perfect: завершение серии партий к концу турнира."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как придут результаты, они уже примут меры.",
 			"answer": "By the time the results come, they will have already taken measures.",
-			"explanation": "Future Perfect с 'already' — меры будут приняты заблаговременно."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как придут результаты, они уже примут меры.",
+					"explanation": "Future Perfect с 'already' — меры будут приняты заблаговременно."
+				}
+			}
 		},
 		{
-			"question": "К следующему октябрю фермер продаст весь урожай.",
 			"answer": "By next October, the farmer will have sold the entire harvest.",
-			"explanation": "Future Perfect с маркером 'by next October'."
+			"translations": {
+				"ru": {
+					"question": "К следующему октябрю фермер продаст весь урожай.",
+					"explanation": "Future Perfect с маркером 'by next October'."
+				}
+			}
 		},
 		{
-			"question": "Он не доделает отчёт к дедлайну.",
 			"answer": "He won't have completed the report by the deadline.",
-			"explanation": "Отрицательная форма: отчёт не будет завершён к дедлайну."
+			"translations": {
+				"ru": {
+					"question": "Он не доделает отчёт к дедлайну.",
+					"explanation": "Отрицательная форма: отчёт не будет завершён к дедлайну."
+				}
+			}
 		},
 		{
-			"question": "Ты уже сделаешь все прививки к отъезду?",
 			"answer": "Will you have had all the vaccinations by your departure?",
-			"explanation": "Вопрос о завершённости вакцинации к отъезду."
+			"translations": {
+				"ru": {
+					"question": "Ты уже сделаешь все прививки к отъезду?",
+					"explanation": "Вопрос о завершённости вакцинации к отъезду."
+				}
+			}
 		},
 		{
-			"question": "К концу строительного сезона рабочие возведут три этажа.",
 			"answer": "By the end of the construction season, the workers will have built three floors.",
-			"explanation": "Future Perfect показывает завершённость строительства к концу сезона."
+			"translations": {
+				"ru": {
+					"question": "К концу строительного сезона рабочие возведут три этажа.",
+					"explanation": "Future Perfect показывает завершённость строительства к концу сезона."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как приедет техник, компьютер уже перегреется.",
 			"answer": "By the time the technician arrives, the computer will have overheated.",
-			"explanation": "Future Perfect: компьютер перегреется до прихода техника."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как приедет техник, компьютер уже перегреется.",
+					"explanation": "Future Perfect: компьютер перегреется до прихода техника."
+				}
+			}
 		},
 		{
-			"question": "К следующей декаде учёные создадут новый вакцинный препарат.",
 			"answer": "By next decade, scientists will have created a new vaccine.",
-			"explanation": "Future Perfect с маркером 'by next decade'."
+			"translations": {
+				"ru": {
+					"question": "К следующей декаде учёные создадут новый вакцинный препарат.",
+					"explanation": "Future Perfect с маркером 'by next decade'."
+				}
+			}
 		},
 		{
-			"question": "Мы не успеем согласовать контракт к встрече с партнёрами.",
 			"answer": "We won't have agreed on the contract by the meeting with partners.",
-			"explanation": "Отрицательная форма: контракт не будет согласован к встрече."
+			"translations": {
+				"ru": {
+					"question": "Мы не успеем согласовать контракт к встрече с партнёрами.",
+					"explanation": "Отрицательная форма: контракт не будет согласован к встрече."
+				}
+			}
 		},
 		{
-			"question": "Они уже обновят сайт к запуску рекламной кампании?",
 			"answer": "Will they have updated the website by the launch of the advertising campaign?",
-			"explanation": "Вопрос о завершённости обновления сайта к запуску кампании."
+			"translations": {
+				"ru": {
+					"question": "Они уже обновят сайт к запуску рекламной кампании?",
+					"explanation": "Вопрос о завершённости обновления сайта к запуску кампании."
+				}
+			}
 		},
 		{
-			"question": "К концу марта садовник посадит все рассады.",
 			"answer": "By the end of March, the gardener will have planted all the seedlings.",
-			"explanation": "Future Perfect: завершение посадки рассады к концу марта."
+			"translations": {
+				"ru": {
+					"question": "К концу марта садовник посадит все рассады.",
+					"explanation": "Future Perfect: завершение посадки рассады к концу марта."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как ты доешь, фильм уже начнётся.",
 			"answer": "By the time you finish eating, the film will have already started.",
-			"explanation": "Future Perfect с 'already': фильм начнётся до конца трапезы."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как ты доешь, фильм уже начнётся.",
+					"explanation": "Future Perfect с 'already': фильм начнётся до конца трапезы."
+				}
+			}
 		},
 		{
-			"question": "К следующему ноябрю писатель закончит свой роман.",
 			"answer": "By next November, the writer will have finished his novel.",
-			"explanation": "Future Perfect с маркером 'by next November'."
+			"translations": {
+				"ru": {
+					"question": "К следующему ноябрю писатель закончит свой роман.",
+					"explanation": "Future Perfect с маркером 'by next November'."
+				}
+			}
 		},
 		{
-			"question": "Она не успеет сдать все экзамены к отъезду за границу.",
 			"answer": "She won't have passed all the exams by her departure abroad.",
-			"explanation": "Отрицательная форма: экзамены не будут сданы к отъезду."
+			"translations": {
+				"ru": {
+					"question": "Она не успеет сдать все экзамены к отъезду за границу.",
+					"explanation": "Отрицательная форма: экзамены не будут сданы к отъезду."
+				}
+			}
 		},
 		{
-			"question": "Он уже подпишет договор к пятнице?",
 			"answer": "Will he have signed the contract by Friday?",
-			"explanation": "Вопрос о завершённости подписания договора к пятнице."
+			"translations": {
+				"ru": {
+					"question": "Он уже подпишет договор к пятнице?",
+					"explanation": "Вопрос о завершённости подписания договора к пятнице."
+				}
+			}
 		},
 		{
-			"question": "К концу конференции спикеры обсудят все ключевые вопросы.",
 			"answer": "By the end of the conference, the speakers will have discussed all key issues.",
-			"explanation": "Future Perfect показывает завершённость дискуссии к концу конференции."
+			"translations": {
+				"ru": {
+					"question": "К концу конференции спикеры обсудят все ключевые вопросы.",
+					"explanation": "Future Perfect показывает завершённость дискуссии к концу конференции."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как он вернётся из командировки, мы закончим ремонт.",
 			"answer": "By the time he returns from his business trip, we will have finished the renovation.",
-			"explanation": "Future Perfect в главном предложении при 'by the time'."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как он вернётся из командировки, мы закончим ремонт.",
+					"explanation": "Future Perfect в главном предложении при 'by the time'."
+				}
+			}
 		},
 		{
-			"question": "К следующему июню спортсмен пробежит сотню марафонов.",
 			"answer": "By next June, the athlete will have run a hundred marathons.",
-			"explanation": "Future Perfect с маркером 'by next June'."
+			"translations": {
+				"ru": {
+					"question": "К следующему июню спортсмен пробежит сотню марафонов.",
+					"explanation": "Future Perfect с маркером 'by next June'."
+				}
+			}
 		},
 		{
-			"question": "Мы не успеем загрузить товар к отправлению корабля.",
 			"answer": "We won't have loaded the cargo by the ship's departure.",
-			"explanation": "Отрицательная форма: погрузка не завершится к отходу корабля."
+			"translations": {
+				"ru": {
+					"question": "Мы не успеем загрузить товар к отправлению корабля.",
+					"explanation": "Отрицательная форма: погрузка не завершится к отходу корабля."
+				}
+			}
 		},
 		{
-			"question": "Ты уже выучишь все формулы к контрольной?",
 			"answer": "Will you have memorised all the formulas by the test?",
-			"explanation": "Вопрос о завершённости заучивания формул к контрольной работе."
+			"translations": {
+				"ru": {
+					"question": "Ты уже выучишь все формулы к контрольной?",
+					"explanation": "Вопрос о завершённости заучивания формул к контрольной работе."
+				}
+			}
 		},
 		{
-			"question": "К концу фестиваля организаторы проведут сто мастер-классов.",
 			"answer": "By the end of the festival, the organisers will have held a hundred workshops.",
-			"explanation": "Future Perfect: завершение серии мастер-классов к концу фестиваля."
+			"translations": {
+				"ru": {
+					"question": "К концу фестиваля организаторы проведут сто мастер-классов.",
+					"explanation": "Future Perfect: завершение серии мастер-классов к концу фестиваля."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как откроется выставка, художник завершит все картины.",
 			"answer": "By the time the exhibition opens, the artist will have completed all the paintings.",
-			"explanation": "Future Perfect в главном предложении при 'by the time'."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как откроется выставка, художник завершит все картины.",
+					"explanation": "Future Perfect в главном предложении при 'by the time'."
+				}
+			}
 		},
 		{
-			"question": "К следующему августу строители сдадут торговый центр.",
 			"answer": "By next August, the builders will have handed over the shopping centre.",
-			"explanation": "Future Perfect с маркером 'by next August'."
+			"translations": {
+				"ru": {
+					"question": "К следующему августу строители сдадут торговый центр.",
+					"explanation": "Future Perfect с маркером 'by next August'."
+				}
+			}
 		},
 		{
-			"question": "Она не изучит всю программу к началу курса.",
 			"answer": "She won't have studied the entire programme by the start of the course.",
-			"explanation": "Отрицательная форма: программа не будет изучена к началу курса."
+			"translations": {
+				"ru": {
+					"question": "Она не изучит всю программу к началу курса.",
+					"explanation": "Отрицательная форма: программа не будет изучена к началу курса."
+				}
+			}
 		},
 		{
-			"question": "Он уже проведёт все интервью к четвергу?",
 			"answer": "Will he have conducted all the interviews by Thursday?",
-			"explanation": "Вопрос о завершённости интервью к четвергу."
+			"translations": {
+				"ru": {
+					"question": "Он уже проведёт все интервью к четвергу?",
+					"explanation": "Вопрос о завершённости интервью к четвергу."
+				}
+			}
 		},
 		{
-			"question": "К концу смены повар приготовит двести порций.",
 			"answer": "By the end of the shift, the cook will have prepared two hundred portions.",
-			"explanation": "Future Perfect показывает завершённость приготовления к концу смены."
+			"translations": {
+				"ru": {
+					"question": "К концу смены повар приготовит двести порций.",
+					"explanation": "Future Perfect показывает завершённость приготовления к концу смены."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как стихнет буря, моряки доберутся до берега.",
 			"answer": "By the time the storm dies down, the sailors will have reached the shore.",
-			"explanation": "Future Perfect в главном предложении при 'by the time'."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как стихнет буря, моряки доберутся до берега.",
+					"explanation": "Future Perfect в главном предложении при 'by the time'."
+				}
+			}
 		},
 		{
-			"question": "К следующей весне садоводы разобьют новый парк.",
 			"answer": "By next spring, the gardeners will have laid out a new park.",
-			"explanation": "Future Perfect с маркером 'by next spring'."
+			"translations": {
+				"ru": {
+					"question": "К следующей весне садоводы разобьют новый парк.",
+					"explanation": "Future Perfect с маркером 'by next spring'."
+				}
+			}
 		},
 		{
-			"question": "Мы не успеем купить все продукты к приготовлению обеда.",
 			"answer": "We won't have bought all the groceries by the time dinner is cooked.",
-			"explanation": "Отрицательная форма: покупки не будут завершены к приготовлению обеда."
+			"translations": {
+				"ru": {
+					"question": "Мы не успеем купить все продукты к приготовлению обеда.",
+					"explanation": "Отрицательная форма: покупки не будут завершены к приготовлению обеда."
+				}
+			}
 		},
 		{
-			"question": "Они уже сделают ремонт к переезду новых жильцов?",
 			"answer": "Will they have done the renovation by the time the new tenants move in?",
-			"explanation": "Вопрос о завершённости ремонта к переезду жильцов."
+			"translations": {
+				"ru": {
+					"question": "Они уже сделают ремонт к переезду новых жильцов?",
+					"explanation": "Вопрос о завершённости ремонта к переезду жильцов."
+				}
+			}
 		},
 		{
-			"question": "К концу декабря компания выплатит все долги.",
 			"answer": "By the end of December, the company will have paid off all debts.",
-			"explanation": "Future Perfect: завершение выплаты долгов к концу декабря."
+			"translations": {
+				"ru": {
+					"question": "К концу декабря компания выплатит все долги.",
+					"explanation": "Future Perfect: завершение выплаты долгов к концу декабря."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как закончится игра, болельщики уйдут с трибун.",
 			"answer": "By the time the game ends, the fans will have left the stands.",
-			"explanation": "Future Perfect в главном предложении при 'by the time'."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как закончится игра, болельщики уйдут с трибун.",
+					"explanation": "Future Perfect в главном предложении при 'by the time'."
+				}
+			}
 		},
 		{
-			"question": "К следующему январю исследователи проведут все эксперименты.",
 			"answer": "By next January, the researchers will have conducted all the experiments.",
-			"explanation": "Future Perfect с маркером 'by next January'."
+			"translations": {
+				"ru": {
+					"question": "К следующему январю исследователи проведут все эксперименты.",
+					"explanation": "Future Perfect с маркером 'by next January'."
+				}
+			}
 		},
 		{
-			"question": "Он не прочитает все материалы к презентации.",
 			"answer": "He won't have read all the materials by the presentation.",
-			"explanation": "Отрицательная форма: материалы не будут прочитаны к презентации."
+			"translations": {
+				"ru": {
+					"question": "Он не прочитает все материалы к презентации.",
+					"explanation": "Отрицательная форма: материалы не будут прочитаны к презентации."
+				}
+			}
 		},
 		{
-			"question": "Ты уже съешь завтрак к восьми утра?",
 			"answer": "Will you have had breakfast by eight in the morning?",
-			"explanation": "Вопрос о завершённости завтрака к восьми утра."
+			"translations": {
+				"ru": {
+					"question": "Ты уже съешь завтрак к восьми утра?",
+					"explanation": "Вопрос о завершённости завтрака к восьми утра."
+				}
+			}
 		},
 		{
-			"question": "К концу смены охранник обойдёт всё здание десять раз.",
 			"answer": "By the end of the shift, the security guard will have walked around the building ten times.",
-			"explanation": "Future Perfect показывает завершённость серии обходов."
+			"translations": {
+				"ru": {
+					"question": "К концу смены охранник обойдёт всё здание десять раз.",
+					"explanation": "Future Perfect показывает завершённость серии обходов."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как подоспеет помощь, пациент выздоровеет самостоятельно.",
 			"answer": "By the time help arrives, the patient will have recovered on his own.",
-			"explanation": "Future Perfect: выздоровление завершится до прихода помощи."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как подоспеет помощь, пациент выздоровеет самостоятельно.",
+					"explanation": "Future Perfect: выздоровление завершится до прихода помощи."
+				}
+			}
 		},
 		{
-			"question": "К следующему марту архитектор разработает все чертежи.",
 			"answer": "By next March, the architect will have drawn up all the blueprints.",
-			"explanation": "Future Perfect с маркером 'by next March'."
+			"translations": {
+				"ru": {
+					"question": "К следующему марту архитектор разработает все чертежи.",
+					"explanation": "Future Perfect с маркером 'by next March'."
+				}
+			}
 		},
 		{
-			"question": "Мы не успеем написать статью к конференции.",
 			"answer": "We won't have written the article by the conference.",
-			"explanation": "Отрицательная форма: статья не будет написана к конференции."
+			"translations": {
+				"ru": {
+					"question": "Мы не успеем написать статью к конференции.",
+					"explanation": "Отрицательная форма: статья не будет написана к конференции."
+				}
+			}
 		},
 		{
-			"question": "Она уже подберёт наряд к вечеринке к пятнице?",
 			"answer": "Will she have picked an outfit for the party by Friday?",
-			"explanation": "Вопрос о завершённости выбора наряда к пятнице."
+			"translations": {
+				"ru": {
+					"question": "Она уже подберёт наряд к вечеринке к пятнице?",
+					"explanation": "Вопрос о завершённости выбора наряда к пятнице."
+				}
+			}
 		},
 		{
-			"question": "К концу курса студенты прочитают двадцать книг.",
 			"answer": "By the end of the course, the students will have read twenty books.",
-			"explanation": "Future Perfect: завершение чтения двадцати книг к концу курса."
+			"translations": {
+				"ru": {
+					"question": "К концу курса студенты прочитают двадцать книг.",
+					"explanation": "Future Perfect: завершение чтения двадцати книг к концу курса."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как ты получишь письмо, ситуация изменится.",
 			"answer": "By the time you receive the letter, the situation will have changed.",
-			"explanation": "Future Perfect в главном предложении при 'by the time'."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как ты получишь письмо, ситуация изменится.",
+					"explanation": "Future Perfect в главном предложении при 'by the time'."
+				}
+			}
 		},
 		{
-			"question": "К следующей неделе пилот налетает тысячу часов.",
 			"answer": "By next week, the pilot will have flown a thousand hours.",
-			"explanation": "Future Perfect с маркером 'by next week'."
+			"translations": {
+				"ru": {
+					"question": "К следующей неделе пилот налетает тысячу часов.",
+					"explanation": "Future Perfect с маркером 'by next week'."
+				}
+			}
 		},
 		{
-			"question": "Он не выучит все иностранные слова к тесту.",
 			"answer": "He won't have learned all the foreign words by the test.",
-			"explanation": "Отрицательная форма: слова не будут выучены к тесту."
+			"translations": {
+				"ru": {
+					"question": "Он не выучит все иностранные слова к тесту.",
+					"explanation": "Отрицательная форма: слова не будут выучены к тесту."
+				}
+			}
 		},
 		{
-			"question": "Ты уже исправишь все ошибки к сдаче работы?",
 			"answer": "Will you have corrected all the mistakes by the submission?",
-			"explanation": "Вопрос о завершённости исправления ошибок к сдаче."
+			"translations": {
+				"ru": {
+					"question": "Ты уже исправишь все ошибки к сдаче работы?",
+					"explanation": "Вопрос о завершённости исправления ошибок к сдаче."
+				}
+			}
 		},
 		{
-			"question": "К концу дня курьеры развезут все посылки.",
 			"answer": "By the end of the day, the couriers will have delivered all the parcels.",
-			"explanation": "Future Perfect показывает завершённость доставки к концу дня."
+			"translations": {
+				"ru": {
+					"question": "К концу дня курьеры развезут все посылки.",
+					"explanation": "Future Perfect показывает завершённость доставки к концу дня."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как он дочитает статью, я уже засну.",
 			"answer": "By the time he finishes reading the article, I will have already fallen asleep.",
-			"explanation": "Future Perfect с 'already': сон наступит раньше, чем он дочитает."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как он дочитает статью, я уже засну.",
+					"explanation": "Future Perfect с 'already': сон наступит раньше, чем он дочитает."
+				}
+			}
 		},
 		{
-			"question": "К следующему декабрю певец запишет новый альбом.",
 			"answer": "By next December, the singer will have recorded a new album.",
-			"explanation": "Future Perfect с маркером 'by next December'."
+			"translations": {
+				"ru": {
+					"question": "К следующему декабрю певец запишет новый альбом.",
+					"explanation": "Future Perfect с маркером 'by next December'."
+				}
+			}
 		},
 		{
-			"question": "Мы не успеем отремонтировать машину к поездке.",
 			"answer": "We won't have repaired the car by the trip.",
-			"explanation": "Отрицательная форма: ремонт не будет завершён к поездке."
+			"translations": {
+				"ru": {
+					"question": "Мы не успеем отремонтировать машину к поездке.",
+					"explanation": "Отрицательная форма: ремонт не будет завершён к поездке."
+				}
+			}
 		},
 		{
-			"question": "Они уже распакуют все коробки к новоселью?",
 			"answer": "Will they have unpacked all the boxes by the housewarming?",
-			"explanation": "Вопрос о завершённости распаковки к новоселью."
+			"translations": {
+				"ru": {
+					"question": "Они уже распакуют все коробки к новоселью?",
+					"explanation": "Вопрос о завершённости распаковки к новоселью."
+				}
+			}
 		},
 		{
-			"question": "К концу июня туристическое агентство продаст все путёвки.",
 			"answer": "By the end of June, the travel agency will have sold all the tour packages.",
-			"explanation": "Future Perfect: завершение продажи путёвок к концу июня."
+			"translations": {
+				"ru": {
+					"question": "К концу июня туристическое агентство продаст все путёвки.",
+					"explanation": "Future Perfect: завершение продажи путёвок к концу июня."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как закончится конкурс, жюри выберет победителя.",
 			"answer": "By the time the competition ends, the jury will have chosen the winner.",
-			"explanation": "Future Perfect в главном предложении при 'by the time'."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как закончится конкурс, жюри выберет победителя.",
+					"explanation": "Future Perfect в главном предложении при 'by the time'."
+				}
+			}
 		},
 		{
-			"question": "К следующей среде бухгалтер закроет квартальный баланс.",
 			"answer": "By next Wednesday, the accountant will have closed the quarterly balance.",
-			"explanation": "Future Perfect с маркером 'by next Wednesday'."
+			"translations": {
+				"ru": {
+					"question": "К следующей среде бухгалтер закроет квартальный баланс.",
+					"explanation": "Future Perfect с маркером 'by next Wednesday'."
+				}
+			}
 		},
 		{
-			"question": "Она не успеет дойти до финала к концу турнира.",
 			"answer": "She won't have reached the final by the end of the tournament.",
-			"explanation": "Отрицательная форма: финал не будет достигнут к концу турнира."
+			"translations": {
+				"ru": {
+					"question": "Она не успеет дойти до финала к концу турнира.",
+					"explanation": "Отрицательная форма: финал не будет достигнут к концу турнира."
+				}
+			}
 		},
 		{
-			"question": "Он уже выучит новый танец к выступлению?",
 			"answer": "Will he have learned the new dance by the performance?",
-			"explanation": "Вопрос о завершённости разучивания танца к выступлению."
+			"translations": {
+				"ru": {
+					"question": "Он уже выучит новый танец к выступлению?",
+					"explanation": "Вопрос о завершённости разучивания танца к выступлению."
+				}
+			}
 		},
 		{
-			"question": "К концу дня редактор проверит все тексты.",
 			"answer": "By the end of the day, the editor will have checked all the texts.",
-			"explanation": "Future Perfect показывает завершённость редактуры к концу дня."
+			"translations": {
+				"ru": {
+					"question": "К концу дня редактор проверит все тексты.",
+					"explanation": "Future Perfect показывает завершённость редактуры к концу дня."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как ты придёшь на работу, я уже отвечу на все письма.",
 			"answer": "By the time you come to work, I will have already replied to all the emails.",
-			"explanation": "Future Perfect с 'already': письма будут обработаны до прихода коллеги."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как ты придёшь на работу, я уже отвечу на все письма.",
+					"explanation": "Future Perfect с 'already': письма будут обработаны до прихода коллеги."
+				}
+			}
 		},
 		{
-			"question": "К следующей весне компания выйдет на новый рынок.",
 			"answer": "By next spring, the company will have entered the new market.",
-			"explanation": "Future Perfect с маркером 'by next spring'."
+			"translations": {
+				"ru": {
+					"question": "К следующей весне компания выйдет на новый рынок.",
+					"explanation": "Future Perfect с маркером 'by next spring'."
+				}
+			}
 		},
 		{
-			"question": "Мы не успеем согласовать бюджет к началу проекта.",
 			"answer": "We won't have agreed on the budget by the start of the project.",
-			"explanation": "Отрицательная форма: бюджет не будет согласован к началу проекта."
+			"translations": {
+				"ru": {
+					"question": "Мы не успеем согласовать бюджет к началу проекта.",
+					"explanation": "Отрицательная форма: бюджет не будет согласован к началу проекта."
+				}
+			}
 		},
 		{
-			"question": "Ты уже найдёшь замену сотруднику к понедельнику?",
 			"answer": "Will you have found a replacement for the employee by Monday?",
-			"explanation": "Вопрос о завершённости поиска замены к понедельнику."
+			"translations": {
+				"ru": {
+					"question": "Ты уже найдёшь замену сотруднику к понедельнику?",
+					"explanation": "Вопрос о завершённости поиска замены к понедельнику."
+				}
+			}
 		},
 		{
-			"question": "К концу сезона хоккеист забьёт тридцать голов.",
 			"answer": "By the end of the season, the ice hockey player will have scored thirty goals.",
-			"explanation": "Future Perfect: завершение серии голов к концу сезона."
+			"translations": {
+				"ru": {
+					"question": "К концу сезона хоккеист забьёт тридцать голов.",
+					"explanation": "Future Perfect: завершение серии голов к концу сезона."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как рассветёт, альпинист покорит вершину.",
 			"answer": "By the time dawn breaks, the mountaineer will have conquered the peak.",
-			"explanation": "Future Perfect в главном предложении при 'by the time'."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как рассветёт, альпинист покорит вершину.",
+					"explanation": "Future Perfect в главном предложении при 'by the time'."
+				}
+			}
 		},
 		{
-			"question": "К следующему ноябрю завод модернизирует всё оборудование.",
 			"answer": "By next November, the factory will have modernised all the equipment.",
-			"explanation": "Future Perfect с маркером 'by next November'."
+			"translations": {
+				"ru": {
+					"question": "К следующему ноябрю завод модернизирует всё оборудование.",
+					"explanation": "Future Perfect с маркером 'by next November'."
+				}
+			}
 		},
 		{
-			"question": "Он не сдаст все долги к следующей неделе.",
 			"answer": "He won't have paid all his debts by next week.",
-			"explanation": "Отрицательная форма: долги не будут выплачены к следующей неделе."
+			"translations": {
+				"ru": {
+					"question": "Он не сдаст все долги к следующей неделе.",
+					"explanation": "Отрицательная форма: долги не будут выплачены к следующей неделе."
+				}
+			}
 		},
 		{
-			"question": "Она уже найдёт новую работу к концу месяца?",
 			"answer": "Will she have found a new job by the end of the month?",
-			"explanation": "Вопрос о завершённости поиска работы к концу месяца."
+			"translations": {
+				"ru": {
+					"question": "Она уже найдёт новую работу к концу месяца?",
+					"explanation": "Вопрос о завершённости поиска работы к концу месяца."
+				}
+			}
 		},
 		{
-			"question": "К концу смены строитель уложит тысячу кирпичей.",
 			"answer": "By the end of the shift, the builder will have laid a thousand bricks.",
-			"explanation": "Future Perfect показывает завершённость укладки к концу смены."
+			"translations": {
+				"ru": {
+					"question": "К концу смены строитель уложит тысячу кирпичей.",
+					"explanation": "Future Perfect показывает завершённость укладки к концу смены."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как позвонит заказчик, мы уже всё исправим.",
 			"answer": "By the time the client calls, we will have already fixed everything.",
-			"explanation": "Future Perfect с 'already': исправление завершится до звонка заказчика."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как позвонит заказчик, мы уже всё исправим.",
+					"explanation": "Future Perfect с 'already': исправление завершится до звонка заказчика."
+				}
+			}
 		},
 		{
-			"question": "К следующему августу туристы объедут всю Европу.",
 			"answer": "By next August, the tourists will have travelled all over Europe.",
-			"explanation": "Future Perfect с маркером 'by next August'."
+			"translations": {
+				"ru": {
+					"question": "К следующему августу туристы объедут всю Европу.",
+					"explanation": "Future Perfect с маркером 'by next August'."
+				}
+			}
 		},
 		{
-			"question": "Мы не успеем выучить все правила к первому занятию.",
 			"answer": "We won't have learned all the rules by the first lesson.",
-			"explanation": "Отрицательная форма: правила не будут выучены к первому занятию."
+			"translations": {
+				"ru": {
+					"question": "Мы не успеем выучить все правила к первому занятию.",
+					"explanation": "Отрицательная форма: правила не будут выучены к первому занятию."
+				}
+			}
 		},
 		{
-			"question": "Ты уже освоишь новый язык программирования к следующему проекту?",
 			"answer": "Will you have mastered the new programming language by the next project?",
-			"explanation": "Вопрос о завершённости освоения языка программирования."
+			"translations": {
+				"ru": {
+					"question": "Ты уже освоишь новый язык программирования к следующему проекту?",
+					"explanation": "Вопрос о завершённости освоения языка программирования."
+				}
+			}
 		},
 		{
-			"question": "К концу недели дизайнер нарисует все иллюстрации.",
 			"answer": "By the end of the week, the designer will have drawn all the illustrations.",
-			"explanation": "Future Perfect: завершение рисования к концу недели."
+			"translations": {
+				"ru": {
+					"question": "К концу недели дизайнер нарисует все иллюстрации.",
+					"explanation": "Future Perfect: завершение рисования к концу недели."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как откроется ресторан, повар приготовит все блюда.",
 			"answer": "By the time the restaurant opens, the chef will have prepared all the dishes.",
-			"explanation": "Future Perfect в главном предложении при 'by the time'."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как откроется ресторан, повар приготовит все блюда.",
+					"explanation": "Future Perfect в главном предложении при 'by the time'."
+				}
+			}
 		},
 		{
-			"question": "К следующему июлю разработчик создаст новое приложение.",
 			"answer": "By next July, the developer will have created a new app.",
-			"explanation": "Future Perfect с маркером 'by next July'."
+			"translations": {
+				"ru": {
+					"question": "К следующему июлю разработчик создаст новое приложение.",
+					"explanation": "Future Perfect с маркером 'by next July'."
+				}
+			}
 		},
 		{
-			"question": "Он не успеет прочитать все книги из списка к семинару.",
 			"answer": "He won't have read all the books on the list by the seminar.",
-			"explanation": "Отрицательная форма: книги не будут прочитаны к семинару."
+			"translations": {
+				"ru": {
+					"question": "Он не успеет прочитать все книги из списка к семинару.",
+					"explanation": "Отрицательная форма: книги не будут прочитаны к семинару."
+				}
+			}
 		},
 		{
-			"question": "Она уже купит все подарки к Рождеству к двадцатому декабря?",
 			"answer": "Will she have bought all the Christmas presents by the twentieth of December?",
-			"explanation": "Вопрос о завершённости покупки подарков к двадцатому декабря."
+			"translations": {
+				"ru": {
+					"question": "Она уже купит все подарки к Рождеству к двадцатому декабря?",
+					"explanation": "Вопрос о завершённости покупки подарков к двадцатому декабря."
+				}
+			}
 		},
 		{
-			"question": "К концу квартала отдел маркетинга запустит новую кампанию.",
 			"answer": "By the end of the quarter, the marketing department will have launched a new campaign.",
-			"explanation": "Future Perfect показывает завершённость запуска кампании к концу квартала."
+			"translations": {
+				"ru": {
+					"question": "К концу квартала отдел маркетинга запустит новую кампанию.",
+					"explanation": "Future Perfect показывает завершённость запуска кампании к концу квартала."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как зайдёт солнце, туристы вернутся в лагерь.",
 			"answer": "By the time the sun sets, the tourists will have returned to the camp.",
-			"explanation": "Future Perfect в главном предложении при 'by the time'."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как зайдёт солнце, туристы вернутся в лагерь.",
+					"explanation": "Future Perfect в главном предложении при 'by the time'."
+				}
+			}
 		},
 		{
-			"question": "К следующей зиме архитектор закончит проект нового здания.",
 			"answer": "By next winter, the architect will have finished the design of the new building.",
-			"explanation": "Future Perfect с маркером 'by next winter'."
+			"translations": {
+				"ru": {
+					"question": "К следующей зиме архитектор закончит проект нового здания.",
+					"explanation": "Future Perfect с маркером 'by next winter'."
+				}
+			}
 		},
 		{
-			"question": "Мы не успеем собрать все данные к написанию статьи.",
 			"answer": "We won't have gathered all the data by the time we write the article.",
-			"explanation": "Отрицательная форма: данные не будут собраны к написанию статьи."
+			"translations": {
+				"ru": {
+					"question": "Мы не успеем собрать все данные к написанию статьи.",
+					"explanation": "Отрицательная форма: данные не будут собраны к написанию статьи."
+				}
+			}
 		},
 		{
-			"question": "Ты уже пройдёшь онлайн-курс к следующему месяцу?",
 			"answer": "Will you have completed the online course by next month?",
-			"explanation": "Вопрос о завершённости курса к следующему месяцу."
+			"translations": {
+				"ru": {
+					"question": "Ты уже пройдёшь онлайн-курс к следующему месяцу?",
+					"explanation": "Вопрос о завершённости курса к следующему месяцу."
+				}
+			}
 		},
 		{
-			"question": "К концу марафона волонтёры раздадут тысячу медалей.",
 			"answer": "By the end of the marathon, the volunteers will have given out a thousand medals.",
-			"explanation": "Future Perfect: завершение раздачи медалей к концу марафона."
+			"translations": {
+				"ru": {
+					"question": "К концу марафона волонтёры раздадут тысячу медалей.",
+					"explanation": "Future Perfect: завершение раздачи медалей к концу марафона."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как прилетит самолёт, мы уже встретим всех гостей.",
 			"answer": "By the time the plane lands, we will have already greeted all the guests.",
-			"explanation": "Future Perfect с 'already': встреча гостей завершится до посадки самолёта."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как прилетит самолёт, мы уже встретим всех гостей.",
+					"explanation": "Future Perfect с 'already': встреча гостей завершится до посадки самолёта."
+				}
+			}
 		},
 		{
-			"question": "К следующему маю экономика восстановится после кризиса.",
 			"answer": "By next May, the economy will have recovered from the crisis.",
-			"explanation": "Future Perfect с маркером 'by next May'."
+			"translations": {
+				"ru": {
+					"question": "К следующему маю экономика восстановится после кризиса.",
+					"explanation": "Future Perfect с маркером 'by next May'."
+				}
+			}
 		},
 		{
-			"question": "Она не успеет дошить костюм к карнавалу.",
 			"answer": "She won't have finished sewing the costume by the carnival.",
-			"explanation": "Отрицательная форма: костюм не будет готов к карнавалу."
+			"translations": {
+				"ru": {
+					"question": "Она не успеет дошить костюм к карнавалу.",
+					"explanation": "Отрицательная форма: костюм не будет готов к карнавалу."
+				}
+			}
 		},
 		{
-			"question": "Они уже построят новую школу к началу учебного года?",
 			"answer": "Will they have built the new school by the start of the school year?",
-			"explanation": "Вопрос о завершённости строительства к началу учебного года."
+			"translations": {
+				"ru": {
+					"question": "Они уже построят новую школу к началу учебного года?",
+					"explanation": "Вопрос о завершённости строительства к началу учебного года."
+				}
+			}
 		},
 		{
-			"question": "К концу симпозиума учёные представят двадцать докладов.",
 			"answer": "By the end of the symposium, the scientists will have presented twenty papers.",
-			"explanation": "Future Perfect: завершение серии докладов к концу симпозиума."
+			"translations": {
+				"ru": {
+					"question": "К концу симпозиума учёные представят двадцать докладов.",
+					"explanation": "Future Perfect: завершение серии докладов к концу симпозиума."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как дети придут из школы, я уже приготовлю обед.",
 			"answer": "By the time the children come home from school, I will have already cooked lunch.",
-			"explanation": "Future Perfect с 'already': обед будет готов до возвращения детей."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как дети придут из школы, я уже приготовлю обед.",
+					"explanation": "Future Perfect с 'already': обед будет готов до возвращения детей."
+				}
+			}
 		},
 		{
-			"question": "К следующему марту спортсмен установит новый рекорд.",
 			"answer": "By next March, the athlete will have set a new record.",
-			"explanation": "Future Perfect с маркером 'by next March'."
+			"translations": {
+				"ru": {
+					"question": "К следующему марту спортсмен установит новый рекорд.",
+					"explanation": "Future Perfect с маркером 'by next March'."
+				}
+			}
 		},
 		{
-			"question": "Мы не успеем покрасить забор к приезду комиссии.",
 			"answer": "We won't have painted the fence by the inspection visit.",
-			"explanation": "Отрицательная форма: забор не будет покрашен к визиту комиссии."
+			"translations": {
+				"ru": {
+					"question": "Мы не успеем покрасить забор к приезду комиссии.",
+					"explanation": "Отрицательная форма: забор не будет покрашен к визиту комиссии."
+				}
+			}
 		},
 		{
-			"question": "Ты уже составишь расписание на следующий месяц к пятнице?",
 			"answer": "Will you have drawn up the schedule for next month by Friday?",
-			"explanation": "Вопрос о завершённости составления расписания к пятнице."
+			"translations": {
+				"ru": {
+					"question": "Ты уже составишь расписание на следующий месяц к пятнице?",
+					"explanation": "Вопрос о завершённости составления расписания к пятнице."
+				}
+			}
 		},
 		{
-			"question": "К концу смены техник проверит всё оборудование.",
 			"answer": "By the end of the shift, the technician will have checked all the equipment.",
-			"explanation": "Future Perfect показывает завершённость проверки к концу смены."
+			"translations": {
+				"ru": {
+					"question": "К концу смены техник проверит всё оборудование.",
+					"explanation": "Future Perfect показывает завершённость проверки к концу смены."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как придёт врач, температура у пациента спадёт.",
 			"answer": "By the time the doctor comes, the patient's temperature will have gone down.",
-			"explanation": "Future Perfect в главном предложении при 'by the time'."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как придёт врач, температура у пациента спадёт.",
+					"explanation": "Future Perfect в главном предложении при 'by the time'."
+				}
+			}
 		},
 		{
-			"question": "К следующему году программа получит государственное финансирование.",
 			"answer": "By next year, the programme will have received state funding.",
-			"explanation": "Future Perfect с маркером 'by next year'."
+			"translations": {
+				"ru": {
+					"question": "К следующему году программа получит государственное финансирование.",
+					"explanation": "Future Perfect с маркером 'by next year'."
+				}
+			}
 		},
 		{
-			"question": "Он не успеет оформить все документы к сроку.",
 			"answer": "He won't have completed all the documents by the deadline.",
-			"explanation": "Отрицательная форма: документы не будут оформлены к сроку."
+			"translations": {
+				"ru": {
+					"question": "Он не успеет оформить все документы к сроку.",
+					"explanation": "Отрицательная форма: документы не будут оформлены к сроку."
+				}
+			}
 		},
 		{
-			"question": "Она уже выиграет соревнование к тому времени, как ты доберёшься туда?",
 			"answer": "Will she have won the competition by the time you get there?",
-			"explanation": "Вопрос о завершённости победы к прибытию другого человека."
+			"translations": {
+				"ru": {
+					"question": "Она уже выиграет соревнование к тому времени, как ты доберёшься туда?",
+					"explanation": "Вопрос о завершённости победы к прибытию другого человека."
+				}
+			}
 		},
 		{
-			"question": "К концу лета дети прочитают по десять книг.",
 			"answer": "By the end of summer, the children will have read ten books each.",
-			"explanation": "Future Perfect показывает завершённость чтения к концу лета."
+			"translations": {
+				"ru": {
+					"question": "К концу лета дети прочитают по десять книг.",
+					"explanation": "Future Perfect показывает завершённость чтения к концу лета."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как закончится ремонт в офисе, мы найдём временное помещение.",
 			"answer": "By the time the office renovation is finished, we will have found a temporary space.",
-			"explanation": "Future Perfect в главном предложении при 'by the time'."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как закончится ремонт в офисе, мы найдём временное помещение.",
+					"explanation": "Future Perfect в главном предложении при 'by the time'."
+				}
+			}
 		},
 		{
-			"question": "К следующему апрелю компания удвоит свои доходы.",
 			"answer": "By next April, the company will have doubled its revenue.",
-			"explanation": "Future Perfect с маркером 'by next April'."
+			"translations": {
+				"ru": {
+					"question": "К следующему апрелю компания удвоит свои доходы.",
+					"explanation": "Future Perfect с маркером 'by next April'."
+				}
+			}
 		},
 		{
-			"question": "Мы не успеем обновить программное обеспечение к запуску системы.",
 			"answer": "We won't have updated the software by the system launch.",
-			"explanation": "Отрицательная форма: ПО не будет обновлено к запуску."
+			"translations": {
+				"ru": {
+					"question": "Мы не успеем обновить программное обеспечение к запуску системы.",
+					"explanation": "Отрицательная форма: ПО не будет обновлено к запуску."
+				}
+			}
 		},
 		{
-			"question": "Ты уже оплатишь все счета к концу месяца?",
 			"answer": "Will you have paid all the bills by the end of the month?",
-			"explanation": "Вопрос о завершённости оплаты счетов к концу месяца."
+			"translations": {
+				"ru": {
+					"question": "Ты уже оплатишь все счета к концу месяца?",
+					"explanation": "Вопрос о завершённости оплаты счетов к концу месяца."
+				}
+			}
 		},
 		{
-			"question": "К концу сезона команда выиграет пятнадцать матчей.",
 			"answer": "By the end of the season, the team will have won fifteen matches.",
-			"explanation": "Future Perfect: завершение серии побед к концу сезона."
+			"translations": {
+				"ru": {
+					"question": "К концу сезона команда выиграет пятнадцать матчей.",
+					"explanation": "Future Perfect: завершение серии побед к концу сезона."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как он напишет диссертацию, пройдёт много лет.",
 			"answer": "By the time he writes his dissertation, many years will have passed.",
-			"explanation": "Future Perfect: много лет пройдёт к тому моменту, как он завершит диссертацию."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как он напишет диссертацию, пройдёт много лет.",
+					"explanation": "Future Perfect: много лет пройдёт к тому моменту, как он завершит диссертацию."
+				}
+			}
 		},
 		{
-			"question": "К следующему июню туристы посетят все главные достопримечательности.",
 			"answer": "By next June, the tourists will have visited all the main sights.",
-			"explanation": "Future Perfect с маркером 'by next June'."
+			"translations": {
+				"ru": {
+					"question": "К следующему июню туристы посетят все главные достопримечательности.",
+					"explanation": "Future Perfect с маркером 'by next June'."
+				}
+			}
 		},
 		{
-			"question": "Она не успеет поговорить со всеми коллегами к совещанию.",
 			"answer": "She won't have spoken to all her colleagues by the meeting.",
-			"explanation": "Отрицательная форма: разговоры не будут завершены к совещанию."
+			"translations": {
+				"ru": {
+					"question": "Она не успеет поговорить со всеми коллегами к совещанию.",
+					"explanation": "Отрицательная форма: разговоры не будут завершены к совещанию."
+				}
+			}
 		},
 		{
-			"question": "Он уже закончит тренировку к ужину?",
 			"answer": "Will he have finished his workout by dinner?",
-			"explanation": "Вопрос о завершённости тренировки к ужину."
+			"translations": {
+				"ru": {
+					"question": "Он уже закончит тренировку к ужину?",
+					"explanation": "Вопрос о завершённости тренировки к ужину."
+				}
+			}
 		},
 		{
-			"question": "К концу недели менеджер проведёт все собеседования.",
 			"answer": "By the end of the week, the manager will have conducted all the interviews.",
-			"explanation": "Future Perfect показывает завершённость собеседований к концу недели."
+			"translations": {
+				"ru": {
+					"question": "К концу недели менеджер проведёт все собеседования.",
+					"explanation": "Future Perfect показывает завершённость собеседований к концу недели."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как всё уляжется, они поймут, что поступили правильно.",
 			"answer": "By the time everything settles down, they will have realised they did the right thing.",
-			"explanation": "Future Perfect: осознание завершится к тому времени, как всё успокоится."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как всё уляжется, они поймут, что поступили правильно.",
+					"explanation": "Future Perfect: осознание завершится к тому времени, как всё успокоится."
+				}
+			}
 		},
 		{
-			"question": "К следующему сентябрю компания нарастит клиентскую базу до тысячи человек.",
 			"answer": "By next September, the company will have grown its client base to a thousand people.",
-			"explanation": "Future Perfect с маркером 'by next September'."
+			"translations": {
+				"ru": {
+					"question": "К следующему сентябрю компания нарастит клиентскую базу до тысячи человек.",
+					"explanation": "Future Perfect с маркером 'by next September'."
+				}
+			}
 		},
 		{
-			"question": "Мы не успеем согласовать все детали к подписанию договора.",
 			"answer": "We won't have agreed on all the details by the signing of the contract.",
-			"explanation": "Отрицательная форма: детали не будут согласованы к подписанию."
+			"translations": {
+				"ru": {
+					"question": "Мы не успеем согласовать все детали к подписанию договора.",
+					"explanation": "Отрицательная форма: детали не будут согласованы к подписанию."
+				}
+			}
 		},
 		{
-			"question": "Ты уже закончишь курс вождения к получению прав?",
 			"answer": "Will you have finished the driving course by the time you get your licence?",
-			"explanation": "Вопрос о завершённости курса вождения к получению прав."
+			"translations": {
+				"ru": {
+					"question": "Ты уже закончишь курс вождения к получению прав?",
+					"explanation": "Вопрос о завершённости курса вождения к получению прав."
+				}
+			}
 		},
 		{
-			"question": "К концу операции хирурги проведут в операционной шесть часов.",
 			"answer": "By the end of the operation, the surgeons will have spent six hours in the theatre.",
-			"explanation": "Future Perfect: завершение многочасовой операции к её окончанию."
+			"translations": {
+				"ru": {
+					"question": "К концу операции хирурги проведут в операционной шесть часов.",
+					"explanation": "Future Perfect: завершение многочасовой операции к её окончанию."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как объявят победителей, все кандидаты уже устанут ждать.",
 			"answer": "By the time the winners are announced, all the candidates will have grown tired of waiting.",
-			"explanation": "Future Perfect в главном предложении при 'by the time'."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как объявят победителей, все кандидаты уже устанут ждать.",
+					"explanation": "Future Perfect в главном предложении при 'by the time'."
+				}
+			}
 		},
 		{
-			"question": "К следующей осени фермер засеет все поля новыми культурами.",
 			"answer": "By next autumn, the farmer will have sown all the fields with new crops.",
-			"explanation": "Future Perfect с маркером 'by next autumn'."
+			"translations": {
+				"ru": {
+					"question": "К следующей осени фермер засеет все поля новыми культурами.",
+					"explanation": "Future Perfect с маркером 'by next autumn'."
+				}
+			}
 		},
 		{
-			"question": "Он не успеет исправить все баги к выходу версии.",
 			"answer": "He won't have fixed all the bugs by the release.",
-			"explanation": "Отрицательная форма: баги не будут исправлены к выходу версии."
+			"translations": {
+				"ru": {
+					"question": "Он не успеет исправить все баги к выходу версии.",
+					"explanation": "Отрицательная форма: баги не будут исправлены к выходу версии."
+				}
+			}
 		},
 		{
-			"question": "Она уже оформит интерьер к открытию салона?",
 			"answer": "Will she have decorated the interior by the opening of the salon?",
-			"explanation": "Вопрос о завершённости оформления интерьера к открытию."
+			"translations": {
+				"ru": {
+					"question": "Она уже оформит интерьер к открытию салона?",
+					"explanation": "Вопрос о завершённости оформления интерьера к открытию."
+				}
+			}
 		},
 		{
-			"question": "К концу года страна построит сто новых школ.",
 			"answer": "By the end of the year, the country will have built a hundred new schools.",
-			"explanation": "Future Perfect: завершение масштабного строительства к концу года."
+			"translations": {
+				"ru": {
+					"question": "К концу года страна построит сто новых школ.",
+					"explanation": "Future Perfect: завершение масштабного строительства к концу года."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как начнётся новый учебный год, дети отдохнут за лето.",
 			"answer": "By the time the new school year starts, the children will have rested over the summer.",
-			"explanation": "Future Perfect в главном предложении при 'by the time'."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как начнётся новый учебный год, дети отдохнут за лето.",
+					"explanation": "Future Perfect в главном предложении при 'by the time'."
+				}
+			}
 		},
 		{
-			"question": "К следующей зиме лыжный курорт расширит трассы.",
 			"answer": "By next winter, the ski resort will have extended its slopes.",
-			"explanation": "Future Perfect с маркером 'by next winter'."
+			"translations": {
+				"ru": {
+					"question": "К следующей зиме лыжный курорт расширит трассы.",
+					"explanation": "Future Perfect с маркером 'by next winter'."
+				}
+			}
 		},
 		{
-			"question": "Мы не успеем распечатать все материалы к лекции.",
 			"answer": "We won't have printed all the materials by the lecture.",
-			"explanation": "Отрицательная форма: материалы не будут распечатаны к лекции."
+			"translations": {
+				"ru": {
+					"question": "Мы не успеем распечатать все материалы к лекции.",
+					"explanation": "Отрицательная форма: материалы не будут распечатаны к лекции."
+				}
+			}
 		},
 		{
-			"question": "Ты уже составишь список гостей к отправке приглашений?",
 			"answer": "Will you have made the guest list by the time the invitations are sent?",
-			"explanation": "Вопрос о завершённости составления списка к отправке приглашений."
+			"translations": {
+				"ru": {
+					"question": "Ты уже составишь список гостей к отправке приглашений?",
+					"explanation": "Вопрос о завершённости составления списка к отправке приглашений."
+				}
+			}
 		},
 		{
-			"question": "К концу смены медик осмотрит всех пострадавших.",
 			"answer": "By the end of the shift, the paramedic will have examined all the casualties.",
-			"explanation": "Future Perfect: завершение осмотра к концу смены."
+			"translations": {
+				"ru": {
+					"question": "К концу смены медик осмотрит всех пострадавших.",
+					"explanation": "Future Perfect: завершение осмотра к концу смены."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как ты напишешь ответ, он уже сменит адрес электронной почты.",
 			"answer": "By the time you write back, he will have already changed his email address.",
-			"explanation": "Future Perfect с 'already': смена почты произойдёт раньше, чем придёт ответ."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как ты напишешь ответ, он уже сменит адрес электронной почты.",
+					"explanation": "Future Perfect с 'already': смена почты произойдёт раньше, чем придёт ответ."
+				}
+			}
 		},
 		{
-			"question": "К следующей неделе сотрудники освоят новую систему учёта.",
 			"answer": "By next week, the employees will have mastered the new accounting system.",
-			"explanation": "Future Perfect с маркером 'by next week'."
+			"translations": {
+				"ru": {
+					"question": "К следующей неделе сотрудники освоят новую систему учёта.",
+					"explanation": "Future Perfect с маркером 'by next week'."
+				}
+			}
 		},
 		{
-			"question": "Она не допишет диплом к сессии.",
 			"answer": "She won't have finished her thesis by the exam session.",
-			"explanation": "Отрицательная форма: диплом не будет написан к сессии."
+			"translations": {
+				"ru": {
+					"question": "Она не допишет диплом к сессии.",
+					"explanation": "Отрицательная форма: диплом не будет написан к сессии."
+				}
+			}
 		},
 		{
-			"question": "Он уже подготовит все слайды к завтрашней презентации?",
 			"answer": "Will he have prepared all the slides by tomorrow's presentation?",
-			"explanation": "Вопрос о завершённости подготовки слайдов к презентации."
+			"translations": {
+				"ru": {
+					"question": "Он уже подготовит все слайды к завтрашней презентации?",
+					"explanation": "Вопрос о завершённости подготовки слайдов к презентации."
+				}
+			}
 		},
 		{
-			"question": "К концу года инженеры завершат все испытания нового двигателя.",
 			"answer": "By the end of the year, the engineers will have completed all tests of the new engine.",
-			"explanation": "Future Perfect показывает завершённость испытаний к концу года."
+			"translations": {
+				"ru": {
+					"question": "К концу года инженеры завершат все испытания нового двигателя.",
+					"explanation": "Future Perfect показывает завершённость испытаний к концу года."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как ты позвонишь в справочную, ситуация разрешится.",
 			"answer": "By the time you call the helpline, the situation will have been resolved.",
-			"explanation": "Future Perfect: ситуация будет разрешена к моменту звонка."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как ты позвонишь в справочную, ситуация разрешится.",
+					"explanation": "Future Perfect: ситуация будет разрешена к моменту звонка."
+				}
+			}
 		},
 		{
-			"question": "К следующему году скрипач исполнит все сонаты Бетховена.",
 			"answer": "By next year, the violinist will have performed all of Beethoven's sonatas.",
-			"explanation": "Future Perfect с маркером 'by next year'."
+			"translations": {
+				"ru": {
+					"question": "К следующему году скрипач исполнит все сонаты Бетховена.",
+					"explanation": "Future Perfect с маркером 'by next year'."
+				}
+			}
 		},
 		{
-			"question": "Мы не успеем согласовать смету к началу работ.",
 			"answer": "We won't have approved the estimate by the start of the works.",
-			"explanation": "Отрицательная форма: смета не будет согласована к началу работ."
+			"translations": {
+				"ru": {
+					"question": "Мы не успеем согласовать смету к началу работ.",
+					"explanation": "Отрицательная форма: смета не будет согласована к началу работ."
+				}
+			}
 		},
 		{
-			"question": "Ты уже уберёшь в квартире к приходу гостей?",
 			"answer": "Will you have tidied the flat by the time the guests arrive?",
-			"explanation": "Вопрос о завершённости уборки к приходу гостей."
+			"translations": {
+				"ru": {
+					"question": "Ты уже уберёшь в квартире к приходу гостей?",
+					"explanation": "Вопрос о завершённости уборки к приходу гостей."
+				}
+			}
 		},
 		{
-			"question": "К концу марта лёд на реке полностью растает.",
 			"answer": "By the end of March, the ice on the river will have completely melted.",
-			"explanation": "Future Perfect: таяние льда завершится к концу марта."
+			"translations": {
+				"ru": {
+					"question": "К концу марта лёд на реке полностью растает.",
+					"explanation": "Future Perfect: таяние льда завершится к концу марта."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как ты придёшь на вечеринку, все уже соберутся.",
 			"answer": "By the time you come to the party, everyone will have already gathered.",
-			"explanation": "Future Perfect с 'already': гости соберутся до прихода одного из них."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как ты придёшь на вечеринку, все уже соберутся.",
+					"explanation": "Future Perfect с 'already': гости соберутся до прихода одного из них."
+				}
+			}
 		},
 		{
-			"question": "К следующему октябрю виноградарь соберёт весь урожай.",
 			"answer": "By next October, the winegrower will have harvested all the grapes.",
-			"explanation": "Future Perfect с маркером 'by next October'."
+			"translations": {
+				"ru": {
+					"question": "К следующему октябрю виноградарь соберёт весь урожай.",
+					"explanation": "Future Perfect с маркером 'by next October'."
+				}
+			}
 		},
 		{
-			"question": "Он не успеет выучить все песни к концерту.",
 			"answer": "He won't have learned all the songs by the concert.",
-			"explanation": "Отрицательная форма: песни не будут выучены к концерту."
+			"translations": {
+				"ru": {
+					"question": "Он не успеет выучить все песни к концерту.",
+					"explanation": "Отрицательная форма: песни не будут выучены к концерту."
+				}
+			}
 		},
 		{
-			"question": "Она уже прочтёт всю методичку к первому занятию?",
 			"answer": "Will she have read the entire handbook by the first class?",
-			"explanation": "Вопрос о завершённости чтения методички к первому занятию."
+			"translations": {
+				"ru": {
+					"question": "Она уже прочтёт всю методичку к первому занятию?",
+					"explanation": "Вопрос о завершённости чтения методички к первому занятию."
+				}
+			}
 		},
 		{
-			"question": "К концу переговоров стороны подпишут соглашение.",
 			"answer": "By the end of the negotiations, the parties will have signed an agreement.",
-			"explanation": "Future Perfect: завершение переговоров — соглашение будет подписано."
+			"translations": {
+				"ru": {
+					"question": "К концу переговоров стороны подпишут соглашение.",
+					"explanation": "Future Perfect: завершение переговоров — соглашение будет подписано."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как все сядут за стол, суп уже остынет.",
 			"answer": "By the time everyone sits at the table, the soup will have already gone cold.",
-			"explanation": "Future Perfect с 'already': суп остынет до того, как все сядут за стол."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как все сядут за стол, суп уже остынет.",
+					"explanation": "Future Perfect с 'already': суп остынет до того, как все сядут за стол."
+				}
+			}
 		},
 		{
-			"question": "К следующему ноябрю команда завершит разработку нового алгоритма.",
 			"answer": "By next November, the team will have completed the development of the new algorithm.",
-			"explanation": "Future Perfect с маркером 'by next November'."
+			"translations": {
+				"ru": {
+					"question": "К следующему ноябрю команда завершит разработку нового алгоритма.",
+					"explanation": "Future Perfect с маркером 'by next November'."
+				}
+			}
 		},
 		{
-			"question": "Мы не успеем подготовить все документы к встрече с инвесторами.",
 			"answer": "We won't have prepared all the documents by the meeting with investors.",
-			"explanation": "Отрицательная форма: документы не будут подготовлены к встрече."
+			"translations": {
+				"ru": {
+					"question": "Мы не успеем подготовить все документы к встрече с инвесторами.",
+					"explanation": "Отрицательная форма: документы не будут подготовлены к встрече."
+				}
+			}
 		},
 		{
-			"question": "Ты уже сдашь машину в ремонт к выходным?",
 			"answer": "Will you have taken the car in for repairs by the weekend?",
-			"explanation": "Вопрос о завершённости сдачи машины в ремонт к выходным."
+			"translations": {
+				"ru": {
+					"question": "Ты уже сдашь машину в ремонт к выходным?",
+					"explanation": "Вопрос о завершённости сдачи машины в ремонт к выходным."
+				}
+			}
 		},
 		{
-			"question": "К концу декады население планеты достигнет девяти миллиардов.",
 			"answer": "By the end of the decade, the world's population will have reached nine billion.",
-			"explanation": "Future Perfect показывает завершение демографического процесса к концу десятилетия."
+			"translations": {
+				"ru": {
+					"question": "К концу декады население планеты достигнет девяти миллиардов.",
+					"explanation": "Future Perfect показывает завершение демографического процесса к концу десятилетия."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как ты разберёшься с инструкцией, я уже всё настрою.",
 			"answer": "By the time you figure out the instructions, I will have already set everything up.",
-			"explanation": "Future Perfect с 'already': настройка завершится раньше, чем другой разберётся в инструкции."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как ты разберёшься с инструкцией, я уже всё настрою.",
+					"explanation": "Future Perfect с 'already': настройка завершится раньше, чем другой разберётся в инструкции."
+				}
+			}
 		},
 		{
-			"question": "К следующей весне архитекторы разработают проект нового парка.",
 			"answer": "By next spring, the architects will have drawn up the plans for the new park.",
-			"explanation": "Future Perfect с маркером 'by next spring'."
+			"translations": {
+				"ru": {
+					"question": "К следующей весне архитекторы разработают проект нового парка.",
+					"explanation": "Future Perfect с маркером 'by next spring'."
+				}
+			}
 		},
 		{
-			"question": "Он не сможет накопить на квартиру к сорока годам.",
 			"answer": "He won't have saved up for a flat by the time he's forty.",
-			"explanation": "Отрицательная форма: накопление не будет завершено к сорока годам."
+			"translations": {
+				"ru": {
+					"question": "Он не сможет накопить на квартиру к сорока годам.",
+					"explanation": "Отрицательная форма: накопление не будет завершено к сорока годам."
+				}
+			}
 		},
 		{
-			"question": "Она уже выберет университет к концу школы?",
 			"answer": "Will she have chosen a university by the end of school?",
-			"explanation": "Вопрос о завершённости выбора университета к окончанию школы."
+			"translations": {
+				"ru": {
+					"question": "Она уже выберет университет к концу школы?",
+					"explanation": "Вопрос о завершённости выбора университета к окончанию школы."
+				}
+			}
 		},
 		{
-			"question": "К концу спектакля зрители аплодировали стоя уже трижды.",
 			"answer": "By the end of the show, the audience will have given a standing ovation three times.",
-			"explanation": "Future Perfect: завершение серии оваций к концу спектакля."
+			"translations": {
+				"ru": {
+					"question": "К концу спектакля зрители аплодировали стоя уже трижды.",
+					"explanation": "Future Perfect: завершение серии оваций к концу спектакля."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как они разберут завалы, пройдёт несколько недель.",
 			"answer": "By the time they clear the rubble, several weeks will have passed.",
-			"explanation": "Future Perfect: несколько недель пройдёт к тому времени, как завалы разберут."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как они разберут завалы, пройдёт несколько недель.",
+					"explanation": "Future Perfect: несколько недель пройдёт к тому времени, как завалы разберут."
+				}
+			}
 		},
 		{
-			"question": "К следующему августу лагерь примет тысячу детей.",
 			"answer": "By next August, the camp will have welcomed a thousand children.",
-			"explanation": "Future Perfect с маркером 'by next August'."
+			"translations": {
+				"ru": {
+					"question": "К следующему августу лагерь примет тысячу детей.",
+					"explanation": "Future Perfect с маркером 'by next August'."
+				}
+			}
 		},
 		{
-			"question": "Мы не успеем внедрить изменения к следующему аудиту.",
 			"answer": "We won't have implemented the changes by the next audit.",
-			"explanation": "Отрицательная форма: изменения не будут внедрены к следующему аудиту."
+			"translations": {
+				"ru": {
+					"question": "Мы не успеем внедрить изменения к следующему аудиту.",
+					"explanation": "Отрицательная форма: изменения не будут внедрены к следующему аудиту."
+				}
+			}
 		},
 		{
-			"question": "Ты уже застелишь постель к тому времени, как проснутся дети?",
 			"answer": "Will you have made the beds by the time the children wake up?",
-			"explanation": "Вопрос о завершённости заправки постелей к пробуждению детей."
+			"translations": {
+				"ru": {
+					"question": "Ты уже застелишь постель к тому времени, как проснутся дети?",
+					"explanation": "Вопрос о завершённости заправки постелей к пробуждению детей."
+				}
+			}
 		},
 		{
-			"question": "К концу гонки пилот преодолеет триста кругов.",
 			"answer": "By the end of the race, the driver will have completed three hundred laps.",
-			"explanation": "Future Perfect: завершение дистанции к концу гонки."
+			"translations": {
+				"ru": {
+					"question": "К концу гонки пилот преодолеет триста кругов.",
+					"explanation": "Future Perfect: завершение дистанции к концу гонки."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как закончится рабочий день, они уже примут нового сотрудника.",
 			"answer": "By the time the working day ends, they will have already hired a new employee.",
-			"explanation": "Future Perfect с 'already': найм завершится до конца рабочего дня."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как закончится рабочий день, они уже примут нового сотрудника.",
+					"explanation": "Future Perfect с 'already': найм завершится до конца рабочего дня."
+				}
+			}
 		},
 		{
-			"question": "К следующему декабрю завод выпустит первую партию нового продукта.",
 			"answer": "By next December, the factory will have produced the first batch of the new product.",
-			"explanation": "Future Perfect с маркером 'by next December'."
+			"translations": {
+				"ru": {
+					"question": "К следующему декабрю завод выпустит первую партию нового продукта.",
+					"explanation": "Future Perfect с маркером 'by next December'."
+				}
+			}
 		},
 		{
-			"question": "Она не напишет все главы романа к концу лета.",
 			"answer": "She won't have written all the chapters of the novel by the end of summer.",
-			"explanation": "Отрицательная форма: главы не будут написаны к концу лета."
+			"translations": {
+				"ru": {
+					"question": "Она не напишет все главы романа к концу лета.",
+					"explanation": "Отрицательная форма: главы не будут написаны к концу лета."
+				}
+			}
 		},
 		{
-			"question": "Он уже оформит страховой полис к поездке?",
 			"answer": "Will he have taken out an insurance policy by the trip?",
-			"explanation": "Вопрос о завершённости оформления страховки к поездке."
+			"translations": {
+				"ru": {
+					"question": "Он уже оформит страховой полис к поездке?",
+					"explanation": "Вопрос о завершённости оформления страховки к поездке."
+				}
+			}
 		},
 		{
-			"question": "К концу года студенты пройдут двадцать модулей курса.",
 			"answer": "By the end of the year, the students will have completed twenty course modules.",
-			"explanation": "Future Perfect показывает завершённость модулей к концу года."
+			"translations": {
+				"ru": {
+					"question": "К концу года студенты пройдут двадцать модулей курса.",
+					"explanation": "Future Perfect показывает завершённость модулей к концу года."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как ты свяжешься с ними, они уже сменят телефон.",
 			"answer": "By the time you contact them, they will have already changed their phone number.",
-			"explanation": "Future Perfect с 'already': смена номера произойдёт раньше."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как ты свяжешься с ними, они уже сменят телефон.",
+					"explanation": "Future Perfect с 'already': смена номера произойдёт раньше."
+				}
+			}
 		},
 		{
-			"question": "К следующему лету молодые специалисты пройдут обязательную стажировку.",
 			"answer": "By next summer, the young specialists will have completed their mandatory internship.",
-			"explanation": "Future Perfect с маркером 'by next summer'."
+			"translations": {
+				"ru": {
+					"question": "К следующему лету молодые специалисты пройдут обязательную стажировку.",
+					"explanation": "Future Perfect с маркером 'by next summer'."
+				}
+			}
 		},
 		{
-			"question": "Мы не успеем подключить интернет к открытию офиса.",
 			"answer": "We won't have set up the internet by the office opening.",
-			"explanation": "Отрицательная форма: интернет не будет подключён к открытию."
+			"translations": {
+				"ru": {
+					"question": "Мы не успеем подключить интернет к открытию офиса.",
+					"explanation": "Отрицательная форма: интернет не будет подключён к открытию."
+				}
+			}
 		},
 		{
-			"question": "Ты уже разберёшь вещи к приезду родителей?",
 			"answer": "Will you have unpacked your things by the time your parents arrive?",
-			"explanation": "Вопрос о завершённости разборки вещей к приезду родителей."
+			"translations": {
+				"ru": {
+					"question": "Ты уже разберёшь вещи к приезду родителей?",
+					"explanation": "Вопрос о завершённости разборки вещей к приезду родителей."
+				}
+			}
 		},
 		{
-			"question": "К концу рейса стюардессы обслужат четыреста пассажиров.",
 			"answer": "By the end of the flight, the flight attendants will have served four hundred passengers.",
-			"explanation": "Future Perfect: завершение обслуживания к концу рейса."
+			"translations": {
+				"ru": {
+					"question": "К концу рейса стюардессы обслужат четыреста пассажиров.",
+					"explanation": "Future Perfect: завершение обслуживания к концу рейса."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как ты запустишь обновление, программа уже устареет.",
 			"answer": "By the time you launch the update, the programme will have already become outdated.",
-			"explanation": "Future Perfect с 'already': устаревание произойдёт до запуска обновления."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как ты запустишь обновление, программа уже устареет.",
+					"explanation": "Future Perfect с 'already': устаревание произойдёт до запуска обновления."
+				}
+			}
 		},
 		{
-			"question": "К следующему марту строители положат все трубы в новом квартале.",
 			"answer": "By next March, the builders will have laid all the pipes in the new district.",
-			"explanation": "Future Perfect с маркером 'by next March'."
+			"translations": {
+				"ru": {
+					"question": "К следующему марту строители положат все трубы в новом квартале.",
+					"explanation": "Future Perfect с маркером 'by next March'."
+				}
+			}
 		},
 		{
-			"question": "Он не успеет исправить ошибки в коде к релизу.",
 			"answer": "He won't have fixed the errors in the code by the release.",
-			"explanation": "Отрицательная форма: ошибки не будут исправлены к релизу."
+			"translations": {
+				"ru": {
+					"question": "Он не успеет исправить ошибки в коде к релизу.",
+					"explanation": "Отрицательная форма: ошибки не будут исправлены к релизу."
+				}
+			}
 		},
 		{
-			"question": "Она уже напишет все тесты к завтрашнему уроку?",
 			"answer": "Will she have written all the tests by tomorrow's lesson?",
-			"explanation": "Вопрос о завершённости написания тестов к завтрашнему уроку."
+			"translations": {
+				"ru": {
+					"question": "Она уже напишет все тесты к завтрашнему уроку?",
+					"explanation": "Вопрос о завершённости написания тестов к завтрашнему уроку."
+				}
+			}
 		},
 		{
-			"question": "К концу месяца редактор вычитает весь рукописный текст.",
 			"answer": "By the end of the month, the editor will have proofread the entire manuscript.",
-			"explanation": "Future Perfect показывает завершённость вычитки к концу месяца."
+			"translations": {
+				"ru": {
+					"question": "К концу месяца редактор вычитает весь рукописный текст.",
+					"explanation": "Future Perfect показывает завершённость вычитки к концу месяца."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как ты проснёшься, я уже схожу в магазин.",
 			"answer": "By the time you wake up, I will have already been to the shop.",
-			"explanation": "Future Perfect с 'already': поход в магазин завершится до пробуждения."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как ты проснёшься, я уже схожу в магазин.",
+					"explanation": "Future Perfect с 'already': поход в магазин завершится до пробуждения."
+				}
+			}
 		},
 		{
-			"question": "К следующей зиме фабрика пошьёт десять тысяч изделий.",
 			"answer": "By next winter, the factory will have sewn ten thousand items.",
-			"explanation": "Future Perfect с маркером 'by next winter'."
+			"translations": {
+				"ru": {
+					"question": "К следующей зиме фабрика пошьёт десять тысяч изделий.",
+					"explanation": "Future Perfect с маркером 'by next winter'."
+				}
+			}
 		},
 		{
-			"question": "Мы не успеем набрать персонал к открытию нового офиса.",
 			"answer": "We won't have hired staff by the opening of the new office.",
-			"explanation": "Отрицательная форма: набор персонала не будет завершён к открытию."
+			"translations": {
+				"ru": {
+					"question": "Мы не успеем набрать персонал к открытию нового офиса.",
+					"explanation": "Отрицательная форма: набор персонала не будет завершён к открытию."
+				}
+			}
 		},
 		{
-			"question": "Ты уже прочитаешь все книги из списка к экзамену?",
 			"answer": "Will you have read all the books on the list by the exam?",
-			"explanation": "Вопрос о завершённости чтения к экзамену."
+			"translations": {
+				"ru": {
+					"question": "Ты уже прочитаешь все книги из списка к экзамену?",
+					"explanation": "Вопрос о завершённости чтения к экзамену."
+				}
+			}
 		},
 		{
-			"question": "К концу дня журналист напишет три статьи.",
 			"answer": "By the end of the day, the journalist will have written three articles.",
-			"explanation": "Future Perfect: завершение трёх статей к концу дня."
+			"translations": {
+				"ru": {
+					"question": "К концу дня журналист напишет три статьи.",
+					"explanation": "Future Perfect: завершение трёх статей к концу дня."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как выйдет следующая серия, все поклонники посмотрят предыдущую.",
 			"answer": "By the time the next episode comes out, all the fans will have watched the previous one.",
-			"explanation": "Future Perfect в главном предложении при 'by the time'."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как выйдет следующая серия, все поклонники посмотрят предыдущую.",
+					"explanation": "Future Perfect в главном предложении при 'by the time'."
+				}
+			}
 		},
 		{
-			"question": "К следующей весне молодожёны купят новый дом.",
 			"answer": "By next spring, the newlyweds will have bought a new house.",
-			"explanation": "Future Perfect с маркером 'by next spring'."
+			"translations": {
+				"ru": {
+					"question": "К следующей весне молодожёны купят новый дом.",
+					"explanation": "Future Perfect с маркером 'by next spring'."
+				}
+			}
 		},
 		{
-			"question": "Он не успеет пройти все уровни игры к концу недели.",
 			"answer": "He won't have completed all the levels of the game by the end of the week.",
-			"explanation": "Отрицательная форма: уровни не будут пройдены к концу недели."
+			"translations": {
+				"ru": {
+					"question": "Он не успеет пройти все уровни игры к концу недели.",
+					"explanation": "Отрицательная форма: уровни не будут пройдены к концу недели."
+				}
+			}
 		},
 		{
-			"question": "Она уже переедет в новую квартиру к лету?",
 			"answer": "Will she have moved into the new flat by summer?",
-			"explanation": "Вопрос о завершённости переезда к лету."
+			"translations": {
+				"ru": {
+					"question": "Она уже переедет в новую квартиру к лету?",
+					"explanation": "Вопрос о завершённости переезда к лету."
+				}
+			}
 		},
 		{
-			"question": "К концу ярмарки продавцы продадут все товары.",
 			"answer": "By the end of the fair, the vendors will have sold all their goods.",
-			"explanation": "Future Perfect показывает завершённость продаж к концу ярмарки."
+			"translations": {
+				"ru": {
+					"question": "К концу ярмарки продавцы продадут все товары.",
+					"explanation": "Future Perfect показывает завершённость продаж к концу ярмарки."
+				}
+			}
 		},
 		{
-			"question": "К тому времени, как он сдаст отчёт, дедлайн уже пройдёт.",
 			"answer": "By the time he submits the report, the deadline will have already passed.",
-			"explanation": "Future Perfect с 'already': дедлайн пройдёт раньше сдачи отчёта."
+			"translations": {
+				"ru": {
+					"question": "К тому времени, как он сдаст отчёт, дедлайн уже пройдёт.",
+					"explanation": "Future Perfect с 'already': дедлайн пройдёт раньше сдачи отчёта."
+				}
+			}
 		}
 	]
 }

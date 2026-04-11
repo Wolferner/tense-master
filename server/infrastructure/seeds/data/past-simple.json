@@ -2,959 +2,1723 @@
 	"tense": "PAST_SIMPLE",
 	"exercises": [
 		{
-			"question": "Вчера я пошёл в кино.",
 			"answer": "Yesterday I went to the cinema.",
-			"explanation": "Past Simple: завершённое действие в прошлом. 'Yesterday' — маркер прошедшего времени."
+			"translations": {
+				"ru": {
+					"question": "Вчера я пошёл в кино.",
+					"explanation": "Past Simple: завершённое действие в прошлом. 'Yesterday' — маркер прошедшего времени."
+				}
+			}
 		},
 		{
-			"question": "Она написала письмо час назад.",
 			"answer": "She wrote a letter an hour ago.",
-			"explanation": "Past Simple: завершённое действие. 'An hour ago' указывает на конкретный момент в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она написала письмо час назад.",
+					"explanation": "Past Simple: завершённое действие. 'An hour ago' указывает на конкретный момент в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы познакомились в прошлом году.",
 			"answer": "We met last year.",
-			"explanation": "Past Simple: однократное событие в прошлом. 'Last year' — маркер прошедшего."
+			"translations": {
+				"ru": {
+					"question": "Мы познакомились в прошлом году.",
+					"explanation": "Past Simple: однократное событие в прошлом. 'Last year' — маркер прошедшего."
+				}
+			}
 		},
 		{
-			"question": "Он купил новый телефон на прошлой неделе.",
 			"answer": "He bought a new phone last week.",
-			"explanation": "Past Simple: завершённое действие. 'Last week' — конкретный период в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он купил новый телефон на прошлой неделе.",
+					"explanation": "Past Simple: завершённое действие. 'Last week' — конкретный период в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она позвонила мне вчера вечером.",
 			"answer": "She called me yesterday evening.",
-			"explanation": "Past Simple: конкретное действие в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она позвонила мне вчера вечером.",
+					"explanation": "Past Simple: конкретное действие в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы поехали на море прошлым летом.",
 			"answer": "We went to the seaside last summer.",
-			"explanation": "Past Simple: завершённое событие, происходившее прошлым летом."
+			"translations": {
+				"ru": {
+					"question": "Мы поехали на море прошлым летом.",
+					"explanation": "Past Simple: завершённое событие, происходившее прошлым летом."
+				}
+			}
 		},
 		{
-			"question": "Я закончил проект в пятницу.",
 			"answer": "I finished the project on Friday.",
-			"explanation": "Past Simple: действие завершилось в пятницу."
+			"translations": {
+				"ru": {
+					"question": "Я закончил проект в пятницу.",
+					"explanation": "Past Simple: действие завершилось в пятницу."
+				}
+			}
 		},
 		{
-			"question": "Они переехали в новый дом два года назад.",
 			"answer": "They moved to a new house two years ago.",
-			"explanation": "Past Simple: событие, произошедшее два года назад."
+			"translations": {
+				"ru": {
+					"question": "Они переехали в новый дом два года назад.",
+					"explanation": "Past Simple: событие, произошедшее два года назад."
+				}
+			}
 		},
 		{
-			"question": "Он выиграл гонку в прошлом месяце.",
 			"answer": "He won the race last month.",
-			"explanation": "Past Simple: победа в прошлом месяце."
+			"translations": {
+				"ru": {
+					"question": "Он выиграл гонку в прошлом месяце.",
+					"explanation": "Past Simple: победа в прошлом месяце."
+				}
+			}
 		},
 		{
-			"question": "Я увидел её в парке вчера.",
 			"answer": "I saw her in the park yesterday.",
-			"explanation": "Past Simple: конкретная встреча вчера."
+			"translations": {
+				"ru": {
+					"question": "Я увидел её в парке вчера.",
+					"explanation": "Past Simple: конкретная встреча вчера."
+				}
+			}
 		},
 		{
-			"question": "Она приготовила вкусный ужин вчера.",
 			"answer": "She cooked a delicious dinner yesterday.",
-			"explanation": "Past Simple: приготовление ужина вчера."
+			"translations": {
+				"ru": {
+					"question": "Она приготовила вкусный ужин вчера.",
+					"explanation": "Past Simple: приготовление ужина вчера."
+				}
+			}
 		},
 		{
-			"question": "Мы посетили музей в субботу.",
 			"answer": "We visited the museum on Saturday.",
-			"explanation": "Past Simple: посещение музея в конкретный день."
+			"translations": {
+				"ru": {
+					"question": "Мы посетили музей в субботу.",
+					"explanation": "Past Simple: посещение музея в конкретный день."
+				}
+			}
 		},
 		{
-			"question": "Он сказал правду.",
 			"answer": "He told the truth.",
-			"explanation": "Past Simple: однократное действие в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он сказал правду.",
+					"explanation": "Past Simple: однократное действие в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я прочитал эту книгу в прошлом месяце.",
 			"answer": "I read this book last month.",
-			"explanation": "Past Simple: чтение завершилось в прошлом месяце."
+			"translations": {
+				"ru": {
+					"question": "Я прочитал эту книгу в прошлом месяце.",
+					"explanation": "Past Simple: чтение завершилось в прошлом месяце."
+				}
+			}
 		},
 		{
-			"question": "Она выучила стихотворение наизусть.",
 			"answer": "She learnt the poem by heart.",
-			"explanation": "Past Simple: действие завершено в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она выучила стихотворение наизусть.",
+					"explanation": "Past Simple: действие завершено в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы сыграли в теннис в воскресенье.",
 			"answer": "We played tennis on Sunday.",
-			"explanation": "Past Simple: игра в теннис в конкретный день."
+			"translations": {
+				"ru": {
+					"question": "Мы сыграли в теннис в воскресенье.",
+					"explanation": "Past Simple: игра в теннис в конкретный день."
+				}
+			}
 		},
 		{
-			"question": "Он починил машину вчера.",
 			"answer": "He repaired the car yesterday.",
-			"explanation": "Past Simple: ремонт машины завершился вчера."
+			"translations": {
+				"ru": {
+					"question": "Он починил машину вчера.",
+					"explanation": "Past Simple: ремонт машины завершился вчера."
+				}
+			}
 		},
 		{
-			"question": "Я нашёл кошелёк на улице.",
 			"answer": "I found a wallet in the street.",
-			"explanation": "Past Simple: конкретное событие в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я нашёл кошелёк на улице.",
+					"explanation": "Past Simple: конкретное событие в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она поступила в университет три года назад.",
 			"answer": "She entered university three years ago.",
-			"explanation": "Past Simple: поступление в университет три года назад."
+			"translations": {
+				"ru": {
+					"question": "Она поступила в университет три года назад.",
+					"explanation": "Past Simple: поступление в университет три года назад."
+				}
+			}
 		},
 		{
-			"question": "Мы отпраздновали день рождения вчера.",
 			"answer": "We celebrated the birthday yesterday.",
-			"explanation": "Past Simple: праздник вчера."
+			"translations": {
+				"ru": {
+					"question": "Мы отпраздновали день рождения вчера.",
+					"explanation": "Past Simple: праздник вчера."
+				}
+			}
 		},
 		{
-			"question": "Он уехал в командировку на прошлой неделе.",
 			"answer": "He went on a business trip last week.",
-			"explanation": "Past Simple: отъезд в командировку на прошлой неделе."
+			"translations": {
+				"ru": {
+					"question": "Он уехал в командировку на прошлой неделе.",
+					"explanation": "Past Simple: отъезд в командировку на прошлой неделе."
+				}
+			}
 		},
 		{
-			"question": "Я сдал экзамен в мае.",
 			"answer": "I passed the exam in May.",
-			"explanation": "Past Simple: сдача экзамена в конкретный месяц."
+			"translations": {
+				"ru": {
+					"question": "Я сдал экзамен в мае.",
+					"explanation": "Past Simple: сдача экзамена в конкретный месяц."
+				}
+			}
 		},
 		{
-			"question": "Она упала с велосипеда и сломала руку.",
 			"answer": "She fell off her bike and broke her arm.",
-			"explanation": "Past Simple: последовательность событий в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она упала с велосипеда и сломала руку.",
+					"explanation": "Past Simple: последовательность событий в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы улетели в отпуск в прошлую пятницу.",
 			"answer": "We flew off on holiday last Friday.",
-			"explanation": "Past Simple: отлёт в прошлую пятницу."
+			"translations": {
+				"ru": {
+					"question": "Мы улетели в отпуск в прошлую пятницу.",
+					"explanation": "Past Simple: отлёт в прошлую пятницу."
+				}
+			}
 		},
 		{
-			"question": "Он написал эту песню десять лет назад.",
 			"answer": "He wrote this song ten years ago.",
-			"explanation": "Past Simple: написание песни десять лет назад."
+			"translations": {
+				"ru": {
+					"question": "Он написал эту песню десять лет назад.",
+					"explanation": "Past Simple: написание песни десять лет назад."
+				}
+			}
 		},
 		{
-			"question": "Я встал рано утром вчера.",
 			"answer": "I got up early yesterday morning.",
-			"explanation": "Past Simple: пробуждение вчера утром."
+			"translations": {
+				"ru": {
+					"question": "Я встал рано утром вчера.",
+					"explanation": "Past Simple: пробуждение вчера утром."
+				}
+			}
 		},
 		{
-			"question": "Она забыла взять зонт.",
 			"answer": "She forgot to take her umbrella.",
-			"explanation": "Past Simple: действие или его отсутствие в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она забыла взять зонт.",
+					"explanation": "Past Simple: действие или его отсутствие в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы поговорили с директором вчера.",
 			"answer": "We spoke to the director yesterday.",
-			"explanation": "Past Simple: разговор с директором вчера."
+			"translations": {
+				"ru": {
+					"question": "Мы поговорили с директором вчера.",
+					"explanation": "Past Simple: разговор с директором вчера."
+				}
+			}
 		},
 		{
-			"question": "Он построил этот дом своими руками.",
 			"answer": "He built this house with his own hands.",
-			"explanation": "Past Simple: завершённое строительство в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он построил этот дом своими руками.",
+					"explanation": "Past Simple: завершённое строительство в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я потерял ключи на прошлой неделе.",
 			"answer": "I lost my keys last week.",
-			"explanation": "Past Simple: потеря ключей на прошлой неделе."
+			"translations": {
+				"ru": {
+					"question": "Я потерял ключи на прошлой неделе.",
+					"explanation": "Past Simple: потеря ключей на прошлой неделе."
+				}
+			}
 		},
 		{
-			"question": "Она поступила на курсы рисования в сентябре.",
 			"answer": "She enrolled in drawing classes in September.",
-			"explanation": "Past Simple: запись на курсы в сентябре."
+			"translations": {
+				"ru": {
+					"question": "Она поступила на курсы рисования в сентябре.",
+					"explanation": "Past Simple: запись на курсы в сентябре."
+				}
+			}
 		},
 		{
-			"question": "Мы посмотрели новый фильм вчера вечером.",
 			"answer": "We watched a new film yesterday evening.",
-			"explanation": "Past Simple: просмотр фильма вчера вечером."
+			"translations": {
+				"ru": {
+					"question": "Мы посмотрели новый фильм вчера вечером.",
+					"explanation": "Past Simple: просмотр фильма вчера вечером."
+				}
+			}
 		},
 		{
-			"question": "Он получил письмо утром.",
 			"answer": "He received a letter in the morning.",
-			"explanation": "Past Simple: получение письма утром."
+			"translations": {
+				"ru": {
+					"question": "Он получил письмо утром.",
+					"explanation": "Past Simple: получение письма утром."
+				}
+			}
 		},
 		{
-			"question": "Я купил билеты заранее.",
 			"answer": "I bought the tickets in advance.",
-			"explanation": "Past Simple: покупка билетов в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я купил билеты заранее.",
+					"explanation": "Past Simple: покупка билетов в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она познакомилась с мужем на вечеринке.",
 			"answer": "She met her husband at a party.",
-			"explanation": "Past Simple: знакомство на вечеринке в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она познакомилась с мужем на вечеринке.",
+					"explanation": "Past Simple: знакомство на вечеринке в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы прилетели в Лондон позавчера.",
 			"answer": "We arrived in London the day before yesterday.",
-			"explanation": "Past Simple: прилёт позавчера."
+			"translations": {
+				"ru": {
+					"question": "Мы прилетели в Лондон позавчера.",
+					"explanation": "Past Simple: прилёт позавчера."
+				}
+			}
 		},
 		{
-			"question": "Он позвонил мне и сообщил новость.",
 			"answer": "He called me and told me the news.",
-			"explanation": "Past Simple: последовательность действий в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он позвонил мне и сообщил новость.",
+					"explanation": "Past Simple: последовательность действий в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я забыл выключить свет.",
 			"answer": "I forgot to turn off the light.",
-			"explanation": "Past Simple: забывание как завершённый факт."
+			"translations": {
+				"ru": {
+					"question": "Я забыл выключить свет.",
+					"explanation": "Past Simple: забывание как завершённый факт."
+				}
+			}
 		},
 		{
-			"question": "Она выиграла конкурс в прошлом году.",
 			"answer": "She won the competition last year.",
-			"explanation": "Past Simple: победа в конкурсе в прошлом году."
+			"translations": {
+				"ru": {
+					"question": "Она выиграла конкурс в прошлом году.",
+					"explanation": "Past Simple: победа в конкурсе в прошлом году."
+				}
+			}
 		},
 		{
-			"question": "Мы провели выходные на природе.",
 			"answer": "We spent the weekend in the countryside.",
-			"explanation": "Past Simple: выходные на природе в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы провели выходные на природе.",
+					"explanation": "Past Simple: выходные на природе в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он опоздал на поезд.",
 			"answer": "He missed the train.",
-			"explanation": "Past Simple: конкретное событие в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он опоздал на поезд.",
+					"explanation": "Past Simple: конкретное событие в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я открыл дверь и вошёл.",
 			"answer": "I opened the door and came in.",
-			"explanation": "Past Simple: последовательность действий."
+			"translations": {
+				"ru": {
+					"question": "Я открыл дверь и вошёл.",
+					"explanation": "Past Simple: последовательность действий."
+				}
+			}
 		},
 		{
-			"question": "Она взяла зонт и вышла на улицу.",
 			"answer": "She took her umbrella and went outside.",
-			"explanation": "Past Simple: последовательные действия в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она взяла зонт и вышла на улицу.",
+					"explanation": "Past Simple: последовательные действия в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы сходили в ресторан в пятницу.",
 			"answer": "We went to a restaurant on Friday.",
-			"explanation": "Past Simple: поход в ресторан в пятницу."
+			"translations": {
+				"ru": {
+					"question": "Мы сходили в ресторан в пятницу.",
+					"explanation": "Past Simple: поход в ресторан в пятницу."
+				}
+			}
 		},
 		{
-			"question": "Он сдал отчёт вовремя.",
 			"answer": "He submitted the report on time.",
-			"explanation": "Past Simple: сдача отчёта в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он сдал отчёт вовремя.",
+					"explanation": "Past Simple: сдача отчёта в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я выпил кофе и пошёл на работу.",
 			"answer": "I had a coffee and went to work.",
-			"explanation": "Past Simple: утренняя последовательность действий в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я выпил кофе и пошёл на работу.",
+					"explanation": "Past Simple: утренняя последовательность действий в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она закончила университет в прошлом году.",
 			"answer": "She graduated from university last year.",
-			"explanation": "Past Simple: окончание университета в прошлом году."
+			"translations": {
+				"ru": {
+					"question": "Она закончила университет в прошлом году.",
+					"explanation": "Past Simple: окончание университета в прошлом году."
+				}
+			}
 		},
 		{
-			"question": "Мы купили дом за городом.",
 			"answer": "We bought a house in the country.",
-			"explanation": "Past Simple: покупка дома в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы купили дом за городом.",
+					"explanation": "Past Simple: покупка дома в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он решил уволиться.",
 			"answer": "He decided to quit his job.",
-			"explanation": "Past Simple: решение, принятое в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он решил уволиться.",
+					"explanation": "Past Simple: решение, принятое в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я принёс цветы.",
 			"answer": "I brought flowers.",
-			"explanation": "Past Simple: однократное действие в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я принёс цветы.",
+					"explanation": "Past Simple: однократное действие в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она пожаловалась менеджеру.",
 			"answer": "She complained to the manager.",
-			"explanation": "Past Simple: жалоба в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она пожаловалась менеджеру.",
+					"explanation": "Past Simple: жалоба в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы наняли нового сотрудника в марте.",
 			"answer": "We hired a new employee in March.",
-			"explanation": "Past Simple: найм сотрудника в конкретный месяц."
+			"translations": {
+				"ru": {
+					"question": "Мы наняли нового сотрудника в марте.",
+					"explanation": "Past Simple: найм сотрудника в конкретный месяц."
+				}
+			}
 		},
 		{
-			"question": "Он проиграл спор.",
 			"answer": "He lost the argument.",
-			"explanation": "Past Simple: проигрыш в споре в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он проиграл спор.",
+					"explanation": "Past Simple: проигрыш в споре в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я съел весь торт.",
 			"answer": "I ate the whole cake.",
-			"explanation": "Past Simple: действие полностью завершено."
+			"translations": {
+				"ru": {
+					"question": "Я съел весь торт.",
+					"explanation": "Past Simple: действие полностью завершено."
+				}
+			}
 		},
 		{
-			"question": "Она отказалась от предложения.",
 			"answer": "She refused the offer.",
-			"explanation": "Past Simple: отказ в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она отказалась от предложения.",
+					"explanation": "Past Simple: отказ в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы отменили встречу.",
 			"answer": "We cancelled the meeting.",
-			"explanation": "Past Simple: отмена встречи в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы отменили встречу.",
+					"explanation": "Past Simple: отмена встречи в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он сломал ногу на тренировке.",
 			"answer": "He broke his leg at training.",
-			"explanation": "Past Simple: травма в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он сломал ногу на тренировке.",
+					"explanation": "Past Simple: травма в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я отправил электронное письмо.",
 			"answer": "I sent an email.",
-			"explanation": "Past Simple: отправка письма в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я отправил электронное письмо.",
+					"explanation": "Past Simple: отправка письма в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она сшила платье сама.",
 			"answer": "She sewed the dress herself.",
-			"explanation": "Past Simple: завершённое действие в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она сшила платье сама.",
+					"explanation": "Past Simple: завершённое действие в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы добрались до вершины горы.",
 			"answer": "We reached the top of the mountain.",
-			"explanation": "Past Simple: достижение цели в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы добрались до вершины горы.",
+					"explanation": "Past Simple: достижение цели в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он открыл собственный бизнес пять лет назад.",
 			"answer": "He opened his own business five years ago.",
-			"explanation": "Past Simple: открытие бизнеса пять лет назад."
+			"translations": {
+				"ru": {
+					"question": "Он открыл собственный бизнес пять лет назад.",
+					"explanation": "Past Simple: открытие бизнеса пять лет назад."
+				}
+			}
 		},
 		{
-			"question": "Я посетил врача на прошлой неделе.",
 			"answer": "I visited the doctor last week.",
-			"explanation": "Past Simple: визит к врачу на прошлой неделе."
+			"translations": {
+				"ru": {
+					"question": "Я посетил врача на прошлой неделе.",
+					"explanation": "Past Simple: визит к врачу на прошлой неделе."
+				}
+			}
 		},
 		{
-			"question": "Она родилась в маленьком городе.",
 			"answer": "She was born in a small town.",
-			"explanation": "Past Simple: факт рождения в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она родилась в маленьком городе.",
+					"explanation": "Past Simple: факт рождения в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы узнали новость из газеты.",
 			"answer": "We learnt the news from a newspaper.",
-			"explanation": "Past Simple: получение информации в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы узнали новость из газеты.",
+					"explanation": "Past Simple: получение информации в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он подписал контракт вчера.",
 			"answer": "He signed the contract yesterday.",
-			"explanation": "Past Simple: подписание контракта вчера."
+			"translations": {
+				"ru": {
+					"question": "Он подписал контракт вчера.",
+					"explanation": "Past Simple: подписание контракта вчера."
+				}
+			}
 		},
 		{
-			"question": "Я увидел аварию на дороге.",
 			"answer": "I saw an accident on the road.",
-			"explanation": "Past Simple: конкретное наблюдение в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я увидел аварию на дороге.",
+					"explanation": "Past Simple: конкретное наблюдение в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она похудела на пять килограммов.",
 			"answer": "She lost five kilograms.",
-			"explanation": "Past Simple: достигнутый результат в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она похудела на пять килограммов.",
+					"explanation": "Past Simple: достигнутый результат в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы переехали в другой город в детстве.",
 			"answer": "We moved to another city in childhood.",
-			"explanation": "Past Simple: переезд в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы переехали в другой город в детстве.",
+					"explanation": "Past Simple: переезд в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он нашёл новую работу быстро.",
 			"answer": "He found a new job quickly.",
-			"explanation": "Past Simple: нахождение работы в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он нашёл новую работу быстро.",
+					"explanation": "Past Simple: нахождение работы в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я записался на курсы вождения.",
 			"answer": "I signed up for driving lessons.",
-			"explanation": "Past Simple: запись на курсы в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я записался на курсы вождения.",
+					"explanation": "Past Simple: запись на курсы в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она напекла печенья для гостей.",
 			"answer": "She baked cookies for the guests.",
-			"explanation": "Past Simple: выпечка печенья в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она напекла печенья для гостей.",
+					"explanation": "Past Simple: выпечка печенья в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы встретились на конференции.",
 			"answer": "We met at a conference.",
-			"explanation": "Past Simple: встреча на конференции в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы встретились на конференции.",
+					"explanation": "Past Simple: встреча на конференции в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он вернулся домой поздно.",
 			"answer": "He came home late.",
-			"explanation": "Past Simple: возвращение домой в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он вернулся домой поздно.",
+					"explanation": "Past Simple: возвращение домой в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я зарегистрировался на сайте.",
 			"answer": "I registered on the website.",
-			"explanation": "Past Simple: регистрация в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я зарегистрировался на сайте.",
+					"explanation": "Past Simple: регистрация в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она выступила на концерте блестяще.",
 			"answer": "She performed brilliantly at the concert.",
-			"explanation": "Past Simple: выступление в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она выступила на концерте блестяще.",
+					"explanation": "Past Simple: выступление в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы пропустили автобус.",
 			"answer": "We missed the bus.",
-			"explanation": "Past Simple: конкретное событие в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы пропустили автобус.",
+					"explanation": "Past Simple: конкретное событие в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он дал неправильный ответ.",
 			"answer": "He gave the wrong answer.",
-			"explanation": "Past Simple: действие в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он дал неправильный ответ.",
+					"explanation": "Past Simple: действие в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я выключил телевизор и лёг спать.",
 			"answer": "I turned off the TV and went to bed.",
-			"explanation": "Past Simple: последовательные действия перед сном."
+			"translations": {
+				"ru": {
+					"question": "Я выключил телевизор и лёг спать.",
+					"explanation": "Past Simple: последовательные действия перед сном."
+				}
+			}
 		},
 		{
-			"question": "Она взяла деньги из банкомата.",
 			"answer": "She took money from the cash machine.",
-			"explanation": "Past Simple: конкретное действие в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она взяла деньги из банкомата.",
+					"explanation": "Past Simple: конкретное действие в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы выиграли матч со счётом три ноль.",
 			"answer": "We won the match three nil.",
-			"explanation": "Past Simple: победа в матче."
+			"translations": {
+				"ru": {
+					"question": "Мы выиграли матч со счётом три ноль.",
+					"explanation": "Past Simple: победа в матче."
+				}
+			}
 		},
 		{
-			"question": "Он порезался при бритье.",
 			"answer": "He cut himself while shaving.",
-			"explanation": "Past Simple: конкретный инцидент в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он порезался при бритье.",
+					"explanation": "Past Simple: конкретный инцидент в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я понял свою ошибку слишком поздно.",
 			"answer": "I realised my mistake too late.",
-			"explanation": "Past Simple: осознание ошибки в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я понял свою ошибку слишком поздно.",
+					"explanation": "Past Simple: осознание ошибки в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она выразила своё мнение открыто.",
 			"answer": "She expressed her opinion openly.",
-			"explanation": "Past Simple: однократное высказывание в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она выразила своё мнение открыто.",
+					"explanation": "Past Simple: однократное высказывание в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы договорились встретиться на следующей неделе.",
 			"answer": "We agreed to meet the following week.",
-			"explanation": "Past Simple: договорённость в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы договорились встретиться на следующей неделе.",
+					"explanation": "Past Simple: договорённость в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он прыгнул в воду с вышки.",
 			"answer": "He jumped into the water from the diving board.",
-			"explanation": "Past Simple: однократное действие в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он прыгнул в воду с вышки.",
+					"explanation": "Past Simple: однократное действие в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я поздравил её с днём рождения.",
 			"answer": "I congratulated her on her birthday.",
-			"explanation": "Past Simple: поздравление в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я поздравил её с днём рождения.",
+					"explanation": "Past Simple: поздравление в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она выиграла главный приз.",
 			"answer": "She won the main prize.",
-			"explanation": "Past Simple: победа в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она выиграла главный приз.",
+					"explanation": "Past Simple: победа в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы добрались до гостиницы поздно ночью.",
 			"answer": "We arrived at the hotel late at night.",
-			"explanation": "Past Simple: прибытие в гостиницу в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы добрались до гостиницы поздно ночью.",
+					"explanation": "Past Simple: прибытие в гостиницу в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он поссорился с другом.",
 			"answer": "He had an argument with his friend.",
-			"explanation": "Past Simple: ссора в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он поссорился с другом.",
+					"explanation": "Past Simple: ссора в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я заказал пиццу домой.",
 			"answer": "I ordered pizza to my home.",
-			"explanation": "Past Simple: заказ пиццы в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я заказал пиццу домой.",
+					"explanation": "Past Simple: заказ пиццы в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она выучила новое слово.",
 			"answer": "She learnt a new word.",
-			"explanation": "Past Simple: однократное действие в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она выучила новое слово.",
+					"explanation": "Past Simple: однократное действие в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы посадили дерево в саду.",
 			"answer": "We planted a tree in the garden.",
-			"explanation": "Past Simple: посадка дерева в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы посадили дерево в саду.",
+					"explanation": "Past Simple: посадка дерева в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он разбил стакан случайно.",
 			"answer": "He accidentally broke the glass.",
-			"explanation": "Past Simple: случайное действие в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он разбил стакан случайно.",
+					"explanation": "Past Simple: случайное действие в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я предложил ему помощь.",
 			"answer": "I offered him help.",
-			"explanation": "Past Simple: предложение помощи в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я предложил ему помощь.",
+					"explanation": "Past Simple: предложение помощи в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она взяла такси до аэропорта.",
 			"answer": "She took a taxi to the airport.",
-			"explanation": "Past Simple: поездка на такси в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она взяла такси до аэропорта.",
+					"explanation": "Past Simple: поездка на такси в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы обсудили этот вопрос на собрании.",
 			"answer": "We discussed this matter at the meeting.",
-			"explanation": "Past Simple: обсуждение на собрании."
+			"translations": {
+				"ru": {
+					"question": "Мы обсудили этот вопрос на собрании.",
+					"explanation": "Past Simple: обсуждение на собрании."
+				}
+			}
 		},
 		{
-			"question": "Он попросил прощения.",
 			"answer": "He apologised.",
-			"explanation": "Past Simple: однократное действие в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он попросил прощения.",
+					"explanation": "Past Simple: однократное действие в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я помог ему перенести вещи.",
 			"answer": "I helped him move his things.",
-			"explanation": "Past Simple: оказание помощи в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я помог ему перенести вещи.",
+					"explanation": "Past Simple: оказание помощи в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она поблагодарила всех гостей.",
 			"answer": "She thanked all the guests.",
-			"explanation": "Past Simple: благодарность в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она поблагодарила всех гостей.",
+					"explanation": "Past Simple: благодарность в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы нашли хороший ресторан случайно.",
 			"answer": "We found a good restaurant by chance.",
-			"explanation": "Past Simple: случайная находка в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы нашли хороший ресторан случайно.",
+					"explanation": "Past Simple: случайная находка в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он упал и ушиб колено.",
 			"answer": "He fell and hurt his knee.",
-			"explanation": "Past Simple: последовательность событий в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он упал и ушиб колено.",
+					"explanation": "Past Simple: последовательность событий в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я продал свою старую машину.",
 			"answer": "I sold my old car.",
-			"explanation": "Past Simple: продажа машины в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я продал свою старую машину.",
+					"explanation": "Past Simple: продажа машины в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она написала жалобу директору.",
 			"answer": "She wrote a complaint to the director.",
-			"explanation": "Past Simple: написание жалобы в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она написала жалобу директору.",
+					"explanation": "Past Simple: написание жалобы в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы сфотографировали закат.",
 			"answer": "We photographed the sunset.",
-			"explanation": "Past Simple: фотографирование в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы сфотографировали закат.",
+					"explanation": "Past Simple: фотографирование в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он задал вопрос преподавателю.",
 			"answer": "He asked the teacher a question.",
-			"explanation": "Past Simple: конкретный вопрос в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он задал вопрос преподавателю.",
+					"explanation": "Past Simple: конкретный вопрос в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я нарисовал портрет друга.",
 			"answer": "I drew a portrait of my friend.",
-			"explanation": "Past Simple: рисование портрета в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я нарисовал портрет друга.",
+					"explanation": "Past Simple: рисование портрета в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она отказалась идти на вечеринку.",
 			"answer": "She refused to go to the party.",
-			"explanation": "Past Simple: отказ в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она отказалась идти на вечеринку.",
+					"explanation": "Past Simple: отказ в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы переплыли реку вброд.",
 			"answer": "We crossed the river on foot.",
-			"explanation": "Past Simple: переправа в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы переплыли реку вброд.",
+					"explanation": "Past Simple: переправа в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он сыграл главную роль в спектакле.",
 			"answer": "He played the main role in the play.",
-			"explanation": "Past Simple: выступление в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он сыграл главную роль в спектакле.",
+					"explanation": "Past Simple: выступление в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я оплатил счёт онлайн.",
 			"answer": "I paid the bill online.",
-			"explanation": "Past Simple: оплата в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я оплатил счёт онлайн.",
+					"explanation": "Past Simple: оплата в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она подарила мне книгу на день рождения.",
 			"answer": "She gave me a book for my birthday.",
-			"explanation": "Past Simple: подарок в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она подарила мне книгу на день рождения.",
+					"explanation": "Past Simple: подарок в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы поехали на экскурсию в горы.",
 			"answer": "We went on a trip to the mountains.",
-			"explanation": "Past Simple: поездка в горы в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы поехали на экскурсию в горы.",
+					"explanation": "Past Simple: поездка в горы в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он закрыл окно, потому что было холодно.",
 			"answer": "He closed the window because it was cold.",
-			"explanation": "Past Simple: действие в прошлом с причиной."
+			"translations": {
+				"ru": {
+					"question": "Он закрыл окно, потому что было холодно.",
+					"explanation": "Past Simple: действие в прошлом с причиной."
+				}
+			}
 		},
 		{
-			"question": "Я пришёл на работу вовремя.",
 			"answer": "I came to work on time.",
-			"explanation": "Past Simple: приход на работу в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я пришёл на работу вовремя.",
+					"explanation": "Past Simple: приход на работу в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она напомнила мне о встрече.",
 			"answer": "She reminded me about the meeting.",
-			"explanation": "Past Simple: напоминание в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она напомнила мне о встрече.",
+					"explanation": "Past Simple: напоминание в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы установили новое программное обеспечение.",
 			"answer": "We installed new software.",
-			"explanation": "Past Simple: установка программы в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы установили новое программное обеспечение.",
+					"explanation": "Past Simple: установка программы в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он взял на себя ответственность.",
 			"answer": "He took responsibility.",
-			"explanation": "Past Simple: однократное действие в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он взял на себя ответственность.",
+					"explanation": "Past Simple: однократное действие в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я показал ему дорогу.",
 			"answer": "I showed him the way.",
-			"explanation": "Past Simple: оказание помощи в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я показал ему дорогу.",
+					"explanation": "Past Simple: оказание помощи в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она сдала экзамен на отлично.",
 			"answer": "She passed the exam with flying colours.",
-			"explanation": "Past Simple: успешная сдача экзамена."
+			"translations": {
+				"ru": {
+					"question": "Она сдала экзамен на отлично.",
+					"explanation": "Past Simple: успешная сдача экзамена."
+				}
+			}
 		},
 		{
-			"question": "Мы выбрали новый диван.",
 			"answer": "We chose a new sofa.",
-			"explanation": "Past Simple: выбор дивана в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы выбрали новый диван.",
+					"explanation": "Past Simple: выбор дивана в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он сообщил о проблеме в службу поддержки.",
 			"answer": "He reported the problem to the support service.",
-			"explanation": "Past Simple: сообщение о проблеме в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он сообщил о проблеме в службу поддержки.",
+					"explanation": "Past Simple: сообщение о проблеме в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я застрял в лифте.",
 			"answer": "I got stuck in the lift.",
-			"explanation": "Past Simple: конкретное событие в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я застрял в лифте.",
+					"explanation": "Past Simple: конкретное событие в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она выбросила старые журналы.",
 			"answer": "She threw away the old magazines.",
-			"explanation": "Past Simple: избавление от вещей в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она выбросила старые журналы.",
+					"explanation": "Past Simple: избавление от вещей в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы сделали перерыв на обед.",
 			"answer": "We took a lunch break.",
-			"explanation": "Past Simple: перерыв на обед в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы сделали перерыв на обед.",
+					"explanation": "Past Simple: перерыв на обед в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он прочитал доклад перед аудиторией.",
 			"answer": "He delivered the report in front of the audience.",
-			"explanation": "Past Simple: выступление с докладом в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он прочитал доклад перед аудиторией.",
+					"explanation": "Past Simple: выступление с докладом в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я накормил кошку.",
 			"answer": "I fed the cat.",
-			"explanation": "Past Simple: кормление кошки в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я накормил кошку.",
+					"explanation": "Past Simple: кормление кошки в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она поменяла причёску.",
 			"answer": "She changed her hairstyle.",
-			"explanation": "Past Simple: изменение причёски в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она поменяла причёску.",
+					"explanation": "Past Simple: изменение причёски в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы навестили бабушку в воскресенье.",
 			"answer": "We visited grandmother on Sunday.",
-			"explanation": "Past Simple: визит к бабушке в воскресенье."
+			"translations": {
+				"ru": {
+					"question": "Мы навестили бабушку в воскресенье.",
+					"explanation": "Past Simple: визит к бабушке в воскресенье."
+				}
+			}
 		},
 		{
-			"question": "Он уступил место в автобусе.",
 			"answer": "He gave up his seat on the bus.",
-			"explanation": "Past Simple: уступка места в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он уступил место в автобусе.",
+					"explanation": "Past Simple: уступка места в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я взял кредит в банке.",
 			"answer": "I took out a loan from the bank.",
-			"explanation": "Past Simple: получение кредита в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я взял кредит в банке.",
+					"explanation": "Past Simple: получение кредита в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она написала курсовую работу за ночь.",
 			"answer": "She wrote her coursework in one night.",
-			"explanation": "Past Simple: написание работы в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она написала курсовую работу за ночь.",
+					"explanation": "Past Simple: написание работы в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы погуляли в парке после ужина.",
 			"answer": "We walked in the park after dinner.",
-			"explanation": "Past Simple: прогулка в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы погуляли в парке после ужина.",
+					"explanation": "Past Simple: прогулка в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он выпил стакан воды и успокоился.",
 			"answer": "He drank a glass of water and calmed down.",
-			"explanation": "Past Simple: последовательность действий."
+			"translations": {
+				"ru": {
+					"question": "Он выпил стакан воды и успокоился.",
+					"explanation": "Past Simple: последовательность действий."
+				}
+			}
 		},
 		{
-			"question": "Я получил повышение в прошлом квартале.",
 			"answer": "I got a promotion last quarter.",
-			"explanation": "Past Simple: повышение в прошлом квартале."
+			"translations": {
+				"ru": {
+					"question": "Я получил повышение в прошлом квартале.",
+					"explanation": "Past Simple: повышение в прошлом квартале."
+				}
+			}
 		},
 		{
-			"question": "Она взяла отпуск в августе.",
 			"answer": "She took a holiday in August.",
-			"explanation": "Past Simple: отпуск в конкретный месяц."
+			"translations": {
+				"ru": {
+					"question": "Она взяла отпуск в августе.",
+					"explanation": "Past Simple: отпуск в конкретный месяц."
+				}
+			}
 		},
 		{
-			"question": "Мы арендовали машину на неделю.",
 			"answer": "We rented a car for a week.",
-			"explanation": "Past Simple: аренда машины в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы арендовали машину на неделю.",
+					"explanation": "Past Simple: аренда машины в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он нарушил правила дорожного движения.",
 			"answer": "He broke the traffic rules.",
-			"explanation": "Past Simple: нарушение правил в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он нарушил правила дорожного движения.",
+					"explanation": "Past Simple: нарушение правил в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я распечатал документ.",
 			"answer": "I printed the document.",
-			"explanation": "Past Simple: распечатка документа в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я распечатал документ.",
+					"explanation": "Past Simple: распечатка документа в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она обняла ребёнка.",
 			"answer": "She hugged the child.",
-			"explanation": "Past Simple: однократное действие в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она обняла ребёнка.",
+					"explanation": "Past Simple: однократное действие в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы пригласили соседей на ужин.",
 			"answer": "We invited the neighbours for dinner.",
-			"explanation": "Past Simple: приглашение в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы пригласили соседей на ужин.",
+					"explanation": "Past Simple: приглашение в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он перешёл на другую работу.",
 			"answer": "He changed his job.",
-			"explanation": "Past Simple: смена работы в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он перешёл на другую работу.",
+					"explanation": "Past Simple: смена работы в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я скачал приложение.",
 			"answer": "I downloaded the application.",
-			"explanation": "Past Simple: скачивание приложения в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я скачал приложение.",
+					"explanation": "Past Simple: скачивание приложения в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она открыла своё кафе в прошлом году.",
 			"answer": "She opened her own café last year.",
-			"explanation": "Past Simple: открытие кафе в прошлом году."
+			"translations": {
+				"ru": {
+					"question": "Она открыла своё кафе в прошлом году.",
+					"explanation": "Past Simple: открытие кафе в прошлом году."
+				}
+			}
 		},
 		{
-			"question": "Мы обменялись номерами телефонов.",
 			"answer": "We exchanged phone numbers.",
-			"explanation": "Past Simple: обмен номерами в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы обменялись номерами телефонов.",
+					"explanation": "Past Simple: обмен номерами в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он опубликовал статью в журнале.",
 			"answer": "He published an article in a journal.",
-			"explanation": "Past Simple: публикация в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он опубликовал статью в журнале.",
+					"explanation": "Past Simple: публикация в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я потратил все деньги.",
 			"answer": "I spent all my money.",
-			"explanation": "Past Simple: трата денег в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я потратил все деньги.",
+					"explanation": "Past Simple: трата денег в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она поменяла работу три месяца назад.",
 			"answer": "She changed her job three months ago.",
-			"explanation": "Past Simple: смена работы три месяца назад."
+			"translations": {
+				"ru": {
+					"question": "Она поменяла работу три месяца назад.",
+					"explanation": "Past Simple: смена работы три месяца назад."
+				}
+			}
 		},
 		{
-			"question": "Мы встретили рассвет на горе.",
 			"answer": "We met the dawn on the mountain.",
-			"explanation": "Past Simple: встреча рассвета в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы встретили рассвет на горе.",
+					"explanation": "Past Simple: встреча рассвета в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он замёрз по дороге домой.",
 			"answer": "He got cold on the way home.",
-			"explanation": "Past Simple: конкретная ситуация в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он замёрз по дороге домой.",
+					"explanation": "Past Simple: конкретная ситуация в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я уснул во время фильма.",
 			"answer": "I fell asleep during the film.",
-			"explanation": "Past Simple: засыпание в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я уснул во время фильма.",
+					"explanation": "Past Simple: засыпание в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она оставила сумку в такси.",
 			"answer": "She left her bag in the taxi.",
-			"explanation": "Past Simple: забывание вещи в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она оставила сумку в такси.",
+					"explanation": "Past Simple: забывание вещи в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы отказались от поездки из-за погоды.",
 			"answer": "We cancelled the trip because of the weather.",
-			"explanation": "Past Simple: отмена поездки в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы отказались от поездки из-за погоды.",
+					"explanation": "Past Simple: отмена поездки в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он сдержал своё обещание.",
 			"answer": "He kept his promise.",
-			"explanation": "Past Simple: выполнение обещания в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он сдержал своё обещание.",
+					"explanation": "Past Simple: выполнение обещания в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я выбросил мусор.",
 			"answer": "I took out the rubbish.",
-			"explanation": "Past Simple: бытовое действие в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я выбросил мусор.",
+					"explanation": "Past Simple: бытовое действие в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она получила грант на исследование.",
 			"answer": "She received a research grant.",
-			"explanation": "Past Simple: получение гранта в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она получила грант на исследование.",
+					"explanation": "Past Simple: получение гранта в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы сфотографировались на память.",
 			"answer": "We took a photo as a memento.",
-			"explanation": "Past Simple: фотографирование в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы сфотографировались на память.",
+					"explanation": "Past Simple: фотографирование в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он ответил на все вопросы.",
 			"answer": "He answered all the questions.",
-			"explanation": "Past Simple: ответы на вопросы в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он ответил на все вопросы.",
+					"explanation": "Past Simple: ответы на вопросы в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я забронировал номер в гостинице.",
 			"answer": "I booked a room at the hotel.",
-			"explanation": "Past Simple: бронирование в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я забронировал номер в гостинице.",
+					"explanation": "Past Simple: бронирование в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она вспомнила важную деталь.",
 			"answer": "She remembered an important detail.",
-			"explanation": "Past Simple: воспоминание как событие."
+			"translations": {
+				"ru": {
+					"question": "Она вспомнила важную деталь.",
+					"explanation": "Past Simple: воспоминание как событие."
+				}
+			}
 		},
 		{
-			"question": "Мы разделили счёт поровну.",
 			"answer": "We split the bill equally.",
-			"explanation": "Past Simple: разделение счёта в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы разделили счёт поровну.",
+					"explanation": "Past Simple: разделение счёта в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он сорвал цветок и подарил ей.",
 			"answer": "He picked a flower and gave it to her.",
-			"explanation": "Past Simple: последовательные действия в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он сорвал цветок и подарил ей.",
+					"explanation": "Past Simple: последовательные действия в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я выключил телефон на время совещания.",
 			"answer": "I turned off my phone during the meeting.",
-			"explanation": "Past Simple: действие перед совещанием."
+			"translations": {
+				"ru": {
+					"question": "Я выключил телефон на время совещания.",
+					"explanation": "Past Simple: действие перед совещанием."
+				}
+			}
 		},
 		{
-			"question": "Она попала в аварию на прошлой неделе.",
 			"answer": "She had an accident last week.",
-			"explanation": "Past Simple: событие на прошлой неделе."
+			"translations": {
+				"ru": {
+					"question": "Она попала в аварию на прошлой неделе.",
+					"explanation": "Past Simple: событие на прошлой неделе."
+				}
+			}
 		},
 		{
-			"question": "Мы получили посылку вчера.",
 			"answer": "We received the parcel yesterday.",
-			"explanation": "Past Simple: получение посылки вчера."
+			"translations": {
+				"ru": {
+					"question": "Мы получили посылку вчера.",
+					"explanation": "Past Simple: получение посылки вчера."
+				}
+			}
 		},
 		{
-			"question": "Он сыграл в шахматы с отцом.",
 			"answer": "He played chess with his father.",
-			"explanation": "Past Simple: игра в шахматы в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он сыграл в шахматы с отцом.",
+					"explanation": "Past Simple: игра в шахматы в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я почистил зубы и умылся.",
 			"answer": "I brushed my teeth and washed my face.",
-			"explanation": "Past Simple: утренний распорядок в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я почистил зубы и умылся.",
+					"explanation": "Past Simple: утренний распорядок в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она отправила резюме в несколько компаний.",
 			"answer": "She sent her CV to several companies.",
-			"explanation": "Past Simple: отправка резюме в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она отправила резюме в несколько компаний.",
+					"explanation": "Past Simple: отправка резюме в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы провели целый день на пляже.",
 			"answer": "We spent the whole day at the beach.",
-			"explanation": "Past Simple: день на пляже в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы провели целый день на пляже.",
+					"explanation": "Past Simple: день на пляже в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он сообщил плохую новость мягко.",
 			"answer": "He delivered the bad news gently.",
-			"explanation": "Past Simple: сообщение новости в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он сообщил плохую новость мягко.",
+					"explanation": "Past Simple: сообщение новости в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я исправил ошибку в документе.",
 			"answer": "I corrected the mistake in the document.",
-			"explanation": "Past Simple: исправление ошибки в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я исправил ошибку в документе.",
+					"explanation": "Past Simple: исправление ошибки в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она нашла потерянный кошелёк.",
 			"answer": "She found the lost wallet.",
-			"explanation": "Past Simple: находка кошелька в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она нашла потерянный кошелёк.",
+					"explanation": "Past Simple: находка кошелька в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы поздравили команду с победой.",
 			"answer": "We congratulated the team on the victory.",
-			"explanation": "Past Simple: поздравление в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы поздравили команду с победой.",
+					"explanation": "Past Simple: поздравление в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он вернул книгу в библиотеку.",
 			"answer": "He returned the book to the library.",
-			"explanation": "Past Simple: возврат книги в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он вернул книгу в библиотеку.",
+					"explanation": "Past Simple: возврат книги в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я приготовил завтрак для семьи.",
 			"answer": "I made breakfast for the family.",
-			"explanation": "Past Simple: приготовление завтрака в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я приготовил завтрак для семьи.",
+					"explanation": "Past Simple: приготовление завтрака в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она подала заявку на визу.",
 			"answer": "She applied for a visa.",
-			"explanation": "Past Simple: подача заявки в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она подала заявку на визу.",
+					"explanation": "Past Simple: подача заявки в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы опоздали на самолёт.",
 			"answer": "We missed our flight.",
-			"explanation": "Past Simple: опоздание на самолёт."
+			"translations": {
+				"ru": {
+					"question": "Мы опоздали на самолёт.",
+					"explanation": "Past Simple: опоздание на самолёт."
+				}
+			}
 		},
 		{
-			"question": "Он нашёл выход из сложной ситуации.",
 			"answer": "He found a way out of a difficult situation.",
-			"explanation": "Past Simple: нахождение решения в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он нашёл выход из сложной ситуации.",
+					"explanation": "Past Simple: нахождение решения в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я перезвонил ему сразу.",
 			"answer": "I called him back immediately.",
-			"explanation": "Past Simple: ответный звонок в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я перезвонил ему сразу.",
+					"explanation": "Past Simple: ответный звонок в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она стала лучшей студенткой курса.",
 			"answer": "She became the best student in her year.",
-			"explanation": "Past Simple: достижение статуса в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она стала лучшей студенткой курса.",
+					"explanation": "Past Simple: достижение статуса в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы нашли хороший отель по интернету.",
 			"answer": "We found a good hotel online.",
-			"explanation": "Past Simple: поиск отеля в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы нашли хороший отель по интернету.",
+					"explanation": "Past Simple: поиск отеля в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он пожал руку всем присутствующим.",
 			"answer": "He shook hands with everyone present.",
-			"explanation": "Past Simple: приветствие в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он пожал руку всем присутствующим.",
+					"explanation": "Past Simple: приветствие в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я расстегнул пальто и вошёл.",
 			"answer": "I unbuttoned my coat and came in.",
-			"explanation": "Past Simple: последовательные действия при входе."
+			"translations": {
+				"ru": {
+					"question": "Я расстегнул пальто и вошёл.",
+					"explanation": "Past Simple: последовательные действия при входе."
+				}
+			}
 		},
 		{
-			"question": "Она встала, улыбнулась и вышла.",
 			"answer": "She stood up, smiled and left.",
-			"explanation": "Past Simple: последовательность действий в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она встала, улыбнулась и вышла.",
+					"explanation": "Past Simple: последовательность действий в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы приняли участие в конкурсе.",
 			"answer": "We took part in the competition.",
-			"explanation": "Past Simple: участие в конкурсе в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы приняли участие в конкурсе.",
+					"explanation": "Past Simple: участие в конкурсе в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он понял задачу и приступил к работе.",
 			"answer": "He understood the task and got to work.",
-			"explanation": "Past Simple: последовательность действий в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он понял задачу и приступил к работе.",
+					"explanation": "Past Simple: последовательность действий в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я взял отгул на один день.",
 			"answer": "I took a day off.",
-			"explanation": "Past Simple: отгул в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я взял отгул на один день.",
+					"explanation": "Past Simple: отгул в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она уронила поднос с едой.",
 			"answer": "She dropped the tray of food.",
-			"explanation": "Past Simple: неловкий инцидент в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она уронила поднос с едой.",
+					"explanation": "Past Simple: неловкий инцидент в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы заказали торт на день рождения.",
 			"answer": "We ordered a birthday cake.",
-			"explanation": "Past Simple: заказ торта в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы заказали торт на день рождения.",
+					"explanation": "Past Simple: заказ торта в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Он нашёл нужную книгу в библиотеке.",
 			"answer": "He found the book he needed in the library.",
-			"explanation": "Past Simple: нахождение книги в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Он нашёл нужную книгу в библиотеке.",
+					"explanation": "Past Simple: нахождение книги в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Я погладил рубашку.",
 			"answer": "I ironed the shirt.",
-			"explanation": "Past Simple: бытовое действие в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Я погладил рубашку.",
+					"explanation": "Past Simple: бытовое действие в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она вернулась домой поздно.",
 			"answer": "She came home late.",
-			"explanation": "Past Simple: возвращение домой в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Она вернулась домой поздно.",
+					"explanation": "Past Simple: возвращение домой в прошлом."
+				}
+			}
 		}
 	]
 }

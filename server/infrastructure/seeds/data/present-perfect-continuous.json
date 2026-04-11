@@ -2,889 +2,1597 @@
 	"tense": "PRESENT_PERFECT_CONTINUOUS",
 	"exercises": [
 		{
-			"question": "Он работает здесь уже пять лет.",
 			"answer": "He has been working here for five years.",
-			"explanation": "Present Perfect Continuous: действие началось в прошлом и продолжается сейчас. 'For five years' указывает на продолжительность."
+			"translations": {
+				"ru": {
+					"question": "Он работает здесь уже пять лет.",
+					"explanation": "Present Perfect Continuous: действие началось в прошлом и продолжается сейчас. 'For five years' указывает на продолжительность."
+				}
+			}
 		},
 		{
-			"question": "Я изучаю английский весь день.",
 			"answer": "I have been studying English all day.",
-			"explanation": "Present Perfect Continuous: 'all day' подчёркивает непрерывность действия от утра до сейчас."
+			"translations": {
+				"ru": {
+					"question": "Я изучаю английский весь день.",
+					"explanation": "Present Perfect Continuous: 'all day' подчёркивает непрерывность действия от утра до сейчас."
+				}
+			}
 		},
 		{
-			"question": "Они ждут уже два часа.",
 			"answer": "They have been waiting for two hours.",
-			"explanation": "Present Perfect Continuous: 'for two hours' — продолжительность ожидания, которое ещё не закончилось."
+			"translations": {
+				"ru": {
+					"question": "Они ждут уже два часа.",
+					"explanation": "Present Perfect Continuous: 'for two hours' — продолжительность ожидания, которое ещё не закончилось."
+				}
+			}
 		},
 		{
-			"question": "Мы разговариваем по телефону уже полчаса.",
 			"answer": "We have been talking on the phone for half an hour.",
-			"explanation": "Present Perfect Continuous: действие продолжается прямо сейчас, началось 30 минут назад."
+			"translations": {
+				"ru": {
+					"question": "Мы разговариваем по телефону уже полчаса.",
+					"explanation": "Present Perfect Continuous: действие продолжается прямо сейчас, началось 30 минут назад."
+				}
+			}
 		},
 		{
-			"question": "Она плачет с утра.",
 			"answer": "She has been crying since morning.",
-			"explanation": "Present Perfect Continuous: 'since morning' — начальная точка продолжающегося действия."
+			"translations": {
+				"ru": {
+					"question": "Она плачет с утра.",
+					"explanation": "Present Perfect Continuous: 'since morning' — начальная точка продолжающегося действия."
+				}
+			}
 		},
 		{
-			"question": "Дети играют на улице уже три часа.",
 			"answer": "The children have been playing outside for three hours.",
-			"explanation": "Present Perfect Continuous: продолжительное действие, начатое три часа назад."
+			"translations": {
+				"ru": {
+					"question": "Дети играют на улице уже три часа.",
+					"explanation": "Present Perfect Continuous: продолжительное действие, начатое три часа назад."
+				}
+			}
 		},
 		{
-			"question": "Я живу в этом городе уже десять лет.",
 			"answer": "I have been living in this city for ten years.",
-			"explanation": "Present Perfect Continuous: 'for ten years' — продолжительность жизни в городе."
+			"translations": {
+				"ru": {
+					"question": "Я живу в этом городе уже десять лет.",
+					"explanation": "Present Perfect Continuous: 'for ten years' — продолжительность жизни в городе."
+				}
+			}
 		},
 		{
-			"question": "Он бегает каждое утро уже год.",
 			"answer": "He has been running every morning for a year.",
-			"explanation": "Present Perfect Continuous: регулярное действие, продолжающееся на протяжении года."
+			"translations": {
+				"ru": {
+					"question": "Он бегает каждое утро уже год.",
+					"explanation": "Present Perfect Continuous: регулярное действие, продолжающееся на протяжении года."
+				}
+			}
 		},
 		{
-			"question": "Ты выглядишь устало — ты долго работал?",
 			"answer": "You look tired — have you been working long?",
-			"explanation": "Present Perfect Continuous: вопрос о продолжительности действия, результат которого виден сейчас."
+			"translations": {
+				"ru": {
+					"question": "Ты выглядишь устало — ты долго работал?",
+					"explanation": "Present Perfect Continuous: вопрос о продолжительности действия, результат которого виден сейчас."
+				}
+			}
 		},
 		{
-			"question": "Они строят этот дом уже шесть месяцев.",
 			"answer": "They have been building this house for six months.",
-			"explanation": "Present Perfect Continuous: незавершённое строительство, начатое шесть месяцев назад."
+			"translations": {
+				"ru": {
+					"question": "Они строят этот дом уже шесть месяцев.",
+					"explanation": "Present Perfect Continuous: незавершённое строительство, начатое шесть месяцев назад."
+				}
+			}
 		},
 		{
-			"question": "Я жду автобуса уже двадцать минут.",
 			"answer": "I have been waiting for the bus for twenty minutes.",
-			"explanation": "Present Perfect Continuous: ожидание, которое ещё не закончилось."
+			"translations": {
+				"ru": {
+					"question": "Я жду автобуса уже двадцать минут.",
+					"explanation": "Present Perfect Continuous: ожидание, которое ещё не закончилось."
+				}
+			}
 		},
 		{
-			"question": "Она учит испанский язык с прошлого года.",
 			"answer": "She has been learning Spanish since last year.",
-			"explanation": "Present Perfect Continuous: 'since last year' — начало изучения."
+			"translations": {
+				"ru": {
+					"question": "Она учит испанский язык с прошлого года.",
+					"explanation": "Present Perfect Continuous: 'since last year' — начало изучения."
+				}
+			}
 		},
 		{
-			"question": "Мы смотрим этот сериал уже неделю.",
 			"answer": "We have been watching this series for a week.",
-			"explanation": "Present Perfect Continuous: продолжающееся действие длиной в неделю."
+			"translations": {
+				"ru": {
+					"question": "Мы смотрим этот сериал уже неделю.",
+					"explanation": "Present Perfect Continuous: продолжающееся действие длиной в неделю."
+				}
+			}
 		},
 		{
-			"question": "Он кашляет уже несколько дней.",
 			"answer": "He has been coughing for several days.",
-			"explanation": "Present Perfect Continuous: симптом, длящийся несколько дней — результат виден сейчас."
+			"translations": {
+				"ru": {
+					"question": "Он кашляет уже несколько дней.",
+					"explanation": "Present Perfect Continuous: симптом, длящийся несколько дней — результат виден сейчас."
+				}
+			}
 		},
 		{
-			"question": "Я пишу этот отчёт с девяти утра.",
 			"answer": "I have been writing this report since nine o'clock.",
-			"explanation": "Present Perfect Continuous: 'since nine o'clock' — момент начала работы."
+			"translations": {
+				"ru": {
+					"question": "Я пишу этот отчёт с девяти утра.",
+					"explanation": "Present Perfect Continuous: 'since nine o'clock' — момент начала работы."
+				}
+			}
 		},
 		{
-			"question": "Они спорят уже час.",
 			"answer": "They have been arguing for an hour.",
-			"explanation": "Present Perfect Continuous: спор, начавшийся час назад и не прекратившийся."
+			"translations": {
+				"ru": {
+					"question": "Они спорят уже час.",
+					"explanation": "Present Perfect Continuous: спор, начавшийся час назад и не прекратившийся."
+				}
+			}
 		},
 		{
-			"question": "Снег идёт с вчерашнего вечера.",
 			"answer": "It has been snowing since yesterday evening.",
-			"explanation": "Present Perfect Continuous: природное явление, начавшееся вечером и продолжающееся."
+			"translations": {
+				"ru": {
+					"question": "Снег идёт с вчерашнего вечера.",
+					"explanation": "Present Perfect Continuous: природное явление, начавшееся вечером и продолжающееся."
+				}
+			}
 		},
 		{
-			"question": "Он ищет работу уже три месяца.",
 			"answer": "He has been looking for a job for three months.",
-			"explanation": "Present Perfect Continuous: поиск работы ещё не завершён."
+			"translations": {
+				"ru": {
+					"question": "Он ищет работу уже три месяца.",
+					"explanation": "Present Perfect Continuous: поиск работы ещё не завершён."
+				}
+			}
 		},
 		{
-			"question": "Ты весь в краске — ты рисовал?",
 			"answer": "You are covered in paint — have you been painting?",
-			"explanation": "Present Perfect Continuous: видимый результат указывает на недавнее действие."
+			"translations": {
+				"ru": {
+					"question": "Ты весь в краске — ты рисовал?",
+					"explanation": "Present Perfect Continuous: видимый результат указывает на недавнее действие."
+				}
+			}
 		},
 		{
-			"question": "Мы путешествуем уже две недели.",
 			"answer": "We have been travelling for two weeks.",
-			"explanation": "Present Perfect Continuous: путешествие продолжается уже две недели."
+			"translations": {
+				"ru": {
+					"question": "Мы путешествуем уже две недели.",
+					"explanation": "Present Perfect Continuous: путешествие продолжается уже две недели."
+				}
+			}
 		},
 		{
-			"question": "Она работает над проектом с понедельника.",
 			"answer": "She has been working on the project since Monday.",
-			"explanation": "Present Perfect Continuous: 'since Monday' — начало работы над проектом."
+			"translations": {
+				"ru": {
+					"question": "Она работает над проектом с понедельника.",
+					"explanation": "Present Perfect Continuous: 'since Monday' — начало работы над проектом."
+				}
+			}
 		},
 		{
-			"question": "Я тренируюсь каждый день уже полгода.",
 			"answer": "I have been training every day for six months.",
-			"explanation": "Present Perfect Continuous: регулярные тренировки в течение полугода."
+			"translations": {
+				"ru": {
+					"question": "Я тренируюсь каждый день уже полгода.",
+					"explanation": "Present Perfect Continuous: регулярные тренировки в течение полугода."
+				}
+			}
 		},
 		{
-			"question": "Он читает эту книгу уже неделю.",
 			"answer": "He has been reading this book for a week.",
-			"explanation": "Present Perfect Continuous: чтение ещё не завершено, длится неделю."
+			"translations": {
+				"ru": {
+					"question": "Он читает эту книгу уже неделю.",
+					"explanation": "Present Perfect Continuous: чтение ещё не завершено, длится неделю."
+				}
+			}
 		},
 		{
-			"question": "Дождь идёт уже два дня.",
 			"answer": "It has been raining for two days.",
-			"explanation": "Present Perfect Continuous: дождь не прекращается уже два дня."
+			"translations": {
+				"ru": {
+					"question": "Дождь идёт уже два дня.",
+					"explanation": "Present Perfect Continuous: дождь не прекращается уже два дня."
+				}
+			}
 		},
 		{
-			"question": "Они живут вместе уже пять лет.",
 			"answer": "They have been living together for five years.",
-			"explanation": "Present Perfect Continuous: совместная жизнь продолжается."
+			"translations": {
+				"ru": {
+					"question": "Они живут вместе уже пять лет.",
+					"explanation": "Present Perfect Continuous: совместная жизнь продолжается."
+				}
+			}
 		},
 		{
-			"question": "Я готовлюсь к экзамену с прошлой недели.",
 			"answer": "I have been preparing for the exam since last week.",
-			"explanation": "Present Perfect Continuous: подготовка идёт с прошлой недели."
+			"translations": {
+				"ru": {
+					"question": "Я готовлюсь к экзамену с прошлой недели.",
+					"explanation": "Present Perfect Continuous: подготовка идёт с прошлой недели."
+				}
+			}
 		},
 		{
-			"question": "Она танцует с детства.",
 			"answer": "She has been dancing since childhood.",
-			"explanation": "Present Perfect Continuous: занятие танцами, начавшееся в детстве, продолжается."
+			"translations": {
+				"ru": {
+					"question": "Она танцует с детства.",
+					"explanation": "Present Perfect Continuous: занятие танцами, начавшееся в детстве, продолжается."
+				}
+			}
 		},
 		{
-			"question": "Мы обсуждаем этот вопрос уже два часа.",
 			"answer": "We have been discussing this issue for two hours.",
-			"explanation": "Present Perfect Continuous: обсуждение не завершено."
+			"translations": {
+				"ru": {
+					"question": "Мы обсуждаем этот вопрос уже два часа.",
+					"explanation": "Present Perfect Continuous: обсуждение не завершено."
+				}
+			}
 		},
 		{
-			"question": "Он водит машину уже двадцать лет.",
 			"answer": "He has been driving for twenty years.",
-			"explanation": "Present Perfect Continuous: навык, приобретённый 20 лет назад и используемый до сих пор."
+			"translations": {
+				"ru": {
+					"question": "Он водит машину уже двадцать лет.",
+					"explanation": "Present Perfect Continuous: навык, приобретённый 20 лет назад и используемый до сих пор."
+				}
+			}
 		},
 		{
-			"question": "Я слушаю эту группу с подросткового возраста.",
 			"answer": "I have been listening to this band since I was a teenager.",
-			"explanation": "Present Perfect Continuous: действие началось в подростковом возрасте и продолжается."
+			"translations": {
+				"ru": {
+					"question": "Я слушаю эту группу с подросткового возраста.",
+					"explanation": "Present Perfect Continuous: действие началось в подростковом возрасте и продолжается."
+				}
+			}
 		},
 		{
-			"question": "Они ремонтируют квартиру уже месяц.",
 			"answer": "They have been renovating the flat for a month.",
-			"explanation": "Present Perfect Continuous: ремонт ещё не закончен."
+			"translations": {
+				"ru": {
+					"question": "Они ремонтируют квартиру уже месяц.",
+					"explanation": "Present Perfect Continuous: ремонт ещё не закончен."
+				}
+			}
 		},
 		{
-			"question": "Она ждёт ответа уже несколько дней.",
 			"answer": "She has been waiting for a reply for several days.",
-			"explanation": "Present Perfect Continuous: ожидание продолжается."
+			"translations": {
+				"ru": {
+					"question": "Она ждёт ответа уже несколько дней.",
+					"explanation": "Present Perfect Continuous: ожидание продолжается."
+				}
+			}
 		},
 		{
-			"question": "Я работаю над этой задачей с утра.",
 			"answer": "I have been working on this task since morning.",
-			"explanation": "Present Perfect Continuous: работа началась утром и продолжается."
+			"translations": {
+				"ru": {
+					"question": "Я работаю над этой задачей с утра.",
+					"explanation": "Present Perfect Continuous: работа началась утром и продолжается."
+				}
+			}
 		},
 		{
-			"question": "Он учится в этом университете уже три года.",
 			"answer": "He has been studying at this university for three years.",
-			"explanation": "Present Perfect Continuous: обучение продолжается три года."
+			"translations": {
+				"ru": {
+					"question": "Он учится в этом университете уже три года.",
+					"explanation": "Present Perfect Continuous: обучение продолжается три года."
+				}
+			}
 		},
 		{
-			"question": "Мы дружим с детского сада.",
 			"answer": "We have been friends since kindergarten.",
-			"explanation": "Present Perfect Continuous: дружба началась в детском саду и продолжается."
+			"translations": {
+				"ru": {
+					"question": "Мы дружим с детского сада.",
+					"explanation": "Present Perfect Continuous: дружба началась в детском саду и продолжается."
+				}
+			}
 		},
 		{
-			"question": "Она преподаёт математику уже пятнадцать лет.",
 			"answer": "She has been teaching mathematics for fifteen years.",
-			"explanation": "Present Perfect Continuous: преподавание продолжается."
+			"translations": {
+				"ru": {
+					"question": "Она преподаёт математику уже пятнадцать лет.",
+					"explanation": "Present Perfect Continuous: преподавание продолжается."
+				}
+			}
 		},
 		{
-			"question": "Они соревнуются между собой уже давно.",
 			"answer": "They have been competing with each other for a long time.",
-			"explanation": "Present Perfect Continuous: соперничество, длящееся долгое время."
+			"translations": {
+				"ru": {
+					"question": "Они соревнуются между собой уже давно.",
+					"explanation": "Present Perfect Continuous: соперничество, длящееся долгое время."
+				}
+			}
 		},
 		{
-			"question": "Я пытаюсь дозвониться до него весь вечер.",
 			"answer": "I have been trying to call him all evening.",
-			"explanation": "Present Perfect Continuous: попытки позвонить продолжались весь вечер."
+			"translations": {
+				"ru": {
+					"question": "Я пытаюсь дозвониться до него весь вечер.",
+					"explanation": "Present Perfect Continuous: попытки позвонить продолжались весь вечер."
+				}
+			}
 		},
 		{
-			"question": "Он копит деньги на машину уже год.",
 			"answer": "He has been saving up for a car for a year.",
-			"explanation": "Present Perfect Continuous: накопление средств продолжается год."
+			"translations": {
+				"ru": {
+					"question": "Он копит деньги на машину уже год.",
+					"explanation": "Present Perfect Continuous: накопление средств продолжается год."
+				}
+			}
 		},
 		{
-			"question": "Мы используем эту программу с момента её выхода.",
 			"answer": "We have been using this software since it was released.",
-			"explanation": "Present Perfect Continuous: использование программы с момента её выпуска."
+			"translations": {
+				"ru": {
+					"question": "Мы используем эту программу с момента её выхода.",
+					"explanation": "Present Perfect Continuous: использование программы с момента её выпуска."
+				}
+			}
 		},
 		{
-			"question": "Она занимается йогой уже два года.",
 			"answer": "She has been doing yoga for two years.",
-			"explanation": "Present Perfect Continuous: занятия йогой продолжаются два года."
+			"translations": {
+				"ru": {
+					"question": "Она занимается йогой уже два года.",
+					"explanation": "Present Perfect Continuous: занятия йогой продолжаются два года."
+				}
+			}
 		},
 		{
-			"question": "Дети смотрят мультфильмы уже час.",
 			"answer": "The children have been watching cartoons for an hour.",
-			"explanation": "Present Perfect Continuous: просмотр продолжается уже час."
+			"translations": {
+				"ru": {
+					"question": "Дети смотрят мультфильмы уже час.",
+					"explanation": "Present Perfect Continuous: просмотр продолжается уже час."
+				}
+			}
 		},
 		{
-			"question": "Я думаю об этом весь день.",
 			"answer": "I have been thinking about it all day.",
-			"explanation": "Present Perfect Continuous: мысли не покидают весь день."
+			"translations": {
+				"ru": {
+					"question": "Я думаю об этом весь день.",
+					"explanation": "Present Perfect Continuous: мысли не покидают весь день."
+				}
+			}
 		},
 		{
-			"question": "Он занимается программированием с шестнадцати лет.",
 			"answer": "He has been programming since he was sixteen.",
-			"explanation": "Present Perfect Continuous: занятие программированием началось в 16 лет."
+			"translations": {
+				"ru": {
+					"question": "Он занимается программированием с шестнадцати лет.",
+					"explanation": "Present Perfect Continuous: занятие программированием началось в 16 лет."
+				}
+			}
 		},
 		{
-			"question": "Мы работаем над этим проектом уже три недели.",
 			"answer": "We have been working on this project for three weeks.",
-			"explanation": "Present Perfect Continuous: работа ещё не завершена."
+			"translations": {
+				"ru": {
+					"question": "Мы работаем над этим проектом уже три недели.",
+					"explanation": "Present Perfect Continuous: работа ещё не завершена."
+				}
+			}
 		},
 		{
-			"question": "Она учит детей читать уже двадцать лет.",
 			"answer": "She has been teaching children to read for twenty years.",
-			"explanation": "Present Perfect Continuous: многолетнее занятие, продолжающееся по сей день."
+			"translations": {
+				"ru": {
+					"question": "Она учит детей читать уже двадцать лет.",
+					"explanation": "Present Perfect Continuous: многолетнее занятие, продолжающееся по сей день."
+				}
+			}
 		},
 		{
-			"question": "Вода течёт из крана уже час.",
 			"answer": "Water has been running from the tap for an hour.",
-			"explanation": "Present Perfect Continuous: продолжающаяся ситуация, начавшаяся час назад."
+			"translations": {
+				"ru": {
+					"question": "Вода течёт из крана уже час.",
+					"explanation": "Present Perfect Continuous: продолжающаяся ситуация, начавшаяся час назад."
+				}
+			}
 		},
 		{
-			"question": "Я изучаю эту тему с начала семестра.",
 			"answer": "I have been studying this topic since the beginning of the semester.",
-			"explanation": "Present Perfect Continuous: изучение темы продолжается с начала семестра."
+			"translations": {
+				"ru": {
+					"question": "Я изучаю эту тему с начала семестра.",
+					"explanation": "Present Perfect Continuous: изучение темы продолжается с начала семестра."
+				}
+			}
 		},
 		{
-			"question": "Они тренируются к марафону уже четыре месяца.",
 			"answer": "They have been training for the marathon for four months.",
-			"explanation": "Present Perfect Continuous: подготовка к марафону продолжается."
+			"translations": {
+				"ru": {
+					"question": "Они тренируются к марафону уже четыре месяца.",
+					"explanation": "Present Perfect Continuous: подготовка к марафону продолжается."
+				}
+			}
 		},
 		{
-			"question": "Он пишет свой роман уже два года.",
 			"answer": "He has been writing his novel for two years.",
-			"explanation": "Present Perfect Continuous: написание романа ещё не завершено."
+			"translations": {
+				"ru": {
+					"question": "Он пишет свой роман уже два года.",
+					"explanation": "Present Perfect Continuous: написание романа ещё не завершено."
+				}
+			}
 		},
 		{
-			"question": "Я чувствую себя плохо с прошлой ночи.",
 			"answer": "I have been feeling ill since last night.",
-			"explanation": "Present Perfect Continuous: плохое самочувствие с прошлой ночи."
+			"translations": {
+				"ru": {
+					"question": "Я чувствую себя плохо с прошлой ночи.",
+					"explanation": "Present Perfect Continuous: плохое самочувствие с прошлой ночи."
+				}
+			}
 		},
 		{
-			"question": "Она разговаривает с подругой уже сорок минут.",
 			"answer": "She has been talking to her friend for forty minutes.",
-			"explanation": "Present Perfect Continuous: разговор идёт уже сорок минут."
+			"translations": {
+				"ru": {
+					"question": "Она разговаривает с подругой уже сорок минут.",
+					"explanation": "Present Perfect Continuous: разговор идёт уже сорок минут."
+				}
+			}
 		},
 		{
-			"question": "Мы ждём результатов уже неделю.",
 			"answer": "We have been waiting for the results for a week.",
-			"explanation": "Present Perfect Continuous: ожидание результатов продолжается."
+			"translations": {
+				"ru": {
+					"question": "Мы ждём результатов уже неделю.",
+					"explanation": "Present Perfect Continuous: ожидание результатов продолжается."
+				}
+			}
 		},
 		{
-			"question": "Он играет на гитаре с двенадцати лет.",
 			"answer": "He has been playing the guitar since he was twelve.",
-			"explanation": "Present Perfect Continuous: игра на гитаре с детского возраста."
+			"translations": {
+				"ru": {
+					"question": "Он играет на гитаре с двенадцати лет.",
+					"explanation": "Present Perfect Continuous: игра на гитаре с детского возраста."
+				}
+			}
 		},
 		{
-			"question": "Я слежу за этим делом уже несколько недель.",
 			"answer": "I have been following this case for several weeks.",
-			"explanation": "Present Perfect Continuous: наблюдение за делом продолжается."
+			"translations": {
+				"ru": {
+					"question": "Я слежу за этим делом уже несколько недель.",
+					"explanation": "Present Perfect Continuous: наблюдение за делом продолжается."
+				}
+			}
 		},
 		{
-			"question": "Они переписываются уже несколько лет.",
 			"answer": "They have been corresponding for several years.",
-			"explanation": "Present Perfect Continuous: переписка продолжается несколько лет."
+			"translations": {
+				"ru": {
+					"question": "Они переписываются уже несколько лет.",
+					"explanation": "Present Perfect Continuous: переписка продолжается несколько лет."
+				}
+			}
 		},
 		{
-			"question": "Снег таял весь день.",
 			"answer": "The snow has been melting all day.",
-			"explanation": "Present Perfect Continuous: таяние снега продолжалось весь день."
+			"translations": {
+				"ru": {
+					"question": "Снег таял весь день.",
+					"explanation": "Present Perfect Continuous: таяние снега продолжалось весь день."
+				}
+			}
 		},
 		{
-			"question": "Я жду твоего звонка с обеда.",
 			"answer": "I have been waiting for your call since lunchtime.",
-			"explanation": "Present Perfect Continuous: ожидание звонка с обеда."
+			"translations": {
+				"ru": {
+					"question": "Я жду твоего звонка с обеда.",
+					"explanation": "Present Perfect Continuous: ожидание звонка с обеда."
+				}
+			}
 		},
 		{
-			"question": "Она занимается рисованием с юности.",
 			"answer": "She has been painting since her youth.",
-			"explanation": "Present Perfect Continuous: занятие живописью с юности."
+			"translations": {
+				"ru": {
+					"question": "Она занимается рисованием с юности.",
+					"explanation": "Present Perfect Continuous: занятие живописью с юности."
+				}
+			}
 		},
 		{
-			"question": "Мы работаем над этим вопросом уже довольно долго.",
 			"answer": "We have been working on this matter for quite a long time.",
-			"explanation": "Present Perfect Continuous: длительная работа над вопросом."
+			"translations": {
+				"ru": {
+					"question": "Мы работаем над этим вопросом уже довольно долго.",
+					"explanation": "Present Perfect Continuous: длительная работа над вопросом."
+				}
+			}
 		},
 		{
-			"question": "Он ремонтирует машину весь день.",
 			"answer": "He has been repairing the car all day.",
-			"explanation": "Present Perfect Continuous: ремонт машины занял весь день."
+			"translations": {
+				"ru": {
+					"question": "Он ремонтирует машину весь день.",
+					"explanation": "Present Perfect Continuous: ремонт машины занял весь день."
+				}
+			}
 		},
 		{
-			"question": "Я пытаюсь решить эту задачу уже час.",
 			"answer": "I have been trying to solve this problem for an hour.",
-			"explanation": "Present Perfect Continuous: попытки решить задачу продолжаются час."
+			"translations": {
+				"ru": {
+					"question": "Я пытаюсь решить эту задачу уже час.",
+					"explanation": "Present Perfect Continuous: попытки решить задачу продолжаются час."
+				}
+			}
 		},
 		{
-			"question": "Она готовит к праздничному обеду с утра.",
 			"answer": "She has been cooking for the holiday dinner since morning.",
-			"explanation": "Present Perfect Continuous: приготовления к обеду с утра."
+			"translations": {
+				"ru": {
+					"question": "Она готовит к праздничному обеду с утра.",
+					"explanation": "Present Perfect Continuous: приготовления к обеду с утра."
+				}
+			}
 		},
 		{
-			"question": "Они встречаются уже полгода.",
 			"answer": "They have been dating for half a year.",
-			"explanation": "Present Perfect Continuous: отношения длятся полгода."
+			"translations": {
+				"ru": {
+					"question": "Они встречаются уже полгода.",
+					"explanation": "Present Perfect Continuous: отношения длятся полгода."
+				}
+			}
 		},
 		{
-			"question": "Я читаю эту книгу уже месяц.",
 			"answer": "I have been reading this book for a month.",
-			"explanation": "Present Perfect Continuous: чтение продолжается уже месяц."
+			"translations": {
+				"ru": {
+					"question": "Я читаю эту книгу уже месяц.",
+					"explanation": "Present Perfect Continuous: чтение продолжается уже месяц."
+				}
+			}
 		},
 		{
-			"question": "Он занимается бизнесом с девяностых годов.",
 			"answer": "He has been running a business since the nineties.",
-			"explanation": "Present Perfect Continuous: бизнес ведётся с 90-х годов."
+			"translations": {
+				"ru": {
+					"question": "Он занимается бизнесом с девяностых годов.",
+					"explanation": "Present Perfect Continuous: бизнес ведётся с 90-х годов."
+				}
+			}
 		},
 		{
-			"question": "Мы обсуждаем план уже два часа.",
 			"answer": "We have been discussing the plan for two hours.",
-			"explanation": "Present Perfect Continuous: обсуждение плана не завершено."
+			"translations": {
+				"ru": {
+					"question": "Мы обсуждаем план уже два часа.",
+					"explanation": "Present Perfect Continuous: обсуждение плана не завершено."
+				}
+			}
 		},
 		{
-			"question": "Она работает в этой компании уже семь лет.",
 			"answer": "She has been working at this company for seven years.",
-			"explanation": "Present Perfect Continuous: работа в компании продолжается семь лет."
+			"translations": {
+				"ru": {
+					"question": "Она работает в этой компании уже семь лет.",
+					"explanation": "Present Perfect Continuous: работа в компании продолжается семь лет."
+				}
+			}
 		},
 		{
-			"question": "Дети играют в видеоигры весь вечер.",
 			"answer": "The children have been playing video games all evening.",
-			"explanation": "Present Perfect Continuous: игры не прекращались весь вечер."
+			"translations": {
+				"ru": {
+					"question": "Дети играют в видеоигры весь вечер.",
+					"explanation": "Present Perfect Continuous: игры не прекращались весь вечер."
+				}
+			}
 		},
 		{
-			"question": "Я практикую произношение уже несколько недель.",
 			"answer": "I have been practising my pronunciation for several weeks.",
-			"explanation": "Present Perfect Continuous: практика произношения продолжается несколько недель."
+			"translations": {
+				"ru": {
+					"question": "Я практикую произношение уже несколько недель.",
+					"explanation": "Present Perfect Continuous: практика произношения продолжается несколько недель."
+				}
+			}
 		},
 		{
-			"question": "Он переводит документ с прошлого вечера.",
 			"answer": "He has been translating the document since last night.",
-			"explanation": "Present Perfect Continuous: перевод идёт с прошлого вечера."
+			"translations": {
+				"ru": {
+					"question": "Он переводит документ с прошлого вечера.",
+					"explanation": "Present Perfect Continuous: перевод идёт с прошлого вечера."
+				}
+			}
 		},
 		{
-			"question": "Мы ищем подходящую квартиру уже три месяца.",
 			"answer": "We have been looking for a suitable flat for three months.",
-			"explanation": "Present Perfect Continuous: поиск квартиры ещё не завершён."
+			"translations": {
+				"ru": {
+					"question": "Мы ищем подходящую квартиру уже три месяца.",
+					"explanation": "Present Perfect Continuous: поиск квартиры ещё не завершён."
+				}
+			}
 		},
 		{
-			"question": "Она тренируется в этом зале уже два года.",
 			"answer": "She has been training at this gym for two years.",
-			"explanation": "Present Perfect Continuous: тренировки продолжаются два года."
+			"translations": {
+				"ru": {
+					"question": "Она тренируется в этом зале уже два года.",
+					"explanation": "Present Perfect Continuous: тренировки продолжаются два года."
+				}
+			}
 		},
 		{
-			"question": "Я слежу за новостями с утра.",
 			"answer": "I have been following the news since morning.",
-			"explanation": "Present Perfect Continuous: слежение за новостями с утра."
+			"translations": {
+				"ru": {
+					"question": "Я слежу за новостями с утра.",
+					"explanation": "Present Perfect Continuous: слежение за новостями с утра."
+				}
+			}
 		},
 		{
-			"question": "Он пишет диссертацию уже три года.",
 			"answer": "He has been writing his dissertation for three years.",
-			"explanation": "Present Perfect Continuous: написание диссертации продолжается три года."
+			"translations": {
+				"ru": {
+					"question": "Он пишет диссертацию уже три года.",
+					"explanation": "Present Perfect Continuous: написание диссертации продолжается три года."
+				}
+			}
 		},
 		{
-			"question": "Мы спорим об этом уже целый час.",
 			"answer": "We have been arguing about this for a whole hour.",
-			"explanation": "Present Perfect Continuous: спор длится целый час."
+			"translations": {
+				"ru": {
+					"question": "Мы спорим об этом уже целый час.",
+					"explanation": "Present Perfect Continuous: спор длится целый час."
+				}
+			}
 		},
 		{
-			"question": "Она учит детей играть на пианино уже десять лет.",
 			"answer": "She has been teaching children to play the piano for ten years.",
-			"explanation": "Present Perfect Continuous: обучение продолжается десять лет."
+			"translations": {
+				"ru": {
+					"question": "Она учит детей играть на пианино уже десять лет.",
+					"explanation": "Present Perfect Continuous: обучение продолжается десять лет."
+				}
+			}
 		},
 		{
-			"question": "Я чиню этот велосипед весь день.",
 			"answer": "I have been fixing this bicycle all day.",
-			"explanation": "Present Perfect Continuous: ремонт велосипеда занял весь день."
+			"translations": {
+				"ru": {
+					"question": "Я чиню этот велосипед весь день.",
+					"explanation": "Present Perfect Continuous: ремонт велосипеда занял весь день."
+				}
+			}
 		},
 		{
-			"question": "Они копают траншею уже несколько часов.",
 			"answer": "They have been digging the trench for several hours.",
-			"explanation": "Present Perfect Continuous: работа по рытью траншеи продолжается."
+			"translations": {
+				"ru": {
+					"question": "Они копают траншею уже несколько часов.",
+					"explanation": "Present Perfect Continuous: работа по рытью траншеи продолжается."
+				}
+			}
 		},
 		{
-			"question": "Он живёт за границей с двадцати пяти лет.",
 			"answer": "He has been living abroad since he was twenty-five.",
-			"explanation": "Present Perfect Continuous: жизнь за рубежом с 25 лет."
+			"translations": {
+				"ru": {
+					"question": "Он живёт за границей с двадцати пяти лет.",
+					"explanation": "Present Perfect Continuous: жизнь за рубежом с 25 лет."
+				}
+			}
 		},
 		{
-			"question": "Я думаю о смене работы уже несколько месяцев.",
 			"answer": "I have been thinking about changing my job for several months.",
-			"explanation": "Present Perfect Continuous: размышления о смене работы продолжаются."
+			"translations": {
+				"ru": {
+					"question": "Я думаю о смене работы уже несколько месяцев.",
+					"explanation": "Present Perfect Continuous: размышления о смене работы продолжаются."
+				}
+			}
 		},
 		{
-			"question": "Она занимается благотворительностью уже много лет.",
 			"answer": "She has been doing charity work for many years.",
-			"explanation": "Present Perfect Continuous: благотворительность на протяжении многих лет."
+			"translations": {
+				"ru": {
+					"question": "Она занимается благотворительностью уже много лет.",
+					"explanation": "Present Perfect Continuous: благотворительность на протяжении многих лет."
+				}
+			}
 		},
 		{
-			"question": "Мы разрабатываем это приложение уже полгода.",
 			"answer": "We have been developing this application for six months.",
-			"explanation": "Present Perfect Continuous: разработка приложения ещё не завершена."
+			"translations": {
+				"ru": {
+					"question": "Мы разрабатываем это приложение уже полгода.",
+					"explanation": "Present Perfect Continuous: разработка приложения ещё не завершена."
+				}
+			}
 		},
 		{
-			"question": "Он учится водить машину уже месяц.",
 			"answer": "He has been learning to drive for a month.",
-			"explanation": "Present Perfect Continuous: обучение вождению продолжается месяц."
+			"translations": {
+				"ru": {
+					"question": "Он учится водить машину уже месяц.",
+					"explanation": "Present Perfect Continuous: обучение вождению продолжается месяц."
+				}
+			}
 		},
 		{
-			"question": "Я хожу в эту кофейню с открытия.",
 			"answer": "I have been going to this coffee shop since it opened.",
-			"explanation": "Present Perfect Continuous: посещение кофейни с момента открытия."
+			"translations": {
+				"ru": {
+					"question": "Я хожу в эту кофейню с открытия.",
+					"explanation": "Present Perfect Continuous: посещение кофейни с момента открытия."
+				}
+			}
 		},
 		{
-			"question": "Она работает над романом уже год.",
 			"answer": "She has been working on her novel for a year.",
-			"explanation": "Present Perfect Continuous: работа над романом продолжается год."
+			"translations": {
+				"ru": {
+					"question": "Она работает над романом уже год.",
+					"explanation": "Present Perfect Continuous: работа над романом продолжается год."
+				}
+			}
 		},
 		{
-			"question": "Мы следим за этим судебным процессом с начала.",
 			"answer": "We have been following this trial from the beginning.",
-			"explanation": "Present Perfect Continuous: наблюдение за процессом с самого начала."
+			"translations": {
+				"ru": {
+					"question": "Мы следим за этим судебным процессом с начала.",
+					"explanation": "Present Perfect Continuous: наблюдение за процессом с самого начала."
+				}
+			}
 		},
 		{
-			"question": "Он тренирует команду уже пять лет.",
 			"answer": "He has been coaching the team for five years.",
-			"explanation": "Present Perfect Continuous: тренерская работа продолжается пять лет."
+			"translations": {
+				"ru": {
+					"question": "Он тренирует команду уже пять лет.",
+					"explanation": "Present Perfect Continuous: тренерская работа продолжается пять лет."
+				}
+			}
 		},
 		{
-			"question": "Я жду посылку уже две недели.",
 			"answer": "I have been waiting for the parcel for two weeks.",
-			"explanation": "Present Perfect Continuous: ожидание посылки затянулось на две недели."
+			"translations": {
+				"ru": {
+					"question": "Я жду посылку уже две недели.",
+					"explanation": "Present Perfect Continuous: ожидание посылки затянулось на две недели."
+				}
+			}
 		},
 		{
-			"question": "Она изучает историю Японии уже несколько лет.",
 			"answer": "She has been studying the history of Japan for several years.",
-			"explanation": "Present Perfect Continuous: изучение истории продолжается."
+			"translations": {
+				"ru": {
+					"question": "Она изучает историю Японии уже несколько лет.",
+					"explanation": "Present Perfect Continuous: изучение истории продолжается."
+				}
+			}
 		},
 		{
-			"question": "Мы снимаем эту квартиру с прошлого года.",
 			"answer": "We have been renting this flat since last year.",
-			"explanation": "Present Perfect Continuous: аренда квартиры с прошлого года."
+			"translations": {
+				"ru": {
+					"question": "Мы снимаем эту квартиру с прошлого года.",
+					"explanation": "Present Perfect Continuous: аренда квартиры с прошлого года."
+				}
+			}
 		},
 		{
-			"question": "Он слушает музыку весь вечер.",
 			"answer": "He has been listening to music all evening.",
-			"explanation": "Present Perfect Continuous: прослушивание музыки весь вечер."
+			"translations": {
+				"ru": {
+					"question": "Он слушает музыку весь вечер.",
+					"explanation": "Present Perfect Continuous: прослушивание музыки весь вечер."
+				}
+			}
 		},
 		{
-			"question": "Я занимаюсь этим делом уже несколько часов.",
 			"answer": "I have been dealing with this matter for several hours.",
-			"explanation": "Present Perfect Continuous: занятие делом продолжается несколько часов."
+			"translations": {
+				"ru": {
+					"question": "Я занимаюсь этим делом уже несколько часов.",
+					"explanation": "Present Perfect Continuous: занятие делом продолжается несколько часов."
+				}
+			}
 		},
 		{
-			"question": "Она работает в больнице уже двенадцать лет.",
 			"answer": "She has been working at the hospital for twelve years.",
-			"explanation": "Present Perfect Continuous: работа в больнице продолжается."
+			"translations": {
+				"ru": {
+					"question": "Она работает в больнице уже двенадцать лет.",
+					"explanation": "Present Perfect Continuous: работа в больнице продолжается."
+				}
+			}
 		},
 		{
-			"question": "Мы обсуждаем условия контракта уже несколько дней.",
 			"answer": "We have been discussing the contract terms for several days.",
-			"explanation": "Present Perfect Continuous: переговоры по контракту продолжаются."
+			"translations": {
+				"ru": {
+					"question": "Мы обсуждаем условия контракта уже несколько дней.",
+					"explanation": "Present Perfect Continuous: переговоры по контракту продолжаются."
+				}
+			}
 		},
 		{
-			"question": "Он пишет код с утра.",
 			"answer": "He has been writing code since morning.",
-			"explanation": "Present Perfect Continuous: написание кода с утра."
+			"translations": {
+				"ru": {
+					"question": "Он пишет код с утра.",
+					"explanation": "Present Perfect Continuous: написание кода с утра."
+				}
+			}
 		},
 		{
-			"question": "Я занимаюсь медитацией уже три года.",
 			"answer": "I have been meditating for three years.",
-			"explanation": "Present Perfect Continuous: практика медитации продолжается три года."
+			"translations": {
+				"ru": {
+					"question": "Я занимаюсь медитацией уже три года.",
+					"explanation": "Present Perfect Continuous: практика медитации продолжается три года."
+				}
+			}
 		},
 		{
-			"question": "Она выступает на этой сцене уже много лет.",
 			"answer": "She has been performing on this stage for many years.",
-			"explanation": "Present Perfect Continuous: выступления на сцене продолжаются много лет."
+			"translations": {
+				"ru": {
+					"question": "Она выступает на этой сцене уже много лет.",
+					"explanation": "Present Perfect Continuous: выступления на сцене продолжаются много лет."
+				}
+			}
 		},
 		{
-			"question": "Мы строим отношения с клиентом уже год.",
 			"answer": "We have been building a relationship with the client for a year.",
-			"explanation": "Present Perfect Continuous: построение отношений продолжается."
+			"translations": {
+				"ru": {
+					"question": "Мы строим отношения с клиентом уже год.",
+					"explanation": "Present Perfect Continuous: построение отношений продолжается."
+				}
+			}
 		},
 		{
-			"question": "Он занимается серфингом с подросткового возраста.",
 			"answer": "He has been surfing since he was a teenager.",
-			"explanation": "Present Perfect Continuous: занятие серфингом с юных лет."
+			"translations": {
+				"ru": {
+					"question": "Он занимается серфингом с подросткового возраста.",
+					"explanation": "Present Perfect Continuous: занятие серфингом с юных лет."
+				}
+			}
 		},
 		{
-			"question": "Я наблюдаю за этой ситуацией уже несколько недель.",
 			"answer": "I have been observing this situation for several weeks.",
-			"explanation": "Present Perfect Continuous: наблюдение продолжается несколько недель."
+			"translations": {
+				"ru": {
+					"question": "Я наблюдаю за этой ситуацией уже несколько недель.",
+					"explanation": "Present Perfect Continuous: наблюдение продолжается несколько недель."
+				}
+			}
 		},
 		{
-			"question": "Она пишет стихи с юности.",
 			"answer": "She has been writing poetry since her youth.",
-			"explanation": "Present Perfect Continuous: написание стихов с юности."
+			"translations": {
+				"ru": {
+					"question": "Она пишет стихи с юности.",
+					"explanation": "Present Perfect Continuous: написание стихов с юности."
+				}
+			}
 		},
 		{
-			"question": "Мы тестируем новую версию программы уже неделю.",
 			"answer": "We have been testing the new version of the software for a week.",
-			"explanation": "Present Perfect Continuous: тестирование продолжается неделю."
+			"translations": {
+				"ru": {
+					"question": "Мы тестируем новую версию программы уже неделю.",
+					"explanation": "Present Perfect Continuous: тестирование продолжается неделю."
+				}
+			}
 		},
 		{
-			"question": "Он копит на отпуск уже полгода.",
 			"answer": "He has been saving for a holiday for six months.",
-			"explanation": "Present Perfect Continuous: накопление денег продолжается полгода."
+			"translations": {
+				"ru": {
+					"question": "Он копит на отпуск уже полгода.",
+					"explanation": "Present Perfect Continuous: накопление денег продолжается полгода."
+				}
+			}
 		},
 		{
-			"question": "Я хожу к этому врачу уже несколько лет.",
 			"answer": "I have been seeing this doctor for several years.",
-			"explanation": "Present Perfect Continuous: посещение врача продолжается несколько лет."
+			"translations": {
+				"ru": {
+					"question": "Я хожу к этому врачу уже несколько лет.",
+					"explanation": "Present Perfect Continuous: посещение врача продолжается несколько лет."
+				}
+			}
 		},
 		{
-			"question": "Она учится на программиста уже два года.",
 			"answer": "She has been studying to become a programmer for two years.",
-			"explanation": "Present Perfect Continuous: обучение программированию продолжается."
+			"translations": {
+				"ru": {
+					"question": "Она учится на программиста уже два года.",
+					"explanation": "Present Perfect Continuous: обучение программированию продолжается."
+				}
+			}
 		},
 		{
-			"question": "Мы работаем в партнёрстве уже пять лет.",
 			"answer": "We have been working in partnership for five years.",
-			"explanation": "Present Perfect Continuous: партнёрство длится пять лет."
+			"translations": {
+				"ru": {
+					"question": "Мы работаем в партнёрстве уже пять лет.",
+					"explanation": "Present Perfect Continuous: партнёрство длится пять лет."
+				}
+			}
 		},
 		{
-			"question": "Он готовится к выступлению с прошлой недели.",
 			"answer": "He has been preparing for the performance since last week.",
-			"explanation": "Present Perfect Continuous: подготовка к выступлению с прошлой недели."
+			"translations": {
+				"ru": {
+					"question": "Он готовится к выступлению с прошлой недели.",
+					"explanation": "Present Perfect Continuous: подготовка к выступлению с прошлой недели."
+				}
+			}
 		},
 		{
-			"question": "Я изучаю эту тему уже довольно долго.",
 			"answer": "I have been studying this topic for quite a long time.",
-			"explanation": "Present Perfect Continuous: изучение темы продолжается долго."
+			"translations": {
+				"ru": {
+					"question": "Я изучаю эту тему уже довольно долго.",
+					"explanation": "Present Perfect Continuous: изучение темы продолжается долго."
+				}
+			}
 		},
 		{
-			"question": "Она ухаживает за больной матерью уже несколько месяцев.",
 			"answer": "She has been taking care of her sick mother for several months.",
-			"explanation": "Present Perfect Continuous: уход за матерью продолжается несколько месяцев."
+			"translations": {
+				"ru": {
+					"question": "Она ухаживает за больной матерью уже несколько месяцев.",
+					"explanation": "Present Perfect Continuous: уход за матерью продолжается несколько месяцев."
+				}
+			}
 		},
 		{
-			"question": "Мы развиваем этот стартап уже два года.",
 			"answer": "We have been developing this startup for two years.",
-			"explanation": "Present Perfect Continuous: развитие стартапа продолжается."
+			"translations": {
+				"ru": {
+					"question": "Мы развиваем этот стартап уже два года.",
+					"explanation": "Present Perfect Continuous: развитие стартапа продолжается."
+				}
+			}
 		},
 		{
-			"question": "Он снимает документальный фильм уже год.",
 			"answer": "He has been making a documentary for a year.",
-			"explanation": "Present Perfect Continuous: съёмка документального фильма продолжается."
+			"translations": {
+				"ru": {
+					"question": "Он снимает документальный фильм уже год.",
+					"explanation": "Present Perfect Continuous: съёмка документального фильма продолжается."
+				}
+			}
 		},
 		{
-			"question": "Я хожу на курсы испанского с сентября.",
 			"answer": "I have been attending Spanish classes since September.",
-			"explanation": "Present Perfect Continuous: посещение курсов с сентября."
+			"translations": {
+				"ru": {
+					"question": "Я хожу на курсы испанского с сентября.",
+					"explanation": "Present Perfect Continuous: посещение курсов с сентября."
+				}
+			}
 		},
 		{
-			"question": "Она занимается верховой ездой с детства.",
 			"answer": "She has been horse riding since childhood.",
-			"explanation": "Present Perfect Continuous: верховая езда с детства."
+			"translations": {
+				"ru": {
+					"question": "Она занимается верховой ездой с детства.",
+					"explanation": "Present Perfect Continuous: верховая езда с детства."
+				}
+			}
 		},
 		{
-			"question": "Мы ищем нового сотрудника уже месяц.",
 			"answer": "We have been looking for a new employee for a month.",
-			"explanation": "Present Perfect Continuous: поиск сотрудника продолжается."
+			"translations": {
+				"ru": {
+					"question": "Мы ищем нового сотрудника уже месяц.",
+					"explanation": "Present Perfect Continuous: поиск сотрудника продолжается."
+				}
+			}
 		},
 		{
-			"question": "Он восстанавливается после операции уже несколько недель.",
 			"answer": "He has been recovering from surgery for several weeks.",
-			"explanation": "Present Perfect Continuous: восстановление продолжается несколько недель."
+			"translations": {
+				"ru": {
+					"question": "Он восстанавливается после операции уже несколько недель.",
+					"explanation": "Present Perfect Continuous: восстановление продолжается несколько недель."
+				}
+			}
 		},
 		{
-			"question": "Я работаю над этим заданием весь день.",
 			"answer": "I have been working on this assignment all day.",
-			"explanation": "Present Perfect Continuous: работа над заданием весь день."
+			"translations": {
+				"ru": {
+					"question": "Я работаю над этим заданием весь день.",
+					"explanation": "Present Perfect Continuous: работа над заданием весь день."
+				}
+			}
 		},
 		{
-			"question": "Она учит детей плавать уже восемь лет.",
 			"answer": "She has been teaching children to swim for eight years.",
-			"explanation": "Present Perfect Continuous: обучение плаванию продолжается восемь лет."
+			"translations": {
+				"ru": {
+					"question": "Она учит детей плавать уже восемь лет.",
+					"explanation": "Present Perfect Continuous: обучение плаванию продолжается восемь лет."
+				}
+			}
 		},
 		{
-			"question": "Мы используем этот метод уже несколько лет.",
 			"answer": "We have been using this method for several years.",
-			"explanation": "Present Perfect Continuous: применение метода продолжается."
+			"translations": {
+				"ru": {
+					"question": "Мы используем этот метод уже несколько лет.",
+					"explanation": "Present Perfect Continuous: применение метода продолжается."
+				}
+			}
 		},
 		{
-			"question": "Он играет в шахматы с семи лет.",
 			"answer": "He has been playing chess since he was seven.",
-			"explanation": "Present Perfect Continuous: игра в шахматы с семи лет."
+			"translations": {
+				"ru": {
+					"question": "Он играет в шахматы с семи лет.",
+					"explanation": "Present Perfect Continuous: игра в шахматы с семи лет."
+				}
+			}
 		},
 		{
-			"question": "Я слежу за его карьерой с самого начала.",
 			"answer": "I have been following his career from the very beginning.",
-			"explanation": "Present Perfect Continuous: наблюдение за карьерой с самого начала."
+			"translations": {
+				"ru": {
+					"question": "Я слежу за его карьерой с самого начала.",
+					"explanation": "Present Perfect Continuous: наблюдение за карьерой с самого начала."
+				}
+			}
 		},
 		{
-			"question": "Она занимается волонтёрством уже три года.",
 			"answer": "She has been volunteering for three years.",
-			"explanation": "Present Perfect Continuous: волонтёрство продолжается три года."
+			"translations": {
+				"ru": {
+					"question": "Она занимается волонтёрством уже три года.",
+					"explanation": "Present Perfect Continuous: волонтёрство продолжается три года."
+				}
+			}
 		},
 		{
-			"question": "Мы ждём разрешения на строительство уже полгода.",
 			"answer": "We have been waiting for a building permit for six months.",
-			"explanation": "Present Perfect Continuous: ожидание разрешения затянулось."
+			"translations": {
+				"ru": {
+					"question": "Мы ждём разрешения на строительство уже полгода.",
+					"explanation": "Present Perfect Continuous: ожидание разрешения затянулось."
+				}
+			}
 		},
 		{
-			"question": "Он изучает квантовую физику уже два года.",
 			"answer": "He has been studying quantum physics for two years.",
-			"explanation": "Present Perfect Continuous: изучение физики продолжается два года."
+			"translations": {
+				"ru": {
+					"question": "Он изучает квантовую физику уже два года.",
+					"explanation": "Present Perfect Continuous: изучение физики продолжается два года."
+				}
+			}
 		},
 		{
-			"question": "Я практикую медитацию каждый день с прошлого года.",
 			"answer": "I have been practising meditation every day since last year.",
-			"explanation": "Present Perfect Continuous: ежедневная медитация с прошлого года."
+			"translations": {
+				"ru": {
+					"question": "Я практикую медитацию каждый день с прошлого года.",
+					"explanation": "Present Perfect Continuous: ежедневная медитация с прошлого года."
+				}
+			}
 		},
 		{
-			"question": "Она помогает в этом приюте с открытия.",
 			"answer": "She has been helping at this shelter since it opened.",
-			"explanation": "Present Perfect Continuous: помощь в приюте с его открытия."
+			"translations": {
+				"ru": {
+					"question": "Она помогает в этом приюте с открытия.",
+					"explanation": "Present Perfect Continuous: помощь в приюте с его открытия."
+				}
+			}
 		},
 		{
-			"question": "Мы платим за эту подписку уже год.",
 			"answer": "We have been paying for this subscription for a year.",
-			"explanation": "Present Perfect Continuous: оплата подписки продолжается год."
+			"translations": {
+				"ru": {
+					"question": "Мы платим за эту подписку уже год.",
+					"explanation": "Present Perfect Continuous: оплата подписки продолжается год."
+				}
+			}
 		},
 		{
-			"question": "Он учится на пилота уже три года.",
 			"answer": "He has been training to be a pilot for three years.",
-			"explanation": "Present Perfect Continuous: обучение на пилота продолжается."
+			"translations": {
+				"ru": {
+					"question": "Он учится на пилота уже три года.",
+					"explanation": "Present Perfect Continuous: обучение на пилота продолжается."
+				}
+			}
 		},
 		{
-			"question": "Я думаю о переезде уже несколько месяцев.",
 			"answer": "I have been thinking about moving for several months.",
-			"explanation": "Present Perfect Continuous: мысли о переезде не покидают несколько месяцев."
+			"translations": {
+				"ru": {
+					"question": "Я думаю о переезде уже несколько месяцев.",
+					"explanation": "Present Perfect Continuous: мысли о переезде не покидают несколько месяцев."
+				}
+			}
 		},
 		{
-			"question": "Она занимается акробатикой с шести лет.",
 			"answer": "She has been doing acrobatics since she was six.",
-			"explanation": "Present Perfect Continuous: занятие акробатикой с шести лет."
+			"translations": {
+				"ru": {
+					"question": "Она занимается акробатикой с шести лет.",
+					"explanation": "Present Perfect Continuous: занятие акробатикой с шести лет."
+				}
+			}
 		},
 		{
-			"question": "Мы пытаемся договориться уже несколько дней.",
 			"answer": "We have been trying to come to an agreement for several days.",
-			"explanation": "Present Perfect Continuous: попытки договориться продолжаются."
+			"translations": {
+				"ru": {
+					"question": "Мы пытаемся договориться уже несколько дней.",
+					"explanation": "Present Perfect Continuous: попытки договориться продолжаются."
+				}
+			}
 		},
 		{
-			"question": "Он печёт хлеб каждое утро уже пять лет.",
 			"answer": "He has been baking bread every morning for five years.",
-			"explanation": "Present Perfect Continuous: регулярное занятие, продолжающееся пять лет."
+			"translations": {
+				"ru": {
+					"question": "Он печёт хлеб каждое утро уже пять лет.",
+					"explanation": "Present Perfect Continuous: регулярное занятие, продолжающееся пять лет."
+				}
+			}
 		},
 		{
-			"question": "Она пишет дипломную работу с октября.",
 			"answer": "She has been writing her thesis since October.",
-			"explanation": "Present Perfect Continuous: написание диплома с октября."
+			"translations": {
+				"ru": {
+					"question": "Она пишет дипломную работу с октября.",
+					"explanation": "Present Perfect Continuous: написание диплома с октября."
+				}
+			}
 		},
 		{
-			"question": "Мы живём в этом доме уже десять лет.",
 			"answer": "We have been living in this house for ten years.",
-			"explanation": "Present Perfect Continuous: жизнь в этом доме продолжается десять лет."
+			"translations": {
+				"ru": {
+					"question": "Мы живём в этом доме уже десять лет.",
+					"explanation": "Present Perfect Continuous: жизнь в этом доме продолжается десять лет."
+				}
+			}
 		},
 		{
-			"question": "Он занимается скалолазанием уже несколько лет.",
 			"answer": "He has been rock climbing for several years.",
-			"explanation": "Present Perfect Continuous: занятие скалолазанием продолжается."
+			"translations": {
+				"ru": {
+					"question": "Он занимается скалолазанием уже несколько лет.",
+					"explanation": "Present Perfect Continuous: занятие скалолазанием продолжается."
+				}
+			}
 		},
 		{
-			"question": "Я читаю статьи по этой теме уже несколько часов.",
 			"answer": "I have been reading articles on this topic for several hours.",
-			"explanation": "Present Perfect Continuous: чтение статей продолжается несколько часов."
+			"translations": {
+				"ru": {
+					"question": "Я читаю статьи по этой теме уже несколько часов.",
+					"explanation": "Present Perfect Continuous: чтение статей продолжается несколько часов."
+				}
+			}
 		},
 		{
-			"question": "Она руководит этим отделом уже шесть лет.",
 			"answer": "She has been managing this department for six years.",
-			"explanation": "Present Perfect Continuous: руководство отделом продолжается шесть лет."
+			"translations": {
+				"ru": {
+					"question": "Она руководит этим отделом уже шесть лет.",
+					"explanation": "Present Perfect Continuous: руководство отделом продолжается шесть лет."
+				}
+			}
 		},
 		{
-			"question": "Мы обновляем сайт уже несколько недель.",
 			"answer": "We have been updating the website for several weeks.",
-			"explanation": "Present Perfect Continuous: обновление сайта ещё не завершено."
+			"translations": {
+				"ru": {
+					"question": "Мы обновляем сайт уже несколько недель.",
+					"explanation": "Present Perfect Continuous: обновление сайта ещё не завершено."
+				}
+			}
 		},
 		{
-			"question": "Он занимается фотографией с университета.",
 			"answer": "He has been doing photography since university.",
-			"explanation": "Present Perfect Continuous: занятие фотографией с университетских лет."
+			"translations": {
+				"ru": {
+					"question": "Он занимается фотографией с университета.",
+					"explanation": "Present Perfect Continuous: занятие фотографией с университетских лет."
+				}
+			}
 		},
 		{
-			"question": "Я работаю дистанционно уже два года.",
 			"answer": "I have been working remotely for two years.",
-			"explanation": "Present Perfect Continuous: дистанционная работа продолжается два года."
+			"translations": {
+				"ru": {
+					"question": "Я работаю дистанционно уже два года.",
+					"explanation": "Present Perfect Continuous: дистанционная работа продолжается два года."
+				}
+			}
 		},
 		{
-			"question": "Она изучает право уже четыре года.",
 			"answer": "She has been studying law for four years.",
-			"explanation": "Present Perfect Continuous: изучение права продолжается четыре года."
+			"translations": {
+				"ru": {
+					"question": "Она изучает право уже четыре года.",
+					"explanation": "Present Perfect Continuous: изучение права продолжается четыре года."
+				}
+			}
 		},
 		{
-			"question": "Мы сотрудничаем с этой компанией уже несколько лет.",
 			"answer": "We have been collaborating with this company for several years.",
-			"explanation": "Present Perfect Continuous: сотрудничество продолжается."
+			"translations": {
+				"ru": {
+					"question": "Мы сотрудничаем с этой компанией уже несколько лет.",
+					"explanation": "Present Perfect Continuous: сотрудничество продолжается."
+				}
+			}
 		},
 		{
-			"question": "Он занимается боксом с пятнадцати лет.",
 			"answer": "He has been boxing since he was fifteen.",
-			"explanation": "Present Perfect Continuous: занятие боксом с пятнадцати лет."
+			"translations": {
+				"ru": {
+					"question": "Он занимается боксом с пятнадцати лет.",
+					"explanation": "Present Perfect Continuous: занятие боксом с пятнадцати лет."
+				}
+			}
 		},
 		{
-			"question": "Я слушаю подкасты по дороге на работу уже год.",
 			"answer": "I have been listening to podcasts on my way to work for a year.",
-			"explanation": "Present Perfect Continuous: прослушивание подкастов в дороге продолжается год."
+			"translations": {
+				"ru": {
+					"question": "Я слушаю подкасты по дороге на работу уже год.",
+					"explanation": "Present Perfect Continuous: прослушивание подкастов в дороге продолжается год."
+				}
+			}
 		},
 		{
-			"question": "Она ведёт блог уже три года.",
 			"answer": "She has been running a blog for three years.",
-			"explanation": "Present Perfect Continuous: ведение блога продолжается три года."
+			"translations": {
+				"ru": {
+					"question": "Она ведёт блог уже три года.",
+					"explanation": "Present Perfect Continuous: ведение блога продолжается три года."
+				}
+			}
 		},
 		{
-			"question": "Мы ждём решения суда уже несколько месяцев.",
 			"answer": "We have been waiting for the court's decision for several months.",
-			"explanation": "Present Perfect Continuous: ожидание решения затянулось."
+			"translations": {
+				"ru": {
+					"question": "Мы ждём решения суда уже несколько месяцев.",
+					"explanation": "Present Perfect Continuous: ожидание решения затянулось."
+				}
+			}
 		},
 		{
-			"question": "Он собирает марки с детства.",
 			"answer": "He has been collecting stamps since childhood.",
-			"explanation": "Present Perfect Continuous: коллекционирование марок с детства."
+			"translations": {
+				"ru": {
+					"question": "Он собирает марки с детства.",
+					"explanation": "Present Perfect Continuous: коллекционирование марок с детства."
+				}
+			}
 		},
 		{
-			"question": "Я пишу сценарий уже полгода.",
 			"answer": "I have been writing the screenplay for six months.",
-			"explanation": "Present Perfect Continuous: написание сценария продолжается полгода."
+			"translations": {
+				"ru": {
+					"question": "Я пишу сценарий уже полгода.",
+					"explanation": "Present Perfect Continuous: написание сценария продолжается полгода."
+				}
+			}
 		},
 		{
-			"question": "Она занимается каллиграфией уже несколько лет.",
 			"answer": "She has been practising calligraphy for several years.",
-			"explanation": "Present Perfect Continuous: занятие каллиграфией продолжается."
+			"translations": {
+				"ru": {
+					"question": "Она занимается каллиграфией уже несколько лет.",
+					"explanation": "Present Perfect Continuous: занятие каллиграфией продолжается."
+				}
+			}
 		},
 		{
-			"question": "Мы готовимся к свадьбе уже три месяца.",
 			"answer": "We have been preparing for the wedding for three months.",
-			"explanation": "Present Perfect Continuous: подготовка к свадьбе продолжается три месяца."
+			"translations": {
+				"ru": {
+					"question": "Мы готовимся к свадьбе уже три месяца.",
+					"explanation": "Present Perfect Continuous: подготовка к свадьбе продолжается три месяца."
+				}
+			}
 		},
 		{
-			"question": "Он переводит книгу уже полгода.",
 			"answer": "He has been translating the book for six months.",
-			"explanation": "Present Perfect Continuous: перевод книги продолжается полгода."
+			"translations": {
+				"ru": {
+					"question": "Он переводит книгу уже полгода.",
+					"explanation": "Present Perfect Continuous: перевод книги продолжается полгода."
+				}
+			}
 		},
 		{
-			"question": "Я занимаюсь дизайном уже пять лет.",
 			"answer": "I have been working in design for five years.",
-			"explanation": "Present Perfect Continuous: работа в дизайне продолжается пять лет."
+			"translations": {
+				"ru": {
+					"question": "Я занимаюсь дизайном уже пять лет.",
+					"explanation": "Present Perfect Continuous: работа в дизайне продолжается пять лет."
+				}
+			}
 		},
 		{
-			"question": "Она преподаёт в школе уже восемнадцать лет.",
 			"answer": "She has been teaching at school for eighteen years.",
-			"explanation": "Present Perfect Continuous: преподавание продолжается восемнадцать лет."
+			"translations": {
+				"ru": {
+					"question": "Она преподаёт в школе уже восемнадцать лет.",
+					"explanation": "Present Perfect Continuous: преподавание продолжается восемнадцать лет."
+				}
+			}
 		},
 		{
-			"question": "Мы наблюдаем за этим экспериментом уже неделю.",
 			"answer": "We have been observing this experiment for a week.",
-			"explanation": "Present Perfect Continuous: наблюдение за экспериментом продолжается неделю."
+			"translations": {
+				"ru": {
+					"question": "Мы наблюдаем за этим экспериментом уже неделю.",
+					"explanation": "Present Perfect Continuous: наблюдение за экспериментом продолжается неделю."
+				}
+			}
 		},
 		{
-			"question": "Он изучает китайский язык уже три года.",
 			"answer": "He has been studying Chinese for three years.",
-			"explanation": "Present Perfect Continuous: изучение китайского продолжается три года."
+			"translations": {
+				"ru": {
+					"question": "Он изучает китайский язык уже три года.",
+					"explanation": "Present Perfect Continuous: изучение китайского продолжается три года."
+				}
+			}
 		},
 		{
-			"question": "Я провожу исследование по этой теме уже год.",
 			"answer": "I have been conducting research on this topic for a year.",
-			"explanation": "Present Perfect Continuous: исследование продолжается год."
+			"translations": {
+				"ru": {
+					"question": "Я провожу исследование по этой теме уже год.",
+					"explanation": "Present Perfect Continuous: исследование продолжается год."
+				}
+			}
 		},
 		{
-			"question": "Она занимается дайвингом с двадцати лет.",
 			"answer": "She has been scuba diving since she was twenty.",
-			"explanation": "Present Perfect Continuous: занятие дайвингом с двадцати лет."
+			"translations": {
+				"ru": {
+					"question": "Она занимается дайвингом с двадцати лет.",
+					"explanation": "Present Perfect Continuous: занятие дайвингом с двадцати лет."
+				}
+			}
 		},
 		{
-			"question": "Мы организуем это мероприятие уже несколько недель.",
 			"answer": "We have been organising this event for several weeks.",
-			"explanation": "Present Perfect Continuous: подготовка к мероприятию продолжается."
+			"translations": {
+				"ru": {
+					"question": "Мы организуем это мероприятие уже несколько недель.",
+					"explanation": "Present Perfect Continuous: подготовка к мероприятию продолжается."
+				}
+			}
 		},
 		{
-			"question": "Он занимается садоводством на даче уже много лет.",
 			"answer": "He has been gardening at the dacha for many years.",
-			"explanation": "Present Perfect Continuous: садоводство на даче много лет."
+			"translations": {
+				"ru": {
+					"question": "Он занимается садоводством на даче уже много лет.",
+					"explanation": "Present Perfect Continuous: садоводство на даче много лет."
+				}
+			}
 		},
 		{
-			"question": "Я читаю книги по психологии уже несколько месяцев.",
 			"answer": "I have been reading books on psychology for several months.",
-			"explanation": "Present Perfect Continuous: чтение книг по психологии продолжается."
+			"translations": {
+				"ru": {
+					"question": "Я читаю книги по психологии уже несколько месяцев.",
+					"explanation": "Present Perfect Continuous: чтение книг по психологии продолжается."
+				}
+			}
 		},
 		{
-			"question": "Она занимается флористикой с прошлого года.",
 			"answer": "She has been doing floristry since last year.",
-			"explanation": "Present Perfect Continuous: занятие флористикой с прошлого года."
+			"translations": {
+				"ru": {
+					"question": "Она занимается флористикой с прошлого года.",
+					"explanation": "Present Perfect Continuous: занятие флористикой с прошлого года."
+				}
+			}
 		},
 		{
-			"question": "Мы снимаем этот документальный фильм уже восемь месяцев.",
 			"answer": "We have been filming this documentary for eight months.",
-			"explanation": "Present Perfect Continuous: съёмка продолжается восемь месяцев."
+			"translations": {
+				"ru": {
+					"question": "Мы снимаем этот документальный фильм уже восемь месяцев.",
+					"explanation": "Present Perfect Continuous: съёмка продолжается восемь месяцев."
+				}
+			}
 		},
 		{
-			"question": "Он занимается бегом по утрам уже три года.",
 			"answer": "He has been running in the mornings for three years.",
-			"explanation": "Present Perfect Continuous: утренние пробежки продолжаются три года."
+			"translations": {
+				"ru": {
+					"question": "Он занимается бегом по утрам уже три года.",
+					"explanation": "Present Perfect Continuous: утренние пробежки продолжаются три года."
+				}
+			}
 		},
 		{
-			"question": "Я изучаю астрономию с подросткового возраста.",
 			"answer": "I have been studying astronomy since I was a teenager.",
-			"explanation": "Present Perfect Continuous: изучение астрономии с юных лет."
+			"translations": {
+				"ru": {
+					"question": "Я изучаю астрономию с подросткового возраста.",
+					"explanation": "Present Perfect Continuous: изучение астрономии с юных лет."
+				}
+			}
 		},
 		{
-			"question": "Она вяжет этот свитер уже две недели.",
 			"answer": "She has been knitting this sweater for two weeks.",
-			"explanation": "Present Perfect Continuous: вязание свитера ещё не завершено."
+			"translations": {
+				"ru": {
+					"question": "Она вяжет этот свитер уже две недели.",
+					"explanation": "Present Perfect Continuous: вязание свитера ещё не завершено."
+				}
+			}
 		},
 		{
-			"question": "Мы используем возобновляемую энергию уже несколько лет.",
 			"answer": "We have been using renewable energy for several years.",
-			"explanation": "Present Perfect Continuous: использование возобновляемой энергии продолжается."
+			"translations": {
+				"ru": {
+					"question": "Мы используем возобновляемую энергию уже несколько лет.",
+					"explanation": "Present Perfect Continuous: использование возобновляемой энергии продолжается."
+				}
+			}
 		},
 		{
-			"question": "Он занимается архитектурой уже двадцать лет.",
 			"answer": "He has been working as an architect for twenty years.",
-			"explanation": "Present Perfect Continuous: работа архитектором продолжается двадцать лет."
+			"translations": {
+				"ru": {
+					"question": "Он занимается архитектурой уже двадцать лет.",
+					"explanation": "Present Perfect Continuous: работа архитектором продолжается двадцать лет."
+				}
+			}
 		},
 		{
-			"question": "Я веду этот дневник уже несколько лет.",
 			"answer": "I have been keeping this diary for several years.",
-			"explanation": "Present Perfect Continuous: ведение дневника продолжается несколько лет."
+			"translations": {
+				"ru": {
+					"question": "Я веду этот дневник уже несколько лет.",
+					"explanation": "Present Perfect Continuous: ведение дневника продолжается несколько лет."
+				}
+			}
 		},
 		{
-			"question": "Она играет на скрипке с пяти лет.",
 			"answer": "She has been playing the violin since she was five.",
-			"explanation": "Present Perfect Continuous: игра на скрипке с пяти лет."
+			"translations": {
+				"ru": {
+					"question": "Она играет на скрипке с пяти лет.",
+					"explanation": "Present Perfect Continuous: игра на скрипке с пяти лет."
+				}
+			}
 		},
 		{
-			"question": "Мы обучаем персонал новым методам уже месяц.",
 			"answer": "We have been training the staff in new methods for a month.",
-			"explanation": "Present Perfect Continuous: обучение персонала продолжается месяц."
+			"translations": {
+				"ru": {
+					"question": "Мы обучаем персонал новым методам уже месяц.",
+					"explanation": "Present Perfect Continuous: обучение персонала продолжается месяц."
+				}
+			}
 		},
 		{
-			"question": "Он изучает экономику уже четыре года.",
 			"answer": "He has been studying economics for four years.",
-			"explanation": "Present Perfect Continuous: изучение экономики продолжается четыре года."
+			"translations": {
+				"ru": {
+					"question": "Он изучает экономику уже четыре года.",
+					"explanation": "Present Perfect Continuous: изучение экономики продолжается четыре года."
+				}
+			}
 		},
 		{
-			"question": "Я занимаюсь плаванием три раза в неделю уже год.",
 			"answer": "I have been swimming three times a week for a year.",
-			"explanation": "Present Perfect Continuous: регулярное плавание в течение года."
+			"translations": {
+				"ru": {
+					"question": "Я занимаюсь плаванием три раза в неделю уже год.",
+					"explanation": "Present Perfect Continuous: регулярное плавание в течение года."
+				}
+			}
 		},
 		{
-			"question": "Она читает лекции в университете уже десять лет.",
 			"answer": "She has been lecturing at the university for ten years.",
-			"explanation": "Present Perfect Continuous: чтение лекций продолжается десять лет."
+			"translations": {
+				"ru": {
+					"question": "Она читает лекции в университете уже десять лет.",
+					"explanation": "Present Perfect Continuous: чтение лекций продолжается десять лет."
+				}
+			}
 		},
 		{
-			"question": "Мы следим за прогрессом проекта уже несколько месяцев.",
 			"answer": "We have been monitoring the project's progress for several months.",
-			"explanation": "Present Perfect Continuous: мониторинг прогресса продолжается."
+			"translations": {
+				"ru": {
+					"question": "Мы следим за прогрессом проекта уже несколько месяцев.",
+					"explanation": "Present Perfect Continuous: мониторинг прогресса продолжается."
+				}
+			}
 		},
 		{
-			"question": "Он занимается горными лыжами с детства.",
 			"answer": "He has been skiing since childhood.",
-			"explanation": "Present Perfect Continuous: занятие горными лыжами с детства."
+			"translations": {
+				"ru": {
+					"question": "Он занимается горными лыжами с детства.",
+					"explanation": "Present Perfect Continuous: занятие горными лыжами с детства."
+				}
+			}
 		},
 		{
-			"question": "Я пишу эту статью уже три дня.",
 			"answer": "I have been writing this article for three days.",
-			"explanation": "Present Perfect Continuous: написание статьи ещё не завершено."
+			"translations": {
+				"ru": {
+					"question": "Я пишу эту статью уже три дня.",
+					"explanation": "Present Perfect Continuous: написание статьи ещё не завершено."
+				}
+			}
 		},
 		{
-			"question": "Она занимается пилатесом уже полгода.",
 			"answer": "She has been doing Pilates for six months.",
-			"explanation": "Present Perfect Continuous: занятия пилатесом продолжаются полгода."
+			"translations": {
+				"ru": {
+					"question": "Она занимается пилатесом уже полгода.",
+					"explanation": "Present Perfect Continuous: занятия пилатесом продолжаются полгода."
+				}
+			}
 		}
 	]
 }

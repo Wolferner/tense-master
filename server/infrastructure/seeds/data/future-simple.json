@@ -2,1114 +2,2002 @@
 	"tense": "FUTURE_SIMPLE",
 	"exercises": [
 		{
-			"question": "Я думаю, завтра будет дождь.",
 			"answer": "I think it will rain tomorrow.",
-			"explanation": "Предсказание о будущем с маркером 'я думаю' (I think) — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я думаю, завтра будет дождь.",
+					"explanation": "Предсказание о будущем с маркером 'я думаю' (I think) — используем will."
+				}
+			}
 		},
 		{
-			"question": "Подожди, я открою дверь.",
 			"answer": "Wait, I will open the door.",
-			"explanation": "Спонтанное решение в момент речи — используем will."
+			"translations": {
+				"ru": {
+					"question": "Подожди, я открою дверь.",
+					"explanation": "Спонтанное решение в момент речи — используем will."
+				}
+			}
 		},
 		{
-			"question": "Она, наверное, опоздает на встречу.",
 			"answer": "She will probably be late for the meeting.",
-			"explanation": "Предсказание с наречием 'наверное' (probably) — используем will."
+			"translations": {
+				"ru": {
+					"question": "Она, наверное, опоздает на встречу.",
+					"explanation": "Предсказание с наречием 'наверное' (probably) — используем will."
+				}
+			}
 		},
 		{
-			"question": "Я обещаю, что позвоню тебе вечером.",
 			"answer": "I promise I will call you tonight.",
-			"explanation": "Обещание — классический случай использования will."
+			"translations": {
+				"ru": {
+					"question": "Я обещаю, что позвоню тебе вечером.",
+					"explanation": "Обещание — классический случай использования will."
+				}
+			}
 		},
 		{
-			"question": "Не трогай это, иначе ты пожалеешь.",
 			"answer": "Don't touch that, or you will regret it.",
-			"explanation": "Предупреждение/угроза — используем will."
+			"translations": {
+				"ru": {
+					"question": "Не трогай это, иначе ты пожалеешь.",
+					"explanation": "Предупреждение/угроза — используем will."
+				}
+			}
 		},
 		{
-			"question": "В следующем году мне исполнится тридцать лет.",
 			"answer": "I will turn thirty next year.",
-			"explanation": "Факт о будущем с маркером 'в следующем году' (next year) — используем will."
+			"translations": {
+				"ru": {
+					"question": "В следующем году мне исполнится тридцать лет.",
+					"explanation": "Факт о будущем с маркером 'в следующем году' (next year) — используем will."
+				}
+			}
 		},
 		{
-			"question": "Ты поможешь мне с этим проектом?",
 			"answer": "Will you help me with this project?",
-			"explanation": "Вопрос с просьбой о помощи — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты поможешь мне с этим проектом?",
+					"explanation": "Вопрос с просьбой о помощи — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Я уверен, что она сдаст экзамен.",
 			"answer": "I am sure she will pass the exam.",
-			"explanation": "Уверенное предсказание с 'я уверен' (I am sure) — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я уверен, что она сдаст экзамен.",
+					"explanation": "Уверенное предсказание с 'я уверен' (I am sure) — используем will."
+				}
+			}
 		},
 		{
-			"question": "Мы скоро увидимся снова.",
 			"answer": "We will see each other again soon.",
-			"explanation": "Предсказание/обещание с маркером 'скоро' (soon) — используем will."
+			"translations": {
+				"ru": {
+					"question": "Мы скоро увидимся снова.",
+					"explanation": "Предсказание/обещание с маркером 'скоро' (soon) — используем will."
+				}
+			}
 		},
 		{
-			"question": "Он не придёт на вечеринку.",
 			"answer": "He won't come to the party.",
-			"explanation": "Отрицательное предсказание — используем won't + инфинитив."
+			"translations": {
+				"ru": {
+					"question": "Он не придёт на вечеринку.",
+					"explanation": "Отрицательное предсказание — используем won't + инфинитив."
+				}
+			}
 		},
 		{
-			"question": "Подожди секунду, я принесу тебе воды.",
 			"answer": "Wait a second, I will bring you some water.",
-			"explanation": "Спонтанное предложение помощи в момент речи — используем will."
+			"translations": {
+				"ru": {
+					"question": "Подожди секунду, я принесу тебе воды.",
+					"explanation": "Спонтанное предложение помощи в момент речи — используем will."
+				}
+			}
 		},
 		{
-			"question": "Через пять лет технологии изменятся до неузнаваемости.",
 			"answer": "In five years, technology will change beyond recognition.",
-			"explanation": "Предсказание с маркером 'через пять лет' (in five years) — используем will."
+			"translations": {
+				"ru": {
+					"question": "Через пять лет технологии изменятся до неузнаваемости.",
+					"explanation": "Предсказание с маркером 'через пять лет' (in five years) — используем will."
+				}
+			}
 		},
 		{
-			"question": "Я думаю, команда выиграет этот матч.",
 			"answer": "I think the team will win this match.",
-			"explanation": "Предсказание с 'я думаю' (I think) — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я думаю, команда выиграет этот матч.",
+					"explanation": "Предсказание с 'я думаю' (I think) — используем will."
+				}
+			}
 		},
 		{
-			"question": "Ты когда-нибудь простишь меня?",
 			"answer": "Will you ever forgive me?",
-			"explanation": "Вопрос о будущем действии — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты когда-нибудь простишь меня?",
+					"explanation": "Вопрос о будущем действии — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Не беспокойся, всё будет хорошо.",
 			"answer": "Don't worry, everything will be fine.",
-			"explanation": "Предсказание/утешение — используем will."
+			"translations": {
+				"ru": {
+					"question": "Не беспокойся, всё будет хорошо.",
+					"explanation": "Предсказание/утешение — используем will."
+				}
+			}
 		},
 		{
-			"question": "Я помогу тебе переехать в следующие выходные.",
 			"answer": "I will help you move next weekend.",
-			"explanation": "Обещание помочь — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я помогу тебе переехать в следующие выходные.",
+					"explanation": "Обещание помочь — используем will."
+				}
+			}
 		},
 		{
-			"question": "Она не забудет твой день рождения.",
 			"answer": "She won't forget your birthday.",
-			"explanation": "Уверенное отрицательное предсказание — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Она не забудет твой день рождения.",
+					"explanation": "Уверенное отрицательное предсказание — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Ты встретишь меня в аэропорту?",
 			"answer": "Will you meet me at the airport?",
-			"explanation": "Просьба/вопрос о будущем действии — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты встретишь меня в аэропорту?",
+					"explanation": "Просьба/вопрос о будущем действии — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Я думаю, цены на жильё вырастут в следующем году.",
 			"answer": "I think housing prices will rise next year.",
-			"explanation": "Предсказание об экономической ситуации — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я думаю, цены на жильё вырастут в следующем году.",
+					"explanation": "Предсказание об экономической ситуации — используем will."
+				}
+			}
 		},
 		{
-			"question": "Одним прекрасным днём ты поймёшь, как я был прав.",
 			"answer": "One day you will understand how right I was.",
-			"explanation": "Предсказание с маркером 'одним прекрасным днём' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Одним прекрасным днём ты поймёшь, как я был прав.",
+					"explanation": "Предсказание с маркером 'одним прекрасным днём' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Я не скажу ему об этом.",
 			"answer": "I won't tell him about this.",
-			"explanation": "Решение/обещание в отрицательной форме — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Я не скажу ему об этом.",
+					"explanation": "Решение/обещание в отрицательной форме — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Завтра утром я пораньше встану.",
 			"answer": "I will get up early tomorrow morning.",
-			"explanation": "Решение о будущем с маркером 'завтра' (tomorrow) — используем will."
+			"translations": {
+				"ru": {
+					"question": "Завтра утром я пораньше встану.",
+					"explanation": "Решение о будущем с маркером 'завтра' (tomorrow) — используем will."
+				}
+			}
 		},
 		{
-			"question": "Наверное, он позвонит позже.",
 			"answer": "He will probably call later.",
-			"explanation": "Предсказание с маркером неопределённости 'наверное' (probably) — используем will."
+			"translations": {
+				"ru": {
+					"question": "Наверное, он позвонит позже.",
+					"explanation": "Предсказание с маркером неопределённости 'наверное' (probably) — используем will."
+				}
+			}
 		},
 		{
-			"question": "Я закажу пиццу — ты проголодался?",
 			"answer": "I will order pizza — are you hungry?",
-			"explanation": "Спонтанное решение в момент речи — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я закажу пиццу — ты проголодался?",
+					"explanation": "Спонтанное решение в момент речи — используем will."
+				}
+			}
 		},
 		{
-			"question": "Если ты не остановишься, ты пожалеешь.",
 			"answer": "If you don't stop, you will regret it.",
-			"explanation": "Угроза/предупреждение о последствиях — используем will."
+			"translations": {
+				"ru": {
+					"question": "Если ты не остановишься, ты пожалеешь.",
+					"explanation": "Угроза/предупреждение о последствиях — используем will."
+				}
+			}
 		},
 		{
-			"question": "Думаю, завтра будет солнечно.",
 			"answer": "I think it will be sunny tomorrow.",
-			"explanation": "Предсказание о погоде — используем will."
+			"translations": {
+				"ru": {
+					"question": "Думаю, завтра будет солнечно.",
+					"explanation": "Предсказание о погоде — используем will."
+				}
+			}
 		},
 		{
-			"question": "Я скоро вернусь.",
 			"answer": "I will be back soon.",
-			"explanation": "Обещание/предсказание с маркером 'скоро' (soon) — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я скоро вернусь.",
+					"explanation": "Обещание/предсказание с маркером 'скоро' (soon) — используем will."
+				}
+			}
 		},
 		{
-			"question": "Они не согласятся с нашим предложением.",
 			"answer": "They won't agree with our proposal.",
-			"explanation": "Отрицательное предсказание — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Они не согласятся с нашим предложением.",
+					"explanation": "Отрицательное предсказание — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Ты позвонишь мне, когда доберёшься домой?",
 			"answer": "Will you call me when you get home?",
-			"explanation": "Просьба — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты позвонишь мне, когда доберёшься домой?",
+					"explanation": "Просьба — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Я уверен, что он получит эту работу.",
 			"answer": "I am sure he will get this job.",
-			"explanation": "Уверенное предсказание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я уверен, что он получит эту работу.",
+					"explanation": "Уверенное предсказание — используем will."
+				}
+			}
 		},
 		{
-			"question": "Не волнуйся, я не опоздаю.",
 			"answer": "Don't worry, I won't be late.",
-			"explanation": "Обещание в отрицательной форме — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Не волнуйся, я не опоздаю.",
+					"explanation": "Обещание в отрицательной форме — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Следующим летом мы поедем в Испанию.",
 			"answer": "Next summer we will go to Spain.",
-			"explanation": "Решение о будущей поездке с маркером 'следующим летом' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Следующим летом мы поедем в Испанию.",
+					"explanation": "Решение о будущей поездке с маркером 'следующим летом' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Может быть, она изменит своё мнение.",
 			"answer": "Maybe she will change her mind.",
-			"explanation": "Предположение с маркером неопределённости 'может быть' (maybe) — используем will."
+			"translations": {
+				"ru": {
+					"question": "Может быть, она изменит своё мнение.",
+					"explanation": "Предположение с маркером неопределённости 'может быть' (maybe) — используем will."
+				}
+			}
 		},
 		{
-			"question": "Подожди, я найду тебе ручку.",
 			"answer": "Wait, I will find you a pen.",
-			"explanation": "Спонтанное предложение помочь — используем will."
+			"translations": {
+				"ru": {
+					"question": "Подожди, я найду тебе ручку.",
+					"explanation": "Спонтанное предложение помочь — используем will."
+				}
+			}
 		},
 		{
-			"question": "Это займёт больше времени, чем ты думаешь.",
 			"answer": "It will take more time than you think.",
-			"explanation": "Предсказание о продолжительности — используем will."
+			"translations": {
+				"ru": {
+					"question": "Это займёт больше времени, чем ты думаешь.",
+					"explanation": "Предсказание о продолжительности — используем will."
+				}
+			}
 		},
 		{
-			"question": "Ты будешь скучать по нам?",
 			"answer": "Will you miss us?",
-			"explanation": "Вопрос о будущих чувствах — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты будешь скучать по нам?",
+					"explanation": "Вопрос о будущих чувствах — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Я не позволю этому случиться снова.",
 			"answer": "I won't let this happen again.",
-			"explanation": "Решение/обещание в отрицательной форме — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Я не позволю этому случиться снова.",
+					"explanation": "Решение/обещание в отрицательной форме — используем won't."
+				}
+			}
 		},
 		{
-			"question": "В следующем месяце начнётся строительство нового офиса.",
 			"answer": "The construction of the new office will start next month.",
-			"explanation": "Факт о будущем с маркером 'в следующем месяце' — используем will."
+			"translations": {
+				"ru": {
+					"question": "В следующем месяце начнётся строительство нового офиса.",
+					"explanation": "Факт о будущем с маркером 'в следующем месяце' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Я думаю, что он скоро придёт.",
 			"answer": "I think he will come soon.",
-			"explanation": "Предсказание с 'я думаю' (I think) — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я думаю, что он скоро придёт.",
+					"explanation": "Предсказание с 'я думаю' (I think) — используем will."
+				}
+			}
 		},
 		{
-			"question": "Она точно сдержит своё обещание.",
 			"answer": "She will definitely keep her promise.",
-			"explanation": "Уверенное предсказание с наречием 'точно' (definitely) — используем will."
+			"translations": {
+				"ru": {
+					"question": "Она точно сдержит своё обещание.",
+					"explanation": "Уверенное предсказание с наречием 'точно' (definitely) — используем will."
+				}
+			}
 		},
 		{
-			"question": "Ты останешься на ужин?",
 			"answer": "Will you stay for dinner?",
-			"explanation": "Вопрос-приглашение — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты останешься на ужин?",
+					"explanation": "Вопрос-приглашение — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Я помогу тебе с домашним заданием.",
 			"answer": "I will help you with your homework.",
-			"explanation": "Спонтанное предложение помощи — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я помогу тебе с домашним заданием.",
+					"explanation": "Спонтанное предложение помощи — используем will."
+				}
+			}
 		},
 		{
-			"question": "Они не успеют закончить проект вовремя.",
 			"answer": "They won't manage to finish the project on time.",
-			"explanation": "Отрицательное предсказание — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Они не успеют закончить проект вовремя.",
+					"explanation": "Отрицательное предсказание — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Через год она окончит университет.",
 			"answer": "In a year she will graduate from university.",
-			"explanation": "Факт о будущем с маркером 'через год' (in a year) — используем will."
+			"translations": {
+				"ru": {
+					"question": "Через год она окончит университет.",
+					"explanation": "Факт о будущем с маркером 'через год' (in a year) — используем will."
+				}
+			}
 		},
 		{
-			"question": "Я уверена, что он простит тебя.",
 			"answer": "I am sure he will forgive you.",
-			"explanation": "Уверенное предсказание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я уверена, что он простит тебя.",
+					"explanation": "Уверенное предсказание — используем will."
+				}
+			}
 		},
 		{
-			"question": "Не делай этого, или ты пожалеешь.",
 			"answer": "Don't do that, or you will be sorry.",
-			"explanation": "Предупреждение о последствиях — используем will."
+			"translations": {
+				"ru": {
+					"question": "Не делай этого, или ты пожалеешь.",
+					"explanation": "Предупреждение о последствиях — используем will."
+				}
+			}
 		},
 		{
-			"question": "Наверное, завтра будет холодно.",
 			"answer": "It will probably be cold tomorrow.",
-			"explanation": "Предсказание о погоде с наречием 'наверное' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Наверное, завтра будет холодно.",
+					"explanation": "Предсказание о погоде с наречием 'наверное' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Я отвечу на письмо прямо сейчас.",
 			"answer": "I will reply to the email right now.",
-			"explanation": "Спонтанное решение в момент речи — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я отвечу на письмо прямо сейчас.",
+					"explanation": "Спонтанное решение в момент речи — используем will."
+				}
+			}
 		},
 		{
-			"question": "Когда ты вернёшься из командировки?",
 			"answer": "When will you return from your business trip?",
-			"explanation": "Вопрос о будущем событии — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Когда ты вернёшься из командировки?",
+					"explanation": "Вопрос о будущем событии — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Мы точно выиграем этот турнир.",
 			"answer": "We will definitely win this tournament.",
-			"explanation": "Уверенное предсказание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Мы точно выиграем этот турнир.",
+					"explanation": "Уверенное предсказание — используем will."
+				}
+			}
 		},
 		{
-			"question": "Она не расскажет никому нашу тайну.",
 			"answer": "She won't tell anyone our secret.",
-			"explanation": "Обещание в отрицательной форме — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Она не расскажет никому нашу тайну.",
+					"explanation": "Обещание в отрицательной форме — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Я куплю тебе мороженое.",
 			"answer": "I will buy you some ice cream.",
-			"explanation": "Спонтанное предложение/обещание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я куплю тебе мороженое.",
+					"explanation": "Спонтанное предложение/обещание — используем will."
+				}
+			}
 		},
 		{
-			"question": "Думаю, этот фильм тебе понравится.",
 			"answer": "I think you will like this film.",
-			"explanation": "Предсказание с 'я думаю' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Думаю, этот фильм тебе понравится.",
+					"explanation": "Предсказание с 'я думаю' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Они переедут в новый дом следующей весной.",
 			"answer": "They will move to a new house next spring.",
-			"explanation": "Решение о будущем с маркером 'следующей весной' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Они переедут в новый дом следующей весной.",
+					"explanation": "Решение о будущем с маркером 'следующей весной' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Ты расскажешь мне, что произошло?",
 			"answer": "Will you tell me what happened?",
-			"explanation": "Просьба — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты расскажешь мне, что произошло?",
+					"explanation": "Просьба — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Я не буду есть это.",
 			"answer": "I won't eat this.",
-			"explanation": "Отказ/решение в отрицательной форме — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Я не буду есть это.",
+					"explanation": "Отказ/решение в отрицательной форме — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Возможно, он найдёт другую работу.",
 			"answer": "He will possibly find another job.",
-			"explanation": "Предсказание с маркером неопределённости — используем will."
+			"translations": {
+				"ru": {
+					"question": "Возможно, он найдёт другую работу.",
+					"explanation": "Предсказание с маркером неопределённости — используем will."
+				}
+			}
 		},
 		{
-			"question": "Я отвезу тебя на станцию.",
 			"answer": "I will drive you to the station.",
-			"explanation": "Спонтанное предложение помощи — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я отвезу тебя на станцию.",
+					"explanation": "Спонтанное предложение помощи — используем will."
+				}
+			}
 		},
 		{
-			"question": "Солнце взойдёт завтра в шесть утра.",
 			"answer": "The sun will rise tomorrow at six in the morning.",
-			"explanation": "Будущий факт с маркером 'завтра' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Солнце взойдёт завтра в шесть утра.",
+					"explanation": "Будущий факт с маркером 'завтра' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Ты напишешь мне, когда приедешь?",
 			"answer": "Will you write to me when you arrive?",
-			"explanation": "Просьба — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты напишешь мне, когда приедешь?",
+					"explanation": "Просьба — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Я не прощу ему эту ложь.",
 			"answer": "I won't forgive him for this lie.",
-			"explanation": "Твёрдое решение в отрицательной форме — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Я не прощу ему эту ложь.",
+					"explanation": "Твёрдое решение в отрицательной форме — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Думаю, в следующем году экономика улучшится.",
 			"answer": "I think the economy will improve next year.",
-			"explanation": "Предсказание об экономике — используем will."
+			"translations": {
+				"ru": {
+					"question": "Думаю, в следующем году экономика улучшится.",
+					"explanation": "Предсказание об экономике — используем will."
+				}
+			}
 		},
 		{
-			"question": "Подожди, я проверю расписание.",
 			"answer": "Wait, I will check the schedule.",
-			"explanation": "Спонтанное решение в момент речи — используем will."
+			"translations": {
+				"ru": {
+					"question": "Подожди, я проверю расписание.",
+					"explanation": "Спонтанное решение в момент речи — используем will."
+				}
+			}
 		},
 		{
-			"question": "Они скоро объявят результаты.",
 			"answer": "They will announce the results soon.",
-			"explanation": "Предсказание с маркером 'скоро' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Они скоро объявят результаты.",
+					"explanation": "Предсказание с маркером 'скоро' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Он не согласится на такие условия.",
 			"answer": "He won't agree to such terms.",
-			"explanation": "Отрицательное предсказание — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Он не согласится на такие условия.",
+					"explanation": "Отрицательное предсказание — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Ты придёшь на моё выступление?",
 			"answer": "Will you come to my performance?",
-			"explanation": "Вопрос-приглашение — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты придёшь на моё выступление?",
+					"explanation": "Вопрос-приглашение — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Я уверен, что ты справишься с этой задачей.",
 			"answer": "I am sure you will cope with this task.",
-			"explanation": "Уверенное предсказание/ободрение — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я уверен, что ты справишься с этой задачей.",
+					"explanation": "Уверенное предсказание/ободрение — используем will."
+				}
+			}
 		},
 		{
-			"question": "Завтра вечером мы посмотрим этот сериал.",
 			"answer": "Tomorrow evening we will watch this series.",
-			"explanation": "Решение о завтрашнем вечере — используем will."
+			"translations": {
+				"ru": {
+					"question": "Завтра вечером мы посмотрим этот сериал.",
+					"explanation": "Решение о завтрашнем вечере — используем will."
+				}
+			}
 		},
 		{
-			"question": "Она, наверное, откажется от этого предложения.",
 			"answer": "She will probably turn down this offer.",
-			"explanation": "Предсказание с 'наверное' (probably) — используем will."
+			"translations": {
+				"ru": {
+					"question": "Она, наверное, откажется от этого предложения.",
+					"explanation": "Предсказание с 'наверное' (probably) — используем will."
+				}
+			}
 		},
 		{
-			"question": "Я позабочусь о твоём коте, пока тебя не будет.",
 			"answer": "I will take care of your cat while you are away.",
-			"explanation": "Обещание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я позабочусь о твоём коте, пока тебя не будет.",
+					"explanation": "Обещание — используем will."
+				}
+			}
 		},
 		{
-			"question": "В один прекрасный день ты встретишь свою вторую половину.",
 			"answer": "One day you will meet your soulmate.",
-			"explanation": "Предсказание с маркером 'в один прекрасный день' — используем will."
+			"translations": {
+				"ru": {
+					"question": "В один прекрасный день ты встретишь свою вторую половину.",
+					"explanation": "Предсказание с маркером 'в один прекрасный день' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Он не вернёт деньги вовремя.",
 			"answer": "He won't return the money on time.",
-			"explanation": "Отрицательное предсказание — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Он не вернёт деньги вовремя.",
+					"explanation": "Отрицательное предсказание — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Когда начнётся следующий матч?",
 			"answer": "When will the next match start?",
-			"explanation": "Вопрос о будущем событии — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Когда начнётся следующий матч?",
+					"explanation": "Вопрос о будущем событии — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Думаю, они поженятся в этом году.",
 			"answer": "I think they will get married this year.",
-			"explanation": "Предсказание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Думаю, они поженятся в этом году.",
+					"explanation": "Предсказание — используем will."
+				}
+			}
 		},
 		{
-			"question": "Я сделаю всё возможное, чтобы помочь.",
 			"answer": "I will do everything possible to help.",
-			"explanation": "Обещание/решение — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я сделаю всё возможное, чтобы помочь.",
+					"explanation": "Обещание/решение — используем will."
+				}
+			}
 		},
 		{
-			"question": "Не кричи на него, иначе он обидится.",
 			"answer": "Don't shout at him, or he will be offended.",
-			"explanation": "Предупреждение о последствиях — используем will."
+			"translations": {
+				"ru": {
+					"question": "Не кричи на него, иначе он обидится.",
+					"explanation": "Предупреждение о последствиях — используем will."
+				}
+			}
 		},
 		{
-			"question": "Через десять лет роботы заменят многие профессии.",
 			"answer": "In ten years, robots will replace many professions.",
-			"explanation": "Предсказание с маркером 'через десять лет' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Через десять лет роботы заменят многие профессии.",
+					"explanation": "Предсказание с маркером 'через десять лет' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Ты поможешь мне повесить эту картину?",
 			"answer": "Will you help me hang this picture?",
-			"explanation": "Просьба — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты поможешь мне повесить эту картину?",
+					"explanation": "Просьба — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Я думаю, этот ресторан тебе понравится.",
 			"answer": "I think you will like this restaurant.",
-			"explanation": "Предсказание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я думаю, этот ресторан тебе понравится.",
+					"explanation": "Предсказание — используем will."
+				}
+			}
 		},
 		{
-			"question": "Мы не сдадимся так легко.",
 			"answer": "We won't give up so easily.",
-			"explanation": "Решение в отрицательной форме — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Мы не сдадимся так легко.",
+					"explanation": "Решение в отрицательной форме — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Следующей зимой я научусь кататься на лыжах.",
 			"answer": "Next winter I will learn to ski.",
-			"explanation": "Намерение с маркером 'следующей зимой' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Следующей зимой я научусь кататься на лыжах.",
+					"explanation": "Намерение с маркером 'следующей зимой' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Она точно не забудет об этой встрече.",
 			"answer": "She definitely won't forget about this meeting.",
-			"explanation": "Уверенное отрицательное предсказание — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Она точно не забудет об этой встрече.",
+					"explanation": "Уверенное отрицательное предсказание — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Ты возьмёшь меня с собой на конференцию?",
 			"answer": "Will you take me with you to the conference?",
-			"explanation": "Вопрос-просьба — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты возьмёшь меня с собой на конференцию?",
+					"explanation": "Вопрос-просьба — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Я уверен, что всё пройдёт хорошо.",
 			"answer": "I am sure everything will go well.",
-			"explanation": "Уверенное предсказание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я уверен, что всё пройдёт хорошо.",
+					"explanation": "Уверенное предсказание — используем will."
+				}
+			}
 		},
 		{
-			"question": "Она переедет в другой город в следующем месяце.",
 			"answer": "She will move to another city next month.",
-			"explanation": "Решение о переезде с маркером 'в следующем месяце' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Она переедет в другой город в следующем месяце.",
+					"explanation": "Решение о переезде с маркером 'в следующем месяце' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Наверное, он придумает что-нибудь интересное.",
 			"answer": "He will probably come up with something interesting.",
-			"explanation": "Предсказание с 'наверное' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Наверное, он придумает что-нибудь интересное.",
+					"explanation": "Предсказание с 'наверное' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Я куплю свежего хлеба по дороге домой.",
 			"answer": "I will buy some fresh bread on the way home.",
-			"explanation": "Спонтанное решение — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я куплю свежего хлеба по дороге домой.",
+					"explanation": "Спонтанное решение — используем will."
+				}
+			}
 		},
 		{
-			"question": "Они не примут участие в соревновании.",
 			"answer": "They won't take part in the competition.",
-			"explanation": "Отрицательное предсказание/решение — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Они не примут участие в соревновании.",
+					"explanation": "Отрицательное предсказание/решение — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Ты позвонишь мне утром?",
 			"answer": "Will you call me in the morning?",
-			"explanation": "Просьба — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты позвонишь мне утром?",
+					"explanation": "Просьба — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Я думаю, что цены на продукты вырастут.",
 			"answer": "I think food prices will go up.",
-			"explanation": "Предсказание об экономике — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я думаю, что цены на продукты вырастут.",
+					"explanation": "Предсказание об экономике — используем will."
+				}
+			}
 		},
 		{
-			"question": "Подожди, я посмотрю, есть ли свободные места.",
 			"answer": "Wait, I will check if there are any seats available.",
-			"explanation": "Спонтанное решение помочь — используем will."
+			"translations": {
+				"ru": {
+					"question": "Подожди, я посмотрю, есть ли свободные места.",
+					"explanation": "Спонтанное решение помочь — используем will."
+				}
+			}
 		},
 		{
-			"question": "Он точно выиграет этот приз.",
 			"answer": "He will definitely win this prize.",
-			"explanation": "Уверенное предсказание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Он точно выиграет этот приз.",
+					"explanation": "Уверенное предсказание — используем will."
+				}
+			}
 		},
 		{
-			"question": "Мы скоро примем решение.",
 			"answer": "We will make a decision soon.",
-			"explanation": "Предсказание с маркером 'скоро' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Мы скоро примем решение.",
+					"explanation": "Предсказание с маркером 'скоро' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Я не буду больше опаздывать.",
 			"answer": "I won't be late anymore.",
-			"explanation": "Обещание в отрицательной форме — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Я не буду больше опаздывать.",
+					"explanation": "Обещание в отрицательной форме — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Следующим летом я пробегу свой первый марафон.",
 			"answer": "Next summer I will run my first marathon.",
-			"explanation": "Намерение/решение с маркером 'следующим летом' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Следующим летом я пробегу свой первый марафон.",
+					"explanation": "Намерение/решение с маркером 'следующим летом' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Думаю, эта книга станет бестселлером.",
 			"answer": "I think this book will become a bestseller.",
-			"explanation": "Предсказание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Думаю, эта книга станет бестселлером.",
+					"explanation": "Предсказание — используем will."
+				}
+			}
 		},
 		{
-			"question": "Она не уйдёт без объяснений.",
 			"answer": "She won't leave without an explanation.",
-			"explanation": "Отрицательное предсказание — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Она не уйдёт без объяснений.",
+					"explanation": "Отрицательное предсказание — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Ты пришлёшь мне фотографии с поездки?",
 			"answer": "Will you send me photos from your trip?",
-			"explanation": "Просьба — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты пришлёшь мне фотографии с поездки?",
+					"explanation": "Просьба — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Я встречу тебя у входа в кино.",
 			"answer": "I will meet you at the cinema entrance.",
-			"explanation": "Обещание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я встречу тебя у входа в кино.",
+					"explanation": "Обещание — используем will."
+				}
+			}
 		},
 		{
-			"question": "Через год этот район станет намного лучше.",
 			"answer": "In a year this area will become much better.",
-			"explanation": "Предсказание с маркером 'через год' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Через год этот район станет намного лучше.",
+					"explanation": "Предсказание с маркером 'через год' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Он не откроет свой бизнес в этом году.",
 			"answer": "He won't open his business this year.",
-			"explanation": "Отрицательное предсказание — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Он не откроет свой бизнес в этом году.",
+					"explanation": "Отрицательное предсказание — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Ты будешь рад этому решению?",
 			"answer": "Will you be happy with this decision?",
-			"explanation": "Вопрос о будущих чувствах — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты будешь рад этому решению?",
+					"explanation": "Вопрос о будущих чувствах — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Я уверена, что она найдёт хорошего мужа.",
 			"answer": "I am sure she will find a good husband.",
-			"explanation": "Уверенное предсказание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я уверена, что она найдёт хорошего мужа.",
+					"explanation": "Уверенное предсказание — используем will."
+				}
+			}
 		},
 		{
-			"question": "Подожди, я налью тебе чаю.",
 			"answer": "Wait, I will pour you some tea.",
-			"explanation": "Спонтанное предложение — используем will."
+			"translations": {
+				"ru": {
+					"question": "Подожди, я налью тебе чаю.",
+					"explanation": "Спонтанное предложение — используем will."
+				}
+			}
 		},
 		{
-			"question": "Наверное, завтра будет пробка на дорогах.",
 			"answer": "There will probably be traffic jams tomorrow.",
-			"explanation": "Предсказание о дорожной ситуации — используем will."
+			"translations": {
+				"ru": {
+					"question": "Наверное, завтра будет пробка на дорогах.",
+					"explanation": "Предсказание о дорожной ситуации — используем will."
+				}
+			}
 		},
 		{
-			"question": "Я не дам ему второй шанс.",
 			"answer": "I won't give him a second chance.",
-			"explanation": "Твёрдое решение — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Я не дам ему второй шанс.",
+					"explanation": "Твёрдое решение — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Когда вы объявите о своей помолвке?",
 			"answer": "When will you announce your engagement?",
-			"explanation": "Вопрос о будущем событии — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Когда вы объявите о своей помолвке?",
+					"explanation": "Вопрос о будущем событии — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Думаю, этот стартап привлечёт много инвестиций.",
 			"answer": "I think this startup will attract a lot of investment.",
-			"explanation": "Предсказание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Думаю, этот стартап привлечёт много инвестиций.",
+					"explanation": "Предсказание — используем will."
+				}
+			}
 		},
 		{
-			"question": "Она выучит новый язык за два года.",
 			"answer": "She will learn a new language in two years.",
-			"explanation": "Предсказание/намерение с временным маркером — используем will."
+			"translations": {
+				"ru": {
+					"question": "Она выучит новый язык за два года.",
+					"explanation": "Предсказание/намерение с временным маркером — используем will."
+				}
+			}
 		},
 		{
-			"question": "Я не стану спорить по этому поводу.",
 			"answer": "I won't argue about this.",
-			"explanation": "Решение в отрицательной форме — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Я не стану спорить по этому поводу.",
+					"explanation": "Решение в отрицательной форме — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Ты придёшь на нашу свадьбу?",
 			"answer": "Will you come to our wedding?",
-			"explanation": "Вопрос-приглашение — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты придёшь на нашу свадьбу?",
+					"explanation": "Вопрос-приглашение — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Я помогу тебе найти хорошего врача.",
 			"answer": "I will help you find a good doctor.",
-			"explanation": "Обещание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я помогу тебе найти хорошего врача.",
+					"explanation": "Обещание — используем will."
+				}
+			}
 		},
 		{
-			"question": "Через пятьдесят лет климат на планете изменится.",
 			"answer": "In fifty years the climate on the planet will change.",
-			"explanation": "Предсказание с маркером 'через пятьдесят лет' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Через пятьдесят лет климат на планете изменится.",
+					"explanation": "Предсказание с маркером 'через пятьдесят лет' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Она не сдастся, пока не добьётся своего.",
 			"answer": "She won't give up until she gets what she wants.",
-			"explanation": "Отрицательное предсказание/характеристика — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Она не сдастся, пока не добьётся своего.",
+					"explanation": "Отрицательное предсказание/характеристика — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Ты поддержишь меня в этом решении?",
 			"answer": "Will you support me in this decision?",
-			"explanation": "Вопрос-просьба — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты поддержишь меня в этом решении?",
+					"explanation": "Вопрос-просьба — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Я уверен, что он вернётся вовремя.",
 			"answer": "I am sure he will return on time.",
-			"explanation": "Уверенное предсказание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я уверен, что он вернётся вовремя.",
+					"explanation": "Уверенное предсказание — используем will."
+				}
+			}
 		},
 		{
-			"question": "Сегодня вечером я лягу спать пораньше.",
 			"answer": "Tonight I will go to bed earlier.",
-			"explanation": "Решение с маркером 'сегодня вечером' (tonight) — используем will."
+			"translations": {
+				"ru": {
+					"question": "Сегодня вечером я лягу спать пораньше.",
+					"explanation": "Решение с маркером 'сегодня вечером' (tonight) — используем will."
+				}
+			}
 		},
 		{
-			"question": "Наверное, они опубликуют статью на следующей неделе.",
 			"answer": "They will probably publish the article next week.",
-			"explanation": "Предсказание с маркером 'на следующей неделе' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Наверное, они опубликуют статью на следующей неделе.",
+					"explanation": "Предсказание с маркером 'на следующей неделе' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Я принесу тебе лекарство из аптеки.",
 			"answer": "I will bring you medicine from the pharmacy.",
-			"explanation": "Спонтанное предложение помочь — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я принесу тебе лекарство из аптеки.",
+					"explanation": "Спонтанное предложение помочь — используем will."
+				}
+			}
 		},
 		{
-			"question": "Он не изменит своё решение.",
 			"answer": "He won't change his decision.",
-			"explanation": "Отрицательное предсказание — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Он не изменит своё решение.",
+					"explanation": "Отрицательное предсказание — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Когда ты начнёшь новый проект?",
 			"answer": "When will you start the new project?",
-			"explanation": "Вопрос о будущем — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Когда ты начнёшь новый проект?",
+					"explanation": "Вопрос о будущем — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Думаю, этот матч закончится ничьей.",
 			"answer": "I think this match will end in a draw.",
-			"explanation": "Предсказание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Думаю, этот матч закончится ничьей.",
+					"explanation": "Предсказание — используем will."
+				}
+			}
 		},
 		{
-			"question": "Я забронирую столик в ресторане прямо сейчас.",
 			"answer": "I will book a table at the restaurant right now.",
-			"explanation": "Спонтанное решение — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я забронирую столик в ресторане прямо сейчас.",
+					"explanation": "Спонтанное решение — используем will."
+				}
+			}
 		},
 		{
-			"question": "Скоро наступит весна, и всё расцветёт.",
 			"answer": "Spring will come soon and everything will blossom.",
-			"explanation": "Предсказание с маркером 'скоро' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Скоро наступит весна, и всё расцветёт.",
+					"explanation": "Предсказание с маркером 'скоро' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Они не переживут эту зиму без отопления.",
 			"answer": "They won't survive this winter without heating.",
-			"explanation": "Отрицательное предсказание — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Они не переживут эту зиму без отопления.",
+					"explanation": "Отрицательное предсказание — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Ты останешься после занятий, чтобы поговорить?",
 			"answer": "Will you stay after class to talk?",
-			"explanation": "Просьба — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты останешься после занятий, чтобы поговорить?",
+					"explanation": "Просьба — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Я уверена, что он не пожалеет об этом выборе.",
 			"answer": "I am sure he won't regret this choice.",
-			"explanation": "Уверенное отрицательное предсказание — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Я уверена, что он не пожалеет об этом выборе.",
+					"explanation": "Уверенное отрицательное предсказание — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Подожди, я спрошу у менеджера.",
 			"answer": "Wait, I will ask the manager.",
-			"explanation": "Спонтанное решение в момент речи — используем will."
+			"translations": {
+				"ru": {
+					"question": "Подожди, я спрошу у менеджера.",
+					"explanation": "Спонтанное решение в момент речи — используем will."
+				}
+			}
 		},
 		{
-			"question": "В следующем году откроется новая станция метро.",
 			"answer": "A new metro station will open next year.",
-			"explanation": "Факт о будущем с маркером 'в следующем году' — используем will."
+			"translations": {
+				"ru": {
+					"question": "В следующем году откроется новая станция метро.",
+					"explanation": "Факт о будущем с маркером 'в следующем году' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Наверное, она уйдёт раньше времени.",
 			"answer": "She will probably leave early.",
-			"explanation": "Предсказание с 'наверное' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Наверное, она уйдёт раньше времени.",
+					"explanation": "Предсказание с 'наверное' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Я не буду тратить деньги на это.",
 			"answer": "I won't spend money on this.",
-			"explanation": "Решение в отрицательной форме — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Я не буду тратить деньги на это.",
+					"explanation": "Решение в отрицательной форме — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Ты скажешь мне правду?",
 			"answer": "Will you tell me the truth?",
-			"explanation": "Просьба/вопрос — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты скажешь мне правду?",
+					"explanation": "Просьба/вопрос — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Думаю, эта технология изменит мир.",
 			"answer": "I think this technology will change the world.",
-			"explanation": "Предсказание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Думаю, эта технология изменит мир.",
+					"explanation": "Предсказание — используем will."
+				}
+			}
 		},
 		{
-			"question": "Я провожу тебя до дома.",
 			"answer": "I will walk you home.",
-			"explanation": "Спонтанное предложение — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я провожу тебя до дома.",
+					"explanation": "Спонтанное предложение — используем will."
+				}
+			}
 		},
 		{
-			"question": "Через два года он получит учёную степень.",
 			"answer": "In two years he will get his degree.",
-			"explanation": "Факт о будущем с временным маркером — используем will."
+			"translations": {
+				"ru": {
+					"question": "Через два года он получит учёную степень.",
+					"explanation": "Факт о будущем с временным маркером — используем will."
+				}
+			}
 		},
 		{
-			"question": "Они не примут наше извинение.",
 			"answer": "They won't accept our apology.",
-			"explanation": "Отрицательное предсказание — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Они не примут наше извинение.",
+					"explanation": "Отрицательное предсказание — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Ты поедешь с нами на пикник в воскресенье?",
 			"answer": "Will you go with us on a picnic on Sunday?",
-			"explanation": "Вопрос-приглашение — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты поедешь с нами на пикник в воскресенье?",
+					"explanation": "Вопрос-приглашение — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Я уверен, что она станет великим художником.",
 			"answer": "I am sure she will become a great artist.",
-			"explanation": "Уверенное предсказание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я уверен, что она станет великим художником.",
+					"explanation": "Уверенное предсказание — используем will."
+				}
+			}
 		},
 		{
-			"question": "Сегодня ночью я не смогу заснуть.",
 			"answer": "Tonight I won't be able to fall asleep.",
-			"explanation": "Предсказание с маркером 'сегодня ночью' — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Сегодня ночью я не смогу заснуть.",
+					"explanation": "Предсказание с маркером 'сегодня ночью' — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Наверное, он не ответит на это сообщение.",
 			"answer": "He probably won't reply to this message.",
-			"explanation": "Предсказание с 'наверное' в отрицательной форме — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Наверное, он не ответит на это сообщение.",
+					"explanation": "Предсказание с 'наверное' в отрицательной форме — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Я снижу стоимость услуг для тебя.",
 			"answer": "I will reduce the cost of services for you.",
-			"explanation": "Обещание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я снижу стоимость услуг для тебя.",
+					"explanation": "Обещание — используем will."
+				}
+			}
 		},
 		{
-			"question": "В один прекрасный день ты будешь благодарен за этот опыт.",
 			"answer": "One day you will be grateful for this experience.",
-			"explanation": "Предсказание с маркером 'в один прекрасный день' — используем will."
+			"translations": {
+				"ru": {
+					"question": "В один прекрасный день ты будешь благодарен за этот опыт.",
+					"explanation": "Предсказание с маркером 'в один прекрасный день' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Она не согласится работать по выходным.",
 			"answer": "She won't agree to work on weekends.",
-			"explanation": "Отрицательное предсказание — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Она не согласится работать по выходным.",
+					"explanation": "Отрицательное предсказание — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Ты примешь участие в этом конкурсе?",
 			"answer": "Will you take part in this competition?",
-			"explanation": "Вопрос о намерении — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты примешь участие в этом конкурсе?",
+					"explanation": "Вопрос о намерении — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Думаю, ему понравится новая работа.",
 			"answer": "I think he will like the new job.",
-			"explanation": "Предсказание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Думаю, ему понравится новая работа.",
+					"explanation": "Предсказание — используем will."
+				}
+			}
 		},
 		{
-			"question": "Подожди, я найду нужный документ.",
 			"answer": "Wait, I will find the right document.",
-			"explanation": "Спонтанное решение помочь — используем will."
+			"translations": {
+				"ru": {
+					"question": "Подожди, я найду нужный документ.",
+					"explanation": "Спонтанное решение помочь — используем will."
+				}
+			}
 		},
 		{
-			"question": "Скоро выйдет новая версия этого приложения.",
 			"answer": "A new version of this app will be released soon.",
-			"explanation": "Предсказание с маркером 'скоро' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Скоро выйдет новая версия этого приложения.",
+					"explanation": "Предсказание с маркером 'скоро' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Он не признает свою ошибку.",
 			"answer": "He won't admit his mistake.",
-			"explanation": "Отрицательное предсказание — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Он не признает свою ошибку.",
+					"explanation": "Отрицательное предсказание — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Когда ты расскажешь родителям о своём решении?",
 			"answer": "When will you tell your parents about your decision?",
-			"explanation": "Вопрос о будущем — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Когда ты расскажешь родителям о своём решении?",
+					"explanation": "Вопрос о будущем — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Я уверена, что погода улучшится к вечеру.",
 			"answer": "I am sure the weather will improve by evening.",
-			"explanation": "Уверенное предсказание о погоде — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я уверена, что погода улучшится к вечеру.",
+					"explanation": "Уверенное предсказание о погоде — используем will."
+				}
+			}
 		},
 		{
-			"question": "В следующем квартале компания покажет хорошие результаты.",
 			"answer": "In the next quarter the company will show good results.",
-			"explanation": "Предсказание с временным маркером — используем will."
+			"translations": {
+				"ru": {
+					"question": "В следующем квартале компания покажет хорошие результаты.",
+					"explanation": "Предсказание с временным маркером — используем will."
+				}
+			}
 		},
 		{
-			"question": "Наверное, он купит новый автомобиль.",
 			"answer": "He will probably buy a new car.",
-			"explanation": "Предсказание с 'наверное' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Наверное, он купит новый автомобиль.",
+					"explanation": "Предсказание с 'наверное' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Я не позволю тебе так рисковать.",
 			"answer": "I won't let you take such a risk.",
-			"explanation": "Решение/угроза в отрицательной форме — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Я не позволю тебе так рисковать.",
+					"explanation": "Решение/угроза в отрицательной форме — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Ты пойдёшь на собеседование?",
 			"answer": "Will you go to the interview?",
-			"explanation": "Вопрос о намерении — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты пойдёшь на собеседование?",
+					"explanation": "Вопрос о намерении — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Думаю, этот план сработает.",
 			"answer": "I think this plan will work.",
-			"explanation": "Предсказание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Думаю, этот план сработает.",
+					"explanation": "Предсказание — используем will."
+				}
+			}
 		},
 		{
-			"question": "Подожди, я заплачу за тебя.",
 			"answer": "Wait, I will pay for you.",
-			"explanation": "Спонтанное предложение — используем will."
+			"translations": {
+				"ru": {
+					"question": "Подожди, я заплачу за тебя.",
+					"explanation": "Спонтанное предложение — используем will."
+				}
+			}
 		},
 		{
-			"question": "Через год этот город станет туристическим центром.",
 			"answer": "In a year this city will become a tourist hub.",
-			"explanation": "Предсказание с временным маркером — используем will."
+			"translations": {
+				"ru": {
+					"question": "Через год этот город станет туристическим центром.",
+					"explanation": "Предсказание с временным маркером — используем will."
+				}
+			}
 		},
 		{
-			"question": "Они не выполнят план в срок.",
 			"answer": "They won't complete the plan on time.",
-			"explanation": "Отрицательное предсказание — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Они не выполнят план в срок.",
+					"explanation": "Отрицательное предсказание — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Ты проверишь мою работу перед сдачей?",
 			"answer": "Will you check my work before submission?",
-			"explanation": "Просьба — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты проверишь мою работу перед сдачей?",
+					"explanation": "Просьба — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Я уверен, что она выздоровеет быстро.",
 			"answer": "I am sure she will recover quickly.",
-			"explanation": "Уверенное предсказание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я уверен, что она выздоровеет быстро.",
+					"explanation": "Уверенное предсказание — используем will."
+				}
+			}
 		},
 		{
-			"question": "Сегодня вечером я позвоню бабушке.",
 			"answer": "Tonight I will call my grandmother.",
-			"explanation": "Решение с маркером 'сегодня вечером' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Сегодня вечером я позвоню бабушке.",
+					"explanation": "Решение с маркером 'сегодня вечером' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Наверное, переговоры затянутся надолго.",
 			"answer": "The negotiations will probably drag on for a long time.",
-			"explanation": "Предсказание с 'наверное' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Наверное, переговоры затянутся надолго.",
+					"explanation": "Предсказание с 'наверное' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Я сообщу тебе о результатах немедленно.",
 			"answer": "I will inform you of the results immediately.",
-			"explanation": "Обещание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я сообщу тебе о результатах немедленно.",
+					"explanation": "Обещание — используем will."
+				}
+			}
 		},
 		{
-			"question": "Он не изменит свои привычки.",
 			"answer": "He won't change his habits.",
-			"explanation": "Отрицательное предсказание о характере — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Он не изменит свои привычки.",
+					"explanation": "Отрицательное предсказание о характере — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Когда выйдет следующая часть этой книги?",
 			"answer": "When will the next part of this book come out?",
-			"explanation": "Вопрос о будущем событии — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Когда выйдет следующая часть этой книги?",
+					"explanation": "Вопрос о будущем событии — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Думаю, это лекарство поможет.",
 			"answer": "I think this medicine will help.",
-			"explanation": "Предсказание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Думаю, это лекарство поможет.",
+					"explanation": "Предсказание — используем will."
+				}
+			}
 		},
 		{
-			"question": "Подожди, я объясню тебе дорогу.",
 			"answer": "Wait, I will explain the way to you.",
-			"explanation": "Спонтанное предложение помочь — используем will."
+			"translations": {
+				"ru": {
+					"question": "Подожди, я объясню тебе дорогу.",
+					"explanation": "Спонтанное предложение помочь — используем will."
+				}
+			}
 		},
 		{
-			"question": "В будущем люди будут жить намного дольше.",
 			"answer": "In the future people will live much longer.",
-			"explanation": "Предсказание о будущем — используем will."
+			"translations": {
+				"ru": {
+					"question": "В будущем люди будут жить намного дольше.",
+					"explanation": "Предсказание о будущем — используем will."
+				}
+			}
 		},
 		{
-			"question": "Она не прочитает эту книгу до конца.",
 			"answer": "She won't read this book to the end.",
-			"explanation": "Отрицательное предсказание — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Она не прочитает эту книгу до конца.",
+					"explanation": "Отрицательное предсказание — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Ты подпишешь этот контракт?",
 			"answer": "Will you sign this contract?",
-			"explanation": "Вопрос о намерении — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты подпишешь этот контракт?",
+					"explanation": "Вопрос о намерении — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Я уверен, что наш кандидат победит на выборах.",
 			"answer": "I am sure our candidate will win the election.",
-			"explanation": "Уверенное предсказание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я уверен, что наш кандидат победит на выборах.",
+					"explanation": "Уверенное предсказание — используем will."
+				}
+			}
 		},
 		{
-			"question": "Завтра я пойду в спортзал.",
 			"answer": "Tomorrow I will go to the gym.",
-			"explanation": "Решение с маркером 'завтра' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Завтра я пойду в спортзал.",
+					"explanation": "Решение с маркером 'завтра' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Наверное, он забудет об этом обещании.",
 			"answer": "He will probably forget about this promise.",
-			"explanation": "Предсказание с 'наверное' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Наверное, он забудет об этом обещании.",
+					"explanation": "Предсказание с 'наверное' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Я прослежу за тем, чтобы всё было сделано правильно.",
 			"answer": "I will make sure everything is done correctly.",
-			"explanation": "Обещание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я прослежу за тем, чтобы всё было сделано правильно.",
+					"explanation": "Обещание — используем will."
+				}
+			}
 		},
 		{
-			"question": "Они не откажутся от своих требований.",
 			"answer": "They won't give up their demands.",
-			"explanation": "Отрицательное предсказание — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Они не откажутся от своих требований.",
+					"explanation": "Отрицательное предсказание — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Ты объяснишь мне, как это работает?",
 			"answer": "Will you explain to me how this works?",
-			"explanation": "Просьба — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты объяснишь мне, как это работает?",
+					"explanation": "Просьба — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Думаю, он скоро поправится.",
 			"answer": "I think he will get better soon.",
-			"explanation": "Предсказание с 'я думаю' и 'скоро' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Думаю, он скоро поправится.",
+					"explanation": "Предсказание с 'я думаю' и 'скоро' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Подожди, я позвоню им и узнаю.",
 			"answer": "Wait, I will call them and find out.",
-			"explanation": "Спонтанное решение — используем will."
+			"translations": {
+				"ru": {
+					"question": "Подожди, я позвоню им и узнаю.",
+					"explanation": "Спонтанное решение — используем will."
+				}
+			}
 		},
 		{
-			"question": "Через двадцать лет искусственный интеллект будет повсюду.",
 			"answer": "In twenty years artificial intelligence will be everywhere.",
-			"explanation": "Предсказание с временным маркером — используем will."
+			"translations": {
+				"ru": {
+					"question": "Через двадцать лет искусственный интеллект будет повсюду.",
+					"explanation": "Предсказание с временным маркером — используем will."
+				}
+			}
 		},
 		{
-			"question": "Она не откроет дверь незнакомцу.",
 			"answer": "She won't open the door to a stranger.",
-			"explanation": "Отрицательное предсказание — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Она не откроет дверь незнакомцу.",
+					"explanation": "Отрицательное предсказание — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Ты останешься в этой компании надолго?",
 			"answer": "Will you stay at this company for long?",
-			"explanation": "Вопрос о будущих намерениях — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты останешься в этой компании надолго?",
+					"explanation": "Вопрос о будущих намерениях — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Я уверен, что они справятся с трудностями.",
 			"answer": "I am sure they will handle the difficulties.",
-			"explanation": "Уверенное предсказание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я уверен, что они справятся с трудностями.",
+					"explanation": "Уверенное предсказание — используем will."
+				}
+			}
 		},
 		{
-			"question": "На следующей неделе я начну учить китайский язык.",
 			"answer": "Next week I will start learning Chinese.",
-			"explanation": "Решение с маркером 'на следующей неделе' — используем will."
+			"translations": {
+				"ru": {
+					"question": "На следующей неделе я начну учить китайский язык.",
+					"explanation": "Решение с маркером 'на следующей неделе' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Наверное, цены на билеты снизятся после праздников.",
 			"answer": "Ticket prices will probably drop after the holidays.",
-			"explanation": "Предсказание с 'наверное' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Наверное, цены на билеты снизятся после праздников.",
+					"explanation": "Предсказание с 'наверное' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Я не стану молчать об этой несправедливости.",
 			"answer": "I won't stay silent about this injustice.",
-			"explanation": "Решение в отрицательной форме — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Я не стану молчать об этой несправедливости.",
+					"explanation": "Решение в отрицательной форме — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Ты поедешь в отпуск этим летом?",
 			"answer": "Will you go on holiday this summer?",
-			"explanation": "Вопрос о планах — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты поедешь в отпуск этим летом?",
+					"explanation": "Вопрос о планах — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Думаю, новая программа обучения принесёт хорошие результаты.",
 			"answer": "I think the new training programme will bring good results.",
-			"explanation": "Предсказание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Думаю, новая программа обучения принесёт хорошие результаты.",
+					"explanation": "Предсказание — используем will."
+				}
+			}
 		},
 		{
-			"question": "Подожди, я уточню детали у менеджера.",
 			"answer": "Wait, I will clarify the details with the manager.",
-			"explanation": "Спонтанное решение — используем will."
+			"translations": {
+				"ru": {
+					"question": "Подожди, я уточню детали у менеджера.",
+					"explanation": "Спонтанное решение — используем will."
+				}
+			}
 		},
 		{
-			"question": "Через три года компания выйдет на международный рынок.",
 			"answer": "In three years the company will enter the international market.",
-			"explanation": "Предсказание с временным маркером — используем will."
+			"translations": {
+				"ru": {
+					"question": "Через три года компания выйдет на международный рынок.",
+					"explanation": "Предсказание с временным маркером — используем will."
+				}
+			}
 		},
 		{
-			"question": "Он не уйдёт с этой должности добровольно.",
 			"answer": "He won't leave this position voluntarily.",
-			"explanation": "Отрицательное предсказание — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Он не уйдёт с этой должности добровольно.",
+					"explanation": "Отрицательное предсказание — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Ты напомнишь мне о встрече завтра утром?",
 			"answer": "Will you remind me about the meeting tomorrow morning?",
-			"explanation": "Просьба — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты напомнишь мне о встрече завтра утром?",
+					"explanation": "Просьба — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Я уверена, что эта диета поможет тебе похудеть.",
 			"answer": "I am sure this diet will help you lose weight.",
-			"explanation": "Уверенное предсказание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я уверена, что эта диета поможет тебе похудеть.",
+					"explanation": "Уверенное предсказание — используем will."
+				}
+			}
 		},
 		{
-			"question": "Сегодня вечером мы поужинаем в новом ресторане.",
 			"answer": "Tonight we will have dinner at the new restaurant.",
-			"explanation": "Решение с маркером 'сегодня вечером' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Сегодня вечером мы поужинаем в новом ресторане.",
+					"explanation": "Решение с маркером 'сегодня вечером' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Наверное, следующие переговоры пройдут успешнее.",
 			"answer": "The next negotiations will probably go more smoothly.",
-			"explanation": "Предсказание с 'наверное' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Наверное, следующие переговоры пройдут успешнее.",
+					"explanation": "Предсказание с 'наверное' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Я не позволю никому обидеть моих детей.",
 			"answer": "I won't let anyone hurt my children.",
-			"explanation": "Твёрдое решение — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Я не позволю никому обидеть моих детей.",
+					"explanation": "Твёрдое решение — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Ты пойдёшь на концерт вместе со мной?",
 			"answer": "Will you go to the concert with me?",
-			"explanation": "Приглашение — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты пойдёшь на концерт вместе со мной?",
+					"explanation": "Приглашение — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Думаю, этот игрок станет звездой мирового футбола.",
 			"answer": "I think this player will become a world football star.",
-			"explanation": "Предсказание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Думаю, этот игрок станет звездой мирового футбола.",
+					"explanation": "Предсказание — используем will."
+				}
+			}
 		},
 		{
-			"question": "Подожди, я помогу тебе поднять чемодан.",
 			"answer": "Wait, I will help you carry the suitcase.",
-			"explanation": "Спонтанное предложение — используем will."
+			"translations": {
+				"ru": {
+					"question": "Подожди, я помогу тебе поднять чемодан.",
+					"explanation": "Спонтанное предложение — используем will."
+				}
+			}
 		},
 		{
-			"question": "В будущем все школы перейдут на цифровое обучение.",
 			"answer": "In the future all schools will switch to digital learning.",
-			"explanation": "Предсказание о будущем — используем will."
+			"translations": {
+				"ru": {
+					"question": "В будущем все школы перейдут на цифровое обучение.",
+					"explanation": "Предсказание о будущем — используем will."
+				}
+			}
 		},
 		{
-			"question": "Она не будет мириться с такой ситуацией.",
 			"answer": "She won't put up with such a situation.",
-			"explanation": "Отрицательное предсказание о характере — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Она не будет мириться с такой ситуацией.",
+					"explanation": "Отрицательное предсказание о характере — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Ты передашь ему моё сообщение?",
 			"answer": "Will you pass on my message to him?",
-			"explanation": "Просьба — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты передашь ему моё сообщение?",
+					"explanation": "Просьба — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Я уверен, что ты добьёшься своей мечты.",
 			"answer": "I am sure you will achieve your dream.",
-			"explanation": "Уверенное предсказание/ободрение — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я уверен, что ты добьёшься своей мечты.",
+					"explanation": "Уверенное предсказание/ободрение — используем will."
+				}
+			}
 		},
 		{
-			"question": "Завтра я обязательно извинюсь перед ним.",
 			"answer": "Tomorrow I will definitely apologize to him.",
-			"explanation": "Решение с маркером 'завтра' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Завтра я обязательно извинюсь перед ним.",
+					"explanation": "Решение с маркером 'завтра' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Наверное, это займёт несколько часов.",
 			"answer": "This will probably take a few hours.",
-			"explanation": "Предсказание о продолжительности с 'наверное' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Наверное, это займёт несколько часов.",
+					"explanation": "Предсказание о продолжительности с 'наверное' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Я не сдамся, что бы ни случилось.",
 			"answer": "I won't give up, no matter what happens.",
-			"explanation": "Твёрдое решение/обещание — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Я не сдамся, что бы ни случилось.",
+					"explanation": "Твёрдое решение/обещание — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Ты переведёшь этот документ для меня?",
 			"answer": "Will you translate this document for me?",
-			"explanation": "Просьба — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты переведёшь этот документ для меня?",
+					"explanation": "Просьба — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Думаю, новый смартфон разлетится моментально.",
 			"answer": "I think the new smartphone will sell out instantly.",
-			"explanation": "Предсказание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Думаю, новый смартфон разлетится моментально.",
+					"explanation": "Предсказание — используем will."
+				}
+			}
 		},
 		{
-			"question": "Подожди, я запишу твой номер телефона.",
 			"answer": "Wait, I will write down your phone number.",
-			"explanation": "Спонтанное решение — используем will."
+			"translations": {
+				"ru": {
+					"question": "Подожди, я запишу твой номер телефона.",
+					"explanation": "Спонтанное решение — используем will."
+				}
+			}
 		},
 		{
-			"question": "Скоро этот район полностью обновят.",
 			"answer": "This area will be completely renovated soon.",
-			"explanation": "Предсказание с маркером 'скоро' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Скоро этот район полностью обновят.",
+					"explanation": "Предсказание с маркером 'скоро' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Он не уступит в этом споре.",
 			"answer": "He won't back down in this argument.",
-			"explanation": "Отрицательное предсказание о характере — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Он не уступит в этом споре.",
+					"explanation": "Отрицательное предсказание о характере — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Ты выучишь эти слова к завтрашнему уроку?",
 			"answer": "Will you learn these words by tomorrow's lesson?",
-			"explanation": "Вопрос о намерении — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты выучишь эти слова к завтрашнему уроку?",
+					"explanation": "Вопрос о намерении — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Я уверена, что это решение окажется правильным.",
 			"answer": "I am sure this decision will turn out to be correct.",
-			"explanation": "Уверенное предсказание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я уверена, что это решение окажется правильным.",
+					"explanation": "Уверенное предсказание — используем will."
+				}
+			}
 		},
 		{
-			"question": "Завтра я отправлю заявку на этот грант.",
 			"answer": "Tomorrow I will send in the application for this grant.",
-			"explanation": "Решение с маркером 'завтра' — используем will."
+			"translations": {
+				"ru": {
+					"question": "Завтра я отправлю заявку на этот грант.",
+					"explanation": "Решение с маркером 'завтра' — используем will."
+				}
+			}
 		},
 		{
-			"question": "Наверное, разрыв облаков будет во второй половине дня.",
 			"answer": "There will probably be a break in the clouds in the afternoon.",
-			"explanation": "Предсказание о погоде — используем will."
+			"translations": {
+				"ru": {
+					"question": "Наверное, разрыв облаков будет во второй половине дня.",
+					"explanation": "Предсказание о погоде — используем will."
+				}
+			}
 		},
 		{
-			"question": "Я не буду притворяться, что всё в порядке.",
 			"answer": "I won't pretend that everything is fine.",
-			"explanation": "Решение в отрицательной форме — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Я не буду притворяться, что всё в порядке.",
+					"explanation": "Решение в отрицательной форме — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Ты навестишь её в больнице?",
 			"answer": "Will you visit her in hospital?",
-			"explanation": "Вопрос о намерении — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты навестишь её в больнице?",
+					"explanation": "Вопрос о намерении — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Думаю, в этом году урожай будет хорошим.",
 			"answer": "I think the harvest will be good this year.",
-			"explanation": "Предсказание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Думаю, в этом году урожай будет хорошим.",
+					"explanation": "Предсказание — используем will."
+				}
+			}
 		},
 		{
-			"question": "Подожди, я переведу эту фразу для тебя.",
 			"answer": "Wait, I will translate this phrase for you.",
-			"explanation": "Спонтанное предложение — используем will."
+			"translations": {
+				"ru": {
+					"question": "Подожди, я переведу эту фразу для тебя.",
+					"explanation": "Спонтанное предложение — используем will."
+				}
+			}
 		},
 		{
-			"question": "Через пять лет этот стартап станет единорогом.",
 			"answer": "In five years this startup will become a unicorn.",
-			"explanation": "Предсказание с временным маркером — используем will."
+			"translations": {
+				"ru": {
+					"question": "Через пять лет этот стартап станет единорогом.",
+					"explanation": "Предсказание с временным маркером — используем will."
+				}
+			}
 		},
 		{
-			"question": "Она не позволит ему принимать все решения единолично.",
 			"answer": "She won't let him make all the decisions alone.",
-			"explanation": "Отрицательное предсказание — используем won't."
+			"translations": {
+				"ru": {
+					"question": "Она не позволит ему принимать все решения единолично.",
+					"explanation": "Отрицательное предсказание — используем won't."
+				}
+			}
 		},
 		{
-			"question": "Ты попросишь о повышении зарплаты?",
 			"answer": "Will you ask for a pay rise?",
-			"explanation": "Вопрос о намерении — вопросительная форма с will."
+			"translations": {
+				"ru": {
+					"question": "Ты попросишь о повышении зарплаты?",
+					"explanation": "Вопрос о намерении — вопросительная форма с will."
+				}
+			}
 		},
 		{
-			"question": "Я уверен, что он разберётся с этой проблемой.",
 			"answer": "I am sure he will sort out this problem.",
-			"explanation": "Уверенное предсказание — используем will."
+			"translations": {
+				"ru": {
+					"question": "Я уверен, что он разберётся с этой проблемой.",
+					"explanation": "Уверенное предсказание — используем will."
+				}
+			}
 		}
 	]
 }

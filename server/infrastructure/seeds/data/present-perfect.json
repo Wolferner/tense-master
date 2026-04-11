@@ -2,869 +2,1561 @@
 	"tense": "PRESENT_PERFECT",
 	"exercises": [
 		{
-			"question": "Я уже посмотрел этот фильм.",
 			"answer": "I have already watched this film.",
-			"explanation": "Present Perfect с already выражает завершённое действие. Already стоит между have и смысловым глаголом."
+			"translations": {
+				"ru": {
+					"question": "Я уже посмотрел этот фильм.",
+					"explanation": "Present Perfect с already выражает завершённое действие. Already стоит между have и смысловым глаголом."
+				}
+			}
 		},
 		{
-			"question": "Она потеряла ключи.",
 			"answer": "She has lost her keys.",
-			"explanation": "Present Perfect выражает прошлое действие, результат которого важен сейчас — ключи до сих пор не найдены."
+			"translations": {
+				"ru": {
+					"question": "Она потеряла ключи.",
+					"explanation": "Present Perfect выражает прошлое действие, результат которого важен сейчас — ключи до сих пор не найдены."
+				}
+			}
 		},
 		{
-			"question": "Мы только что приехали.",
 			"answer": "We have just arrived.",
-			"explanation": "Present Perfect с just для действия, только что завершившегося. Just стоит между have и смысловым глаголом."
+			"translations": {
+				"ru": {
+					"question": "Мы только что приехали.",
+					"explanation": "Present Perfect с just для действия, только что завершившегося. Just стоит между have и смысловым глаголом."
+				}
+			}
 		},
 		{
-			"question": "Он никогда не был в Лондоне.",
 			"answer": "He has never been to London.",
-			"explanation": "Present Perfect с never для жизненного опыта. Never стоит между has и been."
+			"translations": {
+				"ru": {
+					"question": "Он никогда не был в Лондоне.",
+					"explanation": "Present Perfect с never для жизненного опыта. Never стоит между has и been."
+				}
+			}
 		},
 		{
-			"question": "Я уже сделал домашнее задание.",
 			"answer": "I have already done my homework.",
-			"explanation": "Present Perfect с already. Неправильный глагол do → done."
+			"translations": {
+				"ru": {
+					"question": "Я уже сделал домашнее задание.",
+					"explanation": "Present Perfect с already. Неправильный глагол do → done."
+				}
+			}
 		},
 		{
-			"question": "Она уже позвонила маме.",
 			"answer": "She has already called her mother.",
-			"explanation": "Present Perfect с already для действия, уже завершённого."
+			"translations": {
+				"ru": {
+					"question": "Она уже позвонила маме.",
+					"explanation": "Present Perfect с already для действия, уже завершённого."
+				}
+			}
 		},
 		{
-			"question": "Ты когда-нибудь ел суши?",
 			"answer": "Have you ever eaten sushi?",
-			"explanation": "Present Perfect с ever в вопросе о жизненном опыте. Неправильный глагол eat → eaten."
+			"translations": {
+				"ru": {
+					"question": "Ты когда-нибудь ел суши?",
+					"explanation": "Present Perfect с ever в вопросе о жизненном опыте. Неправильный глагол eat → eaten."
+				}
+			}
 		},
 		{
-			"question": "Мы уже встречались раньше.",
 			"answer": "We have met before.",
-			"explanation": "Present Perfect выражает жизненный опыт. Неправильный глагол meet → met."
+			"translations": {
+				"ru": {
+					"question": "Мы уже встречались раньше.",
+					"explanation": "Present Perfect выражает жизненный опыт. Неправильный глагол meet → met."
+				}
+			}
 		},
 		{
-			"question": "Он только что ушёл.",
 			"answer": "He has just left.",
-			"explanation": "Present Perfect с just. Неправильный глагол leave → left."
+			"translations": {
+				"ru": {
+					"question": "Он только что ушёл.",
+					"explanation": "Present Perfect с just. Неправильный глагол leave → left."
+				}
+			}
 		},
 		{
-			"question": "Они ещё не приехали.",
 			"answer": "They haven't arrived yet.",
-			"explanation": "Present Perfect с yet в отрицании. Yet стоит в конце предложения."
+			"translations": {
+				"ru": {
+					"question": "Они ещё не приехали.",
+					"explanation": "Present Perfect с yet в отрицании. Yet стоит в конце предложения."
+				}
+			}
 		},
 		{
-			"question": "Я видел этот фильм три раза.",
 			"answer": "I have seen this film three times.",
-			"explanation": "Present Perfect для повторяющегося опыта без указания конкретного времени."
+			"translations": {
+				"ru": {
+					"question": "Я видел этот фильм три раза.",
+					"explanation": "Present Perfect для повторяющегося опыта без указания конкретного времени."
+				}
+			}
 		},
 		{
-			"question": "Она написала пять писем.",
 			"answer": "She has written five letters.",
-			"explanation": "Present Perfect для завершённого действия с результатом. Неправильный глагол write → written."
+			"translations": {
+				"ru": {
+					"question": "Она написала пять писем.",
+					"explanation": "Present Perfect для завершённого действия с результатом. Неправильный глагол write → written."
+				}
+			}
 		},
 		{
-			"question": "Ты уже поел?",
 			"answer": "Have you eaten yet?",
-			"explanation": "Вопрос в Present Perfect с yet о завершённости действия."
+			"translations": {
+				"ru": {
+					"question": "Ты уже поел?",
+					"explanation": "Вопрос в Present Perfect с yet о завершённости действия."
+				}
+			}
 		},
 		{
-			"question": "Мы никогда не были в Японии.",
 			"answer": "We have never been to Japan.",
-			"explanation": "Present Perfect с never для отрицательного жизненного опыта."
+			"translations": {
+				"ru": {
+					"question": "Мы никогда не были в Японии.",
+					"explanation": "Present Perfect с never для отрицательного жизненного опыта."
+				}
+			}
 		},
 		{
-			"question": "Он купил новую машину.",
 			"answer": "He has bought a new car.",
-			"explanation": "Present Perfect выражает прошлое действие с результатом в настоящем — машина есть сейчас."
+			"translations": {
+				"ru": {
+					"question": "Он купил новую машину.",
+					"explanation": "Present Perfect выражает прошлое действие с результатом в настоящем — машина есть сейчас."
+				}
+			}
 		},
 		{
-			"question": "Я только что закончил работу.",
 			"answer": "I have just finished work.",
-			"explanation": "Present Perfect с just для только что завершённого действия."
+			"translations": {
+				"ru": {
+					"question": "Я только что закончил работу.",
+					"explanation": "Present Perfect с just для только что завершённого действия."
+				}
+			}
 		},
 		{
-			"question": "Она уже ответила на письмо.",
 			"answer": "She has already replied to the letter.",
-			"explanation": "Present Perfect с already. Действие уже завершено."
+			"translations": {
+				"ru": {
+					"question": "Она уже ответила на письмо.",
+					"explanation": "Present Perfect с already. Действие уже завершено."
+				}
+			}
 		},
 		{
-			"question": "Ты когда-нибудь прыгал с парашютом?",
 			"answer": "Have you ever done a parachute jump?",
-			"explanation": "Present Perfect с ever в вопросе о жизненном опыте."
+			"translations": {
+				"ru": {
+					"question": "Ты когда-нибудь прыгал с парашютом?",
+					"explanation": "Present Perfect с ever в вопросе о жизненном опыте."
+				}
+			}
 		},
 		{
-			"question": "Он не сдал экзамен.",
 			"answer": "He hasn't passed the exam.",
-			"explanation": "Отрицание в Present Perfect с hasn't."
+			"translations": {
+				"ru": {
+					"question": "Он не сдал экзамен.",
+					"explanation": "Отрицание в Present Perfect с hasn't."
+				}
+			}
 		},
 		{
-			"question": "Мы уже заказали билеты.",
 			"answer": "We have already booked the tickets.",
-			"explanation": "Present Perfect с already для завершённого действия."
+			"translations": {
+				"ru": {
+					"question": "Мы уже заказали билеты.",
+					"explanation": "Present Perfect с already для завершённого действия."
+				}
+			}
 		},
 		{
-			"question": "Она когда-нибудь жила за границей?",
 			"answer": "Has she ever lived abroad?",
-			"explanation": "Вопрос в Present Perfect с ever о жизненном опыте."
+			"translations": {
+				"ru": {
+					"question": "Она когда-нибудь жила за границей?",
+					"explanation": "Вопрос в Present Perfect с ever о жизненном опыте."
+				}
+			}
 		},
 		{
-			"question": "Я не читал эту книгу.",
 			"answer": "I haven't read this book.",
-			"explanation": "Отрицание в Present Perfect с haven't."
+			"translations": {
+				"ru": {
+					"question": "Я не читал эту книгу.",
+					"explanation": "Отрицание в Present Perfect с haven't."
+				}
+			}
 		},
 		{
-			"question": "Он сломал ногу.",
 			"answer": "He has broken his leg.",
-			"explanation": "Present Perfect для прошлого действия с результатом в настоящем."
+			"translations": {
+				"ru": {
+					"question": "Он сломал ногу.",
+					"explanation": "Present Perfect для прошлого действия с результатом в настоящем."
+				}
+			}
 		},
 		{
-			"question": "Они переехали в новую квартиру.",
 			"answer": "They have moved to a new flat.",
-			"explanation": "Present Perfect выражает изменение ситуации, которое актуально сейчас."
+			"translations": {
+				"ru": {
+					"question": "Они переехали в новую квартиру.",
+					"explanation": "Present Perfect выражает изменение ситуации, которое актуально сейчас."
+				}
+			}
 		},
 		{
-			"question": "Ты уже видел её?",
 			"answer": "Have you seen her yet?",
-			"explanation": "Вопрос в Present Perfect с yet о завершённости."
+			"translations": {
+				"ru": {
+					"question": "Ты уже видел её?",
+					"explanation": "Вопрос в Present Perfect с yet о завершённости."
+				}
+			}
 		},
 		{
-			"question": "Она ещё не пришла.",
 			"answer": "She hasn't come yet.",
-			"explanation": "Present Perfect с yet в отрицательном предложении."
+			"translations": {
+				"ru": {
+					"question": "Она ещё не пришла.",
+					"explanation": "Present Perfect с yet в отрицательном предложении."
+				}
+			}
 		},
 		{
-			"question": "Я потерял кошелёк.",
 			"answer": "I have lost my wallet.",
-			"explanation": "Present Perfect для прошлого действия с результатом — кошелёк до сих пор потерян."
+			"translations": {
+				"ru": {
+					"question": "Я потерял кошелёк.",
+					"explanation": "Present Perfect для прошлого действия с результатом — кошелёк до сих пор потерян."
+				}
+			}
 		},
 		{
-			"question": "Он уже поговорил с начальником.",
 			"answer": "He has already spoken to his boss.",
-			"explanation": "Present Perfect с already. Неправильный глагол speak → spoken."
+			"translations": {
+				"ru": {
+					"question": "Он уже поговорил с начальником.",
+					"explanation": "Present Perfect с already. Неправильный глагол speak → spoken."
+				}
+			}
 		},
 		{
-			"question": "Мы только что поели.",
 			"answer": "We have just eaten.",
-			"explanation": "Present Perfect с just для только что завершённого действия."
+			"translations": {
+				"ru": {
+					"question": "Мы только что поели.",
+					"explanation": "Present Perfect с just для только что завершённого действия."
+				}
+			}
 		},
 		{
-			"question": "Она никогда не видела снега.",
 			"answer": "She has never seen snow.",
-			"explanation": "Present Perfect с never для отрицательного жизненного опыта."
+			"translations": {
+				"ru": {
+					"question": "Она никогда не видела снега.",
+					"explanation": "Present Perfect с never для отрицательного жизненного опыта."
+				}
+			}
 		},
 		{
-			"question": "Ты когда-нибудь встречал знаменитость?",
 			"answer": "Have you ever met a celebrity?",
-			"explanation": "Present Perfect с ever для вопроса о жизненном опыте."
+			"translations": {
+				"ru": {
+					"question": "Ты когда-нибудь встречал знаменитость?",
+					"explanation": "Present Perfect с ever для вопроса о жизненном опыте."
+				}
+			}
 		},
 		{
-			"question": "Он сделал ошибку.",
 			"answer": "He has made a mistake.",
-			"explanation": "Present Perfect для прошлого действия с актуальным результатом."
+			"translations": {
+				"ru": {
+					"question": "Он сделал ошибку.",
+					"explanation": "Present Perfect для прошлого действия с актуальным результатом."
+				}
+			}
 		},
 		{
-			"question": "Я уже слышал об этом.",
 			"answer": "I have already heard about this.",
-			"explanation": "Present Perfect с already. Неправильный глагол hear → heard."
+			"translations": {
+				"ru": {
+					"question": "Я уже слышал об этом.",
+					"explanation": "Present Perfect с already. Неправильный глагол hear → heard."
+				}
+			}
 		},
 		{
-			"question": "Она выучила все слова.",
 			"answer": "She has learnt all the words.",
-			"explanation": "Present Perfect для завершённого действия с результатом."
+			"translations": {
+				"ru": {
+					"question": "Она выучила все слова.",
+					"explanation": "Present Perfect для завершённого действия с результатом."
+				}
+			}
 		},
 		{
-			"question": "Мы только что познакомились.",
 			"answer": "We have just met.",
-			"explanation": "Present Perfect с just. Неправильный глагол meet → met."
+			"translations": {
+				"ru": {
+					"question": "Мы только что познакомились.",
+					"explanation": "Present Perfect с just. Неправильный глагол meet → met."
+				}
+			}
 		},
 		{
-			"question": "Он ещё не сделал задание.",
 			"answer": "He hasn't done the task yet.",
-			"explanation": "Present Perfect с yet в отрицании. Yet в конце предложения."
+			"translations": {
+				"ru": {
+					"question": "Он ещё не сделал задание.",
+					"explanation": "Present Perfect с yet в отрицании. Yet в конце предложения."
+				}
+			}
 		},
 		{
-			"question": "Ты пробовал французскую кухню?",
 			"answer": "Have you tried French cuisine?",
-			"explanation": "Present Perfect для вопроса о жизненном опыте."
+			"translations": {
+				"ru": {
+					"question": "Ты пробовал французскую кухню?",
+					"explanation": "Present Perfect для вопроса о жизненном опыте."
+				}
+			}
 		},
 		{
-			"question": "Она написала новую книгу.",
 			"answer": "She has written a new book.",
-			"explanation": "Present Perfect для завершённого действия с результатом."
+			"translations": {
+				"ru": {
+					"question": "Она написала новую книгу.",
+					"explanation": "Present Perfect для завершённого действия с результатом."
+				}
+			}
 		},
 		{
-			"question": "Я уже видел эту выставку.",
 			"answer": "I have already seen this exhibition.",
-			"explanation": "Present Perfect с already для завершённого действия."
+			"translations": {
+				"ru": {
+					"question": "Я уже видел эту выставку.",
+					"explanation": "Present Perfect с already для завершённого действия."
+				}
+			}
 		},
 		{
-			"question": "Они уже подписали контракт.",
 			"answer": "They have already signed the contract.",
-			"explanation": "Present Perfect с already. Контракт подписан — ситуация актуальна."
+			"translations": {
+				"ru": {
+					"question": "Они уже подписали контракт.",
+					"explanation": "Present Perfect с already. Контракт подписан — ситуация актуальна."
+				}
+			}
 		},
 		{
-			"question": "Он никогда не пробовал суши.",
 			"answer": "He has never tried sushi.",
-			"explanation": "Present Perfect с never для отрицательного жизненного опыта."
+			"translations": {
+				"ru": {
+					"question": "Он никогда не пробовал суши.",
+					"explanation": "Present Perfect с never для отрицательного жизненного опыта."
+				}
+			}
 		},
 		{
-			"question": "Мы ещё не решили проблему.",
 			"answer": "We haven't solved the problem yet.",
-			"explanation": "Present Perfect с yet в отрицании. Проблема до сих пор не решена."
+			"translations": {
+				"ru": {
+					"question": "Мы ещё не решили проблему.",
+					"explanation": "Present Perfect с yet в отрицании. Проблема до сих пор не решена."
+				}
+			}
 		},
 		{
-			"question": "Она только что вернулась с работы.",
 			"answer": "She has just returned from work.",
-			"explanation": "Present Perfect с just для только что завершённого действия."
+			"translations": {
+				"ru": {
+					"question": "Она только что вернулась с работы.",
+					"explanation": "Present Perfect с just для только что завершённого действия."
+				}
+			}
 		},
 		{
-			"question": "Ты когда-нибудь был в Австралии?",
 			"answer": "Have you ever been to Australia?",
-			"explanation": "Present Perfect с ever для вопроса о жизненном опыте."
+			"translations": {
+				"ru": {
+					"question": "Ты когда-нибудь был в Австралии?",
+					"explanation": "Present Perfect с ever для вопроса о жизненном опыте."
+				}
+			}
 		},
 		{
-			"question": "Он разбил стакан.",
 			"answer": "He has broken a glass.",
-			"explanation": "Present Perfect для прошлого действия с видимым результатом."
+			"translations": {
+				"ru": {
+					"question": "Он разбил стакан.",
+					"explanation": "Present Perfect для прошлого действия с видимым результатом."
+				}
+			}
 		},
 		{
-			"question": "Я купил новый телефон.",
 			"answer": "I have bought a new phone.",
-			"explanation": "Present Perfect для прошлого действия, результат которого актуален."
+			"translations": {
+				"ru": {
+					"question": "Я купил новый телефон.",
+					"explanation": "Present Perfect для прошлого действия, результат которого актуален."
+				}
+			}
 		},
 		{
-			"question": "Она поменяла работу.",
 			"answer": "She has changed her job.",
-			"explanation": "Present Perfect для изменения ситуации, актуального в настоящем."
+			"translations": {
+				"ru": {
+					"question": "Она поменяла работу.",
+					"explanation": "Present Perfect для изменения ситуации, актуального в настоящем."
+				}
+			}
 		},
 		{
-			"question": "Мы только что отправили письмо.",
 			"answer": "We have just sent the letter.",
-			"explanation": "Present Perfect с just. Неправильный глагол send → sent."
+			"translations": {
+				"ru": {
+					"question": "Мы только что отправили письмо.",
+					"explanation": "Present Perfect с just. Неправильный глагол send → sent."
+				}
+			}
 		},
 		{
-			"question": "Он уже прочитал книгу.",
 			"answer": "He has already read the book.",
-			"explanation": "Present Perfect с already. Неправильный глагол read → read (произносится /rɛd/)."
+			"translations": {
+				"ru": {
+					"question": "Он уже прочитал книгу.",
+					"explanation": "Present Perfect с already. Неправильный глагол read → read (произносится /rɛd/)."
+				}
+			}
 		},
 		{
-			"question": "Ты уже сделал домашнее задание?",
 			"answer": "Have you done your homework yet?",
-			"explanation": "Вопрос в Present Perfect с yet о завершённости действия."
+			"translations": {
+				"ru": {
+					"question": "Ты уже сделал домашнее задание?",
+					"explanation": "Вопрос в Present Perfect с yet о завершённости действия."
+				}
+			}
 		},
 		{
-			"question": "Они ещё не позвонили.",
 			"answer": "They haven't called yet.",
-			"explanation": "Present Perfect с yet в отрицании. Звонка до сих пор не было."
+			"translations": {
+				"ru": {
+					"question": "Они ещё не позвонили.",
+					"explanation": "Present Perfect с yet в отрицании. Звонка до сих пор не было."
+				}
+			}
 		},
 		{
-			"question": "Я когда-нибудь говорил тебе, что ты умный?",
 			"answer": "Have I ever told you that you are smart?",
-			"explanation": "Present Perfect с ever в утвердительном вопросе. Неправильный глагол tell → told."
+			"translations": {
+				"ru": {
+					"question": "Я когда-нибудь говорил тебе, что ты умный?",
+					"explanation": "Present Perfect с ever в утвердительном вопросе. Неправильный глагол tell → told."
+				}
+			}
 		},
 		{
-			"question": "Она уже поговорила с ним.",
 			"answer": "She has already talked to him.",
-			"explanation": "Present Perfect с already для завершённого действия."
+			"translations": {
+				"ru": {
+					"question": "Она уже поговорила с ним.",
+					"explanation": "Present Perfect с already для завершённого действия."
+				}
+			}
 		},
 		{
-			"question": "Он проработал здесь пять лет.",
 			"answer": "He has worked here for five years.",
-			"explanation": "Present Perfect с for выражает действие, начавшееся в прошлом и продолжающееся сейчас."
+			"translations": {
+				"ru": {
+					"question": "Он проработал здесь пять лет.",
+					"explanation": "Present Perfect с for выражает действие, начавшееся в прошлом и продолжающееся сейчас."
+				}
+			}
 		},
 		{
-			"question": "Мы живём здесь с 2010 года.",
 			"answer": "We have lived here since 2010.",
-			"explanation": "Present Perfect с since выражает начало действия, которое продолжается."
+			"translations": {
+				"ru": {
+					"question": "Мы живём здесь с 2010 года.",
+					"explanation": "Present Perfect с since выражает начало действия, которое продолжается."
+				}
+			}
 		},
 		{
-			"question": "Она знает его с детства.",
 			"answer": "She has known him since childhood.",
-			"explanation": "Present Perfect с since для действия, начавшегося в прошлом и продолжающегося до сих пор."
+			"translations": {
+				"ru": {
+					"question": "Она знает его с детства.",
+					"explanation": "Present Perfect с since для действия, начавшегося в прошлом и продолжающегося до сих пор."
+				}
+			}
 		},
 		{
-			"question": "Я не ел с утра.",
 			"answer": "I haven't eaten since morning.",
-			"explanation": "Present Perfect с since в отрицании."
+			"translations": {
+				"ru": {
+					"question": "Я не ел с утра.",
+					"explanation": "Present Perfect с since в отрицании."
+				}
+			}
 		},
 		{
-			"question": "Он не спал двое суток.",
 			"answer": "He hasn't slept for two days.",
-			"explanation": "Present Perfect с for в отрицании. Неправильный глагол sleep → slept."
+			"translations": {
+				"ru": {
+					"question": "Он не спал двое суток.",
+					"explanation": "Present Perfect с for в отрицании. Неправильный глагол sleep → slept."
+				}
+			}
 		},
 		{
-			"question": "Мы работаем вместе уже год.",
 			"answer": "We have worked together for a year.",
-			"explanation": "Present Perfect с for для периода, начавшегося в прошлом."
+			"translations": {
+				"ru": {
+					"question": "Мы работаем вместе уже год.",
+					"explanation": "Present Perfect с for для периода, начавшегося в прошлом."
+				}
+			}
 		},
 		{
-			"question": "Она изучает английский с начальной школы.",
 			"answer": "She has studied English since primary school.",
-			"explanation": "Present Perfect с since. Действие продолжается до сих пор."
+			"translations": {
+				"ru": {
+					"question": "Она изучает английский с начальной школы.",
+					"explanation": "Present Perfect с since. Действие продолжается до сих пор."
+				}
+			}
 		},
 		{
-			"question": "Я уже решил эту задачу.",
 			"answer": "I have already solved this problem.",
-			"explanation": "Present Perfect с already для завершённого действия."
+			"translations": {
+				"ru": {
+					"question": "Я уже решил эту задачу.",
+					"explanation": "Present Perfect с already для завершённого действия."
+				}
+			}
 		},
 		{
-			"question": "Он ещё не пришёл.",
 			"answer": "He hasn't come yet.",
-			"explanation": "Present Perfect с yet в отрицании. Действие до сих пор не произошло."
+			"translations": {
+				"ru": {
+					"question": "Он ещё не пришёл.",
+					"explanation": "Present Perfect с yet в отрицании. Действие до сих пор не произошло."
+				}
+			}
 		},
 		{
-			"question": "Она уже купила продукты.",
 			"answer": "She has already bought the groceries.",
-			"explanation": "Present Perfect с already. Неправильный глагол buy → bought."
+			"translations": {
+				"ru": {
+					"question": "Она уже купила продукты.",
+					"explanation": "Present Perfect с already. Неправильный глагол buy → bought."
+				}
+			}
 		},
 		{
-			"question": "Ты слышал эту новость?",
 			"answer": "Have you heard this news?",
-			"explanation": "Present Perfect для вопроса о событии в неопределённом прошлом."
+			"translations": {
+				"ru": {
+					"question": "Ты слышал эту новость?",
+					"explanation": "Present Perfect для вопроса о событии в неопределённом прошлом."
+				}
+			}
 		},
 		{
-			"question": "Мы уже выбрали ресторан.",
 			"answer": "We have already chosen a restaurant.",
-			"explanation": "Present Perfect с already. Неправильный глагол choose → chosen."
+			"translations": {
+				"ru": {
+					"question": "Мы уже выбрали ресторан.",
+					"explanation": "Present Perfect с already. Неправильный глагол choose → chosen."
+				}
+			}
 		},
 		{
-			"question": "Он посетил 20 стран.",
 			"answer": "He has visited twenty countries.",
-			"explanation": "Present Perfect для накопленного жизненного опыта."
+			"translations": {
+				"ru": {
+					"question": "Он посетил 20 стран.",
+					"explanation": "Present Perfect для накопленного жизненного опыта."
+				}
+			}
 		},
 		{
-			"question": "Она ещё не сдала экзамен.",
 			"answer": "She hasn't taken the exam yet.",
-			"explanation": "Present Perfect с yet в отрицании."
+			"translations": {
+				"ru": {
+					"question": "Она ещё не сдала экзамен.",
+					"explanation": "Present Perfect с yet в отрицании."
+				}
+			}
 		},
 		{
-			"question": "Я никогда не видел такого заката.",
 			"answer": "I have never seen such a sunset.",
-			"explanation": "Present Perfect с never для уникального отрицательного опыта."
+			"translations": {
+				"ru": {
+					"question": "Я никогда не видел такого заката.",
+					"explanation": "Present Perfect с never для уникального отрицательного опыта."
+				}
+			}
 		},
 		{
-			"question": "Он только что проснулся.",
 			"answer": "He has just woken up.",
-			"explanation": "Present Perfect с just. Неправильный глагол wake → woken."
+			"translations": {
+				"ru": {
+					"question": "Он только что проснулся.",
+					"explanation": "Present Perfect с just. Неправильный глагол wake → woken."
+				}
+			}
 		},
 		{
-			"question": "Мы уже поговорили с врачом.",
 			"answer": "We have already spoken to the doctor.",
-			"explanation": "Present Perfect с already. Неправильный глагол speak → spoken."
+			"translations": {
+				"ru": {
+					"question": "Мы уже поговорили с врачом.",
+					"explanation": "Present Perfect с already. Неправильный глагол speak → spoken."
+				}
+			}
 		},
 		{
-			"question": "Она никогда не ездила на лошади.",
 			"answer": "She has never ridden a horse.",
-			"explanation": "Present Perfect с never. Неправильный глагол ride → ridden."
+			"translations": {
+				"ru": {
+					"question": "Она никогда не ездила на лошади.",
+					"explanation": "Present Perfect с never. Неправильный глагол ride → ridden."
+				}
+			}
 		},
 		{
-			"question": "Ты когда-нибудь готовил суши?",
 			"answer": "Have you ever made sushi?",
-			"explanation": "Вопрос в Present Perfect с ever о жизненном опыте."
+			"translations": {
+				"ru": {
+					"question": "Ты когда-нибудь готовил суши?",
+					"explanation": "Вопрос в Present Perfect с ever о жизненном опыте."
+				}
+			}
 		},
 		{
-			"question": "Я уже заплатил по счёту.",
 			"answer": "I have already paid the bill.",
-			"explanation": "Present Perfect с already. Неправильный глагол pay → paid."
+			"translations": {
+				"ru": {
+					"question": "Я уже заплатил по счёту.",
+					"explanation": "Present Perfect с already. Неправильный глагол pay → paid."
+				}
+			}
 		},
 		{
-			"question": "Он потерял работу.",
 			"answer": "He has lost his job.",
-			"explanation": "Present Perfect для прошлого действия с результатом в настоящем."
+			"translations": {
+				"ru": {
+					"question": "Он потерял работу.",
+					"explanation": "Present Perfect для прошлого действия с результатом в настоящем."
+				}
+			}
 		},
 		{
-			"question": "Мы только что поговорили с ним.",
 			"answer": "We have just spoken to him.",
-			"explanation": "Present Perfect с just для только что завершённого действия."
+			"translations": {
+				"ru": {
+					"question": "Мы только что поговорили с ним.",
+					"explanation": "Present Perfect с just для только что завершённого действия."
+				}
+			}
 		},
 		{
-			"question": "Она нашла свой кошелёк.",
 			"answer": "She has found her wallet.",
-			"explanation": "Present Perfect для прошлого действия с актуальным результатом."
+			"translations": {
+				"ru": {
+					"question": "Она нашла свой кошелёк.",
+					"explanation": "Present Perfect для прошлого действия с актуальным результатом."
+				}
+			}
 		},
 		{
-			"question": "Я уже видел эту рекламу.",
 			"answer": "I have already seen this advertisement.",
-			"explanation": "Present Perfect с already для завершённого действия."
+			"translations": {
+				"ru": {
+					"question": "Я уже видел эту рекламу.",
+					"explanation": "Present Perfect с already для завершённого действия."
+				}
+			}
 		},
 		{
-			"question": "Они уже нашли решение.",
 			"answer": "They have already found the solution.",
-			"explanation": "Present Perfect с already. Неправильный глагол find → found."
+			"translations": {
+				"ru": {
+					"question": "Они уже нашли решение.",
+					"explanation": "Present Perfect с already. Неправильный глагол find → found."
+				}
+			}
 		},
 		{
-			"question": "Он ещё не сказал нам правду.",
 			"answer": "He hasn't told us the truth yet.",
-			"explanation": "Present Perfect с yet в отрицании. Неправильный глагол tell → told."
+			"translations": {
+				"ru": {
+					"question": "Он ещё не сказал нам правду.",
+					"explanation": "Present Perfect с yet в отрицании. Неправильный глагол tell → told."
+				}
+			}
 		},
 		{
-			"question": "Ты когда-нибудь терял паспорт?",
 			"answer": "Have you ever lost your passport?",
-			"explanation": "Вопрос в Present Perfect с ever о жизненном опыте."
+			"translations": {
+				"ru": {
+					"question": "Ты когда-нибудь терял паспорт?",
+					"explanation": "Вопрос в Present Perfect с ever о жизненном опыте."
+				}
+			}
 		},
 		{
-			"question": "Она получила письмо.",
 			"answer": "She has received a letter.",
-			"explanation": "Present Perfect для прошлого действия с результатом в настоящем."
+			"translations": {
+				"ru": {
+					"question": "Она получила письмо.",
+					"explanation": "Present Perfect для прошлого действия с результатом в настоящем."
+				}
+			}
 		},
 		{
-			"question": "Я только что выпил кофе.",
 			"answer": "I have just had a coffee.",
-			"explanation": "Present Perfect с just для только что завершённого действия."
+			"translations": {
+				"ru": {
+					"question": "Я только что выпил кофе.",
+					"explanation": "Present Perfect с just для только что завершённого действия."
+				}
+			}
 		},
 		{
-			"question": "Мы уже обсудили этот вопрос.",
 			"answer": "We have already discussed this issue.",
-			"explanation": "Present Perfect с already для завершённого действия."
+			"translations": {
+				"ru": {
+					"question": "Мы уже обсудили этот вопрос.",
+					"explanation": "Present Perfect с already для завершённого действия."
+				}
+			}
 		},
 		{
-			"question": "Он забыл принести документы.",
 			"answer": "He has forgotten to bring the documents.",
-			"explanation": "Present Perfect для прошлого действия с актуальным результатом."
+			"translations": {
+				"ru": {
+					"question": "Он забыл принести документы.",
+					"explanation": "Present Perfect для прошлого действия с актуальным результатом."
+				}
+			}
 		},
 		{
-			"question": "Она уже убрала квартиру.",
 			"answer": "She has already cleaned the flat.",
-			"explanation": "Present Perfect с already. Квартира убрана — результат актуален."
+			"translations": {
+				"ru": {
+					"question": "Она уже убрала квартиру.",
+					"explanation": "Present Perfect с already. Квартира убрана — результат актуален."
+				}
+			}
 		},
 		{
-			"question": "Ты уже занял место?",
 			"answer": "Have you taken your seat yet?",
-			"explanation": "Вопрос в Present Perfect с yet."
+			"translations": {
+				"ru": {
+					"question": "Ты уже занял место?",
+					"explanation": "Вопрос в Present Perfect с yet."
+				}
+			}
 		},
 		{
-			"question": "Они закрыли ресторан.",
 			"answer": "They have closed the restaurant.",
-			"explanation": "Present Perfect для изменения ситуации, актуального в настоящем."
+			"translations": {
+				"ru": {
+					"question": "Они закрыли ресторан.",
+					"explanation": "Present Perfect для изменения ситуации, актуального в настоящем."
+				}
+			}
 		},
 		{
-			"question": "Я уже написал отчёт.",
 			"answer": "I have already written the report.",
-			"explanation": "Present Perfect с already. Неправильный глагол write → written."
+			"translations": {
+				"ru": {
+					"question": "Я уже написал отчёт.",
+					"explanation": "Present Perfect с already. Неправильный глагол write → written."
+				}
+			}
 		},
 		{
-			"question": "Он никогда не брал кредит.",
 			"answer": "He has never taken out a loan.",
-			"explanation": "Present Perfect с never для отрицательного жизненного опыта."
+			"translations": {
+				"ru": {
+					"question": "Он никогда не брал кредит.",
+					"explanation": "Present Perfect с never для отрицательного жизненного опыта."
+				}
+			}
 		},
 		{
-			"question": "Мы ещё не решили, куда ехать.",
 			"answer": "We haven't decided where to go yet.",
-			"explanation": "Present Perfect с yet в отрицании."
+			"translations": {
+				"ru": {
+					"question": "Мы ещё не решили, куда ехать.",
+					"explanation": "Present Perfect с yet в отрицании."
+				}
+			}
 		},
 		{
-			"question": "Она только что позвонила.",
 			"answer": "She has just called.",
-			"explanation": "Present Perfect с just для только что завершённого действия."
+			"translations": {
+				"ru": {
+					"question": "Она только что позвонила.",
+					"explanation": "Present Perfect с just для только что завершённого действия."
+				}
+			}
 		},
 		{
-			"question": "Ты когда-нибудь видел полярное сияние?",
 			"answer": "Have you ever seen the northern lights?",
-			"explanation": "Вопрос в Present Perfect с ever о жизненном опыте."
+			"translations": {
+				"ru": {
+					"question": "Ты когда-нибудь видел полярное сияние?",
+					"explanation": "Вопрос в Present Perfect с ever о жизненном опыте."
+				}
+			}
 		},
 		{
-			"question": "Он уже вернулся из командировки.",
 			"answer": "He has already returned from his business trip.",
-			"explanation": "Present Perfect с already для завершённого действия."
+			"translations": {
+				"ru": {
+					"question": "Он уже вернулся из командировки.",
+					"explanation": "Present Perfect с already для завершённого действия."
+				}
+			}
 		},
 		{
-			"question": "Она не ела весь день.",
 			"answer": "She hasn't eaten all day.",
-			"explanation": "Present Perfect в отрицании для действия, длящегося с утра."
+			"translations": {
+				"ru": {
+					"question": "Она не ела весь день.",
+					"explanation": "Present Perfect в отрицании для действия, длящегося с утра."
+				}
+			}
 		},
 		{
-			"question": "Я уже видел эту пьесу.",
 			"answer": "I have already seen this play.",
-			"explanation": "Present Perfect с already для жизненного опыта."
+			"translations": {
+				"ru": {
+					"question": "Я уже видел эту пьесу.",
+					"explanation": "Present Perfect с already для жизненного опыта."
+				}
+			}
 		},
 		{
-			"question": "Мы уже поздравили её.",
 			"answer": "We have already congratulated her.",
-			"explanation": "Present Perfect с already для завершённого действия."
+			"translations": {
+				"ru": {
+					"question": "Мы уже поздравили её.",
+					"explanation": "Present Perfect с already для завершённого действия."
+				}
+			}
 		},
 		{
-			"question": "Он не позвонил нам.",
 			"answer": "He hasn't called us.",
-			"explanation": "Отрицание в Present Perfect без дополнительных маркеров."
+			"translations": {
+				"ru": {
+					"question": "Он не позвонил нам.",
+					"explanation": "Отрицание в Present Perfect без дополнительных маркеров."
+				}
+			}
 		},
 		{
-			"question": "Ты уже сказал ему?",
 			"answer": "Have you told him yet?",
-			"explanation": "Вопрос в Present Perfect с yet. Неправильный глагол tell → told."
+			"translations": {
+				"ru": {
+					"question": "Ты уже сказал ему?",
+					"explanation": "Вопрос в Present Perfect с yet. Неправильный глагол tell → told."
+				}
+			}
 		},
 		{
-			"question": "Она выиграла конкурс.",
 			"answer": "She has won the competition.",
-			"explanation": "Present Perfect для прошлого достижения с актуальным результатом."
+			"translations": {
+				"ru": {
+					"question": "Она выиграла конкурс.",
+					"explanation": "Present Perfect для прошлого достижения с актуальным результатом."
+				}
+			}
 		},
 		{
-			"question": "Я только что увидел его.",
 			"answer": "I have just seen him.",
-			"explanation": "Present Perfect с just. Неправильный глагол see → seen."
+			"translations": {
+				"ru": {
+					"question": "Я только что увидел его.",
+					"explanation": "Present Perfect с just. Неправильный глагол see → seen."
+				}
+			}
 		},
 		{
-			"question": "Они ещё не начали ремонт.",
 			"answer": "They haven't started the renovation yet.",
-			"explanation": "Present Perfect с yet в отрицании."
+			"translations": {
+				"ru": {
+					"question": "Они ещё не начали ремонт.",
+					"explanation": "Present Perfect с yet в отрицании."
+				}
+			}
 		},
 		{
-			"question": "Он никогда не опаздывал на работу.",
 			"answer": "He has never been late for work.",
-			"explanation": "Present Perfect с never для постоянного поведения вплоть до настоящего."
+			"translations": {
+				"ru": {
+					"question": "Он никогда не опаздывал на работу.",
+					"explanation": "Present Perfect с never для постоянного поведения вплоть до настоящего."
+				}
+			}
 		},
 		{
-			"question": "Мы уже побывали в этом ресторане.",
 			"answer": "We have already been to this restaurant.",
-			"explanation": "Present Perfect с already для жизненного опыта."
+			"translations": {
+				"ru": {
+					"question": "Мы уже побывали в этом ресторане.",
+					"explanation": "Present Perfect с already для жизненного опыта."
+				}
+			}
 		},
 		{
-			"question": "Она только что получила повышение.",
 			"answer": "She has just received a promotion.",
-			"explanation": "Present Perfect с just для только что произошедшего события."
+			"translations": {
+				"ru": {
+					"question": "Она только что получила повышение.",
+					"explanation": "Present Perfect с just для только что произошедшего события."
+				}
+			}
 		},
 		{
-			"question": "Ты уже принял решение?",
 			"answer": "Have you made a decision yet?",
-			"explanation": "Вопрос в Present Perfect с yet."
+			"translations": {
+				"ru": {
+					"question": "Ты уже принял решение?",
+					"explanation": "Вопрос в Present Perfect с yet."
+				}
+			}
 		},
 		{
-			"question": "Он уже прошёл медосмотр.",
 			"answer": "He has already had a medical examination.",
-			"explanation": "Present Perfect с already для завершённого действия."
+			"translations": {
+				"ru": {
+					"question": "Он уже прошёл медосмотр.",
+					"explanation": "Present Perfect с already для завершённого действия."
+				}
+			}
 		},
 		{
-			"question": "Я потратил все деньги.",
 			"answer": "I have spent all the money.",
-			"explanation": "Present Perfect для прошлого действия с актуальным результатом. Неправильный глагол spend → spent."
+			"translations": {
+				"ru": {
+					"question": "Я потратил все деньги.",
+					"explanation": "Present Perfect для прошлого действия с актуальным результатом. Неправильный глагол spend → spent."
+				}
+			}
 		},
 		{
-			"question": "Она никогда не курила.",
 			"answer": "She has never smoked.",
-			"explanation": "Present Perfect с never для отрицательного жизненного опыта."
+			"translations": {
+				"ru": {
+					"question": "Она никогда не курила.",
+					"explanation": "Present Perfect с never для отрицательного жизненного опыта."
+				}
+			}
 		},
 		{
-			"question": "Мы только что вернулись с прогулки.",
 			"answer": "We have just come back from a walk.",
-			"explanation": "Present Perfect с just для только что завершённого действия."
+			"translations": {
+				"ru": {
+					"question": "Мы только что вернулись с прогулки.",
+					"explanation": "Present Perfect с just для только что завершённого действия."
+				}
+			}
 		},
 		{
-			"question": "Он уже выучил все слова.",
 			"answer": "He has already learnt all the words.",
-			"explanation": "Present Perfect с already для завершённого действия."
+			"translations": {
+				"ru": {
+					"question": "Он уже выучил все слова.",
+					"explanation": "Present Perfect с already для завершённого действия."
+				}
+			}
 		},
 		{
-			"question": "Ты когда-нибудь ездил в Индию?",
 			"answer": "Have you ever been to India?",
-			"explanation": "Вопрос в Present Perfect с ever о жизненном опыте."
+			"translations": {
+				"ru": {
+					"question": "Ты когда-нибудь ездил в Индию?",
+					"explanation": "Вопрос в Present Perfect с ever о жизненном опыте."
+				}
+			}
 		},
 		{
-			"question": "Она ещё не сделала покупки.",
 			"answer": "She hasn't done the shopping yet.",
-			"explanation": "Present Perfect с yet в отрицании."
+			"translations": {
+				"ru": {
+					"question": "Она ещё не сделала покупки.",
+					"explanation": "Present Perfect с yet в отрицании."
+				}
+			}
 		},
 		{
-			"question": "Я только что получил письмо.",
 			"answer": "I have just received a letter.",
-			"explanation": "Present Perfect с just для только что произошедшего события."
+			"translations": {
+				"ru": {
+					"question": "Я только что получил письмо.",
+					"explanation": "Present Perfect с just для только что произошедшего события."
+				}
+			}
 		},
 		{
-			"question": "Они уже поели.",
 			"answer": "They have already eaten.",
-			"explanation": "Present Perfect с already для завершённого действия. Неправильный глагол eat → eaten."
+			"translations": {
+				"ru": {
+					"question": "Они уже поели.",
+					"explanation": "Present Perfect с already для завершённого действия. Неправильный глагол eat → eaten."
+				}
+			}
 		},
 		{
-			"question": "Он упал и сломал руку.",
 			"answer": "He has fallen and broken his arm.",
-			"explanation": "Present Perfect для прошлого действия с видимым результатом в настоящем."
+			"translations": {
+				"ru": {
+					"question": "Он упал и сломал руку.",
+					"explanation": "Present Perfect для прошлого действия с видимым результатом в настоящем."
+				}
+			}
 		},
 		{
-			"question": "Мы ещё не получили ответа.",
 			"answer": "We haven't received an answer yet.",
-			"explanation": "Present Perfect с yet в отрицании."
+			"translations": {
+				"ru": {
+					"question": "Мы ещё не получили ответа.",
+					"explanation": "Present Perfect с yet в отрицании."
+				}
+			}
 		},
 		{
-			"question": "Она уже заплатила аренду.",
 			"answer": "She has already paid the rent.",
-			"explanation": "Present Perfect с already. Неправильный глагол pay → paid."
+			"translations": {
+				"ru": {
+					"question": "Она уже заплатила аренду.",
+					"explanation": "Present Perfect с already. Неправильный глагол pay → paid."
+				}
+			}
 		},
 		{
-			"question": "Ты уже прочитал статью?",
 			"answer": "Have you read the article yet?",
-			"explanation": "Вопрос в Present Perfect с yet. Неправильный глагол read → read."
+			"translations": {
+				"ru": {
+					"question": "Ты уже прочитал статью?",
+					"explanation": "Вопрос в Present Perfect с yet. Неправильный глагол read → read."
+				}
+			}
 		},
 		{
-			"question": "Он никогда не жил один.",
 			"answer": "He has never lived alone.",
-			"explanation": "Present Perfect с never для отрицательного жизненного опыта."
+			"translations": {
+				"ru": {
+					"question": "Он никогда не жил один.",
+					"explanation": "Present Perfect с never для отрицательного жизненного опыта."
+				}
+			}
 		},
 		{
-			"question": "Я только что понял это.",
 			"answer": "I have just realised this.",
-			"explanation": "Present Perfect с just для только что произошедшего осознания."
+			"translations": {
+				"ru": {
+					"question": "Я только что понял это.",
+					"explanation": "Present Perfect с just для только что произошедшего осознания."
+				}
+			}
 		},
 		{
-			"question": "Они уже приняли решение.",
 			"answer": "They have already made a decision.",
-			"explanation": "Present Perfect с already для завершённого действия."
+			"translations": {
+				"ru": {
+					"question": "Они уже приняли решение.",
+					"explanation": "Present Perfect с already для завершённого действия."
+				}
+			}
 		},
 		{
-			"question": "Она не звонила нам.",
 			"answer": "She hasn't called us.",
-			"explanation": "Отрицание в Present Perfect без дополнительных маркеров."
+			"translations": {
+				"ru": {
+					"question": "Она не звонила нам.",
+					"explanation": "Отрицание в Present Perfect без дополнительных маркеров."
+				}
+			}
 		},
 		{
-			"question": "Мы уже посетили этот музей.",
 			"answer": "We have already visited this museum.",
-			"explanation": "Present Perfect с already для жизненного опыта."
+			"translations": {
+				"ru": {
+					"question": "Мы уже посетили этот музей.",
+					"explanation": "Present Perfect с already для жизненного опыта."
+				}
+			}
 		},
 		{
-			"question": "Он только что пришёл домой.",
 			"answer": "He has just come home.",
-			"explanation": "Present Perfect с just. Неправильный глагол come → come."
+			"translations": {
+				"ru": {
+					"question": "Он только что пришёл домой.",
+					"explanation": "Present Perfect с just. Неправильный глагол come → come."
+				}
+			}
 		},
 		{
-			"question": "Ты уже забронировал столик?",
 			"answer": "Have you booked a table yet?",
-			"explanation": "Вопрос в Present Perfect с yet."
+			"translations": {
+				"ru": {
+					"question": "Ты уже забронировал столик?",
+					"explanation": "Вопрос в Present Perfect с yet."
+				}
+			}
 		},
 		{
-			"question": "Она уже выбрала платье.",
 			"answer": "She has already chosen a dress.",
-			"explanation": "Present Perfect с already. Неправильный глагол choose → chosen."
+			"translations": {
+				"ru": {
+					"question": "Она уже выбрала платье.",
+					"explanation": "Present Perfect с already. Неправильный глагол choose → chosen."
+				}
+			}
 		},
 		{
-			"question": "Я сделал всё, что мог.",
 			"answer": "I have done everything I could.",
-			"explanation": "Present Perfect для завершённого действия."
+			"translations": {
+				"ru": {
+					"question": "Я сделал всё, что мог.",
+					"explanation": "Present Perfect для завершённого действия."
+				}
+			}
 		},
 		{
-			"question": "Он уже продал машину.",
 			"answer": "He has already sold the car.",
-			"explanation": "Present Perfect с already. Неправильный глагол sell → sold."
+			"translations": {
+				"ru": {
+					"question": "Он уже продал машину.",
+					"explanation": "Present Perfect с already. Неправильный глагол sell → sold."
+				}
+			}
 		},
 		{
-			"question": "Мы уже сдали документы.",
 			"answer": "We have already submitted the documents.",
-			"explanation": "Present Perfect с already для завершённого действия."
+			"translations": {
+				"ru": {
+					"question": "Мы уже сдали документы.",
+					"explanation": "Present Perfect с already для завершённого действия."
+				}
+			}
 		},
 		{
-			"question": "Она только что узнала об этом.",
 			"answer": "She has just found out about this.",
-			"explanation": "Present Perfect с just для только что произошедшего события."
+			"translations": {
+				"ru": {
+					"question": "Она только что узнала об этом.",
+					"explanation": "Present Perfect с just для только что произошедшего события."
+				}
+			}
 		},
 		{
-			"question": "Ты когда-нибудь участвовал в марафоне?",
 			"answer": "Have you ever run a marathon?",
-			"explanation": "Present Perfect с ever для вопроса о жизненном опыте."
+			"translations": {
+				"ru": {
+					"question": "Ты когда-нибудь участвовал в марафоне?",
+					"explanation": "Present Perfect с ever для вопроса о жизненном опыте."
+				}
+			}
 		},
 		{
-			"question": "Он ещё не подписал договор.",
 			"answer": "He hasn't signed the contract yet.",
-			"explanation": "Present Perfect с yet в отрицании."
+			"translations": {
+				"ru": {
+					"question": "Он ещё не подписал договор.",
+					"explanation": "Present Perfect с yet в отрицании."
+				}
+			}
 		},
 		{
-			"question": "Я уже отправил заявку.",
 			"answer": "I have already sent the application.",
-			"explanation": "Present Perfect с already. Неправильный глагол send → sent."
+			"translations": {
+				"ru": {
+					"question": "Я уже отправил заявку.",
+					"explanation": "Present Perfect с already. Неправильный глагол send → sent."
+				}
+			}
 		},
 		{
-			"question": "Они уже поздравили новорождённого.",
 			"answer": "They have already congratulated the newborn.",
-			"explanation": "Present Perfect с already для завершённого действия."
+			"translations": {
+				"ru": {
+					"question": "Они уже поздравили новорождённого.",
+					"explanation": "Present Perfect с already для завершённого действия."
+				}
+			}
 		},
 		{
-			"question": "Она никогда не теряла надежды.",
 			"answer": "She has never lost hope.",
-			"explanation": "Present Perfect с never для постоянного поведения."
+			"translations": {
+				"ru": {
+					"question": "Она никогда не теряла надежды.",
+					"explanation": "Present Perfect с never для постоянного поведения."
+				}
+			}
 		},
 		{
-			"question": "Мы только что закончили урок.",
 			"answer": "We have just finished the lesson.",
-			"explanation": "Present Perfect с just для только что завершённого события."
+			"translations": {
+				"ru": {
+					"question": "Мы только что закончили урок.",
+					"explanation": "Present Perfect с just для только что завершённого события."
+				}
+			}
 		},
 		{
-			"question": "Он уже заплатил за ужин.",
 			"answer": "He has already paid for dinner.",
-			"explanation": "Present Perfect с already. Действие завершено — результат актуален."
+			"translations": {
+				"ru": {
+					"question": "Он уже заплатил за ужин.",
+					"explanation": "Present Perfect с already. Действие завершено — результат актуален."
+				}
+			}
 		},
 		{
-			"question": "Ты уже поговорил с ним?",
 			"answer": "Have you spoken to him yet?",
-			"explanation": "Вопрос в Present Perfect с yet. Неправильный глагол speak → spoken."
+			"translations": {
+				"ru": {
+					"question": "Ты уже поговорил с ним?",
+					"explanation": "Вопрос в Present Perfect с yet. Неправильный глагол speak → spoken."
+				}
+			}
 		},
 		{
-			"question": "Она уже вернула книгу.",
 			"answer": "She has already returned the book.",
-			"explanation": "Present Perfect с already для завершённого действия."
+			"translations": {
+				"ru": {
+					"question": "Она уже вернула книгу.",
+					"explanation": "Present Perfect с already для завершённого действия."
+				}
+			}
 		},
 		{
-			"question": "Я никогда не пробовал веганскую еду.",
 			"answer": "I have never tried vegan food.",
-			"explanation": "Present Perfect с never для отрицательного жизненного опыта."
+			"translations": {
+				"ru": {
+					"question": "Я никогда не пробовал веганскую еду.",
+					"explanation": "Present Perfect с never для отрицательного жизненного опыта."
+				}
+			}
 		},
 		{
-			"question": "Он только что принял ванну.",
 			"answer": "He has just had a bath.",
-			"explanation": "Present Perfect с just для только что завершённого действия."
+			"translations": {
+				"ru": {
+					"question": "Он только что принял ванну.",
+					"explanation": "Present Perfect с just для только что завершённого действия."
+				}
+			}
 		},
 		{
-			"question": "Мы уже получили посылку.",
 			"answer": "We have already received the parcel.",
-			"explanation": "Present Perfect с already. Посылка получена — результат актуален."
+			"translations": {
+				"ru": {
+					"question": "Мы уже получили посылку.",
+					"explanation": "Present Perfect с already. Посылка получена — результат актуален."
+				}
+			}
 		},
 		{
-			"question": "Она уже накрыла на стол.",
 			"answer": "She has already set the table.",
-			"explanation": "Present Perfect с already. Неправильный глагол set → set."
+			"translations": {
+				"ru": {
+					"question": "Она уже накрыла на стол.",
+					"explanation": "Present Perfect с already. Неправильный глагол set → set."
+				}
+			}
 		},
 		{
-			"question": "Они ещё не закончили работу.",
 			"answer": "They haven't finished the work yet.",
-			"explanation": "Present Perfect с yet в отрицании."
+			"translations": {
+				"ru": {
+					"question": "Они ещё не закончили работу.",
+					"explanation": "Present Perfect с yet в отрицании."
+				}
+			}
 		},
 		{
-			"question": "Ты когда-нибудь выигрывал приз?",
 			"answer": "Have you ever won a prize?",
-			"explanation": "Вопрос в Present Perfect с ever. Неправильный глагол win → won."
+			"translations": {
+				"ru": {
+					"question": "Ты когда-нибудь выигрывал приз?",
+					"explanation": "Вопрос в Present Perfect с ever. Неправильный глагол win → won."
+				}
+			}
 		},
 		{
-			"question": "Я уже видел этого актёра.",
 			"answer": "I have already seen this actor.",
-			"explanation": "Present Perfect с already для жизненного опыта."
+			"translations": {
+				"ru": {
+					"question": "Я уже видел этого актёра.",
+					"explanation": "Present Perfect с already для жизненного опыта."
+				}
+			}
 		},
 		{
-			"question": "Он не пришёл на встречу.",
 			"answer": "He hasn't come to the meeting.",
-			"explanation": "Отрицание в Present Perfect без дополнительных маркеров."
+			"translations": {
+				"ru": {
+					"question": "Он не пришёл на встречу.",
+					"explanation": "Отрицание в Present Perfect без дополнительных маркеров."
+				}
+			}
 		},
 		{
-			"question": "Мы только что поняли свою ошибку.",
 			"answer": "We have just realised our mistake.",
-			"explanation": "Present Perfect с just для только что произошедшего осознания."
+			"translations": {
+				"ru": {
+					"question": "Мы только что поняли свою ошибку.",
+					"explanation": "Present Perfect с just для только что произошедшего осознания."
+				}
+			}
 		},
 		{
-			"question": "Она уже сдала экзамен.",
 			"answer": "She has already passed the exam.",
-			"explanation": "Present Perfect с already для завершённого достижения."
+			"translations": {
+				"ru": {
+					"question": "Она уже сдала экзамен.",
+					"explanation": "Present Perfect с already для завершённого достижения."
+				}
+			}
 		},
 		{
-			"question": "Ты уже попробовал это блюдо?",
 			"answer": "Have you tried this dish yet?",
-			"explanation": "Вопрос в Present Perfect с yet о завершённости действия."
+			"translations": {
+				"ru": {
+					"question": "Ты уже попробовал это блюдо?",
+					"explanation": "Вопрос в Present Perfect с yet о завершённости действия."
+				}
+			}
 		},
 		{
-			"question": "Он уже сообщил о результатах.",
 			"answer": "He has already reported the results.",
-			"explanation": "Present Perfect с already для завершённого действия."
+			"translations": {
+				"ru": {
+					"question": "Он уже сообщил о результатах.",
+					"explanation": "Present Perfect с already для завершённого действия."
+				}
+			}
 		},
 		{
-			"question": "Я только что переслал письмо.",
 			"answer": "I have just forwarded the email.",
-			"explanation": "Present Perfect с just для только что завершённого действия."
+			"translations": {
+				"ru": {
+					"question": "Я только что переслал письмо.",
+					"explanation": "Present Perfect с just для только что завершённого действия."
+				}
+			}
 		},
 		{
-			"question": "Они уже внесли изменения.",
 			"answer": "They have already made the changes.",
-			"explanation": "Present Perfect с already. Изменения внесены — результат актуален."
+			"translations": {
+				"ru": {
+					"question": "Они уже внесли изменения.",
+					"explanation": "Present Perfect с already. Изменения внесены — результат актуален."
+				}
+			}
 		},
 		{
-			"question": "Она ещё не ответила.",
 			"answer": "She hasn't replied yet.",
-			"explanation": "Present Perfect с yet в отрицании."
+			"translations": {
+				"ru": {
+					"question": "Она ещё не ответила.",
+					"explanation": "Present Perfect с yet в отрицании."
+				}
+			}
 		},
 		{
-			"question": "Мы уже договорились о встрече.",
 			"answer": "We have already arranged a meeting.",
-			"explanation": "Present Perfect с already для завершённого действия."
+			"translations": {
+				"ru": {
+					"question": "Мы уже договорились о встрече.",
+					"explanation": "Present Perfect с already для завершённого действия."
+				}
+			}
 		},
 		{
-			"question": "Он никогда не отказывался от помощи.",
 			"answer": "He has never refused help.",
-			"explanation": "Present Perfect с never для постоянного поведения."
+			"translations": {
+				"ru": {
+					"question": "Он никогда не отказывался от помощи.",
+					"explanation": "Present Perfect с never для постоянного поведения."
+				}
+			}
 		},
 		{
-			"question": "Ты уже проверил почту?",
 			"answer": "Have you checked your email yet?",
-			"explanation": "Вопрос в Present Perfect с yet."
+			"translations": {
+				"ru": {
+					"question": "Ты уже проверил почту?",
+					"explanation": "Вопрос в Present Perfect с yet."
+				}
+			}
 		},
 		{
-			"question": "Она только что прочитала сообщение.",
 			"answer": "She has just read the message.",
-			"explanation": "Present Perfect с just. Неправильный глагол read → read."
+			"translations": {
+				"ru": {
+					"question": "Она только что прочитала сообщение.",
+					"explanation": "Present Perfect с just. Неправильный глагол read → read."
+				}
+			}
 		},
 		{
-			"question": "Я уже купил подарок.",
 			"answer": "I have already bought a present.",
-			"explanation": "Present Perfect с already. Неправильный глагол buy → bought."
+			"translations": {
+				"ru": {
+					"question": "Я уже купил подарок.",
+					"explanation": "Present Perfect с already. Неправильный глагол buy → bought."
+				}
+			}
 		},
 		{
-			"question": "Они только что объявили результаты.",
 			"answer": "They have just announced the results.",
-			"explanation": "Present Perfect с just для только что произошедшего события."
+			"translations": {
+				"ru": {
+					"question": "Они только что объявили результаты.",
+					"explanation": "Present Perfect с just для только что произошедшего события."
+				}
+			}
 		},
 		{
-			"question": "Он ещё не ответил на мой вопрос.",
 			"answer": "He hasn't answered my question yet.",
-			"explanation": "Present Perfect с yet в отрицании."
+			"translations": {
+				"ru": {
+					"question": "Он ещё не ответил на мой вопрос.",
+					"explanation": "Present Perfect с yet в отрицании."
+				}
+			}
 		},
 		{
-			"question": "Мы уже закончили переговоры.",
 			"answer": "We have already finished the negotiations.",
-			"explanation": "Present Perfect с already для завершённого действия."
+			"translations": {
+				"ru": {
+					"question": "Мы уже закончили переговоры.",
+					"explanation": "Present Perfect с already для завершённого действия."
+				}
+			}
 		},
 		{
-			"question": "Она нашла новую работу.",
 			"answer": "She has found a new job.",
-			"explanation": "Present Perfect для прошлого события с актуальным результатом."
+			"translations": {
+				"ru": {
+					"question": "Она нашла новую работу.",
+					"explanation": "Present Perfect для прошлого события с актуальным результатом."
+				}
+			}
 		},
 		{
-			"question": "Ты когда-нибудь писал стихи?",
 			"answer": "Have you ever written a poem?",
-			"explanation": "Вопрос в Present Perfect с ever о жизненном опыте."
+			"translations": {
+				"ru": {
+					"question": "Ты когда-нибудь писал стихи?",
+					"explanation": "Вопрос в Present Perfect с ever о жизненном опыте."
+				}
+			}
 		},
 		{
-			"question": "Я ни разу не был на этом острове.",
 			"answer": "I have never been to this island.",
-			"explanation": "Present Perfect с never для отрицательного жизненного опыта."
+			"translations": {
+				"ru": {
+					"question": "Я ни разу не был на этом острове.",
+					"explanation": "Present Perfect с never для отрицательного жизненного опыта."
+				}
+			}
 		},
 		{
-			"question": "Он уже исправил ошибку.",
 			"answer": "He has already corrected the mistake.",
-			"explanation": "Present Perfect с already для завершённого действия."
+			"translations": {
+				"ru": {
+					"question": "Он уже исправил ошибку.",
+					"explanation": "Present Perfect с already для завершённого действия."
+				}
+			}
 		},
 		{
-			"question": "Мы только что приземлились.",
 			"answer": "We have just landed.",
-			"explanation": "Present Perfect с just для только что завершённого события."
+			"translations": {
+				"ru": {
+					"question": "Мы только что приземлились.",
+					"explanation": "Present Perfect с just для только что завершённого события."
+				}
+			}
 		},
 		{
-			"question": "Она уже поставила задачи команде.",
 			"answer": "She has already set tasks for the team.",
-			"explanation": "Present Perfect с already. Неправильный глагол set → set."
+			"translations": {
+				"ru": {
+					"question": "Она уже поставила задачи команде.",
+					"explanation": "Present Perfect с already. Неправильный глагол set → set."
+				}
+			}
 		},
 		{
-			"question": "Ты уже распечатал документы?",
 			"answer": "Have you printed the documents yet?",
-			"explanation": "Вопрос в Present Perfect с yet."
+			"translations": {
+				"ru": {
+					"question": "Ты уже распечатал документы?",
+					"explanation": "Вопрос в Present Perfect с yet."
+				}
+			}
 		},
 		{
-			"question": "Они всё ещё не получили визу.",
 			"answer": "They still haven't received their visa.",
-			"explanation": "Present Perfect с still haven't для акцента на неожиданной незавершённости."
+			"translations": {
+				"ru": {
+					"question": "Они всё ещё не получили визу.",
+					"explanation": "Present Perfect с still haven't для акцента на неожиданной незавершённости."
+				}
+			}
 		},
 		{
-			"question": "Он успешно защитил диссертацию.",
 			"answer": "He has successfully defended his dissertation.",
-			"explanation": "Present Perfect для прошлого достижения, актуального в настоящем."
+			"translations": {
+				"ru": {
+					"question": "Он успешно защитил диссертацию.",
+					"explanation": "Present Perfect для прошлого достижения, актуального в настоящем."
+				}
+			}
 		},
 		{
-			"question": "Я уже посмотрел все серии.",
 			"answer": "I have already watched all the episodes.",
-			"explanation": "Present Perfect с already для завершённого действия."
+			"translations": {
+				"ru": {
+					"question": "Я уже посмотрел все серии.",
+					"explanation": "Present Perfect с already для завершённого действия."
+				}
+			}
 		},
 		{
-			"question": "Она только что сказала мне кое-что важное.",
 			"answer": "She has just told me something important.",
-			"explanation": "Present Perfect с just. Неправильный глагол tell → told."
+			"translations": {
+				"ru": {
+					"question": "Она только что сказала мне кое-что важное.",
+					"explanation": "Present Perfect с just. Неправильный глагол tell → told."
+				}
+			}
 		}
 	]
 }
