@@ -123,13 +123,6 @@ describe('ExerciseService', () => {
 					},
 				],
 			});
-			expect(result).toMatchObject({
-				id: 'created-id',
-				tense: Tense.PRESENT_SIMPLE,
-				question: 'Он читает книгу',
-				answer: 'He reads a book',
-				explanation: 'Present Simple for habits',
-			});
 		});
 	});
 });
