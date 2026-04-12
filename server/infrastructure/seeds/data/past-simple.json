@@ -7,6 +7,18 @@
 				"ru": {
 					"question": "Вчера я пошёл в кино.",
 					"explanation": "Past Simple: завершённое действие в прошлом. 'Yesterday' — маркер прошедшего времени."
+				},
+				"fr": {
+					"question": "Hier, je suis allé au cinéma.",
+					"explanation": "Passé simple : action accomplie dans le passé. « Yesterday » — marqueur du temps passé."
+				},
+				"de": {
+					"question": "Gestern bin ich ins Kino gegangen.",
+					"explanation": "Simple Past: abgeschlossene Handlung in der Vergangenheit. 'Yesterday' — Zeitmarker für die Vergangenheit."
+				},
+				"es": {
+					"question": "Ayer fui al cine.",
+					"explanation": "Pasado simple: acción completada en el pasado. 'Yesterday' — marcador de tiempo pasado."
 				}
 			}
 		},
@@ -16,6 +28,18 @@
 				"ru": {
 					"question": "Она написала письмо час назад.",
 					"explanation": "Past Simple: завершённое действие. 'An hour ago' указывает на конкретный момент в прошлом."
+				},
+				"fr": {
+					"question": "Elle a écrit une lettre il y a une heure.",
+					"explanation": "Passé simple : action accomplie. « An hour ago » — moment précis dans le passé."
+				},
+				"de": {
+					"question": "Sie schrieb vor einer Stunde einen Brief.",
+					"explanation": "Simple Past: abgeschlossene Handlung. 'An hour ago' — konkreter Moment in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella escribió una carta hace una hora.",
+					"explanation": "Pasado simple: acción completada. 'An hour ago' — momento concreto en el pasado."
 				}
 			}
 		},
@@ -25,6 +49,18 @@
 				"ru": {
 					"question": "Мы познакомились в прошлом году.",
 					"explanation": "Past Simple: однократное событие в прошлом. 'Last year' — маркер прошедшего."
+				},
+				"fr": {
+					"question": "Nous nous sommes rencontrés l'année dernière.",
+					"explanation": "Passé simple : événement unique dans le passé. « Last year » — marqueur du passé."
+				},
+				"de": {
+					"question": "Wir haben uns letztes Jahr kennengelernt.",
+					"explanation": "Simple Past: einmaliges Ereignis in der Vergangenheit. 'Last year' — Zeitmarker."
+				},
+				"es": {
+					"question": "Nos conocimos el año pasado.",
+					"explanation": "Pasado simple: evento único en el pasado. 'Last year' — marcador de tiempo pasado."
 				}
 			}
 		},
@@ -34,6 +70,18 @@
 				"ru": {
 					"question": "Он купил новый телефон на прошлой неделе.",
 					"explanation": "Past Simple: завершённое действие. 'Last week' — конкретный период в прошлом."
+				},
+				"fr": {
+					"question": "Il a acheté un nouveau téléphone la semaine dernière.",
+					"explanation": "Passé simple : action accomplie. « Last week » — période précise dans le passé."
+				},
+				"de": {
+					"question": "Er kaufte letzte Woche ein neues Telefon.",
+					"explanation": "Simple Past: abgeschlossene Handlung. 'Last week' — konkreter Zeitraum in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él compró un teléfono nuevo la semana pasada.",
+					"explanation": "Pasado simple: acción completada. 'Last week' — período concreto en el pasado."
 				}
 			}
 		},
@@ -43,6 +91,18 @@
 				"ru": {
 					"question": "Она позвонила мне вчера вечером.",
 					"explanation": "Past Simple: конкретное действие в прошлом."
+				},
+				"fr": {
+					"question": "Elle m'a appelé hier soir.",
+					"explanation": "Passé simple : action concrète dans le passé."
+				},
+				"de": {
+					"question": "Sie rief mich gestern Abend an.",
+					"explanation": "Simple Past: konkrete Handlung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella me llamó ayer por la tarde.",
+					"explanation": "Pasado simple: acción concreta en el pasado."
 				}
 			}
 		},
@@ -52,6 +112,18 @@
 				"ru": {
 					"question": "Мы поехали на море прошлым летом.",
 					"explanation": "Past Simple: завершённое событие, происходившее прошлым летом."
+				},
+				"fr": {
+					"question": "Nous sommes allés au bord de la mer l'été dernier.",
+					"explanation": "Passé simple : événement accompli l'été dernier."
+				},
+				"de": {
+					"question": "Wir fuhren letzten Sommer ans Meer.",
+					"explanation": "Simple Past: abgeschlossenes Ereignis im letzten Sommer."
+				},
+				"es": {
+					"question": "Fuimos al mar el verano pasado.",
+					"explanation": "Pasado simple: evento completado el verano pasado."
 				}
 			}
 		},
@@ -61,6 +133,18 @@
 				"ru": {
 					"question": "Я закончил проект в пятницу.",
 					"explanation": "Past Simple: действие завершилось в пятницу."
+				},
+				"fr": {
+					"question": "J'ai terminé le projet vendredi.",
+					"explanation": "Passé simple : action terminée vendredi."
+				},
+				"de": {
+					"question": "Ich habe das Projekt am Freitag fertiggestellt.",
+					"explanation": "Simple Past: Handlung am Freitag abgeschlossen."
+				},
+				"es": {
+					"question": "Terminé el proyecto el viernes.",
+					"explanation": "Pasado simple: acción completada el viernes."
 				}
 			}
 		},
@@ -70,6 +154,18 @@
 				"ru": {
 					"question": "Они переехали в новый дом два года назад.",
 					"explanation": "Past Simple: событие, произошедшее два года назад."
+				},
+				"fr": {
+					"question": "Ils ont déménagé dans une nouvelle maison il y a deux ans.",
+					"explanation": "Passé simple : événement survenu il y a deux ans."
+				},
+				"de": {
+					"question": "Sie zogen vor zwei Jahren in ein neues Haus.",
+					"explanation": "Simple Past: Ereignis, das vor zwei Jahren stattfand."
+				},
+				"es": {
+					"question": "Se mudaron a una casa nueva hace dos años.",
+					"explanation": "Pasado simple: evento ocurrido hace dos años."
 				}
 			}
 		},
@@ -79,6 +175,18 @@
 				"ru": {
 					"question": "Он выиграл гонку в прошлом месяце.",
 					"explanation": "Past Simple: победа в прошлом месяце."
+				},
+				"fr": {
+					"question": "Il a gagné la course le mois dernier.",
+					"explanation": "Passé simple : victoire le mois dernier."
+				},
+				"de": {
+					"question": "Er gewann letzten Monat das Rennen.",
+					"explanation": "Simple Past: Sieg im letzten Monat."
+				},
+				"es": {
+					"question": "Él ganó la carrera el mes pasado.",
+					"explanation": "Pasado simple: victoria el mes pasado."
 				}
 			}
 		},
@@ -88,6 +196,18 @@
 				"ru": {
 					"question": "Я увидел её в парке вчера.",
 					"explanation": "Past Simple: конкретная встреча вчера."
+				},
+				"fr": {
+					"question": "Je l'ai vue dans le parc hier.",
+					"explanation": "Passé simple : rencontre concrète hier."
+				},
+				"de": {
+					"question": "Ich sah sie gestern im Park.",
+					"explanation": "Simple Past: konkrete Begegnung gestern."
+				},
+				"es": {
+					"question": "La vi en el parque ayer.",
+					"explanation": "Pasado simple: encuentro concreto ayer."
 				}
 			}
 		},
@@ -97,6 +217,18 @@
 				"ru": {
 					"question": "Она приготовила вкусный ужин вчера.",
 					"explanation": "Past Simple: приготовление ужина вчера."
+				},
+				"fr": {
+					"question": "Elle a préparé un délicieux dîner hier.",
+					"explanation": "Passé simple : préparation du dîner hier."
+				},
+				"de": {
+					"question": "Sie kochte gestern ein köstliches Abendessen.",
+					"explanation": "Simple Past: Zubereitung des Abendessens gestern."
+				},
+				"es": {
+					"question": "Ella preparó una cena deliciosa ayer.",
+					"explanation": "Pasado simple: preparación de la cena ayer."
 				}
 			}
 		},
@@ -106,6 +238,18 @@
 				"ru": {
 					"question": "Мы посетили музей в субботу.",
 					"explanation": "Past Simple: посещение музея в конкретный день."
+				},
+				"fr": {
+					"question": "Nous avons visité le musée samedi.",
+					"explanation": "Passé simple : visite du musée un jour précis."
+				},
+				"de": {
+					"question": "Wir besuchten das Museum am Samstag.",
+					"explanation": "Simple Past: Museumsbesuch an einem bestimmten Tag."
+				},
+				"es": {
+					"question": "Visitamos el museo el sábado.",
+					"explanation": "Pasado simple: visita al museo en un día concreto."
 				}
 			}
 		},
@@ -115,6 +259,18 @@
 				"ru": {
 					"question": "Он сказал правду.",
 					"explanation": "Past Simple: однократное действие в прошлом."
+				},
+				"fr": {
+					"question": "Il a dit la vérité.",
+					"explanation": "Passé simple : action unique dans le passé."
+				},
+				"de": {
+					"question": "Er sagte die Wahrheit.",
+					"explanation": "Simple Past: einmalige Handlung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él dijo la verdad.",
+					"explanation": "Pasado simple: acción única en el pasado."
 				}
 			}
 		},
@@ -124,6 +280,18 @@
 				"ru": {
 					"question": "Я прочитал эту книгу в прошлом месяце.",
 					"explanation": "Past Simple: чтение завершилось в прошлом месяце."
+				},
+				"fr": {
+					"question": "J'ai lu ce livre le mois dernier.",
+					"explanation": "Passé simple : lecture terminée le mois dernier."
+				},
+				"de": {
+					"question": "Ich las dieses Buch letzten Monat.",
+					"explanation": "Simple Past: Lesen im letzten Monat abgeschlossen."
+				},
+				"es": {
+					"question": "Leí este libro el mes pasado.",
+					"explanation": "Pasado simple: lectura completada el mes pasado."
 				}
 			}
 		},
@@ -133,6 +301,18 @@
 				"ru": {
 					"question": "Она выучила стихотворение наизусть.",
 					"explanation": "Past Simple: действие завершено в прошлом."
+				},
+				"fr": {
+					"question": "Elle a appris le poème par cœur.",
+					"explanation": "Passé simple : action accomplie dans le passé."
+				},
+				"de": {
+					"question": "Sie lernte das Gedicht auswendig.",
+					"explanation": "Simple Past: Handlung in der Vergangenheit abgeschlossen."
+				},
+				"es": {
+					"question": "Ella aprendió el poema de memoria.",
+					"explanation": "Pasado simple: acción completada en el pasado."
 				}
 			}
 		},
@@ -142,6 +322,18 @@
 				"ru": {
 					"question": "Мы сыграли в теннис в воскресенье.",
 					"explanation": "Past Simple: игра в теннис в конкретный день."
+				},
+				"fr": {
+					"question": "Nous avons joué au tennis dimanche.",
+					"explanation": "Passé simple : partie de tennis un jour précis."
+				},
+				"de": {
+					"question": "Wir spielten am Sonntag Tennis.",
+					"explanation": "Simple Past: Tennisspiel an einem bestimmten Tag."
+				},
+				"es": {
+					"question": "Jugamos al tenis el domingo.",
+					"explanation": "Pasado simple: partido de tenis en un día concreto."
 				}
 			}
 		},
@@ -151,6 +343,18 @@
 				"ru": {
 					"question": "Он починил машину вчера.",
 					"explanation": "Past Simple: ремонт машины завершился вчера."
+				},
+				"fr": {
+					"question": "Il a réparé la voiture hier.",
+					"explanation": "Passé simple : réparation de la voiture terminée hier."
+				},
+				"de": {
+					"question": "Er reparierte das Auto gestern.",
+					"explanation": "Simple Past: Autoreparatur gestern abgeschlossen."
+				},
+				"es": {
+					"question": "Él reparó el coche ayer.",
+					"explanation": "Pasado simple: reparación del coche completada ayer."
 				}
 			}
 		},
@@ -160,6 +364,18 @@
 				"ru": {
 					"question": "Я нашёл кошелёк на улице.",
 					"explanation": "Past Simple: конкретное событие в прошлом."
+				},
+				"fr": {
+					"question": "J'ai trouvé un portefeuille dans la rue.",
+					"explanation": "Passé simple : événement concret dans le passé."
+				},
+				"de": {
+					"question": "Ich fand eine Geldbörse auf der Straße.",
+					"explanation": "Simple Past: konkretes Ereignis in der Vergangenheit."
+				},
+				"es": {
+					"question": "Encontré una cartera en la calle.",
+					"explanation": "Pasado simple: evento concreto en el pasado."
 				}
 			}
 		},
@@ -169,6 +385,18 @@
 				"ru": {
 					"question": "Она поступила в университет три года назад.",
 					"explanation": "Past Simple: поступление в университет три года назад."
+				},
+				"fr": {
+					"question": "Elle est entrée à l'université il y a trois ans.",
+					"explanation": "Passé simple : entrée à l'université il y a trois ans."
+				},
+				"de": {
+					"question": "Sie begann ihr Studium vor drei Jahren.",
+					"explanation": "Simple Past: Studienbeginn vor drei Jahren."
+				},
+				"es": {
+					"question": "Ella entró en la universidad hace tres años.",
+					"explanation": "Pasado simple: ingreso a la universidad hace tres años."
 				}
 			}
 		},
@@ -178,6 +406,18 @@
 				"ru": {
 					"question": "Мы отпраздновали день рождения вчера.",
 					"explanation": "Past Simple: праздник вчера."
+				},
+				"fr": {
+					"question": "Nous avons fêté l'anniversaire hier.",
+					"explanation": "Passé simple : fête hier."
+				},
+				"de": {
+					"question": "Wir haben gestern den Geburtstag gefeiert.",
+					"explanation": "Simple Past: Geburtstagsfeier gestern."
+				},
+				"es": {
+					"question": "Celebramos el cumpleaños ayer.",
+					"explanation": "Pasado simple: celebración ayer."
 				}
 			}
 		},
@@ -187,6 +427,18 @@
 				"ru": {
 					"question": "Он уехал в командировку на прошлой неделе.",
 					"explanation": "Past Simple: отъезд в командировку на прошлой неделе."
+				},
+				"fr": {
+					"question": "Il est parti en voyage d'affaires la semaine dernière.",
+					"explanation": "Passé simple : départ en voyage d'affaires la semaine dernière."
+				},
+				"de": {
+					"question": "Er fuhr letzte Woche auf Geschäftsreise.",
+					"explanation": "Simple Past: Abreise zur Geschäftsreise letzte Woche."
+				},
+				"es": {
+					"question": "Él se fue de viaje de negocios la semana pasada.",
+					"explanation": "Pasado simple: salida en viaje de negocios la semana pasada."
 				}
 			}
 		},
@@ -196,6 +448,18 @@
 				"ru": {
 					"question": "Я сдал экзамен в мае.",
 					"explanation": "Past Simple: сдача экзамена в конкретный месяц."
+				},
+				"fr": {
+					"question": "J'ai réussi l'examen en mai.",
+					"explanation": "Passé simple : réussite de l'examen en un mois précis."
+				},
+				"de": {
+					"question": "Ich bestand die Prüfung im Mai.",
+					"explanation": "Simple Past: Prüfungsbestehen in einem bestimmten Monat."
+				},
+				"es": {
+					"question": "Aprobé el examen en mayo.",
+					"explanation": "Pasado simple: aprobación del examen en un mes concreto."
 				}
 			}
 		},
@@ -205,6 +469,18 @@
 				"ru": {
 					"question": "Она упала с велосипеда и сломала руку.",
 					"explanation": "Past Simple: последовательность событий в прошлом."
+				},
+				"fr": {
+					"question": "Elle est tombée de son vélo et s'est cassé le bras.",
+					"explanation": "Passé simple : séquence d'événements dans le passé."
+				},
+				"de": {
+					"question": "Sie fiel vom Fahrrad und brach sich den Arm.",
+					"explanation": "Simple Past: Abfolge von Ereignissen in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella se cayó de la bicicleta y se rompió el brazo.",
+					"explanation": "Pasado simple: secuencia de eventos en el pasado."
 				}
 			}
 		},
@@ -214,6 +490,18 @@
 				"ru": {
 					"question": "Мы улетели в отпуск в прошлую пятницу.",
 					"explanation": "Past Simple: отлёт в прошлую пятницу."
+				},
+				"fr": {
+					"question": "Nous sommes partis en vacances vendredi dernier.",
+					"explanation": "Passé simple : départ en vacances vendredi dernier."
+				},
+				"de": {
+					"question": "Wir flogen letzten Freitag in den Urlaub.",
+					"explanation": "Simple Past: Abflug letzten Freitag."
+				},
+				"es": {
+					"question": "Volamos de vacaciones el viernes pasado.",
+					"explanation": "Pasado simple: vuelo el viernes pasado."
 				}
 			}
 		},
@@ -223,6 +511,18 @@
 				"ru": {
 					"question": "Он написал эту песню десять лет назад.",
 					"explanation": "Past Simple: написание песни десять лет назад."
+				},
+				"fr": {
+					"question": "Il a écrit cette chanson il y a dix ans.",
+					"explanation": "Passé simple : composition de la chanson il y a dix ans."
+				},
+				"de": {
+					"question": "Er schrieb dieses Lied vor zehn Jahren.",
+					"explanation": "Simple Past: Komposition des Liedes vor zehn Jahren."
+				},
+				"es": {
+					"question": "Él escribió esta canción hace diez años.",
+					"explanation": "Pasado simple: composición de la canción hace diez años."
 				}
 			}
 		},
@@ -232,6 +532,18 @@
 				"ru": {
 					"question": "Я встал рано утром вчера.",
 					"explanation": "Past Simple: пробуждение вчера утром."
+				},
+				"fr": {
+					"question": "Je me suis levé tôt hier matin.",
+					"explanation": "Passé simple : réveil hier matin."
+				},
+				"de": {
+					"question": "Ich stand gestern früh auf.",
+					"explanation": "Simple Past: Aufwachen gestern Morgen."
+				},
+				"es": {
+					"question": "Me levanté temprano ayer por la mañana.",
+					"explanation": "Pasado simple: despertar ayer por la mañana."
 				}
 			}
 		},
@@ -241,6 +553,18 @@
 				"ru": {
 					"question": "Она забыла взять зонт.",
 					"explanation": "Past Simple: действие или его отсутствие в прошлом."
+				},
+				"fr": {
+					"question": "Elle a oublié de prendre son parapluie.",
+					"explanation": "Passé simple : action ou son absence dans le passé."
+				},
+				"de": {
+					"question": "Sie vergaß, ihren Regenschirm mitzunehmen.",
+					"explanation": "Simple Past: Handlung oder ihr Ausbleiben in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella olvidó llevar su paraguas.",
+					"explanation": "Pasado simple: acción o su ausencia en el pasado."
 				}
 			}
 		},
@@ -250,6 +574,18 @@
 				"ru": {
 					"question": "Мы поговорили с директором вчера.",
 					"explanation": "Past Simple: разговор с директором вчера."
+				},
+				"fr": {
+					"question": "Nous avons parlé au directeur hier.",
+					"explanation": "Passé simple : conversation avec le directeur hier."
+				},
+				"de": {
+					"question": "Wir sprachen gestern mit dem Direktor.",
+					"explanation": "Simple Past: Gespräch mit dem Direktor gestern."
+				},
+				"es": {
+					"question": "Hablamos con el director ayer.",
+					"explanation": "Pasado simple: conversación con el director ayer."
 				}
 			}
 		},
@@ -259,6 +595,18 @@
 				"ru": {
 					"question": "Он построил этот дом своими руками.",
 					"explanation": "Past Simple: завершённое строительство в прошлом."
+				},
+				"fr": {
+					"question": "Il a construit cette maison de ses propres mains.",
+					"explanation": "Passé simple : construction achevée dans le passé."
+				},
+				"de": {
+					"question": "Er baute dieses Haus mit eigenen Händen.",
+					"explanation": "Simple Past: abgeschlossener Hausbau in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él construyó esta casa con sus propias manos.",
+					"explanation": "Pasado simple: construcción completada en el pasado."
 				}
 			}
 		},
@@ -268,6 +616,18 @@
 				"ru": {
 					"question": "Я потерял ключи на прошлой неделе.",
 					"explanation": "Past Simple: потеря ключей на прошлой неделе."
+				},
+				"fr": {
+					"question": "J'ai perdu mes clés la semaine dernière.",
+					"explanation": "Passé simple : perte des clés la semaine dernière."
+				},
+				"de": {
+					"question": "Ich verlor letzte Woche meine Schlüssel.",
+					"explanation": "Simple Past: Schlüsselverlust letzte Woche."
+				},
+				"es": {
+					"question": "Perdí mis llaves la semana pasada.",
+					"explanation": "Pasado simple: pérdida de las llaves la semana pasada."
 				}
 			}
 		},
@@ -277,6 +637,18 @@
 				"ru": {
 					"question": "Она поступила на курсы рисования в сентябре.",
 					"explanation": "Past Simple: запись на курсы в сентябре."
+				},
+				"fr": {
+					"question": "Elle s'est inscrite à des cours de dessin en septembre.",
+					"explanation": "Passé simple : inscription aux cours en septembre."
+				},
+				"de": {
+					"question": "Sie schrieb sich im September in Zeichenkurse ein.",
+					"explanation": "Simple Past: Kursanmeldung im September."
+				},
+				"es": {
+					"question": "Ella se inscribió en clases de dibujo en septiembre.",
+					"explanation": "Pasado simple: inscripción en los cursos en septiembre."
 				}
 			}
 		},
@@ -286,6 +658,18 @@
 				"ru": {
 					"question": "Мы посмотрели новый фильм вчера вечером.",
 					"explanation": "Past Simple: просмотр фильма вчера вечером."
+				},
+				"fr": {
+					"question": "Nous avons regardé un nouveau film hier soir.",
+					"explanation": "Passé simple : visionnage d'un film hier soir."
+				},
+				"de": {
+					"question": "Wir haben gestern Abend einen neuen Film gesehen.",
+					"explanation": "Simple Past: Filmschauen gestern Abend."
+				},
+				"es": {
+					"question": "Vimos una nueva película ayer por la noche.",
+					"explanation": "Pasado simple: visualización de la película ayer por la noche."
 				}
 			}
 		},
@@ -295,6 +679,18 @@
 				"ru": {
 					"question": "Он получил письмо утром.",
 					"explanation": "Past Simple: получение письма утром."
+				},
+				"fr": {
+					"question": "Il a reçu une lettre le matin.",
+					"explanation": "Passé simple : réception de la lettre le matin."
+				},
+				"de": {
+					"question": "Er erhielt morgens einen Brief.",
+					"explanation": "Simple Past: Briefempfang am Morgen."
+				},
+				"es": {
+					"question": "Él recibió una carta por la mañana.",
+					"explanation": "Pasado simple: recepción de la carta por la mañana."
 				}
 			}
 		},
@@ -304,6 +700,18 @@
 				"ru": {
 					"question": "Я купил билеты заранее.",
 					"explanation": "Past Simple: покупка билетов в прошлом."
+				},
+				"fr": {
+					"question": "J'ai acheté les billets à l'avance.",
+					"explanation": "Passé simple : achat de billets dans le passé."
+				},
+				"de": {
+					"question": "Ich kaufte die Tickets im Voraus.",
+					"explanation": "Simple Past: Ticketkauf in der Vergangenheit."
+				},
+				"es": {
+					"question": "Compré las entradas con antelación.",
+					"explanation": "Pasado simple: compra de entradas en el pasado."
 				}
 			}
 		},
@@ -313,6 +721,18 @@
 				"ru": {
 					"question": "Она познакомилась с мужем на вечеринке.",
 					"explanation": "Past Simple: знакомство на вечеринке в прошлом."
+				},
+				"fr": {
+					"question": "Elle a rencontré son mari à une fête.",
+					"explanation": "Passé simple : rencontre à une fête dans le passé."
+				},
+				"de": {
+					"question": "Sie traf ihren Mann auf einer Party.",
+					"explanation": "Simple Past: Kennenlernen auf einer Party in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella conoció a su marido en una fiesta.",
+					"explanation": "Pasado simple: encuentro en una fiesta en el pasado."
 				}
 			}
 		},
@@ -322,6 +742,18 @@
 				"ru": {
 					"question": "Мы прилетели в Лондон позавчера.",
 					"explanation": "Past Simple: прилёт позавчера."
+				},
+				"fr": {
+					"question": "Nous sommes arrivés à Londres avant-hier.",
+					"explanation": "Passé simple : arrivée avant-hier."
+				},
+				"de": {
+					"question": "Wir kamen vorgestern in London an.",
+					"explanation": "Simple Past: Ankunft vorgestern."
+				},
+				"es": {
+					"question": "Llegamos a Londres anteayer.",
+					"explanation": "Pasado simple: llegada anteayer."
 				}
 			}
 		},
@@ -331,6 +763,18 @@
 				"ru": {
 					"question": "Он позвонил мне и сообщил новость.",
 					"explanation": "Past Simple: последовательность действий в прошлом."
+				},
+				"fr": {
+					"question": "Il m'a appelé et m'a annoncé la nouvelle.",
+					"explanation": "Passé simple : séquence d'actions dans le passé."
+				},
+				"de": {
+					"question": "Er rief mich an und teilte mir die Neuigkeit mit.",
+					"explanation": "Simple Past: Abfolge von Handlungen in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él me llamó y me contó la noticia.",
+					"explanation": "Pasado simple: secuencia de acciones en el pasado."
 				}
 			}
 		},
@@ -340,6 +784,18 @@
 				"ru": {
 					"question": "Я забыл выключить свет.",
 					"explanation": "Past Simple: забывание как завершённый факт."
+				},
+				"fr": {
+					"question": "J'ai oublié d'éteindre la lumière.",
+					"explanation": "Passé simple : oubli comme fait accompli."
+				},
+				"de": {
+					"question": "Ich vergaß, das Licht auszuschalten.",
+					"explanation": "Simple Past: Vergessen als abgeschlossene Tatsache."
+				},
+				"es": {
+					"question": "Olvidé apagar la luz.",
+					"explanation": "Pasado simple: olvido como hecho consumado."
 				}
 			}
 		},
@@ -349,6 +805,18 @@
 				"ru": {
 					"question": "Она выиграла конкурс в прошлом году.",
 					"explanation": "Past Simple: победа в конкурсе в прошлом году."
+				},
+				"fr": {
+					"question": "Elle a gagné le concours l'année dernière.",
+					"explanation": "Passé simple : victoire au concours l'année dernière."
+				},
+				"de": {
+					"question": "Sie gewann letztes Jahr den Wettbewerb.",
+					"explanation": "Simple Past: Wettkampfsieg letztes Jahr."
+				},
+				"es": {
+					"question": "Ella ganó el concurso el año pasado.",
+					"explanation": "Pasado simple: victoria en el concurso el año pasado."
 				}
 			}
 		},
@@ -358,6 +826,18 @@
 				"ru": {
 					"question": "Мы провели выходные на природе.",
 					"explanation": "Past Simple: выходные на природе в прошлом."
+				},
+				"fr": {
+					"question": "Nous avons passé le week-end à la campagne.",
+					"explanation": "Passé simple : week-end à la campagne dans le passé."
+				},
+				"de": {
+					"question": "Wir verbrachten das Wochenende auf dem Land.",
+					"explanation": "Simple Past: Wochenende auf dem Land in der Vergangenheit."
+				},
+				"es": {
+					"question": "Pasamos el fin de semana en el campo.",
+					"explanation": "Pasado simple: fin de semana en el campo en el pasado."
 				}
 			}
 		},
@@ -367,6 +847,18 @@
 				"ru": {
 					"question": "Он опоздал на поезд.",
 					"explanation": "Past Simple: конкретное событие в прошлом."
+				},
+				"fr": {
+					"question": "Il a raté le train.",
+					"explanation": "Passé simple : événement concret dans le passé."
+				},
+				"de": {
+					"question": "Er verpasste den Zug.",
+					"explanation": "Simple Past: konkretes Ereignis in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él perdió el tren.",
+					"explanation": "Pasado simple: evento concreto en el pasado."
 				}
 			}
 		},
@@ -376,6 +868,18 @@
 				"ru": {
 					"question": "Я открыл дверь и вошёл.",
 					"explanation": "Past Simple: последовательность действий."
+				},
+				"fr": {
+					"question": "J'ai ouvert la porte et je suis entré.",
+					"explanation": "Passé simple : séquence d'actions."
+				},
+				"de": {
+					"question": "Ich öffnete die Tür und kam herein.",
+					"explanation": "Simple Past: Abfolge von Handlungen."
+				},
+				"es": {
+					"question": "Abrí la puerta y entré.",
+					"explanation": "Pasado simple: secuencia de acciones."
 				}
 			}
 		},
@@ -385,6 +889,18 @@
 				"ru": {
 					"question": "Она взяла зонт и вышла на улицу.",
 					"explanation": "Past Simple: последовательные действия в прошлом."
+				},
+				"fr": {
+					"question": "Elle a pris son parapluie et est sortie.",
+					"explanation": "Passé simple : actions successives dans le passé."
+				},
+				"de": {
+					"question": "Sie nahm ihren Regenschirm und ging nach draußen.",
+					"explanation": "Simple Past: aufeinanderfolgende Handlungen in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella cogió su paraguas y salió.",
+					"explanation": "Pasado simple: acciones sucesivas en el pasado."
 				}
 			}
 		},
@@ -394,6 +910,18 @@
 				"ru": {
 					"question": "Мы сходили в ресторан в пятницу.",
 					"explanation": "Past Simple: поход в ресторан в пятницу."
+				},
+				"fr": {
+					"question": "Nous sommes allés au restaurant vendredi.",
+					"explanation": "Passé simple : sortie au restaurant vendredi."
+				},
+				"de": {
+					"question": "Wir gingen am Freitag ins Restaurant.",
+					"explanation": "Simple Past: Restaurantbesuch am Freitag."
+				},
+				"es": {
+					"question": "Fuimos a un restaurante el viernes.",
+					"explanation": "Pasado simple: ida al restaurante el viernes."
 				}
 			}
 		},
@@ -403,6 +931,18 @@
 				"ru": {
 					"question": "Он сдал отчёт вовремя.",
 					"explanation": "Past Simple: сдача отчёта в прошлом."
+				},
+				"fr": {
+					"question": "Il a rendu le rapport à temps.",
+					"explanation": "Passé simple : remise du rapport dans le passé."
+				},
+				"de": {
+					"question": "Er gab den Bericht pünktlich ab.",
+					"explanation": "Simple Past: Berichtsabgabe in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él entregó el informe a tiempo.",
+					"explanation": "Pasado simple: entrega del informe en el pasado."
 				}
 			}
 		},
@@ -412,6 +952,18 @@
 				"ru": {
 					"question": "Я выпил кофе и пошёл на работу.",
 					"explanation": "Past Simple: утренняя последовательность действий в прошлом."
+				},
+				"fr": {
+					"question": "J'ai bu un café et je suis allé au travail.",
+					"explanation": "Passé simple : séquence matinale d'actions dans le passé."
+				},
+				"de": {
+					"question": "Ich trank einen Kaffee und ging zur Arbeit.",
+					"explanation": "Simple Past: morgendliche Abfolge von Handlungen in der Vergangenheit."
+				},
+				"es": {
+					"question": "Tomé un café y me fui al trabajo.",
+					"explanation": "Pasado simple: secuencia matutina de acciones en el pasado."
 				}
 			}
 		},
@@ -421,6 +973,18 @@
 				"ru": {
 					"question": "Она закончила университет в прошлом году.",
 					"explanation": "Past Simple: окончание университета в прошлом году."
+				},
+				"fr": {
+					"question": "Elle a obtenu son diplôme universitaire l'année dernière.",
+					"explanation": "Passé simple : obtention du diplôme l'année dernière."
+				},
+				"de": {
+					"question": "Sie schloss letztes Jahr ihr Studium ab.",
+					"explanation": "Simple Past: Studienabschluss letztes Jahr."
+				},
+				"es": {
+					"question": "Ella se graduó de la universidad el año pasado.",
+					"explanation": "Pasado simple: graduación universitaria el año pasado."
 				}
 			}
 		},
@@ -430,6 +994,18 @@
 				"ru": {
 					"question": "Мы купили дом за городом.",
 					"explanation": "Past Simple: покупка дома в прошлом."
+				},
+				"fr": {
+					"question": "Nous avons acheté une maison à la campagne.",
+					"explanation": "Passé simple : achat d'une maison dans le passé."
+				},
+				"de": {
+					"question": "Wir kauften ein Haus auf dem Land.",
+					"explanation": "Simple Past: Hauskauf in der Vergangenheit."
+				},
+				"es": {
+					"question": "Compramos una casa en el campo.",
+					"explanation": "Pasado simple: compra de una casa en el pasado."
 				}
 			}
 		},
@@ -439,6 +1015,18 @@
 				"ru": {
 					"question": "Он решил уволиться.",
 					"explanation": "Past Simple: решение, принятое в прошлом."
+				},
+				"fr": {
+					"question": "Il a décidé de quitter son emploi.",
+					"explanation": "Passé simple : décision prise dans le passé."
+				},
+				"de": {
+					"question": "Er entschied sich, seinen Job zu kündigen.",
+					"explanation": "Simple Past: Entscheidung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él decidió dejar su trabajo.",
+					"explanation": "Pasado simple: decisión tomada en el pasado."
 				}
 			}
 		},
@@ -448,6 +1036,18 @@
 				"ru": {
 					"question": "Я принёс цветы.",
 					"explanation": "Past Simple: однократное действие в прошлом."
+				},
+				"fr": {
+					"question": "J'ai apporté des fleurs.",
+					"explanation": "Passé simple : action unique dans le passé."
+				},
+				"de": {
+					"question": "Ich brachte Blumen mit.",
+					"explanation": "Simple Past: einmalige Handlung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Traje flores.",
+					"explanation": "Pasado simple: acción única en el pasado."
 				}
 			}
 		},
@@ -457,6 +1057,18 @@
 				"ru": {
 					"question": "Она пожаловалась менеджеру.",
 					"explanation": "Past Simple: жалоба в прошлом."
+				},
+				"fr": {
+					"question": "Elle s'est plainte auprès du responsable.",
+					"explanation": "Passé simple : plainte dans le passé."
+				},
+				"de": {
+					"question": "Sie beschwerte sich beim Manager.",
+					"explanation": "Simple Past: Beschwerde in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella se quejó al gerente.",
+					"explanation": "Pasado simple: queja en el pasado."
 				}
 			}
 		},
@@ -466,6 +1078,18 @@
 				"ru": {
 					"question": "Мы наняли нового сотрудника в марте.",
 					"explanation": "Past Simple: найм сотрудника в конкретный месяц."
+				},
+				"fr": {
+					"question": "Nous avons embauché un nouvel employé en mars.",
+					"explanation": "Passé simple : embauche en un mois précis."
+				},
+				"de": {
+					"question": "Wir stellten im März einen neuen Mitarbeiter ein.",
+					"explanation": "Simple Past: Einstellung in einem bestimmten Monat."
+				},
+				"es": {
+					"question": "Contratamos a un nuevo empleado en marzo.",
+					"explanation": "Pasado simple: contratación en un mes concreto."
 				}
 			}
 		},
@@ -475,6 +1099,18 @@
 				"ru": {
 					"question": "Он проиграл спор.",
 					"explanation": "Past Simple: проигрыш в споре в прошлом."
+				},
+				"fr": {
+					"question": "Il a perdu le débat.",
+					"explanation": "Passé simple : défaite dans un débat dans le passé."
+				},
+				"de": {
+					"question": "Er verlor die Auseinandersetzung.",
+					"explanation": "Simple Past: Niederlage in einem Streit in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él perdió el debate.",
+					"explanation": "Pasado simple: derrota en un debate en el pasado."
 				}
 			}
 		},
@@ -484,6 +1120,18 @@
 				"ru": {
 					"question": "Я съел весь торт.",
 					"explanation": "Past Simple: действие полностью завершено."
+				},
+				"fr": {
+					"question": "J'ai mangé tout le gâteau.",
+					"explanation": "Passé simple : action entièrement accomplie."
+				},
+				"de": {
+					"question": "Ich aß den ganzen Kuchen.",
+					"explanation": "Simple Past: vollständig abgeschlossene Handlung."
+				},
+				"es": {
+					"question": "Me comí toda la tarta.",
+					"explanation": "Pasado simple: acción completamente realizada."
 				}
 			}
 		},
@@ -493,6 +1141,18 @@
 				"ru": {
 					"question": "Она отказалась от предложения.",
 					"explanation": "Past Simple: отказ в прошлом."
+				},
+				"fr": {
+					"question": "Elle a refusé l'offre.",
+					"explanation": "Passé simple : refus dans le passé."
+				},
+				"de": {
+					"question": "Sie lehnte das Angebot ab.",
+					"explanation": "Simple Past: Ablehnung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella rechazó la oferta.",
+					"explanation": "Pasado simple: rechazo en el pasado."
 				}
 			}
 		},
@@ -502,6 +1162,18 @@
 				"ru": {
 					"question": "Мы отменили встречу.",
 					"explanation": "Past Simple: отмена встречи в прошлом."
+				},
+				"fr": {
+					"question": "Nous avons annulé la réunion.",
+					"explanation": "Passé simple : annulation de la réunion dans le passé."
+				},
+				"de": {
+					"question": "Wir sagten das Meeting ab.",
+					"explanation": "Simple Past: Absage des Meetings in der Vergangenheit."
+				},
+				"es": {
+					"question": "Cancelamos la reunión.",
+					"explanation": "Pasado simple: cancelación de la reunión en el pasado."
 				}
 			}
 		},
@@ -511,6 +1183,18 @@
 				"ru": {
 					"question": "Он сломал ногу на тренировке.",
 					"explanation": "Past Simple: травма в прошлом."
+				},
+				"fr": {
+					"question": "Il s'est cassé la jambe à l'entraînement.",
+					"explanation": "Passé simple : blessure dans le passé."
+				},
+				"de": {
+					"question": "Er brach sich beim Training das Bein.",
+					"explanation": "Simple Past: Verletzung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él se rompió la pierna en el entrenamiento.",
+					"explanation": "Pasado simple: lesión en el pasado."
 				}
 			}
 		},
@@ -520,6 +1204,18 @@
 				"ru": {
 					"question": "Я отправил электронное письмо.",
 					"explanation": "Past Simple: отправка письма в прошлом."
+				},
+				"fr": {
+					"question": "J'ai envoyé un e-mail.",
+					"explanation": "Passé simple : envoi d'un e-mail dans le passé."
+				},
+				"de": {
+					"question": "Ich schickte eine E-Mail.",
+					"explanation": "Simple Past: E-Mail-Versand in der Vergangenheit."
+				},
+				"es": {
+					"question": "Envié un correo electrónico.",
+					"explanation": "Pasado simple: envío de un correo en el pasado."
 				}
 			}
 		},
@@ -529,6 +1225,18 @@
 				"ru": {
 					"question": "Она сшила платье сама.",
 					"explanation": "Past Simple: завершённое действие в прошлом."
+				},
+				"fr": {
+					"question": "Elle a cousu la robe elle-même.",
+					"explanation": "Passé simple : action accomplie dans le passé."
+				},
+				"de": {
+					"question": "Sie nähte das Kleid selbst.",
+					"explanation": "Simple Past: abgeschlossene Handlung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella cosió el vestido ella misma.",
+					"explanation": "Pasado simple: acción completada en el pasado."
 				}
 			}
 		},
@@ -538,6 +1246,18 @@
 				"ru": {
 					"question": "Мы добрались до вершины горы.",
 					"explanation": "Past Simple: достижение цели в прошлом."
+				},
+				"fr": {
+					"question": "Nous avons atteint le sommet de la montagne.",
+					"explanation": "Passé simple : objectif atteint dans le passé."
+				},
+				"de": {
+					"question": "Wir erreichten den Gipfel des Berges.",
+					"explanation": "Simple Past: Zielerreichung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Llegamos a la cima de la montaña.",
+					"explanation": "Pasado simple: logro del objetivo en el pasado."
 				}
 			}
 		},
@@ -547,6 +1267,18 @@
 				"ru": {
 					"question": "Он открыл собственный бизнес пять лет назад.",
 					"explanation": "Past Simple: открытие бизнеса пять лет назад."
+				},
+				"fr": {
+					"question": "Il a ouvert sa propre entreprise il y a cinq ans.",
+					"explanation": "Passé simple : création d'une entreprise il y a cinq ans."
+				},
+				"de": {
+					"question": "Er eröffnete vor fünf Jahren sein eigenes Unternehmen.",
+					"explanation": "Simple Past: Unternehmensgründung vor fünf Jahren."
+				},
+				"es": {
+					"question": "Él abrió su propio negocio hace cinco años.",
+					"explanation": "Pasado simple: apertura del negocio hace cinco años."
 				}
 			}
 		},
@@ -556,6 +1288,18 @@
 				"ru": {
 					"question": "Я посетил врача на прошлой неделе.",
 					"explanation": "Past Simple: визит к врачу на прошлой неделе."
+				},
+				"fr": {
+					"question": "J'ai rendu visite au médecin la semaine dernière.",
+					"explanation": "Passé simple : visite chez le médecin la semaine dernière."
+				},
+				"de": {
+					"question": "Ich besuchte letzte Woche den Arzt.",
+					"explanation": "Simple Past: Arztbesuch letzte Woche."
+				},
+				"es": {
+					"question": "Fui al médico la semana pasada.",
+					"explanation": "Pasado simple: visita al médico la semana pasada."
 				}
 			}
 		},
@@ -565,6 +1309,18 @@
 				"ru": {
 					"question": "Она родилась в маленьком городе.",
 					"explanation": "Past Simple: факт рождения в прошлом."
+				},
+				"fr": {
+					"question": "Elle est née dans une petite ville.",
+					"explanation": "Passé simple : fait de naissance dans le passé."
+				},
+				"de": {
+					"question": "Sie wurde in einer kleinen Stadt geboren.",
+					"explanation": "Simple Past: Geburtstatsache in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella nació en una ciudad pequeña.",
+					"explanation": "Pasado simple: hecho del nacimiento en el pasado."
 				}
 			}
 		},
@@ -574,6 +1330,18 @@
 				"ru": {
 					"question": "Мы узнали новость из газеты.",
 					"explanation": "Past Simple: получение информации в прошлом."
+				},
+				"fr": {
+					"question": "Nous avons appris la nouvelle dans un journal.",
+					"explanation": "Passé simple : obtention d'une information dans le passé."
+				},
+				"de": {
+					"question": "Wir erfuhren die Neuigkeit aus einer Zeitung.",
+					"explanation": "Simple Past: Informationserhalt in der Vergangenheit."
+				},
+				"es": {
+					"question": "Nos enteramos de la noticia por un periódico.",
+					"explanation": "Pasado simple: obtención de información en el pasado."
 				}
 			}
 		},
@@ -583,6 +1351,18 @@
 				"ru": {
 					"question": "Он подписал контракт вчера.",
 					"explanation": "Past Simple: подписание контракта вчера."
+				},
+				"fr": {
+					"question": "Il a signé le contrat hier.",
+					"explanation": "Passé simple : signature du contrat hier."
+				},
+				"de": {
+					"question": "Er unterschrieb den Vertrag gestern.",
+					"explanation": "Simple Past: Vertragsunterzeichnung gestern."
+				},
+				"es": {
+					"question": "Él firmó el contrato ayer.",
+					"explanation": "Pasado simple: firma del contrato ayer."
 				}
 			}
 		},
@@ -592,6 +1372,18 @@
 				"ru": {
 					"question": "Я увидел аварию на дороге.",
 					"explanation": "Past Simple: конкретное наблюдение в прошлом."
+				},
+				"fr": {
+					"question": "J'ai vu un accident sur la route.",
+					"explanation": "Passé simple : observation concrète dans le passé."
+				},
+				"de": {
+					"question": "Ich sah einen Unfall auf der Straße.",
+					"explanation": "Simple Past: konkrete Beobachtung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Vi un accidente en la carretera.",
+					"explanation": "Pasado simple: observación concreta en el pasado."
 				}
 			}
 		},
@@ -601,6 +1393,18 @@
 				"ru": {
 					"question": "Она похудела на пять килограммов.",
 					"explanation": "Past Simple: достигнутый результат в прошлом."
+				},
+				"fr": {
+					"question": "Elle a perdu cinq kilogrammes.",
+					"explanation": "Passé simple : résultat atteint dans le passé."
+				},
+				"de": {
+					"question": "Sie nahm fünf Kilogramm ab.",
+					"explanation": "Simple Past: erreichtes Ergebnis in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella perdió cinco kilogramos.",
+					"explanation": "Pasado simple: resultado logrado en el pasado."
 				}
 			}
 		},
@@ -610,6 +1414,18 @@
 				"ru": {
 					"question": "Мы переехали в другой город в детстве.",
 					"explanation": "Past Simple: переезд в прошлом."
+				},
+				"fr": {
+					"question": "Nous avons déménagé dans une autre ville dans l'enfance.",
+					"explanation": "Passé simple : déménagement dans le passé."
+				},
+				"de": {
+					"question": "Wir zogen in der Kindheit in eine andere Stadt.",
+					"explanation": "Simple Past: Umzug in der Vergangenheit."
+				},
+				"es": {
+					"question": "Nos mudamos a otra ciudad en la infancia.",
+					"explanation": "Pasado simple: mudanza en el pasado."
 				}
 			}
 		},
@@ -619,6 +1435,18 @@
 				"ru": {
 					"question": "Он нашёл новую работу быстро.",
 					"explanation": "Past Simple: нахождение работы в прошлом."
+				},
+				"fr": {
+					"question": "Il a trouvé un nouvel emploi rapidement.",
+					"explanation": "Passé simple : trouver un emploi dans le passé."
+				},
+				"de": {
+					"question": "Er fand schnell eine neue Arbeit.",
+					"explanation": "Simple Past: Jobfinden in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él encontró un nuevo trabajo rápidamente.",
+					"explanation": "Pasado simple: encuentro de trabajo en el pasado."
 				}
 			}
 		},
@@ -628,6 +1456,18 @@
 				"ru": {
 					"question": "Я записался на курсы вождения.",
 					"explanation": "Past Simple: запись на курсы в прошлом."
+				},
+				"fr": {
+					"question": "Je me suis inscrit à des cours de conduite.",
+					"explanation": "Passé simple : inscription à des cours dans le passé."
+				},
+				"de": {
+					"question": "Ich meldete mich für Fahrstunden an.",
+					"explanation": "Simple Past: Kursanmeldung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Me apunté a clases de conducción.",
+					"explanation": "Pasado simple: inscripción en los cursos en el pasado."
 				}
 			}
 		},
@@ -637,6 +1477,18 @@
 				"ru": {
 					"question": "Она напекла печенья для гостей.",
 					"explanation": "Past Simple: выпечка печенья в прошлом."
+				},
+				"fr": {
+					"question": "Elle a fait des cookies pour les invités.",
+					"explanation": "Passé simple : préparation de gâteaux dans le passé."
+				},
+				"de": {
+					"question": "Sie backte Kekse für die Gäste.",
+					"explanation": "Simple Past: Keksebacken in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella horneó galletas para los invitados.",
+					"explanation": "Pasado simple: preparación de galletas en el pasado."
 				}
 			}
 		},
@@ -646,6 +1498,18 @@
 				"ru": {
 					"question": "Мы встретились на конференции.",
 					"explanation": "Past Simple: встреча на конференции в прошлом."
+				},
+				"fr": {
+					"question": "Nous nous sommes rencontrés lors d'une conférence.",
+					"explanation": "Passé simple : rencontre lors d'une conférence dans le passé."
+				},
+				"de": {
+					"question": "Wir trafen uns auf einer Konferenz.",
+					"explanation": "Simple Past: Begegnung auf einer Konferenz in der Vergangenheit."
+				},
+				"es": {
+					"question": "Nos conocimos en una conferencia.",
+					"explanation": "Pasado simple: encuentro en una conferencia en el pasado."
 				}
 			}
 		},
@@ -655,6 +1519,18 @@
 				"ru": {
 					"question": "Он вернулся домой поздно.",
 					"explanation": "Past Simple: возвращение домой в прошлом."
+				},
+				"fr": {
+					"question": "Il est rentré chez lui tard.",
+					"explanation": "Passé simple : retour à la maison dans le passé."
+				},
+				"de": {
+					"question": "Er kam spät nach Hause.",
+					"explanation": "Simple Past: Heimkehren in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él volvió a casa tarde.",
+					"explanation": "Pasado simple: regreso a casa en el pasado."
 				}
 			}
 		},
@@ -664,6 +1540,18 @@
 				"ru": {
 					"question": "Я зарегистрировался на сайте.",
 					"explanation": "Past Simple: регистрация в прошлом."
+				},
+				"fr": {
+					"question": "Je me suis inscrit sur le site.",
+					"explanation": "Passé simple : inscription dans le passé."
+				},
+				"de": {
+					"question": "Ich registrierte mich auf der Website.",
+					"explanation": "Simple Past: Registrierung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Me registré en el sitio web.",
+					"explanation": "Pasado simple: registro en el pasado."
 				}
 			}
 		},
@@ -673,6 +1561,18 @@
 				"ru": {
 					"question": "Она выступила на концерте блестяще.",
 					"explanation": "Past Simple: выступление в прошлом."
+				},
+				"fr": {
+					"question": "Elle a brillamment interprété son numéro au concert.",
+					"explanation": "Passé simple : performance dans le passé."
+				},
+				"de": {
+					"question": "Sie trat glänzend beim Konzert auf.",
+					"explanation": "Simple Past: Auftritt in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella actuó brillantemente en el concierto.",
+					"explanation": "Pasado simple: actuación en el pasado."
 				}
 			}
 		},
@@ -682,6 +1582,18 @@
 				"ru": {
 					"question": "Мы пропустили автобус.",
 					"explanation": "Past Simple: конкретное событие в прошлом."
+				},
+				"fr": {
+					"question": "Nous avons raté le bus.",
+					"explanation": "Passé simple : événement concret dans le passé."
+				},
+				"de": {
+					"question": "Wir verpassten den Bus.",
+					"explanation": "Simple Past: konkretes Ereignis in der Vergangenheit."
+				},
+				"es": {
+					"question": "Perdimos el autobús.",
+					"explanation": "Pasado simple: evento concreto en el pasado."
 				}
 			}
 		},
@@ -691,6 +1603,18 @@
 				"ru": {
 					"question": "Он дал неправильный ответ.",
 					"explanation": "Past Simple: действие в прошлом."
+				},
+				"fr": {
+					"question": "Il a donné la mauvaise réponse.",
+					"explanation": "Passé simple : action dans le passé."
+				},
+				"de": {
+					"question": "Er gab die falsche Antwort.",
+					"explanation": "Simple Past: Handlung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él dio la respuesta incorrecta.",
+					"explanation": "Pasado simple: acción en el pasado."
 				}
 			}
 		},
@@ -700,6 +1624,18 @@
 				"ru": {
 					"question": "Я выключил телевизор и лёг спать.",
 					"explanation": "Past Simple: последовательные действия перед сном."
+				},
+				"fr": {
+					"question": "J'ai éteint la télévision et je me suis couché.",
+					"explanation": "Passé simple : actions successives avant de dormir."
+				},
+				"de": {
+					"question": "Ich schaltete den Fernseher aus und legte mich hin.",
+					"explanation": "Simple Past: aufeinanderfolgende Handlungen vor dem Schlafengehen."
+				},
+				"es": {
+					"question": "Apagué el televisor y me fui a la cama.",
+					"explanation": "Pasado simple: acciones sucesivas antes de dormir."
 				}
 			}
 		},
@@ -709,6 +1645,18 @@
 				"ru": {
 					"question": "Она взяла деньги из банкомата.",
 					"explanation": "Past Simple: конкретное действие в прошлом."
+				},
+				"fr": {
+					"question": "Elle a retiré de l'argent au distributeur automatique.",
+					"explanation": "Passé simple : action concrète dans le passé."
+				},
+				"de": {
+					"question": "Sie hob Geld am Geldautomaten ab.",
+					"explanation": "Simple Past: konkrete Handlung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella sacó dinero del cajero automático.",
+					"explanation": "Pasado simple: acción concreta en el pasado."
 				}
 			}
 		},
@@ -718,6 +1666,18 @@
 				"ru": {
 					"question": "Мы выиграли матч со счётом три ноль.",
 					"explanation": "Past Simple: победа в матче."
+				},
+				"fr": {
+					"question": "Nous avons gagné le match trois à zéro.",
+					"explanation": "Passé simple : victoire dans un match."
+				},
+				"de": {
+					"question": "Wir gewannen das Spiel drei zu null.",
+					"explanation": "Simple Past: Spielsieg."
+				},
+				"es": {
+					"question": "Ganamos el partido tres a cero.",
+					"explanation": "Pasado simple: victoria en el partido."
 				}
 			}
 		},
@@ -727,6 +1687,18 @@
 				"ru": {
 					"question": "Он порезался при бритье.",
 					"explanation": "Past Simple: конкретный инцидент в прошлом."
+				},
+				"fr": {
+					"question": "Il s'est coupé en se rasant.",
+					"explanation": "Passé simple : incident concret dans le passé."
+				},
+				"de": {
+					"question": "Er schnitt sich beim Rasieren.",
+					"explanation": "Simple Past: konkreter Vorfall in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él se cortó al afeitarse.",
+					"explanation": "Pasado simple: incidente concreto en el pasado."
 				}
 			}
 		},
@@ -736,6 +1708,18 @@
 				"ru": {
 					"question": "Я понял свою ошибку слишком поздно.",
 					"explanation": "Past Simple: осознание ошибки в прошлом."
+				},
+				"fr": {
+					"question": "J'ai réalisé mon erreur trop tard.",
+					"explanation": "Passé simple : prise de conscience d'une erreur dans le passé."
+				},
+				"de": {
+					"question": "Ich erkannte meinen Fehler zu spät.",
+					"explanation": "Simple Past: Erkennen eines Fehlers in der Vergangenheit."
+				},
+				"es": {
+					"question": "Me di cuenta de mi error demasiado tarde.",
+					"explanation": "Pasado simple: toma de conciencia de un error en el pasado."
 				}
 			}
 		},
@@ -745,6 +1729,18 @@
 				"ru": {
 					"question": "Она выразила своё мнение открыто.",
 					"explanation": "Past Simple: однократное высказывание в прошлом."
+				},
+				"fr": {
+					"question": "Elle a exprimé son opinion ouvertement.",
+					"explanation": "Passé simple : déclaration unique dans le passé."
+				},
+				"de": {
+					"question": "Sie äußerte ihre Meinung offen.",
+					"explanation": "Simple Past: einmalige Äußerung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella expresó su opinión abiertamente.",
+					"explanation": "Pasado simple: declaración única en el pasado."
 				}
 			}
 		},
@@ -754,6 +1750,18 @@
 				"ru": {
 					"question": "Мы договорились встретиться на следующей неделе.",
 					"explanation": "Past Simple: договорённость в прошлом."
+				},
+				"fr": {
+					"question": "Nous nous sommes mis d'accord pour nous retrouver la semaine suivante.",
+					"explanation": "Passé simple : accord dans le passé."
+				},
+				"de": {
+					"question": "Wir vereinbarten, uns in der folgenden Woche zu treffen.",
+					"explanation": "Simple Past: Vereinbarung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Acordamos vernos la semana siguiente.",
+					"explanation": "Pasado simple: acuerdo en el pasado."
 				}
 			}
 		},
@@ -763,6 +1771,18 @@
 				"ru": {
 					"question": "Он прыгнул в воду с вышки.",
 					"explanation": "Past Simple: однократное действие в прошлом."
+				},
+				"fr": {
+					"question": "Il a sauté dans l'eau depuis le plongeoir.",
+					"explanation": "Passé simple : action unique dans le passé."
+				},
+				"de": {
+					"question": "Er sprang vom Sprungbrett ins Wasser.",
+					"explanation": "Simple Past: einmalige Handlung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él saltó al agua desde el trampolín.",
+					"explanation": "Pasado simple: acción única en el pasado."
 				}
 			}
 		},
@@ -772,6 +1792,18 @@
 				"ru": {
 					"question": "Я поздравил её с днём рождения.",
 					"explanation": "Past Simple: поздравление в прошлом."
+				},
+				"fr": {
+					"question": "Je l'ai félicitée pour son anniversaire.",
+					"explanation": "Passé simple : félicitations dans le passé."
+				},
+				"de": {
+					"question": "Ich gratulierte ihr zum Geburtstag.",
+					"explanation": "Simple Past: Glückwunsch in der Vergangenheit."
+				},
+				"es": {
+					"question": "La felicité por su cumpleaños.",
+					"explanation": "Pasado simple: felicitación en el pasado."
 				}
 			}
 		},
@@ -781,6 +1813,18 @@
 				"ru": {
 					"question": "Она выиграла главный приз.",
 					"explanation": "Past Simple: победа в прошлом."
+				},
+				"fr": {
+					"question": "Elle a remporté le premier prix.",
+					"explanation": "Passé simple : victoire dans le passé."
+				},
+				"de": {
+					"question": "Sie gewann den Hauptpreis.",
+					"explanation": "Simple Past: Sieg in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella ganó el primer premio.",
+					"explanation": "Pasado simple: victoria en el pasado."
 				}
 			}
 		},
@@ -790,6 +1834,18 @@
 				"ru": {
 					"question": "Мы добрались до гостиницы поздно ночью.",
 					"explanation": "Past Simple: прибытие в гостиницу в прошлом."
+				},
+				"fr": {
+					"question": "Nous sommes arrivés à l'hôtel tard dans la nuit.",
+					"explanation": "Passé simple : arrivée à l'hôtel dans le passé."
+				},
+				"de": {
+					"question": "Wir kamen spät in der Nacht im Hotel an.",
+					"explanation": "Simple Past: Ankunft im Hotel in der Vergangenheit."
+				},
+				"es": {
+					"question": "Llegamos al hotel tarde por la noche.",
+					"explanation": "Pasado simple: llegada al hotel en el pasado."
 				}
 			}
 		},
@@ -799,6 +1855,18 @@
 				"ru": {
 					"question": "Он поссорился с другом.",
 					"explanation": "Past Simple: ссора в прошлом."
+				},
+				"fr": {
+					"question": "Il s'est disputé avec son ami.",
+					"explanation": "Passé simple : dispute dans le passé."
+				},
+				"de": {
+					"question": "Er stritt sich mit seinem Freund.",
+					"explanation": "Simple Past: Streit in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él se peleó con su amigo.",
+					"explanation": "Pasado simple: disputa en el pasado."
 				}
 			}
 		},
@@ -808,6 +1876,18 @@
 				"ru": {
 					"question": "Я заказал пиццу домой.",
 					"explanation": "Past Simple: заказ пиццы в прошлом."
+				},
+				"fr": {
+					"question": "J'ai commandé une pizza à la maison.",
+					"explanation": "Passé simple : commande de pizza dans le passé."
+				},
+				"de": {
+					"question": "Ich bestellte eine Pizza nach Hause.",
+					"explanation": "Simple Past: Pizzabestellung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Pedí una pizza a domicilio.",
+					"explanation": "Pasado simple: pedido de pizza en el pasado."
 				}
 			}
 		},
@@ -817,6 +1897,18 @@
 				"ru": {
 					"question": "Она выучила новое слово.",
 					"explanation": "Past Simple: однократное действие в прошлом."
+				},
+				"fr": {
+					"question": "Elle a appris un nouveau mot.",
+					"explanation": "Passé simple : action unique dans le passé."
+				},
+				"de": {
+					"question": "Sie lernte ein neues Wort.",
+					"explanation": "Simple Past: einmalige Handlung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella aprendió una nueva palabra.",
+					"explanation": "Pasado simple: acción única en el pasado."
 				}
 			}
 		},
@@ -826,6 +1918,18 @@
 				"ru": {
 					"question": "Мы посадили дерево в саду.",
 					"explanation": "Past Simple: посадка дерева в прошлом."
+				},
+				"fr": {
+					"question": "Nous avons planté un arbre dans le jardin.",
+					"explanation": "Passé simple : plantation d'un arbre dans le passé."
+				},
+				"de": {
+					"question": "Wir pflanzten einen Baum im Garten.",
+					"explanation": "Simple Past: Baumpflanzen in der Vergangenheit."
+				},
+				"es": {
+					"question": "Plantamos un árbol en el jardín.",
+					"explanation": "Pasado simple: plantación de un árbol en el pasado."
 				}
 			}
 		},
@@ -835,6 +1939,18 @@
 				"ru": {
 					"question": "Он разбил стакан случайно.",
 					"explanation": "Past Simple: случайное действие в прошлом."
+				},
+				"fr": {
+					"question": "Il a accidentellement cassé le verre.",
+					"explanation": "Passé simple : action accidentelle dans le passé."
+				},
+				"de": {
+					"question": "Er zerbrach versehentlich das Glas.",
+					"explanation": "Simple Past: versehentliche Handlung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él rompió el vaso accidentalmente.",
+					"explanation": "Pasado simple: acción accidental en el pasado."
 				}
 			}
 		},
@@ -844,6 +1960,18 @@
 				"ru": {
 					"question": "Я предложил ему помощь.",
 					"explanation": "Past Simple: предложение помощи в прошлом."
+				},
+				"fr": {
+					"question": "Je lui ai proposé de l'aide.",
+					"explanation": "Passé simple : offre d'aide dans le passé."
+				},
+				"de": {
+					"question": "Ich bot ihm Hilfe an.",
+					"explanation": "Simple Past: Hilfsangebot in der Vergangenheit."
+				},
+				"es": {
+					"question": "Le ofrecí ayuda.",
+					"explanation": "Pasado simple: ofrecimiento de ayuda en el pasado."
 				}
 			}
 		},
@@ -853,6 +1981,18 @@
 				"ru": {
 					"question": "Она взяла такси до аэропорта.",
 					"explanation": "Past Simple: поездка на такси в прошлом."
+				},
+				"fr": {
+					"question": "Elle a pris un taxi jusqu'à l'aéroport.",
+					"explanation": "Passé simple : trajet en taxi dans le passé."
+				},
+				"de": {
+					"question": "Sie nahm ein Taxi zum Flughafen.",
+					"explanation": "Simple Past: Taxifahrt in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella tomó un taxi hasta el aeropuerto.",
+					"explanation": "Pasado simple: viaje en taxi en el pasado."
 				}
 			}
 		},
@@ -862,6 +2002,18 @@
 				"ru": {
 					"question": "Мы обсудили этот вопрос на собрании.",
 					"explanation": "Past Simple: обсуждение на собрании."
+				},
+				"fr": {
+					"question": "Nous avons discuté de cette question lors de la réunion.",
+					"explanation": "Passé simple : discussion lors d'une réunion."
+				},
+				"de": {
+					"question": "Wir diskutierten diese Frage in der Besprechung.",
+					"explanation": "Simple Past: Diskussion in einer Besprechung."
+				},
+				"es": {
+					"question": "Discutimos este asunto en la reunión.",
+					"explanation": "Pasado simple: discusión en la reunión."
 				}
 			}
 		},
@@ -871,6 +2023,18 @@
 				"ru": {
 					"question": "Он попросил прощения.",
 					"explanation": "Past Simple: однократное действие в прошлом."
+				},
+				"fr": {
+					"question": "Il s'est excusé.",
+					"explanation": "Passé simple : action unique dans le passé."
+				},
+				"de": {
+					"question": "Er entschuldigte sich.",
+					"explanation": "Simple Past: einmalige Handlung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él se disculpó.",
+					"explanation": "Pasado simple: acción única en el pasado."
 				}
 			}
 		},
@@ -880,6 +2044,18 @@
 				"ru": {
 					"question": "Я помог ему перенести вещи.",
 					"explanation": "Past Simple: оказание помощи в прошлом."
+				},
+				"fr": {
+					"question": "Je l'ai aidé à déménager ses affaires.",
+					"explanation": "Passé simple : aide apportée dans le passé."
+				},
+				"de": {
+					"question": "Ich half ihm, seine Sachen umzuziehen.",
+					"explanation": "Simple Past: Hilfeleistung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Le ayudé a trasladar sus cosas.",
+					"explanation": "Pasado simple: ayuda prestada en el pasado."
 				}
 			}
 		},
@@ -889,6 +2065,18 @@
 				"ru": {
 					"question": "Она поблагодарила всех гостей.",
 					"explanation": "Past Simple: благодарность в прошлом."
+				},
+				"fr": {
+					"question": "Elle a remercié tous les invités.",
+					"explanation": "Passé simple : remerciements dans le passé."
+				},
+				"de": {
+					"question": "Sie dankte allen Gästen.",
+					"explanation": "Simple Past: Dankbarkeitsausdruck in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella agradeció a todos los invitados.",
+					"explanation": "Pasado simple: agradecimiento en el pasado."
 				}
 			}
 		},
@@ -898,6 +2086,18 @@
 				"ru": {
 					"question": "Мы нашли хороший ресторан случайно.",
 					"explanation": "Past Simple: случайная находка в прошлом."
+				},
+				"fr": {
+					"question": "Nous avons trouvé un bon restaurant par hasard.",
+					"explanation": "Passé simple : découverte fortuite dans le passé."
+				},
+				"de": {
+					"question": "Wir fanden zufällig ein gutes Restaurant.",
+					"explanation": "Simple Past: zufällige Entdeckung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Encontramos un buen restaurante por casualidad.",
+					"explanation": "Pasado simple: descubrimiento casual en el pasado."
 				}
 			}
 		},
@@ -907,6 +2107,18 @@
 				"ru": {
 					"question": "Он упал и ушиб колено.",
 					"explanation": "Past Simple: последовательность событий в прошлом."
+				},
+				"fr": {
+					"question": "Il est tombé et s'est blessé au genou.",
+					"explanation": "Passé simple : séquence d'événements dans le passé."
+				},
+				"de": {
+					"question": "Er fiel hin und verletzte sich am Knie.",
+					"explanation": "Simple Past: Abfolge von Ereignissen in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él se cayó y se golpeó la rodilla.",
+					"explanation": "Pasado simple: secuencia de eventos en el pasado."
 				}
 			}
 		},
@@ -916,6 +2128,18 @@
 				"ru": {
 					"question": "Я продал свою старую машину.",
 					"explanation": "Past Simple: продажа машины в прошлом."
+				},
+				"fr": {
+					"question": "J'ai vendu ma vieille voiture.",
+					"explanation": "Passé simple : vente d'une voiture dans le passé."
+				},
+				"de": {
+					"question": "Ich verkaufte mein altes Auto.",
+					"explanation": "Simple Past: Autoverkauf in der Vergangenheit."
+				},
+				"es": {
+					"question": "Vendí mi coche viejo.",
+					"explanation": "Pasado simple: venta del coche en el pasado."
 				}
 			}
 		},
@@ -925,6 +2149,18 @@
 				"ru": {
 					"question": "Она написала жалобу директору.",
 					"explanation": "Past Simple: написание жалобы в прошлом."
+				},
+				"fr": {
+					"question": "Elle a écrit une plainte au directeur.",
+					"explanation": "Passé simple : rédaction d'une plainte dans le passé."
+				},
+				"de": {
+					"question": "Sie schrieb eine Beschwerde an den Direktor.",
+					"explanation": "Simple Past: Beschwerdebrief in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella escribió una queja al director.",
+					"explanation": "Pasado simple: redacción de una queja en el pasado."
 				}
 			}
 		},
@@ -934,6 +2170,18 @@
 				"ru": {
 					"question": "Мы сфотографировали закат.",
 					"explanation": "Past Simple: фотографирование в прошлом."
+				},
+				"fr": {
+					"question": "Nous avons photographié le coucher de soleil.",
+					"explanation": "Passé simple : prise de photo dans le passé."
+				},
+				"de": {
+					"question": "Wir fotografierten den Sonnenuntergang.",
+					"explanation": "Simple Past: Fotografieren in der Vergangenheit."
+				},
+				"es": {
+					"question": "Fotografiamos el atardecer.",
+					"explanation": "Pasado simple: fotografía en el pasado."
 				}
 			}
 		},
@@ -943,6 +2191,18 @@
 				"ru": {
 					"question": "Он задал вопрос преподавателю.",
 					"explanation": "Past Simple: конкретный вопрос в прошлом."
+				},
+				"fr": {
+					"question": "Il a posé une question au professeur.",
+					"explanation": "Passé simple : question concrète dans le passé."
+				},
+				"de": {
+					"question": "Er stellte dem Lehrer eine Frage.",
+					"explanation": "Simple Past: konkrete Frage in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él le hizo una pregunta al profesor.",
+					"explanation": "Pasado simple: pregunta concreta en el pasado."
 				}
 			}
 		},
@@ -952,6 +2212,18 @@
 				"ru": {
 					"question": "Я нарисовал портрет друга.",
 					"explanation": "Past Simple: рисование портрета в прошлом."
+				},
+				"fr": {
+					"question": "J'ai dessiné le portrait de mon ami.",
+					"explanation": "Passé simple : dessin d'un portrait dans le passé."
+				},
+				"de": {
+					"question": "Ich zeichnete ein Porträt meines Freundes.",
+					"explanation": "Simple Past: Porträtzeichnen in der Vergangenheit."
+				},
+				"es": {
+					"question": "Dibujé un retrato de mi amigo.",
+					"explanation": "Pasado simple: dibujo de un retrato en el pasado."
 				}
 			}
 		},
@@ -961,6 +2233,18 @@
 				"ru": {
 					"question": "Она отказалась идти на вечеринку.",
 					"explanation": "Past Simple: отказ в прошлом."
+				},
+				"fr": {
+					"question": "Elle a refusé d'aller à la fête.",
+					"explanation": "Passé simple : refus dans le passé."
+				},
+				"de": {
+					"question": "Sie weigerte sich, auf die Party zu gehen.",
+					"explanation": "Simple Past: Ablehnung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella se negó a ir a la fiesta.",
+					"explanation": "Pasado simple: rechazo en el pasado."
 				}
 			}
 		},
@@ -970,6 +2254,18 @@
 				"ru": {
 					"question": "Мы переплыли реку вброд.",
 					"explanation": "Past Simple: переправа в прошлом."
+				},
+				"fr": {
+					"question": "Nous avons traversé la rivière à gué.",
+					"explanation": "Passé simple : traversée dans le passé."
+				},
+				"de": {
+					"question": "Wir überquerten den Fluss zu Fuß.",
+					"explanation": "Simple Past: Flussüberquerung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Cruzamos el río a pie.",
+					"explanation": "Pasado simple: cruce en el pasado."
 				}
 			}
 		},
@@ -979,6 +2275,18 @@
 				"ru": {
 					"question": "Он сыграл главную роль в спектакле.",
 					"explanation": "Past Simple: выступление в прошлом."
+				},
+				"fr": {
+					"question": "Il a joué le rôle principal dans la pièce.",
+					"explanation": "Passé simple : performance dans le passé."
+				},
+				"de": {
+					"question": "Er spielte die Hauptrolle im Theaterstück.",
+					"explanation": "Simple Past: Auftritt in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él interpretó el papel principal en la obra.",
+					"explanation": "Pasado simple: actuación en el pasado."
 				}
 			}
 		},
@@ -988,6 +2296,18 @@
 				"ru": {
 					"question": "Я оплатил счёт онлайн.",
 					"explanation": "Past Simple: оплата в прошлом."
+				},
+				"fr": {
+					"question": "J'ai payé la facture en ligne.",
+					"explanation": "Passé simple : paiement dans le passé."
+				},
+				"de": {
+					"question": "Ich bezahlte die Rechnung online.",
+					"explanation": "Simple Past: Zahlung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Pagué la factura en línea.",
+					"explanation": "Pasado simple: pago en el pasado."
 				}
 			}
 		},
@@ -997,6 +2317,18 @@
 				"ru": {
 					"question": "Она подарила мне книгу на день рождения.",
 					"explanation": "Past Simple: подарок в прошлом."
+				},
+				"fr": {
+					"question": "Elle m'a offert un livre pour mon anniversaire.",
+					"explanation": "Passé simple : cadeau dans le passé."
+				},
+				"de": {
+					"question": "Sie schenkte mir ein Buch zum Geburtstag.",
+					"explanation": "Simple Past: Geschenk in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella me regaló un libro por mi cumpleaños.",
+					"explanation": "Pasado simple: regalo en el pasado."
 				}
 			}
 		},
@@ -1006,6 +2338,18 @@
 				"ru": {
 					"question": "Мы поехали на экскурсию в горы.",
 					"explanation": "Past Simple: поездка в горы в прошлом."
+				},
+				"fr": {
+					"question": "Nous sommes partis en excursion à la montagne.",
+					"explanation": "Passé simple : voyage à la montagne dans le passé."
+				},
+				"de": {
+					"question": "Wir machten einen Ausflug in die Berge.",
+					"explanation": "Simple Past: Bergausflug in der Vergangenheit."
+				},
+				"es": {
+					"question": "Fuimos de excursión a las montañas.",
+					"explanation": "Pasado simple: excursión a las montañas en el pasado."
 				}
 			}
 		},
@@ -1015,6 +2359,18 @@
 				"ru": {
 					"question": "Он закрыл окно, потому что было холодно.",
 					"explanation": "Past Simple: действие в прошлом с причиной."
+				},
+				"fr": {
+					"question": "Il a fermé la fenêtre parce qu'il faisait froid.",
+					"explanation": "Passé simple : action dans le passé avec sa cause."
+				},
+				"de": {
+					"question": "Er schloss das Fenster, weil es kalt war.",
+					"explanation": "Simple Past: Handlung in der Vergangenheit mit Begründung."
+				},
+				"es": {
+					"question": "Él cerró la ventana porque hacía frío.",
+					"explanation": "Pasado simple: acción en el pasado con su causa."
 				}
 			}
 		},
@@ -1024,6 +2380,18 @@
 				"ru": {
 					"question": "Я пришёл на работу вовремя.",
 					"explanation": "Past Simple: приход на работу в прошлом."
+				},
+				"fr": {
+					"question": "Je suis arrivé au travail à l'heure.",
+					"explanation": "Passé simple : arrivée au travail dans le passé."
+				},
+				"de": {
+					"question": "Ich kam pünktlich zur Arbeit.",
+					"explanation": "Simple Past: Ankunft bei der Arbeit in der Vergangenheit."
+				},
+				"es": {
+					"question": "Llegué al trabajo a tiempo.",
+					"explanation": "Pasado simple: llegada al trabajo en el pasado."
 				}
 			}
 		},
@@ -1033,6 +2401,18 @@
 				"ru": {
 					"question": "Она напомнила мне о встрече.",
 					"explanation": "Past Simple: напоминание в прошлом."
+				},
+				"fr": {
+					"question": "Elle m'a rappelé la réunion.",
+					"explanation": "Passé simple : rappel dans le passé."
+				},
+				"de": {
+					"question": "Sie erinnerte mich an das Meeting.",
+					"explanation": "Simple Past: Erinnerung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella me recordó la reunión.",
+					"explanation": "Pasado simple: recordatorio en el pasado."
 				}
 			}
 		},
@@ -1042,6 +2422,18 @@
 				"ru": {
 					"question": "Мы установили новое программное обеспечение.",
 					"explanation": "Past Simple: установка программы в прошлом."
+				},
+				"fr": {
+					"question": "Nous avons installé un nouveau logiciel.",
+					"explanation": "Passé simple : installation d'un programme dans le passé."
+				},
+				"de": {
+					"question": "Wir installierten neue Software.",
+					"explanation": "Simple Past: Softwareinstallation in der Vergangenheit."
+				},
+				"es": {
+					"question": "Instalamos un nuevo software.",
+					"explanation": "Pasado simple: instalación de software en el pasado."
 				}
 			}
 		},
@@ -1051,6 +2443,18 @@
 				"ru": {
 					"question": "Он взял на себя ответственность.",
 					"explanation": "Past Simple: однократное действие в прошлом."
+				},
+				"fr": {
+					"question": "Il a pris ses responsabilités.",
+					"explanation": "Passé simple : action unique dans le passé."
+				},
+				"de": {
+					"question": "Er übernahm Verantwortung.",
+					"explanation": "Simple Past: einmalige Handlung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él asumió la responsabilidad.",
+					"explanation": "Pasado simple: acción única en el pasado."
 				}
 			}
 		},
@@ -1060,6 +2464,18 @@
 				"ru": {
 					"question": "Я показал ему дорогу.",
 					"explanation": "Past Simple: оказание помощи в прошлом."
+				},
+				"fr": {
+					"question": "Je lui ai montré le chemin.",
+					"explanation": "Passé simple : aide apportée dans le passé."
+				},
+				"de": {
+					"question": "Ich zeigte ihm den Weg.",
+					"explanation": "Simple Past: Hilfeleistung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Le indiqué el camino.",
+					"explanation": "Pasado simple: ayuda prestada en el pasado."
 				}
 			}
 		},
@@ -1069,6 +2485,18 @@
 				"ru": {
 					"question": "Она сдала экзамен на отлично.",
 					"explanation": "Past Simple: успешная сдача экзамена."
+				},
+				"fr": {
+					"question": "Elle a brillamment réussi son examen.",
+					"explanation": "Passé simple : réussite brillante d'un examen."
+				},
+				"de": {
+					"question": "Sie bestand die Prüfung mit Auszeichnung.",
+					"explanation": "Simple Past: erfolgreiche Prüfung."
+				},
+				"es": {
+					"question": "Ella aprobó el examen con distinción.",
+					"explanation": "Pasado simple: aprobación brillante del examen."
 				}
 			}
 		},
@@ -1078,6 +2506,18 @@
 				"ru": {
 					"question": "Мы выбрали новый диван.",
 					"explanation": "Past Simple: выбор дивана в прошлом."
+				},
+				"fr": {
+					"question": "Nous avons choisi un nouveau canapé.",
+					"explanation": "Passé simple : choix d'un canapé dans le passé."
+				},
+				"de": {
+					"question": "Wir wählten ein neues Sofa aus.",
+					"explanation": "Simple Past: Sofaauswahl in der Vergangenheit."
+				},
+				"es": {
+					"question": "Elegimos un sofá nuevo.",
+					"explanation": "Pasado simple: elección del sofá en el pasado."
 				}
 			}
 		},
@@ -1087,6 +2527,18 @@
 				"ru": {
 					"question": "Он сообщил о проблеме в службу поддержки.",
 					"explanation": "Past Simple: сообщение о проблеме в прошлом."
+				},
+				"fr": {
+					"question": "Il a signalé le problème au service d'assistance.",
+					"explanation": "Passé simple : signalement d'un problème dans le passé."
+				},
+				"de": {
+					"question": "Er meldete das Problem dem Support-Service.",
+					"explanation": "Simple Past: Problemmeldung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él informó del problema al servicio de atención.",
+					"explanation": "Pasado simple: notificación del problema en el pasado."
 				}
 			}
 		},
@@ -1096,6 +2548,18 @@
 				"ru": {
 					"question": "Я застрял в лифте.",
 					"explanation": "Past Simple: конкретное событие в прошлом."
+				},
+				"fr": {
+					"question": "Je suis resté bloqué dans l'ascenseur.",
+					"explanation": "Passé simple : événement concret dans le passé."
+				},
+				"de": {
+					"question": "Ich steckte im Aufzug fest.",
+					"explanation": "Simple Past: konkretes Ereignis in der Vergangenheit."
+				},
+				"es": {
+					"question": "Me quedé atascado en el ascensor.",
+					"explanation": "Pasado simple: evento concreto en el pasado."
 				}
 			}
 		},
@@ -1105,6 +2569,18 @@
 				"ru": {
 					"question": "Она выбросила старые журналы.",
 					"explanation": "Past Simple: избавление от вещей в прошлом."
+				},
+				"fr": {
+					"question": "Elle a jeté les vieux magazines.",
+					"explanation": "Passé simple : se débarrasser d'objets dans le passé."
+				},
+				"de": {
+					"question": "Sie warf die alten Zeitschriften weg.",
+					"explanation": "Simple Past: Entsorgen von Gegenständen in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella tiró las revistas viejas.",
+					"explanation": "Pasado simple: deshacerse de cosas en el pasado."
 				}
 			}
 		},
@@ -1114,6 +2590,18 @@
 				"ru": {
 					"question": "Мы сделали перерыв на обед.",
 					"explanation": "Past Simple: перерыв на обед в прошлом."
+				},
+				"fr": {
+					"question": "Nous avons fait une pause déjeuner.",
+					"explanation": "Passé simple : pause déjeuner dans le passé."
+				},
+				"de": {
+					"question": "Wir machten eine Mittagspause.",
+					"explanation": "Simple Past: Mittagspause in der Vergangenheit."
+				},
+				"es": {
+					"question": "Hicimos una pausa para comer.",
+					"explanation": "Pasado simple: pausa para el almuerzo en el pasado."
 				}
 			}
 		},
@@ -1123,6 +2611,18 @@
 				"ru": {
 					"question": "Он прочитал доклад перед аудиторией.",
 					"explanation": "Past Simple: выступление с докладом в прошлом."
+				},
+				"fr": {
+					"question": "Il a présenté son rapport devant l'auditoire.",
+					"explanation": "Passé simple : présentation d'un rapport dans le passé."
+				},
+				"de": {
+					"question": "Er hielt seinen Bericht vor dem Publikum.",
+					"explanation": "Simple Past: Berichtsvortrag in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él presentó el informe ante el público.",
+					"explanation": "Pasado simple: presentación del informe en el pasado."
 				}
 			}
 		},
@@ -1132,6 +2632,18 @@
 				"ru": {
 					"question": "Я накормил кошку.",
 					"explanation": "Past Simple: кормление кошки в прошлом."
+				},
+				"fr": {
+					"question": "J'ai nourri le chat.",
+					"explanation": "Passé simple : action dans le passé."
+				},
+				"de": {
+					"question": "Ich fütterte die Katze.",
+					"explanation": "Simple Past: Handlung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Alimenté al gato.",
+					"explanation": "Pasado simple: acción en el pasado."
 				}
 			}
 		},
@@ -1141,6 +2653,18 @@
 				"ru": {
 					"question": "Она поменяла причёску.",
 					"explanation": "Past Simple: изменение причёски в прошлом."
+				},
+				"fr": {
+					"question": "Elle a changé de coiffure.",
+					"explanation": "Passé simple : changement de coiffure dans le passé."
+				},
+				"de": {
+					"question": "Sie änderte ihre Frisur.",
+					"explanation": "Simple Past: Frisurwechsel in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella se cambió el peinado.",
+					"explanation": "Pasado simple: cambio de peinado en el pasado."
 				}
 			}
 		},
@@ -1150,6 +2674,18 @@
 				"ru": {
 					"question": "Мы навестили бабушку в воскресенье.",
 					"explanation": "Past Simple: визит к бабушке в воскресенье."
+				},
+				"fr": {
+					"question": "Nous avons rendu visite à grand-mère dimanche.",
+					"explanation": "Passé simple : visite à grand-mère un jour précis."
+				},
+				"de": {
+					"question": "Wir besuchten Oma am Sonntag.",
+					"explanation": "Simple Past: Oma-Besuch an einem bestimmten Tag."
+				},
+				"es": {
+					"question": "Visitamos a la abuela el domingo.",
+					"explanation": "Pasado simple: visita a la abuela el domingo."
 				}
 			}
 		},
@@ -1159,6 +2695,18 @@
 				"ru": {
 					"question": "Он уступил место в автобусе.",
 					"explanation": "Past Simple: уступка места в прошлом."
+				},
+				"fr": {
+					"question": "Il a cédé sa place dans le bus.",
+					"explanation": "Passé simple : cession de place dans le passé."
+				},
+				"de": {
+					"question": "Er gab seinen Sitzplatz im Bus ab.",
+					"explanation": "Simple Past: Platzabgabe in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él cedió su asiento en el autobús.",
+					"explanation": "Pasado simple: cesión del asiento en el pasado."
 				}
 			}
 		},
@@ -1168,6 +2716,18 @@
 				"ru": {
 					"question": "Я взял кредит в банке.",
 					"explanation": "Past Simple: получение кредита в прошлом."
+				},
+				"fr": {
+					"question": "J'ai contracté un prêt à la banque.",
+					"explanation": "Passé simple : obtention d'un crédit dans le passé."
+				},
+				"de": {
+					"question": "Ich nahm einen Kredit bei der Bank auf.",
+					"explanation": "Simple Past: Kreditaufnahme in der Vergangenheit."
+				},
+				"es": {
+					"question": "Pedí un préstamo en el banco.",
+					"explanation": "Pasado simple: obtención de un crédito en el pasado."
 				}
 			}
 		},
@@ -1177,6 +2737,18 @@
 				"ru": {
 					"question": "Она написала курсовую работу за ночь.",
 					"explanation": "Past Simple: написание работы в прошлом."
+				},
+				"fr": {
+					"question": "Elle a rédigé son mémoire en une nuit.",
+					"explanation": "Passé simple : rédaction d'un travail dans le passé."
+				},
+				"de": {
+					"question": "Sie schrieb ihre Hausarbeit in einer Nacht.",
+					"explanation": "Simple Past: Hausarbeit in der Vergangenheit geschrieben."
+				},
+				"es": {
+					"question": "Ella escribió su trabajo de curso en una noche.",
+					"explanation": "Pasado simple: redacción del trabajo en el pasado."
 				}
 			}
 		},
@@ -1186,6 +2758,18 @@
 				"ru": {
 					"question": "Мы погуляли в парке после ужина.",
 					"explanation": "Past Simple: прогулка в прошлом."
+				},
+				"fr": {
+					"question": "Nous nous sommes promenés dans le parc après le dîner.",
+					"explanation": "Passé simple : promenade dans le passé."
+				},
+				"de": {
+					"question": "Wir spazierten nach dem Abendessen im Park.",
+					"explanation": "Simple Past: Spaziergang in der Vergangenheit."
+				},
+				"es": {
+					"question": "Paseamos por el parque después de cenar.",
+					"explanation": "Pasado simple: paseo en el pasado."
 				}
 			}
 		},
@@ -1195,6 +2779,18 @@
 				"ru": {
 					"question": "Он выпил стакан воды и успокоился.",
 					"explanation": "Past Simple: последовательность действий."
+				},
+				"fr": {
+					"question": "Il a bu un verre d'eau et s'est calmé.",
+					"explanation": "Passé simple : séquence d'actions."
+				},
+				"de": {
+					"question": "Er trank ein Glas Wasser und beruhigte sich.",
+					"explanation": "Simple Past: Abfolge von Handlungen."
+				},
+				"es": {
+					"question": "Él bebió un vaso de agua y se calmó.",
+					"explanation": "Pasado simple: secuencia de acciones."
 				}
 			}
 		},
@@ -1204,6 +2800,18 @@
 				"ru": {
 					"question": "Я получил повышение в прошлом квартале.",
 					"explanation": "Past Simple: повышение в прошлом квартале."
+				},
+				"fr": {
+					"question": "J'ai été promu le trimestre dernier.",
+					"explanation": "Passé simple : promotion le trimestre dernier."
+				},
+				"de": {
+					"question": "Ich wurde im letzten Quartal befördert.",
+					"explanation": "Simple Past: Beförderung im letzten Quartal."
+				},
+				"es": {
+					"question": "Me ascendieron el trimestre pasado.",
+					"explanation": "Pasado simple: ascenso el trimestre pasado."
 				}
 			}
 		},
@@ -1213,6 +2821,18 @@
 				"ru": {
 					"question": "Она взяла отпуск в августе.",
 					"explanation": "Past Simple: отпуск в конкретный месяц."
+				},
+				"fr": {
+					"question": "Elle a pris ses vacances en août.",
+					"explanation": "Passé simple : vacances en un mois précis."
+				},
+				"de": {
+					"question": "Sie machte im August Urlaub.",
+					"explanation": "Simple Past: Urlaub in einem bestimmten Monat."
+				},
+				"es": {
+					"question": "Ella se tomó las vacaciones en agosto.",
+					"explanation": "Pasado simple: vacaciones en un mes concreto."
 				}
 			}
 		},
@@ -1222,6 +2842,18 @@
 				"ru": {
 					"question": "Мы арендовали машину на неделю.",
 					"explanation": "Past Simple: аренда машины в прошлом."
+				},
+				"fr": {
+					"question": "Nous avons loué une voiture pour une semaine.",
+					"explanation": "Passé simple : location d'une voiture dans le passé."
+				},
+				"de": {
+					"question": "Wir mieteten ein Auto für eine Woche.",
+					"explanation": "Simple Past: Automiete in der Vergangenheit."
+				},
+				"es": {
+					"question": "Alquilamos un coche por una semana.",
+					"explanation": "Pasado simple: alquiler de coche en el pasado."
 				}
 			}
 		},
@@ -1231,6 +2863,18 @@
 				"ru": {
 					"question": "Он нарушил правила дорожного движения.",
 					"explanation": "Past Simple: нарушение правил в прошлом."
+				},
+				"fr": {
+					"question": "Il a enfreint le code de la route.",
+					"explanation": "Passé simple : infraction aux règles dans le passé."
+				},
+				"de": {
+					"question": "Er verstieß gegen die Verkehrsregeln.",
+					"explanation": "Simple Past: Regelverstoß in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él infringió las normas de tráfico.",
+					"explanation": "Pasado simple: infracción de las normas en el pasado."
 				}
 			}
 		},
@@ -1240,6 +2884,18 @@
 				"ru": {
 					"question": "Я распечатал документ.",
 					"explanation": "Past Simple: распечатка документа в прошлом."
+				},
+				"fr": {
+					"question": "J'ai imprimé le document.",
+					"explanation": "Passé simple : impression d'un document dans le passé."
+				},
+				"de": {
+					"question": "Ich druckte das Dokument aus.",
+					"explanation": "Simple Past: Dokumentendruck in der Vergangenheit."
+				},
+				"es": {
+					"question": "Imprimí el documento.",
+					"explanation": "Pasado simple: impresión del documento en el pasado."
 				}
 			}
 		},
@@ -1249,6 +2905,18 @@
 				"ru": {
 					"question": "Она обняла ребёнка.",
 					"explanation": "Past Simple: однократное действие в прошлом."
+				},
+				"fr": {
+					"question": "Elle a serré l'enfant dans ses bras.",
+					"explanation": "Passé simple : action unique dans le passé."
+				},
+				"de": {
+					"question": "Sie umarmte das Kind.",
+					"explanation": "Simple Past: einmalige Handlung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella abrazó al niño.",
+					"explanation": "Pasado simple: acción única en el pasado."
 				}
 			}
 		},
@@ -1258,6 +2926,18 @@
 				"ru": {
 					"question": "Мы пригласили соседей на ужин.",
 					"explanation": "Past Simple: приглашение в прошлом."
+				},
+				"fr": {
+					"question": "Nous avons invité les voisins à dîner.",
+					"explanation": "Passé simple : invitation dans le passé."
+				},
+				"de": {
+					"question": "Wir luden die Nachbarn zum Abendessen ein.",
+					"explanation": "Simple Past: Einladung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Invitamos a los vecinos a cenar.",
+					"explanation": "Pasado simple: invitación en el pasado."
 				}
 			}
 		},
@@ -1267,6 +2947,18 @@
 				"ru": {
 					"question": "Он перешёл на другую работу.",
 					"explanation": "Past Simple: смена работы в прошлом."
+				},
+				"fr": {
+					"question": "Il a changé de travail.",
+					"explanation": "Passé simple : changement de travail dans le passé."
+				},
+				"de": {
+					"question": "Er wechselte seinen Job.",
+					"explanation": "Simple Past: Jobwechsel in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él cambió de trabajo.",
+					"explanation": "Pasado simple: cambio de trabajo en el pasado."
 				}
 			}
 		},
@@ -1276,6 +2968,18 @@
 				"ru": {
 					"question": "Я скачал приложение.",
 					"explanation": "Past Simple: скачивание приложения в прошлом."
+				},
+				"fr": {
+					"question": "J'ai téléchargé l'application.",
+					"explanation": "Passé simple : téléchargement dans le passé."
+				},
+				"de": {
+					"question": "Ich lud die App herunter.",
+					"explanation": "Simple Past: App-Download in der Vergangenheit."
+				},
+				"es": {
+					"question": "Descargué la aplicación.",
+					"explanation": "Pasado simple: descarga de la aplicación en el pasado."
 				}
 			}
 		},
@@ -1285,6 +2989,18 @@
 				"ru": {
 					"question": "Она открыла своё кафе в прошлом году.",
 					"explanation": "Past Simple: открытие кафе в прошлом году."
+				},
+				"fr": {
+					"question": "Elle a ouvert son propre café l'année dernière.",
+					"explanation": "Passé simple : ouverture d'un café l'année dernière."
+				},
+				"de": {
+					"question": "Sie eröffnete letztes Jahr ihr eigenes Café.",
+					"explanation": "Simple Past: Café-Eröffnung letztes Jahr."
+				},
+				"es": {
+					"question": "Ella abrió su propio café el año pasado.",
+					"explanation": "Pasado simple: apertura del café el año pasado."
 				}
 			}
 		},
@@ -1294,6 +3010,18 @@
 				"ru": {
 					"question": "Мы обменялись номерами телефонов.",
 					"explanation": "Past Simple: обмен номерами в прошлом."
+				},
+				"fr": {
+					"question": "Nous avons échangé nos numéros de téléphone.",
+					"explanation": "Passé simple : échange de numéros dans le passé."
+				},
+				"de": {
+					"question": "Wir tauschten Telefonnummern aus.",
+					"explanation": "Simple Past: Nummernaustausch in der Vergangenheit."
+				},
+				"es": {
+					"question": "Intercambiamos números de teléfono.",
+					"explanation": "Pasado simple: intercambio de números en el pasado."
 				}
 			}
 		},
@@ -1303,6 +3031,18 @@
 				"ru": {
 					"question": "Он опубликовал статью в журнале.",
 					"explanation": "Past Simple: публикация в прошлом."
+				},
+				"fr": {
+					"question": "Il a publié un article dans une revue.",
+					"explanation": "Passé simple : publication dans le passé."
+				},
+				"de": {
+					"question": "Er veröffentlichte einen Artikel in einer Zeitschrift.",
+					"explanation": "Simple Past: Veröffentlichung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él publicó un artículo en una revista.",
+					"explanation": "Pasado simple: publicación en el pasado."
 				}
 			}
 		},
@@ -1312,6 +3052,18 @@
 				"ru": {
 					"question": "Я потратил все деньги.",
 					"explanation": "Past Simple: трата денег в прошлом."
+				},
+				"fr": {
+					"question": "J'ai dépensé tout mon argent.",
+					"explanation": "Passé simple : dépense d'argent dans le passé."
+				},
+				"de": {
+					"question": "Ich gab all mein Geld aus.",
+					"explanation": "Simple Past: Geldausgeben in der Vergangenheit."
+				},
+				"es": {
+					"question": "Gasté todo mi dinero.",
+					"explanation": "Pasado simple: gasto de dinero en el pasado."
 				}
 			}
 		},
@@ -1321,6 +3073,18 @@
 				"ru": {
 					"question": "Она поменяла работу три месяца назад.",
 					"explanation": "Past Simple: смена работы три месяца назад."
+				},
+				"fr": {
+					"question": "Elle a changé de travail il y a trois mois.",
+					"explanation": "Passé simple : changement de travail il y a trois mois."
+				},
+				"de": {
+					"question": "Sie wechselte vor drei Monaten ihren Job.",
+					"explanation": "Simple Past: Jobwechsel vor drei Monaten."
+				},
+				"es": {
+					"question": "Ella cambió de trabajo hace tres meses.",
+					"explanation": "Pasado simple: cambio de trabajo hace tres meses."
 				}
 			}
 		},
@@ -1330,6 +3094,18 @@
 				"ru": {
 					"question": "Мы встретили рассвет на горе.",
 					"explanation": "Past Simple: встреча рассвета в прошлом."
+				},
+				"fr": {
+					"question": "Nous avons regardé le lever du soleil à la montagne.",
+					"explanation": "Passé simple : lever du soleil dans le passé."
+				},
+				"de": {
+					"question": "Wir erlebten den Sonnenaufgang auf dem Berg.",
+					"explanation": "Simple Past: Sonnenaufgang in der Vergangenheit erlebt."
+				},
+				"es": {
+					"question": "Contemplamos el amanecer en la montaña.",
+					"explanation": "Pasado simple: contemplación del amanecer en el pasado."
 				}
 			}
 		},
@@ -1339,6 +3115,18 @@
 				"ru": {
 					"question": "Он замёрз по дороге домой.",
 					"explanation": "Past Simple: конкретная ситуация в прошлом."
+				},
+				"fr": {
+					"question": "Il a eu froid en rentrant chez lui.",
+					"explanation": "Passé simple : situation concrète dans le passé."
+				},
+				"de": {
+					"question": "Er fror auf dem Weg nach Hause.",
+					"explanation": "Simple Past: konkrete Situation in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él pasó frío de camino a casa.",
+					"explanation": "Pasado simple: situación concreta en el pasado."
 				}
 			}
 		},
@@ -1348,6 +3136,18 @@
 				"ru": {
 					"question": "Я уснул во время фильма.",
 					"explanation": "Past Simple: засыпание в прошлом."
+				},
+				"fr": {
+					"question": "Je me suis endormi pendant le film.",
+					"explanation": "Passé simple : action d'endormissement dans le passé."
+				},
+				"de": {
+					"question": "Ich schlief während des Films ein.",
+					"explanation": "Simple Past: Einschlafen in der Vergangenheit."
+				},
+				"es": {
+					"question": "Me quedé dormido durante la película.",
+					"explanation": "Pasado simple: quedarse dormido en el pasado."
 				}
 			}
 		},
@@ -1357,6 +3157,18 @@
 				"ru": {
 					"question": "Она оставила сумку в такси.",
 					"explanation": "Past Simple: забывание вещи в прошлом."
+				},
+				"fr": {
+					"question": "Elle a oublié son sac dans le taxi.",
+					"explanation": "Passé simple : oubli d'un objet dans le passé."
+				},
+				"de": {
+					"question": "Sie ließ ihre Tasche im Taxi liegen.",
+					"explanation": "Simple Past: Vergessen eines Gegenstands in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella dejó su bolso en el taxi.",
+					"explanation": "Pasado simple: olvido de un objeto en el pasado."
 				}
 			}
 		},
@@ -1366,6 +3178,18 @@
 				"ru": {
 					"question": "Мы отказались от поездки из-за погоды.",
 					"explanation": "Past Simple: отмена поездки в прошлом."
+				},
+				"fr": {
+					"question": "Nous avons annulé le voyage à cause du mauvais temps.",
+					"explanation": "Passé simple : annulation d'un voyage dans le passé."
+				},
+				"de": {
+					"question": "Wir sagten die Reise wegen des Wetters ab.",
+					"explanation": "Simple Past: Reiseabsage in der Vergangenheit."
+				},
+				"es": {
+					"question": "Cancelamos el viaje por el mal tiempo.",
+					"explanation": "Pasado simple: cancelación del viaje en el pasado."
 				}
 			}
 		},
@@ -1375,6 +3199,18 @@
 				"ru": {
 					"question": "Он сдержал своё обещание.",
 					"explanation": "Past Simple: выполнение обещания в прошлом."
+				},
+				"fr": {
+					"question": "Il a tenu sa promesse.",
+					"explanation": "Passé simple : respect d'une promesse dans le passé."
+				},
+				"de": {
+					"question": "Er hielt sein Versprechen.",
+					"explanation": "Simple Past: Versprechen halten in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él cumplió su promesa.",
+					"explanation": "Pasado simple: cumplimiento de una promesa en el pasado."
 				}
 			}
 		},
@@ -1384,6 +3220,18 @@
 				"ru": {
 					"question": "Я выбросил мусор.",
 					"explanation": "Past Simple: бытовое действие в прошлом."
+				},
+				"fr": {
+					"question": "J'ai sorti les poubelles.",
+					"explanation": "Passé simple : action quotidienne dans le passé."
+				},
+				"de": {
+					"question": "Ich brachte den Müll raus.",
+					"explanation": "Simple Past: alltägliche Handlung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Saqué la basura.",
+					"explanation": "Pasado simple: acción cotidiana en el pasado."
 				}
 			}
 		},
@@ -1393,6 +3241,18 @@
 				"ru": {
 					"question": "Она получила грант на исследование.",
 					"explanation": "Past Simple: получение гранта в прошлом."
+				},
+				"fr": {
+					"question": "Elle a reçu une bourse de recherche.",
+					"explanation": "Passé simple : réception d'une bourse dans le passé."
+				},
+				"de": {
+					"question": "Sie erhielt ein Forschungsstipendium.",
+					"explanation": "Simple Past: Stipendiumerhalt in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella recibió una beca de investigación.",
+					"explanation": "Pasado simple: recepción de una beca en el pasado."
 				}
 			}
 		},
@@ -1402,6 +3262,18 @@
 				"ru": {
 					"question": "Мы сфотографировались на память.",
 					"explanation": "Past Simple: фотографирование в прошлом."
+				},
+				"fr": {
+					"question": "Nous nous sommes pris en photo en souvenir.",
+					"explanation": "Passé simple : prise de photo dans le passé."
+				},
+				"de": {
+					"question": "Wir machten ein Erinnerungsfoto.",
+					"explanation": "Simple Past: Erinnerungsfoto in der Vergangenheit."
+				},
+				"es": {
+					"question": "Nos hicimos una foto como recuerdo.",
+					"explanation": "Pasado simple: foto como recuerdo en el pasado."
 				}
 			}
 		},
@@ -1411,6 +3283,18 @@
 				"ru": {
 					"question": "Он ответил на все вопросы.",
 					"explanation": "Past Simple: ответы на вопросы в прошлом."
+				},
+				"fr": {
+					"question": "Il a répondu à toutes les questions.",
+					"explanation": "Passé simple : réponses aux questions dans le passé."
+				},
+				"de": {
+					"question": "Er beantwortete alle Fragen.",
+					"explanation": "Simple Past: Beantwortung aller Fragen in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él respondió a todas las preguntas.",
+					"explanation": "Pasado simple: respuesta a las preguntas en el pasado."
 				}
 			}
 		},
@@ -1420,6 +3304,18 @@
 				"ru": {
 					"question": "Я забронировал номер в гостинице.",
 					"explanation": "Past Simple: бронирование в прошлом."
+				},
+				"fr": {
+					"question": "J'ai réservé une chambre à l'hôtel.",
+					"explanation": "Passé simple : réservation dans le passé."
+				},
+				"de": {
+					"question": "Ich buchte ein Zimmer im Hotel.",
+					"explanation": "Simple Past: Hotelbuchung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Reservé una habitación en el hotel.",
+					"explanation": "Pasado simple: reserva en el pasado."
 				}
 			}
 		},
@@ -1429,6 +3325,18 @@
 				"ru": {
 					"question": "Она вспомнила важную деталь.",
 					"explanation": "Past Simple: воспоминание как событие."
+				},
+				"fr": {
+					"question": "Elle s'est souvenue d'un détail important.",
+					"explanation": "Passé simple : souvenir comme événement."
+				},
+				"de": {
+					"question": "Sie erinnerte sich an ein wichtiges Detail.",
+					"explanation": "Simple Past: Erinnerung als Ereignis."
+				},
+				"es": {
+					"question": "Ella recordó un detalle importante.",
+					"explanation": "Pasado simple: recuerdo como evento."
 				}
 			}
 		},
@@ -1438,6 +3346,18 @@
 				"ru": {
 					"question": "Мы разделили счёт поровну.",
 					"explanation": "Past Simple: разделение счёта в прошлом."
+				},
+				"fr": {
+					"question": "Nous avons partagé l'addition à parts égales.",
+					"explanation": "Passé simple : partage de l'addition dans le passé."
+				},
+				"de": {
+					"question": "Wir teilten die Rechnung gleichmäßig auf.",
+					"explanation": "Simple Past: Rechnungsaufteilung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Dividimos la cuenta a partes iguales.",
+					"explanation": "Pasado simple: división de la cuenta en el pasado."
 				}
 			}
 		},
@@ -1447,6 +3367,18 @@
 				"ru": {
 					"question": "Он сорвал цветок и подарил ей.",
 					"explanation": "Past Simple: последовательные действия в прошлом."
+				},
+				"fr": {
+					"question": "Il a cueilli une fleur et la lui a offerte.",
+					"explanation": "Passé simple : actions successives dans le passé."
+				},
+				"de": {
+					"question": "Er pflückte eine Blume und schenkte sie ihr.",
+					"explanation": "Simple Past: aufeinanderfolgende Handlungen in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él cogió una flor y se la regaló.",
+					"explanation": "Pasado simple: acciones sucesivas en el pasado."
 				}
 			}
 		},
@@ -1456,6 +3388,18 @@
 				"ru": {
 					"question": "Я выключил телефон на время совещания.",
 					"explanation": "Past Simple: действие перед совещанием."
+				},
+				"fr": {
+					"question": "J'ai éteint mon téléphone pendant la réunion.",
+					"explanation": "Passé simple : action avant la réunion."
+				},
+				"de": {
+					"question": "Ich schaltete mein Handy während der Besprechung aus.",
+					"explanation": "Simple Past: Handlung vor der Besprechung."
+				},
+				"es": {
+					"question": "Apagué el teléfono durante la reunión.",
+					"explanation": "Pasado simple: acción durante la reunión."
 				}
 			}
 		},
@@ -1465,6 +3409,18 @@
 				"ru": {
 					"question": "Она попала в аварию на прошлой неделе.",
 					"explanation": "Past Simple: событие на прошлой неделе."
+				},
+				"fr": {
+					"question": "Elle a eu un accident la semaine dernière.",
+					"explanation": "Passé simple : événement la semaine dernière."
+				},
+				"de": {
+					"question": "Sie hatte letzte Woche einen Unfall.",
+					"explanation": "Simple Past: Ereignis letzte Woche."
+				},
+				"es": {
+					"question": "Ella tuvo un accidente la semana pasada.",
+					"explanation": "Pasado simple: evento la semana pasada."
 				}
 			}
 		},
@@ -1474,6 +3430,18 @@
 				"ru": {
 					"question": "Мы получили посылку вчера.",
 					"explanation": "Past Simple: получение посылки вчера."
+				},
+				"fr": {
+					"question": "Nous avons reçu le colis hier.",
+					"explanation": "Passé simple : réception d'un colis hier."
+				},
+				"de": {
+					"question": "Wir erhielten das Paket gestern.",
+					"explanation": "Simple Past: Paketerhalt gestern."
+				},
+				"es": {
+					"question": "Recibimos el paquete ayer.",
+					"explanation": "Pasado simple: recepción del paquete ayer."
 				}
 			}
 		},
@@ -1483,6 +3451,18 @@
 				"ru": {
 					"question": "Он сыграл в шахматы с отцом.",
 					"explanation": "Past Simple: игра в шахматы в прошлом."
+				},
+				"fr": {
+					"question": "Il a joué aux échecs avec son père.",
+					"explanation": "Passé simple : partie d'échecs dans le passé."
+				},
+				"de": {
+					"question": "Er spielte Schach mit seinem Vater.",
+					"explanation": "Simple Past: Schachspiel in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él jugó al ajedrez con su padre.",
+					"explanation": "Pasado simple: partida de ajedrez en el pasado."
 				}
 			}
 		},
@@ -1492,6 +3472,18 @@
 				"ru": {
 					"question": "Я почистил зубы и умылся.",
 					"explanation": "Past Simple: утренний распорядок в прошлом."
+				},
+				"fr": {
+					"question": "Je me suis brossé les dents et lavé le visage.",
+					"explanation": "Passé simple : routine matinale dans le passé."
+				},
+				"de": {
+					"question": "Ich putzte mir die Zähne und wusch mein Gesicht.",
+					"explanation": "Simple Past: Morgenroutine in der Vergangenheit."
+				},
+				"es": {
+					"question": "Me cepillé los dientes y me lavé la cara.",
+					"explanation": "Pasado simple: rutina matutina en el pasado."
 				}
 			}
 		},
@@ -1501,6 +3493,18 @@
 				"ru": {
 					"question": "Она отправила резюме в несколько компаний.",
 					"explanation": "Past Simple: отправка резюме в прошлом."
+				},
+				"fr": {
+					"question": "Elle a envoyé son CV à plusieurs entreprises.",
+					"explanation": "Passé simple : envoi de CV dans le passé."
+				},
+				"de": {
+					"question": "Sie schickte ihren Lebenslauf an mehrere Unternehmen.",
+					"explanation": "Simple Past: Lebenslaufversand in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella envió su CV a varias empresas.",
+					"explanation": "Pasado simple: envío del CV en el pasado."
 				}
 			}
 		},
@@ -1510,6 +3514,18 @@
 				"ru": {
 					"question": "Мы провели целый день на пляже.",
 					"explanation": "Past Simple: день на пляже в прошлом."
+				},
+				"fr": {
+					"question": "Nous avons passé toute la journée à la plage.",
+					"explanation": "Passé simple : journée à la plage dans le passé."
+				},
+				"de": {
+					"question": "Wir verbrachten den ganzen Tag am Strand.",
+					"explanation": "Simple Past: Strandtag in der Vergangenheit."
+				},
+				"es": {
+					"question": "Pasamos todo el día en la playa.",
+					"explanation": "Pasado simple: día en la playa en el pasado."
 				}
 			}
 		},
@@ -1519,6 +3535,18 @@
 				"ru": {
 					"question": "Он сообщил плохую новость мягко.",
 					"explanation": "Past Simple: сообщение новости в прошлом."
+				},
+				"fr": {
+					"question": "Il a annoncé la mauvaise nouvelle avec délicatesse.",
+					"explanation": "Passé simple : annonce d'une nouvelle dans le passé."
+				},
+				"de": {
+					"question": "Er überbrachte die schlechte Nachricht behutsam.",
+					"explanation": "Simple Past: Nachrichtenübermittlung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él comunicó la mala noticia con delicadeza.",
+					"explanation": "Pasado simple: comunicación de la noticia en el pasado."
 				}
 			}
 		},
@@ -1528,6 +3556,18 @@
 				"ru": {
 					"question": "Я исправил ошибку в документе.",
 					"explanation": "Past Simple: исправление ошибки в прошлом."
+				},
+				"fr": {
+					"question": "J'ai corrigé l'erreur dans le document.",
+					"explanation": "Passé simple : correction d'une erreur dans le passé."
+				},
+				"de": {
+					"question": "Ich korrigierte den Fehler im Dokument.",
+					"explanation": "Simple Past: Fehlerkorrektur in der Vergangenheit."
+				},
+				"es": {
+					"question": "Corregí el error en el documento.",
+					"explanation": "Pasado simple: corrección del error en el pasado."
 				}
 			}
 		},
@@ -1537,6 +3577,18 @@
 				"ru": {
 					"question": "Она нашла потерянный кошелёк.",
 					"explanation": "Past Simple: находка кошелька в прошлом."
+				},
+				"fr": {
+					"question": "Elle a retrouvé le portefeuille perdu.",
+					"explanation": "Passé simple : découverte du portefeuille dans le passé."
+				},
+				"de": {
+					"question": "Sie fand die verlorene Geldbörse.",
+					"explanation": "Simple Past: Fund der Geldbörse in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella encontró la cartera perdida.",
+					"explanation": "Pasado simple: hallazgo de la cartera en el pasado."
 				}
 			}
 		},
@@ -1546,6 +3598,18 @@
 				"ru": {
 					"question": "Мы поздравили команду с победой.",
 					"explanation": "Past Simple: поздравление в прошлом."
+				},
+				"fr": {
+					"question": "Nous avons félicité l'équipe pour sa victoire.",
+					"explanation": "Passé simple : félicitations dans le passé."
+				},
+				"de": {
+					"question": "Wir gratulierten dem Team zum Sieg.",
+					"explanation": "Simple Past: Glückwunsch in der Vergangenheit."
+				},
+				"es": {
+					"question": "Felicitamos al equipo por la victoria.",
+					"explanation": "Pasado simple: felicitación en el pasado."
 				}
 			}
 		},
@@ -1555,6 +3619,18 @@
 				"ru": {
 					"question": "Он вернул книгу в библиотеку.",
 					"explanation": "Past Simple: возврат книги в прошлом."
+				},
+				"fr": {
+					"question": "Il a rendu le livre à la bibliothèque.",
+					"explanation": "Passé simple : retour d'un livre dans le passé."
+				},
+				"de": {
+					"question": "Er gab das Buch in der Bibliothek zurück.",
+					"explanation": "Simple Past: Bücherrückgabe in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él devolvió el libro a la biblioteca.",
+					"explanation": "Pasado simple: devolución del libro en el pasado."
 				}
 			}
 		},
@@ -1564,6 +3640,18 @@
 				"ru": {
 					"question": "Я приготовил завтрак для семьи.",
 					"explanation": "Past Simple: приготовление завтрака в прошлом."
+				},
+				"fr": {
+					"question": "J'ai préparé le petit-déjeuner pour la famille.",
+					"explanation": "Passé simple : préparation du petit-déjeuner dans le passé."
+				},
+				"de": {
+					"question": "Ich bereitete das Frühstück für die Familie vor.",
+					"explanation": "Simple Past: Frühstückszubereitung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Preparé el desayuno para la familia.",
+					"explanation": "Pasado simple: preparación del desayuno en el pasado."
 				}
 			}
 		},
@@ -1573,6 +3661,18 @@
 				"ru": {
 					"question": "Она подала заявку на визу.",
 					"explanation": "Past Simple: подача заявки в прошлом."
+				},
+				"fr": {
+					"question": "Elle a fait une demande de visa.",
+					"explanation": "Passé simple : dépôt d'une demande dans le passé."
+				},
+				"de": {
+					"question": "Sie beantragte ein Visum.",
+					"explanation": "Simple Past: Visumantrag in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella solicitó un visado.",
+					"explanation": "Pasado simple: solicitud de visado en el pasado."
 				}
 			}
 		},
@@ -1582,6 +3682,18 @@
 				"ru": {
 					"question": "Мы опоздали на самолёт.",
 					"explanation": "Past Simple: опоздание на самолёт."
+				},
+				"fr": {
+					"question": "Nous avons raté notre vol.",
+					"explanation": "Passé simple : arrivée tardive à l'aéroport."
+				},
+				"de": {
+					"question": "Wir verpassten unseren Flug.",
+					"explanation": "Simple Past: Verpassen des Flugs."
+				},
+				"es": {
+					"question": "Perdimos nuestro vuelo.",
+					"explanation": "Pasado simple: pérdida del vuelo."
 				}
 			}
 		},
@@ -1591,6 +3703,18 @@
 				"ru": {
 					"question": "Он нашёл выход из сложной ситуации.",
 					"explanation": "Past Simple: нахождение решения в прошлом."
+				},
+				"fr": {
+					"question": "Il a trouvé une issue à une situation difficile.",
+					"explanation": "Passé simple : trouver une solution dans le passé."
+				},
+				"de": {
+					"question": "Er fand einen Ausweg aus einer schwierigen Situation.",
+					"explanation": "Simple Past: Lösungsfinden in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él encontró una salida a una situación difícil.",
+					"explanation": "Pasado simple: hallazgo de solución en el pasado."
 				}
 			}
 		},
@@ -1600,6 +3724,18 @@
 				"ru": {
 					"question": "Я перезвонил ему сразу.",
 					"explanation": "Past Simple: ответный звонок в прошлом."
+				},
+				"fr": {
+					"question": "Je l'ai rappelé immédiatement.",
+					"explanation": "Passé simple : rappel dans le passé."
+				},
+				"de": {
+					"question": "Ich rief ihn sofort zurück.",
+					"explanation": "Simple Past: Rückruf in der Vergangenheit."
+				},
+				"es": {
+					"question": "Le devolví la llamada de inmediato.",
+					"explanation": "Pasado simple: devolución de llamada en el pasado."
 				}
 			}
 		},
@@ -1609,6 +3745,18 @@
 				"ru": {
 					"question": "Она стала лучшей студенткой курса.",
 					"explanation": "Past Simple: достижение статуса в прошлом."
+				},
+				"fr": {
+					"question": "Elle est devenue la meilleure étudiante de sa promotion.",
+					"explanation": "Passé simple : atteinte d'un statut dans le passé."
+				},
+				"de": {
+					"question": "Sie wurde die beste Studentin ihres Jahrgangs.",
+					"explanation": "Simple Past: Statuserreichung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella se convirtió en la mejor estudiante de su curso.",
+					"explanation": "Pasado simple: logro de un estatus en el pasado."
 				}
 			}
 		},
@@ -1618,6 +3766,18 @@
 				"ru": {
 					"question": "Мы нашли хороший отель по интернету.",
 					"explanation": "Past Simple: поиск отеля в прошлом."
+				},
+				"fr": {
+					"question": "Nous avons trouvé un bon hôtel sur Internet.",
+					"explanation": "Passé simple : recherche d'hôtel dans le passé."
+				},
+				"de": {
+					"question": "Wir fanden ein gutes Hotel im Internet.",
+					"explanation": "Simple Past: Hotelsuche in der Vergangenheit."
+				},
+				"es": {
+					"question": "Encontramos un buen hotel por internet.",
+					"explanation": "Pasado simple: búsqueda de hotel en el pasado."
 				}
 			}
 		},
@@ -1627,6 +3787,18 @@
 				"ru": {
 					"question": "Он пожал руку всем присутствующим.",
 					"explanation": "Past Simple: приветствие в прошлом."
+				},
+				"fr": {
+					"question": "Il a serré la main à toutes les personnes présentes.",
+					"explanation": "Passé simple : salutation dans le passé."
+				},
+				"de": {
+					"question": "Er schüttelte allen Anwesenden die Hand.",
+					"explanation": "Simple Past: Begrüßung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él estrechó la mano a todos los presentes.",
+					"explanation": "Pasado simple: saludo en el pasado."
 				}
 			}
 		},
@@ -1636,6 +3808,18 @@
 				"ru": {
 					"question": "Я расстегнул пальто и вошёл.",
 					"explanation": "Past Simple: последовательные действия при входе."
+				},
+				"fr": {
+					"question": "J'ai déboutonné mon manteau et je suis entré.",
+					"explanation": "Passé simple : actions successives à l'entrée."
+				},
+				"de": {
+					"question": "Ich knöpfte meinen Mantel auf und kam herein.",
+					"explanation": "Simple Past: aufeinanderfolgende Handlungen beim Eintreten."
+				},
+				"es": {
+					"question": "Me desabroché el abrigo y entré.",
+					"explanation": "Pasado simple: acciones sucesivas al entrar."
 				}
 			}
 		},
@@ -1645,6 +3829,18 @@
 				"ru": {
 					"question": "Она встала, улыбнулась и вышла.",
 					"explanation": "Past Simple: последовательность действий в прошлом."
+				},
+				"fr": {
+					"question": "Elle s'est levée, a souri et est partie.",
+					"explanation": "Passé simple : séquence d'actions dans le passé."
+				},
+				"de": {
+					"question": "Sie stand auf, lächelte und ging.",
+					"explanation": "Simple Past: Abfolge von Handlungen in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella se levantó, sonrió y se fue.",
+					"explanation": "Pasado simple: secuencia de acciones en el pasado."
 				}
 			}
 		},
@@ -1654,6 +3850,18 @@
 				"ru": {
 					"question": "Мы приняли участие в конкурсе.",
 					"explanation": "Past Simple: участие в конкурсе в прошлом."
+				},
+				"fr": {
+					"question": "Nous avons participé au concours.",
+					"explanation": "Passé simple : participation à un concours dans le passé."
+				},
+				"de": {
+					"question": "Wir nahmen am Wettbewerb teil.",
+					"explanation": "Simple Past: Teilnahme am Wettbewerb in der Vergangenheit."
+				},
+				"es": {
+					"question": "Participamos en el concurso.",
+					"explanation": "Pasado simple: participación en el concurso en el pasado."
 				}
 			}
 		},
@@ -1663,6 +3871,18 @@
 				"ru": {
 					"question": "Он понял задачу и приступил к работе.",
 					"explanation": "Past Simple: последовательность действий в прошлом."
+				},
+				"fr": {
+					"question": "Il a compris la tâche et s'est mis au travail.",
+					"explanation": "Passé simple : séquence d'actions dans le passé."
+				},
+				"de": {
+					"question": "Er verstand die Aufgabe und machte sich an die Arbeit.",
+					"explanation": "Simple Past: Abfolge von Handlungen in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él entendió la tarea y se puso a trabajar.",
+					"explanation": "Pasado simple: secuencia de acciones en el pasado."
 				}
 			}
 		},
@@ -1672,6 +3892,18 @@
 				"ru": {
 					"question": "Я взял отгул на один день.",
 					"explanation": "Past Simple: отгул в прошлом."
+				},
+				"fr": {
+					"question": "J'ai pris un jour de congé.",
+					"explanation": "Passé simple : congé dans le passé."
+				},
+				"de": {
+					"question": "Ich nahm einen freien Tag.",
+					"explanation": "Simple Past: freier Tag in der Vergangenheit."
+				},
+				"es": {
+					"question": "Me tomé un día libre.",
+					"explanation": "Pasado simple: día libre en el pasado."
 				}
 			}
 		},
@@ -1681,6 +3913,18 @@
 				"ru": {
 					"question": "Она уронила поднос с едой.",
 					"explanation": "Past Simple: неловкий инцидент в прошлом."
+				},
+				"fr": {
+					"question": "Elle a fait tomber le plateau avec la nourriture.",
+					"explanation": "Passé simple : incident maladroit dans le passé."
+				},
+				"de": {
+					"question": "Sie ließ das Tablett mit dem Essen fallen.",
+					"explanation": "Simple Past: ungeschickter Vorfall in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella dejó caer la bandeja con la comida.",
+					"explanation": "Pasado simple: incidente torpe en el pasado."
 				}
 			}
 		},
@@ -1690,6 +3934,18 @@
 				"ru": {
 					"question": "Мы заказали торт на день рождения.",
 					"explanation": "Past Simple: заказ торта в прошлом."
+				},
+				"fr": {
+					"question": "Nous avons commandé un gâteau d'anniversaire.",
+					"explanation": "Passé simple : commande d'un gâteau dans le passé."
+				},
+				"de": {
+					"question": "Wir bestellten eine Geburtstagstorte.",
+					"explanation": "Simple Past: Tortenbestellung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Pedimos una tarta de cumpleaños.",
+					"explanation": "Pasado simple: pedido de tarta en el pasado."
 				}
 			}
 		},
@@ -1699,6 +3955,18 @@
 				"ru": {
 					"question": "Он нашёл нужную книгу в библиотеке.",
 					"explanation": "Past Simple: нахождение книги в прошлом."
+				},
+				"fr": {
+					"question": "Il a trouvé le livre dont il avait besoin à la bibliothèque.",
+					"explanation": "Passé simple : découverte d'un livre dans le passé."
+				},
+				"de": {
+					"question": "Er fand das benötigte Buch in der Bibliothek.",
+					"explanation": "Simple Past: Buchfund in der Vergangenheit."
+				},
+				"es": {
+					"question": "Él encontró el libro que necesitaba en la biblioteca.",
+					"explanation": "Pasado simple: hallazgo del libro en el pasado."
 				}
 			}
 		},
@@ -1708,6 +3976,18 @@
 				"ru": {
 					"question": "Я погладил рубашку.",
 					"explanation": "Past Simple: бытовое действие в прошлом."
+				},
+				"fr": {
+					"question": "J'ai repassé la chemise.",
+					"explanation": "Passé simple : action ménagère dans le passé."
+				},
+				"de": {
+					"question": "Ich bügelte das Hemd.",
+					"explanation": "Simple Past: Haushaltshandlung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Planche la camisa.",
+					"explanation": "Pasado simple: tarea doméstica en el pasado."
 				}
 			}
 		},
@@ -1717,6 +3997,18 @@
 				"ru": {
 					"question": "Она вернулась домой поздно.",
 					"explanation": "Past Simple: возвращение домой в прошлом."
+				},
+				"fr": {
+					"question": "Elle est rentrée chez elle tard.",
+					"explanation": "Passé simple : retour à la maison dans le passé."
+				},
+				"de": {
+					"question": "Sie kam spät nach Hause.",
+					"explanation": "Simple Past: Heimkehren in der Vergangenheit."
+				},
+				"es": {
+					"question": "Ella llegó a casa tarde.",
+					"explanation": "Pasado simple: regreso a casa en el pasado."
 				}
 			}
 		}
