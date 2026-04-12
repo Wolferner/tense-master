@@ -7,6 +7,18 @@
 				"ru": {
 					"question": "Когда я пришёл, он уже ушёл.",
 					"explanation": "Past Perfect используется для действия, завершённого до другого момента в прошлом. Маркер: already / уже."
+				},
+				"fr": {
+					"question": "Quand je suis arrivé, il était déjà parti.",
+					"explanation": "Le Past Perfect s'utilise pour une action accomplie avant un autre moment du passé. Marqueur : already."
+				},
+				"de": {
+					"question": "Als ich ankam, war er schon gegangen.",
+					"explanation": "Das Past Perfect bezeichnet eine vor einem anderen Zeitpunkt in der Vergangenheit abgeschlossene Handlung. Marker: already."
+				},
+				"es": {
+					"question": "Cuando llegué, él ya se había ido.",
+					"explanation": "El Past Perfect se usa para una acción completada antes de otro momento en el pasado. Marcador: already."
 				}
 			}
 		},
@@ -16,6 +28,18 @@
 				"ru": {
 					"question": "Она уже поела, когда позвонила мама.",
 					"explanation": "Past Perfect показывает что одно прошлое действие произошло раньше другого."
+				},
+				"fr": {
+					"question": "Elle avait déjà mangé quand maman a appelé.",
+					"explanation": "Le Past Perfect montre qu'une action passée s'est produite avant une autre."
+				},
+				"de": {
+					"question": "Sie hatte schon gegessen, als Mama anrief.",
+					"explanation": "Das Past Perfect zeigt, dass eine vergangene Handlung vor einer anderen stattfand."
+				},
+				"es": {
+					"question": "Ella ya había comido cuando mamá llamó.",
+					"explanation": "El Past Perfect muestra que una acción pasada ocurrió antes que otra."
 				}
 			}
 		},
@@ -25,6 +49,18 @@
 				"ru": {
 					"question": "Поезд уже отправился, когда мы приехали.",
 					"explanation": "Past Perfect используется для действия, завершённого прежде чем произошло другое прошлое событие."
+				},
+				"fr": {
+					"question": "Le train était déjà parti quand nous sommes arrivés.",
+					"explanation": "Le Past Perfect s'utilise pour une action accomplie avant qu'un autre événement passé se produise."
+				},
+				"de": {
+					"question": "Der Zug war schon abgefahren, als wir ankamen.",
+					"explanation": "Das Past Perfect bezeichnet eine Handlung, die abgeschlossen war, bevor ein anderes vergangenes Ereignis eintrat."
+				},
+				"es": {
+					"question": "El tren ya había partido cuando llegamos.",
+					"explanation": "El Past Perfect se usa para una acción completada antes de que ocurriera otro evento pasado."
 				}
 			}
 		},
@@ -34,6 +70,18 @@
 				"ru": {
 					"question": "Я никогда не видел такого красивого заката.",
 					"explanation": "Past Perfect с never используется для отрицания опыта до определённого момента в прошлом."
+				},
+				"fr": {
+					"question": "Je n'avais jamais vu un coucher de soleil aussi beau.",
+					"explanation": "Le Past Perfect avec never sert à nier une expérience jusqu'à un certain moment dans le passé."
+				},
+				"de": {
+					"question": "Ich hatte noch nie einen so schönen Sonnenuntergang gesehen.",
+					"explanation": "Das Past Perfect mit never verneint eine Erfahrung bis zu einem bestimmten Zeitpunkt in der Vergangenheit."
+				},
+				"es": {
+					"question": "Nunca había visto un atardecer tan hermoso.",
+					"explanation": "El Past Perfect con never niega una experiencia hasta un determinado momento en el pasado."
 				}
 			}
 		},
@@ -43,6 +91,18 @@
 				"ru": {
 					"question": "Они уже закончили проект к пятнице.",
 					"explanation": "Past Perfect с by указывает на завершение действия к определённому времени в прошлом."
+				},
+				"fr": {
+					"question": "Ils avaient déjà terminé le projet avant vendredi.",
+					"explanation": "Le Past Perfect avec by indique l'achèvement d'une action à un moment précis dans le passé."
+				},
+				"de": {
+					"question": "Sie hatten das Projekt schon bis Freitag abgeschlossen.",
+					"explanation": "Das Past Perfect mit by zeigt an, dass eine Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit abgeschlossen war."
+				},
+				"es": {
+					"question": "Ya habían terminado el proyecto para el viernes.",
+					"explanation": "El Past Perfect con by indica la finalización de una acción en un momento concreto del pasado."
 				}
 			}
 		},
@@ -52,6 +112,18 @@
 				"ru": {
 					"question": "Он только что вернулся домой, когда начался дождь.",
 					"explanation": "Past Perfect с just подчёркивает что первое действие произошло незадолго до второго."
+				},
+				"fr": {
+					"question": "Il venait juste de rentrer chez lui quand il a commencé à pleuvoir.",
+					"explanation": "Le Past Perfect avec just souligne que la première action s'est produite juste avant la seconde."
+				},
+				"de": {
+					"question": "Er war gerade nach Hause zurückgekehrt, als es anfing zu regnen.",
+					"explanation": "Das Past Perfect mit just betont, dass die erste Handlung unmittelbar vor der zweiten stattfand."
+				},
+				"es": {
+					"question": "Acababa de volver a casa cuando empezó a llover.",
+					"explanation": "El Past Perfect con just subraya que la primera acción ocurrió justo antes que la segunda."
 				}
 			}
 		},
@@ -61,6 +133,18 @@
 				"ru": {
 					"question": "Мы уже поговорили с учителем до собрания.",
 					"explanation": "Past Perfect показывает последовательность прошлых событий: сначала поговорили, потом собрание."
+				},
+				"fr": {
+					"question": "Nous avions déjà parlé au professeur avant la réunion.",
+					"explanation": "Le Past Perfect montre la séquence des événements passés : d'abord la conversation, puis la réunion."
+				},
+				"de": {
+					"question": "Wir hatten schon vor dem Treffen mit dem Lehrer gesprochen.",
+					"explanation": "Das Past Perfect zeigt die Abfolge vergangener Ereignisse: zuerst das Gespräch, dann das Treffen."
+				},
+				"es": {
+					"question": "Ya habíamos hablado con el profesor antes de la reunión.",
+					"explanation": "El Past Perfect muestra la secuencia de eventos pasados: primero la conversación, luego la reunión."
 				}
 			}
 		},
@@ -70,6 +154,18 @@
 				"ru": {
 					"question": "Она сказала, что никогда не была в Париже.",
 					"explanation": "Past Perfect в косвенной речи после глагола said в прошедшем времени."
+				},
+				"fr": {
+					"question": "Elle a dit qu'elle n'avait jamais été à Paris.",
+					"explanation": "Le Past Perfect en discours indirect après un verbe au passé (said)."
+				},
+				"de": {
+					"question": "Sie sagte, dass sie noch nie in Paris gewesen sei.",
+					"explanation": "Das Past Perfect in der indirekten Rede nach einem Verb im Präteritum (said)."
+				},
+				"es": {
+					"question": "Dijo que nunca había estado en París.",
+					"explanation": "El Past Perfect en el estilo indirecto tras un verbo en pasado (said)."
 				}
 			}
 		},
@@ -79,6 +175,18 @@
 				"ru": {
 					"question": "К тому времени, как он позвонил, фильм уже закончился.",
 					"explanation": "Конструкция by the time требует Past Perfect для более раннего из двух прошлых действий."
+				},
+				"fr": {
+					"question": "Au moment où il a appelé, le film était déjà terminé.",
+					"explanation": "La construction by the time exige le Past Perfect pour l'action antérieure des deux actions passées."
+				},
+				"de": {
+					"question": "Als er anrief, war der Film bereits zu Ende.",
+					"explanation": "Die Konstruktion by the time erfordert das Past Perfect für die frühere der beiden vergangenen Handlungen."
+				},
+				"es": {
+					"question": "Para cuando él llamó, la película ya había terminado.",
+					"explanation": "La construcción by the time requiere el Past Perfect para la acción anterior de dos eventos pasados."
 				}
 			}
 		},
@@ -88,6 +196,18 @@
 				"ru": {
 					"question": "Если бы она позвонила раньше, я бы остался.",
 					"explanation": "Третье условное: If + Past Perfect, would have + V3. Нереальное условие в прошлом."
+				},
+				"fr": {
+					"question": "Si elle avait appelé plus tôt, je serais resté.",
+					"explanation": "Troisième conditionnel : If + Past Perfect, would have + V3. Condition irréelle dans le passé."
+				},
+				"de": {
+					"question": "Wenn sie früher angerufen hätte, wäre ich geblieben.",
+					"explanation": "Dritter Konditionalsatz: If + Past Perfect, would have + V3. Irreale Bedingung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Si ella hubiera llamado antes, me habría quedado.",
+					"explanation": "Tercera condicional: If + Past Perfect, would have + V3. Condición irreal en el pasado."
 				}
 			}
 		},
@@ -97,6 +217,18 @@
 				"ru": {
 					"question": "Они никогда не пробовали суши до той вечеринки.",
 					"explanation": "Past Perfect с never показывает отсутствие опыта до конкретного прошлого момента."
+				},
+				"fr": {
+					"question": "Ils n'avaient jamais goûté aux sushis avant cette fête.",
+					"explanation": "Le Past Perfect avec never montre l'absence d'expérience jusqu'à un moment passé précis."
+				},
+				"de": {
+					"question": "Sie hatten vor dieser Party noch nie Sushi probiert.",
+					"explanation": "Das Past Perfect mit never zeigt das Fehlen einer Erfahrung bis zu einem bestimmten vergangenen Zeitpunkt."
+				},
+				"es": {
+					"question": "Nunca habían probado el sushi antes de esa fiesta.",
+					"explanation": "El Past Perfect con never muestra la ausencia de experiencia hasta un momento pasado concreto."
 				}
 			}
 		},
@@ -106,6 +238,18 @@
 				"ru": {
 					"question": "Я уже купил билеты, когда она отменила поездку.",
 					"explanation": "Past Perfect для действия, завершённого раньше другого прошлого события."
+				},
+				"fr": {
+					"question": "J'avais déjà acheté les billets quand elle a annulé le voyage.",
+					"explanation": "Le Past Perfect pour une action accomplie avant un autre événement passé."
+				},
+				"de": {
+					"question": "Ich hatte die Tickets schon gekauft, als sie die Reise absagte.",
+					"explanation": "Das Past Perfect für eine Handlung, die vor einem anderen vergangenen Ereignis abgeschlossen war."
+				},
+				"es": {
+					"question": "Ya había comprado los billetes cuando ella canceló el viaje.",
+					"explanation": "El Past Perfect para una acción completada antes de otro evento pasado."
 				}
 			}
 		},
@@ -115,6 +259,18 @@
 				"ru": {
 					"question": "Он сказал, что уже видел этот фильм.",
 					"explanation": "Past Perfect в косвенной речи: present perfect переходит в past perfect после глагола в прошедшем."
+				},
+				"fr": {
+					"question": "Il a dit qu'il avait déjà vu ce film.",
+					"explanation": "Le Past Perfect en discours indirect : le present perfect devient past perfect après un verbe au passé."
+				},
+				"de": {
+					"question": "Er sagte, dass er diesen Film schon gesehen habe.",
+					"explanation": "Das Past Perfect in der indirekten Rede: Das Present Perfect wird nach einem Verb im Präteritum zu Past Perfect."
+				},
+				"es": {
+					"question": "Dijo que ya había visto esa película.",
+					"explanation": "El Past Perfect en el estilo indirecto: el present perfect se convierte en past perfect tras un verbo en pasado."
 				}
 			}
 		},
@@ -124,6 +280,18 @@
 				"ru": {
 					"question": "К моменту её приезда мы уже поужинали.",
 					"explanation": "By the time + Past Simple требует Past Perfect для ранее завершённого действия."
+				},
+				"fr": {
+					"question": "Au moment de son arrivée, nous avions déjà dîné.",
+					"explanation": "By the time + Past Simple exige le Past Perfect pour l'action antérieure accomplie."
+				},
+				"de": {
+					"question": "Als sie ankam, hatten wir schon zu Abend gegessen.",
+					"explanation": "By the time + Past Simple erfordert das Past Perfect für die zuvor abgeschlossene Handlung."
+				},
+				"es": {
+					"question": "Para cuando ella llegó, ya habíamos cenado.",
+					"explanation": "By the time + Past Simple requiere el Past Perfect para la acción anteriormente completada."
 				}
 			}
 		},
@@ -133,6 +301,18 @@
 				"ru": {
 					"question": "Если бы ты учился больше, ты бы сдал экзамен.",
 					"explanation": "Третье условное предложение: нереальное условие в прошлом."
+				},
+				"fr": {
+					"question": "Si tu avais davantage étudié, tu aurais réussi l'examen.",
+					"explanation": "Troisième conditionnel : condition irréelle dans le passé."
+				},
+				"de": {
+					"question": "Wenn du mehr gelernt hättest, hättest du die Prüfung bestanden.",
+					"explanation": "Dritter Konditionalsatz: irreale Bedingung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Si hubieras estudiado más, habrías aprobado el examen.",
+					"explanation": "Tercera condicional: condición irreal en el pasado."
 				}
 			}
 		},
@@ -142,6 +322,18 @@
 				"ru": {
 					"question": "Она уже слышала эту новость до нашего разговора.",
 					"explanation": "Past Perfect указывает что действие завершилось до другого прошлого события."
+				},
+				"fr": {
+					"question": "Elle avait déjà entendu la nouvelle avant notre conversation.",
+					"explanation": "Le Past Perfect indique que l'action était accomplie avant un autre événement passé."
+				},
+				"de": {
+					"question": "Sie hatte die Neuigkeit schon vor unserem Gespräch gehört.",
+					"explanation": "Das Past Perfect gibt an, dass die Handlung vor einem anderen vergangenen Ereignis abgeschlossen war."
+				},
+				"es": {
+					"question": "Ella ya había oído la noticia antes de nuestra conversación.",
+					"explanation": "El Past Perfect indica que la acción estaba completada antes de otro evento pasado."
 				}
 			}
 		},
@@ -151,6 +343,18 @@
 				"ru": {
 					"question": "Врач ушёл до того, как приехала скорая.",
 					"explanation": "Past Perfect показывает что первое действие предшествовало второму в прошлом."
+				},
+				"fr": {
+					"question": "Le médecin était parti avant l'arrivée de l'ambulance.",
+					"explanation": "Le Past Perfect montre que la première action a précédé la seconde dans le passé."
+				},
+				"de": {
+					"question": "Der Arzt war gegangen, bevor der Krankenwagen ankam.",
+					"explanation": "Das Past Perfect zeigt, dass die erste Handlung der zweiten in der Vergangenheit voranging."
+				},
+				"es": {
+					"question": "El médico se había ido antes de que llegara la ambulancia.",
+					"explanation": "El Past Perfect muestra que la primera acción precedió a la segunda en el pasado."
 				}
 			}
 		},
@@ -160,6 +364,18 @@
 				"ru": {
 					"question": "Мы уже решили эту проблему к тому времени.",
 					"explanation": "Past Perfect с by that time указывает на завершение к определённому прошлому моменту."
+				},
+				"fr": {
+					"question": "Nous avions déjà résolu le problème à ce moment-là.",
+					"explanation": "Le Past Perfect avec by that time indique l'achèvement avant un moment passé précis."
+				},
+				"de": {
+					"question": "Wir hatten das Problem zu dem Zeitpunkt schon gelöst.",
+					"explanation": "Das Past Perfect mit by that time zeigt den Abschluss vor einem bestimmten vergangenen Zeitpunkt."
+				},
+				"es": {
+					"question": "Ya habíamos resuelto el problema para ese momento.",
+					"explanation": "El Past Perfect con by that time indica la finalización antes de un momento pasado concreto."
 				}
 			}
 		},
@@ -169,6 +385,18 @@
 				"ru": {
 					"question": "Он только что закончил читать книгу, когда погас свет.",
 					"explanation": "Past Perfect с just: действие завершилось непосредственно перед другим прошлым событием."
+				},
+				"fr": {
+					"question": "Il venait juste de finir de lire le livre quand la lumière s'est éteinte.",
+					"explanation": "Le Past Perfect avec just : l'action s'est terminée immédiatement avant un autre événement passé."
+				},
+				"de": {
+					"question": "Er hatte gerade das Buch zu Ende gelesen, als das Licht ausging.",
+					"explanation": "Das Past Perfect mit just: die Handlung endete unmittelbar vor einem anderen vergangenen Ereignis."
+				},
+				"es": {
+					"question": "Acababa de terminar de leer el libro cuando se fue la luz.",
+					"explanation": "El Past Perfect con just: la acción terminó inmediatamente antes de otro evento pasado."
 				}
 			}
 		},
@@ -178,6 +406,18 @@
 				"ru": {
 					"question": "Она не знала, что он уже женился.",
 					"explanation": "Past Perfect после didn't know — более раннее прошлое действие."
+				},
+				"fr": {
+					"question": "Elle ne savait pas qu'il s'était déjà marié.",
+					"explanation": "Le Past Perfect après didn't know — action antérieure dans le passé."
+				},
+				"de": {
+					"question": "Sie wusste nicht, dass er schon geheiratet hatte.",
+					"explanation": "Das Past Perfect nach didn't know — frühere vergangene Handlung."
+				},
+				"es": {
+					"question": "Ella no sabía que él ya se había casado.",
+					"explanation": "El Past Perfect tras didn't know — acción anterior en el pasado."
 				}
 			}
 		},
@@ -187,6 +427,18 @@
 				"ru": {
 					"question": "К 2010 году они уже построили новый мост.",
 					"explanation": "Past Perfect с конкретной датой в прошлом (by + год)."
+				},
+				"fr": {
+					"question": "En 2010, ils avaient déjà construit un nouveau pont.",
+					"explanation": "Le Past Perfect avec une date passée précise (by + année)."
+				},
+				"de": {
+					"question": "Bis 2010 hatten sie schon eine neue Brücke gebaut.",
+					"explanation": "Das Past Perfect mit einer konkreten Jahreszahl in der Vergangenheit (by + Jahr)."
+				},
+				"es": {
+					"question": "Para 2010 ya habían construido un nuevo puente.",
+					"explanation": "El Past Perfect con una fecha pasada concreta (by + año)."
 				}
 			}
 		},
@@ -196,6 +448,18 @@
 				"ru": {
 					"question": "Если бы мы взяли зонт, мы бы не промокли.",
 					"explanation": "Третье условное: нереальное условие в прошлом с отрицательным следствием."
+				},
+				"fr": {
+					"question": "Si nous avions pris un parapluie, nous ne nous serions pas mouillés.",
+					"explanation": "Troisième conditionnel : condition irréelle dans le passé avec conséquence négative."
+				},
+				"de": {
+					"question": "Wenn wir einen Regenschirm mitgenommen hätten, wären wir nicht nass geworden.",
+					"explanation": "Dritter Konditionalsatz: irreale Bedingung in der Vergangenheit mit negativer Folge."
+				},
+				"es": {
+					"question": "Si hubiéramos llevado un paraguas, no nos habríamos mojado.",
+					"explanation": "Tercera condicional: condición irreal en el pasado con consecuencia negativa."
 				}
 			}
 		},
@@ -205,6 +469,18 @@
 				"ru": {
 					"question": "Он сказал, что никогда не читал эту книгу.",
 					"explanation": "Косвенная речь: present perfect переходит в past perfect."
+				},
+				"fr": {
+					"question": "Il a dit qu'il n'avait jamais lu ce livre.",
+					"explanation": "Discours indirect : le present perfect devient past perfect."
+				},
+				"de": {
+					"question": "Er sagte, dass er dieses Buch noch nie gelesen habe.",
+					"explanation": "Indirekte Rede: Das Present Perfect wird zu Past Perfect."
+				},
+				"es": {
+					"question": "Dijo que nunca había leído ese libro.",
+					"explanation": "Estilo indirecto: el present perfect se convierte en past perfect."
 				}
 			}
 		},
@@ -214,6 +490,18 @@
 				"ru": {
 					"question": "Дети уже легли спать, когда вернулись родители.",
 					"explanation": "Past Perfect для завершённого действия (дети легли) до другого прошлого события."
+				},
+				"fr": {
+					"question": "Les enfants étaient déjà couchés quand les parents sont rentrés.",
+					"explanation": "Le Past Perfect pour une action accomplie avant un autre événement passé."
+				},
+				"de": {
+					"question": "Die Kinder lagen schon im Bett, als die Eltern zurückkamen.",
+					"explanation": "Das Past Perfect für eine abgeschlossene Handlung vor einem anderen vergangenen Ereignis."
+				},
+				"es": {
+					"question": "Los niños ya se habían acostado cuando los padres volvieron.",
+					"explanation": "El Past Perfect para una acción completada antes de otro evento pasado."
 				}
 			}
 		},
@@ -223,6 +511,18 @@
 				"ru": {
 					"question": "К полудню она уже написала три письма.",
 					"explanation": "Past Perfect с by noon — завершение к конкретному прошлому времени."
+				},
+				"fr": {
+					"question": "À midi, elle avait déjà écrit trois lettres.",
+					"explanation": "Le Past Perfect avec by noon — achèvement à un moment précis dans le passé."
+				},
+				"de": {
+					"question": "Bis Mittag hatte sie schon drei Briefe geschrieben.",
+					"explanation": "Das Past Perfect mit by noon — Abschluss zu einem konkreten Zeitpunkt in der Vergangenheit."
+				},
+				"es": {
+					"question": "Para el mediodía ya había escrito tres cartas.",
+					"explanation": "El Past Perfect con by noon — finalización en un momento concreto del pasado."
 				}
 			}
 		},
@@ -232,6 +532,18 @@
 				"ru": {
 					"question": "Мы не знали, что он уже уехал.",
 					"explanation": "Past Perfect выражает действие более раннее, чем другое прошлое действие."
+				},
+				"fr": {
+					"question": "Nous ne savions pas qu'il était déjà parti.",
+					"explanation": "Le Past Perfect exprime une action antérieure à une autre dans le passé."
+				},
+				"de": {
+					"question": "Wir wussten nicht, dass er schon abgereist war.",
+					"explanation": "Das Past Perfect drückt eine Handlung aus, die einer anderen in der Vergangenheit vorausging."
+				},
+				"es": {
+					"question": "No sabíamos que él ya se había ido.",
+					"explanation": "El Past Perfect expresa una acción anterior a otra en el pasado."
 				}
 			}
 		},
@@ -241,6 +553,18 @@
 				"ru": {
 					"question": "Если бы она не опоздала, мы бы успели на поезд.",
 					"explanation": "Третье условное предложение с отрицанием в условной части."
+				},
+				"fr": {
+					"question": "Si elle n'avait pas été en retard, nous aurions pris le train.",
+					"explanation": "Troisième conditionnel avec négation dans la condition."
+				},
+				"de": {
+					"question": "Wenn sie nicht zu spät gewesen wäre, hätten wir den Zug noch erwischt.",
+					"explanation": "Dritter Konditionalsatz mit Verneinung in der Bedingung."
+				},
+				"es": {
+					"question": "Si ella no hubiera llegado tarde, habríamos cogido el tren.",
+					"explanation": "Tercera condicional con negación en la condición."
 				}
 			}
 		},
@@ -250,6 +574,18 @@
 				"ru": {
 					"question": "Он уже познакомился с её родителями до свадьбы.",
 					"explanation": "Past Perfect показывает что знакомство произошло раньше свадьбы."
+				},
+				"fr": {
+					"question": "Il avait déjà rencontré ses parents avant le mariage.",
+					"explanation": "Le Past Perfect montre que la rencontre s'est produite avant le mariage."
+				},
+				"de": {
+					"question": "Er hatte ihre Eltern schon vor der Hochzeit kennengelernt.",
+					"explanation": "Das Past Perfect zeigt, dass die Begegnung vor der Hochzeit stattfand."
+				},
+				"es": {
+					"question": "Ya había conocido a sus padres antes de la boda.",
+					"explanation": "El Past Perfect muestra que el encuentro ocurrió antes de la boda."
 				}
 			}
 		},
@@ -259,6 +595,18 @@
 				"ru": {
 					"question": "К тому моменту я уже забыл его имя.",
 					"explanation": "Past Perfect с by that moment для действия, предшествующего другому в прошлом."
+				},
+				"fr": {
+					"question": "À ce moment-là, j'avais déjà oublié son nom.",
+					"explanation": "Le Past Perfect avec by that moment pour une action antérieure à un autre événement passé."
+				},
+				"de": {
+					"question": "In diesem Moment hatte ich seinen Namen schon vergessen.",
+					"explanation": "Das Past Perfect mit by that moment für eine Handlung, die einem anderen vergangenen Ereignis vorausging."
+				},
+				"es": {
+					"question": "Para ese momento ya había olvidado su nombre.",
+					"explanation": "El Past Perfect con by that moment para una acción anterior a otro evento pasado."
 				}
 			}
 		},
@@ -268,6 +616,18 @@
 				"ru": {
 					"question": "Она сказала, что уже позвонила врачу.",
 					"explanation": "Косвенная речь: маркер already переходит с present perfect на past perfect."
+				},
+				"fr": {
+					"question": "Elle a dit qu'elle avait déjà appelé le médecin.",
+					"explanation": "Discours indirect : already avec le past perfect après un verbe au passé (said)."
+				},
+				"de": {
+					"question": "Sie sagte, dass sie schon den Arzt angerufen habe.",
+					"explanation": "Indirekte Rede: already mit Past Perfect nach einem Verb im Präteritum (said)."
+				},
+				"es": {
+					"question": "Dijo que ya había llamado al médico.",
+					"explanation": "Estilo indirecto: already con past perfect tras un verbo en pasado (said)."
 				}
 			}
 		},
@@ -277,6 +637,18 @@
 				"ru": {
 					"question": "Когда мы пришли в кино, фильм уже начался.",
 					"explanation": "Past Perfect для события, начавшегося до нашего прихода."
+				},
+				"fr": {
+					"question": "Quand nous sommes arrivés au cinéma, le film avait déjà commencé.",
+					"explanation": "Le Past Perfect pour un événement qui a commencé avant notre arrivée."
+				},
+				"de": {
+					"question": "Als wir ins Kino kamen, hatte der Film schon angefangen.",
+					"explanation": "Das Past Perfect für ein Ereignis, das vor unserer Ankunft begonnen hatte."
+				},
+				"es": {
+					"question": "Cuando llegamos al cine, la película ya había empezado.",
+					"explanation": "El Past Perfect para un evento que había comenzado antes de nuestra llegada."
 				}
 			}
 		},
@@ -286,6 +658,18 @@
 				"ru": {
 					"question": "Он никогда не водил машину до того дня.",
 					"explanation": "Past Perfect с never до конкретного прошлого момента."
+				},
+				"fr": {
+					"question": "Il n'avait jamais conduit de voiture avant ce jour-là.",
+					"explanation": "Le Past Perfect avec never jusqu'à un moment précis dans le passé."
+				},
+				"de": {
+					"question": "Er hatte bis zu diesem Tag noch nie ein Auto gefahren.",
+					"explanation": "Das Past Perfect mit never bis zu einem bestimmten Zeitpunkt in der Vergangenheit."
+				},
+				"es": {
+					"question": "Nunca había conducido un coche antes de ese día.",
+					"explanation": "El Past Perfect con never hasta un momento concreto en el pasado."
 				}
 			}
 		},
@@ -295,6 +679,18 @@
 				"ru": {
 					"question": "Они уже переехали в новый дом к декабрю.",
 					"explanation": "Past Perfect с by + месяц — завершение до конкретного времени."
+				},
+				"fr": {
+					"question": "Ils avaient déjà déménagé dans la nouvelle maison avant décembre.",
+					"explanation": "Le Past Perfect avec by + mois — achèvement avant une date précise."
+				},
+				"de": {
+					"question": "Sie waren schon bis Dezember in das neue Haus umgezogen.",
+					"explanation": "Das Past Perfect mit by + Monat — Abschluss vor einem konkreten Datum."
+				},
+				"es": {
+					"question": "Ya se habían mudado a la nueva casa para diciembre.",
+					"explanation": "El Past Perfect con by + mes — finalización antes de una fecha concreta."
 				}
 			}
 		},
@@ -304,6 +700,18 @@
 				"ru": {
 					"question": "Если бы я знал об этом, я бы поступил иначе.",
 					"explanation": "Третье условное: нереальное условие в прошлом и его воображаемый результат."
+				},
+				"fr": {
+					"question": "Si j'avais su, j'aurais agi différemment.",
+					"explanation": "Troisième conditionnel : condition irréelle dans le passé et son résultat imaginaire."
+				},
+				"de": {
+					"question": "Wenn ich es gewusst hätte, hätte ich anders gehandelt.",
+					"explanation": "Dritter Konditionalsatz: irreale Bedingung in der Vergangenheit und ihr vorgestelltes Ergebnis."
+				},
+				"es": {
+					"question": "Si lo hubiera sabido, habría actuado de otra manera.",
+					"explanation": "Tercera condicional: condición irreal en el pasado y su resultado imaginario."
 				}
 			}
 		},
@@ -313,6 +721,18 @@
 				"ru": {
 					"question": "Он понял, что потерял ключи.",
 					"explanation": "Past Perfect после realized: потеря ключей произошла раньше осознания."
+				},
+				"fr": {
+					"question": "Il a réalisé qu'il avait perdu ses clés.",
+					"explanation": "Le Past Perfect après realized : la perte des clés s'est produite avant la prise de conscience."
+				},
+				"de": {
+					"question": "Er bemerkte, dass er seine Schlüssel verloren hatte.",
+					"explanation": "Das Past Perfect nach realized: der Schlüsselverlust fand vor der Erkenntnis statt."
+				},
+				"es": {
+					"question": "Se dio cuenta de que había perdido las llaves.",
+					"explanation": "El Past Perfect tras realized: la pérdida de llaves ocurrió antes de darse cuenta."
 				}
 			}
 		},
@@ -322,6 +742,18 @@
 				"ru": {
 					"question": "К тому времени, как пришёл доктор, температура уже спала.",
 					"explanation": "By the time + Past Simple / Past Perfect — последовательность прошлых событий."
+				},
+				"fr": {
+					"question": "Au moment où le médecin est arrivé, la fièvre était déjà tombée.",
+					"explanation": "By the time + Past Simple / Past Perfect — séquence d'événements passés."
+				},
+				"de": {
+					"question": "Als der Arzt ankam, war das Fieber schon gefallen.",
+					"explanation": "By the time + Past Simple / Past Perfect — Abfolge vergangener Ereignisse."
+				},
+				"es": {
+					"question": "Para cuando llegó el médico, la fiebre ya había bajado.",
+					"explanation": "By the time + Past Simple / Past Perfect — secuencia de eventos pasados."
 				}
 			}
 		},
@@ -331,6 +763,18 @@
 				"ru": {
 					"question": "Мы уже обсудили этот вопрос до встречи.",
 					"explanation": "Past Perfect указывает что обсуждение предшествовало встрече."
+				},
+				"fr": {
+					"question": "Nous avions déjà discuté de la question avant la réunion.",
+					"explanation": "Le Past Perfect indique que la discussion a précédé la réunion."
+				},
+				"de": {
+					"question": "Wir hatten das Thema schon vor dem Meeting besprochen.",
+					"explanation": "Das Past Perfect gibt an, dass die Diskussion dem Meeting vorausging."
+				},
+				"es": {
+					"question": "Ya habíamos discutido el asunto antes de la reunión.",
+					"explanation": "El Past Perfect indica que la discusión precedió a la reunión."
 				}
 			}
 		},
@@ -340,6 +784,18 @@
 				"ru": {
 					"question": "Она только что вышла, когда он позвонил.",
 					"explanation": "Past Perfect с just: действие завершилось непосредственно перед звонком."
+				},
+				"fr": {
+					"question": "Elle venait juste de sortir quand il a appelé.",
+					"explanation": "Le Past Perfect avec just : l'action s'est terminée juste avant l'appel."
+				},
+				"de": {
+					"question": "Sie war gerade rausgegangen, als er anrief.",
+					"explanation": "Das Past Perfect mit just: die Handlung endete kurz vor dem Anruf."
+				},
+				"es": {
+					"question": "Acababa de salir cuando él llamó.",
+					"explanation": "El Past Perfect con just: la acción terminó justo antes de la llamada."
 				}
 			}
 		},
@@ -349,6 +805,18 @@
 				"ru": {
 					"question": "Если бы ты пришёл раньше, ты бы увидел её.",
 					"explanation": "Третье условное предложение: нереальное условие в прошлом."
+				},
+				"fr": {
+					"question": "Si tu étais venu plus tôt, tu l'aurais vue.",
+					"explanation": "Troisième conditionnel : condition irréelle dans le passé."
+				},
+				"de": {
+					"question": "Wenn du früher gekommen wärst, hättest du sie gesehen.",
+					"explanation": "Dritter Konditionalsatz: irreale Bedingung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Si hubieras llegado antes, la habrías visto.",
+					"explanation": "Tercera condicional: condición irreal en el pasado."
 				}
 			}
 		},
@@ -358,6 +826,18 @@
 				"ru": {
 					"question": "К 9 утра он уже сделал зарядку.",
 					"explanation": "Past Perfect с конкретным временем суток (by + время)."
+				},
+				"fr": {
+					"question": "Avant 9h du matin, il avait déjà fait sa gym.",
+					"explanation": "Le Past Perfect avec un moment précis de la journée (by + heure)."
+				},
+				"de": {
+					"question": "Bis 9 Uhr morgens hatte er schon seine Übungen gemacht.",
+					"explanation": "Das Past Perfect mit einer konkreten Uhrzeit (by + Uhrzeit)."
+				},
+				"es": {
+					"question": "Para las 9 de la mañana ya había hecho ejercicio.",
+					"explanation": "El Past Perfect con un momento concreto del día (by + hora)."
 				}
 			}
 		},
@@ -367,6 +847,18 @@
 				"ru": {
 					"question": "Она не ожидала, что он уже всё продал.",
 					"explanation": "Past Perfect после hadn't expected — более раннее прошлое действие."
+				},
+				"fr": {
+					"question": "Elle ne s'attendait pas à ce qu'il ait déjà tout vendu.",
+					"explanation": "Le Past Perfect après hadn't expected — action antérieure dans le passé."
+				},
+				"de": {
+					"question": "Sie hatte nicht erwartet, dass er schon alles verkauft hatte.",
+					"explanation": "Das Past Perfect nach hadn't expected — frühere vergangene Handlung."
+				},
+				"es": {
+					"question": "No esperaba que él ya lo hubiera vendido todo.",
+					"explanation": "El Past Perfect tras hadn't expected — acción anterior en el pasado."
 				}
 			}
 		},
@@ -376,6 +868,18 @@
 				"ru": {
 					"question": "Они уже перестали спорить, когда вошёл менеджер.",
 					"explanation": "Past Perfect для завершённого действия до другого прошлого события."
+				},
+				"fr": {
+					"question": "Ils avaient déjà arrêté de se disputer quand le directeur est entré.",
+					"explanation": "Le Past Perfect pour une action accomplie avant un autre événement passé."
+				},
+				"de": {
+					"question": "Sie hatten schon aufgehört zu streiten, als der Manager hereinkam.",
+					"explanation": "Das Past Perfect für eine abgeschlossene Handlung vor einem anderen vergangenen Ereignis."
+				},
+				"es": {
+					"question": "Ya habían dejado de discutir cuando entró el gerente.",
+					"explanation": "El Past Perfect para una acción completada antes de otro evento pasado."
 				}
 			}
 		},
@@ -385,6 +889,18 @@
 				"ru": {
 					"question": "Он сказал, что никогда не слышал такой истории.",
 					"explanation": "Косвенная речь: present perfect с never переходит в past perfect."
+				},
+				"fr": {
+					"question": "Il a dit qu'il n'avait jamais entendu une telle histoire.",
+					"explanation": "Discours indirect : le present perfect avec never devient past perfect."
+				},
+				"de": {
+					"question": "Er sagte, dass er noch nie so eine Geschichte gehört habe.",
+					"explanation": "Indirekte Rede: Das Present Perfect mit never wird zu Past Perfect."
+				},
+				"es": {
+					"question": "Dijo que nunca había oído semejante historia.",
+					"explanation": "Estilo indirecto: el present perfect con never se convierte en past perfect."
 				}
 			}
 		},
@@ -394,6 +910,18 @@
 				"ru": {
 					"question": "Если бы они не забыли паспорта, они бы вылетели.",
 					"explanation": "Третье условное с отрицанием в условной части."
+				},
+				"fr": {
+					"question": "S'ils n'avaient pas oublié leurs passeports, ils auraient pris l'avion.",
+					"explanation": "Troisième conditionnel avec négation dans la condition."
+				},
+				"de": {
+					"question": "Wenn sie ihre Pässe nicht vergessen hätten, wären sie geflogen.",
+					"explanation": "Dritter Konditionalsatz mit Verneinung in der Bedingung."
+				},
+				"es": {
+					"question": "Si no hubieran olvidado los pasaportes, habrían volado.",
+					"explanation": "Tercera condicional con negación en la condición."
 				}
 			}
 		},
@@ -403,6 +931,18 @@
 				"ru": {
 					"question": "К моменту его рождения родители уже переехали в город.",
 					"explanation": "Past Perfect показывает действие, завершённое до момента рождения."
+				},
+				"fr": {
+					"question": "Au moment de sa naissance, ses parents avaient déjà déménagé en ville.",
+					"explanation": "Le Past Perfect pour une action accomplie avant un moment passé (la naissance)."
+				},
+				"de": {
+					"question": "Als er geboren wurde, waren seine Eltern schon in die Stadt gezogen.",
+					"explanation": "Das Past Perfect für eine Handlung, die vor einem vergangenen Zeitpunkt (der Geburt) abgeschlossen war."
+				},
+				"es": {
+					"question": "Cuando él nació, sus padres ya se habían mudado a la ciudad.",
+					"explanation": "El Past Perfect para una acción completada antes de un momento pasado (el nacimiento)."
 				}
 			}
 		},
@@ -412,6 +952,18 @@
 				"ru": {
 					"question": "Мы не понимали, что произошло.",
 					"explanation": "Past Perfect в придаточном предложении после didn't understand."
+				},
+				"fr": {
+					"question": "Nous ne comprenions pas ce qui s'était passé.",
+					"explanation": "Le Past Perfect en proposition subordonnée après didn't understand."
+				},
+				"de": {
+					"question": "Wir verstanden nicht, was geschehen war.",
+					"explanation": "Das Past Perfect im Nebensatz nach didn't understand."
+				},
+				"es": {
+					"question": "No entendíamos qué había pasado.",
+					"explanation": "El Past Perfect en la oración subordinada tras didn't understand."
 				}
 			}
 		},
@@ -421,6 +973,18 @@
 				"ru": {
 					"question": "Она уже написала отчёт к утру.",
 					"explanation": "Past Perfect с by morning — завершение к определённому времени утром."
+				},
+				"fr": {
+					"question": "Elle avait déjà rédigé le rapport avant le matin.",
+					"explanation": "Le Past Perfect avec by morning — achèvement à une heure matinale précise."
+				},
+				"de": {
+					"question": "Sie hatte den Bericht bis zum Morgen schon geschrieben.",
+					"explanation": "Das Past Perfect mit by morning — Abschluss bis zu einem morgendlichen Zeitpunkt."
+				},
+				"es": {
+					"question": "Ya había escrito el informe para la mañana.",
+					"explanation": "El Past Perfect con by morning — finalización antes de la mañana."
 				}
 			}
 		},
@@ -430,6 +994,18 @@
 				"ru": {
 					"question": "Когда началась война, он уже эмигрировал.",
 					"explanation": "Past Perfect: эмиграция произошла раньше начала войны."
+				},
+				"fr": {
+					"question": "Quand la guerre a éclaté, il avait déjà émigré.",
+					"explanation": "Le Past Perfect : l'émigration s'est produite avant le début de la guerre."
+				},
+				"de": {
+					"question": "Als der Krieg begann, hatte er schon emigriert.",
+					"explanation": "Das Past Perfect: die Emigration fand vor Kriegsbeginn statt."
+				},
+				"es": {
+					"question": "Cuando empezó la guerra, ya había emigrado.",
+					"explanation": "El Past Perfect: la emigración ocurrió antes del inicio de la guerra."
 				}
 			}
 		},
@@ -439,6 +1015,18 @@
 				"ru": {
 					"question": "Если бы она спросила меня, я бы помог.",
 					"explanation": "Третье условное: нереальное условие в прошлом."
+				},
+				"fr": {
+					"question": "Si elle m'avait demandé, j'aurais aidé.",
+					"explanation": "Troisième conditionnel : condition irréelle dans le passé."
+				},
+				"de": {
+					"question": "Wenn sie mich gefragt hätte, hätte ich geholfen.",
+					"explanation": "Dritter Konditionalsatz: irreale Bedingung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Si ella me hubiera pedido ayuda, habría ayudado.",
+					"explanation": "Tercera condicional: condición irreal en el pasado."
 				}
 			}
 		},
@@ -448,6 +1036,18 @@
 				"ru": {
 					"question": "Они уже договорились о встрече до его звонка.",
 					"explanation": "Past Perfect для действия, предшествующего другому в прошлом."
+				},
+				"fr": {
+					"question": "Ils avaient déjà organisé la réunion avant son appel.",
+					"explanation": "Le Past Perfect pour une action antérieure à une autre dans le passé."
+				},
+				"de": {
+					"question": "Sie hatten das Treffen schon vor seinem Anruf vereinbart.",
+					"explanation": "Das Past Perfect für eine Handlung, die einer anderen in der Vergangenheit vorausging."
+				},
+				"es": {
+					"question": "Ya habían acordado la reunión antes de su llamada.",
+					"explanation": "El Past Perfect para una acción anterior a otra en el pasado."
 				}
 			}
 		},
@@ -457,6 +1057,18 @@
 				"ru": {
 					"question": "К тому времени, как подали еду, гости уже проголодались.",
 					"explanation": "By the time + Past Simple и Past Perfect для хронологии прошлых событий."
+				},
+				"fr": {
+					"question": "Au moment où la nourriture a été servie, les invités avaient déjà faim.",
+					"explanation": "By the time + Past Simple et Past Perfect pour la chronologie des événements passés."
+				},
+				"de": {
+					"question": "Als das Essen serviert wurde, hatten die Gäste schon Hunger.",
+					"explanation": "By the time + Past Simple und Past Perfect für die Chronologie vergangener Ereignisse."
+				},
+				"es": {
+					"question": "Para cuando sirvieron la comida, los invitados ya tenían hambre.",
+					"explanation": "By the time + Past Simple y Past Perfect para la cronología de eventos pasados."
 				}
 			}
 		},
@@ -466,6 +1078,18 @@
 				"ru": {
 					"question": "Он сказал, что уже сдал экзамен.",
 					"explanation": "Косвенная речь: already с past perfect после said."
+				},
+				"fr": {
+					"question": "Il a dit qu'il avait déjà réussi l'examen.",
+					"explanation": "Discours indirect : already avec le past perfect après said."
+				},
+				"de": {
+					"question": "Er sagte, dass er die Prüfung schon bestanden habe.",
+					"explanation": "Indirekte Rede: already mit Past Perfect nach said."
+				},
+				"es": {
+					"question": "Dijo que ya había aprobado el examen.",
+					"explanation": "Estilo indirecto: already con past perfect tras said."
 				}
 			}
 		},
@@ -475,6 +1099,18 @@
 				"ru": {
 					"question": "Я только что сел в такси, когда позвонил друг.",
 					"explanation": "Past Perfect с just: действие завершилось прямо перед звонком."
+				},
+				"fr": {
+					"question": "Je venais juste de monter dans le taxi quand mon ami a appelé.",
+					"explanation": "Le Past Perfect avec just : l'action s'est terminée juste avant l'appel."
+				},
+				"de": {
+					"question": "Ich war gerade ins Taxi gestiegen, als mein Freund anrief.",
+					"explanation": "Das Past Perfect mit just: die Handlung endete kurz vor dem Anruf."
+				},
+				"es": {
+					"question": "Acababa de subirme al taxi cuando llamó mi amigo.",
+					"explanation": "El Past Perfect con just: la acción terminó justo antes de la llamada."
 				}
 			}
 		},
@@ -484,6 +1120,18 @@
 				"ru": {
 					"question": "Она не знала, что он уже уволился.",
 					"explanation": "Past Perfect после didn't know — более раннее событие в прошлом."
+				},
+				"fr": {
+					"question": "Elle ne savait pas qu'il avait déjà démissionné.",
+					"explanation": "Le Past Perfect après didn't know — événement antérieur dans le passé."
+				},
+				"de": {
+					"question": "Sie wusste nicht, dass er schon gekündigt hatte.",
+					"explanation": "Das Past Perfect nach didn't know — frühere vergangene Handlung."
+				},
+				"es": {
+					"question": "Ella no sabía que él ya había dimitido.",
+					"explanation": "El Past Perfect tras didn't know — evento anterior en el pasado."
 				}
 			}
 		},
@@ -493,6 +1141,18 @@
 				"ru": {
 					"question": "Если бы они выехали раньше, они бы не попали в пробку.",
 					"explanation": "Третье условное предложение с отрицательным следствием."
+				},
+				"fr": {
+					"question": "S'ils étaient partis plus tôt, ils ne se seraient pas retrouvés dans les embouteillages.",
+					"explanation": "Troisième conditionnel avec conséquence négative."
+				},
+				"de": {
+					"question": "Wenn sie früher abgefahren wären, hätten sie nicht im Stau gestanden.",
+					"explanation": "Dritter Konditionalsatz mit negativer Folge."
+				},
+				"es": {
+					"question": "Si hubieran salido antes, no habrían quedado atrapados en el tráfico.",
+					"explanation": "Tercera condicional con consecuencia negativa."
 				}
 			}
 		},
@@ -502,6 +1162,18 @@
 				"ru": {
 					"question": "К концу недели я уже прочитал всю книгу.",
 					"explanation": "Past Perfect с by the end of — завершение к концу определённого периода."
+				},
+				"fr": {
+					"question": "Avant la fin de la semaine, j'avais déjà lu tout le livre.",
+					"explanation": "Le Past Perfect avec by the end of — achèvement avant la fin d'une période précise."
+				},
+				"de": {
+					"question": "Bis Ende der Woche hatte ich das ganze Buch schon gelesen.",
+					"explanation": "Das Past Perfect mit by the end of — Abschluss vor Ende eines bestimmten Zeitraums."
+				},
+				"es": {
+					"question": "Para el final de la semana ya había leído todo el libro.",
+					"explanation": "El Past Perfect con by the end of — finalización antes del final de un período concreto."
 				}
 			}
 		},
@@ -511,6 +1183,18 @@
 				"ru": {
 					"question": "Они уже отметили годовщину до нашего приезда.",
 					"explanation": "Past Perfect для действия, завершённого до нашего приезда."
+				},
+				"fr": {
+					"question": "Ils avaient déjà fêté leur anniversaire avant notre arrivée.",
+					"explanation": "Le Past Perfect pour une action accomplie avant notre arrivée."
+				},
+				"de": {
+					"question": "Sie hatten ihren Jahrestag schon vor unserer Ankunft gefeiert.",
+					"explanation": "Das Past Perfect für eine Handlung, die vor unserer Ankunft abgeschlossen war."
+				},
+				"es": {
+					"question": "Ya habían celebrado su aniversario antes de que llegáramos.",
+					"explanation": "El Past Perfect para una acción completada antes de nuestra llegada."
 				}
 			}
 		},
@@ -520,6 +1204,18 @@
 				"ru": {
 					"question": "Она поняла, что забыла ключи дома.",
 					"explanation": "Past Perfect после realized: забытые ключи — более раннее событие."
+				},
+				"fr": {
+					"question": "Elle a réalisé qu'elle avait oublié ses clés à la maison.",
+					"explanation": "Le Past Perfect après realized — l'oubli des clés est antérieur à la prise de conscience."
+				},
+				"de": {
+					"question": "Sie bemerkte, dass sie ihre Schlüssel zu Hause vergessen hatte.",
+					"explanation": "Das Past Perfect nach realized — das Vergessen der Schlüssel fand vor der Erkenntnis statt."
+				},
+				"es": {
+					"question": "Se dio cuenta de que había olvidado las llaves en casa.",
+					"explanation": "El Past Perfect tras realized — el olvido de las llaves ocurrió antes de darse cuenta."
 				}
 			}
 		},
@@ -529,6 +1225,18 @@
 				"ru": {
 					"question": "Он никогда не летал на самолёте до той поездки.",
 					"explanation": "Past Perfect с never до конкретного прошлого события."
+				},
+				"fr": {
+					"question": "Il n'avait jamais pris l'avion avant ce voyage.",
+					"explanation": "Le Past Perfect avec never jusqu'à un événement passé précis."
+				},
+				"de": {
+					"question": "Er hatte vor dieser Reise noch nie ein Flugzeug genommen.",
+					"explanation": "Das Past Perfect mit never bis zu einem bestimmten vergangenen Ereignis."
+				},
+				"es": {
+					"question": "Nunca había volado en avión antes de ese viaje.",
+					"explanation": "El Past Perfect con never hasta un evento pasado concreto."
 				}
 			}
 		},
@@ -538,6 +1246,18 @@
 				"ru": {
 					"question": "Если бы ты позвонил мне, я бы приехал.",
 					"explanation": "Третье условное предложение: нереальное прошлое условие."
+				},
+				"fr": {
+					"question": "Si tu m'avais appelé, je serais venu.",
+					"explanation": "Troisième conditionnel : condition irréelle dans le passé."
+				},
+				"de": {
+					"question": "Wenn du mich angerufen hättest, wäre ich gekommen.",
+					"explanation": "Dritter Konditionalsatz: irreale Bedingung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Si me hubieras llamado, habría venido.",
+					"explanation": "Tercera condicional: condición irreal en el pasado."
 				}
 			}
 		},
@@ -547,6 +1267,18 @@
 				"ru": {
 					"question": "К тому времени, как мы нашли парковку, концерт уже начался.",
 					"explanation": "By the time с Past Simple и Past Perfect — хронология прошлых событий."
+				},
+				"fr": {
+					"question": "Au moment où nous avons trouvé un parking, le concert avait déjà commencé.",
+					"explanation": "By the time avec Past Simple et Past Perfect — chronologie des événements passés."
+				},
+				"de": {
+					"question": "Als wir einen Parkplatz fanden, hatte das Konzert schon begonnen.",
+					"explanation": "By the time mit Past Simple und Past Perfect — Chronologie vergangener Ereignisse."
+				},
+				"es": {
+					"question": "Para cuando encontramos aparcamiento, el concierto ya había empezado.",
+					"explanation": "By the time con Past Simple y Past Perfect — cronología de eventos pasados."
 				}
 			}
 		},
@@ -556,6 +1288,18 @@
 				"ru": {
 					"question": "Она сказала, что уже сделала домашнее задание.",
 					"explanation": "Косвенная речь: present perfect → past perfect после said."
+				},
+				"fr": {
+					"question": "Elle a dit qu'elle avait déjà fait ses devoirs.",
+					"explanation": "Discours indirect : le present perfect devient past perfect après said."
+				},
+				"de": {
+					"question": "Sie sagte, dass sie ihre Hausaufgaben schon gemacht habe.",
+					"explanation": "Indirekte Rede: Das Present Perfect wird nach said zu Past Perfect."
+				},
+				"es": {
+					"question": "Dijo que ya había hecho los deberes.",
+					"explanation": "Estilo indirecto: el present perfect se convierte en past perfect tras said."
 				}
 			}
 		},
@@ -565,6 +1309,18 @@
 				"ru": {
 					"question": "К полуночи гости уже разошлись.",
 					"explanation": "Past Perfect с by midnight — завершение к конкретному ночному времени."
+				},
+				"fr": {
+					"question": "À minuit, les invités étaient déjà partis.",
+					"explanation": "Le Past Perfect avec by midnight — achèvement avant l'heure précise."
+				},
+				"de": {
+					"question": "Bis Mitternacht waren die Gäste schon gegangen.",
+					"explanation": "Das Past Perfect mit by midnight — Abschluss vor der genauen Uhrzeit."
+				},
+				"es": {
+					"question": "Para la medianoche los invitados ya se habían ido.",
+					"explanation": "El Past Perfect con by midnight — finalización antes de la hora concreta."
 				}
 			}
 		},
@@ -574,6 +1330,18 @@
 				"ru": {
 					"question": "Он только что подписал контракт, когда получил лучшее предложение.",
 					"explanation": "Past Perfect с just: подписание контракта случилось прямо перед получением предложения."
+				},
+				"fr": {
+					"question": "Il venait juste de signer le contrat quand il a reçu une meilleure offre.",
+					"explanation": "Le Past Perfect avec just : la signature a eu lieu juste avant la réception d'une meilleure offre."
+				},
+				"de": {
+					"question": "Er hatte gerade den Vertrag unterschrieben, als er ein besseres Angebot erhielt.",
+					"explanation": "Das Past Perfect mit just: die Vertragsunterzeichnung fand unmittelbar vor dem Eingang des besseren Angebots statt."
+				},
+				"es": {
+					"question": "Acababa de firmar el contrato cuando recibió una oferta mejor.",
+					"explanation": "El Past Perfect con just: la firma ocurrió justo antes de recibir una oferta mejor."
 				}
 			}
 		},
@@ -583,6 +1351,18 @@
 				"ru": {
 					"question": "Если бы мы забронировали отель заранее, всё было бы иначе.",
 					"explanation": "Третье условное: нереальное прошлое условие и его воображаемый результат."
+				},
+				"fr": {
+					"question": "Si nous avions réservé l'hôtel à l'avance, tout aurait été différent.",
+					"explanation": "Troisième conditionnel : condition irréelle dans le passé et son résultat imaginaire."
+				},
+				"de": {
+					"question": "Wenn wir das Hotel im Voraus gebucht hätten, wäre alles anders gewesen.",
+					"explanation": "Dritter Konditionalsatz: irreale Bedingung in der Vergangenheit und ihr vorgestelltes Ergebnis."
+				},
+				"es": {
+					"question": "Si hubiéramos reservado el hotel de antemano, todo habría sido diferente.",
+					"explanation": "Tercera condicional: condición irreal en el pasado y su resultado imaginario."
 				}
 			}
 		},
@@ -592,6 +1372,18 @@
 				"ru": {
 					"question": "Она не знала, что уже опоздала.",
 					"explanation": "Past Perfect после didn't know — осознание опоздания пришло позже."
+				},
+				"fr": {
+					"question": "Elle ne savait pas qu'elle était déjà en retard.",
+					"explanation": "Le Past Perfect après didn't know — la prise de conscience est postérieure à l'action."
+				},
+				"de": {
+					"question": "Sie wusste nicht, dass sie schon zu spät war.",
+					"explanation": "Das Past Perfect nach didn't know — das Bewusstsein folgte der Handlung."
+				},
+				"es": {
+					"question": "Ella no sabía que ya había llegado tarde.",
+					"explanation": "El Past Perfect tras didn't know — la toma de conciencia es posterior a la acción."
 				}
 			}
 		},
@@ -601,6 +1393,18 @@
 				"ru": {
 					"question": "Он сообщил, что никогда не встречал этого человека.",
 					"explanation": "Косвенная речь: present perfect → past perfect после reported."
+				},
+				"fr": {
+					"question": "Il a rapporté qu'il n'avait jamais rencontré cette personne.",
+					"explanation": "Discours indirect : le present perfect devient past perfect après reported."
+				},
+				"de": {
+					"question": "Er berichtete, dass er diese Person noch nie getroffen habe.",
+					"explanation": "Indirekte Rede: Das Present Perfect wird nach reported zu Past Perfect."
+				},
+				"es": {
+					"question": "Informó de que nunca había conocido a esa persona.",
+					"explanation": "Estilo indirecto: el present perfect se convierte en past perfect tras reported."
 				}
 			}
 		},
@@ -610,6 +1414,18 @@
 				"ru": {
 					"question": "К моменту окончания школы она уже определилась с профессией.",
 					"explanation": "Past Perfect: решение о профессии предшествовало окончанию школы."
+				},
+				"fr": {
+					"question": "Au moment où elle a fini l'école, elle avait déjà choisi sa carrière.",
+					"explanation": "Le Past Perfect : le choix de carrière a précédé la fin des études."
+				},
+				"de": {
+					"question": "Als sie die Schule abschloss, hatte sie ihre Karriere schon geplant.",
+					"explanation": "Das Past Perfect: die Berufswahl fand vor dem Schulabschluss statt."
+				},
+				"es": {
+					"question": "Para cuando terminó el colegio, ya había decidido su carrera.",
+					"explanation": "El Past Perfect: la decisión de carrera precedió a la finalización del colegio."
 				}
 			}
 		},
@@ -619,6 +1435,18 @@
 				"ru": {
 					"question": "Мы уже съели всё печенье до прихода гостей.",
 					"explanation": "Past Perfect: поедание печенья завершилось раньше прихода гостей."
+				},
+				"fr": {
+					"question": "Nous avions déjà mangé tous les gâteaux avant l'arrivée des invités.",
+					"explanation": "Le Past Perfect : l'action s'est terminée avant l'arrivée des invités."
+				},
+				"de": {
+					"question": "Wir hatten alle Kekse schon gegessen, bevor die Gäste ankamen.",
+					"explanation": "Das Past Perfect: die Handlung war vor dem Eintreffen der Gäste abgeschlossen."
+				},
+				"es": {
+					"question": "Ya habíamos comido todas las galletas antes de que llegaran los invitados.",
+					"explanation": "El Past Perfect: la acción terminó antes de la llegada de los invitados."
 				}
 			}
 		},
@@ -628,6 +1456,18 @@
 				"ru": {
 					"question": "Если бы они прислушались к совету, всё было бы лучше.",
 					"explanation": "Третье условное: нереальное прошлое условие."
+				},
+				"fr": {
+					"question": "Si ils avaient écouté le conseil, tout aurait été mieux.",
+					"explanation": "Troisième conditionnel : condition irréelle dans le passé."
+				},
+				"de": {
+					"question": "Wenn sie dem Rat gefolgt wären, wäre alles besser gewesen.",
+					"explanation": "Dritter Konditionalsatz: irreale Bedingung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Si hubieran escuchado el consejo, todo habría ido mejor.",
+					"explanation": "Tercera condicional: condición irreal en el pasado."
 				}
 			}
 		},
@@ -637,6 +1477,18 @@
 				"ru": {
 					"question": "Он сказал, что уже встречался с директором.",
 					"explanation": "Косвенная речь: present perfect → past perfect."
+				},
+				"fr": {
+					"question": "Il a dit qu'il avait déjà rencontré le directeur.",
+					"explanation": "Discours indirect : le present perfect devient past perfect."
+				},
+				"de": {
+					"question": "Er sagte, dass er den Direktor schon getroffen habe.",
+					"explanation": "Indirekte Rede: Das Present Perfect wird zu Past Perfect."
+				},
+				"es": {
+					"question": "Dijo que ya había conocido al director.",
+					"explanation": "Estilo indirecto: el present perfect se convierte en past perfect."
 				}
 			}
 		},
@@ -646,6 +1498,18 @@
 				"ru": {
 					"question": "К тому времени, как пришли результаты, мы уже всё забыли.",
 					"explanation": "Past Perfect: забывание произошло до получения результатов."
+				},
+				"fr": {
+					"question": "Au moment où les résultats sont arrivés, nous avions déjà tout oublié.",
+					"explanation": "Le Past Perfect : l'oubli s'est produit avant la réception des résultats."
+				},
+				"de": {
+					"question": "Als die Ergebnisse kamen, hatten wir schon alles vergessen.",
+					"explanation": "Das Past Perfect: das Vergessen fand vor dem Eingang der Ergebnisse statt."
+				},
+				"es": {
+					"question": "Para cuando llegaron los resultados, ya lo habíamos olvidado todo.",
+					"explanation": "El Past Perfect: el olvido ocurrió antes de recibir los resultados."
 				}
 			}
 		},
@@ -655,6 +1519,18 @@
 				"ru": {
 					"question": "Она только что помылась, когда выключили воду.",
 					"explanation": "Past Perfect с just: действие завершилось непосредственно перед следующим."
+				},
+				"fr": {
+					"question": "Elle venait juste de se laver quand l'eau a été coupée.",
+					"explanation": "Le Past Perfect avec just : l'action s'est terminée juste avant la suivante."
+				},
+				"de": {
+					"question": "Sie hatte sich gerade gewaschen, als das Wasser abgestellt wurde.",
+					"explanation": "Das Past Perfect mit just: die Handlung endete unmittelbar vor der nächsten."
+				},
+				"es": {
+					"question": "Acababa de lavarse cuando cortaron el agua.",
+					"explanation": "El Past Perfect con just: la acción terminó justo antes de la siguiente."
 				}
 			}
 		},
@@ -664,6 +1540,18 @@
 				"ru": {
 					"question": "Он никогда не готовил сам до того, как переехал.",
 					"explanation": "Past Perfect с never до конкретного прошлого события."
+				},
+				"fr": {
+					"question": "Il n'avait jamais cuisiné pour lui-même avant de quitter le foyer familial.",
+					"explanation": "Le Past Perfect avec never jusqu'à un événement passé précis."
+				},
+				"de": {
+					"question": "Er hatte noch nie für sich selbst gekocht, bevor er auszog.",
+					"explanation": "Das Past Perfect mit never bis zu einem bestimmten vergangenen Ereignis."
+				},
+				"es": {
+					"question": "Nunca había cocinado para sí mismo antes de mudarse.",
+					"explanation": "El Past Perfect con never hasta un evento pasado concreto."
 				}
 			}
 		},
@@ -673,6 +1561,18 @@
 				"ru": {
 					"question": "Если бы они не поссорились, всё было бы хорошо.",
 					"explanation": "Третье условное с отрицанием в условной части."
+				},
+				"fr": {
+					"question": "S'ils ne s'étaient pas disputés, tout aurait été bien.",
+					"explanation": "Troisième conditionnel avec négation dans la condition."
+				},
+				"de": {
+					"question": "Wenn sie sich nicht gestritten hätten, wäre alles gut gewesen.",
+					"explanation": "Dritter Konditionalsatz mit Verneinung in der Bedingung."
+				},
+				"es": {
+					"question": "Si no se hubieran peleado, todo habría ido bien.",
+					"explanation": "Tercera condicional con negación en la condición."
 				}
 			}
 		},
@@ -682,6 +1582,18 @@
 				"ru": {
 					"question": "К началу лета они уже сняли квартиру.",
 					"explanation": "Past Perfect с by the beginning of — завершение к началу определённого периода."
+				},
+				"fr": {
+					"question": "Au début de l'été, ils avaient déjà loué un appartement.",
+					"explanation": "Le Past Perfect avec by the beginning of — achèvement au début d'une période précise."
+				},
+				"de": {
+					"question": "Bis Sommeranfang hatten sie schon eine Wohnung gemietet.",
+					"explanation": "Das Past Perfect mit by the beginning of — Abschluss zu Beginn eines bestimmten Zeitraums."
+				},
+				"es": {
+					"question": "Para el comienzo del verano ya habían alquilado un piso.",
+					"explanation": "El Past Perfect con by the beginning of — finalización al comienzo de un período concreto."
 				}
 			}
 		},
@@ -691,6 +1603,18 @@
 				"ru": {
 					"question": "Мы не ожидали, что он уже знал правду.",
 					"explanation": "Past Perfect после hadn't expected — знание правды предшествовало нашему удивлению."
+				},
+				"fr": {
+					"question": "Nous ne nous attendions pas à ce qu'il ait déjà su la vérité.",
+					"explanation": "Le Past Perfect après hadn't expected — la connaissance de la vérité précédait notre surprise."
+				},
+				"de": {
+					"question": "Wir hatten nicht erwartet, dass er die Wahrheit schon gewusst hatte.",
+					"explanation": "Das Past Perfect nach hadn't expected — das Wissen der Wahrheit ging unserer Überraschung voraus."
+				},
+				"es": {
+					"question": "No esperábamos que él ya hubiera sabido la verdad.",
+					"explanation": "El Past Perfect tras hadn't expected — el conocimiento de la verdad precedía a nuestra sorpresa."
 				}
 			}
 		},
@@ -700,6 +1624,18 @@
 				"ru": {
 					"question": "Она сказала, что никогда не видела этого актёра.",
 					"explanation": "Косвенная речь: present perfect → past perfect."
+				},
+				"fr": {
+					"question": "Elle a dit qu'elle n'avait jamais vu cet acteur.",
+					"explanation": "Discours indirect : le present perfect devient past perfect."
+				},
+				"de": {
+					"question": "Sie sagte, dass sie diesen Schauspieler noch nie gesehen habe.",
+					"explanation": "Indirekte Rede: Das Present Perfect wird zu Past Perfect."
+				},
+				"es": {
+					"question": "Dijo que nunca había visto a ese actor.",
+					"explanation": "Estilo indirecto: el present perfect se convierte en past perfect."
 				}
 			}
 		},
@@ -709,6 +1645,18 @@
 				"ru": {
 					"question": "Когда пришёл мой черёд, все уже проголосовали.",
 					"explanation": "Past Perfect для действия, завершённого до наступления моей очереди."
+				},
+				"fr": {
+					"question": "Quand c'était mon tour, tout le monde avait déjà voté.",
+					"explanation": "Le Past Perfect pour une action accomplie avant mon tour."
+				},
+				"de": {
+					"question": "Als ich an der Reihe war, hatten schon alle abgestimmt.",
+					"explanation": "Das Past Perfect für eine Handlung, die vor meiner Reihe abgeschlossen war."
+				},
+				"es": {
+					"question": "Cuando llegó mi turno, todos ya habían votado.",
+					"explanation": "El Past Perfect para una acción completada antes de mi turno."
 				}
 			}
 		},
@@ -718,6 +1666,18 @@
 				"ru": {
 					"question": "Если бы она не потеряла телефон, она бы не опоздала.",
 					"explanation": "Третье условное с отрицанием в обеих частях."
+				},
+				"fr": {
+					"question": "Si elle n'avait pas perdu son téléphone, elle ne serait pas arrivée en retard.",
+					"explanation": "Troisième conditionnel avec négation dans les deux parties."
+				},
+				"de": {
+					"question": "Wenn sie ihr Telefon nicht verloren hätte, wäre sie nicht zu spät gekommen.",
+					"explanation": "Dritter Konditionalsatz mit Verneinung in beiden Teilen."
+				},
+				"es": {
+					"question": "Si no hubiera perdido el teléfono, no habría llegado tarde.",
+					"explanation": "Tercera condicional con negación en ambas partes."
 				}
 			}
 		},
@@ -727,6 +1687,18 @@
 				"ru": {
 					"question": "К пяти вечера мы уже закончили совещание.",
 					"explanation": "Past Perfect с конкретным временем суток."
+				},
+				"fr": {
+					"question": "À cinq heures, nous avions déjà terminé la réunion.",
+					"explanation": "Le Past Perfect avec un moment précis de la journée."
+				},
+				"de": {
+					"question": "Bis fünf Uhr hatten wir das Meeting schon beendet.",
+					"explanation": "Das Past Perfect mit einer konkreten Tageszeit."
+				},
+				"es": {
+					"question": "Para las cinco ya habíamos terminado la reunión.",
+					"explanation": "El Past Perfect con un momento concreto del día."
 				}
 			}
 		},
@@ -736,6 +1708,18 @@
 				"ru": {
 					"question": "Он понял, что раньше видел эту женщину.",
 					"explanation": "Past Perfect после realized — узнавание произошло позже, чем первоначальная встреча."
+				},
+				"fr": {
+					"question": "Il a réalisé qu'il avait déjà vu cette femme.",
+					"explanation": "Le Past Perfect après realized — la reconnaissance est postérieure à la première rencontre."
+				},
+				"de": {
+					"question": "Er bemerkte, dass er diese Frau schon gesehen hatte.",
+					"explanation": "Das Past Perfect nach realized — die Wiedererkennung folgte der ursprünglichen Begegnung."
+				},
+				"es": {
+					"question": "Se dio cuenta de que ya había visto a esa mujer antes.",
+					"explanation": "El Past Perfect tras realized — el reconocimiento es posterior al primer encuentro."
 				}
 			}
 		},
@@ -745,6 +1729,18 @@
 				"ru": {
 					"question": "К тому времени, как началась вечеринка, они уже поссорились.",
 					"explanation": "Past Perfect для события, предшествующего началу вечеринки."
+				},
+				"fr": {
+					"question": "Au moment où la fête a commencé, ils s'étaient déjà disputés.",
+					"explanation": "Le Past Perfect pour un événement antérieur au début de la fête."
+				},
+				"de": {
+					"question": "Als die Party anfing, hatten sie sich schon gestritten.",
+					"explanation": "Das Past Perfect für ein Ereignis, das vor dem Beginn der Party stattfand."
+				},
+				"es": {
+					"question": "Para cuando empezó la fiesta, ya se habían peleado.",
+					"explanation": "El Past Perfect para un evento anterior al inicio de la fiesta."
 				}
 			}
 		},
@@ -754,6 +1750,18 @@
 				"ru": {
 					"question": "Она только что уснула, когда зазвонил будильник.",
 					"explanation": "Past Perfect с just — засыпание произошло прямо перед звонком будильника."
+				},
+				"fr": {
+					"question": "Elle venait juste de s'endormir quand le réveil a sonné.",
+					"explanation": "Le Past Perfect avec just : l'endormissement s'est produit juste avant le réveil."
+				},
+				"de": {
+					"question": "Sie war gerade eingeschlafen, als der Wecker klingelte.",
+					"explanation": "Das Past Perfect mit just: das Einschlafen fand unmittelbar vor dem Wecker statt."
+				},
+				"es": {
+					"question": "Acababa de dormirse cuando sonó el despertador.",
+					"explanation": "El Past Perfect con just: el dormirse ocurrió justo antes de que sonara el despertador."
 				}
 			}
 		},
@@ -763,6 +1771,18 @@
 				"ru": {
 					"question": "Он никогда не был за границей до этой командировки.",
 					"explanation": "Past Perfect с never до конкретного прошлого момента."
+				},
+				"fr": {
+					"question": "Il n'avait jamais été à l'étranger avant ce voyage d'affaires.",
+					"explanation": "Le Past Perfect avec never jusqu'à un moment passé précis."
+				},
+				"de": {
+					"question": "Er war vor dieser Dienstreise noch nie im Ausland gewesen.",
+					"explanation": "Das Past Perfect mit never bis zu einem bestimmten vergangenen Zeitpunkt."
+				},
+				"es": {
+					"question": "Nunca había estado en el extranjero antes de ese viaje de negocios.",
+					"explanation": "El Past Perfect con never hasta un momento pasado concreto."
 				}
 			}
 		},
@@ -772,6 +1792,18 @@
 				"ru": {
 					"question": "Если бы мы позвонили заранее, нас бы ждали.",
 					"explanation": "Третье условное с would have been + -ing в главной части."
+				},
+				"fr": {
+					"question": "Si nous avions appelé à l'avance, on nous aurait attendus.",
+					"explanation": "Troisième conditionnel avec would have been + -ing dans la principale."
+				},
+				"de": {
+					"question": "Wenn wir im Voraus angerufen hätten, hätte man auf uns gewartet.",
+					"explanation": "Dritter Konditionalsatz mit would have been + -ing im Hauptsatz."
+				},
+				"es": {
+					"question": "Si hubiéramos llamado antes, nos habrían estado esperando.",
+					"explanation": "Tercera condicional con would have been + -ing en la oración principal."
 				}
 			}
 		},
@@ -781,6 +1813,18 @@
 				"ru": {
 					"question": "К тому времени, как мы приехали, снег уже растаял.",
 					"explanation": "Past Perfect: таяние снега завершилось до нашего приезда."
+				},
+				"fr": {
+					"question": "Au moment où nous sommes arrivés, la neige avait déjà fondu.",
+					"explanation": "Le Past Perfect : la fonte des neiges s'est terminée avant notre arrivée."
+				},
+				"de": {
+					"question": "Als wir ankamen, war der Schnee schon geschmolzen.",
+					"explanation": "Das Past Perfect: das Schmelzen des Schnees war vor unserer Ankunft abgeschlossen."
+				},
+				"es": {
+					"question": "Para cuando llegamos, la nieve ya se había derretido.",
+					"explanation": "El Past Perfect: el deshielo terminó antes de nuestra llegada."
 				}
 			}
 		},
@@ -790,6 +1834,18 @@
 				"ru": {
 					"question": "Он сказал, что уже передумал.",
 					"explanation": "Косвенная речь: present perfect → past perfect."
+				},
+				"fr": {
+					"question": "Il a dit qu'il avait déjà changé d'avis.",
+					"explanation": "Discours indirect : le present perfect devient past perfect."
+				},
+				"de": {
+					"question": "Er sagte, dass er schon seine Meinung geändert habe.",
+					"explanation": "Indirekte Rede: Das Present Perfect wird zu Past Perfect."
+				},
+				"es": {
+					"question": "Dijo que ya había cambiado de opinión.",
+					"explanation": "Estilo indirecto: el present perfect se convierte en past perfect."
 				}
 			}
 		},
@@ -799,6 +1855,18 @@
 				"ru": {
 					"question": "Когда объявили результаты, она уже ушла.",
 					"explanation": "Past Perfect: уход произошёл до объявления результатов."
+				},
+				"fr": {
+					"question": "Quand les résultats ont été annoncés, elle était déjà partie.",
+					"explanation": "Le Past Perfect : le départ a précédé l'annonce des résultats."
+				},
+				"de": {
+					"question": "Als die Ergebnisse bekannt gegeben wurden, war sie schon gegangen.",
+					"explanation": "Das Past Perfect: das Weggehen fand vor der Bekanntgabe der Ergebnisse statt."
+				},
+				"es": {
+					"question": "Cuando se anunciaron los resultados, ella ya se había ido.",
+					"explanation": "El Past Perfect: la partida ocurrió antes del anuncio de los resultados."
 				}
 			}
 		},
@@ -808,6 +1876,18 @@
 				"ru": {
 					"question": "Если бы ты сказал мне правду, я бы понял.",
 					"explanation": "Третье условное предложение: нереальное прошлое условие."
+				},
+				"fr": {
+					"question": "Si tu m'avais dit la vérité, j'aurais compris.",
+					"explanation": "Troisième conditionnel : condition irréelle dans le passé."
+				},
+				"de": {
+					"question": "Wenn du mir die Wahrheit gesagt hättest, hätte ich es verstanden.",
+					"explanation": "Dritter Konditionalsatz: irreale Bedingung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Si me hubieras dicho la verdad, lo habría entendido.",
+					"explanation": "Tercera condicional: condición irreal en el pasado."
 				}
 			}
 		},
@@ -817,6 +1897,18 @@
 				"ru": {
 					"question": "Они уже приняли решение до разговора с нами.",
 					"explanation": "Past Perfect: решение было принято прежде нашего разговора."
+				},
+				"fr": {
+					"question": "Ils avaient déjà pris la décision avant notre conversation.",
+					"explanation": "Le Past Perfect : la décision a été prise avant notre conversation."
+				},
+				"de": {
+					"question": "Sie hatten die Entscheidung schon vor unserem Gespräch getroffen.",
+					"explanation": "Das Past Perfect: die Entscheidung wurde vor unserem Gespräch getroffen."
+				},
+				"es": {
+					"question": "Ya habían tomado la decisión antes de nuestra conversación.",
+					"explanation": "El Past Perfect: la decisión fue tomada antes de nuestra conversación."
 				}
 			}
 		},
@@ -826,6 +1918,18 @@
 				"ru": {
 					"question": "К тому времени мы уже сделали все покупки.",
 					"explanation": "Past Perfect с by that time — к тому моменту покупки были завершены."
+				},
+				"fr": {
+					"question": "À ce moment-là, nous avions déjà fait toutes nos courses.",
+					"explanation": "Le Past Perfect avec by that time — les achats étaient terminés à ce moment-là."
+				},
+				"de": {
+					"question": "Zu dem Zeitpunkt hatten wir schon alle Einkäufe erledigt.",
+					"explanation": "Das Past Perfect mit by that time — die Einkäufe waren zu diesem Zeitpunkt abgeschlossen."
+				},
+				"es": {
+					"question": "Para ese momento ya habíamos hecho todas las compras.",
+					"explanation": "El Past Perfect con by that time — las compras estaban completadas en ese momento."
 				}
 			}
 		},
@@ -835,6 +1939,18 @@
 				"ru": {
 					"question": "Она поняла, что не выключила газ.",
 					"explanation": "Past Perfect в отрицательной форме: осознание позже, чем само действие."
+				},
+				"fr": {
+					"question": "Elle a réalisé qu'elle n'avait pas éteint le gaz.",
+					"explanation": "Le Past Perfect négatif : la prise de conscience est postérieure à l'action."
+				},
+				"de": {
+					"question": "Sie bemerkte, dass sie das Gas nicht abgestellt hatte.",
+					"explanation": "Das Past Perfect negativ: das Bewusstsein folgte der Handlung."
+				},
+				"es": {
+					"question": "Se dio cuenta de que no había apagado el gas.",
+					"explanation": "El Past Perfect negativo: la toma de conciencia es posterior a la acción."
 				}
 			}
 		},
@@ -844,6 +1960,18 @@
 				"ru": {
 					"question": "Он никогда не пробовал этот напиток раньше.",
 					"explanation": "Past Perfect с never + before для отсутствия опыта до данного прошлого момента."
+				},
+				"fr": {
+					"question": "Il n'avait jamais essayé cette boisson auparavant.",
+					"explanation": "Le Past Perfect avec never + before pour l'absence d'expérience jusqu'à ce moment passé."
+				},
+				"de": {
+					"question": "Er hatte dieses Getränk noch nie zuvor probiert.",
+					"explanation": "Das Past Perfect mit never + before für das Fehlen einer Erfahrung bis zu diesem vergangenen Zeitpunkt."
+				},
+				"es": {
+					"question": "Nunca había probado esa bebida antes.",
+					"explanation": "El Past Perfect con never + before para la ausencia de experiencia hasta ese momento pasado."
 				}
 			}
 		},
@@ -853,6 +1981,18 @@
 				"ru": {
 					"question": "К концу урока ученики уже выполнили упражнение.",
 					"explanation": "Past Perfect с by the end of the lesson."
+				},
+				"fr": {
+					"question": "Avant la fin du cours, les élèves avaient déjà fini l'exercice.",
+					"explanation": "Le Past Perfect avec by the end of the lesson."
+				},
+				"de": {
+					"question": "Bis zum Ende der Stunde hatten die Schüler die Aufgabe schon erledigt.",
+					"explanation": "Das Past Perfect mit by the end of the lesson."
+				},
+				"es": {
+					"question": "Para el final de la clase los alumnos ya habían completado el ejercicio.",
+					"explanation": "El Past Perfect con by the end of the lesson."
 				}
 			}
 		},
@@ -862,6 +2002,18 @@
 				"ru": {
 					"question": "Если бы он заправил машину, они бы не остановились.",
 					"explanation": "Третье условное с отрицанием в главной части."
+				},
+				"fr": {
+					"question": "S'il avait fait le plein, ils ne se seraient pas arrêtés.",
+					"explanation": "Troisième conditionnel avec négation dans la principale."
+				},
+				"de": {
+					"question": "Wenn er getankt hätte, hätten sie nicht anhalten müssen.",
+					"explanation": "Dritter Konditionalsatz mit Verneinung im Hauptsatz."
+				},
+				"es": {
+					"question": "Si hubiera llenado el depósito, no habrían parado.",
+					"explanation": "Tercera condicional con negación en la oración principal."
 				}
 			}
 		},
@@ -871,6 +2023,18 @@
 				"ru": {
 					"question": "Мы уже несколько раз встречались до той конференции.",
 					"explanation": "Past Perfect указывает что несколько встреч предшествовали конференции."
+				},
+				"fr": {
+					"question": "Nous nous étions déjà rencontrés plusieurs fois avant cette conférence.",
+					"explanation": "Le Past Perfect indique que plusieurs rencontres ont précédé la conférence."
+				},
+				"de": {
+					"question": "Wir hatten uns schon mehrmals vor dieser Konferenz getroffen.",
+					"explanation": "Das Past Perfect gibt an, dass mehrere Begegnungen der Konferenz vorausgingen."
+				},
+				"es": {
+					"question": "Ya nos habíamos encontrado varias veces antes de esa conferencia.",
+					"explanation": "El Past Perfect indica que varios encuentros precedieron a la conferencia."
 				}
 			}
 		},
@@ -880,6 +2044,18 @@
 				"ru": {
 					"question": "Она сказала, что уже прочитала эту статью.",
 					"explanation": "Косвенная речь: present perfect → past perfect после said."
+				},
+				"fr": {
+					"question": "Elle a dit qu'elle avait déjà lu cet article.",
+					"explanation": "Discours indirect : le present perfect devient past perfect après said."
+				},
+				"de": {
+					"question": "Sie sagte, dass sie diesen Artikel schon gelesen habe.",
+					"explanation": "Indirekte Rede: Das Present Perfect wird nach said zu Past Perfect."
+				},
+				"es": {
+					"question": "Dijo que ya había leído ese artículo.",
+					"explanation": "Estilo indirecto: el present perfect se convierte en past perfect tras said."
 				}
 			}
 		},
@@ -889,6 +2065,18 @@
 				"ru": {
 					"question": "К тому времени, как начался матч, стадион уже заполнился.",
 					"explanation": "Past Perfect: заполнение стадиона произошло до начала матча."
+				},
+				"fr": {
+					"question": "Au moment où le match a commencé, le stade s'était déjà rempli.",
+					"explanation": "Le Past Perfect : le remplissage du stade s'est terminé avant le début du match."
+				},
+				"de": {
+					"question": "Als das Spiel begann, hatte sich das Stadion schon gefüllt.",
+					"explanation": "Das Past Perfect: das Füllen des Stadions war vor Spielbeginn abgeschlossen."
+				},
+				"es": {
+					"question": "Para cuando empezó el partido, el estadio ya se había llenado.",
+					"explanation": "El Past Perfect: el llenado del estadio terminó antes del inicio del partido."
 				}
 			}
 		},
@@ -898,6 +2086,18 @@
 				"ru": {
 					"question": "Он только что выключил компьютер, когда вспомнил о письме.",
 					"explanation": "Past Perfect с just: выключение компьютера — непосредственно перед воспоминанием."
+				},
+				"fr": {
+					"question": "Il venait juste d'éteindre son ordinateur quand il s'est souvenu de l'email.",
+					"explanation": "Le Past Perfect avec just : l'extinction de l'ordinateur a eu lieu juste avant le souvenir."
+				},
+				"de": {
+					"question": "Er hatte gerade seinen Computer ausgeschaltet, als er sich an die E-Mail erinnerte.",
+					"explanation": "Das Past Perfect mit just: das Ausschalten des Computers fand unmittelbar vor der Erinnerung statt."
+				},
+				"es": {
+					"question": "Acababa de apagar el ordenador cuando recordó el correo.",
+					"explanation": "El Past Perfect con just: apagar el ordenador ocurrió justo antes de acordarse del correo."
 				}
 			}
 		},
@@ -907,6 +2107,18 @@
 				"ru": {
 					"question": "Если бы она не забыла зарядник, телефон не разрядился бы.",
 					"explanation": "Третье условное с отрицанием в обеих частях."
+				},
+				"fr": {
+					"question": "Si elle n'avait pas oublié le chargeur, le téléphone ne se serait pas déchargé.",
+					"explanation": "Troisième conditionnel avec négation dans les deux parties."
+				},
+				"de": {
+					"question": "Wenn sie das Ladegerät nicht vergessen hätte, wäre das Telefon nicht leer geworden.",
+					"explanation": "Dritter Konditionalsatz mit Verneinung in beiden Teilen."
+				},
+				"es": {
+					"question": "Si no hubiera olvidado el cargador, el teléfono no se habría quedado sin batería.",
+					"explanation": "Tercera condicional con negación en ambas partes."
 				}
 			}
 		},
@@ -916,6 +2128,18 @@
 				"ru": {
 					"question": "К тому времени, как она доехала, магазин уже закрылся.",
 					"explanation": "Past Perfect: закрытие магазина произошло до её приезда."
+				},
+				"fr": {
+					"question": "Au moment où elle est arrivée là-bas, le magasin avait déjà fermé.",
+					"explanation": "Le Past Perfect : la fermeture du magasin s'est produite avant son arrivée."
+				},
+				"de": {
+					"question": "Als sie dort ankam, hatte der Laden schon geschlossen.",
+					"explanation": "Das Past Perfect: die Schließung des Ladens fand vor ihrer Ankunft statt."
+				},
+				"es": {
+					"question": "Para cuando llegó allí, la tienda ya había cerrado.",
+					"explanation": "El Past Perfect: el cierre de la tienda ocurrió antes de su llegada."
 				}
 			}
 		},
@@ -925,6 +2149,18 @@
 				"ru": {
 					"question": "Он сказал, что уже попробовал все варианты.",
 					"explanation": "Косвенная речь: present perfect → past perfect."
+				},
+				"fr": {
+					"question": "Il a dit qu'il avait déjà essayé toutes les options.",
+					"explanation": "Discours indirect : le present perfect devient past perfect."
+				},
+				"de": {
+					"question": "Er sagte, dass er schon alle Optionen ausprobiert habe.",
+					"explanation": "Indirekte Rede: Das Present Perfect wird zu Past Perfect."
+				},
+				"es": {
+					"question": "Dijo que ya había probado todas las opciones.",
+					"explanation": "Estilo indirecto: el present perfect se convierte en past perfect."
 				}
 			}
 		},
@@ -934,6 +2170,18 @@
 				"ru": {
 					"question": "Когда они вошли, лекция уже началась.",
 					"explanation": "Past Perfect: лекция началась до их прихода."
+				},
+				"fr": {
+					"question": "Quand ils sont entrés, la conférence avait déjà commencé.",
+					"explanation": "Le Past Perfect : la conférence avait commencé avant leur arrivée."
+				},
+				"de": {
+					"question": "Als sie hereinkamen, hatte die Vorlesung schon begonnen.",
+					"explanation": "Das Past Perfect: die Vorlesung hatte vor ihrer Ankunft begonnen."
+				},
+				"es": {
+					"question": "Cuando entraron, la conferencia ya había empezado.",
+					"explanation": "El Past Perfect: la conferencia había empezado antes de su llegada."
 				}
 			}
 		},
@@ -943,6 +2191,18 @@
 				"ru": {
 					"question": "Если бы ты взял карту, мы бы не заблудились.",
 					"explanation": "Третье условное предложение: нереальное прошлое условие."
+				},
+				"fr": {
+					"question": "Si tu avais pris la carte, nous ne nous serions pas perdus.",
+					"explanation": "Troisième conditionnel : condition irréelle dans le passé."
+				},
+				"de": {
+					"question": "Wenn du die Karte mitgenommen hättest, hätten wir uns nicht verirrt.",
+					"explanation": "Dritter Konditionalsatz: irreale Bedingung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Si hubieras cogido el mapa, no nos habríamos perdido.",
+					"explanation": "Tercera condicional: condición irreal en el pasado."
 				}
 			}
 		},
@@ -952,6 +2212,18 @@
 				"ru": {
 					"question": "К следующему утру она уже приняла решение.",
 					"explanation": "Past Perfect с by the next morning."
+				},
+				"fr": {
+					"question": "Au lendemain matin, elle avait déjà pris sa décision.",
+					"explanation": "Le Past Perfect avec by the next morning."
+				},
+				"de": {
+					"question": "Bis zum nächsten Morgen hatte sie schon ihre Entscheidung getroffen.",
+					"explanation": "Das Past Perfect mit by the next morning."
+				},
+				"es": {
+					"question": "Para la mañana siguiente ya había tomado su decisión.",
+					"explanation": "El Past Perfect con by the next morning."
 				}
 			}
 		},
@@ -961,6 +2233,18 @@
 				"ru": {
 					"question": "Мы уже поздравили его до официального объявления.",
 					"explanation": "Past Perfect: поздравление случилось раньше официального объявления."
+				},
+				"fr": {
+					"question": "Nous l'avions déjà félicité avant l'annonce officielle.",
+					"explanation": "Le Past Perfect : les félicitations ont précédé l'annonce officielle."
+				},
+				"de": {
+					"question": "Wir hatten ihn schon vor der offiziellen Bekanntgabe beglückwünscht.",
+					"explanation": "Das Past Perfect: die Gratulation fand vor der offiziellen Bekanntgabe statt."
+				},
+				"es": {
+					"question": "Ya le habíamos felicitado antes del anuncio oficial.",
+					"explanation": "El Past Perfect: la felicitación ocurrió antes del anuncio oficial."
 				}
 			}
 		},
@@ -970,6 +2254,18 @@
 				"ru": {
 					"question": "Она поняла, что потеряла кошелёк.",
 					"explanation": "Past Perfect после realized — потеря кошелька предшествует осознанию."
+				},
+				"fr": {
+					"question": "Elle a réalisé qu'elle avait perdu son porte-monnaie.",
+					"explanation": "Le Past Perfect après realized — la perte du porte-monnaie précède la prise de conscience."
+				},
+				"de": {
+					"question": "Sie bemerkte, dass sie ihre Geldbörse verloren hatte.",
+					"explanation": "Das Past Perfect nach realized — der Verlust der Geldbörse geht der Erkenntnis voraus."
+				},
+				"es": {
+					"question": "Se dio cuenta de que había perdido el monedero.",
+					"explanation": "El Past Perfect tras realized — la pérdida del monedero precede a darse cuenta."
 				}
 			}
 		},
@@ -979,6 +2275,18 @@
 				"ru": {
 					"question": "Он никогда не проигрывал в шахматы до того матча.",
 					"explanation": "Past Perfect с never до конкретного прошлого события."
+				},
+				"fr": {
+					"question": "Il n'avait jamais perdu aux échecs avant ce match.",
+					"explanation": "Le Past Perfect avec never jusqu'à un événement passé précis."
+				},
+				"de": {
+					"question": "Er hatte vor diesem Spiel noch nie Schach verloren.",
+					"explanation": "Das Past Perfect mit never bis zu einem bestimmten vergangenen Ereignis."
+				},
+				"es": {
+					"question": "Nunca había perdido al ajedrez antes de ese partido.",
+					"explanation": "El Past Perfect con never hasta un evento pasado concreto."
 				}
 			}
 		},
@@ -988,6 +2296,18 @@
 				"ru": {
 					"question": "Если бы они вовремя предупредили нас, мы бы успели.",
 					"explanation": "Третье условное: нереальное прошлое условие."
+				},
+				"fr": {
+					"question": "S'ils nous avaient prévenus à temps, nous aurions réussi.",
+					"explanation": "Troisième conditionnel : condition irréelle dans le passé."
+				},
+				"de": {
+					"question": "Wenn sie uns rechtzeitig gewarnt hätten, hätten wir es geschafft.",
+					"explanation": "Dritter Konditionalsatz: irreale Bedingung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Si nos hubieran avisado a tiempo, lo habríamos logrado.",
+					"explanation": "Tercera condicional: condición irreal en el pasado."
 				}
 			}
 		},
@@ -997,6 +2317,18 @@
 				"ru": {
 					"question": "К тому времени, как приехала полиция, вор уже скрылся.",
 					"explanation": "Past Perfect: побег произошёл до прибытия полиции."
+				},
+				"fr": {
+					"question": "Au moment où la police est arrivée, le voleur s'était déjà enfui.",
+					"explanation": "Le Past Perfect : la fuite s'est produite avant l'arrivée de la police."
+				},
+				"de": {
+					"question": "Als die Polizei ankam, war der Dieb schon geflohen.",
+					"explanation": "Das Past Perfect: die Flucht fand vor dem Eintreffen der Polizei statt."
+				},
+				"es": {
+					"question": "Para cuando llegó la policía, el ladrón ya había escapado.",
+					"explanation": "El Past Perfect: la fuga ocurrió antes de la llegada de la policía."
 				}
 			}
 		},
@@ -1006,6 +2338,18 @@
 				"ru": {
 					"question": "Она сказала, что уже занималась этим вопросом.",
 					"explanation": "Косвенная речь: present perfect → past perfect."
+				},
+				"fr": {
+					"question": "Elle a dit qu'elle s'était déjà occupée de la question.",
+					"explanation": "Discours indirect : le present perfect devient past perfect."
+				},
+				"de": {
+					"question": "Sie sagte, dass sie die Angelegenheit schon erledigt habe.",
+					"explanation": "Indirekte Rede: Das Present Perfect wird zu Past Perfect."
+				},
+				"es": {
+					"question": "Dijo que ya se había ocupado del asunto.",
+					"explanation": "Estilo indirecto: el present perfect se convierte en past perfect."
 				}
 			}
 		},
@@ -1015,6 +2359,18 @@
 				"ru": {
 					"question": "Когда я зашёл в офис, все уже разошлись.",
 					"explanation": "Past Perfect: уход всех предшествует моему приходу."
+				},
+				"fr": {
+					"question": "Quand je suis entré dans le bureau, tout le monde était déjà parti.",
+					"explanation": "Le Past Perfect : le départ de tous précède mon arrivée."
+				},
+				"de": {
+					"question": "Als ich das Büro betrat, waren alle schon gegangen.",
+					"explanation": "Das Past Perfect: das Weggehen aller ging meiner Ankunft voraus."
+				},
+				"es": {
+					"question": "Cuando entré en la oficina, todos ya se habían ido.",
+					"explanation": "El Past Perfect: la partida de todos precede a mi llegada."
 				}
 			}
 		},
@@ -1024,6 +2380,18 @@
 				"ru": {
 					"question": "Если бы он не поспешил, он бы не упал.",
 					"explanation": "Третье условное с отрицанием в обеих частях."
+				},
+				"fr": {
+					"question": "S'il ne s'était pas dépêché, il ne serait pas tombé.",
+					"explanation": "Troisième conditionnel avec négation dans les deux parties."
+				},
+				"de": {
+					"question": "Wenn er sich nicht beeilt hätte, wäre er nicht gefallen.",
+					"explanation": "Dritter Konditionalsatz mit Verneinung in beiden Teilen."
+				},
+				"es": {
+					"question": "Si no hubiera corrido tanto, no se habría caído.",
+					"explanation": "Tercera condicional con negación en ambas partes."
 				}
 			}
 		},
@@ -1033,6 +2401,18 @@
 				"ru": {
 					"question": "К десяти утра команда уже провела планёрку.",
 					"explanation": "Past Perfect с конкретным временем суток."
+				},
+				"fr": {
+					"question": "À dix heures du matin, l'équipe avait déjà tenu le briefing.",
+					"explanation": "Le Past Perfect avec un moment précis de la journée."
+				},
+				"de": {
+					"question": "Bis zehn Uhr morgens hatte das Team schon das Briefing abgehalten.",
+					"explanation": "Das Past Perfect mit einer konkreten Tageszeit."
+				},
+				"es": {
+					"question": "Para las diez de la mañana el equipo ya había celebrado el briefing.",
+					"explanation": "El Past Perfect con un momento concreto del día."
 				}
 			}
 		},
@@ -1042,6 +2422,18 @@
 				"ru": {
 					"question": "Они не подозревали, что он уже знал об этом плане.",
 					"explanation": "Past Perfect после didn't suspect — знание предшествует подозрению."
+				},
+				"fr": {
+					"question": "Ils ne soupçonnaient pas qu'il avait déjà su le plan.",
+					"explanation": "Le Past Perfect après didn't suspect — la connaissance précède le soupçon."
+				},
+				"de": {
+					"question": "Sie ahnten nicht, dass er schon von dem Plan gewusst hatte.",
+					"explanation": "Das Past Perfect nach didn't suspect — das Wissen geht dem Verdacht voraus."
+				},
+				"es": {
+					"question": "No sospechaban que él ya había sabido el plan.",
+					"explanation": "El Past Perfect tras didn't suspect — el conocimiento precede a la sospecha."
 				}
 			}
 		},
@@ -1051,6 +2443,18 @@
 				"ru": {
 					"question": "Он сказал, что никогда не видел ничего подобного.",
 					"explanation": "Косвенная речь: present perfect → past perfect с never."
+				},
+				"fr": {
+					"question": "Il a dit qu'il n'avait jamais rien vu de tel.",
+					"explanation": "Discours indirect : le present perfect avec never devient past perfect."
+				},
+				"de": {
+					"question": "Er sagte, dass er so etwas noch nie gesehen habe.",
+					"explanation": "Indirekte Rede: Das Present Perfect mit never wird zu Past Perfect."
+				},
+				"es": {
+					"question": "Dijo que nunca había visto nada igual.",
+					"explanation": "Estilo indirecto: el present perfect con never se convierte en past perfect."
 				}
 			}
 		},
@@ -1060,6 +2464,18 @@
 				"ru": {
 					"question": "К концу месяца они уже израсходовали бюджет.",
 					"explanation": "Past Perfect с by the end of the month."
+				},
+				"fr": {
+					"question": "À la fin du mois, ils avaient déjà dépensé le budget.",
+					"explanation": "Le Past Perfect avec by the end of the month."
+				},
+				"de": {
+					"question": "Bis Ende des Monats hatten sie das Budget schon ausgegeben.",
+					"explanation": "Das Past Perfect mit by the end of the month."
+				},
+				"es": {
+					"question": "Para el final del mes ya habían gastado el presupuesto.",
+					"explanation": "El Past Perfect con by the end of the month."
 				}
 			}
 		},
@@ -1069,6 +2485,18 @@
 				"ru": {
 					"question": "Она только что отправила письмо, когда узнала адрес.",
 					"explanation": "Past Perfect с just: отправка письма — прямо перед нахождением адреса."
+				},
+				"fr": {
+					"question": "Elle venait juste d'envoyer la lettre quand elle a trouvé l'adresse.",
+					"explanation": "Le Past Perfect avec just : l'envoi a eu lieu juste avant la découverte de l'adresse."
+				},
+				"de": {
+					"question": "Sie hatte den Brief gerade abgeschickt, als sie die Adresse fand.",
+					"explanation": "Das Past Perfect mit just: das Absenden fand unmittelbar vor der Entdeckung der Adresse statt."
+				},
+				"es": {
+					"question": "Acababa de enviar la carta cuando encontró la dirección.",
+					"explanation": "El Past Perfect con just: el envío ocurrió justo antes de encontrar la dirección."
 				}
 			}
 		},
@@ -1078,6 +2506,18 @@
 				"ru": {
 					"question": "Если бы они больше тренировались, они бы выиграли.",
 					"explanation": "Третье условное: нереальное прошлое условие."
+				},
+				"fr": {
+					"question": "S'ils s'étaient entraînés davantage, ils auraient gagné.",
+					"explanation": "Troisième conditionnel : condition irréelle dans le passé."
+				},
+				"de": {
+					"question": "Wenn sie mehr trainiert hätten, hätten sie gewonnen.",
+					"explanation": "Dritter Konditionalsatz: irreale Bedingung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Si hubieran entrenado más, habrían ganado.",
+					"explanation": "Tercera condicional: condición irreal en el pasado."
 				}
 			}
 		},
@@ -1087,6 +2527,18 @@
 				"ru": {
 					"question": "К тому времени, как поступили жалобы, сотрудника уже уволили.",
 					"explanation": "Past Perfect Passive: увольнение произошло до поступления жалоб."
+				},
+				"fr": {
+					"question": "Au moment où les plaintes sont arrivées, l'employé avait déjà été licencié.",
+					"explanation": "Le Past Perfect Passif : le licenciement a précédé les plaintes."
+				},
+				"de": {
+					"question": "Als die Beschwerden eingingen, war der Mitarbeiter schon entlassen worden.",
+					"explanation": "Das Past Perfect Passiv: die Entlassung fand vor den Beschwerden statt."
+				},
+				"es": {
+					"question": "Para cuando llegaron las quejas, el empleado ya había sido despedido.",
+					"explanation": "El Past Perfect Pasivo: el despido ocurrió antes de las quejas."
 				}
 			}
 		},
@@ -1096,6 +2548,18 @@
 				"ru": {
 					"question": "Он сообщил, что уже связался с клиентом.",
 					"explanation": "Косвенная речь: present perfect → past perfect после reported."
+				},
+				"fr": {
+					"question": "Il a rapporté qu'il avait déjà contacté le client.",
+					"explanation": "Discours indirect : le present perfect devient past perfect après reported."
+				},
+				"de": {
+					"question": "Er berichtete, dass er den Kunden schon kontaktiert habe.",
+					"explanation": "Indirekte Rede: Das Present Perfect wird nach reported zu Past Perfect."
+				},
+				"es": {
+					"question": "Informó de que ya había contactado al cliente.",
+					"explanation": "Estilo indirecto: el present perfect se convierte en past perfect tras reported."
 				}
 			}
 		},
@@ -1105,6 +2569,18 @@
 				"ru": {
 					"question": "Когда мы вернулись, кот уже съел всю рыбу.",
 					"explanation": "Past Perfect: кот съел рыбу до нашего возвращения."
+				},
+				"fr": {
+					"question": "Quand nous sommes rentrés, le chat avait déjà mangé tout le poisson.",
+					"explanation": "Le Past Perfect : le chat a mangé le poisson avant notre retour."
+				},
+				"de": {
+					"question": "Als wir zurückkamen, hatte die Katze schon den ganzen Fisch gefressen.",
+					"explanation": "Das Past Perfect: die Katze hatte den Fisch vor unserer Rückkehr gefressen."
+				},
+				"es": {
+					"question": "Cuando volvimos, el gato ya se había comido todo el pescado.",
+					"explanation": "El Past Perfect: el gato comió el pescado antes de nuestra vuelta."
 				}
 			}
 		},
@@ -1114,6 +2590,18 @@
 				"ru": {
 					"question": "Если бы ты поспал больше, ты бы не устал так.",
 					"explanation": "Третье условное: нереальное прошлое условие с отрицательным следствием."
+				},
+				"fr": {
+					"question": "Si tu avais dormi davantage, tu ne t'aurais pas autant fatigué.",
+					"explanation": "Troisième conditionnel : condition irréelle dans le passé avec conséquence négative."
+				},
+				"de": {
+					"question": "Wenn du mehr geschlafen hättest, wärst du nicht so müde geworden.",
+					"explanation": "Dritter Konditionalsatz: irreale Bedingung in der Vergangenheit mit negativer Folge."
+				},
+				"es": {
+					"question": "Si hubieras dormido más, no te habrías cansado tanto.",
+					"explanation": "Tercera condicional: condición irreal en el pasado con consecuencia negativa."
 				}
 			}
 		},
@@ -1123,6 +2611,18 @@
 				"ru": {
 					"question": "К тому времени, как она нашла кошелёк, деньги уже исчезли.",
 					"explanation": "Past Perfect: деньги исчезли до нахождения кошелька."
+				},
+				"fr": {
+					"question": "Au moment où elle a trouvé le porte-monnaie, l'argent avait déjà disparu.",
+					"explanation": "Le Past Perfect : l'argent avait disparu avant qu'elle ne trouve le porte-monnaie."
+				},
+				"de": {
+					"question": "Als sie die Geldbörse fand, war das Geld schon verschwunden.",
+					"explanation": "Das Past Perfect: das Geld war verschwunden, bevor sie die Geldbörse fand."
+				},
+				"es": {
+					"question": "Para cuando encontró el monedero, el dinero ya había desaparecido.",
+					"explanation": "El Past Perfect: el dinero había desaparecido antes de que encontrara el monedero."
 				}
 			}
 		},
@@ -1132,6 +2632,18 @@
 				"ru": {
 					"question": "Мы уже встретили нового директора до официального знакомства.",
 					"explanation": "Past Perfect: встреча произошла до официального знакомства."
+				},
+				"fr": {
+					"question": "Nous avions déjà rencontré le nouveau directeur avant la présentation officielle.",
+					"explanation": "Le Past Perfect : la rencontre a précédé la présentation officielle."
+				},
+				"de": {
+					"question": "Wir hatten den neuen Direktor schon vor der offiziellen Vorstellung getroffen.",
+					"explanation": "Das Past Perfect: die Begegnung fand vor der offiziellen Vorstellung statt."
+				},
+				"es": {
+					"question": "Ya habíamos conocido al nuevo director antes de la presentación oficial.",
+					"explanation": "El Past Perfect: el encuentro ocurrió antes de la presentación oficial."
 				}
 			}
 		},
@@ -1141,6 +2653,18 @@
 				"ru": {
 					"question": "Она поняла, что перепутала даты.",
 					"explanation": "Past Perfect после realized — путаница с датами предшествует осознанию."
+				},
+				"fr": {
+					"question": "Elle a réalisé qu'elle avait confondu les dates.",
+					"explanation": "Le Past Perfect après realized — la confusion de dates précède la prise de conscience."
+				},
+				"de": {
+					"question": "Sie bemerkte, dass sie die Daten verwechselt hatte.",
+					"explanation": "Das Past Perfect nach realized — die Datenverwechslung geht der Erkenntnis voraus."
+				},
+				"es": {
+					"question": "Se dio cuenta de que había confundido las fechas.",
+					"explanation": "El Past Perfect tras realized — la confusión de fechas precede a darse cuenta."
 				}
 			}
 		},
@@ -1150,6 +2674,18 @@
 				"ru": {
 					"question": "Он никогда не слышал эту песню до той ночи.",
 					"explanation": "Past Perfect с never до конкретного прошлого момента."
+				},
+				"fr": {
+					"question": "Il n'avait jamais entendu cette chanson avant cette nuit-là.",
+					"explanation": "Le Past Perfect avec never jusqu'à un moment passé précis."
+				},
+				"de": {
+					"question": "Er hatte dieses Lied vor diesem Abend noch nie gehört.",
+					"explanation": "Das Past Perfect mit never bis zu einem bestimmten vergangenen Zeitpunkt."
+				},
+				"es": {
+					"question": "Nunca había oído esa canción antes de esa noche.",
+					"explanation": "El Past Perfect con never hasta un momento pasado concreto."
 				}
 			}
 		},
@@ -1159,6 +2695,18 @@
 				"ru": {
 					"question": "Если бы она объяснила ситуацию, мы бы помогли.",
 					"explanation": "Третье условное: нереальное прошлое условие."
+				},
+				"fr": {
+					"question": "Si elle avait expliqué la situation, nous aurions aidé.",
+					"explanation": "Troisième conditionnel : condition irréelle dans le passé."
+				},
+				"de": {
+					"question": "Wenn sie die Situation erklärt hätte, hätten wir geholfen.",
+					"explanation": "Dritter Konditionalsatz: irreale Bedingung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Si ella hubiera explicado la situación, habríamos ayudado.",
+					"explanation": "Tercera condicional: condición irreal en el pasado."
 				}
 			}
 		},
@@ -1168,6 +2716,18 @@
 				"ru": {
 					"question": "К тому времени, как прибыла помощь, положение ухудшилось.",
 					"explanation": "Past Perfect: ухудшение ситуации произошло до прибытия помощи."
+				},
+				"fr": {
+					"question": "Au moment où les secours sont arrivés, la situation s'était aggravée.",
+					"explanation": "Le Past Perfect : la dégradation s'est produite avant l'arrivée des secours."
+				},
+				"de": {
+					"question": "Als die Hilfe ankam, hatte sich die Lage schon verschlechtert.",
+					"explanation": "Das Past Perfect: die Verschlechterung fand vor dem Eintreffen der Hilfe statt."
+				},
+				"es": {
+					"question": "Para cuando llegó la ayuda, la situación ya había empeorado.",
+					"explanation": "El Past Perfect: el empeoramiento ocurrió antes de la llegada de la ayuda."
 				}
 			}
 		},
@@ -1177,6 +2737,18 @@
 				"ru": {
 					"question": "Он сказал, что уже отправил посылку.",
 					"explanation": "Косвенная речь: present perfect → past perfect."
+				},
+				"fr": {
+					"question": "Il a dit qu'il avait déjà envoyé le colis.",
+					"explanation": "Discours indirect : le present perfect devient past perfect."
+				},
+				"de": {
+					"question": "Er sagte, dass er das Paket schon abgeschickt habe.",
+					"explanation": "Indirekte Rede: Das Present Perfect wird zu Past Perfect."
+				},
+				"es": {
+					"question": "Dijo que ya había enviado el paquete.",
+					"explanation": "Estilo indirecto: el present perfect se convierte en past perfect."
 				}
 			}
 		},
@@ -1186,6 +2758,18 @@
 				"ru": {
 					"question": "Когда я включил телевизор, передача уже закончилась.",
 					"explanation": "Past Perfect: передача закончилась до включения телевизора."
+				},
+				"fr": {
+					"question": "Quand j'ai allumé la télé, l'émission était déjà terminée.",
+					"explanation": "Le Past Perfect : l'émission s'est terminée avant que j'allume la télé."
+				},
+				"de": {
+					"question": "Als ich den Fernseher einschaltete, war die Sendung schon vorbei.",
+					"explanation": "Das Past Perfect: die Sendung war vorbei, bevor ich den Fernseher einschaltete."
+				},
+				"es": {
+					"question": "Cuando encendí la televisión, el programa ya había terminado.",
+					"explanation": "El Past Perfect: el programa había terminado antes de que encendiera la televisión."
 				}
 			}
 		},
@@ -1195,6 +2779,18 @@
 				"ru": {
 					"question": "Если бы они прочитали инструкцию, поломки бы не было.",
 					"explanation": "Третье условное с отрицательным следствием."
+				},
+				"fr": {
+					"question": "S'ils avaient lu le manuel, il n'y aurait pas eu de panne.",
+					"explanation": "Troisième conditionnel avec conséquence négative."
+				},
+				"de": {
+					"question": "Wenn sie das Handbuch gelesen hätten, wäre es nicht zu einer Panne gekommen.",
+					"explanation": "Dritter Konditionalsatz mit negativer Folge."
+				},
+				"es": {
+					"question": "Si hubieran leído el manual, no habría habido ninguna avería.",
+					"explanation": "Tercera condicional con consecuencia negativa."
 				}
 			}
 		},
@@ -1204,6 +2800,18 @@
 				"ru": {
 					"question": "К полудню они уже обошли весь музей.",
 					"explanation": "Past Perfect с by noon — завершение к полудню."
+				},
+				"fr": {
+					"question": "À midi, ils avaient déjà visité tout le musée.",
+					"explanation": "Le Past Perfect avec by noon — achèvement avant midi."
+				},
+				"de": {
+					"question": "Bis Mittag hatten sie das ganze Museum schon besichtigt.",
+					"explanation": "Das Past Perfect mit by noon — Abschluss vor Mittag."
+				},
+				"es": {
+					"question": "Para el mediodía ya habían recorrido todo el museo.",
+					"explanation": "El Past Perfect con by noon — finalización antes del mediodía."
 				}
 			}
 		},
@@ -1213,6 +2821,18 @@
 				"ru": {
 					"question": "Она не ожидала, что он уже купил кольцо.",
 					"explanation": "Past Perfect после hadn't expected — покупка произошла раньше."
+				},
+				"fr": {
+					"question": "Elle ne s'attendait pas à ce qu'il ait déjà acheté la bague.",
+					"explanation": "Le Past Perfect après hadn't expected — l'achat a précédé l'attente."
+				},
+				"de": {
+					"question": "Sie hatte nicht erwartet, dass er schon den Ring gekauft hatte.",
+					"explanation": "Das Past Perfect nach hadn't expected — der Kauf fand vor der Erwartung statt."
+				},
+				"es": {
+					"question": "No esperaba que él ya hubiera comprado el anillo.",
+					"explanation": "El Past Perfect tras hadn't expected — la compra precedió a la expectativa."
 				}
 			}
 		},
@@ -1222,6 +2842,18 @@
 				"ru": {
 					"question": "Он сообщил, что уже подтвердил бронирование.",
 					"explanation": "Косвенная речь: present perfect → past perfect после reported."
+				},
+				"fr": {
+					"question": "Il a rapporté qu'il avait déjà confirmé la réservation.",
+					"explanation": "Discours indirect : le present perfect devient past perfect après reported."
+				},
+				"de": {
+					"question": "Er berichtete, dass er die Reservierung schon bestätigt habe.",
+					"explanation": "Indirekte Rede: Das Present Perfect wird nach reported zu Past Perfect."
+				},
+				"es": {
+					"question": "Informó de que ya había confirmado la reserva.",
+					"explanation": "Estilo indirecto: el present perfect se convierte en past perfect tras reported."
 				}
 			}
 		},
@@ -1231,6 +2863,18 @@
 				"ru": {
 					"question": "К тому времени, как началась зима, они уже переехали на юг.",
 					"explanation": "Past Perfect: переезд предшествует началу зимы."
+				},
+				"fr": {
+					"question": "Au moment où l'hiver a commencé, ils avaient déjà déménagé dans le sud.",
+					"explanation": "Le Past Perfect : le déménagement a précédé le début de l'hiver."
+				},
+				"de": {
+					"question": "Als der Winter begann, waren sie schon in den Süden gezogen.",
+					"explanation": "Das Past Perfect: der Umzug fand vor Winterbeginn statt."
+				},
+				"es": {
+					"question": "Para cuando empezó el invierno, ya se habían mudado al sur.",
+					"explanation": "El Past Perfect: la mudanza precedió al inicio del invierno."
 				}
 			}
 		},
@@ -1240,6 +2884,18 @@
 				"ru": {
 					"question": "Она только что записалась на приём, когда врач ушёл в отпуск.",
 					"explanation": "Past Perfect с just: запись — непосредственно перед уходом врача."
+				},
+				"fr": {
+					"question": "Elle venait juste de prendre rendez-vous quand le médecin est parti en vacances.",
+					"explanation": "Le Past Perfect avec just : la prise de rendez-vous a eu lieu juste avant le départ du médecin."
+				},
+				"de": {
+					"question": "Sie hatte gerade einen Termin gemacht, als der Arzt in Urlaub ging.",
+					"explanation": "Das Past Perfect mit just: die Terminvereinbarung fand unmittelbar vor dem Urlaub des Arztes statt."
+				},
+				"es": {
+					"question": "Acababa de pedir cita cuando el médico se fue de vacaciones.",
+					"explanation": "El Past Perfect con just: la cita ocurrió justo antes de que el médico se fuera de vacaciones."
 				}
 			}
 		},
@@ -1249,6 +2905,18 @@
 				"ru": {
 					"question": "Если бы он сохранил документ, данные не потерялись бы.",
 					"explanation": "Третье условное с Past Perfect Passive в главной части."
+				},
+				"fr": {
+					"question": "S'il avait sauvegardé le document, les données n'auraient pas été perdues.",
+					"explanation": "Troisième conditionnel avec Past Perfect Passif dans la principale."
+				},
+				"de": {
+					"question": "Wenn er das Dokument gespeichert hätte, wären die Daten nicht verloren gegangen.",
+					"explanation": "Dritter Konditionalsatz mit Past Perfect Passiv im Hauptsatz."
+				},
+				"es": {
+					"question": "Si hubiera guardado el documento, los datos no se habrían perdido.",
+					"explanation": "Tercera condicional con Past Perfect Pasivo en la oración principal."
 				}
 			}
 		},
@@ -1258,6 +2926,18 @@
 				"ru": {
 					"question": "К тому моменту, как пришли новости, игра уже завершилась.",
 					"explanation": "Past Perfect: игра завершилась до получения новостей."
+				},
+				"fr": {
+					"question": "Au moment où les nouvelles sont arrivées, le match était déjà terminé.",
+					"explanation": "Le Past Perfect : le match s'est terminé avant la réception des nouvelles."
+				},
+				"de": {
+					"question": "Als die Nachricht ankam, war das Spiel schon vorbei.",
+					"explanation": "Das Past Perfect: das Spiel war beendet, bevor die Nachricht ankam."
+				},
+				"es": {
+					"question": "Para cuando llegaron las noticias, el partido ya había terminado.",
+					"explanation": "El Past Perfect: el partido terminó antes de que llegaran las noticias."
 				}
 			}
 		},
@@ -1267,6 +2947,18 @@
 				"ru": {
 					"question": "Он сказал, что уже решил эту задачу.",
 					"explanation": "Косвенная речь: present perfect → past perfect."
+				},
+				"fr": {
+					"question": "Il a dit qu'il avait déjà résolu le problème.",
+					"explanation": "Discours indirect : le present perfect devient past perfect."
+				},
+				"de": {
+					"question": "Er sagte, dass er das Problem schon gelöst habe.",
+					"explanation": "Indirekte Rede: Das Present Perfect wird zu Past Perfect."
+				},
+				"es": {
+					"question": "Dijo que ya había resuelto el problema.",
+					"explanation": "Estilo indirecto: el present perfect se convierte en past perfect."
 				}
 			}
 		},
@@ -1276,6 +2968,18 @@
 				"ru": {
 					"question": "Когда пришёл курьер, они уже вышли из офиса.",
 					"explanation": "Past Perfect: уход из офиса предшествует приходу курьера."
+				},
+				"fr": {
+					"question": "Quand le coursier est arrivé, ils étaient déjà sortis du bureau.",
+					"explanation": "Le Past Perfect : le départ du bureau précède l'arrivée du coursier."
+				},
+				"de": {
+					"question": "Als der Kurier ankam, hatten sie das Büro schon verlassen.",
+					"explanation": "Das Past Perfect: das Verlassen des Büros ging der Ankunft des Kuriers voraus."
+				},
+				"es": {
+					"question": "Cuando llegó el mensajero, ya habían salido de la oficina.",
+					"explanation": "El Past Perfect: la salida de la oficina precede a la llegada del mensajero."
 				}
 			}
 		},
@@ -1285,6 +2989,18 @@
 				"ru": {
 					"question": "Если бы ты спросил меня раньше, я бы объяснил.",
 					"explanation": "Третье условное: нереальное прошлое условие."
+				},
+				"fr": {
+					"question": "Si tu me l'avais demandé plus tôt, j'aurais expliqué.",
+					"explanation": "Troisième conditionnel : condition irréelle dans le passé."
+				},
+				"de": {
+					"question": "Wenn du mich früher gefragt hättest, hätte ich es erklärt.",
+					"explanation": "Dritter Konditionalsatz: irreale Bedingung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Si me lo hubieras pedido antes, habría explicado.",
+					"explanation": "Tercera condicional: condición irreal en el pasado."
 				}
 			}
 		},
@@ -1294,6 +3010,18 @@
 				"ru": {
 					"question": "К тому времени, как специалист приехал, проблема исчезла сама.",
 					"explanation": "Past Perfect: проблема исчезла до приезда специалиста."
+				},
+				"fr": {
+					"question": "Au moment où le spécialiste est arrivé, le problème s'était résolu tout seul.",
+					"explanation": "Le Past Perfect : le problème avait disparu avant l'arrivée du spécialiste."
+				},
+				"de": {
+					"question": "Als der Spezialist ankam, hatte sich das Problem von selbst gelöst.",
+					"explanation": "Das Past Perfect: das Problem hatte sich gelöst, bevor der Spezialist ankam."
+				},
+				"es": {
+					"question": "Para cuando llegó el especialista, el problema ya se había resuelto solo.",
+					"explanation": "El Past Perfect: el problema desapareció antes de la llegada del especialista."
 				}
 			}
 		},
@@ -1303,6 +3031,18 @@
 				"ru": {
 					"question": "Мы уже поели, когда нас пригласили к столу.",
 					"explanation": "Past Perfect: еда завершена до приглашения к столу."
+				},
+				"fr": {
+					"question": "Nous avions déjà mangé quand on nous a invités à table.",
+					"explanation": "Le Past Perfect : le repas s'est terminé avant l'invitation à table."
+				},
+				"de": {
+					"question": "Wir hatten schon gegessen, als man uns zum Tisch einlud.",
+					"explanation": "Das Past Perfect: das Essen war beendet, bevor die Einladung zum Tisch kam."
+				},
+				"es": {
+					"question": "Ya habíamos comido cuando nos invitaron a la mesa.",
+					"explanation": "El Past Perfect: la comida terminó antes de la invitación a la mesa."
 				}
 			}
 		},
@@ -1312,6 +3052,18 @@
 				"ru": {
 					"question": "Она поняла, что дала неправильный ответ.",
 					"explanation": "Past Perfect после realized — неверный ответ дан раньше осознания."
+				},
+				"fr": {
+					"question": "Elle a réalisé qu'elle avait donné la mauvaise réponse.",
+					"explanation": "Le Past Perfect après realized — la mauvaise réponse a été donnée avant la prise de conscience."
+				},
+				"de": {
+					"question": "Sie bemerkte, dass sie die falsche Antwort gegeben hatte.",
+					"explanation": "Das Past Perfect nach realized — die falsche Antwort wurde vor der Erkenntnis gegeben."
+				},
+				"es": {
+					"question": "Se dio cuenta de que había dado la respuesta incorrecta.",
+					"explanation": "El Past Perfect tras realized — la respuesta incorrecta fue dada antes de darse cuenta."
 				}
 			}
 		},
@@ -1321,6 +3073,18 @@
 				"ru": {
 					"question": "Он никогда не занимался йогой до той поездки в Индию.",
 					"explanation": "Past Perfect с never до конкретного прошлого события."
+				},
+				"fr": {
+					"question": "Il n'avait jamais fait de yoga avant ce voyage en Inde.",
+					"explanation": "Le Past Perfect avec never jusqu'à un événement passé précis."
+				},
+				"de": {
+					"question": "Er hatte vor dieser Reise nach Indien noch nie Yoga gemacht.",
+					"explanation": "Das Past Perfect mit never bis zu einem bestimmten vergangenen Ereignis."
+				},
+				"es": {
+					"question": "Nunca había practicado yoga antes de ese viaje a India.",
+					"explanation": "El Past Perfect con never hasta un evento pasado concreto."
 				}
 			}
 		},
@@ -1330,6 +3094,18 @@
 				"ru": {
 					"question": "Если бы они взяли другой маршрут, добрались бы быстрее.",
 					"explanation": "Третье условное: нереальное прошлое условие."
+				},
+				"fr": {
+					"question": "S'ils avaient pris un autre itinéraire, ils seraient arrivés plus vite.",
+					"explanation": "Troisième conditionnel : condition irréelle dans le passé."
+				},
+				"de": {
+					"question": "Wenn sie eine andere Route genommen hätten, wären sie schneller angekommen.",
+					"explanation": "Dritter Konditionalsatz: irreale Bedingung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Si hubieran tomado otra ruta, habrían llegado antes.",
+					"explanation": "Tercera condicional: condición irreal en el pasado."
 				}
 			}
 		},
@@ -1339,6 +3115,18 @@
 				"ru": {
 					"question": "К тому времени, как объявили победителя, все уже ставки сделали.",
 					"explanation": "Past Perfect Passive: ставки были сделаны до объявления победителя."
+				},
+				"fr": {
+					"question": "Au moment où le gagnant a été annoncé, tout le monde avait déjà placé ses mises.",
+					"explanation": "Le Past Perfect Passif : les mises avaient été placées avant l'annonce du gagnant."
+				},
+				"de": {
+					"question": "Als der Gewinner bekannt gegeben wurde, hatten alle ihre Einsätze schon gesetzt.",
+					"explanation": "Das Past Perfect Passiv: die Einsätze wurden vor der Bekanntgabe des Gewinners getätigt."
+				},
+				"es": {
+					"question": "Para cuando se anunció al ganador, todos ya habían hecho sus apuestas.",
+					"explanation": "El Past Perfect Pasivo: las apuestas se hicieron antes del anuncio del ganador."
 				}
 			}
 		},
@@ -1348,6 +3136,18 @@
 				"ru": {
 					"question": "Он сообщил, что уже обсудил вопрос с коллегами.",
 					"explanation": "Косвенная речь: present perfect → past perfect после reported."
+				},
+				"fr": {
+					"question": "Il a rapporté qu'il avait déjà discuté de la question avec des collègues.",
+					"explanation": "Discours indirect : le present perfect devient past perfect après reported."
+				},
+				"de": {
+					"question": "Er berichtete, dass er die Frage schon mit Kollegen besprochen habe.",
+					"explanation": "Indirekte Rede: Das Present Perfect wird nach reported zu Past Perfect."
+				},
+				"es": {
+					"question": "Informó de que ya había discutido el asunto con los compañeros.",
+					"explanation": "Estilo indirecto: el present perfect se convierte en past perfect tras reported."
 				}
 			}
 		},
@@ -1357,6 +3157,18 @@
 				"ru": {
 					"question": "Когда они включили нагреватель, комната уже остыла.",
 					"explanation": "Past Perfect: комната остыла до включения нагревателя."
+				},
+				"fr": {
+					"question": "Quand ils ont allumé le chauffage, la pièce était déjà froide.",
+					"explanation": "Le Past Perfect : la pièce avait refroidi avant qu'on allume le chauffage."
+				},
+				"de": {
+					"question": "Als sie die Heizung einschalteten, war das Zimmer schon kalt geworden.",
+					"explanation": "Das Past Perfect: das Zimmer war kalt geworden, bevor die Heizung eingeschaltet wurde."
+				},
+				"es": {
+					"question": "Cuando encendieron la calefacción, la habitación ya se había enfriado.",
+					"explanation": "El Past Perfect: la habitación se había enfriado antes de encender la calefacción."
 				}
 			}
 		},
@@ -1366,6 +3178,18 @@
 				"ru": {
 					"question": "Если бы она не солгала, всё бы обошлось.",
 					"explanation": "Третье условное с отрицанием в условной части."
+				},
+				"fr": {
+					"question": "Si elle n'avait pas menti, tout aurait été bien.",
+					"explanation": "Troisième conditionnel avec négation dans la condition."
+				},
+				"de": {
+					"question": "Wenn sie nicht gelogen hätte, wäre alles gut gegangen.",
+					"explanation": "Dritter Konditionalsatz mit Verneinung in der Bedingung."
+				},
+				"es": {
+					"question": "Si ella no hubiera mentido, todo habría ido bien.",
+					"explanation": "Tercera condicional con negación en la condición."
 				}
 			}
 		},
@@ -1375,6 +3199,18 @@
 				"ru": {
 					"question": "К полуночи дети уже несколько часов спали.",
 					"explanation": "Past Perfect с состоянием (been asleep) и указанием длительности."
+				},
+				"fr": {
+					"question": "À minuit, les enfants dormaient déjà depuis plusieurs heures.",
+					"explanation": "Le Past Perfect avec un état (been asleep) et une indication de durée."
+				},
+				"de": {
+					"question": "Bis Mitternacht schliefen die Kinder schon seit mehreren Stunden.",
+					"explanation": "Das Past Perfect mit einem Zustand (been asleep) und einer Dauerangabe."
+				},
+				"es": {
+					"question": "Para la medianoche los niños ya llevaban varias horas durmiendo.",
+					"explanation": "El Past Perfect con un estado (been asleep) e indicación de duración."
 				}
 			}
 		},
@@ -1384,6 +3220,18 @@
 				"ru": {
 					"question": "Она не подозревала, что он уже всё организовал.",
 					"explanation": "Past Perfect после didn't suspect — организация предшествует осознанию."
+				},
+				"fr": {
+					"question": "Elle ne soupçonnait pas qu'il avait déjà tout organisé.",
+					"explanation": "Le Past Perfect après didn't suspect — l'organisation précède la prise de conscience."
+				},
+				"de": {
+					"question": "Sie ahnte nicht, dass er schon alles organisiert hatte.",
+					"explanation": "Das Past Perfect nach didn't suspect — die Organisation geht der Erkenntnis voraus."
+				},
+				"es": {
+					"question": "No sospechaba que él ya lo había organizado todo.",
+					"explanation": "El Past Perfect tras didn't suspect — la organización precede a la toma de conciencia."
 				}
 			}
 		},
@@ -1393,6 +3241,18 @@
 				"ru": {
 					"question": "Он сказал, что уже сообщил об этом начальнику.",
 					"explanation": "Косвенная речь: present perfect → past perfect."
+				},
+				"fr": {
+					"question": "Il a dit qu'il avait déjà informé son patron.",
+					"explanation": "Discours indirect : le present perfect devient past perfect."
+				},
+				"de": {
+					"question": "Er sagte, dass er seinen Chef schon informiert habe.",
+					"explanation": "Indirekte Rede: Das Present Perfect wird zu Past Perfect."
+				},
+				"es": {
+					"question": "Dijo que ya le había informado a su jefe.",
+					"explanation": "Estilo indirecto: el present perfect se convierte en past perfect."
 				}
 			}
 		},
@@ -1402,6 +3262,18 @@
 				"ru": {
 					"question": "К тому времени, как вышла книга, автор уже написал следующую.",
 					"explanation": "Past Perfect: написание следующей книги предшествует выходу текущей."
+				},
+				"fr": {
+					"question": "Au moment où le livre est sorti, l'auteur avait déjà écrit le suivant.",
+					"explanation": "Le Past Perfect : l'écriture du prochain livre a précédé la parution du livre actuel."
+				},
+				"de": {
+					"question": "Als das Buch erschien, hatte der Autor schon das nächste geschrieben.",
+					"explanation": "Das Past Perfect: das Schreiben des nächsten Buches fand vor dem Erscheinen des aktuellen statt."
+				},
+				"es": {
+					"question": "Para cuando salió el libro, el autor ya había escrito el siguiente.",
+					"explanation": "El Past Perfect: la escritura del siguiente libro precedió a la publicación del actual."
 				}
 			}
 		},
@@ -1411,6 +3283,18 @@
 				"ru": {
 					"question": "Она только что заварила чай, когда отключился свет.",
 					"explanation": "Past Perfect с just: заваривание чая непосредственно перед отключением света."
+				},
+				"fr": {
+					"question": "Elle venait juste de préparer le thé quand l'électricité a été coupée.",
+					"explanation": "Le Past Perfect avec just : la préparation du thé a eu lieu juste avant la coupure."
+				},
+				"de": {
+					"question": "Sie hatte gerade den Tee aufgebrüht, als der Strom ausfiel.",
+					"explanation": "Das Past Perfect mit just: das Aufbrühen des Tees fand unmittelbar vor dem Stromausfall statt."
+				},
+				"es": {
+					"question": "Acababa de preparar el té cuando se fue la luz.",
+					"explanation": "El Past Perfect con just: la preparación del té ocurrió justo antes del apagón."
 				}
 			}
 		},
@@ -1420,6 +3304,18 @@
 				"ru": {
 					"question": "Если бы он выучил слова, он бы не запнулся на сцене.",
 					"explanation": "Третье условное: нереальное прошлое условие."
+				},
+				"fr": {
+					"question": "S'il avait appris ses répliques, il ne se serait pas trompé sur scène.",
+					"explanation": "Troisième conditionnel : condition irréelle dans le passé."
+				},
+				"de": {
+					"question": "Wenn er den Text gelernt hätte, hätte er sich auf der Bühne nicht versprochen.",
+					"explanation": "Dritter Konditionalsatz: irreale Bedingung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Si hubiera aprendido el texto, no se habría trabado en el escenario.",
+					"explanation": "Tercera condicional: condición irreal en el pasado."
 				}
 			}
 		},
@@ -1429,6 +3325,18 @@
 				"ru": {
 					"question": "К тому времени, как она проснулась, он уже приготовил завтрак.",
 					"explanation": "Past Perfect: приготовление завтрака — до её пробуждения."
+				},
+				"fr": {
+					"question": "Au moment où elle s'est réveillée, il avait déjà préparé le petit-déjeuner.",
+					"explanation": "Le Past Perfect : le petit-déjeuner a été préparé avant son réveil."
+				},
+				"de": {
+					"question": "Als sie aufwachte, hatte er schon das Frühstück gemacht.",
+					"explanation": "Das Past Perfect: das Frühstück war vor ihrem Aufwachen fertig."
+				},
+				"es": {
+					"question": "Para cuando ella se despertó, él ya había preparado el desayuno.",
+					"explanation": "El Past Perfect: el desayuno fue preparado antes de que ella se despertara."
 				}
 			}
 		},
@@ -1438,6 +3346,18 @@
 				"ru": {
 					"question": "Мы уже подписали договор до появления нового инвестора.",
 					"explanation": "Past Perfect: подписание договора предшествует появлению инвестора."
+				},
+				"fr": {
+					"question": "Nous avions déjà signé le contrat avant l'arrivée du nouvel investisseur.",
+					"explanation": "Le Past Perfect : la signature du contrat a précédé l'arrivée de l'investisseur."
+				},
+				"de": {
+					"question": "Wir hatten den Vertrag schon unterschrieben, bevor der neue Investor erschien.",
+					"explanation": "Das Past Perfect: die Vertragsunterzeichnung fand vor dem Erscheinen des Investors statt."
+				},
+				"es": {
+					"question": "Ya habíamos firmado el contrato antes de que apareciera el nuevo inversor.",
+					"explanation": "El Past Perfect: la firma del contrato precedió a la aparición del inversor."
 				}
 			}
 		},
@@ -1447,6 +3367,18 @@
 				"ru": {
 					"question": "Она поняла, что совершила ошибку.",
 					"explanation": "Past Perfect после realized — ошибка совершена раньше осознания."
+				},
+				"fr": {
+					"question": "Elle a réalisé qu'elle avait fait une erreur.",
+					"explanation": "Le Past Perfect après realized — l'erreur a été commise avant la prise de conscience."
+				},
+				"de": {
+					"question": "Sie bemerkte, dass sie einen Fehler gemacht hatte.",
+					"explanation": "Das Past Perfect nach realized — der Fehler wurde vor der Erkenntnis gemacht."
+				},
+				"es": {
+					"question": "Se dio cuenta de que había cometido un error.",
+					"explanation": "El Past Perfect tras realized — el error fue cometido antes de darse cuenta."
 				}
 			}
 		},
@@ -1456,6 +3388,18 @@
 				"ru": {
 					"question": "Он никогда не думал, что окажется в такой ситуации.",
 					"explanation": "Past Perfect с never — отсутствие подобной мысли до данного момента."
+				},
+				"fr": {
+					"question": "Il n'avait jamais pensé qu'il se retrouverait dans une telle situation.",
+					"explanation": "Le Past Perfect avec never — absence d'une telle pensée jusqu'à ce moment."
+				},
+				"de": {
+					"question": "Er hatte nie gedacht, dass er sich in einer solchen Situation befinden würde.",
+					"explanation": "Das Past Perfect mit never — das Fehlen eines solchen Gedankens bis zu diesem Moment."
+				},
+				"es": {
+					"question": "Nunca había pensado que acabaría en semejante situación.",
+					"explanation": "El Past Perfect con never — ausencia de ese pensamiento hasta ese momento."
 				}
 			}
 		},
@@ -1465,6 +3409,18 @@
 				"ru": {
 					"question": "Если бы вы предупредили нас, мы бы приготовились.",
 					"explanation": "Третье условное: нереальное прошлое условие."
+				},
+				"fr": {
+					"question": "Si vous nous aviez avertis, nous aurions été préparés.",
+					"explanation": "Troisième conditionnel : condition irréelle dans le passé."
+				},
+				"de": {
+					"question": "Wenn Sie uns gewarnt hätten, hätten wir uns vorbereitet.",
+					"explanation": "Dritter Konditionalsatz: irreale Bedingung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Si nos hubierais avisado, nos habríamos preparado.",
+					"explanation": "Tercera condicional: condición irreal en el pasado."
 				}
 			}
 		},
@@ -1474,6 +3430,18 @@
 				"ru": {
 					"question": "К тому времени, как пришла замена, он уже отработал двойную смену.",
 					"explanation": "Past Perfect: двойная смена отработана до прихода замены."
+				},
+				"fr": {
+					"question": "Au moment où le remplaçant est arrivé, il avait déjà effectué un double service.",
+					"explanation": "Le Past Perfect : le double service a été accompli avant l'arrivée du remplaçant."
+				},
+				"de": {
+					"question": "Als die Ablösung kam, hatte er schon eine Doppelschicht gearbeitet.",
+					"explanation": "Das Past Perfect: die Doppelschicht war vor dem Eintreffen der Ablösung abgeschlossen."
+				},
+				"es": {
+					"question": "Para cuando llegó el relevo, ya había trabajado un doble turno.",
+					"explanation": "El Past Perfect: el doble turno fue completado antes de la llegada del relevo."
 				}
 			}
 		},
@@ -1483,6 +3451,18 @@
 				"ru": {
 					"question": "Он сказал, что уже договорился о встрече.",
 					"explanation": "Косвенная речь: present perfect → past perfect."
+				},
+				"fr": {
+					"question": "Il a dit qu'il avait déjà fixé un rendez-vous.",
+					"explanation": "Discours indirect : le present perfect devient past perfect."
+				},
+				"de": {
+					"question": "Er sagte, dass er schon ein Treffen vereinbart habe.",
+					"explanation": "Indirekte Rede: Das Present Perfect wird zu Past Perfect."
+				},
+				"es": {
+					"question": "Dijo que ya había concertado una cita.",
+					"explanation": "Estilo indirecto: el present perfect se convierte en past perfect."
 				}
 			}
 		},
@@ -1492,6 +3472,18 @@
 				"ru": {
 					"question": "Когда мы позвонили, они уже пообедали.",
 					"explanation": "Past Perfect: обед завершён до нашего звонка."
+				},
+				"fr": {
+					"question": "Quand nous avons appelé, ils avaient déjà déjeuné.",
+					"explanation": "Le Past Perfect : le déjeuner s'est terminé avant notre appel."
+				},
+				"de": {
+					"question": "Als wir anriefen, hatten sie schon zu Mittag gegessen.",
+					"explanation": "Das Past Perfect: das Mittagessen war vor unserem Anruf beendet."
+				},
+				"es": {
+					"question": "Cuando llamamos, ya habían almorzado.",
+					"explanation": "El Past Perfect: el almuerzo terminó antes de nuestra llamada."
 				}
 			}
 		},
@@ -1501,6 +3493,18 @@
 				"ru": {
 					"question": "Если бы он не нарушил правила, его бы не дисквалифицировали.",
 					"explanation": "Третье условное с Past Perfect Passive в главной части."
+				},
+				"fr": {
+					"question": "S'il n'avait pas enfreint les règles, il n'aurait pas été disqualifié.",
+					"explanation": "Troisième conditionnel avec Past Perfect Passif dans la principale."
+				},
+				"de": {
+					"question": "Wenn er die Regeln nicht gebrochen hätte, wäre er nicht disqualifiziert worden.",
+					"explanation": "Dritter Konditionalsatz mit Past Perfect Passiv im Hauptsatz."
+				},
+				"es": {
+					"question": "Si no hubiera infringido las reglas, no habría sido descalificado.",
+					"explanation": "Tercera condicional con Past Perfect Pasivo en la oración principal."
 				}
 			}
 		},
@@ -1510,6 +3514,18 @@
 				"ru": {
 					"question": "К концу года компания уже выпустила три новых продукта.",
 					"explanation": "Past Perfect с by the end of the year."
+				},
+				"fr": {
+					"question": "À la fin de l'année, l'entreprise avait déjà lancé trois nouveaux produits.",
+					"explanation": "Le Past Perfect avec by the end of the year."
+				},
+				"de": {
+					"question": "Bis Ende des Jahres hatte das Unternehmen schon drei neue Produkte eingeführt.",
+					"explanation": "Das Past Perfect mit by the end of the year."
+				},
+				"es": {
+					"question": "Para el final del año la empresa ya había lanzado tres nuevos productos.",
+					"explanation": "El Past Perfect con by the end of the year."
 				}
 			}
 		},
@@ -1519,6 +3535,18 @@
 				"ru": {
 					"question": "Она не знала, что он уже был в этом городе.",
 					"explanation": "Past Perfect после didn't know — предшествующий визит."
+				},
+				"fr": {
+					"question": "Elle ne savait pas qu'il avait déjà visité cette ville.",
+					"explanation": "Le Past Perfect après didn't know — la visite précédente précède la prise de conscience."
+				},
+				"de": {
+					"question": "Sie wusste nicht, dass er diese Stadt schon besucht hatte.",
+					"explanation": "Das Past Perfect nach didn't know — der vorherige Besuch geht der Erkenntnis voraus."
+				},
+				"es": {
+					"question": "Ella no sabía que él ya había estado en esa ciudad.",
+					"explanation": "El Past Perfect tras didn't know — la visita anterior precede a la toma de conciencia."
 				}
 			}
 		},
@@ -1528,6 +3556,18 @@
 				"ru": {
 					"question": "Он сообщил, что уже проверил все данные.",
 					"explanation": "Косвенная речь: present perfect → past perfect."
+				},
+				"fr": {
+					"question": "Il a rapporté qu'il avait déjà vérifié toutes les données.",
+					"explanation": "Discours indirect : le present perfect devient past perfect après reported."
+				},
+				"de": {
+					"question": "Er berichtete, dass er alle Daten schon überprüft habe.",
+					"explanation": "Indirekte Rede: Das Present Perfect wird nach reported zu Past Perfect."
+				},
+				"es": {
+					"question": "Informó de que ya había comprobado todos los datos.",
+					"explanation": "Estilo indirecto: el present perfect se convierte en past perfect tras reported."
 				}
 			}
 		},
@@ -1537,6 +3577,18 @@
 				"ru": {
 					"question": "К тому времени, как он принял решение, возможность уже упустили.",
 					"explanation": "Past Perfect Passive: возможность была упущена до принятия решения."
+				},
+				"fr": {
+					"question": "Au moment où il a pris sa décision, l'opportunité avait déjà été manquée.",
+					"explanation": "Le Past Perfect Passif : l'opportunité était manquée avant la décision."
+				},
+				"de": {
+					"question": "Als er die Entscheidung traf, war die Gelegenheit schon verpasst worden.",
+					"explanation": "Das Past Perfect Passiv: die Gelegenheit war verpasst, bevor die Entscheidung getroffen wurde."
+				},
+				"es": {
+					"question": "Para cuando tomó la decisión, la oportunidad ya había sido desaprovechada.",
+					"explanation": "El Past Perfect Pasivo: la oportunidad se había perdido antes de tomar la decisión."
 				}
 			}
 		},
@@ -1546,6 +3598,18 @@
 				"ru": {
 					"question": "Она только что легла, когда услышала стук в дверь.",
 					"explanation": "Past Perfect с just: укладывание — непосредственно перед стуком."
+				},
+				"fr": {
+					"question": "Elle venait juste de se coucher quand elle a entendu frapper à la porte.",
+					"explanation": "Le Past Perfect avec just : le coucher a eu lieu juste avant le coup à la porte."
+				},
+				"de": {
+					"question": "Sie hatte sich gerade hingelegt, als sie ein Klopfen an der Tür hörte.",
+					"explanation": "Das Past Perfect mit just: das Hinlegen fand unmittelbar vor dem Klopfen statt."
+				},
+				"es": {
+					"question": "Acababa de acostarse cuando oyó llamar a la puerta.",
+					"explanation": "El Past Perfect con just: acostarse ocurrió justo antes del golpe en la puerta."
 				}
 			}
 		},
@@ -1555,6 +3619,18 @@
 				"ru": {
 					"question": "Если бы он внимательнее слушал, он бы не перепутал.",
 					"explanation": "Третье условное: нереальное прошлое условие."
+				},
+				"fr": {
+					"question": "S'il avait écouté plus attentivement, il ne se serait pas trompé.",
+					"explanation": "Troisième conditionnel : condition irréelle dans le passé."
+				},
+				"de": {
+					"question": "Wenn er aufmerksamer zugehört hätte, hätte er sich nicht geirrt.",
+					"explanation": "Dritter Konditionalsatz: irreale Bedingung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Si hubiera escuchado con más atención, no se habría confundido.",
+					"explanation": "Tercera condicional: condición irreal en el pasado."
 				}
 			}
 		},
@@ -1564,6 +3640,18 @@
 				"ru": {
 					"question": "К тому времени, как приехала пожарная машина, огонь уже потушили.",
 					"explanation": "Past Perfect Passive: огонь потушен до прибытия пожарных."
+				},
+				"fr": {
+					"question": "Au moment où le camion de pompiers est arrivé, le feu avait déjà été éteint.",
+					"explanation": "Le Past Perfect Passif : le feu avait été éteint avant l'arrivée des pompiers."
+				},
+				"de": {
+					"question": "Als das Feuerwehrauto ankam, war das Feuer schon gelöscht worden.",
+					"explanation": "Das Past Perfect Passiv: das Feuer war gelöscht worden, bevor die Feuerwehr ankam."
+				},
+				"es": {
+					"question": "Para cuando llegó el camión de bomberos, el fuego ya había sido apagado.",
+					"explanation": "El Past Perfect Pasivo: el fuego había sido apagado antes de que llegaran los bomberos."
 				}
 			}
 		},
@@ -1573,6 +3661,18 @@
 				"ru": {
 					"question": "Мы уже оформили документы до закрытия офиса.",
 					"explanation": "Past Perfect: оформление документов — до закрытия офиса."
+				},
+				"fr": {
+					"question": "Nous avions déjà traité les documents avant la fermeture du bureau.",
+					"explanation": "Le Past Perfect : les documents ont été traités avant la fermeture du bureau."
+				},
+				"de": {
+					"question": "Wir hatten die Dokumente schon vor der Schließung des Büros bearbeitet.",
+					"explanation": "Das Past Perfect: die Dokumente wurden vor der Schließung des Büros bearbeitet."
+				},
+				"es": {
+					"question": "Ya habíamos tramitado los documentos antes del cierre de la oficina.",
+					"explanation": "El Past Perfect: los documentos fueron tramitados antes del cierre de la oficina."
 				}
 			}
 		},
@@ -1582,6 +3682,18 @@
 				"ru": {
 					"question": "Он поверить не мог, что она уже уехала.",
 					"explanation": "Past Perfect после couldn't believe — отъезд предшествует неверию."
+				},
+				"fr": {
+					"question": "Il n'en revenait pas qu'elle soit déjà partie.",
+					"explanation": "Le Past Perfect après couldn't believe — le départ précède l'incrédulité."
+				},
+				"de": {
+					"question": "Er konnte nicht glauben, dass sie schon gegangen war.",
+					"explanation": "Das Past Perfect nach couldn't believe — das Weggehen geht der Ungläubigkeit voraus."
+				},
+				"es": {
+					"question": "No podía creer que ella ya se hubiera ido.",
+					"explanation": "El Past Perfect tras couldn't believe — la partida precede a la incredulidad."
 				}
 			}
 		},
@@ -1591,6 +3703,18 @@
 				"ru": {
 					"question": "Она никогда не бывала так далеко от дома до той экспедиции.",
 					"explanation": "Past Perfect с never до конкретного прошлого события."
+				},
+				"fr": {
+					"question": "Elle n'avait jamais été aussi loin de chez elle avant cette expédition.",
+					"explanation": "Le Past Perfect avec never jusqu'à un événement passé précis."
+				},
+				"de": {
+					"question": "Sie war vor dieser Expedition noch nie so weit von zu Hause entfernt gewesen.",
+					"explanation": "Das Past Perfect mit never bis zu einem bestimmten vergangenen Ereignis."
+				},
+				"es": {
+					"question": "Nunca había estado tan lejos de casa antes de esa expedición.",
+					"explanation": "El Past Perfect con never hasta un evento pasado concreto."
 				}
 			}
 		},
@@ -1600,6 +3724,18 @@
 				"ru": {
 					"question": "Если бы мы не опоздали, мы бы поймали рейс.",
 					"explanation": "Третье условное с отрицанием в условной части."
+				},
+				"fr": {
+					"question": "Si nous n'avions pas été en retard, nous aurions pris le vol.",
+					"explanation": "Troisième conditionnel avec négation dans la condition."
+				},
+				"de": {
+					"question": "Wenn wir nicht zu spät gewesen wären, hätten wir den Flug noch erwischt.",
+					"explanation": "Dritter Konditionalsatz mit Verneinung in der Bedingung."
+				},
+				"es": {
+					"question": "Si no hubiéramos llegado tarde, habríamos cogido el vuelo.",
+					"explanation": "Tercera condicional con negación en la condición."
 				}
 			}
 		},
@@ -1609,6 +3745,18 @@
 				"ru": {
 					"question": "К тому времени, как вернулся отец, дети уже легли спать.",
 					"explanation": "Past Perfect: дети легли до возвращения отца."
+				},
+				"fr": {
+					"question": "Au moment où le père est rentré, les enfants étaient déjà couchés.",
+					"explanation": "Le Past Perfect : les enfants étaient au lit avant le retour du père."
+				},
+				"de": {
+					"question": "Als der Vater zurückkam, lagen die Kinder schon im Bett.",
+					"explanation": "Das Past Perfect: die Kinder lagen schon im Bett, als der Vater zurückkam."
+				},
+				"es": {
+					"question": "Para cuando el padre volvió, los niños ya se habían acostado.",
+					"explanation": "El Past Perfect: los niños ya estaban en cama antes de que el padre volviera."
 				}
 			}
 		},
@@ -1618,6 +3766,18 @@
 				"ru": {
 					"question": "Он сказал, что уже оплатил счёт.",
 					"explanation": "Косвенная речь: present perfect → past perfect."
+				},
+				"fr": {
+					"question": "Il a dit qu'il avait déjà réglé la note.",
+					"explanation": "Discours indirect : le present perfect devient past perfect."
+				},
+				"de": {
+					"question": "Er sagte, dass er die Rechnung schon bezahlt habe.",
+					"explanation": "Indirekte Rede: Das Present Perfect wird zu Past Perfect."
+				},
+				"es": {
+					"question": "Dijo que ya había pagado la cuenta.",
+					"explanation": "Estilo indirecto: el present perfect se convierte en past perfect."
 				}
 			}
 		},
@@ -1627,6 +3787,18 @@
 				"ru": {
 					"question": "Когда мы сели за стол, суп уже остыл.",
 					"explanation": "Past Perfect: суп остыл до нашего появления за столом."
+				},
+				"fr": {
+					"question": "Quand nous nous sommes assis, la soupe avait déjà refroidi.",
+					"explanation": "Le Past Perfect : la soupe avait refroidi avant que nous nous asseyions."
+				},
+				"de": {
+					"question": "Als wir uns setzten, war die Suppe schon kalt geworden.",
+					"explanation": "Das Past Perfect: die Suppe war kalt geworden, bevor wir uns setzten."
+				},
+				"es": {
+					"question": "Cuando nos sentamos, la sopa ya se había enfriado.",
+					"explanation": "El Past Perfect: la sopa se había enfriado antes de que nos sentáramos."
 				}
 			}
 		},
@@ -1636,6 +3808,18 @@
 				"ru": {
 					"question": "Если бы она не переработала, она бы не заболела.",
 					"explanation": "Третье условное с отрицанием в обеих частях."
+				},
+				"fr": {
+					"question": "Si elle ne s'était pas surmené, elle ne serait pas tombée malade.",
+					"explanation": "Troisième conditionnel avec négation dans les deux parties."
+				},
+				"de": {
+					"question": "Wenn sie sich nicht überarbeitet hätte, wäre sie nicht krank geworden.",
+					"explanation": "Dritter Konditionalsatz mit Verneinung in beiden Teilen."
+				},
+				"es": {
+					"question": "Si no se hubiera agotado, no se habría puesto enferma.",
+					"explanation": "Tercera condicional con negación en ambas partes."
 				}
 			}
 		},
@@ -1645,6 +3829,18 @@
 				"ru": {
 					"question": "К тому времени, как мы добрались до вершины, туман уже рассеялся.",
 					"explanation": "Past Perfect: туман рассеялся до нашего восхождения."
+				},
+				"fr": {
+					"question": "Au moment où nous avons atteint le sommet, le brouillard s'était déjà dissipé.",
+					"explanation": "Le Past Perfect : le brouillard avait disparu avant notre ascension."
+				},
+				"de": {
+					"question": "Als wir den Gipfel erreichten, hatte sich der Nebel schon gelichtet.",
+					"explanation": "Das Past Perfect: der Nebel hatte sich gelichtet, bevor wir den Gipfel erreichten."
+				},
+				"es": {
+					"question": "Para cuando llegamos a la cima, la niebla ya se había disipado.",
+					"explanation": "El Past Perfect: la niebla se había disipado antes de que llegáramos a la cima."
 				}
 			}
 		},
@@ -1654,6 +3850,18 @@
 				"ru": {
 					"question": "Мы уже купили подарок до того, как узнали о его предпочтениях.",
 					"explanation": "Past Perfect: покупка подарка — до получения информации о предпочтениях."
+				},
+				"fr": {
+					"question": "Nous avions déjà acheté le cadeau avant d'apprendre ses préférences.",
+					"explanation": "Le Past Perfect : l'achat a précédé la connaissance des préférences."
+				},
+				"de": {
+					"question": "Wir hatten das Geschenk schon gekauft, bevor wir von seinen Vorlieben erfuhren.",
+					"explanation": "Das Past Perfect: der Kauf fand statt, bevor wir die Vorlieben erfuhren."
+				},
+				"es": {
+					"question": "Ya habíamos comprado el regalo antes de conocer sus preferencias.",
+					"explanation": "El Past Perfect: la compra ocurrió antes de conocer las preferencias."
 				}
 			}
 		},
@@ -1663,6 +3871,18 @@
 				"ru": {
 					"question": "Она поняла, что неправильно поняла задание.",
 					"explanation": "Past Perfect после realized — неправильное понимание предшествует осознанию."
+				},
+				"fr": {
+					"question": "Elle a réalisé qu'elle avait mal compris la tâche.",
+					"explanation": "Le Past Perfect après realized — la mauvaise compréhension précède la prise de conscience."
+				},
+				"de": {
+					"question": "Sie bemerkte, dass sie die Aufgabe falsch verstanden hatte.",
+					"explanation": "Das Past Perfect nach realized — das Missverständnis geht der Erkenntnis voraus."
+				},
+				"es": {
+					"question": "Se dio cuenta de que había malentendido la tarea.",
+					"explanation": "El Past Perfect tras realized — el malentendido precede a darse cuenta."
 				}
 			}
 		},
@@ -1672,6 +3892,18 @@
 				"ru": {
 					"question": "Он никогда не участвовал в подобном соревновании до того дня.",
 					"explanation": "Past Perfect с never до конкретного прошлого момента."
+				},
+				"fr": {
+					"question": "Il n'avait jamais participé à une telle compétition avant ce jour-là.",
+					"explanation": "Le Past Perfect avec never jusqu'à un moment passé précis."
+				},
+				"de": {
+					"question": "Er hatte vor diesem Tag noch nie an einem solchen Wettbewerb teilgenommen.",
+					"explanation": "Das Past Perfect mit never bis zu einem bestimmten vergangenen Zeitpunkt."
+				},
+				"es": {
+					"question": "Nunca había participado en una competición así antes de ese día.",
+					"explanation": "El Past Perfect con never hasta un momento pasado concreto."
 				}
 			}
 		},
@@ -1681,6 +3913,18 @@
 				"ru": {
 					"question": "Если бы они согласились раньше, проект бы не провалился.",
 					"explanation": "Третье условное с отрицательным следствием."
+				},
+				"fr": {
+					"question": "S'ils avaient été d'accord plus tôt, le projet n'aurait pas échoué.",
+					"explanation": "Troisième conditionnel avec conséquence négative."
+				},
+				"de": {
+					"question": "Wenn sie früher zugestimmt hätten, wäre das Projekt nicht gescheitert.",
+					"explanation": "Dritter Konditionalsatz mit negativer Folge."
+				},
+				"es": {
+					"question": "Si hubieran acordado antes, el proyecto no habría fracasado.",
+					"explanation": "Tercera condicional con consecuencia negativa."
 				}
 			}
 		},
@@ -1690,6 +3934,18 @@
 				"ru": {
 					"question": "К тому времени, как начался суд, адвокат уже подготовил речь.",
 					"explanation": "Past Perfect: подготовка речи завершена до начала суда."
+				},
+				"fr": {
+					"question": "Au moment où le procès a commencé, l'avocat avait déjà préparé son discours.",
+					"explanation": "Le Past Perfect : la préparation du discours a précédé le début du procès."
+				},
+				"de": {
+					"question": "Als das Verfahren begann, hatte der Anwalt seine Rede schon vorbereitet.",
+					"explanation": "Das Past Perfect: die Vorbereitung der Rede fand vor dem Prozessbeginn statt."
+				},
+				"es": {
+					"question": "Para cuando empezó el juicio, el abogado ya había preparado su discurso.",
+					"explanation": "El Past Perfect: la preparación del discurso precedió al inicio del juicio."
 				}
 			}
 		},
@@ -1699,6 +3955,18 @@
 				"ru": {
 					"question": "Он сообщил, что уже передал дело другому сотруднику.",
 					"explanation": "Косвенная речь: present perfect → past perfect после reported."
+				},
+				"fr": {
+					"question": "Il a rapporté qu'il avait déjà transmis le dossier à un autre employé.",
+					"explanation": "Discours indirect : le present perfect devient past perfect après reported."
+				},
+				"de": {
+					"question": "Er berichtete, dass er den Fall schon an einen anderen Mitarbeiter übergeben habe.",
+					"explanation": "Indirekte Rede: Das Present Perfect wird nach reported zu Past Perfect."
+				},
+				"es": {
+					"question": "Informó de que ya había transferido el caso a otro empleado.",
+					"explanation": "Estilo indirecto: el present perfect se convierte en past perfect tras reported."
 				}
 			}
 		},
@@ -1708,6 +3976,18 @@
 				"ru": {
 					"question": "Когда она вернулась, посуда уже была вымыта.",
 					"explanation": "Past Perfect Passive: посуда вымыта до её возвращения."
+				},
+				"fr": {
+					"question": "Quand elle est rentrée, la vaisselle avait déjà été faite.",
+					"explanation": "Le Past Perfect Passif : la vaisselle avait été faite avant son retour."
+				},
+				"de": {
+					"question": "Als sie zurückkam, war das Geschirr schon gespült worden.",
+					"explanation": "Das Past Perfect Passiv: das Geschirr war gespült worden, bevor sie zurückkam."
+				},
+				"es": {
+					"question": "Cuando ella volvió, los platos ya habían sido fregados.",
+					"explanation": "El Past Perfect Pasivo: los platos habían sido fregados antes de que ella volviera."
 				}
 			}
 		},
@@ -1717,6 +3997,18 @@
 				"ru": {
 					"question": "Если бы мы купили страховку, это было бы покрыто.",
 					"explanation": "Третье условное с Past Perfect Passive в главной части."
+				},
+				"fr": {
+					"question": "Si nous avions pris une assurance, cela aurait été couvert.",
+					"explanation": "Troisième conditionnel avec Past Perfect Passif dans la principale."
+				},
+				"de": {
+					"question": "Wenn wir eine Versicherung abgeschlossen hätten, wäre es gedeckt worden.",
+					"explanation": "Dritter Konditionalsatz mit Past Perfect Passiv im Hauptsatz."
+				},
+				"es": {
+					"question": "Si hubiéramos contratado un seguro, habría sido cubierto.",
+					"explanation": "Tercera condicional con Past Perfect Pasivo en la oración principal."
 				}
 			}
 		},
@@ -1726,6 +4018,18 @@
 				"ru": {
 					"question": "К утру снег уже перестал идти.",
 					"explanation": "Past Perfect: снегопад закончился до утра."
+				},
+				"fr": {
+					"question": "Au matin, la neige avait déjà cessé de tomber.",
+					"explanation": "Le Past Perfect : la neige avait cessé avant le matin."
+				},
+				"de": {
+					"question": "Bis zum Morgen hatte es schon aufgehört zu schneien.",
+					"explanation": "Das Past Perfect: der Schneefall hatte vor dem Morgen aufgehört."
+				},
+				"es": {
+					"question": "Para la mañana la nieve ya había dejado de caer.",
+					"explanation": "El Past Perfect: la nieve había dejado de caer antes de la mañana."
 				}
 			}
 		},
@@ -1735,6 +4039,18 @@
 				"ru": {
 					"question": "Она не знала, что он уже запланировал всё на вечер.",
 					"explanation": "Past Perfect после didn't know — планирование предшествует осознанию."
+				},
+				"fr": {
+					"question": "Elle ne savait pas qu'il avait déjà tout planifié pour le soir.",
+					"explanation": "Le Past Perfect après didn't know — la planification précède la prise de conscience."
+				},
+				"de": {
+					"question": "Sie wusste nicht, dass er für den Abend schon alles geplant hatte.",
+					"explanation": "Das Past Perfect nach didn't know — die Planung geht der Erkenntnis voraus."
+				},
+				"es": {
+					"question": "Ella no sabía que él ya había planificado todo para esa noche.",
+					"explanation": "El Past Perfect tras didn't know — la planificación precede a la toma de conciencia."
 				}
 			}
 		},
@@ -1744,6 +4060,18 @@
 				"ru": {
 					"question": "Он сказал, что уже позвонил в страховую компанию.",
 					"explanation": "Косвенная речь: present perfect → past perfect."
+				},
+				"fr": {
+					"question": "Il a dit qu'il avait déjà appelé la compagnie d'assurance.",
+					"explanation": "Discours indirect : le present perfect devient past perfect."
+				},
+				"de": {
+					"question": "Er sagte, dass er die Versicherungsgesellschaft schon angerufen habe.",
+					"explanation": "Indirekte Rede: Das Present Perfect wird zu Past Perfect."
+				},
+				"es": {
+					"question": "Dijo que ya había llamado a la compañía de seguros.",
+					"explanation": "Estilo indirecto: el present perfect se convierte en past perfect."
 				}
 			}
 		},
@@ -1753,6 +4081,18 @@
 				"ru": {
 					"question": "К тому времени, как завершилась конференция, делегаты уже разъехались.",
 					"explanation": "Past Perfect: делегаты уехали до официального окончания конференции."
+				},
+				"fr": {
+					"question": "Au moment où la conférence s'est terminée, les délégués étaient déjà partis.",
+					"explanation": "Le Past Perfect : les délégués étaient partis avant la fin officielle de la conférence."
+				},
+				"de": {
+					"question": "Als die Konferenz endete, waren die Delegierten schon abgereist.",
+					"explanation": "Das Past Perfect: die Delegierten waren vor dem offiziellen Ende der Konferenz abgereist."
+				},
+				"es": {
+					"question": "Para cuando terminó la conferencia, los delegados ya se habían ido.",
+					"explanation": "El Past Perfect: los delegados se habían ido antes del final oficial de la conferencia."
 				}
 			}
 		},
@@ -1762,6 +4102,18 @@
 				"ru": {
 					"question": "Она только что закрыла дверь, когда зазвонил телефон.",
 					"explanation": "Past Perfect с just: закрытие двери — прямо перед звонком телефона."
+				},
+				"fr": {
+					"question": "Elle venait juste de fermer la porte quand le téléphone a sonné.",
+					"explanation": "Le Past Perfect avec just : la fermeture de la porte a eu lieu juste avant la sonnerie."
+				},
+				"de": {
+					"question": "Sie hatte gerade die Tür geschlossen, als das Telefon klingelte.",
+					"explanation": "Das Past Perfect mit just: das Schließen der Tür fand unmittelbar vor dem Klingeln statt."
+				},
+				"es": {
+					"question": "Acababa de cerrar la puerta cuando sonó el teléfono.",
+					"explanation": "El Past Perfect con just: cerrar la puerta ocurrió justo antes de que sonara el teléfono."
 				}
 			}
 		},
@@ -1771,6 +4123,18 @@
 				"ru": {
 					"question": "Если бы они не потратили все деньги, у них было бы достаточно.",
 					"explanation": "Третье условное с отрицанием в условной части."
+				},
+				"fr": {
+					"question": "S'ils n'avaient pas dépensé tout l'argent, ils en auraient eu assez.",
+					"explanation": "Troisième conditionnel avec négation dans la condition."
+				},
+				"de": {
+					"question": "Wenn sie nicht das ganze Geld ausgegeben hätten, hätten sie genug gehabt.",
+					"explanation": "Dritter Konditionalsatz mit Verneinung in der Bedingung."
+				},
+				"es": {
+					"question": "Si no hubieran gastado todo el dinero, habrían tenido suficiente.",
+					"explanation": "Tercera condicional con negación en la condición."
 				}
 			}
 		},
@@ -1780,6 +4144,18 @@
 				"ru": {
 					"question": "К тому времени, как мы связались с поставщиком, товар уже распродали.",
 					"explanation": "Past Perfect Passive: товар распродан до нашего обращения."
+				},
+				"fr": {
+					"question": "Au moment où nous avons contacté le fournisseur, la marchandise avait déjà été épuisée.",
+					"explanation": "Le Past Perfect Passif : la marchandise était épuisée avant notre demande."
+				},
+				"de": {
+					"question": "Als wir den Lieferanten kontaktierten, waren die Waren schon ausverkauft worden.",
+					"explanation": "Das Past Perfect Passiv: die Waren waren ausverkauft, bevor wir uns meldeten."
+				},
+				"es": {
+					"question": "Para cuando contactamos al proveedor, la mercancía ya había sido vendida.",
+					"explanation": "El Past Perfect Pasivo: la mercancía había sido vendida antes de nuestro contacto."
 				}
 			}
 		},
@@ -1789,6 +4165,18 @@
 				"ru": {
 					"question": "Мы уже убрали в квартире до прихода гостей.",
 					"explanation": "Past Perfect: уборка завершена до прихода гостей."
+				},
+				"fr": {
+					"question": "Nous avions déjà rangé l'appartement avant l'arrivée des invités.",
+					"explanation": "Le Past Perfect : le ménage s'est terminé avant l'arrivée des invités."
+				},
+				"de": {
+					"question": "Wir hatten die Wohnung schon aufgeräumt, bevor die Gäste kamen.",
+					"explanation": "Das Past Perfect: das Aufräumen war vor dem Eintreffen der Gäste abgeschlossen."
+				},
+				"es": {
+					"question": "Ya habíamos limpiado el piso antes de que llegaran los invitados.",
+					"explanation": "El Past Perfect: la limpieza terminó antes de la llegada de los invitados."
 				}
 			}
 		},
@@ -1798,6 +4186,18 @@
 				"ru": {
 					"question": "Она поняла, что пропустила важную встречу.",
 					"explanation": "Past Perfect после realized — пропуск встречи предшествует осознанию."
+				},
+				"fr": {
+					"question": "Elle a réalisé qu'elle avait manqué une réunion importante.",
+					"explanation": "Le Past Perfect après realized — le manque de la réunion précède la prise de conscience."
+				},
+				"de": {
+					"question": "Sie bemerkte, dass sie ein wichtiges Meeting verpasst hatte.",
+					"explanation": "Das Past Perfect nach realized — das Verpassen des Meetings geht der Erkenntnis voraus."
+				},
+				"es": {
+					"question": "Se dio cuenta de que había perdido una reunión importante.",
+					"explanation": "El Past Perfect tras realized — perderse la reunión precede a darse cuenta."
 				}
 			}
 		},
@@ -1807,6 +4207,18 @@
 				"ru": {
 					"question": "Он никогда не видел такого количества людей в одном месте.",
 					"explanation": "Past Perfect с never — отсутствие подобного опыта до данного момента."
+				},
+				"fr": {
+					"question": "Il n'avait jamais vu autant de personnes au même endroit.",
+					"explanation": "Le Past Perfect avec never — absence d'une telle expérience jusqu'à ce moment passé."
+				},
+				"de": {
+					"question": "Er hatte noch nie so viele Menschen an einem Ort gesehen.",
+					"explanation": "Das Past Perfect mit never — das Fehlen einer solchen Erfahrung bis zu diesem vergangenen Zeitpunkt."
+				},
+				"es": {
+					"question": "Nunca había visto tanta gente en un mismo lugar.",
+					"explanation": "El Past Perfect con never — ausencia de esa experiencia hasta ese momento pasado."
 				}
 			}
 		},
@@ -1816,6 +4228,18 @@
 				"ru": {
 					"question": "Если бы он не был так уверен в себе, он бы прислушался.",
 					"explanation": "Третье условное с отрицанием в условной части."
+				},
+				"fr": {
+					"question": "S'il n'avait pas été si sûr de lui, il aurait écouté.",
+					"explanation": "Troisième conditionnel avec négation dans la condition."
+				},
+				"de": {
+					"question": "Wenn er nicht so selbstsicher gewesen wäre, hätte er zugehört.",
+					"explanation": "Dritter Konditionalsatz mit Verneinung in der Bedingung."
+				},
+				"es": {
+					"question": "Si no hubiera sido tan seguro de sí mismo, habría escuchado.",
+					"explanation": "Tercera condicional con negación en la condición."
 				}
 			}
 		},
@@ -1825,6 +4249,18 @@
 				"ru": {
 					"question": "К тому времени, как закончились переговоры, обе стороны устали.",
 					"explanation": "Past Perfect: усталость наступила к концу переговоров."
+				},
+				"fr": {
+					"question": "Au moment où les négociations ont pris fin, les deux parties s'étaient fatiguées.",
+					"explanation": "Le Past Perfect : la fatigue est survenue avant la fin des négociations."
+				},
+				"de": {
+					"question": "Als die Verhandlungen endeten, waren beide Seiten schon müde geworden.",
+					"explanation": "Das Past Perfect: die Ermüdung trat vor dem Ende der Verhandlungen ein."
+				},
+				"es": {
+					"question": "Para cuando terminaron las negociaciones, ambas partes ya se habían cansado.",
+					"explanation": "El Past Perfect: el cansancio llegó antes del final de las negociaciones."
 				}
 			}
 		},
@@ -1834,6 +4270,18 @@
 				"ru": {
 					"question": "Он сказал, что уже нашёл нужную информацию.",
 					"explanation": "Косвенная речь: present perfect → past perfect."
+				},
+				"fr": {
+					"question": "Il a dit qu'il avait déjà trouvé les informations nécessaires.",
+					"explanation": "Discours indirect : le present perfect devient past perfect."
+				},
+				"de": {
+					"question": "Er sagte, dass er die nötigen Informationen schon gefunden habe.",
+					"explanation": "Indirekte Rede: Das Present Perfect wird zu Past Perfect."
+				},
+				"es": {
+					"question": "Dijo que ya había encontrado la información necesaria.",
+					"explanation": "Estilo indirecto: el present perfect se convierte en past perfect."
 				}
 			}
 		},
@@ -1843,6 +4291,18 @@
 				"ru": {
 					"question": "Когда открылись двери театра, очередь уже стояла.",
 					"explanation": "Past Perfect: очередь образовалась до открытия дверей."
+				},
+				"fr": {
+					"question": "Quand les portes du théâtre ont ouvert, la queue s'était déjà formée.",
+					"explanation": "Le Past Perfect : la queue s'est formée avant l'ouverture des portes."
+				},
+				"de": {
+					"question": "Als die Theatertüren öffneten, hatte sich schon eine Schlange gebildet.",
+					"explanation": "Das Past Perfect: die Schlange hatte sich vor der Türöffnung gebildet."
+				},
+				"es": {
+					"question": "Cuando se abrieron las puertas del teatro, ya se había formado la cola.",
+					"explanation": "El Past Perfect: la cola se formó antes de que abrieran las puertas."
 				}
 			}
 		},
@@ -1852,6 +4312,18 @@
 				"ru": {
 					"question": "Если бы она ответила на письмо, недоразумения не возникло бы.",
 					"explanation": "Третье условное с отрицательным следствием."
+				},
+				"fr": {
+					"question": "Si elle avait répondu à l'email, il n'y aurait pas eu de malentendu.",
+					"explanation": "Troisième conditionnel avec conséquence négative."
+				},
+				"de": {
+					"question": "Wenn sie auf die E-Mail geantwortet hätte, wäre es nicht zu einem Missverständnis gekommen.",
+					"explanation": "Dritter Konditionalsatz mit negativer Folge."
+				},
+				"es": {
+					"question": "Si ella hubiera respondido al correo, no habría habido malentendido.",
+					"explanation": "Tercera condicional con consecuencia negativa."
 				}
 			}
 		},
@@ -1861,6 +4333,18 @@
 				"ru": {
 					"question": "К восьми утра все сотрудники уже пришли на работу.",
 					"explanation": "Past Perfect с конкретным временем суток."
+				},
+				"fr": {
+					"question": "À huit heures du matin, tous les employés étaient déjà arrivés au travail.",
+					"explanation": "Le Past Perfect avec un moment précis de la journée."
+				},
+				"de": {
+					"question": "Bis acht Uhr morgens waren alle Mitarbeiter schon zur Arbeit erschienen.",
+					"explanation": "Das Past Perfect mit einer konkreten Tageszeit."
+				},
+				"es": {
+					"question": "Para las ocho de la mañana todos los empleados ya habían llegado al trabajo.",
+					"explanation": "El Past Perfect con un momento concreto del día."
 				}
 			}
 		},
@@ -1870,6 +4354,18 @@
 				"ru": {
 					"question": "Она не ожидала, что он уже отменил заказ.",
 					"explanation": "Past Perfect после hadn't expected — отмена предшествует неожиданности."
+				},
+				"fr": {
+					"question": "Elle ne s'attendait pas à ce qu'il ait déjà annulé la commande.",
+					"explanation": "Le Past Perfect après hadn't expected — l'annulation précède la surprise."
+				},
+				"de": {
+					"question": "Sie hatte nicht erwartet, dass er die Bestellung schon storniert hatte.",
+					"explanation": "Das Past Perfect nach hadn't expected — die Stornierung geht der Überraschung voraus."
+				},
+				"es": {
+					"question": "No esperaba que él ya hubiera cancelado el pedido.",
+					"explanation": "El Past Perfect tras hadn't expected — la cancelación precede a la sorpresa."
 				}
 			}
 		},
@@ -1879,6 +4375,18 @@
 				"ru": {
 					"question": "Он сообщил, что уже рассмотрел все кандидатуры.",
 					"explanation": "Косвенная речь: present perfect → past perfect."
+				},
+				"fr": {
+					"question": "Il a rapporté qu'il avait déjà examiné tous les candidats.",
+					"explanation": "Discours indirect : le present perfect devient past perfect après reported."
+				},
+				"de": {
+					"question": "Er berichtete, dass er alle Kandidaten schon geprüft habe.",
+					"explanation": "Indirekte Rede: Das Present Perfect wird nach reported zu Past Perfect."
+				},
+				"es": {
+					"question": "Informó de que ya había valorado a todos los candidatos.",
+					"explanation": "Estilo indirecto: el present perfect se convierte en past perfect tras reported."
 				}
 			}
 		},
@@ -1888,6 +4396,18 @@
 				"ru": {
 					"question": "К тому времени, как решение приняли официально, все уже обо всём знали.",
 					"explanation": "Past Perfect: знание распространилось до официального объявления."
+				},
+				"fr": {
+					"question": "Au moment où la décision a été officiellement prise, tout le monde savait déjà tout.",
+					"explanation": "Le Past Perfect : la connaissance s'est répandue avant l'annonce officielle."
+				},
+				"de": {
+					"question": "Als die Entscheidung offiziell getroffen wurde, wussten schon alle alles.",
+					"explanation": "Das Past Perfect: das Wissen verbreitete sich vor der offiziellen Bekanntgabe."
+				},
+				"es": {
+					"question": "Para cuando se tomó oficialmente la decisión, todos ya lo sabían todo.",
+					"explanation": "El Past Perfect: el conocimiento se difundió antes del anuncio oficial."
 				}
 			}
 		},
@@ -1897,6 +4417,18 @@
 				"ru": {
 					"question": "Она только что повесила трубку, когда снова позвонили.",
 					"explanation": "Past Perfect с just: завершение звонка — прямо перед следующим."
+				},
+				"fr": {
+					"question": "Elle venait juste de raccrocher quand le téléphone a sonné à nouveau.",
+					"explanation": "Le Past Perfect avec just : le raccrochage a eu lieu juste avant le prochain appel."
+				},
+				"de": {
+					"question": "Sie hatte gerade aufgelegt, als das Telefon erneut klingelte.",
+					"explanation": "Das Past Perfect mit just: das Auflegen fand unmittelbar vor dem nächsten Anruf statt."
+				},
+				"es": {
+					"question": "Acababa de colgar cuando volvió a sonar el teléfono.",
+					"explanation": "El Past Perfect con just: colgar ocurrió justo antes de la siguiente llamada."
 				}
 			}
 		},
@@ -1906,6 +4438,18 @@
 				"ru": {
 					"question": "Если бы они выбрали другого подрядчика, объект сдали бы вовремя.",
 					"explanation": "Третье условное с Past Perfect Passive в главной части."
+				},
+				"fr": {
+					"question": "S'ils avaient choisi un autre prestataire, l'installation aurait été livrée à temps.",
+					"explanation": "Troisième conditionnel avec Past Perfect Passif dans la principale."
+				},
+				"de": {
+					"question": "Wenn sie einen anderen Auftragnehmer gewählt hätten, wäre das Objekt rechtzeitig übergeben worden.",
+					"explanation": "Dritter Konditionalsatz mit Past Perfect Passiv im Hauptsatz."
+				},
+				"es": {
+					"question": "Si hubieran elegido otro contratista, la instalación habría sido entregada a tiempo.",
+					"explanation": "Tercera condicional con Past Perfect Pasivo en la oración principal."
 				}
 			}
 		},
@@ -1915,6 +4459,18 @@
 				"ru": {
 					"question": "К тому времени, как вернулся директор, совещание уже завершилось.",
 					"explanation": "Past Perfect: совещание завершено до возвращения директора."
+				},
+				"fr": {
+					"question": "Au moment où le directeur est revenu, la réunion était déjà terminée.",
+					"explanation": "Le Past Perfect : la réunion s'est terminée avant le retour du directeur."
+				},
+				"de": {
+					"question": "Als der Direktor zurückkam, war die Besprechung schon beendet.",
+					"explanation": "Das Past Perfect: die Besprechung war vor der Rückkehr des Direktors beendet."
+				},
+				"es": {
+					"question": "Para cuando volvió el director, la reunión ya había terminado.",
+					"explanation": "El Past Perfect: la reunión terminó antes de que volviera el director."
 				}
 			}
 		},
@@ -1924,6 +4480,18 @@
 				"ru": {
 					"question": "Мы уже обсудили детали до переговоров.",
 					"explanation": "Past Perfect: обсуждение деталей предшествовало переговорам."
+				},
+				"fr": {
+					"question": "Nous avions déjà discuté des détails avant les négociations.",
+					"explanation": "Le Past Perfect : la discussion a précédé les négociations."
+				},
+				"de": {
+					"question": "Wir hatten die Details schon vor den Verhandlungen besprochen.",
+					"explanation": "Das Past Perfect: die Diskussion fand vor den Verhandlungen statt."
+				},
+				"es": {
+					"question": "Ya habíamos discutido los detalles antes de las negociaciones.",
+					"explanation": "El Past Perfect: la discusión precedió a las negociaciones."
 				}
 			}
 		},
@@ -1933,6 +4501,18 @@
 				"ru": {
 					"question": "Она поняла, что сказала лишнее.",
 					"explanation": "Past Perfect после realized — слова произнесены раньше осознания."
+				},
+				"fr": {
+					"question": "Elle a réalisé qu'elle en avait trop dit.",
+					"explanation": "Le Past Perfect après realized — les paroles ont précédé la prise de conscience."
+				},
+				"de": {
+					"question": "Sie bemerkte, dass sie zu viel gesagt hatte.",
+					"explanation": "Das Past Perfect nach realized — die Worte wurden vor der Erkenntnis gesprochen."
+				},
+				"es": {
+					"question": "Se dio cuenta de que había dicho demasiado.",
+					"explanation": "El Past Perfect tras realized — las palabras fueron dichas antes de darse cuenta."
 				}
 			}
 		},
@@ -1942,6 +4522,18 @@
 				"ru": {
 					"question": "Он никогда не видел такого беспорядка у себя дома.",
 					"explanation": "Past Perfect с never — отсутствие подобного опыта до данного прошлого момента."
+				},
+				"fr": {
+					"question": "Il n'avait jamais vu un tel désordre chez lui.",
+					"explanation": "Le Past Perfect avec never — absence d'une telle expérience jusqu'à ce moment passé."
+				},
+				"de": {
+					"question": "Er hatte bei sich zu Hause noch nie so ein Durcheinander gesehen.",
+					"explanation": "Das Past Perfect mit never — das Fehlen einer solchen Erfahrung bis zu diesem vergangenen Zeitpunkt."
+				},
+				"es": {
+					"question": "Nunca había visto semejante desorden en su casa.",
+					"explanation": "El Past Perfect con never — ausencia de esa experiencia hasta ese momento pasado."
 				}
 			}
 		},
@@ -1951,6 +4543,18 @@
 				"ru": {
 					"question": "Если бы она не пропустила занятие, она бы знала материал.",
 					"explanation": "Третье условное с отрицанием в условной части."
+				},
+				"fr": {
+					"question": "Si elle n'avait pas manqué le cours, elle aurait connu la matière.",
+					"explanation": "Troisième conditionnel avec négation dans la condition."
+				},
+				"de": {
+					"question": "Wenn sie den Unterricht nicht versäumt hätte, hätte sie den Stoff gekannt.",
+					"explanation": "Dritter Konditionalsatz mit Verneinung in der Bedingung."
+				},
+				"es": {
+					"question": "Si no hubiera faltado a clase, habría conocido el material.",
+					"explanation": "Tercera condicional con negación en la condición."
 				}
 			}
 		},
@@ -1960,6 +4564,18 @@
 				"ru": {
 					"question": "К тому времени, как они решили проблему, клиент уже ушёл.",
 					"explanation": "Past Perfect: уход клиента предшествует решению проблемы."
+				},
+				"fr": {
+					"question": "Au moment où ils ont résolu le problème, le client était déjà parti.",
+					"explanation": "Le Past Perfect : le départ du client a précédé la résolution du problème."
+				},
+				"de": {
+					"question": "Als sie das Problem lösten, war der Kunde schon gegangen.",
+					"explanation": "Das Past Perfect: das Weggehen des Kunden ging der Problemlösung voraus."
+				},
+				"es": {
+					"question": "Para cuando resolvieron el problema, el cliente ya se había ido.",
+					"explanation": "El Past Perfect: la partida del cliente precedió a la resolución del problema."
 				}
 			}
 		},
@@ -1969,6 +4585,18 @@
 				"ru": {
 					"question": "Он сказал, что уже посмотрел этот сериал.",
 					"explanation": "Косвенная речь: present perfect → past perfect."
+				},
+				"fr": {
+					"question": "Il a dit qu'il avait déjà regardé cette série.",
+					"explanation": "Discours indirect : le present perfect devient past perfect."
+				},
+				"de": {
+					"question": "Er sagte, dass er diese Serie schon gesehen habe.",
+					"explanation": "Indirekte Rede: Das Present Perfect wird zu Past Perfect."
+				},
+				"es": {
+					"question": "Dijo que ya había visto esa serie.",
+					"explanation": "Estilo indirecto: el present perfect se convierte en past perfect."
 				}
 			}
 		},
@@ -1978,6 +4606,18 @@
 				"ru": {
 					"question": "Когда мы зашли в магазин, скидки уже закончились.",
 					"explanation": "Past Perfect: скидки закончились до нашего прихода."
+				},
+				"fr": {
+					"question": "Quand nous sommes entrés dans le magasin, les soldes étaient déjà terminées.",
+					"explanation": "Le Past Perfect : les soldes se sont terminées avant notre arrivée."
+				},
+				"de": {
+					"question": "Als wir in den Laden gingen, waren die Rabatte schon vorbei.",
+					"explanation": "Das Past Perfect: die Rabatte waren vor unserer Ankunft vorbei."
+				},
+				"es": {
+					"question": "Cuando entramos en la tienda, las rebajas ya habían terminado.",
+					"explanation": "El Past Perfect: las rebajas habían terminado antes de nuestra llegada."
 				}
 			}
 		},
@@ -1987,6 +4627,18 @@
 				"ru": {
 					"question": "Если бы ты позаботился об этом заранее, не было бы проблем.",
 					"explanation": "Третье условное с отрицательным следствием."
+				},
+				"fr": {
+					"question": "Si tu t'en étais occupé à l'avance, il n'y aurait pas eu de problèmes.",
+					"explanation": "Troisième conditionnel avec conséquence négative."
+				},
+				"de": {
+					"question": "Wenn du dich im Voraus darum gekümmert hättest, hätte es keine Probleme gegeben.",
+					"explanation": "Dritter Konditionalsatz mit negativer Folge."
+				},
+				"es": {
+					"question": "Si te hubieras ocupado de ello de antemano, no habría habido problemas.",
+					"explanation": "Tercera condicional con consecuencia negativa."
 				}
 			}
 		},
@@ -1996,6 +4648,18 @@
 				"ru": {
 					"question": "К тому времени, как вышла вакцина, эпидемия уже пошла на убыль.",
 					"explanation": "Past Perfect: снижение эпидемии началось до выпуска вакцины."
+				},
+				"fr": {
+					"question": "Au moment où le vaccin est sorti, l'épidémie avait déjà commencé à décliner.",
+					"explanation": "Le Past Perfect : le déclin a commencé avant la mise en circulation du vaccin."
+				},
+				"de": {
+					"question": "Als der Impfstoff erschien, hatte die Epidemie schon begonnen zu sinken.",
+					"explanation": "Das Past Perfect: der Rückgang begann vor der Einführung des Impfstoffs."
+				},
+				"es": {
+					"question": "Para cuando salió la vacuna, la epidemia ya había empezado a remitir.",
+					"explanation": "El Past Perfect: el declive empezó antes de la salida de la vacuna."
 				}
 			}
 		},
@@ -2005,6 +4669,18 @@
 				"ru": {
 					"question": "Мы уже зарегистрировались до начала регистрации онлайн.",
 					"explanation": "Past Perfect: регистрация завершена до открытия онлайн-регистрации."
+				},
+				"fr": {
+					"question": "Nous nous étions déjà enregistrés avant l'ouverture de l'enregistrement en ligne.",
+					"explanation": "Le Past Perfect : l'enregistrement s'est terminé avant l'ouverture de la procédure en ligne."
+				},
+				"de": {
+					"question": "Wir hatten uns schon eingecheckt, bevor das Online-Check-in öffnete.",
+					"explanation": "Das Past Perfect: das Einchecken war vor der Öffnung des Online-Check-ins abgeschlossen."
+				},
+				"es": {
+					"question": "Ya nos habíamos registrado antes de que abriera el check-in online.",
+					"explanation": "El Past Perfect: el registro terminó antes de que abriera el check-in online."
 				}
 			}
 		},
@@ -2014,6 +4690,18 @@
 				"ru": {
 					"question": "Она поняла, что потратила слишком много времени.",
 					"explanation": "Past Perfect после realized — время потрачено раньше осознания."
+				},
+				"fr": {
+					"question": "Elle a réalisé qu'elle avait passé trop de temps.",
+					"explanation": "Le Past Perfect après realized — le temps a été dépensé avant la prise de conscience."
+				},
+				"de": {
+					"question": "Sie bemerkte, dass sie zu viel Zeit verbraucht hatte.",
+					"explanation": "Das Past Perfect nach realized — die Zeit wurde vor der Erkenntnis verbraucht."
+				},
+				"es": {
+					"question": "Se dio cuenta de que había pasado demasiado tiempo.",
+					"explanation": "El Past Perfect tras realized — el tiempo fue gastado antes de darse cuenta."
 				}
 			}
 		},
@@ -2023,6 +4711,18 @@
 				"ru": {
 					"question": "Он никогда не чувствовал себя так одиноко.",
 					"explanation": "Past Perfect с never — отсутствие подобного ощущения до данного прошлого момента."
+				},
+				"fr": {
+					"question": "Il n'avait jamais ressenti une telle solitude.",
+					"explanation": "Le Past Perfect avec never — absence d'une telle sensation jusqu'à ce moment passé."
+				},
+				"de": {
+					"question": "Er hatte sich noch nie so einsam gefühlt.",
+					"explanation": "Das Past Perfect mit never — das Fehlen eines solchen Gefühls bis zu diesem vergangenen Zeitpunkt."
+				},
+				"es": {
+					"question": "Nunca había sentido tanta soledad.",
+					"explanation": "El Past Perfect con never — ausencia de esa sensación hasta ese momento pasado."
 				}
 			}
 		},
@@ -2032,6 +4732,18 @@
 				"ru": {
 					"question": "Если бы они ушли раньше, они бы избежали пробки.",
 					"explanation": "Третье условное: нереальное прошлое условие."
+				},
+				"fr": {
+					"question": "S'ils étaient partis plus tôt, ils auraient évité l'embouteillage.",
+					"explanation": "Troisième conditionnel : condition irréelle dans le passé."
+				},
+				"de": {
+					"question": "Wenn sie früher gegangen wären, hätten sie den Stau vermieden.",
+					"explanation": "Dritter Konditionalsatz: irreale Bedingung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Si hubieran salido antes, habrían evitado el atasco.",
+					"explanation": "Tercera condicional: condición irreal en el pasado."
 				}
 			}
 		},
@@ -2041,6 +4753,18 @@
 				"ru": {
 					"question": "К тому времени, как он получил диплом, уже нашёл работу.",
 					"explanation": "Past Perfect: нахождение работы предшествует получению диплома."
+				},
+				"fr": {
+					"question": "Au moment où il a obtenu son diplôme, il avait déjà trouvé un emploi.",
+					"explanation": "Le Past Perfect : la recherche d'emploi a précédé l'obtention du diplôme."
+				},
+				"de": {
+					"question": "Als er seinen Abschluss bekam, hatte er schon einen Job gefunden.",
+					"explanation": "Das Past Perfect: die Jobsuche fand vor dem Abschluss statt."
+				},
+				"es": {
+					"question": "Para cuando obtuvo el título, ya había encontrado trabajo.",
+					"explanation": "El Past Perfect: encontrar trabajo precedió a la obtención del título."
 				}
 			}
 		},
@@ -2050,6 +4774,18 @@
 				"ru": {
 					"question": "Он сказал, что уже забронировал столик.",
 					"explanation": "Косвенная речь: present perfect → past perfect."
+				},
+				"fr": {
+					"question": "Il a dit qu'il avait déjà réservé une table.",
+					"explanation": "Discours indirect : le present perfect devient past perfect."
+				},
+				"de": {
+					"question": "Er sagte, dass er schon einen Tisch reserviert habe.",
+					"explanation": "Indirekte Rede: Das Present Perfect wird zu Past Perfect."
+				},
+				"es": {
+					"question": "Dijo que ya había reservado una mesa.",
+					"explanation": "Estilo indirecto: el present perfect se convierte en past perfect."
 				}
 			}
 		},
@@ -2059,6 +4795,18 @@
 				"ru": {
 					"question": "Когда пришла проверка, все документы уже были на месте.",
 					"explanation": "Past Perfect Passive: документы были подготовлены до проверки."
+				},
+				"fr": {
+					"question": "Quand l'inspection est arrivée, tous les documents étaient déjà en ordre.",
+					"explanation": "Le Past Perfect Passif : les documents avaient été préparés avant l'inspection."
+				},
+				"de": {
+					"question": "Als die Inspektion kam, waren alle Dokumente schon in Ordnung.",
+					"explanation": "Das Past Perfect Passiv: die Dokumente waren vor der Inspektion vorbereitet worden."
+				},
+				"es": {
+					"question": "Cuando llegó la inspección, todos los documentos ya estaban en regla.",
+					"explanation": "El Past Perfect Pasivo: los documentos habían sido preparados antes de la inspección."
 				}
 			}
 		},
@@ -2068,6 +4816,18 @@
 				"ru": {
 					"question": "Если бы он послушал совета, всё сложилось бы иначе.",
 					"explanation": "Третье условное: нереальное прошлое условие."
+				},
+				"fr": {
+					"question": "S'il avait suivi le conseil, les choses se seraient passées différemment.",
+					"explanation": "Troisième conditionnel : condition irréelle dans le passé."
+				},
+				"de": {
+					"question": "Wenn er den Rat befolgt hätte, wäre es anders gelaufen.",
+					"explanation": "Dritter Konditionalsatz: irreale Bedingung in der Vergangenheit."
+				},
+				"es": {
+					"question": "Si hubiera seguido el consejo, las cosas habrían resultado de otra manera.",
+					"explanation": "Tercera condicional: condición irreal en el pasado."
 				}
 			}
 		},
@@ -2077,6 +4837,18 @@
 				"ru": {
 					"question": "К концу рабочей недели сотрудники уже выполнили план.",
 					"explanation": "Past Perfect с by the end of the working week."
+				},
+				"fr": {
+					"question": "À la fin de la semaine de travail, les employés avaient déjà atteint l'objectif.",
+					"explanation": "Le Past Perfect avec by the end of the working week."
+				},
+				"de": {
+					"question": "Bis Ende der Arbeitswoche hatten die Mitarbeiter das Ziel schon erreicht.",
+					"explanation": "Das Past Perfect mit by the end of the working week."
+				},
+				"es": {
+					"question": "Para el final de la semana laboral los empleados ya habían cumplido el objetivo.",
+					"explanation": "El Past Perfect con by the end of the working week."
 				}
 			}
 		},
@@ -2086,6 +4858,18 @@
 				"ru": {
 					"question": "Она не подозревала, что он уже продал дом.",
 					"explanation": "Past Perfect после didn't suspect — продажа предшествует подозрению."
+				},
+				"fr": {
+					"question": "Elle ne soupçonnait pas qu'il avait déjà vendu la maison.",
+					"explanation": "Le Past Perfect après didn't suspect — la vente précède le soupçon."
+				},
+				"de": {
+					"question": "Sie ahnte nicht, dass er das Haus schon verkauft hatte.",
+					"explanation": "Das Past Perfect nach didn't suspect — der Verkauf geht dem Verdacht voraus."
+				},
+				"es": {
+					"question": "No sospechaba que él ya había vendido la casa.",
+					"explanation": "El Past Perfect tras didn't suspect — la venta precede a la sospecha."
 				}
 			}
 		},
@@ -2095,6 +4879,18 @@
 				"ru": {
 					"question": "К тому времени, как пришёл новый тренер, команда уже распалась.",
 					"explanation": "Past Perfect: распад команды произошёл до прихода тренера."
+				},
+				"fr": {
+					"question": "Au moment où le nouvel entraîneur est arrivé, l'équipe avait déjà éclaté.",
+					"explanation": "Le Past Perfect : la dissolution de l'équipe a précédé l'arrivée du nouvel entraîneur."
+				},
+				"de": {
+					"question": "Als der neue Trainer ankam, hatte sich das Team schon aufgelöst.",
+					"explanation": "Das Past Perfect: die Auflösung des Teams fand vor der Ankunft des neuen Trainers statt."
+				},
+				"es": {
+					"question": "Para cuando llegó el nuevo entrenador, el equipo ya se había disuelto.",
+					"explanation": "El Past Perfect: la disolución del equipo precedió a la llegada del nuevo entrenador."
 				}
 			}
 		},
@@ -2104,6 +4900,18 @@
 				"ru": {
 					"question": "Она только что закончила разговор, когда вошёл директор.",
 					"explanation": "Past Perfect с just: окончание разговора — прямо перед приходом директора."
+				},
+				"fr": {
+					"question": "Elle venait juste de terminer la conversation quand le directeur est entré.",
+					"explanation": "Le Past Perfect avec just : la fin de la conversation a eu lieu juste avant l'entrée du directeur."
+				},
+				"de": {
+					"question": "Sie hatte gerade das Gespräch beendet, als der Direktor hereinkam.",
+					"explanation": "Das Past Perfect mit just: das Ende des Gesprächs fand unmittelbar vor dem Eintreten des Direktors statt."
+				},
+				"es": {
+					"question": "Acababa de terminar la conversación cuando entró el director.",
+					"explanation": "El Past Perfect con just: terminar la conversación ocurrió justo antes de que entrara el director."
 				}
 			}
 		},
@@ -2113,6 +4921,18 @@
 				"ru": {
 					"question": "Если бы они не перепутали время, они бы не опоздали.",
 					"explanation": "Третье условное с отрицанием в обеих частях."
+				},
+				"fr": {
+					"question": "S'ils n'avaient pas confondu l'heure, ils ne seraient pas arrivés en retard.",
+					"explanation": "Troisième conditionnel avec négation dans les deux parties."
+				},
+				"de": {
+					"question": "Wenn sie die Uhrzeit nicht verwechselt hätten, wären sie nicht zu spät gekommen.",
+					"explanation": "Dritter Konditionalsatz mit Verneinung in beiden Teilen."
+				},
+				"es": {
+					"question": "Si no hubieran confundido la hora, no habrían llegado tarde.",
+					"explanation": "Tercera condicional con negación en ambas partes."
 				}
 			}
 		},
@@ -2122,6 +4942,18 @@
 				"ru": {
 					"question": "К тому времени, как мы нашли гостиницу, стемнело.",
 					"explanation": "Past Perfect: темнота наступила до нахождения гостиницы."
+				},
+				"fr": {
+					"question": "Au moment où nous avons trouvé l'hôtel, il faisait déjà nuit.",
+					"explanation": "Le Past Perfect : la nuit était tombée avant que nous trouvions l'hôtel."
+				},
+				"de": {
+					"question": "Als wir das Hotel fanden, war es schon dunkel geworden.",
+					"explanation": "Das Past Perfect: es war dunkel geworden, bevor wir das Hotel fanden."
+				},
+				"es": {
+					"question": "Para cuando encontramos el hotel, ya había oscurecido.",
+					"explanation": "El Past Perfect: había oscurecido antes de que encontráramos el hotel."
 				}
 			}
 		},
@@ -2131,6 +4963,18 @@
 				"ru": {
 					"question": "Мы уже отпраздновали день рождения до его отъезда.",
 					"explanation": "Past Perfect: празднование завершено до отъезда."
+				},
+				"fr": {
+					"question": "Nous avions déjà fêté son anniversaire avant son départ.",
+					"explanation": "Le Past Perfect : la fête a précédé le départ."
+				},
+				"de": {
+					"question": "Wir hatten seinen Geburtstag schon gefeiert, bevor er abreiste.",
+					"explanation": "Das Past Perfect: die Feier fand vor der Abreise statt."
+				},
+				"es": {
+					"question": "Ya habíamos celebrado su cumpleaños antes de que se fuera.",
+					"explanation": "El Past Perfect: la celebración precedió a la partida."
 				}
 			}
 		},
@@ -2140,6 +4984,18 @@
 				"ru": {
 					"question": "Она поняла, что пришла не по тому адресу.",
 					"explanation": "Past Perfect после realized — ошибочный приход предшествует осознанию."
+				},
+				"fr": {
+					"question": "Elle a réalisé qu'elle était allée à la mauvaise adresse.",
+					"explanation": "Le Past Perfect après realized — l'erreur d'adresse précède la prise de conscience."
+				},
+				"de": {
+					"question": "Sie bemerkte, dass sie an die falsche Adresse gegangen war.",
+					"explanation": "Das Past Perfect nach realized — der falsche Adressfehler geht der Erkenntnis voraus."
+				},
+				"es": {
+					"question": "Se dio cuenta de que había ido a la dirección equivocada.",
+					"explanation": "El Past Perfect tras realized — el error de dirección precede a darse cuenta."
 				}
 			}
 		},
@@ -2149,6 +5005,18 @@
 				"ru": {
 					"question": "Он никогда не получал такой большой награды.",
 					"explanation": "Past Perfect с never — отсутствие опыта получения подобной награды."
+				},
+				"fr": {
+					"question": "Il n'avait jamais reçu une si grande récompense.",
+					"explanation": "Le Past Perfect avec never — absence d'une telle expérience jusqu'à ce moment passé."
+				},
+				"de": {
+					"question": "Er hatte noch nie eine so große Auszeichnung erhalten.",
+					"explanation": "Das Past Perfect mit never — das Fehlen einer solchen Erfahrung bis zu diesem vergangenen Zeitpunkt."
+				},
+				"es": {
+					"question": "Nunca había recibido un premio tan grande.",
+					"explanation": "El Past Perfect con never — ausencia de esa experiencia hasta ese momento pasado."
 				}
 			}
 		},
@@ -2158,6 +5026,18 @@
 				"ru": {
 					"question": "Если бы вы сохранили резервную копию, данные можно было бы восстановить.",
 					"explanation": "Третье условное с could have + V3 вместо would have."
+				},
+				"fr": {
+					"question": "Si vous aviez conservé une sauvegarde, les données auraient pu être récupérées.",
+					"explanation": "Troisième conditionnel avec could have + V3 à la place de would have."
+				},
+				"de": {
+					"question": "Wenn Sie ein Backup gespeichert hätten, hätten die Daten wiederhergestellt werden können.",
+					"explanation": "Dritter Konditionalsatz mit could have + V3 statt would have."
+				},
+				"es": {
+					"question": "Si hubierais guardado una copia de seguridad, los datos habrían podido recuperarse.",
+					"explanation": "Tercera condicional con could have + V3 en lugar de would have."
 				}
 			}
 		},
@@ -2167,6 +5047,18 @@
 				"ru": {
 					"question": "К тому времени, как подоспела помощь, пациент уже пришёл в себя.",
 					"explanation": "Past Perfect: пациент пришёл в себя до прибытия помощи."
+				},
+				"fr": {
+					"question": "Au moment où les secours sont arrivés, le patient avait déjà repris connaissance.",
+					"explanation": "Le Past Perfect : le patient avait repris connaissance avant l'arrivée des secours."
+				},
+				"de": {
+					"question": "Als die Hilfe eintraf, hatte der Patient schon das Bewusstsein wiedererlangt.",
+					"explanation": "Das Past Perfect: der Patient hatte das Bewusstsein wiedererlangt, bevor die Hilfe eintraf."
+				},
+				"es": {
+					"question": "Para cuando llegó la ayuda, el paciente ya había recuperado el conocimiento.",
+					"explanation": "El Past Perfect: el paciente había recuperado el conocimiento antes de que llegara la ayuda."
 				}
 			}
 		},
@@ -2176,6 +5068,18 @@
 				"ru": {
 					"question": "Он сообщил, что уже оформил все необходимые бумаги.",
 					"explanation": "Косвенная речь: present perfect → past perfect."
+				},
+				"fr": {
+					"question": "Il a rapporté qu'il avait déjà rempli toutes les formalités nécessaires.",
+					"explanation": "Discours indirect : le present perfect devient past perfect après reported."
+				},
+				"de": {
+					"question": "Er berichtete, dass er alle nötigen Formalitäten schon erledigt habe.",
+					"explanation": "Indirekte Rede: Das Present Perfect wird nach reported zu Past Perfect."
+				},
+				"es": {
+					"question": "Informó de que ya había completado todos los trámites necesarios.",
+					"explanation": "Estilo indirecto: el present perfect se convierte en past perfect tras reported."
 				}
 			}
 		}
