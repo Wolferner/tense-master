@@ -17,7 +17,7 @@ const FILES = [
 	// 'present-simple.json',
 	// 'present-continuous.json',
 	// 'present-perfect.json',
-	'present-perfect-continuous.json',
+	// 'present-perfect-continuous.json',
 	'past-simple.json',
 	'past-continuous.json',
 	'past-perfect.json',
