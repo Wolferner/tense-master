@@ -3157,6 +3157,18 @@
 				"ru": {
 					"question": "В следующем квартале компания покажет хорошие результаты.",
 					"explanation": "Предсказание с временным маркером — используем will."
+				},
+				"fr": {
+					"question": "Au prochain trimestre, l'entreprise affichera de bons résultats.",
+					"explanation": "Le futur simple avec will s'utilise pour une prédiction sur l'avenir. Marqueur : next quarter."
+				},
+				"de": {
+					"question": "Im nächsten Quartal wird das Unternehmen gute Ergebnisse vorweisen.",
+					"explanation": "Das Future Simple mit will drückt eine Vorhersage über die Zukunft aus. Marker: next quarter."
+				},
+				"es": {
+					"question": "En el próximo trimestre la empresa mostrará buenos resultados.",
+					"explanation": "El Future Simple con will expresa una predicción sobre el futuro. Marcador: next quarter."
 				}
 			}
 		},
@@ -3166,6 +3178,18 @@
 				"ru": {
 					"question": "Наверное, он купит новый автомобиль.",
 					"explanation": "Предсказание с 'наверное' — используем will."
+				},
+				"fr": {
+					"question": "Il achètera probablement une nouvelle voiture.",
+					"explanation": "Le futur simple avec will s'utilise pour une prédiction incertaine. Marqueur : probably."
+				},
+				"de": {
+					"question": "Er wird wahrscheinlich ein neues Auto kaufen.",
+					"explanation": "Das Future Simple mit will drückt eine unsichere Vorhersage aus. Marker: probably."
+				},
+				"es": {
+					"question": "Probablemente comprará un coche nuevo.",
+					"explanation": "El Future Simple con will expresa una predicción incierta. Marcador: probably."
 				}
 			}
 		},
@@ -3175,6 +3199,18 @@
 				"ru": {
 					"question": "Я не позволю тебе так рисковать.",
 					"explanation": "Решение/угроза в отрицательной форме — используем won't."
+				},
+				"fr": {
+					"question": "Je ne te laisserai pas prendre un tel risque.",
+					"explanation": "Le futur simple négatif avec won't exprime une décision ferme de ne pas permettre quelque chose."
+				},
+				"de": {
+					"question": "Ich werde nicht zulassen, dass du ein solches Risiko eingehst.",
+					"explanation": "Das Future Simple im Negativen mit won't drückt einen festen Entschluss aus, etwas nicht zuzulassen."
+				},
+				"es": {
+					"question": "No te dejaré asumir tal riesgo.",
+					"explanation": "El Future Simple negativo con won't expresa una decisión firme de no permitir algo."
 				}
 			}
 		},
@@ -3184,6 +3220,18 @@
 				"ru": {
 					"question": "Ты пойдёшь на собеседование?",
 					"explanation": "Вопрос о намерении — вопросительная форма с will."
+				},
+				"fr": {
+					"question": "Tu iras à l'entretien d'embauche ?",
+					"explanation": "Le futur simple avec will à la forme interrogative exprime une question sur l'intention."
+				},
+				"de": {
+					"question": "Wirst du zum Vorstellungsgespräch gehen?",
+					"explanation": "Das Future Simple mit will in der Frageform drückt eine Frage über die Absicht aus."
+				},
+				"es": {
+					"question": "¿Irás a la entrevista?",
+					"explanation": "El Future Simple con will en forma interrogativa expresa una pregunta sobre la intención."
 				}
 			}
 		},
@@ -3193,6 +3241,18 @@
 				"ru": {
 					"question": "Думаю, этот план сработает.",
 					"explanation": "Предсказание — используем will."
+				},
+				"fr": {
+					"question": "Je pense que ce plan va fonctionner.",
+					"explanation": "Le futur simple avec will s'utilise pour exprimer une prédiction sur l'avenir. Marqueur : I think."
+				},
+				"de": {
+					"question": "Ich denke, dieser Plan wird funktionieren.",
+					"explanation": "Das Future Simple mit will drückt eine Vorhersage über die Zukunft aus. Marker: I think."
+				},
+				"es": {
+					"question": "Creo que este plan funcionará.",
+					"explanation": "El Future Simple con will se usa para expresar una predicción sobre el futuro. Marcador: I think."
 				}
 			}
 		},
@@ -3202,6 +3262,18 @@
 				"ru": {
 					"question": "Подожди, я заплачу за тебя.",
 					"explanation": "Спонтанное предложение — используем will."
+				},
+				"fr": {
+					"question": "Attends, je vais payer pour toi.",
+					"explanation": "Le futur simple avec will exprime une décision prise spontanément au moment de parler."
+				},
+				"de": {
+					"question": "Warte, ich zahle für dich.",
+					"explanation": "Das Future Simple mit will drückt eine spontane Entscheidung im Sprechmoment aus."
+				},
+				"es": {
+					"question": "Espera, voy a pagar por ti.",
+					"explanation": "El Future Simple con will expresa una decisión tomada espontáneamente en el momento de hablar."
 				}
 			}
 		},
@@ -3211,6 +3283,18 @@
 				"ru": {
 					"question": "Через год этот город станет туристическим центром.",
 					"explanation": "Предсказание с временным маркером — используем will."
+				},
+				"fr": {
+					"question": "Dans un an, cette ville deviendra un centre touristique.",
+					"explanation": "Le futur simple avec will s'utilise pour une prédiction sur l'avenir. Marqueur : in a year."
+				},
+				"de": {
+					"question": "In einem Jahr wird diese Stadt zu einem Touristenzentrum werden.",
+					"explanation": "Das Future Simple mit will drückt eine Vorhersage über die Zukunft aus. Marker: in a year."
+				},
+				"es": {
+					"question": "En un año esta ciudad se convertirá en un centro turístico.",
+					"explanation": "El Future Simple con will expresa una predicción sobre el futuro. Marcador: in a year."
 				}
 			}
 		},
@@ -3220,6 +3304,18 @@
 				"ru": {
 					"question": "Они не выполнят план в срок.",
 					"explanation": "Отрицательное предсказание — используем won't."
+				},
+				"fr": {
+					"question": "Ils ne respecteront pas les délais du plan.",
+					"explanation": "Le futur simple négatif avec won't exprime une prédiction négative."
+				},
+				"de": {
+					"question": "Sie werden den Plan nicht rechtzeitig erfüllen.",
+					"explanation": "Das Future Simple im Negativen mit won't drückt eine negative Vorhersage aus."
+				},
+				"es": {
+					"question": "No cumplirán el plan a tiempo.",
+					"explanation": "El Future Simple negativo con won't expresa una predicción negativa."
 				}
 			}
 		},
@@ -3229,6 +3325,18 @@
 				"ru": {
 					"question": "Ты проверишь мою работу перед сдачей?",
 					"explanation": "Просьба — вопросительная форма с will."
+				},
+				"fr": {
+					"question": "Tu vérifieras mon travail avant la remise ?",
+					"explanation": "Le futur simple avec will à la forme interrogative exprime une demande."
+				},
+				"de": {
+					"question": "Wirst du meine Arbeit vor der Abgabe prüfen?",
+					"explanation": "Das Future Simple mit will in der Frageform drückt eine Bitte aus."
+				},
+				"es": {
+					"question": "¿Revisarás mi trabajo antes de entregarlo?",
+					"explanation": "El Future Simple con will en forma interrogativa expresa una petición."
 				}
 			}
 		},
@@ -3238,6 +3346,18 @@
 				"ru": {
 					"question": "Я уверен, что она выздоровеет быстро.",
 					"explanation": "Уверенное предсказание — используем will."
+				},
+				"fr": {
+					"question": "Je suis sûr qu'elle se rétablira rapidement.",
+					"explanation": "Le futur simple avec will exprime une prédiction confiante. Marqueur : I am sure."
+				},
+				"de": {
+					"question": "Ich bin sicher, dass sie sich schnell erholen wird.",
+					"explanation": "Das Future Simple mit will drückt eine sichere Vorhersage aus. Marker: I am sure."
+				},
+				"es": {
+					"question": "Estoy seguro de que se recuperará rápidamente.",
+					"explanation": "El Future Simple con will expresa una predicción segura. Marcador: I am sure."
 				}
 			}
 		},
@@ -3247,6 +3367,18 @@
 				"ru": {
 					"question": "Сегодня вечером я позвоню бабушке.",
 					"explanation": "Решение с маркером 'сегодня вечером' — используем will."
+				},
+				"fr": {
+					"question": "Ce soir je vais appeler ma grand-mère.",
+					"explanation": "Le futur simple avec will exprime une décision ou un plan pour l'avenir. Marqueur : tonight."
+				},
+				"de": {
+					"question": "Heute Abend werde ich meine Großmutter anrufen.",
+					"explanation": "Das Future Simple mit will drückt eine Entscheidung oder einen Plan für die Zukunft aus. Marker: tonight."
+				},
+				"es": {
+					"question": "Esta noche llamaré a mi abuela.",
+					"explanation": "El Future Simple con will expresa una decisión o plan para el futuro. Marcador: tonight."
 				}
 			}
 		},
@@ -3256,6 +3388,18 @@
 				"ru": {
 					"question": "Наверное, переговоры затянутся надолго.",
 					"explanation": "Предсказание с 'наверное' — используем will."
+				},
+				"fr": {
+					"question": "Les négociations se prolongeront probablement longtemps.",
+					"explanation": "Le futur simple avec will s'utilise pour une prédiction incertaine. Marqueur : probably."
+				},
+				"de": {
+					"question": "Die Verhandlungen werden sich wahrscheinlich lange hinziehen.",
+					"explanation": "Das Future Simple mit will drückt eine unsichere Vorhersage aus. Marker: probably."
+				},
+				"es": {
+					"question": "Probablemente las negociaciones se alargarán mucho.",
+					"explanation": "El Future Simple con will expresa una predicción incierta. Marcador: probably."
 				}
 			}
 		},
@@ -3265,6 +3409,18 @@
 				"ru": {
 					"question": "Я сообщу тебе о результатах немедленно.",
 					"explanation": "Обещание — используем will."
+				},
+				"fr": {
+					"question": "Je vais t'informer des résultats immédiatement.",
+					"explanation": "Le futur simple avec will exprime une promesse."
+				},
+				"de": {
+					"question": "Ich werde dich sofort über die Ergebnisse informieren.",
+					"explanation": "Das Future Simple mit will drückt ein Versprechen aus."
+				},
+				"es": {
+					"question": "Te informaré de los resultados de inmediato.",
+					"explanation": "El Future Simple con will expresa una promesa."
 				}
 			}
 		},
@@ -3274,6 +3430,18 @@
 				"ru": {
 					"question": "Он не изменит свои привычки.",
 					"explanation": "Отрицательное предсказание о характере — используем won't."
+				},
+				"fr": {
+					"question": "Il ne changera pas ses habitudes.",
+					"explanation": "Le futur simple négatif avec won't exprime une prédiction négative sur le comportement."
+				},
+				"de": {
+					"question": "Er wird seine Gewohnheiten nicht ändern.",
+					"explanation": "Das Future Simple im Negativen mit won't drückt eine negative Verhaltensprognose aus."
+				},
+				"es": {
+					"question": "No cambiará sus hábitos.",
+					"explanation": "El Future Simple negativo con won't expresa una predicción negativa sobre el comportamiento."
 				}
 			}
 		},
@@ -3283,6 +3451,18 @@
 				"ru": {
 					"question": "Когда выйдет следующая часть этой книги?",
 					"explanation": "Вопрос о будущем событии — вопросительная форма с will."
+				},
+				"fr": {
+					"question": "Quand sortira la prochaine partie de ce livre ?",
+					"explanation": "Le futur simple avec will à la forme interrogative exprime une question sur l'avenir."
+				},
+				"de": {
+					"question": "Wann wird der nächste Teil dieses Buches erscheinen?",
+					"explanation": "Das Future Simple mit will in der Frageform drückt eine Frage über die Zukunft aus."
+				},
+				"es": {
+					"question": "¿Cuándo saldrá la siguiente parte de este libro?",
+					"explanation": "El Future Simple con will en forma interrogativa expresa una pregunta sobre el futuro."
 				}
 			}
 		},
@@ -3292,6 +3472,18 @@
 				"ru": {
 					"question": "Думаю, это лекарство поможет.",
 					"explanation": "Предсказание — используем will."
+				},
+				"fr": {
+					"question": "Je pense que ce médicament va aider.",
+					"explanation": "Le futur simple avec will s'utilise pour exprimer une prédiction sur l'avenir. Marqueur : I think."
+				},
+				"de": {
+					"question": "Ich denke, dieses Medikament wird helfen.",
+					"explanation": "Das Future Simple mit will drückt eine Vorhersage über die Zukunft aus. Marker: I think."
+				},
+				"es": {
+					"question": "Creo que este medicamento ayudará.",
+					"explanation": "El Future Simple con will se usa para expresar una predicción sobre el futuro. Marcador: I think."
 				}
 			}
 		},
@@ -3301,6 +3493,18 @@
 				"ru": {
 					"question": "Подожди, я объясню тебе дорогу.",
 					"explanation": "Спонтанное предложение помочь — используем will."
+				},
+				"fr": {
+					"question": "Attends, je vais t'expliquer le chemin.",
+					"explanation": "Le futur simple avec will exprime une décision prise spontanément au moment de parler."
+				},
+				"de": {
+					"question": "Warte, ich erkläre dir den Weg.",
+					"explanation": "Das Future Simple mit will drückt eine spontane Entscheidung im Sprechmoment aus."
+				},
+				"es": {
+					"question": "Espera, te explicaré cómo llegar.",
+					"explanation": "El Future Simple con will expresa una decisión tomada espontáneamente en el momento de hablar."
 				}
 			}
 		},
@@ -3310,6 +3514,18 @@
 				"ru": {
 					"question": "В будущем люди будут жить намного дольше.",
 					"explanation": "Предсказание о будущем — используем will."
+				},
+				"fr": {
+					"question": "À l'avenir, les gens vivront beaucoup plus longtemps.",
+					"explanation": "Le futur simple avec will exprime une prédiction sur l'avenir."
+				},
+				"de": {
+					"question": "In der Zukunft werden Menschen viel länger leben.",
+					"explanation": "Das Future Simple mit will drückt eine Vorhersage über die Zukunft aus."
+				},
+				"es": {
+					"question": "En el futuro la gente vivirá mucho más tiempo.",
+					"explanation": "El Future Simple con will expresa una predicción sobre el futuro."
 				}
 			}
 		},
@@ -3319,6 +3535,18 @@
 				"ru": {
 					"question": "Она не прочитает эту книгу до конца.",
 					"explanation": "Отрицательное предсказание — используем won't."
+				},
+				"fr": {
+					"question": "Elle ne lira pas ce livre jusqu'au bout.",
+					"explanation": "Le futur simple négatif avec won't exprime une prédiction négative."
+				},
+				"de": {
+					"question": "Sie wird dieses Buch nicht bis zum Ende lesen.",
+					"explanation": "Das Future Simple im Negativen mit won't drückt eine negative Vorhersage aus."
+				},
+				"es": {
+					"question": "No leerá este libro hasta el final.",
+					"explanation": "El Future Simple negativo con won't expresa una predicción negativa."
 				}
 			}
 		},
@@ -3328,6 +3556,18 @@
 				"ru": {
 					"question": "Ты подпишешь этот контракт?",
 					"explanation": "Вопрос о намерении — вопросительная форма с will."
+				},
+				"fr": {
+					"question": "Tu signeras ce contrat ?",
+					"explanation": "Le futur simple avec will à la forme interrogative exprime une question sur l'intention."
+				},
+				"de": {
+					"question": "Wirst du diesen Vertrag unterzeichnen?",
+					"explanation": "Das Future Simple mit will in der Frageform drückt eine Frage über die Absicht aus."
+				},
+				"es": {
+					"question": "¿Firmarás este contrato?",
+					"explanation": "El Future Simple con will en forma interrogativa expresa una pregunta sobre la intención."
 				}
 			}
 		},
@@ -3337,6 +3577,18 @@
 				"ru": {
 					"question": "Я уверен, что наш кандидат победит на выборах.",
 					"explanation": "Уверенное предсказание — используем will."
+				},
+				"fr": {
+					"question": "Je suis sûr que notre candidat remportera les élections.",
+					"explanation": "Le futur simple avec will exprime une prédiction confiante. Marqueur : I am sure."
+				},
+				"de": {
+					"question": "Ich bin sicher, dass unser Kandidat die Wahl gewinnen wird.",
+					"explanation": "Das Future Simple mit will drückt eine sichere Vorhersage aus. Marker: I am sure."
+				},
+				"es": {
+					"question": "Estoy seguro de que nuestro candidato ganará las elecciones.",
+					"explanation": "El Future Simple con will expresa una predicción segura. Marcador: I am sure."
 				}
 			}
 		},
@@ -3346,6 +3598,18 @@
 				"ru": {
 					"question": "Завтра я пойду в спортзал.",
 					"explanation": "Решение с маркером 'завтра' — используем will."
+				},
+				"fr": {
+					"question": "Demain j'irai à la salle de sport.",
+					"explanation": "Le futur simple avec will exprime une décision ou un plan pour l'avenir. Marqueur : tomorrow."
+				},
+				"de": {
+					"question": "Morgen werde ich ins Fitnessstudio gehen.",
+					"explanation": "Das Future Simple mit will drückt eine Entscheidung oder einen Plan für die Zukunft aus. Marker: tomorrow."
+				},
+				"es": {
+					"question": "Mañana iré al gimnasio.",
+					"explanation": "El Future Simple con will expresa una decisión o plan para el futuro. Marcador: tomorrow."
 				}
 			}
 		},
@@ -3355,6 +3619,18 @@
 				"ru": {
 					"question": "Наверное, он забудет об этом обещании.",
 					"explanation": "Предсказание с 'наверное' — используем will."
+				},
+				"fr": {
+					"question": "Il oubliera probablement cette promesse.",
+					"explanation": "Le futur simple avec will s'utilise pour une prédiction incertaine. Marqueur : probably."
+				},
+				"de": {
+					"question": "Er wird dieses Versprechen wahrscheinlich vergessen.",
+					"explanation": "Das Future Simple mit will drückt eine unsichere Vorhersage aus. Marker: probably."
+				},
+				"es": {
+					"question": "Probablemente olvidará esta promesa.",
+					"explanation": "El Future Simple con will expresa una predicción incierta. Marcador: probably."
 				}
 			}
 		},
@@ -3364,6 +3640,18 @@
 				"ru": {
 					"question": "Я прослежу за тем, чтобы всё было сделано правильно.",
 					"explanation": "Обещание — используем will."
+				},
+				"fr": {
+					"question": "Je vais m'assurer que tout soit fait correctement.",
+					"explanation": "Le futur simple avec will exprime une promesse ferme."
+				},
+				"de": {
+					"question": "Ich werde dafür sorgen, dass alles korrekt gemacht wird.",
+					"explanation": "Das Future Simple mit will drückt ein festes Versprechen aus."
+				},
+				"es": {
+					"question": "Me aseguraré de que todo se haga correctamente.",
+					"explanation": "El Future Simple con will expresa una promesa firme."
 				}
 			}
 		},
@@ -3373,6 +3661,18 @@
 				"ru": {
 					"question": "Они не откажутся от своих требований.",
 					"explanation": "Отрицательное предсказание — используем won't."
+				},
+				"fr": {
+					"question": "Ils ne renonceront pas à leurs exigences.",
+					"explanation": "Le futur simple négatif avec won't exprime une prédiction négative."
+				},
+				"de": {
+					"question": "Sie werden ihre Forderungen nicht aufgeben.",
+					"explanation": "Das Future Simple im Negativen mit won't drückt eine negative Vorhersage aus."
+				},
+				"es": {
+					"question": "No abandonarán sus exigencias.",
+					"explanation": "El Future Simple negativo con won't expresa una predicción negativa."
 				}
 			}
 		},
@@ -3382,6 +3682,18 @@
 				"ru": {
 					"question": "Ты объяснишь мне, как это работает?",
 					"explanation": "Просьба — вопросительная форма с will."
+				},
+				"fr": {
+					"question": "Tu m'expliqueras comment ça fonctionne ?",
+					"explanation": "Le futur simple avec will à la forme interrogative exprime une demande."
+				},
+				"de": {
+					"question": "Wirst du mir erklären, wie das funktioniert?",
+					"explanation": "Das Future Simple mit will in der Frageform drückt eine Bitte aus."
+				},
+				"es": {
+					"question": "¿Me explicarás cómo funciona esto?",
+					"explanation": "El Future Simple con will en forma interrogativa expresa una petición."
 				}
 			}
 		},
@@ -3391,6 +3703,18 @@
 				"ru": {
 					"question": "Думаю, он скоро поправится.",
 					"explanation": "Предсказание с 'я думаю' и 'скоро' — используем will."
+				},
+				"fr": {
+					"question": "Je pense qu'il se remettra bientôt.",
+					"explanation": "Le futur simple avec will s'utilise pour exprimer une prédiction sur l'avenir. Marqueur : I think."
+				},
+				"de": {
+					"question": "Ich denke, er wird sich bald erholen.",
+					"explanation": "Das Future Simple mit will drückt eine Vorhersage über die Zukunft aus. Marker: I think."
+				},
+				"es": {
+					"question": "Creo que se recuperará pronto.",
+					"explanation": "El Future Simple con will se usa para expresar una predicción sobre el futuro. Marcador: I think."
 				}
 			}
 		},
@@ -3400,6 +3724,18 @@
 				"ru": {
 					"question": "Подожди, я позвоню им и узнаю.",
 					"explanation": "Спонтанное решение — используем will."
+				},
+				"fr": {
+					"question": "Attends, je vais les appeler et me renseigner.",
+					"explanation": "Le futur simple avec will exprime une décision prise spontanément au moment de parler."
+				},
+				"de": {
+					"question": "Warte, ich rufe sie an und frage nach.",
+					"explanation": "Das Future Simple mit will drückt eine spontane Entscheidung im Sprechmoment aus."
+				},
+				"es": {
+					"question": "Espera, les llamaré para averiguarlo.",
+					"explanation": "El Future Simple con will expresa una decisión tomada espontáneamente en el momento de hablar."
 				}
 			}
 		},
@@ -3409,6 +3745,18 @@
 				"ru": {
 					"question": "Через двадцать лет искусственный интеллект будет повсюду.",
 					"explanation": "Предсказание с временным маркером — используем will."
+				},
+				"fr": {
+					"question": "Dans vingt ans, l'intelligence artificielle sera partout.",
+					"explanation": "Le futur simple avec will s'utilise pour une prédiction sur l'avenir. Marqueur : in twenty years."
+				},
+				"de": {
+					"question": "In zwanzig Jahren wird künstliche Intelligenz überall sein.",
+					"explanation": "Das Future Simple mit will drückt eine Vorhersage über die Zukunft aus. Marker: in twenty years."
+				},
+				"es": {
+					"question": "En veinte años la inteligencia artificial estará en todas partes.",
+					"explanation": "El Future Simple con will expresa una predicción sobre el futuro. Marcador: in twenty years."
 				}
 			}
 		},
@@ -3418,6 +3766,18 @@
 				"ru": {
 					"question": "Она не откроет дверь незнакомцу.",
 					"explanation": "Отрицательное предсказание — используем won't."
+				},
+				"fr": {
+					"question": "Elle n'ouvrira pas la porte à un inconnu.",
+					"explanation": "Le futur simple négatif avec won't exprime une prédiction négative."
+				},
+				"de": {
+					"question": "Sie wird einem Fremden nicht die Tür öffnen.",
+					"explanation": "Das Future Simple im Negativen mit won't drückt eine negative Vorhersage aus."
+				},
+				"es": {
+					"question": "No le abrirá la puerta a un desconocido.",
+					"explanation": "El Future Simple negativo con won't expresa una predicción negativa."
 				}
 			}
 		},
@@ -3427,6 +3787,18 @@
 				"ru": {
 					"question": "Ты останешься в этой компании надолго?",
 					"explanation": "Вопрос о будущих намерениях — вопросительная форма с will."
+				},
+				"fr": {
+					"question": "Tu resteras longtemps dans cette entreprise ?",
+					"explanation": "Le futur simple avec will à la forme interrogative exprime une question sur les intentions."
+				},
+				"de": {
+					"question": "Wirst du lange in diesem Unternehmen bleiben?",
+					"explanation": "Das Future Simple mit will in der Frageform drückt eine Frage über die Absichten aus."
+				},
+				"es": {
+					"question": "¿Te quedarás mucho tiempo en esta empresa?",
+					"explanation": "El Future Simple con will en forma interrogativa expresa una pregunta sobre las intenciones."
 				}
 			}
 		},
@@ -3436,6 +3808,18 @@
 				"ru": {
 					"question": "Я уверен, что они справятся с трудностями.",
 					"explanation": "Уверенное предсказание — используем will."
+				},
+				"fr": {
+					"question": "Je suis sûr qu'ils surmonteront les difficultés.",
+					"explanation": "Le futur simple avec will exprime une prédiction confiante. Marqueur : I am sure."
+				},
+				"de": {
+					"question": "Ich bin sicher, dass sie die Schwierigkeiten bewältigen werden.",
+					"explanation": "Das Future Simple mit will drückt eine sichere Vorhersage aus. Marker: I am sure."
+				},
+				"es": {
+					"question": "Estoy seguro de que superarán las dificultades.",
+					"explanation": "El Future Simple con will expresa una predicción segura. Marcador: I am sure."
 				}
 			}
 		},
@@ -3445,6 +3829,18 @@
 				"ru": {
 					"question": "На следующей неделе я начну учить китайский язык.",
 					"explanation": "Решение с маркером 'на следующей неделе' — используем will."
+				},
+				"fr": {
+					"question": "La semaine prochaine je vais commencer à apprendre le chinois.",
+					"explanation": "Le futur simple avec will exprime une décision ou un plan pour l'avenir. Marqueur : next week."
+				},
+				"de": {
+					"question": "Nächste Woche werde ich anfangen, Chinesisch zu lernen.",
+					"explanation": "Das Future Simple mit will drückt eine Entscheidung oder einen Plan für die Zukunft aus. Marker: next week."
+				},
+				"es": {
+					"question": "La semana que viene empezaré a aprender chino.",
+					"explanation": "El Future Simple con will expresa una decisión o plan para el futuro. Marcador: next week."
 				}
 			}
 		},
@@ -3454,6 +3850,18 @@
 				"ru": {
 					"question": "Наверное, цены на билеты снизятся после праздников.",
 					"explanation": "Предсказание с 'наверное' — используем will."
+				},
+				"fr": {
+					"question": "Les prix des billets baisseront probablement après les fêtes.",
+					"explanation": "Le futur simple avec will s'utilise pour une prédiction incertaine. Marqueur : probably."
+				},
+				"de": {
+					"question": "Die Ticketpreise werden nach den Feiertagen wahrscheinlich sinken.",
+					"explanation": "Das Future Simple mit will drückt eine unsichere Vorhersage aus. Marker: probably."
+				},
+				"es": {
+					"question": "Probablemente los precios de los billetes bajarán después de las fiestas.",
+					"explanation": "El Future Simple con will expresa una predicción incierta. Marcador: probably."
 				}
 			}
 		},
@@ -3463,6 +3871,18 @@
 				"ru": {
 					"question": "Я не стану молчать об этой несправедливости.",
 					"explanation": "Решение в отрицательной форме — используем won't."
+				},
+				"fr": {
+					"question": "Je ne resterai pas silencieux face à cette injustice.",
+					"explanation": "Le futur simple négatif avec won't exprime une décision ferme."
+				},
+				"de": {
+					"question": "Ich werde über diese Ungerechtigkeit nicht schweigen.",
+					"explanation": "Das Future Simple im Negativen mit won't drückt einen festen Entschluss aus."
+				},
+				"es": {
+					"question": "No voy a quedarme callado ante esta injusticia.",
+					"explanation": "El Future Simple negativo con won't expresa una decisión firme."
 				}
 			}
 		},
@@ -3472,6 +3892,18 @@
 				"ru": {
 					"question": "Ты поедешь в отпуск этим летом?",
 					"explanation": "Вопрос о планах — вопросительная форма с will."
+				},
+				"fr": {
+					"question": "Tu partiras en vacances cet été ?",
+					"explanation": "Le futur simple avec will à la forme interrogative exprime une question sur les plans."
+				},
+				"de": {
+					"question": "Wirst du diesen Sommer in den Urlaub fahren?",
+					"explanation": "Das Future Simple mit will in der Frageform drückt eine Frage über die Pläne aus."
+				},
+				"es": {
+					"question": "¿Te irás de vacaciones este verano?",
+					"explanation": "El Future Simple con will en forma interrogativa expresa una pregunta sobre los planes."
 				}
 			}
 		},
@@ -3481,6 +3913,18 @@
 				"ru": {
 					"question": "Думаю, новая программа обучения принесёт хорошие результаты.",
 					"explanation": "Предсказание — используем will."
+				},
+				"fr": {
+					"question": "Je pense que le nouveau programme de formation donnera de bons résultats.",
+					"explanation": "Le futur simple avec will s'utilise pour exprimer une prédiction sur l'avenir. Marqueur : I think."
+				},
+				"de": {
+					"question": "Ich denke, das neue Trainingsprogramm wird gute Ergebnisse bringen.",
+					"explanation": "Das Future Simple mit will drückt eine Vorhersage über die Zukunft aus. Marker: I think."
+				},
+				"es": {
+					"question": "Creo que el nuevo programa de formación dará buenos resultados.",
+					"explanation": "El Future Simple con will se usa para expresar una predicción sobre el futuro. Marcador: I think."
 				}
 			}
 		},
@@ -3490,6 +3934,18 @@
 				"ru": {
 					"question": "Подожди, я уточню детали у менеджера.",
 					"explanation": "Спонтанное решение — используем will."
+				},
+				"fr": {
+					"question": "Attends, je vais clarifier les détails avec le directeur.",
+					"explanation": "Le futur simple avec will exprime une décision prise spontanément au moment de parler."
+				},
+				"de": {
+					"question": "Warte, ich kläre die Details mit dem Manager.",
+					"explanation": "Das Future Simple mit will drückt eine spontane Entscheidung im Sprechmoment aus."
+				},
+				"es": {
+					"question": "Espera, voy a aclarar los detalles con el gerente.",
+					"explanation": "El Future Simple con will expresa una decisión tomada espontáneamente en el momento de hablar."
 				}
 			}
 		},
@@ -3499,6 +3955,18 @@
 				"ru": {
 					"question": "Через три года компания выйдет на международный рынок.",
 					"explanation": "Предсказание с временным маркером — используем will."
+				},
+				"fr": {
+					"question": "Dans trois ans, l'entreprise entrera sur le marché international.",
+					"explanation": "Le futur simple avec will s'utilise pour une prédiction sur l'avenir. Marqueur : in three years."
+				},
+				"de": {
+					"question": "In drei Jahren wird das Unternehmen in den internationalen Markt eintreten.",
+					"explanation": "Das Future Simple mit will drückt eine Vorhersage über die Zukunft aus. Marker: in three years."
+				},
+				"es": {
+					"question": "En tres años la empresa entrará en el mercado internacional.",
+					"explanation": "El Future Simple con will expresa una predicción sobre el futuro. Marcador: in three years."
 				}
 			}
 		},
@@ -3508,6 +3976,18 @@
 				"ru": {
 					"question": "Он не уйдёт с этой должности добровольно.",
 					"explanation": "Отрицательное предсказание — используем won't."
+				},
+				"fr": {
+					"question": "Il ne quittera pas ce poste de son plein gré.",
+					"explanation": "Le futur simple négatif avec won't exprime une prédiction négative."
+				},
+				"de": {
+					"question": "Er wird diese Position nicht freiwillig verlassen.",
+					"explanation": "Das Future Simple im Negativen mit won't drückt eine negative Vorhersage aus."
+				},
+				"es": {
+					"question": "No abandonará este puesto voluntariamente.",
+					"explanation": "El Future Simple negativo con won't expresa una predicción negativa."
 				}
 			}
 		},
@@ -3517,6 +3997,18 @@
 				"ru": {
 					"question": "Ты напомнишь мне о встрече завтра утром?",
 					"explanation": "Просьба — вопросительная форма с will."
+				},
+				"fr": {
+					"question": "Tu me rappelleras la réunion demain matin ?",
+					"explanation": "Le futur simple avec will à la forme interrogative exprime une demande."
+				},
+				"de": {
+					"question": "Wirst du mich morgen früh an das Meeting erinnern?",
+					"explanation": "Das Future Simple mit will in der Frageform drückt eine Bitte aus."
+				},
+				"es": {
+					"question": "¿Me recordarás la reunión mañana por la mañana?",
+					"explanation": "El Future Simple con will en forma interrogativa expresa una petición."
 				}
 			}
 		},
@@ -3526,6 +4018,18 @@
 				"ru": {
 					"question": "Я уверена, что эта диета поможет тебе похудеть.",
 					"explanation": "Уверенное предсказание — используем will."
+				},
+				"fr": {
+					"question": "Je suis sûre que ce régime t'aidera à perdre du poids.",
+					"explanation": "Le futur simple avec will exprime une prédiction confiante. Marqueur : I am sure."
+				},
+				"de": {
+					"question": "Ich bin sicher, dass diese Diät dir beim Abnehmen helfen wird.",
+					"explanation": "Das Future Simple mit will drückt eine sichere Vorhersage aus. Marker: I am sure."
+				},
+				"es": {
+					"question": "Estoy segura de que esta dieta te ayudará a adelgazar.",
+					"explanation": "El Future Simple con will expresa una predicción segura. Marcador: I am sure."
 				}
 			}
 		},
@@ -3535,6 +4039,18 @@
 				"ru": {
 					"question": "Сегодня вечером мы поужинаем в новом ресторане.",
 					"explanation": "Решение с маркером 'сегодня вечером' — используем will."
+				},
+				"fr": {
+					"question": "Ce soir nous dînerons au nouveau restaurant.",
+					"explanation": "Le futur simple avec will exprime une décision ou un plan pour l'avenir. Marqueur : tonight."
+				},
+				"de": {
+					"question": "Heute Abend werden wir im neuen Restaurant zu Abend essen.",
+					"explanation": "Das Future Simple mit will drückt eine Entscheidung oder einen Plan für die Zukunft aus. Marker: tonight."
+				},
+				"es": {
+					"question": "Esta noche cenaremos en el nuevo restaurante.",
+					"explanation": "El Future Simple con will expresa una decisión o plan para el futuro. Marcador: tonight."
 				}
 			}
 		},
@@ -3544,6 +4060,18 @@
 				"ru": {
 					"question": "Наверное, следующие переговоры пройдут успешнее.",
 					"explanation": "Предсказание с 'наверное' — используем will."
+				},
+				"fr": {
+					"question": "Les prochaines négociations se passeront probablement mieux.",
+					"explanation": "Le futur simple avec will s'utilise pour une prédiction incertaine. Marqueur : probably."
+				},
+				"de": {
+					"question": "Die nächsten Verhandlungen werden wahrscheinlich reibungsloser verlaufen.",
+					"explanation": "Das Future Simple mit will drückt eine unsichere Vorhersage aus. Marker: probably."
+				},
+				"es": {
+					"question": "Probablemente las próximas negociaciones irán mejor.",
+					"explanation": "El Future Simple con will expresa una predicción incierta. Marcador: probably."
 				}
 			}
 		},
@@ -3553,6 +4081,18 @@
 				"ru": {
 					"question": "Я не позволю никому обидеть моих детей.",
 					"explanation": "Твёрдое решение — используем won't."
+				},
+				"fr": {
+					"question": "Je ne laisserai personne faire de mal à mes enfants.",
+					"explanation": "Le futur simple négatif avec won't exprime une décision ferme de protéger."
+				},
+				"de": {
+					"question": "Ich werde nicht zulassen, dass jemand meinen Kindern schadet.",
+					"explanation": "Das Future Simple im Negativen mit won't drückt einen festen Schutzentschluss aus."
+				},
+				"es": {
+					"question": "No dejaré que nadie haga daño a mis hijos.",
+					"explanation": "El Future Simple negativo con won't expresa una decisión firme de proteger."
 				}
 			}
 		},
@@ -3562,6 +4102,18 @@
 				"ru": {
 					"question": "Ты пойдёшь на концерт вместе со мной?",
 					"explanation": "Приглашение — вопросительная форма с will."
+				},
+				"fr": {
+					"question": "Tu viendras au concert avec moi ?",
+					"explanation": "Le futur simple avec will à la forme interrogative exprime une invitation."
+				},
+				"de": {
+					"question": "Wirst du mit mir zum Konzert gehen?",
+					"explanation": "Das Future Simple mit will in der Frageform drückt eine Einladung aus."
+				},
+				"es": {
+					"question": "¿Vendrás al concierto conmigo?",
+					"explanation": "El Future Simple con will en forma interrogativa expresa una invitación."
 				}
 			}
 		},
@@ -3571,6 +4123,18 @@
 				"ru": {
 					"question": "Думаю, этот игрок станет звездой мирового футбола.",
 					"explanation": "Предсказание — используем will."
+				},
+				"fr": {
+					"question": "Je pense que ce joueur deviendra une star du football mondial.",
+					"explanation": "Le futur simple avec will s'utilise pour exprimer une prédiction sur l'avenir. Marqueur : I think."
+				},
+				"de": {
+					"question": "Ich denke, dieser Spieler wird ein Weltfußballstar werden.",
+					"explanation": "Das Future Simple mit will drückt eine Vorhersage über die Zukunft aus. Marker: I think."
+				},
+				"es": {
+					"question": "Creo que este jugador se convertirá en una estrella del fútbol mundial.",
+					"explanation": "El Future Simple con will se usa para expresar una predicción sobre el futuro. Marcador: I think."
 				}
 			}
 		},
@@ -3580,6 +4144,18 @@
 				"ru": {
 					"question": "Подожди, я помогу тебе поднять чемодан.",
 					"explanation": "Спонтанное предложение — используем will."
+				},
+				"fr": {
+					"question": "Attends, je vais t'aider à porter la valise.",
+					"explanation": "Le futur simple avec will exprime une décision prise spontanément au moment de parler."
+				},
+				"de": {
+					"question": "Warte, ich helfe dir, den Koffer zu tragen.",
+					"explanation": "Das Future Simple mit will drückt eine spontane Entscheidung im Sprechmoment aus."
+				},
+				"es": {
+					"question": "Espera, te ayudaré a llevar la maleta.",
+					"explanation": "El Future Simple con will expresa una decisión tomada espontáneamente en el momento de hablar."
 				}
 			}
 		},
@@ -3589,6 +4165,18 @@
 				"ru": {
 					"question": "В будущем все школы перейдут на цифровое обучение.",
 					"explanation": "Предсказание о будущем — используем will."
+				},
+				"fr": {
+					"question": "À l'avenir, toutes les écoles passeront à l'apprentissage numérique.",
+					"explanation": "Le futur simple avec will exprime une prédiction sur l'avenir."
+				},
+				"de": {
+					"question": "In der Zukunft werden alle Schulen auf digitales Lernen umstellen.",
+					"explanation": "Das Future Simple mit will drückt eine Vorhersage über die Zukunft aus."
+				},
+				"es": {
+					"question": "En el futuro todos los colegios pasarán al aprendizaje digital.",
+					"explanation": "El Future Simple con will expresa una predicción sobre el futuro."
 				}
 			}
 		},
@@ -3598,6 +4186,18 @@
 				"ru": {
 					"question": "Она не будет мириться с такой ситуацией.",
 					"explanation": "Отрицательное предсказание о характере — используем won't."
+				},
+				"fr": {
+					"question": "Elle ne supportera pas une telle situation.",
+					"explanation": "Le futur simple négatif avec won't exprime une prédiction négative sur le comportement."
+				},
+				"de": {
+					"question": "Sie wird eine solche Situation nicht hinnehmen.",
+					"explanation": "Das Future Simple im Negativen mit won't drückt eine negative Verhaltensprognose aus."
+				},
+				"es": {
+					"question": "No tolerará tal situación.",
+					"explanation": "El Future Simple negativo con won't expresa una predicción negativa sobre el comportamiento."
 				}
 			}
 		},
@@ -3607,6 +4207,18 @@
 				"ru": {
 					"question": "Ты передашь ему моё сообщение?",
 					"explanation": "Просьба — вопросительная форма с will."
+				},
+				"fr": {
+					"question": "Tu lui transmettras mon message ?",
+					"explanation": "Le futur simple avec will à la forme interrogative exprime une demande."
+				},
+				"de": {
+					"question": "Wirst du ihm meine Nachricht weitergeben?",
+					"explanation": "Das Future Simple mit will in der Frageform drückt eine Bitte aus."
+				},
+				"es": {
+					"question": "¿Le transmitirás mi mensaje?",
+					"explanation": "El Future Simple con will en forma interrogativa expresa una petición."
 				}
 			}
 		},
@@ -3616,6 +4228,18 @@
 				"ru": {
 					"question": "Я уверен, что ты добьёшься своей мечты.",
 					"explanation": "Уверенное предсказание/ободрение — используем will."
+				},
+				"fr": {
+					"question": "Je suis sûr que tu réaliseras ton rêve.",
+					"explanation": "Le futur simple avec will exprime une prédiction confiante. Marqueur : I am sure."
+				},
+				"de": {
+					"question": "Ich bin sicher, dass du deinen Traum verwirklichen wirst.",
+					"explanation": "Das Future Simple mit will drückt eine sichere Vorhersage aus. Marker: I am sure."
+				},
+				"es": {
+					"question": "Estoy seguro de que alcanzarás tu sueño.",
+					"explanation": "El Future Simple con will expresa una predicción segura. Marcador: I am sure."
 				}
 			}
 		},
@@ -3625,6 +4249,18 @@
 				"ru": {
 					"question": "Завтра я обязательно извинюсь перед ним.",
 					"explanation": "Решение с маркером 'завтра' — используем will."
+				},
+				"fr": {
+					"question": "Demain je lui présenterai certainement mes excuses.",
+					"explanation": "Le futur simple avec will exprime une décision ferme. Marqueur : tomorrow."
+				},
+				"de": {
+					"question": "Morgen werde ich mich definitiv bei ihm entschuldigen.",
+					"explanation": "Das Future Simple mit will drückt eine feste Entscheidung aus. Marker: tomorrow."
+				},
+				"es": {
+					"question": "Mañana definitivamente le pediré disculpas.",
+					"explanation": "El Future Simple con will expresa una decisión firme. Marcador: tomorrow."
 				}
 			}
 		},
@@ -3634,6 +4270,18 @@
 				"ru": {
 					"question": "Наверное, это займёт несколько часов.",
 					"explanation": "Предсказание о продолжительности с 'наверное' — используем will."
+				},
+				"fr": {
+					"question": "Cela prendra probablement quelques heures.",
+					"explanation": "Le futur simple avec will s'utilise pour une prédiction incertaine. Marqueur : probably."
+				},
+				"de": {
+					"question": "Das wird wahrscheinlich ein paar Stunden dauern.",
+					"explanation": "Das Future Simple mit will drückt eine unsichere Vorhersage aus. Marker: probably."
+				},
+				"es": {
+					"question": "Probablemente esto llevará unas horas.",
+					"explanation": "El Future Simple con will expresa una predicción incierta. Marcador: probably."
 				}
 			}
 		},
@@ -3643,6 +4291,18 @@
 				"ru": {
 					"question": "Я не сдамся, что бы ни случилось.",
 					"explanation": "Твёрдое решение/обещание — используем won't."
+				},
+				"fr": {
+					"question": "Je n'abandonnerai pas, quoi qu'il arrive.",
+					"explanation": "Le futur simple négatif avec won't exprime une décision ferme."
+				},
+				"de": {
+					"question": "Ich werde nicht aufgeben, egal was passiert.",
+					"explanation": "Das Future Simple im Negativen mit won't drückt einen festen Entschluss aus."
+				},
+				"es": {
+					"question": "No me rendiré, pase lo que pase.",
+					"explanation": "El Future Simple negativo con won't expresa una decisión firme."
 				}
 			}
 		},
@@ -3652,6 +4312,18 @@
 				"ru": {
 					"question": "Ты переведёшь этот документ для меня?",
 					"explanation": "Просьба — вопросительная форма с will."
+				},
+				"fr": {
+					"question": "Tu traduiras ce document pour moi ?",
+					"explanation": "Le futur simple avec will à la forme interrogative exprime une demande."
+				},
+				"de": {
+					"question": "Wirst du dieses Dokument für mich übersetzen?",
+					"explanation": "Das Future Simple mit will in der Frageform drückt eine Bitte aus."
+				},
+				"es": {
+					"question": "¿Me traducirás este documento?",
+					"explanation": "El Future Simple con will en forma interrogativa expresa una petición."
 				}
 			}
 		},
@@ -3661,6 +4333,18 @@
 				"ru": {
 					"question": "Думаю, новый смартфон разлетится моментально.",
 					"explanation": "Предсказание — используем will."
+				},
+				"fr": {
+					"question": "Je pense que le nouveau smartphone se vendra instantanément.",
+					"explanation": "Le futur simple avec will s'utilise pour exprimer une prédiction sur l'avenir. Marqueur : I think."
+				},
+				"de": {
+					"question": "Ich denke, das neue Smartphone wird sofort ausverkauft sein.",
+					"explanation": "Das Future Simple mit will drückt eine Vorhersage über die Zukunft aus. Marker: I think."
+				},
+				"es": {
+					"question": "Creo que el nuevo smartphone se agotará al instante.",
+					"explanation": "El Future Simple con will se usa para expresar una predicción sobre el futuro. Marcador: I think."
 				}
 			}
 		},
@@ -3670,6 +4354,18 @@
 				"ru": {
 					"question": "Подожди, я запишу твой номер телефона.",
 					"explanation": "Спонтанное решение — используем will."
+				},
+				"fr": {
+					"question": "Attends, je vais noter ton numéro de téléphone.",
+					"explanation": "Le futur simple avec will exprime une décision prise spontanément au moment de parler."
+				},
+				"de": {
+					"question": "Warte, ich schreibe deine Telefonnummer auf.",
+					"explanation": "Das Future Simple mit will drückt eine spontane Entscheidung im Sprechmoment aus."
+				},
+				"es": {
+					"question": "Espera, apuntaré tu número de teléfono.",
+					"explanation": "El Future Simple con will expresa una decisión tomada espontáneamente en el momento de hablar."
 				}
 			}
 		},
@@ -3679,6 +4375,18 @@
 				"ru": {
 					"question": "Скоро этот район полностью обновят.",
 					"explanation": "Предсказание с маркером 'скоро' — используем will."
+				},
+				"fr": {
+					"question": "Ce quartier sera entièrement rénové bientôt.",
+					"explanation": "Le futur simple avec will exprime une prédiction sur l'avenir. Marqueur : soon."
+				},
+				"de": {
+					"question": "Dieses Viertel wird bald vollständig renoviert sein.",
+					"explanation": "Das Future Simple mit will drückt eine Vorhersage über die Zukunft aus. Marker: soon."
+				},
+				"es": {
+					"question": "Pronto este barrio será completamente renovado.",
+					"explanation": "El Future Simple con will expresa una predicción sobre el futuro. Marcador: soon."
 				}
 			}
 		},
@@ -3688,6 +4396,18 @@
 				"ru": {
 					"question": "Он не уступит в этом споре.",
 					"explanation": "Отрицательное предсказание о характере — используем won't."
+				},
+				"fr": {
+					"question": "Il ne cédera pas dans cette dispute.",
+					"explanation": "Le futur simple négatif avec won't exprime une prédiction négative sur le comportement."
+				},
+				"de": {
+					"question": "Er wird in diesem Streit nicht nachgeben.",
+					"explanation": "Das Future Simple im Negativen mit won't drückt eine negative Verhaltensprognose aus."
+				},
+				"es": {
+					"question": "No cederá en esta discusión.",
+					"explanation": "El Future Simple negativo con won't expresa una predicción negativa sobre el comportamiento."
 				}
 			}
 		},
@@ -3697,6 +4417,18 @@
 				"ru": {
 					"question": "Ты выучишь эти слова к завтрашнему уроку?",
 					"explanation": "Вопрос о намерении — вопросительная форма с will."
+				},
+				"fr": {
+					"question": "Tu apprendras ces mots avant le cours de demain ?",
+					"explanation": "Le futur simple avec will à la forme interrogative exprime une question sur l'intention."
+				},
+				"de": {
+					"question": "Wirst du diese Wörter bis zur morgigen Stunde lernen?",
+					"explanation": "Das Future Simple mit will in der Frageform drückt eine Frage über die Absicht aus."
+				},
+				"es": {
+					"question": "¿Aprenderás estas palabras antes de la clase de mañana?",
+					"explanation": "El Future Simple con will en forma interrogativa expresa una pregunta sobre la intención."
 				}
 			}
 		},
@@ -3706,6 +4438,18 @@
 				"ru": {
 					"question": "Я уверена, что это решение окажется правильным.",
 					"explanation": "Уверенное предсказание — используем will."
+				},
+				"fr": {
+					"question": "Je suis sûre que cette décision s'avérera correcte.",
+					"explanation": "Le futur simple avec will exprime une prédiction confiante. Marqueur : I am sure."
+				},
+				"de": {
+					"question": "Ich bin sicher, dass sich diese Entscheidung als richtig erweisen wird.",
+					"explanation": "Das Future Simple mit will drückt eine sichere Vorhersage aus. Marker: I am sure."
+				},
+				"es": {
+					"question": "Estoy segura de que esta decisión resultará ser correcta.",
+					"explanation": "El Future Simple con will expresa una predicción segura. Marcador: I am sure."
 				}
 			}
 		},
@@ -3715,6 +4459,18 @@
 				"ru": {
 					"question": "Завтра я отправлю заявку на этот грант.",
 					"explanation": "Решение с маркером 'завтра' — используем will."
+				},
+				"fr": {
+					"question": "Demain je vais envoyer la candidature pour cette bourse.",
+					"explanation": "Le futur simple avec will exprime une décision ou un plan pour l'avenir. Marqueur : tomorrow."
+				},
+				"de": {
+					"question": "Morgen werde ich den Antrag für diesen Förderpreis einreichen.",
+					"explanation": "Das Future Simple mit will drückt eine Entscheidung oder einen Plan für die Zukunft aus. Marker: tomorrow."
+				},
+				"es": {
+					"question": "Mañana enviaré la solicitud para esta beca.",
+					"explanation": "El Future Simple con will expresa una decisión o plan para el futuro. Marcador: tomorrow."
 				}
 			}
 		},
@@ -3724,6 +4480,18 @@
 				"ru": {
 					"question": "Наверное, разрыв облаков будет во второй половине дня.",
 					"explanation": "Предсказание о погоде — используем will."
+				},
+				"fr": {
+					"question": "Il y aura probablement une éclaircie dans l'après-midi.",
+					"explanation": "Le futur simple avec will s'utilise pour une prédiction incertaine sur la météo. Marqueur : probably."
+				},
+				"de": {
+					"question": "Am Nachmittag wird es wahrscheinlich Wolkenlücken geben.",
+					"explanation": "Das Future Simple mit will drückt eine unsichere Wettervorhersage aus. Marker: probably."
+				},
+				"es": {
+					"question": "Probablemente habrá claros por la tarde.",
+					"explanation": "El Future Simple con will expresa una predicción meteorológica incierta. Marcador: probably."
 				}
 			}
 		},
@@ -3733,6 +4501,18 @@
 				"ru": {
 					"question": "Я не буду притворяться, что всё в порядке.",
 					"explanation": "Решение в отрицательной форме — используем won't."
+				},
+				"fr": {
+					"question": "Je ne vais pas prétendre que tout va bien.",
+					"explanation": "Le futur simple négatif avec won't exprime une décision ferme."
+				},
+				"de": {
+					"question": "Ich werde nicht so tun, als ob alles in Ordnung wäre.",
+					"explanation": "Das Future Simple im Negativen mit won't drückt einen festen Entschluss aus."
+				},
+				"es": {
+					"question": "No fingiré que todo está bien.",
+					"explanation": "El Future Simple negativo con won't expresa una decisión firme."
 				}
 			}
 		},
@@ -3742,6 +4522,18 @@
 				"ru": {
 					"question": "Ты навестишь её в больнице?",
 					"explanation": "Вопрос о намерении — вопросительная форма с will."
+				},
+				"fr": {
+					"question": "Tu lui rendras visite à l'hôpital ?",
+					"explanation": "Le futur simple avec will à la forme interrogative exprime une question sur l'intention."
+				},
+				"de": {
+					"question": "Wirst du sie im Krankenhaus besuchen?",
+					"explanation": "Das Future Simple mit will in der Frageform drückt eine Frage über die Absicht aus."
+				},
+				"es": {
+					"question": "¿La visitarás en el hospital?",
+					"explanation": "El Future Simple con will en forma interrogativa expresa una pregunta sobre la intención."
 				}
 			}
 		},
@@ -3751,6 +4543,18 @@
 				"ru": {
 					"question": "Думаю, в этом году урожай будет хорошим.",
 					"explanation": "Предсказание — используем will."
+				},
+				"fr": {
+					"question": "Je pense que la récolte sera bonne cette année.",
+					"explanation": "Le futur simple avec will s'utilise pour exprimer une prédiction sur l'avenir. Marqueur : I think."
+				},
+				"de": {
+					"question": "Ich denke, die Ernte wird dieses Jahr gut sein.",
+					"explanation": "Das Future Simple mit will drückt eine Vorhersage über die Zukunft aus. Marker: I think."
+				},
+				"es": {
+					"question": "Creo que la cosecha será buena este año.",
+					"explanation": "El Future Simple con will se usa para expresar una predicción sobre el futuro. Marcador: I think."
 				}
 			}
 		},
@@ -3760,6 +4564,18 @@
 				"ru": {
 					"question": "Подожди, я переведу эту фразу для тебя.",
 					"explanation": "Спонтанное предложение — используем will."
+				},
+				"fr": {
+					"question": "Attends, je vais traduire cette phrase pour toi.",
+					"explanation": "Le futur simple avec will exprime une décision prise spontanément au moment de parler."
+				},
+				"de": {
+					"question": "Warte, ich übersetze diesen Satz für dich.",
+					"explanation": "Das Future Simple mit will drückt eine spontane Entscheidung im Sprechmoment aus."
+				},
+				"es": {
+					"question": "Espera, te traduciré esta frase.",
+					"explanation": "El Future Simple con will expresa una decisión tomada espontáneamente en el momento de hablar."
 				}
 			}
 		},
@@ -3769,6 +4585,18 @@
 				"ru": {
 					"question": "Через пять лет этот стартап станет единорогом.",
 					"explanation": "Предсказание с временным маркером — используем will."
+				},
+				"fr": {
+					"question": "Dans cinq ans, cette startup deviendra une licorne.",
+					"explanation": "Le futur simple avec will s'utilise pour une prédiction sur l'avenir. Marqueur : in five years."
+				},
+				"de": {
+					"question": "In fünf Jahren wird dieses Startup ein Einhorn werden.",
+					"explanation": "Das Future Simple mit will drückt eine Vorhersage über die Zukunft aus. Marker: in five years."
+				},
+				"es": {
+					"question": "En cinco años esta startup se convertirá en un unicornio.",
+					"explanation": "El Future Simple con will expresa una predicción sobre el futuro. Marcador: in five years."
 				}
 			}
 		},
@@ -3778,6 +4606,18 @@
 				"ru": {
 					"question": "Она не позволит ему принимать все решения единолично.",
 					"explanation": "Отрицательное предсказание — используем won't."
+				},
+				"fr": {
+					"question": "Elle ne le laissera pas prendre toutes les décisions seul.",
+					"explanation": "Le futur simple négatif avec won't exprime une prédiction négative."
+				},
+				"de": {
+					"question": "Sie wird nicht zulassen, dass er alle Entscheidungen alleine trifft.",
+					"explanation": "Das Future Simple im Negativen mit won't drückt eine negative Vorhersage aus."
+				},
+				"es": {
+					"question": "No le dejará tomar todas las decisiones solo.",
+					"explanation": "El Future Simple negativo con won't expresa una predicción negativa."
 				}
 			}
 		},
@@ -3787,6 +4627,18 @@
 				"ru": {
 					"question": "Ты попросишь о повышении зарплаты?",
 					"explanation": "Вопрос о намерении — вопросительная форма с will."
+				},
+				"fr": {
+					"question": "Tu demanderas une augmentation de salaire ?",
+					"explanation": "Le futur simple avec will à la forme interrogative exprime une question sur l'intention."
+				},
+				"de": {
+					"question": "Wirst du um eine Gehaltserhöhung bitten?",
+					"explanation": "Das Future Simple mit will in der Frageform drückt eine Frage über die Absicht aus."
+				},
+				"es": {
+					"question": "¿Pedirás un aumento de sueldo?",
+					"explanation": "El Future Simple con will en forma interrogativa expresa una pregunta sobre la intención."
 				}
 			}
 		},
@@ -3796,6 +4648,18 @@
 				"ru": {
 					"question": "Я уверен, что он разберётся с этой проблемой.",
 					"explanation": "Уверенное предсказание — используем will."
+				},
+				"fr": {
+					"question": "Je suis sûr qu'il résoudra ce problème.",
+					"explanation": "Le futur simple avec will exprime une prédiction confiante. Marqueur : I am sure."
+				},
+				"de": {
+					"question": "Ich bin sicher, dass er dieses Problem lösen wird.",
+					"explanation": "Das Future Simple mit will drückt eine sichere Vorhersage aus. Marker: I am sure."
+				},
+				"es": {
+					"question": "Estoy seguro de que resolverá este problema.",
+					"explanation": "El Future Simple con will expresa una predicción segura. Marcador: I am sure."
 				}
 			}
 		}
