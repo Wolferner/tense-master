@@ -33,6 +33,7 @@ export class ExerciseSessionService {
 		tenses: TenseType[],
 		mode: TrainingMode,
 		fixedLimit: FixedLimit,
+		locale: Locale,
 	): Promise<{ exercises: ExerciseResponseDto[]; sessionId: string }> {
 		const activeSessions = await this.#sessionRepo.findActive();
 
@@ -45,6 +46,7 @@ export class ExerciseSessionService {
 		const exercises = await this.#exerciseRepo.findRandom(
 			tenses,
 			mode === 'fixed' ? fixedLimit : MAX_EXERCISES,
+			locale,
 		);
 		const sessionId = crypto.randomUUID();
 		const session = new Session(
@@ -91,6 +93,7 @@ export class ExerciseSessionService {
 		exercises: ExerciseResponseDto[],
 		tenses: TenseType[],
 		mode: TrainingMode,
+		locale: Locale,
 	): Promise<NextExerciseResult> {
 		if (currentIndex + 1 < exercises.length) {
 			return { type: 'advance', nextIndex: currentIndex + 1 };
@@ -98,7 +101,7 @@ export class ExerciseSessionService {
 		if (mode === 'fixed') {
 			return { type: 'complete' };
 		}
-		const more = await this.#exerciseRepo.findRandom(tenses, INFINITE_MODE_LIMIT);
+		const more = await this.#exerciseRepo.findRandom(tenses, INFINITE_MODE_LIMIT, locale);
 		return { type: 'fetchMore', exercises: more, nextIndex: currentIndex + 1 };
 	}
 }

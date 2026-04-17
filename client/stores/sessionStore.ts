@@ -20,8 +20,13 @@ type SessionState = {
 type SessionActions = {
 	setStep(step: Step): void;
 	submitAnswer(answer: string, exerciseId: string, locale: Locale): Promise<void>;
-	startTraining(tenses: TenseType[], mode: TrainingMode, fixedLimit: FixedLimit): Promise<void>;
-	nextExercise(tenses: TenseType[], mode: TrainingMode): Promise<void>;
+	startTraining(
+		tenses: TenseType[],
+		mode: TrainingMode,
+		fixedLimit: FixedLimit,
+		locale: Locale,
+	): Promise<void>;
+	nextExercise(tenses: TenseType[], mode: TrainingMode, locale: Locale): Promise<void>;
 	finishSession(): Promise<void>;
 };
 
@@ -59,13 +64,14 @@ export const useSessionStore = create<SessionStore>()(
 				set({ currentAnswer: record });
 			},
 
-			startTraining: async (tenses, mode, fixedLimit) => {
+			startTraining: async (tenses, mode, fixedLimit, locale) => {
 				if (tenses.length === 0) return;
 				set({ isLoading: true });
 				const { exercises, sessionId } = await exerciseSessionService.beginSession(
 					tenses,
 					mode,
 					fixedLimit,
+					locale,
 				);
 				set({
 					exercises,
@@ -77,7 +83,7 @@ export const useSessionStore = create<SessionStore>()(
 				});
 			},
 
-			nextExercise: async (tenses, mode) => {
+			nextExercise: async (tenses, mode, locale) => {
 				const { currentExerciseIndex, exercises, sessionId } = get();
 				set({ isLoading: true });
 				const result = await exerciseSessionService.resolveNext(
@@ -85,6 +91,7 @@ export const useSessionStore = create<SessionStore>()(
 					exercises,
 					tenses,
 					mode,
+					locale,
 				);
 				if (result.type === 'advance') {
 					set({ currentExerciseIndex: result.nextIndex, currentAnswer: null, isLoading: false });

@@ -7,7 +7,8 @@
 		},
 		"trainer": {
 			"title": "Trainer | Tense Master",
-			"description": "Englische Zeitformen trainieren. Übe Present Simple, Past Perfect und mehr mit Übersetzungsaufgaben und sofortigem Feedback."
+			"description": "Englische Zeitformen trainieren. Übe Present Simple, Past Perfect und mehr mit Übersetzungsaufgaben und sofortigem Feedback.",
+			"noExercises": "Keine Übungen für die ausgewählten Zeitformen. Bitte wähle andere Zeitformen oder setze die Filter zurück."
 		},
 		"profile": {
 			"title": "Profil | Tense Master",

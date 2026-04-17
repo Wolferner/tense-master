@@ -7,6 +7,7 @@ import { Badge } from '@/presentation/components/ui/badge';
 import { Button } from '@/presentation/components/ui/button';
 import { Textarea } from '@/presentation/components/ui/textarea';
 import { TENSE_LABELS } from '@/presentation/web/pages/TenseTrainer/logic/tenseLabels';
+import { ExerciseResponseDto } from '@/shared/dtos';
 import { ArrowLeftIcon, ArrowRightIcon } from 'lucide-react';
 import { useLocale, useTranslations } from 'next-intl';
 import { useState } from 'react';
@@ -44,9 +45,9 @@ const TrainingSection = () => {
 		useShallow(s => ({ mode: s.mode, selectedTenses: s.selectedTenses })),
 	);
 
-	const current = exercises[currentExerciseIndex];
+	const current: ExerciseResponseDto | null = exercises[currentExerciseIndex] || null;
 	const totalExercises = exercises.length;
-	const answerRecord = currentAnswer?.exerciseId === current.id ? currentAnswer : null;
+	const answerRecord = currentAnswer?.exerciseId === current?.id ? currentAnswer : null;
 
 	const [userAnswer, setUserAnswer] = useState(answerRecord?.userAnswer ?? '');
 
@@ -56,6 +57,17 @@ const TrainingSection = () => {
 			: `${currentExerciseIndex + 1} / ${totalExercises}`;
 
 	const isEmptyAnswer = userAnswer.trim().length === 0;
+
+	if (!current) {
+		return (
+			<main className='bg-background text-foreground flex flex-1 flex-col'>
+				<div className='mx-auto flex w-full max-w-2xl flex-col items-center gap-8 px-6 py-16'>
+					<p className='text-foreground text-lg font-medium'>{t('noExercises')}</p>
+					<Button onClick={() => void finishSession()}>{t('back')}</Button>
+				</div>
+			</main>
+		);
+	}
 
 	return (
 		<main className='bg-background text-foreground flex flex-1 flex-col'>
@@ -123,7 +135,7 @@ const TrainingSection = () => {
 							totalExercises={totalExercises}
 							onNext={() => {
 								setUserAnswer('');
-								nextExercise(selectedTenses, mode);
+								nextExercise(selectedTenses, mode, locale as LocaleType);
 							}}
 						/>
 					)}

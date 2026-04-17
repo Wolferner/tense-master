@@ -29,9 +29,9 @@ export class ExerciseService {
 
 		const exercises = await this.exerciseRepository.findRandom(tenses, limit, locale);
 		if (exercises.length === 0) return [];
-		if (exercises.length >= limit) return exercises.map(e => this.toDto(e));
+		if (exercises.length >= limit) return exercises.map(e => this.toDto(e, locale));
 		const repeated = Array.from({ length: limit }, (_, i) => exercises[i % exercises.length]);
-		return repeated.map(e => this.toDto(e));
+		return repeated.map(e => this.toDto(e, locale));
 	}
 
 	async getLastUpdatedAt(locale: Locale): Promise<string | null> {
@@ -41,13 +41,14 @@ export class ExerciseService {
 
 	async findAll(locale: Locale): Promise<ExerciseResponseDto[]> {
 		const exercises = await this.exerciseRepository.findAll(locale);
-		return exercises.map(e => this.toDto(e));
+		return exercises.map(e => this.toDto(e, locale));
 	}
 
-	private toDto(exercise: Exercise): ExerciseResponseDto {
+	private toDto(exercise: Exercise, locale: Locale): ExerciseResponseDto {
 		return {
 			id: exercise.id,
 			tense: exercise.tense,
+			locale,
 			question: exercise.question,
 			answer: exercise.answer,
 			explanation: exercise.explanation,

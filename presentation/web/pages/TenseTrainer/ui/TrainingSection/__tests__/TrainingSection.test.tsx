@@ -29,6 +29,7 @@ const exercise: ExerciseResponseDto = {
 	tense: Tense.PRESENT_SIMPLE,
 	question: 'Он читает книгу',
 	answer: 'He reads a book',
+	locale: 'ru',
 	explanation: 'Present Simple for habits',
 	createdAt: new Date(),
 	updatedAt: new Date(),

@@ -30,6 +30,7 @@ function makeExercise(): ExerciseResponseDto {
 		tense: Tense.PRESENT_SIMPLE,
 		question: 'test',
 		answer: 'test',
+		locale: 'ru',
 		explanation: 'test',
 		createdAt: new Date(),
 		updatedAt: new Date(),

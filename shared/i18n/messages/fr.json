@@ -7,7 +7,8 @@
 		},
 		"trainer": {
 			"title": "Entraîneur | Tense Master",
-			"description": "Entraîneur de temps anglais. Pratique Present Simple, Past Perfect et autres avec des exercices de traduction et un retour immédiat."
+			"description": "Entraîneur de temps anglais. Pratique Present Simple, Past Perfect et autres avec des exercices de traduction et un retour immédiat.",
+			"noExercises": "Pas d'exercices pour les temps sélectionnés. Veuillez choisir d'autres temps ou réinitialiser les filtres."
 		},
 		"profile": {
 			"title": "Profil | Tense Master",

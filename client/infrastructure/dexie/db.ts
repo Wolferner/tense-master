@@ -20,6 +20,18 @@ export class TenseMasterDb extends Dexie {
 			sessions: 'id, status, createdAt',
 			answers: 'id, sessionId, exerciseId, locale, createdAt',
 		});
+		this.version(3)
+			.stores({
+				exercises: 'id, tense, locale, updatedAt',
+				sessions: 'id, status, createdAt',
+				answers: 'id, sessionId, exerciseId, locale, createdAt',
+			})
+			.upgrade(async tx => {
+				await tx.table('exercises').clear();
+				Object.keys(localStorage)
+					.filter(k => k.startsWith('tense-last-synced-'))
+					.forEach(k => localStorage.removeItem(k));
+			});
 	}
 }
 

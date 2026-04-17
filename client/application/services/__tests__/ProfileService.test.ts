@@ -37,6 +37,7 @@ function makeExercise(id: string, tense: TenseType): ExerciseResponseDto {
 		tense,
 		question: 'Q',
 		answer: 'A',
+		locale: 'ru',
 		explanation: 'E',
 		createdAt: new Date('2024-01-01'),
 		updatedAt: new Date('2024-01-01'),

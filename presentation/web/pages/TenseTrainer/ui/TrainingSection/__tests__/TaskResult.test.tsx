@@ -14,6 +14,7 @@ const exercise: ExerciseResponseDto = {
 	question: 'Он читает книгу',
 	answer: 'He reads a book',
 	explanation: 'Present Simple for habits',
+	locale: 'ru',
 	createdAt: new Date(),
 	updatedAt: new Date(),
 };

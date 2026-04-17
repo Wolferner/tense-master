@@ -7,7 +7,8 @@
 		},
 		"trainer": {
 			"title": "Entrenador | Tense Master",
-			"description": "Entrenador de tiempos verbales ingleses. Practica Present Simple, Past Perfect y más con ejercicios de traducción y retroalimentación inmediata."
+			"description": "Entrenador de tiempos verbales ingleses. Practica Present Simple, Past Perfect y más con ejercicios de traducción y retroalimentación inmediata.",
+			"noExercises": "No hay ejercicios para los tiempos seleccionados. Por favor, elige otros tiempos o restablece los filtros."
 		},
 		"profile": {
 			"title": "Perfil | Tense Master",

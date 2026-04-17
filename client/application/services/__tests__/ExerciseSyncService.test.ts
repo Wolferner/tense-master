@@ -1,5 +1,5 @@
 import type { ExerciseResponseDto } from '@/shared/dtos';
-import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 import type { IExerciseApi } from '../../api/IExerciseApi';
 import type { IExerciseRepository } from '../../repositories/IExerciseRepository';
 import { ExerciseSyncService } from '../ExerciseSyncService';
@@ -12,6 +12,7 @@ function makeExercise(id = 'ex-1'): ExerciseResponseDto {
 		tense: 'PRESENT_SIMPLE',
 		question: 'Он читает',
 		answer: 'He reads',
+		locale: 'ru',
 		explanation: 'habit',
 		createdAt: new Date('2024-01-01'),
 		updatedAt: new Date('2024-01-01'),
