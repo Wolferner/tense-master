@@ -1,5 +1,6 @@
 'use client';
 
+import { useSessionStore } from '@/client/stores/sessionStore';
 import {
 	Select,
 	SelectContent,
@@ -9,6 +10,7 @@ import {
 import { Locale, routing } from '@/shared/i18n/config';
 import { usePathname } from '@/shared/i18n/navigation';
 import { useLocale, useTranslations } from 'next-intl';
+import { useShallow } from 'zustand/react/shallow';
 
 const LOCALE_LABELS: Record<Locale, string> = {
 	ru: 'RU',
@@ -29,7 +31,12 @@ const LocaleSelect = () => {
 	const locale = useLocale() as Locale;
 	const pathname = usePathname();
 
-	const handleLocaleChange = (newLocale: string) => {
+	const { sessionId, finishSession } = useSessionStore(
+		useShallow(s => ({ sessionId: s.sessionId, finishSession: s.finishSession })),
+	);
+
+	const handleLocaleChange = async (newLocale: string) => {
+		if (sessionId) await finishSession();
 		window.location.href = `/${newLocale}${pathname === '/' ? '' : pathname}`;
 	};
 
