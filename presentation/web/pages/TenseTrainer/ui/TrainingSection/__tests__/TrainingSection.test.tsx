@@ -161,7 +161,7 @@ describe('TrainingSection', () => {
 			</NextIntlClientProvider>,
 		);
 		await user.click(screen.getByRole('button', { name: 'Пропустить' }));
-		expect(mockActions.submitAnswer).toHaveBeenCalledWith('', exercise.id);
+		expect(mockActions.submitAnswer).toHaveBeenCalledWith('', exercise.id, 'ru');
 	});
 
 	it('disables textarea after answer is submitted', () => {

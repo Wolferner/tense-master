@@ -1,7 +1,7 @@
 import { ExerciseAnswer } from '@/domain/entities/Answer';
 import { Session } from '@/domain/entities/Session';
 import { validateAnswer } from '@/domain/services/AnswerValidator';
-import type { Locale, TenseType } from '@/domain/value-objects';
+import { Locale, TenseType } from '@/domain/value-objects';
 import { INFINITE_MODE_LIMIT, MAX_EXERCISES } from '@/shared/config/constants';
 import type { FixedLimit, TrainingMode } from '@/shared/config/training';
 import type { ExerciseResponseDto } from '@/shared/dtos';
@@ -66,6 +66,7 @@ export class ExerciseSessionService {
 		locale: Locale,
 	): Promise<ExerciseAnswer> {
 		const skipped = userAnswer.trim().length === 0;
+
 		const answer = new ExerciseAnswer(
 			crypto.randomUUID(),
 			sessionId,

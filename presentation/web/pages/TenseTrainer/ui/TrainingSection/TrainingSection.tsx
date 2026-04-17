@@ -2,12 +2,13 @@
 
 import { useSessionStore } from '@/client/stores/sessionStore';
 import { useSettingsStore } from '@/client/stores/settingsStore';
+import { LocaleType } from '@/domain/value-objects';
 import { Badge } from '@/presentation/components/ui/badge';
 import { Button } from '@/presentation/components/ui/button';
 import { Textarea } from '@/presentation/components/ui/textarea';
 import { TENSE_LABELS } from '@/presentation/web/pages/TenseTrainer/logic/tenseLabels';
 import { ArrowLeftIcon, ArrowRightIcon } from 'lucide-react';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { useState } from 'react';
 import { useShallow } from 'zustand/react/shallow';
 import TaskResult from './TaskResult';
@@ -15,6 +16,7 @@ import TaskResult from './TaskResult';
 const TrainingSection = () => {
 	const t = useTranslations('trainer');
 	const tCommon = useTranslations('common');
+	const locale = useLocale();
 
 	const {
 		exercises,
@@ -103,7 +105,7 @@ const TrainingSection = () => {
 						/>
 						{!answerRecord && (
 							<Button
-								onClick={() => void submitAnswer(userAnswer, current.id)}
+								onClick={() => void submitAnswer(userAnswer, current.id, locale as LocaleType)}
 								variant={isEmptyAnswer ? 'outline' : 'default'}
 							>
 								{isEmptyAnswer ? t('skip') : t('check')}
