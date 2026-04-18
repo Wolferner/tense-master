@@ -1,6 +1,6 @@
 'use client';
 
-import { exerciseSessionService } from '@/client/infrastructure/container';
+import { exerciseSessionService, exerciseSyncService } from '@/client/infrastructure/container';
 import type { ExerciseAnswer } from '@/domain/entities/Answer';
 import type { Locale, TenseType } from '@/domain/value-objects';
 import type { FixedLimit, Step, TrainingMode } from '@/shared/config/training';
@@ -28,6 +28,7 @@ type SessionActions = {
 	): Promise<void>;
 	nextExercise(tenses: TenseType[], mode: TrainingMode, locale: Locale): Promise<void>;
 	finishSession(): Promise<void>;
+	syncExercises(locale: Locale): Promise<void>;
 };
 
 export type SessionStore = SessionState & SessionActions;
@@ -43,6 +44,13 @@ export const useSessionStore = create<SessionStore>()(
 			isLoading: false,
 
 			setStep: step => set({ step }),
+
+			syncExercises: async locale => {
+				set({ isLoading: true });
+				await exerciseSyncService.sync(locale);
+				console.log('Sync complete', locale);
+				set({ isLoading: false });
+			},
 
 			finishSession: async () => {
 				const { sessionId } = get();

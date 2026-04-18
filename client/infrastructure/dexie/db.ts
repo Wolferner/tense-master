@@ -32,6 +32,22 @@ export class TenseMasterDb extends Dexie {
 					.filter(k => k.startsWith('tense-last-synced-'))
 					.forEach(k => localStorage.removeItem(k));
 			});
+		this.version(4)
+			.stores({
+				exercises: null,
+				sessions: 'id, status, createdAt',
+				answers: 'id, sessionId, exerciseId, locale, createdAt',
+			})
+			.upgrade(() => {
+				Object.keys(localStorage)
+					.filter(k => k.startsWith('tense-last-synced-'))
+					.forEach(k => localStorage.removeItem(k));
+			});
+		this.version(5).stores({
+			exercises: '[id+locale], tense, locale, updatedAt',
+			sessions: 'id, status, createdAt',
+			answers: 'id, sessionId, exerciseId, locale, createdAt',
+		});
 	}
 }
 

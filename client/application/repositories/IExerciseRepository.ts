@@ -7,7 +7,7 @@ export interface IExerciseRepository {
 		limit: number,
 		locale: LocaleType,
 	): Promise<ExerciseResponseDto[]>;
-	findById(id: string): Promise<ExerciseResponseDto | undefined>;
+	findById(id: string, locale: LocaleType): Promise<ExerciseResponseDto | undefined>;
 	findAll(): Promise<ExerciseResponseDto[]>;
 	upsertMany(exercises: ExerciseResponseDto[]): Promise<void>;
 }

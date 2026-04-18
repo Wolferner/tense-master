@@ -22,8 +22,8 @@ export class DexieExerciseRepository implements IExerciseRepository {
 		return Array.from({ length: limit }, (_, i) => shuffled[i % shuffled.length]);
 	}
 
-	async findById(id: string): Promise<ExerciseResponseDto | undefined> {
-		return this.db.exercises.get(id);
+	async findById(id: string, locale: LocaleType): Promise<ExerciseResponseDto | undefined> {
+		return this.db.exercises.get([id, locale]);
 	}
 
 	async findAll(): Promise<ExerciseResponseDto[]> {
