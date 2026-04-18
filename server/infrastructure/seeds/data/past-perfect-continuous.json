@@ -2,769 +2,3217 @@
 	"tense": "PAST_PERFECT_CONTINUOUS",
 	"exercises": [
 		{
-			"question": "Он учил английский два года, прежде чем поехал в Лондон.",
 			"answer": "He had been studying English for two years before he went to London.",
-			"explanation": "Past Perfect Continuous используется для длительного действия, продолжавшегося до определённого момента в прошлом. Маркер: for two years."
+			"translations": {
+				"ru": {
+					"question": "Он учил английский два года, прежде чем поехал в Лондон.",
+					"explanation": "Past Perfect Continuous используется для длительного действия, продолжавшегося до определённого момента в прошлом. Маркер: for two years."
+				},
+				"fr": {
+					"question": "Il avait étudié l'anglais pendant deux ans avant de partir à Londres.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for two years."
+				},
+				"de": {
+					"question": "Er hatte zwei Jahre lang Englisch gelernt, bevor er nach London fuhr.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for two years."
+				},
+				"es": {
+					"question": "Había estado estudiando inglés durante dos años antes de ir a Londres.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for two years."
+				}
+			}
 		},
 		{
-			"question": "Она работала всю ночь, когда позвонил босс.",
 			"answer": "She had been working all night when the boss called.",
-			"explanation": "Past Perfect Continuous подчёркивает длительность процесса до момента в прошлом. Маркер: all night."
+			"translations": {
+				"ru": {
+					"question": "Она работала всю ночь, когда позвонил босс.",
+					"explanation": "Past Perfect Continuous подчёркивает длительность процесса до момента в прошлом. Маркер: all night."
+				},
+				"fr": {
+					"question": "Elle avait travaillé toute la nuit quand le patron a appelé.",
+					"explanation": "Le Past Perfect Continuous souligne la durée d'un processus jusqu'à un moment dans le passé. Marqueur : all night."
+				},
+				"de": {
+					"question": "Sie hatte die ganze Nacht gearbeitet, als der Chef anrief.",
+					"explanation": "Das Past Perfect Continuous betont die Dauer eines Prozesses bis zu einem Zeitpunkt in der Vergangenheit. Marker: all night."
+				},
+				"es": {
+					"question": "Había estado trabajando toda la noche cuando llamó el jefe.",
+					"explanation": "El Past Perfect Continuous subraya la duración de un proceso hasta un momento en el pasado. Marcador: all night."
+				}
+			}
 		},
 		{
-			"question": "Они ждали час, когда наконец пришёл автобус.",
 			"answer": "They had been waiting for an hour when the bus finally came.",
-			"explanation": "Past Perfect Continuous используется чтобы показать как долго длилось действие до другого прошлого события."
+			"translations": {
+				"ru": {
+					"question": "Они ждали час, когда наконец пришёл автобус.",
+					"explanation": "Past Perfect Continuous используется чтобы показать как долго длилось действие до другого прошлого события."
+				},
+				"fr": {
+					"question": "Ils avaient attendu une heure quand le bus est enfin arrivé.",
+					"explanation": "Le Past Perfect Continuous montre combien de temps a duré une action avant un autre événement passé."
+				},
+				"de": {
+					"question": "Sie hatten eine Stunde lang gewartet, als der Bus endlich kam.",
+					"explanation": "Das Past Perfect Continuous zeigt, wie lange eine Handlung vor einem anderen vergangenen Ereignis dauerte."
+				},
+				"es": {
+					"question": "Habían estado esperando una hora cuando por fin llegó el autobús.",
+					"explanation": "El Past Perfect Continuous muestra cuánto tiempo duró una acción antes de otro evento pasado."
+				}
+			}
 		},
 		{
-			"question": "Он бежал тридцать минут до того, как почувствовал боль в колене.",
 			"answer": "He had been running for thirty minutes before he felt pain in his knee.",
-			"explanation": "Past Perfect Continuous с for + время: бег продолжался на протяжении тридцати минут до появления боли."
+			"translations": {
+				"ru": {
+					"question": "Он бежал тридцать минут до того, как почувствовал боль в колене.",
+					"explanation": "Past Perfect Continuous с for + время: бег продолжался на протяжении тридцати минут до появления боли."
+				},
+				"fr": {
+					"question": "Il avait couru pendant trente minutes avant de ressentir une douleur au genou.",
+					"explanation": "Le Past Perfect Continuous avec for + durée : la course a duré trente minutes avant l'apparition de la douleur."
+				},
+				"de": {
+					"question": "Er war dreißig Minuten lang gelaufen, bevor er Schmerzen im Knie spürte.",
+					"explanation": "Das Past Perfect Continuous mit for + Dauer: der Lauf dauerte dreißig Minuten bis zum Auftreten des Schmerzes."
+				},
+				"es": {
+					"question": "Había estado corriendo treinta minutos antes de sentir dolor en la rodilla.",
+					"explanation": "El Past Perfect Continuous con for + duración: la carrera duró treinta minutos hasta que apareció el dolor."
+				}
+			}
 		},
 		{
-			"question": "Мы искали его два часа, прежде чем нашли.",
 			"answer": "We had been looking for him for two hours before we found him.",
-			"explanation": "Past Perfect Continuous с for two hours: поиск продолжался до нахождения."
+			"translations": {
+				"ru": {
+					"question": "Мы искали его два часа, прежде чем нашли.",
+					"explanation": "Past Perfect Continuous с for two hours: поиск продолжался до нахождения."
+				},
+				"fr": {
+					"question": "Nous l'avions cherché pendant deux heures avant de le trouver.",
+					"explanation": "Le Past Perfect Continuous avec for two hours : la recherche a duré jusqu'à ce qu'on le trouve."
+				},
+				"de": {
+					"question": "Wir hatten zwei Stunden lang nach ihm gesucht, bevor wir ihn fanden.",
+					"explanation": "Das Past Perfect Continuous mit for two hours: die Suche dauerte bis zum Auffinden."
+				},
+				"es": {
+					"question": "Habíamos estado buscándolo durante dos horas antes de encontrarlo.",
+					"explanation": "El Past Perfect Continuous con for two hours: la búsqueda duró hasta que lo encontramos."
+				}
+			}
 		},
 		{
-			"question": "Она плакала — это было видно по красным глазам.",
 			"answer": "She had been crying — her eyes were red.",
-			"explanation": "Past Perfect Continuous объясняет видимый результат в прошлом: красные глаза — следствие плача."
+			"translations": {
+				"ru": {
+					"question": "Она плакала — это было видно по красным глазам.",
+					"explanation": "Past Perfect Continuous объясняет видимый результат в прошлом: красные глаза — следствие плача."
+				},
+				"fr": {
+					"question": "Elle avait pleuré — ses yeux étaient rouges.",
+					"explanation": "Le Past Perfect Continuous explique un résultat visible dans le passé : les yeux rouges sont la conséquence des pleurs."
+				},
+				"de": {
+					"question": "Sie hatte geweint — das sah man an ihren roten Augen.",
+					"explanation": "Das Past Perfect Continuous erklärt ein sichtbares Ergebnis in der Vergangenheit: die roten Augen sind die Folge des Weinens."
+				},
+				"es": {
+					"question": "Había estado llorando — se notaba por sus ojos rojos.",
+					"explanation": "El Past Perfect Continuous explica un resultado visible en el pasado: los ojos rojos son la consecuencia del llanto."
+				}
+			}
 		},
 		{
-			"question": "Он тренировался несколько месяцев до соревнований.",
 			"answer": "He had been training for several months before the competition.",
-			"explanation": "Past Perfect Continuous с for several months: тренировки продолжались несколько месяцев."
+			"translations": {
+				"ru": {
+					"question": "Он тренировался несколько месяцев до соревнований.",
+					"explanation": "Past Perfect Continuous с for several months: тренировки продолжались несколько месяцев."
+				},
+				"fr": {
+					"question": "Il s'était entraîné pendant plusieurs mois avant la compétition.",
+					"explanation": "Le Past Perfect Continuous avec for several months : l'entraînement a duré plusieurs mois."
+				},
+				"de": {
+					"question": "Er hatte sich mehrere Monate lang trainiert, bevor er an dem Wettbewerb teilnahm.",
+					"explanation": "Das Past Perfect Continuous mit for several months: das Training dauerte mehrere Monate."
+				},
+				"es": {
+					"question": "Había estado entrenando durante varios meses antes de la competición.",
+					"explanation": "El Past Perfect Continuous con for several months: el entrenamiento duró varios meses."
+				}
+			}
 		},
 		{
-			"question": "Они жили в этом городе десять лет, когда решили переехать.",
 			"answer": "They had been living in that city for ten years when they decided to move.",
-			"explanation": "Past Perfect Continuous с for ten years: проживание длилось десять лет до решения переехать."
+			"translations": {
+				"ru": {
+					"question": "Они жили в этом городе десять лет, когда решили переехать.",
+					"explanation": "Past Perfect Continuous с for ten years: проживание длилось десять лет до решения переехать."
+				},
+				"fr": {
+					"question": "Ils avaient vécu dans cette ville pendant dix ans quand ils ont décidé de déménager.",
+					"explanation": "Le Past Perfect Continuous avec for ten years : le séjour a duré dix ans jusqu'à la décision de déménager."
+				},
+				"de": {
+					"question": "Sie hatten zehn Jahre lang in dieser Stadt gelebt, als sie beschlossen umzuziehen.",
+					"explanation": "Das Past Perfect Continuous mit for ten years: der Aufenthalt dauerte zehn Jahre bis zur Entscheidung umzuziehen."
+				},
+				"es": {
+					"question": "Habían vivido en esa ciudad durante diez años cuando decidieron mudarse.",
+					"explanation": "El Past Perfect Continuous con for ten years: la estancia duró diez años hasta la decisión de mudarse."
+				}
+			}
 		},
 		{
-			"question": "Она работала над проектом три недели, прежде чем его одобрили.",
 			"answer": "She had been working on the project for three weeks before it was approved.",
-			"explanation": "Past Perfect Continuous с for three weeks: работа продолжалась три недели до одобрения."
+			"translations": {
+				"ru": {
+					"question": "Она работала над проектом три недели, прежде чем его одобрили.",
+					"explanation": "Past Perfect Continuous с for three weeks: работа продолжалась три недели до одобрения."
+				},
+				"fr": {
+					"question": "Elle avait travaillé sur le projet pendant trois semaines avant qu'il soit approuvé.",
+					"explanation": "Le Past Perfect Continuous avec for three weeks : le travail a duré trois semaines jusqu'à l'approbation."
+				},
+				"de": {
+					"question": "Sie hatte drei Wochen lang an dem Projekt gearbeitet, bevor es genehmigt wurde.",
+					"explanation": "Das Past Perfect Continuous mit for three weeks: die Arbeit dauerte drei Wochen bis zur Genehmigung."
+				},
+				"es": {
+					"question": "Había estado trabajando en el proyecto durante tres semanas antes de que fuera aprobado.",
+					"explanation": "El Past Perfect Continuous con for three weeks: el trabajo duró tres semanas hasta la aprobación."
+				}
+			}
 		},
 		{
-			"question": "Он выглядел уставшим — не спал всю ночь.",
 			"answer": "He looked tired — he had been awake all night.",
-			"explanation": "Past Perfect Continuous объясняет видимое состояние в прошлом: усталость — результат бодрствования."
+			"translations": {
+				"ru": {
+					"question": "Он выглядел уставшим — не спал всю ночь.",
+					"explanation": "Past Perfect Continuous объясняет видимое состояние в прошлом: усталость — результат бодрствования."
+				},
+				"fr": {
+					"question": "Il avait l'air fatigué — il avait veillé toute la nuit.",
+					"explanation": "Le Past Perfect Continuous explique un état visible dans le passé : la fatigue est le résultat d'une nuit blanche."
+				},
+				"de": {
+					"question": "Er sah müde aus — er war die ganze Nacht wach gewesen.",
+					"explanation": "Das Past Perfect Continuous erklärt einen sichtbaren Zustand in der Vergangenheit: die Müdigkeit ist das Ergebnis einer schlaflosen Nacht."
+				},
+				"es": {
+					"question": "Tenía aspecto cansado — había estado despierto toda la noche.",
+					"explanation": "El Past Perfect Continuous explica un estado visible en el pasado: el cansancio es el resultado de no dormir en toda la noche."
+				}
+			}
 		},
 		{
-			"question": "Мы обсуждали этот вопрос несколько часов, прежде чем пришли к соглашению.",
 			"answer": "We had been discussing the issue for several hours before we reached an agreement.",
-			"explanation": "Past Perfect Continuous с for several hours: обсуждение продолжалось до достижения соглашения."
+			"translations": {
+				"ru": {
+					"question": "Мы обсуждали этот вопрос несколько часов, прежде чем пришли к соглашению.",
+					"explanation": "Past Perfect Continuous с for several hours: обсуждение продолжалось до достижения соглашения."
+				},
+				"fr": {
+					"question": "Nous avions discuté de la question pendant plusieurs heures avant de trouver un accord.",
+					"explanation": "Le Past Perfect Continuous avec for several hours : la discussion a duré jusqu'à ce qu'on parvienne à un accord."
+				},
+				"de": {
+					"question": "Wir hatten die Frage mehrere Stunden lang diskutiert, bevor wir eine Einigung erzielten.",
+					"explanation": "Das Past Perfect Continuous mit for several hours: die Diskussion dauerte bis zur Einigung."
+				},
+				"es": {
+					"question": "Habíamos estado discutiendo el asunto durante varias horas antes de llegar a un acuerdo.",
+					"explanation": "El Past Perfect Continuous con for several hours: la discusión duró hasta alcanzar un acuerdo."
+				}
+			}
 		},
 		{
-			"question": "Она учила испанский с детства, когда наконец попала в Испанию.",
 			"answer": "She had been learning Spanish since childhood when she finally went to Spain.",
-			"explanation": "Past Perfect Continuous с since: изучение языка началось в детстве и продолжалось до поездки."
+			"translations": {
+				"ru": {
+					"question": "Она учила испанский с детства, когда наконец попала в Испанию.",
+					"explanation": "Past Perfect Continuous с since: изучение языка началось в детстве и продолжалось до поездки."
+				},
+				"fr": {
+					"question": "Elle apprenait l'espagnol depuis son enfance quand elle est enfin allée en Espagne.",
+					"explanation": "Le Past Perfect Continuous avec since : l'apprentissage a commencé dans l'enfance et a duré jusqu'au voyage."
+				},
+				"de": {
+					"question": "Sie hatte seit ihrer Kindheit Spanisch gelernt, als sie endlich nach Spanien fuhr.",
+					"explanation": "Das Past Perfect Continuous mit since: das Sprachenlernen begann in der Kindheit und dauerte bis zur Reise."
+				},
+				"es": {
+					"question": "Había estado aprendiendo español desde la infancia cuando por fin fue a España.",
+					"explanation": "El Past Perfect Continuous con since: el aprendizaje comenzó en la infancia y duró hasta el viaje."
+				}
+			}
 		},
 		{
-			"question": "Он шёл пешком всё утро и очень устал.",
 			"answer": "He had been walking all morning and was very tired.",
-			"explanation": "Past Perfect Continuous объясняет причину усталости в прошлом: длительная ходьба."
+			"translations": {
+				"ru": {
+					"question": "Он шёл пешком всё утро и очень устал.",
+					"explanation": "Past Perfect Continuous объясняет причину усталости в прошлом: длительная ходьба."
+				},
+				"fr": {
+					"question": "Il avait marché toute la matinée et était très fatigué.",
+					"explanation": "Le Past Perfect Continuous explique la cause de la fatigue dans le passé : une longue marche."
+				},
+				"de": {
+					"question": "Er war den ganzen Morgen gelaufen und war sehr müde.",
+					"explanation": "Das Past Perfect Continuous erklärt die Ursache der Müdigkeit in der Vergangenheit: langes Gehen."
+				},
+				"es": {
+					"question": "Había estado caminando toda la mañana y estaba muy cansado.",
+					"explanation": "El Past Perfect Continuous explica la causa del cansancio en el pasado: una larga caminata."
+				}
+			}
 		},
 		{
-			"question": "Они репетировали пьесу три месяца до премьеры.",
 			"answer": "They had been rehearsing the play for three months before the premiere.",
-			"explanation": "Past Perfect Continuous с for three months: репетиции длились три месяца до премьеры."
+			"translations": {
+				"ru": {
+					"question": "Они репетировали пьесу три месяца до премьеры.",
+					"explanation": "Past Perfect Continuous с for three months: репетиции длились три месяца до премьеры."
+				},
+				"fr": {
+					"question": "Ils avaient répété la pièce pendant trois mois avant la première.",
+					"explanation": "Le Past Perfect Continuous avec for three months : les répétitions ont duré trois mois jusqu'à la première."
+				},
+				"de": {
+					"question": "Sie hatten das Stück drei Monate lang geprobt, bevor die Premiere stattfand.",
+					"explanation": "Das Past Perfect Continuous mit for three months: die Proben dauerten drei Monate bis zur Premiere."
+				},
+				"es": {
+					"question": "Habían estado ensayando la obra durante tres meses antes del estreno.",
+					"explanation": "El Past Perfect Continuous con for three months: los ensayos duraron tres meses hasta el estreno."
+				}
+			}
 		},
 		{
-			"question": "Она ждала результатов с прошлой недели, когда наконец получила письмо.",
 			"answer": "She had been waiting for the results since last week when she finally received the letter.",
-			"explanation": "Past Perfect Continuous с since last week: ожидание началось на прошлой неделе и продолжалось до получения письма."
+			"translations": {
+				"ru": {
+					"question": "Она ждала результатов с прошлой недели, когда наконец получила письмо.",
+					"explanation": "Past Perfect Continuous с since last week: ожидание началось на прошлой неделе и продолжалось до получения письма."
+				},
+				"fr": {
+					"question": "Elle attendait les résultats depuis la semaine dernière quand elle a enfin reçu la lettre.",
+					"explanation": "Le Past Perfect Continuous avec since last week : l'attente a commencé la semaine dernière et a duré jusqu'à la réception de la lettre."
+				},
+				"de": {
+					"question": "Sie hatte seit der letzten Woche auf die Ergebnisse gewartet, als sie endlich den Brief erhielt.",
+					"explanation": "Das Past Perfect Continuous mit since last week: das Warten begann letzte Woche und dauerte bis zum Erhalt des Briefes."
+				},
+				"es": {
+					"question": "Había estado esperando los resultados desde la semana pasada cuando por fin recibió la carta.",
+					"explanation": "El Past Perfect Continuous con since last week: la espera comenzó la semana pasada y duró hasta recibir la carta."
+				}
+			}
 		},
 		{
-			"question": "Мальчик играл весь день и сильно проголодался.",
 			"answer": "The boy had been playing all day and was very hungry.",
-			"explanation": "Past Perfect Continuous объясняет состояние (голод) через предшествующее длительное действие."
+			"translations": {
+				"ru": {
+					"question": "Мальчик играл весь день и сильно проголодался.",
+					"explanation": "Past Perfect Continuous объясняет состояние (голод) через предшествующее длительное действие."
+				},
+				"fr": {
+					"question": "Le garçon avait joué toute la journée et avait très faim.",
+					"explanation": "Le Past Perfect Continuous explique un état (la faim) par une action prolongée qui l'a précédé."
+				},
+				"de": {
+					"question": "Der Junge hatte den ganzen Tag gespielt und hatte großen Hunger.",
+					"explanation": "Das Past Perfect Continuous erklärt einen Zustand (Hunger) durch eine vorangegangene andauernde Handlung."
+				},
+				"es": {
+					"question": "El niño había estado jugando todo el día y tenía mucha hambre.",
+					"explanation": "El Past Perfect Continuous explica un estado (el hambre) mediante una acción prolongada que lo precedió."
+				}
+			}
 		},
 		{
-			"question": "Он разрабатывал приложение полгода, прежде чем запустил его.",
 			"answer": "He had been developing the app for half a year before he launched it.",
-			"explanation": "Past Perfect Continuous с for half a year: разработка длилась полгода до запуска."
+			"translations": {
+				"ru": {
+					"question": "Он разрабатывал приложение полгода, прежде чем запустил его.",
+					"explanation": "Past Perfect Continuous с for half a year: разработка длилась полгода до запуска."
+				},
+				"fr": {
+					"question": "Il avait développé l'application pendant six mois avant de la lancer.",
+					"explanation": "Le Past Perfect Continuous avec for half a year : le développement a duré six mois jusqu'au lancement."
+				},
+				"de": {
+					"question": "Er hatte die App ein halbes Jahr lang entwickelt, bevor er sie veröffentlichte.",
+					"explanation": "Das Past Perfect Continuous mit for half a year: die Entwicklung dauerte ein halbes Jahr bis zur Veröffentlichung."
+				},
+				"es": {
+					"question": "Había estado desarrollando la aplicación durante medio año antes de lanzarla.",
+					"explanation": "El Past Perfect Continuous con for half a year: el desarrollo duró medio año hasta el lanzamiento."
+				}
+			}
 		},
 		{
-			"question": "Они спорили весь вечер, когда наконец успокоились.",
 			"answer": "They had been arguing all evening when they finally calmed down.",
-			"explanation": "Past Perfect Continuous с all evening: спор продолжался весь вечер до успокоения."
+			"translations": {
+				"ru": {
+					"question": "Они спорили весь вечер, когда наконец успокоились.",
+					"explanation": "Past Perfect Continuous с all evening: спор продолжался весь вечер до успокоения."
+				},
+				"fr": {
+					"question": "Ils s'étaient disputés toute la soirée avant de se calmer enfin.",
+					"explanation": "Le Past Perfect Continuous avec all evening : la dispute a duré toute la soirée jusqu'au calme."
+				},
+				"de": {
+					"question": "Sie hatten den ganzen Abend gestritten, bevor sie sich schließlich beruhigten.",
+					"explanation": "Das Past Perfect Continuous mit all evening: der Streit dauerte den ganzen Abend bis zur Beruhigung."
+				},
+				"es": {
+					"question": "Habían estado discutiendo toda la tarde hasta que por fin se calmaron.",
+					"explanation": "El Past Perfect Continuous con all evening: la discusión duró toda la tarde hasta la calma."
+				}
+			}
 		},
 		{
-			"question": "Она читала книгу с утра до вечера, когда дочитала последнюю страницу.",
 			"answer": "She had been reading the book from morning till evening when she finished the last page.",
-			"explanation": "Past Perfect Continuous: чтение продолжалось с утра до вечера."
+			"translations": {
+				"ru": {
+					"question": "Она читала книгу с утра до вечера, когда дочитала последнюю страницу.",
+					"explanation": "Past Perfect Continuous: чтение продолжалось с утра до вечера."
+				},
+				"fr": {
+					"question": "Elle avait lu le livre du matin jusqu'au soir quand elle a terminé la dernière page.",
+					"explanation": "Le Past Perfect Continuous : la lecture a duré du matin jusqu'au soir."
+				},
+				"de": {
+					"question": "Sie hatte das Buch von morgens bis abends gelesen, als sie die letzte Seite las.",
+					"explanation": "Das Past Perfect Continuous: die Lektüre dauerte vom Morgen bis zum Abend."
+				},
+				"es": {
+					"question": "Había estado leyendo el libro de la mañana a la noche cuando terminó la última página.",
+					"explanation": "El Past Perfect Continuous: la lectura duró de la mañana a la noche."
+				}
+			}
 		},
 		{
-			"question": "Он курил двадцать лет до того, как бросил.",
 			"answer": "He had been smoking for twenty years before he quit.",
-			"explanation": "Past Perfect Continuous с for twenty years: привычка длилась двадцать лет до отказа."
+			"translations": {
+				"ru": {
+					"question": "Он курил двадцать лет до того, как бросил.",
+					"explanation": "Past Perfect Continuous с for twenty years: привычка длилась двадцать лет до отказа."
+				},
+				"fr": {
+					"question": "Il avait fumé pendant vingt ans avant d'arrêter.",
+					"explanation": "Le Past Perfect Continuous avec for twenty years : cette habitude a duré vingt ans jusqu'à l'arrêt."
+				},
+				"de": {
+					"question": "Er hatte zwanzig Jahre lang geraucht, bevor er aufhörte.",
+					"explanation": "Das Past Perfect Continuous mit for twenty years: diese Gewohnheit dauerte zwanzig Jahre bis zum Aufhören."
+				},
+				"es": {
+					"question": "Había estado fumando durante veinte años antes de dejarlo.",
+					"explanation": "El Past Perfect Continuous con for twenty years: este hábito duró veinte años hasta que lo dejó."
+				}
+			}
 		},
 		{
-			"question": "Мы готовились к экзамену всю неделю, когда наконец настал день сдачи.",
 			"answer": "We had been preparing for the exam all week when the day of the test finally came.",
-			"explanation": "Past Perfect Continuous с all week: подготовка продолжалась всю неделю."
+			"translations": {
+				"ru": {
+					"question": "Мы готовились к экзамену всю неделю, когда наконец настал день сдачи.",
+					"explanation": "Past Perfect Continuous с all week: подготовка продолжалась всю неделю."
+				},
+				"fr": {
+					"question": "Nous avions préparé l'examen toute la semaine quand le jour du test est enfin arrivé.",
+					"explanation": "Le Past Perfect Continuous avec all week : la préparation a duré toute la semaine."
+				},
+				"de": {
+					"question": "Wir hatten die ganze Woche für die Prüfung gelernt, als der Prüfungstag endlich kam.",
+					"explanation": "Das Past Perfect Continuous mit all week: die Vorbereitung dauerte die ganze Woche."
+				},
+				"es": {
+					"question": "Habíamos estado preparando el examen toda la semana cuando por fin llegó el día de la prueba.",
+					"explanation": "El Past Perfect Continuous con all week: la preparación duró toda la semana."
+				}
+			}
 		},
 		{
-			"question": "Она работала в той компании пять лет, прежде чем её повысили.",
 			"answer": "She had been working at that company for five years before she was promoted.",
-			"explanation": "Past Perfect Continuous с for five years: работа продолжалась пять лет до повышения."
+			"translations": {
+				"ru": {
+					"question": "Она работала в той компании пять лет, прежде чем её повысили.",
+					"explanation": "Past Perfect Continuous с for five years: работа продолжалась пять лет до повышения."
+				},
+				"fr": {
+					"question": "Elle avait travaillé dans cette entreprise pendant cinq ans avant d'être promue.",
+					"explanation": "Le Past Perfect Continuous avec for five years : le travail a duré cinq ans jusqu'à la promotion."
+				},
+				"de": {
+					"question": "Sie hatte fünf Jahre lang in dieser Firma gearbeitet, bevor sie befördert wurde.",
+					"explanation": "Das Past Perfect Continuous mit for five years: die Arbeit dauerte fünf Jahre bis zur Beförderung."
+				},
+				"es": {
+					"question": "Había estado trabajando en esa empresa durante cinco años antes de ser ascendida.",
+					"explanation": "El Past Perfect Continuous con for five years: el trabajo duró cinco años hasta el ascenso."
+				}
+			}
 		},
 		{
-			"question": "Он грустил — явно что-то случилось.",
 			"answer": "He had been feeling sad — something had clearly happened.",
-			"explanation": "Past Perfect Continuous объясняет эмоциональное состояние через длительный процесс."
+			"translations": {
+				"ru": {
+					"question": "Он грустил — явно что-то случилось.",
+					"explanation": "Past Perfect Continuous объясняет эмоциональное состояние через длительный процесс."
+				},
+				"fr": {
+					"question": "Il avait l'air triste — quelque chose s'était manifestement passé.",
+					"explanation": "Le Past Perfect Continuous explique un état émotionnel par un processus prolongé qui l'a précédé."
+				},
+				"de": {
+					"question": "Er wirkte traurig — offensichtlich war etwas passiert.",
+					"explanation": "Das Past Perfect Continuous erklärt einen emotionalen Zustand durch einen vorangegangenen andauernden Prozess."
+				},
+				"es": {
+					"question": "Parecía triste — claramente algo había pasado.",
+					"explanation": "El Past Perfect Continuous explica un estado emocional mediante un proceso prolongado que lo precedió."
+				}
+			}
 		},
 		{
-			"question": "Они строили дом два года, когда закончили.",
 			"answer": "They had been building the house for two years when they finished.",
-			"explanation": "Past Perfect Continuous с for two years: строительство длилось два года до завершения."
+			"translations": {
+				"ru": {
+					"question": "Они строили дом два года, когда закончили.",
+					"explanation": "Past Perfect Continuous с for two years: строительство длилось два года до завершения."
+				},
+				"fr": {
+					"question": "Ils avaient construit la maison pendant deux ans quand ils ont fini.",
+					"explanation": "Le Past Perfect Continuous avec for two years : la construction a duré deux ans jusqu'à l'achèvement."
+				},
+				"de": {
+					"question": "Sie hatten zwei Jahre lang das Haus gebaut, als sie fertig wurden.",
+					"explanation": "Das Past Perfect Continuous mit for two years: der Bau dauerte zwei Jahre bis zur Fertigstellung."
+				},
+				"es": {
+					"question": "Habían estado construyendo la casa durante dos años cuando terminaron.",
+					"explanation": "El Past Perfect Continuous con for two years: la construcción duró dos años hasta su conclusión."
+				}
+			}
 		},
 		{
-			"question": "Мы танцевали несколько часов, прежде чем почувствовали усталость.",
 			"answer": "We had been dancing for several hours before we felt tired.",
-			"explanation": "Past Perfect Continuous с for several hours: танцы продолжались несколько часов до усталости."
+			"translations": {
+				"ru": {
+					"question": "Мы танцевали несколько часов, прежде чем почувствовали усталость.",
+					"explanation": "Past Perfect Continuous с for several hours: танцы продолжались несколько часов до усталости."
+				},
+				"fr": {
+					"question": "Nous avions dansé pendant plusieurs heures avant de nous sentir fatigués.",
+					"explanation": "Le Past Perfect Continuous avec for several hours : la danse a duré plusieurs heures jusqu'à la fatigue."
+				},
+				"de": {
+					"question": "Wir hatten mehrere Stunden lang getanzt, bevor wir uns müde fühlten.",
+					"explanation": "Das Past Perfect Continuous mit for several hours: das Tanzen dauerte mehrere Stunden bis zur Erschöpfung."
+				},
+				"es": {
+					"question": "Habíamos estado bailando durante varias horas antes de sentirnos cansados.",
+					"explanation": "El Past Perfect Continuous con for several hours: el baile duró varias horas hasta el cansancio."
+				}
+			}
 		},
 		{
-			"question": "Она изучала медицину с 2005 года, когда получила диплом.",
 			"answer": "She had been studying medicine since 2005 when she got her degree.",
-			"explanation": "Past Perfect Continuous с since 2005: обучение началось в 2005 году и продолжалось до получения диплома."
+			"translations": {
+				"ru": {
+					"question": "Она изучала медицину с 2005 года, когда получила диплом.",
+					"explanation": "Past Perfect Continuous с since 2005: обучение началось в 2005 году и продолжалось до получения диплома."
+				},
+				"fr": {
+					"question": "Elle étudiait la médecine depuis 2005 quand elle a obtenu son diplôme.",
+					"explanation": "Le Past Perfect Continuous avec since 2005 : les études ont commencé en 2005 et ont duré jusqu'à l'obtention du diplôme."
+				},
+				"de": {
+					"question": "Sie hatte seit 2005 Medizin studiert, als sie ihren Abschluss bekam.",
+					"explanation": "Das Past Perfect Continuous mit since 2005: das Studium begann 2005 und dauerte bis zum Abschluss."
+				},
+				"es": {
+					"question": "Había estado estudiando medicina desde 2005 cuando obtuvo el título.",
+					"explanation": "El Past Perfect Continuous con since 2005: los estudios comenzaron en 2005 y duraron hasta obtener el título."
+				}
+			}
 		},
 		{
-			"question": "Он играл на гитаре всё детство до того, как увлёкся спортом.",
 			"answer": "He had been playing the guitar throughout his childhood before he got into sport.",
-			"explanation": "Past Perfect Continuous с throughout childhood: игра на гитаре длилась всё детство."
+			"translations": {
+				"ru": {
+					"question": "Он играл на гитаре всё детство до того, как увлёкся спортом.",
+					"explanation": "Past Perfect Continuous с throughout childhood: игра на гитаре длилась всё детство."
+				},
+				"fr": {
+					"question": "Il avait joué de la guitare toute son enfance avant de se consacrer au sport.",
+					"explanation": "Le Past Perfect Continuous avec throughout childhood : la pratique de la guitare a duré toute l'enfance."
+				},
+				"de": {
+					"question": "Er hatte die ganze Kindheit Gitarre gespielt, bevor er sich dem Sport zuwandte.",
+					"explanation": "Das Past Perfect Continuous mit throughout childhood: das Gitarrespielen dauerte die gesamte Kindheit."
+				},
+				"es": {
+					"question": "Había estado tocando la guitarra durante toda su infancia antes de aficionarse al deporte.",
+					"explanation": "El Past Perfect Continuous con throughout childhood: tocar la guitarra duró toda la infancia."
+				}
+			}
 		},
 		{
-			"question": "Они жарко спорили всё утро — в итоге разошлись ни о чём не договорившись.",
 			"answer": "They had been arguing heatedly all morning and ended up reaching no agreement.",
-			"explanation": "Past Perfect Continuous с all morning: жаркий спор продолжался всё утро."
+			"translations": {
+				"ru": {
+					"question": "Они жарко спорили всё утро — в итоге разошлись ни о чём не договорившись.",
+					"explanation": "Past Perfect Continuous с all morning: жаркий спор продолжался всё утро."
+				},
+				"fr": {
+					"question": "Ils s'étaient disputés avec véhémence toute la matinée et ont fini par ne parvenir à aucun accord.",
+					"explanation": "Le Past Perfect Continuous avec all morning : la vive dispute a duré toute la matinée."
+				},
+				"de": {
+					"question": "Sie hatten den ganzen Morgen hitzig gestritten und trennten sich schließlich ohne Einigung.",
+					"explanation": "Das Past Perfect Continuous mit all morning: der hitzige Streit dauerte den ganzen Morgen."
+				},
+				"es": {
+					"question": "Habían estado discutiendo acaloradamente toda la mañana y acabaron sin llegar a ningún acuerdo.",
+					"explanation": "El Past Perfect Continuous con all morning: la acalorada disputa duró toda la mañana."
+				}
+			}
 		},
 		{
-			"question": "Рабочие копали траншею три дня до обнаружения трубы.",
 			"answer": "The workers had been digging the trench for three days before discovering the pipe.",
-			"explanation": "Past Perfect Continuous с for three days: рытьё продолжалось три дня до находки."
+			"translations": {
+				"ru": {
+					"question": "Рабочие копали траншею три дня до обнаружения трубы.",
+					"explanation": "Past Perfect Continuous с for three days: рытьё продолжалось три дня до находки."
+				},
+				"fr": {
+					"question": "Les ouvriers avaient creusé la tranchée pendant trois jours avant de découvrir le tuyau.",
+					"explanation": "Le Past Perfect Continuous avec for three days : le creusement a duré trois jours jusqu'à la découverte."
+				},
+				"de": {
+					"question": "Die Arbeiter hatten drei Tage lang den Graben gegraben, bevor sie das Rohr entdeckten.",
+					"explanation": "Das Past Perfect Continuous mit for three days: das Graben dauerte drei Tage bis zur Entdeckung."
+				},
+				"es": {
+					"question": "Los obreros habían estado cavando la zanja durante tres días antes de descubrir la tubería.",
+					"explanation": "El Past Perfect Continuous con for three days: la excavación duró tres días hasta el descubrimiento."
+				}
+			}
 		},
 		{
-			"question": "Она пела с детства, когда её заметил продюсер.",
 			"answer": "She had been singing since childhood when a producer noticed her.",
-			"explanation": "Past Perfect Continuous с since childhood: пение продолжалось с детства до замеченности продюсером."
+			"translations": {
+				"ru": {
+					"question": "Она пела с детства, когда её заметил продюсер.",
+					"explanation": "Past Perfect Continuous с since childhood: пение продолжалось с детства до замеченности продюсером."
+				},
+				"fr": {
+					"question": "Elle chantait depuis son enfance quand un producteur l'a remarquée.",
+					"explanation": "Le Past Perfect Continuous avec since childhood : le chant a continué depuis l'enfance jusqu'à ce qu'un producteur la remarque."
+				},
+				"de": {
+					"question": "Sie hatte seit ihrer Kindheit gesungen, als ein Produzent auf sie aufmerksam wurde.",
+					"explanation": "Das Past Perfect Continuous mit since childhood: das Singen dauerte seit der Kindheit, bis ein Produzent sie bemerkte."
+				},
+				"es": {
+					"question": "Había estado cantando desde la infancia cuando un productor la descubrió.",
+					"explanation": "El Past Perfect Continuous con since childhood: el canto duró desde la infancia hasta que un productor la descubrió."
+				}
+			}
 		},
 		{
-			"question": "Мы переписывались полгода до нашей первой встречи.",
 			"answer": "We had been corresponding for half a year before our first meeting.",
-			"explanation": "Past Perfect Continuous с for half a year: переписка продолжалась полгода до встречи."
+			"translations": {
+				"ru": {
+					"question": "Мы переписывались полгода до нашей первой встречи.",
+					"explanation": "Past Perfect Continuous с for half a year: переписка продолжалась полгода до встречи."
+				},
+				"fr": {
+					"question": "Nous avions correspondu pendant six mois avant notre première rencontre.",
+					"explanation": "Le Past Perfect Continuous avec for half a year : la correspondance a duré six mois jusqu'à la rencontre."
+				},
+				"de": {
+					"question": "Wir hatten ein halbes Jahr lang korrespondiert, bevor wir uns das erste Mal trafen.",
+					"explanation": "Das Past Perfect Continuous mit for half a year: die Korrespondenz dauerte ein halbes Jahr bis zum ersten Treffen."
+				},
+				"es": {
+					"question": "Habíamos estado correspondiendo durante medio año antes de nuestro primer encuentro.",
+					"explanation": "El Past Perfect Continuous con for half a year: la correspondencia duró medio año hasta el encuentro."
+				}
+			}
 		},
 		{
-			"question": "Он нервничал — было видно, что долго ждал.",
 			"answer": "He looked nervous — he had been waiting for a long time.",
-			"explanation": "Past Perfect Continuous объясняет наблюдаемое состояние через предшествующее длительное действие."
+			"translations": {
+				"ru": {
+					"question": "Он нервничал — было видно, что долго ждал.",
+					"explanation": "Past Perfect Continuous объясняет наблюдаемое состояние через предшествующее длительное действие."
+				},
+				"fr": {
+					"question": "Il avait l'air nerveux — visiblement il attendait depuis longtemps.",
+					"explanation": "Le Past Perfect Continuous explique un état observable par une action prolongée qui l'a précédé."
+				},
+				"de": {
+					"question": "Er wirkte nervös — offensichtlich hatte er lange gewartet.",
+					"explanation": "Das Past Perfect Continuous erklärt einen beobachtbaren Zustand durch eine vorangegangene andauernde Handlung."
+				},
+				"es": {
+					"question": "Parecía nervioso — claramente había estado esperando mucho tiempo.",
+					"explanation": "El Past Perfect Continuous explica un estado observable mediante una acción prolongada que lo precedió."
+				}
+			}
 		},
 		{
-			"question": "Они обсуждали контракт несколько недель, прежде чем подписали.",
 			"answer": "They had been discussing the contract for several weeks before they signed it.",
-			"explanation": "Past Perfect Continuous с for several weeks: обсуждение предшествовало подписанию."
+			"translations": {
+				"ru": {
+					"question": "Они обсуждали контракт несколько недель, прежде чем подписали.",
+					"explanation": "Past Perfect Continuous с for several weeks: обсуждение предшествовало подписанию."
+				},
+				"fr": {
+					"question": "Ils avaient discuté du contrat pendant plusieurs semaines avant de le signer.",
+					"explanation": "Le Past Perfect Continuous avec for several weeks : la discussion a précédé la signature."
+				},
+				"de": {
+					"question": "Sie hatten mehrere Wochen lang über den Vertrag diskutiert, bevor sie ihn unterzeichneten.",
+					"explanation": "Das Past Perfect Continuous mit for several weeks: die Diskussion ging der Unterzeichnung voraus."
+				},
+				"es": {
+					"question": "Habían estado discutiendo el contrato durante varias semanas antes de firmarlo.",
+					"explanation": "El Past Perfect Continuous con for several weeks: la discusión precedió a la firma."
+				}
+			}
 		},
 		{
-			"question": "Она тренировалась каждый день несколько месяцев до чемпионата.",
 			"answer": "She had been training every day for several months before the championship.",
-			"explanation": "Past Perfect Continuous с for several months: ежедневные тренировки до чемпионата."
+			"translations": {
+				"ru": {
+					"question": "Она тренировалась каждый день несколько месяцев до чемпионата.",
+					"explanation": "Past Perfect Continuous с for several months: ежедневные тренировки до чемпионата."
+				},
+				"fr": {
+					"question": "Elle s'était entraînée tous les jours pendant plusieurs mois avant le championnat.",
+					"explanation": "Le Past Perfect Continuous avec for several months : les entraînements quotidiens ont précédé le championnat."
+				},
+				"de": {
+					"question": "Sie hatte mehrere Monate lang täglich trainiert, bevor die Meisterschaft begann.",
+					"explanation": "Das Past Perfect Continuous mit for several months: das tägliche Training ging der Meisterschaft voraus."
+				},
+				"es": {
+					"question": "Había estado entrenando a diario durante varios meses antes del campeonato.",
+					"explanation": "El Past Perfect Continuous con for several months: el entrenamiento diario precedió al campeonato."
+				}
+			}
 		},
 		{
-			"question": "Он работал над романом три года, когда наконец завершил его.",
 			"answer": "He had been working on the novel for three years when he finally completed it.",
-			"explanation": "Past Perfect Continuous с for three years: работа над романом продолжалась три года."
+			"translations": {
+				"ru": {
+					"question": "Он работал над романом три года, когда наконец завершил его.",
+					"explanation": "Past Perfect Continuous с for three years: работа над романом продолжалась три года."
+				},
+				"fr": {
+					"question": "Il avait travaillé sur le roman pendant trois ans quand il l'a enfin terminé.",
+					"explanation": "Le Past Perfect Continuous avec for three years : le travail sur le roman a duré trois ans."
+				},
+				"de": {
+					"question": "Er hatte drei Jahre lang an dem Roman gearbeitet, als er ihn schließlich fertigstellte.",
+					"explanation": "Das Past Perfect Continuous mit for three years: die Arbeit am Roman dauerte drei Jahre."
+				},
+				"es": {
+					"question": "Había estado trabajando en la novela durante tres años cuando por fin la terminó.",
+					"explanation": "El Past Perfect Continuous con for three years: el trabajo en la novela duró tres años."
+				}
+			}
 		},
 		{
-			"question": "Мы добирались до места четыре часа, прежде чем увидели указатель.",
 			"answer": "We had been driving for four hours before we saw the sign.",
-			"explanation": "Past Perfect Continuous с for four hours: поездка длилась четыре часа до увидения указателя."
+			"translations": {
+				"ru": {
+					"question": "Мы добирались до места четыре часа, прежде чем увидели указатель.",
+					"explanation": "Past Perfect Continuous с for four hours: поездка длилась четыре часа до увидения указателя."
+				},
+				"fr": {
+					"question": "Nous avions roulé pendant quatre heures avant de voir le panneau.",
+					"explanation": "Le Past Perfect Continuous avec for four hours : le trajet a duré quatre heures jusqu'au panneau."
+				},
+				"de": {
+					"question": "Wir waren vier Stunden lang gefahren, bevor wir das Schild sahen.",
+					"explanation": "Das Past Perfect Continuous mit for four hours: die Fahrt dauerte vier Stunden bis zum Schild."
+				},
+				"es": {
+					"question": "Habíamos estado conduciendo durante cuatro horas antes de ver el cartel.",
+					"explanation": "El Past Perfect Continuous con for four hours: el viaje duró cuatro horas hasta ver el cartel."
+				}
+			}
 		},
 		{
-			"question": "Дети играли на улице весь день и очень устали.",
 			"answer": "The children had been playing outside all day and were very tired.",
-			"explanation": "Past Perfect Continuous объясняет усталость детей через длительное занятие."
+			"translations": {
+				"ru": {
+					"question": "Дети играли на улице весь день и очень устали.",
+					"explanation": "Past Perfect Continuous объясняет усталость детей через длительное занятие."
+				},
+				"fr": {
+					"question": "Les enfants avaient joué dehors toute la journée et étaient très fatigués.",
+					"explanation": "Le Past Perfect Continuous explique la fatigue des enfants par une activité prolongée."
+				},
+				"de": {
+					"question": "Die Kinder hatten den ganzen Tag draußen gespielt und waren sehr müde.",
+					"explanation": "Das Past Perfect Continuous erklärt die Müdigkeit der Kinder durch eine andauernde Aktivität."
+				},
+				"es": {
+					"question": "Los niños habían estado jugando fuera todo el día y estaban muy cansados.",
+					"explanation": "El Past Perfect Continuous explica el cansancio de los niños mediante una actividad prolongada."
+				}
+			}
 		},
 		{
-			"question": "Она откладывала деньги несколько лет, прежде чем купила машину.",
 			"answer": "She had been saving money for several years before she bought a car.",
-			"explanation": "Past Perfect Continuous с for several years: накопления продолжались несколько лет до покупки."
+			"translations": {
+				"ru": {
+					"question": "Она откладывала деньги несколько лет, прежде чем купила машину.",
+					"explanation": "Past Perfect Continuous с for several years: накопления продолжались несколько лет до покупки."
+				},
+				"fr": {
+					"question": "Elle avait économisé de l'argent pendant plusieurs années avant d'acheter une voiture.",
+					"explanation": "Le Past Perfect Continuous avec for several years : les économies ont duré plusieurs années jusqu'à l'achat."
+				},
+				"de": {
+					"question": "Sie hatte mehrere Jahre lang Geld gespart, bevor sie ein Auto kaufte.",
+					"explanation": "Das Past Perfect Continuous mit for several years: das Sparen dauerte mehrere Jahre bis zum Kauf."
+				},
+				"es": {
+					"question": "Había estado ahorrando dinero durante varios años antes de comprarse un coche.",
+					"explanation": "El Past Perfect Continuous con for several years: el ahorro duró varios años hasta la compra."
+				}
+			}
 		},
 		{
-			"question": "Он занимался боксом с юности, когда выиграл первый титул.",
 			"answer": "He had been doing boxing since his youth when he won his first title.",
-			"explanation": "Past Perfect Continuous с since his youth: занятия боксом продолжались с юности."
+			"translations": {
+				"ru": {
+					"question": "Он занимался боксом с юности, когда выиграл первый титул.",
+					"explanation": "Past Perfect Continuous с since his youth: занятия боксом продолжались с юности."
+				},
+				"fr": {
+					"question": "Il faisait de la boxe depuis sa jeunesse quand il a remporté son premier titre.",
+					"explanation": "Le Past Perfect Continuous avec since his youth : la pratique de la boxe a commencé dans la jeunesse."
+				},
+				"de": {
+					"question": "Er hatte seit seiner Jugend Boxen betrieben, als er seinen ersten Titel gewann.",
+					"explanation": "Das Past Perfect Continuous mit since his youth: das Boxen dauerte seit der Jugend."
+				},
+				"es": {
+					"question": "Había estado practicando boxeo desde su juventud cuando ganó su primer título.",
+					"explanation": "El Past Perfect Continuous con since his youth: la práctica del boxeo comenzó en la juventud."
+				}
+			}
 		},
 		{
-			"question": "Они работали вместе несколько лет до того, как открыли собственный бизнес.",
 			"answer": "They had been working together for several years before they opened their own business.",
-			"explanation": "Past Perfect Continuous с for several years: совместная работа до открытия бизнеса."
+			"translations": {
+				"ru": {
+					"question": "Они работали вместе несколько лет до того, как открыли собственный бизнес.",
+					"explanation": "Past Perfect Continuous с for several years: совместная работа до открытия бизнеса."
+				},
+				"fr": {
+					"question": "Ils avaient travaillé ensemble pendant plusieurs années avant d'ouvrir leur propre entreprise.",
+					"explanation": "Le Past Perfect Continuous avec for several years : le travail en commun a précédé l'ouverture de l'entreprise."
+				},
+				"de": {
+					"question": "Sie hatten mehrere Jahre lang zusammengearbeitet, bevor sie ihr eigenes Unternehmen gründeten.",
+					"explanation": "Das Past Perfect Continuous mit for several years: die gemeinsame Arbeit ging der Unternehmensgründung voraus."
+				},
+				"es": {
+					"question": "Habían estado trabajando juntos durante varios años antes de abrir su propio negocio.",
+					"explanation": "El Past Perfect Continuous con for several years: el trabajo conjunto precedió a la apertura del negocio."
+				}
+			}
 		},
 		{
-			"question": "Она не могла говорить — так долго кричала.",
 			"answer": "She couldn't speak — she had been shouting for too long.",
-			"explanation": "Past Perfect Continuous объясняет физическое состояние через предшествующее длительное действие."
+			"translations": {
+				"ru": {
+					"question": "Она не могла говорить — так долго кричала.",
+					"explanation": "Past Perfect Continuous объясняет физическое состояние через предшествующее длительное действие."
+				},
+				"fr": {
+					"question": "Elle ne pouvait pas parler — elle avait trop crié.",
+					"explanation": "Le Past Perfect Continuous explique un état physique par une action prolongée qui l'a précédé."
+				},
+				"de": {
+					"question": "Sie konnte nicht sprechen — sie hatte zu lange geschrien.",
+					"explanation": "Das Past Perfect Continuous erklärt einen körperlichen Zustand durch eine vorangegangene andauernde Handlung."
+				},
+				"es": {
+					"question": "No podía hablar — había estado gritando demasiado tiempo.",
+					"explanation": "El Past Perfect Continuous explica un estado físico mediante una acción prolongada que lo precedió."
+				}
+			}
 		},
 		{
-			"question": "Мы плыли несколько часов, когда заметили берег.",
 			"answer": "We had been sailing for several hours when we spotted the shore.",
-			"explanation": "Past Perfect Continuous с for several hours: плавание продолжалось до обнаружения берега."
+			"translations": {
+				"ru": {
+					"question": "Мы плыли несколько часов, когда заметили берег.",
+					"explanation": "Past Perfect Continuous с for several hours: плавание продолжалось до обнаружения берега."
+				},
+				"fr": {
+					"question": "Nous avions navigué pendant plusieurs heures quand nous avons aperçu la côte.",
+					"explanation": "Le Past Perfect Continuous avec for several hours : la navigation a duré jusqu'à l'aperçu de la côte."
+				},
+				"de": {
+					"question": "Wir waren mehrere Stunden lang gesegelt, als wir die Küste erblickten.",
+					"explanation": "Das Past Perfect Continuous mit for several hours: die Fahrt dauerte bis zum Erblicken der Küste."
+				},
+				"es": {
+					"question": "Habíamos estado navegando durante varias horas cuando divisamos la orilla.",
+					"explanation": "El Past Perfect Continuous con for several hours: la navegación duró hasta divisar la orilla."
+				}
+			}
 		},
 		{
-			"question": "Он изучал программирование самостоятельно два года до курсов.",
 			"answer": "He had been studying programming on his own for two years before the course.",
-			"explanation": "Past Perfect Continuous с for two years: самостоятельное обучение предшествует курсу."
+			"translations": {
+				"ru": {
+					"question": "Он изучал программирование самостоятельно два года до курсов.",
+					"explanation": "Past Perfect Continuous с for two years: самостоятельное обучение предшествует курсу."
+				},
+				"fr": {
+					"question": "Il avait étudié la programmation seul pendant deux ans avant le cours.",
+					"explanation": "Le Past Perfect Continuous avec for two years : l'apprentissage autodidacte a précédé le cours."
+				},
+				"de": {
+					"question": "Er hatte zwei Jahre lang selbständig Programmieren gelernt, bevor er den Kurs belegte.",
+					"explanation": "Das Past Perfect Continuous mit for two years: das autodidaktische Lernen ging dem Kurs voraus."
+				},
+				"es": {
+					"question": "Había estado estudiando programación por su cuenta durante dos años antes del curso.",
+					"explanation": "El Past Perfect Continuous con for two years: el aprendizaje autodidacta precedió al curso."
+				}
+			}
 		},
 		{
-			"question": "Они не разговаривали несколько недель до примирения.",
 			"answer": "They had not been talking for several weeks before they made up.",
-			"explanation": "Past Perfect Continuous в отрицательной форме: молчание продолжалось несколько недель до примирения."
+			"translations": {
+				"ru": {
+					"question": "Они не разговаривали несколько недель до примирения.",
+					"explanation": "Past Perfect Continuous в отрицательной форме: молчание продолжалось несколько недель до примирения."
+				},
+				"fr": {
+					"question": "Ils ne s'étaient pas parlé pendant plusieurs semaines avant de se réconcilier.",
+					"explanation": "Le Past Perfect Continuous négatif : le silence a duré plusieurs semaines jusqu'à la réconciliation."
+				},
+				"de": {
+					"question": "Sie hatten mehrere Wochen lang nicht miteinander geredet, bevor sie sich versöhnten.",
+					"explanation": "Das Past Perfect Continuous negativ: das Schweigen dauerte mehrere Wochen bis zur Versöhnung."
+				},
+				"es": {
+					"question": "No habían estado hablándose durante varias semanas antes de reconciliarse.",
+					"explanation": "El Past Perfect Continuous negativo: el silencio duró varias semanas hasta la reconciliación."
+				}
+			}
 		},
 		{
-			"question": "Она читала лекции в университете десять лет, когда ушла на пенсию.",
 			"answer": "She had been giving lectures at the university for ten years when she retired.",
-			"explanation": "Past Perfect Continuous с for ten years: преподавание длилось десять лет до выхода на пенсию."
+			"translations": {
+				"ru": {
+					"question": "Она читала лекции в университете десять лет, когда ушла на пенсию.",
+					"explanation": "Past Perfect Continuous с for ten years: преподавание длилось десять лет до выхода на пенсию."
+				},
+				"fr": {
+					"question": "Elle avait donné des conférences à l'université pendant dix ans quand elle a pris sa retraite.",
+					"explanation": "Le Past Perfect Continuous avec for ten years : l'enseignement a duré dix ans jusqu'à la retraite."
+				},
+				"de": {
+					"question": "Sie hatte zehn Jahre lang Vorlesungen an der Universität gehalten, als sie in Rente ging.",
+					"explanation": "Das Past Perfect Continuous mit for ten years: das Unterrichten dauerte zehn Jahre bis zur Rente."
+				},
+				"es": {
+					"question": "Había estado dando clases en la universidad durante diez años cuando se jubiló.",
+					"explanation": "El Past Perfect Continuous con for ten years: la docencia duró diez años hasta la jubilación."
+				}
+			}
 		},
 		{
-			"question": "Рука болела — он много писал весь день.",
 			"answer": "His hand ached — he had been writing a lot all day.",
-			"explanation": "Past Perfect Continuous объясняет физическую боль через длительное предшествующее действие."
+			"translations": {
+				"ru": {
+					"question": "Рука болела — он много писал весь день.",
+					"explanation": "Past Perfect Continuous объясняет физическую боль через длительное предшествующее действие."
+				},
+				"fr": {
+					"question": "Sa main lui faisait mal — il avait beaucoup écrit toute la journée.",
+					"explanation": "Le Past Perfect Continuous explique une douleur physique par une action prolongée qui l'a précédée."
+				},
+				"de": {
+					"question": "Seine Hand schmerzte — er hatte den ganzen Tag viel geschrieben.",
+					"explanation": "Das Past Perfect Continuous erklärt einen körperlichen Schmerz durch eine vorangegangene andauernde Handlung."
+				},
+				"es": {
+					"question": "Le dolía la mano — había estado escribiendo mucho todo el día.",
+					"explanation": "El Past Perfect Continuous explica un dolor físico mediante una acción prolongada que lo precedió."
+				}
+			}
 		},
 		{
-			"question": "Мы искали выход из леса уже несколько часов, когда услышали голоса.",
 			"answer": "We had been looking for a way out of the forest for several hours when we heard voices.",
-			"explanation": "Past Perfect Continuous с for several hours: поиск длился несколько часов до слышания голосов."
+			"translations": {
+				"ru": {
+					"question": "Мы искали выход из леса уже несколько часов, когда услышали голоса.",
+					"explanation": "Past Perfect Continuous с for several hours: поиск длился несколько часов до слышания голосов."
+				},
+				"fr": {
+					"question": "Nous cherchions une sortie de la forêt depuis plusieurs heures quand nous avons entendu des voix.",
+					"explanation": "Le Past Perfect Continuous avec for several hours : la recherche a duré plusieurs heures jusqu'à ce qu'on entende des voix."
+				},
+				"de": {
+					"question": "Wir hatten mehrere Stunden lang nach einem Ausweg aus dem Wald gesucht, als wir Stimmen hörten.",
+					"explanation": "Das Past Perfect Continuous mit for several hours: die Suche dauerte mehrere Stunden bis zum Hören der Stimmen."
+				},
+				"es": {
+					"question": "Habíamos estado buscando una salida del bosque durante varias horas cuando oímos voces.",
+					"explanation": "El Past Perfect Continuous con for several hours: la búsqueda duró varias horas hasta oír las voces."
+				}
+			}
 		},
 		{
-			"question": "Он весь вечер готовил ужин, прежде чем позвал всех к столу.",
 			"answer": "He had been cooking dinner all evening before he called everyone to the table.",
-			"explanation": "Past Perfect Continuous с all evening: готовка продолжалась весь вечер."
+			"translations": {
+				"ru": {
+					"question": "Он весь вечер готовил ужин, прежде чем позвал всех к столу.",
+					"explanation": "Past Perfect Continuous с all evening: готовка продолжалась весь вечер."
+				},
+				"fr": {
+					"question": "Il avait cuisiné toute la soirée avant d'appeler tout le monde à table.",
+					"explanation": "Le Past Perfect Continuous avec all evening : la cuisine a duré toute la soirée."
+				},
+				"de": {
+					"question": "Er hatte den ganzen Abend gekocht, bevor er alle zum Tisch rief.",
+					"explanation": "Das Past Perfect Continuous mit all evening: das Kochen dauerte den ganzen Abend."
+				},
+				"es": {
+					"question": "Había estado cocinando toda la tarde antes de llamar a todos a la mesa.",
+					"explanation": "El Past Perfect Continuous con all evening: la cocina duró toda la tarde."
+				}
+			}
 		},
 		{
-			"question": "Она посвящала время волонтёрству несколько лет до начала карьеры.",
 			"answer": "She had been volunteering for several years before starting her career.",
-			"explanation": "Past Perfect Continuous с for several years: волонтёрство предшествует началу карьеры."
+			"translations": {
+				"ru": {
+					"question": "Она посвящала время волонтёрству несколько лет до начала карьеры.",
+					"explanation": "Past Perfect Continuous с for several years: волонтёрство предшествует началу карьеры."
+				},
+				"fr": {
+					"question": "Elle avait fait du bénévolat pendant plusieurs années avant de commencer sa carrière.",
+					"explanation": "Le Past Perfect Continuous avec for several years : le bénévolat a précédé le début de la carrière."
+				},
+				"de": {
+					"question": "Sie hatte sich mehrere Jahre lang ehrenamtlich engagiert, bevor sie ihre Karriere begann.",
+					"explanation": "Das Past Perfect Continuous mit for several years: das Ehrenamt ging dem Karrierebeginn voraus."
+				},
+				"es": {
+					"question": "Había estado haciendo voluntariado durante varios años antes de iniciar su carrera.",
+					"explanation": "El Past Perfect Continuous con for several years: el voluntariado precedió al inicio de la carrera."
+				}
+			}
 		},
 		{
-			"question": "Они переговаривались с поставщиками несколько месяцев до заключения договора.",
 			"answer": "They had been negotiating with suppliers for several months before signing the contract.",
-			"explanation": "Past Perfect Continuous с for several months: переговоры предшествовали подписанию."
+			"translations": {
+				"ru": {
+					"question": "Они переговаривались с поставщиками несколько месяцев до заключения договора.",
+					"explanation": "Past Perfect Continuous с for several months: переговоры предшествовали подписанию."
+				},
+				"fr": {
+					"question": "Ils avaient négocié avec les fournisseurs pendant plusieurs mois avant de signer le contrat.",
+					"explanation": "Le Past Perfect Continuous avec for several months : les négociations ont précédé la signature."
+				},
+				"de": {
+					"question": "Sie hatten mehrere Monate lang mit den Lieferanten verhandelt, bevor der Vertrag unterzeichnet wurde.",
+					"explanation": "Das Past Perfect Continuous mit for several months: die Verhandlungen gingen der Unterzeichnung voraus."
+				},
+				"es": {
+					"question": "Habían estado negociando con los proveedores durante varios meses antes de firmar el contrato.",
+					"explanation": "El Past Perfect Continuous con for several months: las negociaciones precedieron a la firma."
+				}
+			}
 		},
 		{
-			"question": "Его одежда была мокрой — долго стоял под дождём.",
 			"answer": "His clothes were wet — he had been standing in the rain for a long time.",
-			"explanation": "Past Perfect Continuous объясняет видимый результат (мокрая одежда) через длительный процесс."
+			"translations": {
+				"ru": {
+					"question": "Его одежда была мокрой — долго стоял под дождём.",
+					"explanation": "Past Perfect Continuous объясняет видимый результат (мокрая одежда) через длительный процесс."
+				},
+				"fr": {
+					"question": "Ses vêtements étaient mouillés — il avait longtemps été sous la pluie.",
+					"explanation": "Le Past Perfect Continuous explique un résultat visible (vêtements mouillés) par un processus prolongé."
+				},
+				"de": {
+					"question": "Seine Kleidung war nass — er hatte lange im Regen gestanden.",
+					"explanation": "Das Past Perfect Continuous erklärt ein sichtbares Ergebnis (nasse Kleidung) durch einen andauernden Prozess."
+				},
+				"es": {
+					"question": "Su ropa estaba mojada — había estado mucho tiempo bajo la lluvia.",
+					"explanation": "El Past Perfect Continuous explica un resultado visible (ropa mojada) mediante un proceso prolongado."
+				}
+			}
 		},
 		{
-			"question": "Мы разрабатывали стратегию несколько недель, когда наконец утвердили план.",
 			"answer": "We had been developing the strategy for several weeks when the plan was finally approved.",
-			"explanation": "Past Perfect Continuous с for several weeks: разработка продолжалась до утверждения плана."
+			"translations": {
+				"ru": {
+					"question": "Мы разрабатывали стратегию несколько недель, когда наконец утвердили план.",
+					"explanation": "Past Perfect Continuous с for several weeks: разработка продолжалась до утверждения плана."
+				},
+				"fr": {
+					"question": "Nous élaborions la stratégie depuis plusieurs semaines quand le plan a enfin été approuvé.",
+					"explanation": "Le Past Perfect Continuous avec for several weeks : l'élaboration a duré jusqu'à l'approbation du plan."
+				},
+				"de": {
+					"question": "Wir hatten mehrere Wochen lang an der Strategie gearbeitet, als der Plan endlich genehmigt wurde.",
+					"explanation": "Das Past Perfect Continuous mit for several weeks: die Entwicklung dauerte bis zur Genehmigung des Plans."
+				},
+				"es": {
+					"question": "Habíamos estado elaborando la estrategia durante varias semanas cuando por fin se aprobó el plan.",
+					"explanation": "El Past Perfect Continuous con for several weeks: la elaboración duró hasta la aprobación del plan."
+				}
+			}
 		},
 		{
-			"question": "Она преподавала в школе двадцать лет до смены профессии.",
 			"answer": "She had been teaching at school for twenty years before changing her profession.",
-			"explanation": "Past Perfect Continuous с for twenty years: преподавание длилось двадцать лет."
+			"translations": {
+				"ru": {
+					"question": "Она преподавала в школе двадцать лет до смены профессии.",
+					"explanation": "Past Perfect Continuous с for twenty years: преподавание длилось двадцать лет."
+				},
+				"fr": {
+					"question": "Elle avait enseigné à l'école pendant vingt ans avant de changer de profession.",
+					"explanation": "Le Past Perfect Continuous avec for twenty years : l'enseignement a duré vingt ans."
+				},
+				"de": {
+					"question": "Sie hatte zwanzig Jahre lang an der Schule unterrichtet, bevor sie ihren Beruf wechselte.",
+					"explanation": "Das Past Perfect Continuous mit for twenty years: das Unterrichten dauerte zwanzig Jahre."
+				},
+				"es": {
+					"question": "Había estado enseñando en la escuela durante veinte años antes de cambiar de profesión.",
+					"explanation": "El Past Perfect Continuous con for twenty years: la docencia duró veinte años."
+				}
+			}
 		},
 		{
-			"question": "Он нервно расхаживал по комнате несколько часов до прихода врача.",
 			"answer": "He had been pacing the room nervously for several hours before the doctor arrived.",
-			"explanation": "Past Perfect Continuous с for several hours: хождение по комнате до прихода врача."
+			"translations": {
+				"ru": {
+					"question": "Он нервно расхаживал по комнате несколько часов до прихода врача.",
+					"explanation": "Past Perfect Continuous с for several hours: хождение по комнате до прихода врача."
+				},
+				"fr": {
+					"question": "Il arpentait nerveusement la pièce depuis plusieurs heures avant l'arrivée du médecin.",
+					"explanation": "Le Past Perfect Continuous avec for several hours : les allées et venues ont duré jusqu'à l'arrivée du médecin."
+				},
+				"de": {
+					"question": "Er hatte mehrere Stunden lang nervös im Zimmer auf und ab gegangen, bevor der Arzt kam.",
+					"explanation": "Das Past Perfect Continuous mit for several hours: das Auf-und-Ab-Gehen dauerte bis zur Ankunft des Arztes."
+				},
+				"es": {
+					"question": "Había estado paseando nerviosamente por la habitación durante varias horas antes de que llegara el médico.",
+					"explanation": "El Past Perfect Continuous con for several hours: el paseo duró hasta la llegada del médico."
+				}
+			}
 		},
 		{
-			"question": "Они переписывались по электронной почте несколько месяцев до личной встречи.",
 			"answer": "They had been emailing each other for several months before meeting in person.",
-			"explanation": "Past Perfect Continuous с for several months: переписка до личной встречи."
+			"translations": {
+				"ru": {
+					"question": "Они переписывались по электронной почте несколько месяцев до личной встречи.",
+					"explanation": "Past Perfect Continuous с for several months: переписка до личной встречи."
+				},
+				"fr": {
+					"question": "Ils s'étaient envoyé des emails pendant plusieurs mois avant de se rencontrer en personne.",
+					"explanation": "Le Past Perfect Continuous avec for several months : la correspondance a précédé la rencontre en personne."
+				},
+				"de": {
+					"question": "Sie hatten mehrere Monate lang per E-Mail korrespondiert, bevor sie sich persönlich trafen.",
+					"explanation": "Das Past Perfect Continuous mit for several months: die Korrespondenz ging dem persönlichen Treffen voraus."
+				},
+				"es": {
+					"question": "Habían estado enviándose correos durante varios meses antes de conocerse en persona.",
+					"explanation": "El Past Perfect Continuous con for several months: la correspondencia precedió al encuentro en persona."
+				}
+			}
 		},
 		{
-			"question": "Ребёнок кашлял всю ночь — поэтому мама не спала.",
 			"answer": "The child had been coughing all night, which is why the mother hadn't slept.",
-			"explanation": "Past Perfect Continuous объясняет причину другого прошлого состояния."
+			"translations": {
+				"ru": {
+					"question": "Ребёнок кашлял всю ночь — поэтому мама не спала.",
+					"explanation": "Past Perfect Continuous объясняет причину другого прошлого состояния."
+				},
+				"fr": {
+					"question": "L'enfant avait toussé toute la nuit — c'est pourquoi la maman n'avait pas dormi.",
+					"explanation": "Le Past Perfect Continuous explique la cause d'un autre état passé."
+				},
+				"de": {
+					"question": "Das Kind hatte die ganze Nacht gehustet — deshalb hatte die Mutter nicht geschlafen.",
+					"explanation": "Das Past Perfect Continuous erklärt die Ursache eines anderen vergangenen Zustands."
+				},
+				"es": {
+					"question": "El niño había estado tosiendo toda la noche — por eso la mamá no había dormido.",
+					"explanation": "El Past Perfect Continuous explica la causa de otro estado pasado."
+				}
+			}
 		},
 		{
-			"question": "Она писала диссертацию три года, когда наконец защитилась.",
 			"answer": "She had been writing her dissertation for three years when she finally defended it.",
-			"explanation": "Past Perfect Continuous с for three years: написание диссертации до защиты."
+			"translations": {
+				"ru": {
+					"question": "Она писала диссертацию три года, когда наконец защитилась.",
+					"explanation": "Past Perfect Continuous с for three years: написание диссертации до защиты."
+				},
+				"fr": {
+					"question": "Elle avait rédigé sa thèse pendant trois ans quand elle l'a enfin soutenue.",
+					"explanation": "Le Past Perfect Continuous avec for three years : la rédaction de la thèse a duré trois ans."
+				},
+				"de": {
+					"question": "Sie hatte drei Jahre lang ihre Dissertation geschrieben, als sie sie endlich verteidigte.",
+					"explanation": "Das Past Perfect Continuous mit for three years: das Schreiben der Dissertation dauerte drei Jahre."
+				},
+				"es": {
+					"question": "Había estado escribiendo su tesis durante tres años cuando por fin la defendió.",
+					"explanation": "El Past Perfect Continuous con for three years: la escritura de la tesis duró tres años."
+				}
+			}
 		},
 		{
-			"question": "Мы ехали несколько часов, прежде чем остановились отдохнуть.",
 			"answer": "We had been driving for several hours before we stopped to rest.",
-			"explanation": "Past Perfect Continuous с for several hours: поездка продолжалась до остановки."
+			"translations": {
+				"ru": {
+					"question": "Мы ехали несколько часов, прежде чем остановились отдохнуть.",
+					"explanation": "Past Perfect Continuous с for several hours: поездка продолжалась до остановки."
+				},
+				"fr": {
+					"question": "Nous avions roulé pendant plusieurs heures avant de nous arrêter pour nous reposer.",
+					"explanation": "Le Past Perfect Continuous avec for several hours : le trajet a duré jusqu'à l'arrêt."
+				},
+				"de": {
+					"question": "Wir waren mehrere Stunden lang gefahren, bevor wir anhielten, um uns zu erholen.",
+					"explanation": "Das Past Perfect Continuous mit for several hours: die Fahrt dauerte bis zum Stopp."
+				},
+				"es": {
+					"question": "Habíamos estado conduciendo durante varias horas antes de parar a descansar.",
+					"explanation": "El Past Perfect Continuous con for several hours: el viaje duró hasta la parada."
+				}
+			}
 		},
 		{
-			"question": "Он плохо себя чувствовал — видимо, не высыпался.",
 			"answer": "He was feeling unwell — he had apparently not been sleeping enough.",
-			"explanation": "Past Perfect Continuous в отрицательной форме объясняет плохое самочувствие."
+			"translations": {
+				"ru": {
+					"question": "Он плохо себя чувствовал — видимо, не высыпался.",
+					"explanation": "Past Perfect Continuous в отрицательной форме объясняет плохое самочувствие."
+				},
+				"fr": {
+					"question": "Il se sentait mal — visiblement il ne dormait pas assez.",
+					"explanation": "Le Past Perfect Continuous négatif explique un mauvais état de santé."
+				},
+				"de": {
+					"question": "Er fühlte sich unwohl — offensichtlich hatte er nicht genug geschlafen.",
+					"explanation": "Das Past Perfect Continuous negativ erklärt ein schlechtes Befinden."
+				},
+				"es": {
+					"question": "Se sentía mal — evidentemente no había estado durmiendo suficiente.",
+					"explanation": "El Past Perfect Continuous negativo explica un mal estado de salud."
+				}
+			}
 		},
 		{
-			"question": "Они ждали посылку с прошлого месяца, когда курьер наконец позвонил.",
 			"answer": "They had been waiting for the parcel since last month when the courier finally called.",
-			"explanation": "Past Perfect Continuous с since last month: ожидание началось в прошлом месяце."
+			"translations": {
+				"ru": {
+					"question": "Они ждали посылку с прошлого месяца, когда курьер наконец позвонил.",
+					"explanation": "Past Perfect Continuous с since last month: ожидание началось в прошлом месяце."
+				},
+				"fr": {
+					"question": "Ils attendaient le colis depuis le mois dernier quand le coursier a enfin appelé.",
+					"explanation": "Le Past Perfect Continuous avec since last month : l'attente a commencé le mois dernier."
+				},
+				"de": {
+					"question": "Sie hatten seit letztem Monat auf das Paket gewartet, als der Kurier endlich anrief.",
+					"explanation": "Das Past Perfect Continuous mit since last month: das Warten begann letzten Monat."
+				},
+				"es": {
+					"question": "Habían estado esperando el paquete desde el mes pasado cuando por fin llamó el mensajero.",
+					"explanation": "El Past Perfect Continuous con since last month: la espera comenzó el mes pasado."
+				}
+			}
 		},
 		{
-			"question": "Она пела в хоре с пяти лет, когда дала первый сольный концерт.",
 			"answer": "She had been singing in the choir since the age of five when she gave her first solo concert.",
-			"explanation": "Past Perfect Continuous с since the age of five: пение в хоре с пяти лет до сольного концерта."
+			"translations": {
+				"ru": {
+					"question": "Она пела в хоре с пяти лет, когда дала первый сольный концерт.",
+					"explanation": "Past Perfect Continuous с since the age of five: пение в хоре с пяти лет до сольного концерта."
+				},
+				"fr": {
+					"question": "Elle chantait dans le chœur depuis l'âge de cinq ans quand elle a donné son premier concert solo.",
+					"explanation": "Le Past Perfect Continuous avec since the age of five : le chant dans le chœur a duré depuis cinq ans jusqu'au concert solo."
+				},
+				"de": {
+					"question": "Sie hatte seit dem Alter von fünf Jahren im Chor gesungen, als sie ihr erstes Solokonzert gab.",
+					"explanation": "Das Past Perfect Continuous mit since the age of five: das Chorsingen dauerte seit dem fünften Lebensjahr bis zum Solokonzert."
+				},
+				"es": {
+					"question": "Había estado cantando en el coro desde los cinco años cuando dio su primer concierto en solitario.",
+					"explanation": "El Past Perfect Continuous con since the age of five: cantar en el coro duró desde los cinco años hasta el concierto en solitario."
+				}
+			}
 		},
 		{
-			"question": "Мы собирали деньги на путешествие несколько месяцев, прежде чем улетели.",
 			"answer": "We had been saving up for the trip for several months before we flew out.",
-			"explanation": "Past Perfect Continuous с for several months: накопления до поездки."
+			"translations": {
+				"ru": {
+					"question": "Мы собирали деньги на путешествие несколько месяцев, прежде чем улетели.",
+					"explanation": "Past Perfect Continuous с for several months: накопления до поездки."
+				},
+				"fr": {
+					"question": "Nous avions mis de l'argent de côté pour le voyage pendant plusieurs mois avant de partir.",
+					"explanation": "Le Past Perfect Continuous avec for several months : les économies ont précédé le voyage."
+				},
+				"de": {
+					"question": "Wir hatten mehrere Monate lang für die Reise gespart, bevor wir abflogen.",
+					"explanation": "Das Past Perfect Continuous mit for several months: das Sparen ging der Reise voraus."
+				},
+				"es": {
+					"question": "Habíamos estado ahorrando para el viaje durante varios meses antes de salir.",
+					"explanation": "El Past Perfect Continuous con for several months: el ahorro precedió al viaje."
+				}
+			}
 		},
 		{
-			"question": "Его глаза были красными — долго сидел за экраном.",
 			"answer": "His eyes were red — he had been staring at the screen for a long time.",
-			"explanation": "Past Perfect Continuous объясняет наблюдаемый результат через длительное предшествующее действие."
+			"translations": {
+				"ru": {
+					"question": "Его глаза были красными — долго сидел за экраном.",
+					"explanation": "Past Perfect Continuous объясняет наблюдаемый результат через длительное предшествующее действие."
+				},
+				"fr": {
+					"question": "Ses yeux étaient rouges — il avait longtemps fixé l'écran.",
+					"explanation": "Le Past Perfect Continuous explique un résultat observable par une action prolongée qui l'a précédé."
+				},
+				"de": {
+					"question": "Seine Augen waren rot — er hatte lange auf den Bildschirm gestarrt.",
+					"explanation": "Das Past Perfect Continuous erklärt ein beobachtbares Ergebnis durch eine vorangegangene andauernde Handlung."
+				},
+				"es": {
+					"question": "Tenía los ojos rojos — había estado mirando la pantalla mucho tiempo.",
+					"explanation": "El Past Perfect Continuous explica un resultado observable mediante una acción prolongada que lo precedió."
+				}
+			}
 		},
 		{
-			"question": "Они строили мост несколько лет до его торжественного открытия.",
 			"answer": "They had been building the bridge for several years before its grand opening.",
-			"explanation": "Past Perfect Continuous с for several years: строительство моста до открытия."
+			"translations": {
+				"ru": {
+					"question": "Они строили мост несколько лет до его торжественного открытия.",
+					"explanation": "Past Perfect Continuous с for several years: строительство моста до открытия."
+				},
+				"fr": {
+					"question": "Ils avaient construit le pont pendant plusieurs années avant son inauguration.",
+					"explanation": "Le Past Perfect Continuous avec for several years : la construction a duré jusqu'à l'inauguration."
+				},
+				"de": {
+					"question": "Sie hatten mehrere Jahre lang die Brücke gebaut, bevor sie feierlich eröffnet wurde.",
+					"explanation": "Das Past Perfect Continuous mit for several years: der Bau dauerte bis zur Eröffnung."
+				},
+				"es": {
+					"question": "Habían estado construyendo el puente durante varios años antes de su inauguración.",
+					"explanation": "El Past Perfect Continuous con for several years: la construcción duró hasta la inauguración."
+				}
+			}
 		},
 		{
-			"question": "Она готовилась к собеседованию несколько дней, прежде чем пошла в офис.",
 			"answer": "She had been preparing for the interview for several days before going to the office.",
-			"explanation": "Past Perfect Continuous с for several days: подготовка до собеседования."
+			"translations": {
+				"ru": {
+					"question": "Она готовилась к собеседованию несколько дней, прежде чем пошла в офис.",
+					"explanation": "Past Perfect Continuous с for several days: подготовка до собеседования."
+				},
+				"fr": {
+					"question": "Elle s'était préparée pour l'entretien pendant plusieurs jours avant d'aller au bureau.",
+					"explanation": "Le Past Perfect Continuous avec for several days : la préparation a précédé l'entretien."
+				},
+				"de": {
+					"question": "Sie hatte sich mehrere Tage lang auf das Vorstellungsgespräch vorbereitet, bevor sie ins Büro ging.",
+					"explanation": "Das Past Perfect Continuous mit for several days: die Vorbereitung ging dem Gespräch voraus."
+				},
+				"es": {
+					"question": "Había estado preparándose para la entrevista durante varios días antes de ir a la oficina.",
+					"explanation": "El Past Perfect Continuous con for several days: la preparación precedió a la entrevista."
+				}
+			}
 		},
 		{
-			"question": "Он охотился на этот трофей несколько лет, когда наконец добился успеха.",
 			"answer": "He had been hunting for that trophy for several years when he finally succeeded.",
-			"explanation": "Past Perfect Continuous с for several years: стремление к трофею до успеха."
+			"translations": {
+				"ru": {
+					"question": "Он охотился на этот трофей несколько лет, когда наконец добился успеха.",
+					"explanation": "Past Perfect Continuous с for several years: стремление к трофею до успеха."
+				},
+				"fr": {
+					"question": "Il avait chassé ce trophée pendant plusieurs années quand il a enfin réussi.",
+					"explanation": "Le Past Perfect Continuous avec for several years : la poursuite du trophée a précédé le succès."
+				},
+				"de": {
+					"question": "Er hatte mehrere Jahre lang nach diesem Pokal gejagt, als er endlich erfolgreich war.",
+					"explanation": "Das Past Perfect Continuous mit for several years: die Jagd nach dem Pokal ging dem Erfolg voraus."
+				},
+				"es": {
+					"question": "Había estado persiguiendo ese trofeo durante varios años cuando por fin lo logró.",
+					"explanation": "El Past Perfect Continuous con for several years: la persecución del trofeo precedió al éxito."
+				}
+			}
 		},
 		{
-			"question": "Они тренировались вместе с прошлой осени, когда выступили на чемпионате.",
 			"answer": "They had been training together since last autumn when they performed at the championship.",
-			"explanation": "Past Perfect Continuous с since last autumn: совместные тренировки до чемпионата."
+			"translations": {
+				"ru": {
+					"question": "Они тренировались вместе с прошлой осени, когда выступили на чемпионате.",
+					"explanation": "Past Perfect Continuous с since last autumn: совместные тренировки до чемпионата."
+				},
+				"fr": {
+					"question": "Ils s'entraînaient ensemble depuis l'automne dernier quand ils ont participé au championnat.",
+					"explanation": "Le Past Perfect Continuous avec since last autumn : l'entraînement commun a précédé le championnat."
+				},
+				"de": {
+					"question": "Sie hatten seit letztem Herbst zusammen trainiert, als sie an der Meisterschaft teilnahmen.",
+					"explanation": "Das Past Perfect Continuous mit since last autumn: das gemeinsame Training ging der Meisterschaft voraus."
+				},
+				"es": {
+					"question": "Habían estado entrenando juntos desde el otoño pasado cuando participaron en el campeonato.",
+					"explanation": "El Past Perfect Continuous con since last autumn: el entrenamiento conjunto precedió al campeonato."
+				}
+			}
 		},
 		{
-			"question": "Кухня была грязной — явно долго готовили.",
 			"answer": "The kitchen was messy — they had clearly been cooking for a long time.",
-			"explanation": "Past Perfect Continuous объясняет беспорядок на кухне через длительный процесс готовки."
+			"translations": {
+				"ru": {
+					"question": "Кухня была грязной — явно долго готовили.",
+					"explanation": "Past Perfect Continuous объясняет беспорядок на кухне через длительный процесс готовки."
+				},
+				"fr": {
+					"question": "La cuisine était en désordre — visiblement ils cuisinaient depuis longtemps.",
+					"explanation": "Le Past Perfect Continuous explique le désordre dans la cuisine par un long processus de cuisson."
+				},
+				"de": {
+					"question": "Die Küche war unordentlich — offensichtlich hatten sie lange gekocht.",
+					"explanation": "Das Past Perfect Continuous erklärt die Unordnung in der Küche durch einen langen Kochprozess."
+				},
+				"es": {
+					"question": "La cocina estaba desordenada — claramente habían estado cocinando mucho tiempo.",
+					"explanation": "El Past Perfect Continuous explica el desorden en la cocina mediante un prolongado proceso de cocción."
+				}
+			}
 		},
 		{
-			"question": "Мы слушали лекции несколько часов до перерыва.",
 			"answer": "We had been listening to lectures for several hours before the break.",
-			"explanation": "Past Perfect Continuous с for several hours: лекции продолжались до перерыва."
+			"translations": {
+				"ru": {
+					"question": "Мы слушали лекции несколько часов до перерыва.",
+					"explanation": "Past Perfect Continuous с for several hours: лекции продолжались до перерыва."
+				},
+				"fr": {
+					"question": "Nous avions écouté des conférences pendant plusieurs heures avant la pause.",
+					"explanation": "Le Past Perfect Continuous avec for several hours : les conférences ont duré jusqu'à la pause."
+				},
+				"de": {
+					"question": "Wir hatten mehrere Stunden lang Vorlesungen gehört, bevor es eine Pause gab.",
+					"explanation": "Das Past Perfect Continuous mit for several hours: die Vorlesungen dauerten bis zur Pause."
+				},
+				"es": {
+					"question": "Habíamos estado escuchando conferencias durante varias horas antes del descanso.",
+					"explanation": "El Past Perfect Continuous con for several hours: las conferencias duraron hasta el descanso."
+				}
+			}
 		},
 		{
-			"question": "Она ухаживала за больной матерью несколько лет до её выздоровления.",
 			"answer": "She had been looking after her sick mother for several years before she recovered.",
-			"explanation": "Past Perfect Continuous с for several years: уход за матерью до её выздоровления."
+			"translations": {
+				"ru": {
+					"question": "Она ухаживала за больной матерью несколько лет до её выздоровления.",
+					"explanation": "Past Perfect Continuous с for several years: уход за матерью до её выздоровления."
+				},
+				"fr": {
+					"question": "Elle avait pris soin de sa mère malade pendant plusieurs années jusqu'à son rétablissement.",
+					"explanation": "Le Past Perfect Continuous avec for several years : les soins ont duré jusqu'au rétablissement."
+				},
+				"de": {
+					"question": "Sie hatte mehrere Jahre lang ihre kranke Mutter gepflegt, bis diese genas.",
+					"explanation": "Das Past Perfect Continuous mit for several years: die Pflege dauerte bis zur Genesung."
+				},
+				"es": {
+					"question": "Había estado cuidando a su madre enferma durante varios años hasta su recuperación.",
+					"explanation": "El Past Perfect Continuous con for several years: los cuidados duraron hasta la recuperación."
+				}
+			}
 		},
 		{
-			"question": "Он занимался исследованиями несколько лет, прежде чем опубликовал результаты.",
 			"answer": "He had been doing research for several years before publishing the results.",
-			"explanation": "Past Perfect Continuous с for several years: исследования до публикации."
+			"translations": {
+				"ru": {
+					"question": "Он занимался исследованиями несколько лет, прежде чем опубликовал результаты.",
+					"explanation": "Past Perfect Continuous с for several years: исследования до публикации."
+				},
+				"fr": {
+					"question": "Il faisait des recherches depuis plusieurs années avant de publier les résultats.",
+					"explanation": "Le Past Perfect Continuous avec for several years : les recherches ont précédé la publication."
+				},
+				"de": {
+					"question": "Er hatte mehrere Jahre lang geforscht, bevor er die Ergebnisse veröffentlichte.",
+					"explanation": "Das Past Perfect Continuous mit for several years: die Forschung ging der Veröffentlichung voraus."
+				},
+				"es": {
+					"question": "Había estado investigando durante varios años antes de publicar los resultados.",
+					"explanation": "El Past Perfect Continuous con for several years: la investigación precedió a la publicación."
+				}
+			}
 		},
 		{
-			"question": "Они ругались весь вечер, поэтому атмосфера была напряжённой.",
 			"answer": "They had been quarrelling all evening, so the atmosphere was tense.",
-			"explanation": "Past Perfect Continuous объясняет напряжённую атмосферу через предшествующую длительную ссору."
+			"translations": {
+				"ru": {
+					"question": "Они ругались весь вечер, поэтому атмосфера была напряжённой.",
+					"explanation": "Past Perfect Continuous объясняет напряжённую атмосферу через предшествующую длительную ссору."
+				},
+				"fr": {
+					"question": "Ils s'étaient disputés toute la soirée, ce qui avait créé une atmosphère tendue.",
+					"explanation": "Le Past Perfect Continuous explique une atmosphère tendue par une longue dispute qui l'a précédée."
+				},
+				"de": {
+					"question": "Sie hatten den ganzen Abend gestritten, weshalb die Atmosphäre angespannt war.",
+					"explanation": "Das Past Perfect Continuous erklärt eine angespannte Atmosphäre durch einen vorangegangenen langen Streit."
+				},
+				"es": {
+					"question": "Habían estado discutiendo toda la tarde, por lo que el ambiente estaba tenso.",
+					"explanation": "El Past Perfect Continuous explica un ambiente tenso mediante una larga disputa que lo precedió."
+				}
+			}
 		},
 		{
-			"question": "Она занималась йогой три года до травмы.",
 			"answer": "She had been doing yoga for three years before the injury.",
-			"explanation": "Past Perfect Continuous с for three years: занятия йогой продолжались до травмы."
+			"translations": {
+				"ru": {
+					"question": "Она занималась йогой три года до травмы.",
+					"explanation": "Past Perfect Continuous с for three years: занятия йогой продолжались до травмы."
+				},
+				"fr": {
+					"question": "Elle avait fait du yoga pendant trois ans avant la blessure.",
+					"explanation": "Le Past Perfect Continuous avec for three years : la pratique du yoga a duré trois ans jusqu'à la blessure."
+				},
+				"de": {
+					"question": "Sie hatte drei Jahre lang Yoga gemacht, bevor sie sich verletzte.",
+					"explanation": "Das Past Perfect Continuous mit for three years: das Yoga-Praktizieren dauerte drei Jahre bis zur Verletzung."
+				},
+				"es": {
+					"question": "Había estado haciendo yoga durante tres años antes de la lesión.",
+					"explanation": "El Past Perfect Continuous con for three years: la práctica del yoga duró tres años hasta la lesión."
+				}
+			}
 		},
 		{
-			"question": "Мы работали над презентацией всю ночь, когда руководитель её одобрил.",
 			"answer": "We had been working on the presentation all night when the manager approved it.",
-			"explanation": "Past Perfect Continuous с all night: работа над презентацией продолжалась всю ночь."
+			"translations": {
+				"ru": {
+					"question": "Мы работали над презентацией всю ночь, когда руководитель её одобрил.",
+					"explanation": "Past Perfect Continuous с all night: работа над презентацией продолжалась всю ночь."
+				},
+				"fr": {
+					"question": "Nous avions travaillé sur la présentation toute la nuit quand le responsable l'a approuvée.",
+					"explanation": "Le Past Perfect Continuous avec all night : le travail sur la présentation a duré toute la nuit."
+				},
+				"de": {
+					"question": "Wir hatten die ganze Nacht an der Präsentation gearbeitet, als der Vorgesetzte sie genehmigte.",
+					"explanation": "Das Past Perfect Continuous mit all night: die Arbeit an der Präsentation dauerte die ganze Nacht."
+				},
+				"es": {
+					"question": "Habíamos estado trabajando en la presentación toda la noche cuando el responsable la aprobó.",
+					"explanation": "El Past Perfect Continuous con all night: el trabajo en la presentación duró toda la noche."
+				}
+			}
 		},
 		{
-			"question": "Его не было дома несколько часов — видимо, гулял.",
 			"answer": "He had not been home for several hours — he had apparently been out for a walk.",
-			"explanation": "Past Perfect Continuous объясняет отсутствие человека через длительный выход."
+			"translations": {
+				"ru": {
+					"question": "Его не было дома несколько часов — видимо, гулял.",
+					"explanation": "Past Perfect Continuous объясняет отсутствие человека через длительный выход."
+				},
+				"fr": {
+					"question": "Il n'était pas à la maison depuis plusieurs heures — visiblement il se promenait.",
+					"explanation": "Le Past Perfect Continuous explique l'absence d'une personne par une longue sortie."
+				},
+				"de": {
+					"question": "Er war mehrere Stunden nicht zu Hause gewesen — offensichtlich war er spazieren gegangen.",
+					"explanation": "Das Past Perfect Continuous erklärt die Abwesenheit einer Person durch einen langen Ausgang."
+				},
+				"es": {
+					"question": "No había estado en casa durante varias horas — evidentemente había salido a pasear.",
+					"explanation": "El Past Perfect Continuous explica la ausencia de una persona mediante una larga salida."
+				}
+			}
 		},
 		{
-			"question": "Они плыли на лодке несколько дней, прежде чем увидели сушу.",
 			"answer": "They had been sailing for several days before they saw land.",
-			"explanation": "Past Perfect Continuous с for several days: плавание продолжалось несколько дней."
+			"translations": {
+				"ru": {
+					"question": "Они плыли на лодке несколько дней, прежде чем увидели сушу.",
+					"explanation": "Past Perfect Continuous с for several days: плавание продолжалось несколько дней."
+				},
+				"fr": {
+					"question": "Ils avaient navigué pendant plusieurs jours avant d'apercevoir la terre.",
+					"explanation": "Le Past Perfect Continuous avec for several days : la navigation a duré plusieurs jours."
+				},
+				"de": {
+					"question": "Sie waren mehrere Tage lang gesegelt, bevor sie Land sahen.",
+					"explanation": "Das Past Perfect Continuous mit for several days: die Fahrt dauerte mehrere Tage."
+				},
+				"es": {
+					"question": "Habían estado navegando durante varios días antes de avistar tierra.",
+					"explanation": "El Past Perfect Continuous con for several days: la navegación duró varios días."
+				}
+			}
 		},
 		{
-			"question": "Она искала работу несколько месяцев, когда наконец получила предложение.",
 			"answer": "She had been looking for a job for several months when she finally got an offer.",
-			"explanation": "Past Perfect Continuous с for several months: поиск работы до получения предложения."
+			"translations": {
+				"ru": {
+					"question": "Она искала работу несколько месяцев, когда наконец получила предложение.",
+					"explanation": "Past Perfect Continuous с for several months: поиск работы до получения предложения."
+				},
+				"fr": {
+					"question": "Elle cherchait du travail depuis plusieurs mois quand elle a enfin reçu une offre.",
+					"explanation": "Le Past Perfect Continuous avec for several months : la recherche d'emploi a précédé l'offre."
+				},
+				"de": {
+					"question": "Sie hatte mehrere Monate lang Arbeit gesucht, als sie endlich ein Angebot erhielt.",
+					"explanation": "Das Past Perfect Continuous mit for several months: die Jobsuche ging dem Angebot voraus."
+				},
+				"es": {
+					"question": "Había estado buscando trabajo durante varios meses cuando por fin recibió una oferta.",
+					"explanation": "El Past Perfect Continuous con for several months: la búsqueda de empleo precedió a la oferta."
+				}
+			}
 		},
 		{
-			"question": "Он звонил ей несколько раз, когда она наконец ответила.",
 			"answer": "He had been calling her for a while when she finally picked up.",
-			"explanation": "Past Perfect Continuous: звонки продолжались какое-то время до ответа."
+			"translations": {
+				"ru": {
+					"question": "Он звонил ей несколько раз, когда она наконец ответила.",
+					"explanation": "Past Perfect Continuous: звонки продолжались какое-то время до ответа."
+				},
+				"fr": {
+					"question": "Il l'avait appelée plusieurs fois avant qu'elle décroche enfin.",
+					"explanation": "Le Past Perfect Continuous : les appels ont duré un moment avant qu'elle réponde."
+				},
+				"de": {
+					"question": "Er hatte sie mehrmals angerufen, bevor sie endlich ranging.",
+					"explanation": "Das Past Perfect Continuous: die Anrufe dauerten eine Weile, bis sie ranging."
+				},
+				"es": {
+					"question": "Había estado llamándola varias veces hasta que por fin contestó.",
+					"explanation": "El Past Perfect Continuous: las llamadas duraron un tiempo hasta que por fin contestó."
+				}
+			}
 		},
 		{
-			"question": "Они жили раздельно несколько месяцев до официального развода.",
 			"answer": "They had been living separately for several months before the official divorce.",
-			"explanation": "Past Perfect Continuous с for several months: раздельное проживание до развода."
+			"translations": {
+				"ru": {
+					"question": "Они жили раздельно несколько месяцев до официального развода.",
+					"explanation": "Past Perfect Continuous с for several months: раздельное проживание до развода."
+				},
+				"fr": {
+					"question": "Ils avaient vécu séparément pendant plusieurs mois avant le divorce officiel.",
+					"explanation": "Le Past Perfect Continuous avec for several months : la vie séparée a précédé le divorce."
+				},
+				"de": {
+					"question": "Sie hatten mehrere Monate lang getrennt gelebt, bevor die offizielle Scheidung erfolgte.",
+					"explanation": "Das Past Perfect Continuous mit for several months: das getrennte Leben ging der Scheidung voraus."
+				},
+				"es": {
+					"question": "Habían estado viviendo separados durante varios meses antes del divorcio oficial.",
+					"explanation": "El Past Perfect Continuous con for several months: la vida separada precedió al divorcio."
+				}
+			}
 		},
 		{
-			"question": "Она долго болела, поэтому похудела.",
 			"answer": "She had been ill for a long time, so she had lost weight.",
-			"explanation": "Past Perfect Continuous объясняет изменение в весе через продолжительную болезнь."
+			"translations": {
+				"ru": {
+					"question": "Она долго болела, поэтому похудела.",
+					"explanation": "Past Perfect Continuous объясняет изменение в весе через продолжительную болезнь."
+				},
+				"fr": {
+					"question": "Elle avait été malade longtemps, c'est pourquoi elle avait maigri.",
+					"explanation": "Le Past Perfect Continuous explique une perte de poids par une longue maladie."
+				},
+				"de": {
+					"question": "Sie war lange krank gewesen, deshalb hatte sie abgenommen.",
+					"explanation": "Das Past Perfect Continuous erklärt eine Gewichtsabnahme durch eine langanhaltende Krankheit."
+				},
+				"es": {
+					"question": "Había estado enferma mucho tiempo, por eso había adelgazado.",
+					"explanation": "El Past Perfect Continuous explica una pérdida de peso mediante una prolongada enfermedad."
+				}
+			}
 		},
 		{
-			"question": "Мы ехали несколько часов без остановки, прежде чем свернули на заправку.",
 			"answer": "We had been driving for several hours without a stop before we turned into a petrol station.",
-			"explanation": "Past Perfect Continuous с for several hours: непрерывная езда до остановки."
+			"translations": {
+				"ru": {
+					"question": "Мы ехали несколько часов без остановки, прежде чем свернули на заправку.",
+					"explanation": "Past Perfect Continuous с for several hours: непрерывная езда до остановки."
+				},
+				"fr": {
+					"question": "Nous avions roulé pendant plusieurs heures sans nous arrêter avant de tourner dans une station-service.",
+					"explanation": "Le Past Perfect Continuous avec for several hours : la conduite sans arrêt a précédé la pause."
+				},
+				"de": {
+					"question": "Wir waren mehrere Stunden lang ohne Stopp gefahren, bevor wir an einer Tankstelle abbogen.",
+					"explanation": "Das Past Perfect Continuous mit for several hours: die Fahrt ohne Stopp ging der Pause voraus."
+				},
+				"es": {
+					"question": "Habíamos estado conduciendo durante varias horas sin parar antes de girar hacia una gasolinera.",
+					"explanation": "El Past Perfect Continuous con for several hours: la conducción sin parar precedió a la parada."
+				}
+			}
 		},
 		{
-			"question": "Он работал в той фирме пятнадцать лет, когда её закрыли.",
 			"answer": "He had been working at that firm for fifteen years when it was closed down.",
-			"explanation": "Past Perfect Continuous с for fifteen years: работа продолжалась пятнадцать лет до закрытия фирмы."
+			"translations": {
+				"ru": {
+					"question": "Он работал в той фирме пятнадцать лет, когда её закрыли.",
+					"explanation": "Past Perfect Continuous с for fifteen years: работа продолжалась пятнадцать лет до закрытия фирмы."
+				},
+				"fr": {
+					"question": "Il avait travaillé dans cette entreprise pendant quinze ans quand elle a été fermée.",
+					"explanation": "Le Past Perfect Continuous avec for fifteen years : le travail a duré quinze ans jusqu'à la fermeture."
+				},
+				"de": {
+					"question": "Er hatte fünfzehn Jahre lang in dieser Firma gearbeitet, als sie geschlossen wurde.",
+					"explanation": "Das Past Perfect Continuous mit for fifteen years: die Arbeit dauerte fünfzehn Jahre bis zur Schließung."
+				},
+				"es": {
+					"question": "Había estado trabajando en esa empresa durante quince años cuando la cerraron.",
+					"explanation": "El Past Perfect Continuous con for fifteen years: el trabajo duró quince años hasta el cierre."
+				}
+			}
 		},
 		{
-			"question": "Дым шёл из окна — значит, горело уже давно.",
 			"answer": "Smoke was coming from the window — it had been burning for a long time already.",
-			"explanation": "Past Perfect Continuous объясняет видимый признак (дым) через длительный процесс горения."
+			"translations": {
+				"ru": {
+					"question": "Дым шёл из окна — значит, горело уже давно.",
+					"explanation": "Past Perfect Continuous объясняет видимый признак (дым) через длительный процесс горения."
+				},
+				"fr": {
+					"question": "De la fumée sortait de la fenêtre — cela brûlait depuis un moment déjà.",
+					"explanation": "Le Past Perfect Continuous explique un signe visible (la fumée) par un processus de combustion prolongé."
+				},
+				"de": {
+					"question": "Rauch kam aus dem Fenster — es hatte schon lange gebrannt.",
+					"explanation": "Das Past Perfect Continuous erklärt ein sichtbares Zeichen (Rauch) durch einen andauernden Verbrennungsprozess."
+				},
+				"es": {
+					"question": "Salía humo por la ventana — llevaba ardiendo mucho tiempo.",
+					"explanation": "El Past Perfect Continuous explica un signo visible (humo) mediante un prolongado proceso de combustión."
+				}
+			}
 		},
 		{
-			"question": "Они изучали данные несколько недель, прежде чем сделали выводы.",
 			"answer": "They had been analysing the data for several weeks before drawing conclusions.",
-			"explanation": "Past Perfect Continuous с for several weeks: анализ данных до выводов."
+			"translations": {
+				"ru": {
+					"question": "Они изучали данные несколько недель, прежде чем сделали выводы.",
+					"explanation": "Past Perfect Continuous с for several weeks: анализ данных до выводов."
+				},
+				"fr": {
+					"question": "Ils avaient analysé les données pendant plusieurs semaines avant de tirer des conclusions.",
+					"explanation": "Le Past Perfect Continuous avec for several weeks : l'analyse a précédé les conclusions."
+				},
+				"de": {
+					"question": "Sie hatten mehrere Wochen lang die Daten analysiert, bevor sie Schlussfolgerungen zogen.",
+					"explanation": "Das Past Perfect Continuous mit for several weeks: die Analyse ging den Schlussfolgerungen voraus."
+				},
+				"es": {
+					"question": "Habían estado analizando los datos durante varias semanas antes de sacar conclusiones.",
+					"explanation": "El Past Perfect Continuous con for several weeks: el análisis precedió a las conclusiones."
+				}
+			}
 		},
 		{
-			"question": "Она копила на отпуск с января, когда наконец купила билеты.",
 			"answer": "She had been saving for the holiday since January when she finally bought the tickets.",
-			"explanation": "Past Perfect Continuous с since January: накопления с января до покупки билетов."
+			"translations": {
+				"ru": {
+					"question": "Она копила на отпуск с января, когда наконец купила билеты.",
+					"explanation": "Past Perfect Continuous с since January: накопления с января до покупки билетов."
+				},
+				"fr": {
+					"question": "Elle économisait pour les vacances depuis janvier quand elle a enfin acheté les billets.",
+					"explanation": "Le Past Perfect Continuous avec since January : les économies ont commencé en janvier jusqu'à l'achat des billets."
+				},
+				"de": {
+					"question": "Sie hatte seit Januar für den Urlaub gespart, als sie endlich die Tickets kaufte.",
+					"explanation": "Das Past Perfect Continuous mit since January: das Sparen begann im Januar bis zum Kauf der Tickets."
+				},
+				"es": {
+					"question": "Había estado ahorrando para las vacaciones desde enero cuando por fin compró los billetes.",
+					"explanation": "El Past Perfect Continuous con since January: el ahorro comenzó en enero hasta comprar los billetes."
+				}
+			}
 		},
 		{
-			"question": "Он не отвечал на звонки несколько дней, поэтому все беспокоились.",
 			"answer": "He had not been answering calls for several days, so everyone was worried.",
-			"explanation": "Past Perfect Continuous в отрицательной форме объясняет беспокойство."
+			"translations": {
+				"ru": {
+					"question": "Он не отвечал на звонки несколько дней, поэтому все беспокоились.",
+					"explanation": "Past Perfect Continuous в отрицательной форме объясняет беспокойство."
+				},
+				"fr": {
+					"question": "Il ne répondait pas aux appels depuis plusieurs jours, tout le monde s'inquiétait.",
+					"explanation": "Le Past Perfect Continuous négatif explique une inquiétude collective."
+				},
+				"de": {
+					"question": "Er hatte mehrere Tage lang keine Anrufe beantwortet, weshalb sich alle Sorgen machten.",
+					"explanation": "Das Past Perfect Continuous negativ erklärt eine allgemeine Besorgnis."
+				},
+				"es": {
+					"question": "Llevaba varios días sin responder llamadas, por lo que todos estaban preocupados.",
+					"explanation": "El Past Perfect Continuous negativo explica una preocupación general."
+				}
+			}
 		},
 		{
-			"question": "Мы тренировались каждую неделю несколько месяцев до турнира.",
 			"answer": "We had been training every week for several months before the tournament.",
-			"explanation": "Past Perfect Continuous с for several months: регулярные тренировки до турнира."
+			"translations": {
+				"ru": {
+					"question": "Мы тренировались каждую неделю несколько месяцев до турнира.",
+					"explanation": "Past Perfect Continuous с for several months: регулярные тренировки до турнира."
+				},
+				"fr": {
+					"question": "Nous nous entraînions chaque semaine pendant plusieurs mois avant le tournoi.",
+					"explanation": "Le Past Perfect Continuous avec for several months : les entraînements réguliers ont précédé le tournoi."
+				},
+				"de": {
+					"question": "Wir hatten mehrere Monate lang jede Woche trainiert, bevor das Turnier begann.",
+					"explanation": "Das Past Perfect Continuous mit for several months: das regelmäßige Training ging dem Turnier voraus."
+				},
+				"es": {
+					"question": "Habíamos estado entrenando cada semana durante varios meses antes del torneo.",
+					"explanation": "El Past Perfect Continuous con for several months: el entrenamiento regular precedió al torneo."
+				}
+			}
 		},
 		{
-			"question": "Она работала в ночную смену несколько недель подряд, пока не уволилась.",
 			"answer": "She had been working night shifts for several weeks in a row before she quit.",
-			"explanation": "Past Perfect Continuous с for several weeks in a row: ночные смены до увольнения."
+			"translations": {
+				"ru": {
+					"question": "Она работала в ночную смену несколько недель подряд, пока не уволилась.",
+					"explanation": "Past Perfect Continuous с for several weeks in a row: ночные смены до увольнения."
+				},
+				"fr": {
+					"question": "Elle avait travaillé en équipe de nuit pendant plusieurs semaines d'affilée avant de démissionner.",
+					"explanation": "Le Past Perfect Continuous avec for several weeks in a row : les nuits de travail ont précédé la démission."
+				},
+				"de": {
+					"question": "Sie hatte mehrere Wochen in Folge Nachtschicht gearbeitet, bevor sie kündigte.",
+					"explanation": "Das Past Perfect Continuous mit for several weeks in a row: die Nachtschichten gingen der Kündigung voraus."
+				},
+				"es": {
+					"question": "Había estado trabajando en el turno de noche durante varias semanas seguidas antes de dimitir.",
+					"explanation": "El Past Perfect Continuous con for several weeks in a row: los turnos de noche precedieron a la dimisión."
+				}
+			}
 		},
 		{
-			"question": "Глаза у него слезились — долго читал в темноте.",
 			"answer": "His eyes were watering — he had been reading in the dark for too long.",
-			"explanation": "Past Perfect Continuous объясняет физический симптом через длительное предшествующее действие."
+			"translations": {
+				"ru": {
+					"question": "Глаза у него слезились — долго читал в темноте.",
+					"explanation": "Past Perfect Continuous объясняет физический симптом через длительное предшествующее действие."
+				},
+				"fr": {
+					"question": "Ses yeux larmoyaient — il avait trop longtemps lu dans le noir.",
+					"explanation": "Le Past Perfect Continuous explique un symptôme physique par une action prolongée qui l'a précédé."
+				},
+				"de": {
+					"question": "Seine Augen tränten — er hatte zu lange im Dunkeln gelesen.",
+					"explanation": "Das Past Perfect Continuous erklärt ein körperliches Symptom durch eine vorangegangene andauernde Handlung."
+				},
+				"es": {
+					"question": "Se le lloraban los ojos — había estado leyendo en la oscuridad demasiado tiempo.",
+					"explanation": "El Past Perfect Continuous explica un síntoma físico mediante una acción prolongada que lo precedió."
+				}
+			}
 		},
 		{
-			"question": "Они договаривались о сотрудничестве несколько месяцев, прежде чем подписали соглашение.",
 			"answer": "They had been negotiating the partnership for several months before signing the agreement.",
-			"explanation": "Past Perfect Continuous с for several months: переговоры до соглашения."
+			"translations": {
+				"ru": {
+					"question": "Они договаривались о сотрудничестве несколько месяцев, прежде чем подписали соглашение.",
+					"explanation": "Past Perfect Continuous с for several months: переговоры до соглашения."
+				},
+				"fr": {
+					"question": "Ils négociaient le partenariat depuis plusieurs mois avant de signer l'accord.",
+					"explanation": "Le Past Perfect Continuous avec for several months : les négociations ont précédé l'accord."
+				},
+				"de": {
+					"question": "Sie hatten mehrere Monate lang über die Partnerschaft verhandelt, bevor sie die Vereinbarung unterzeichneten.",
+					"explanation": "Das Past Perfect Continuous mit for several months: die Verhandlungen gingen der Einigung voraus."
+				},
+				"es": {
+					"question": "Habían estado negociando la asociación durante varios meses antes de firmar el acuerdo.",
+					"explanation": "El Past Perfect Continuous con for several months: las negociaciones precedieron al acuerdo."
+				}
+			}
 		},
 		{
-			"question": "Она вела блог три года, прежде чем начала зарабатывать на нём.",
 			"answer": "She had been running a blog for three years before she started making money from it.",
-			"explanation": "Past Perfect Continuous с for three years: ведение блога до монетизации."
+			"translations": {
+				"ru": {
+					"question": "Она вела блог три года, прежде чем начала зарабатывать на нём.",
+					"explanation": "Past Perfect Continuous с for three years: ведение блога до монетизации."
+				},
+				"fr": {
+					"question": "Elle tenait un blog depuis trois ans avant de commencer à en tirer des revenus.",
+					"explanation": "Le Past Perfect Continuous avec for three years : la tenue du blog a précédé la monétisation."
+				},
+				"de": {
+					"question": "Sie hatte drei Jahre lang einen Blog betrieben, bevor sie anfing, damit Geld zu verdienen.",
+					"explanation": "Das Past Perfect Continuous mit for three years: das Bloggen ging der Monetarisierung voraus."
+				},
+				"es": {
+					"question": "Había estado llevando un blog durante tres años antes de empezar a ganar dinero con él.",
+					"explanation": "El Past Perfect Continuous con for three years: llevar el blog precedió a la monetización."
+				}
+			}
 		},
 		{
-			"question": "Он долго молчал, прежде чем признал свою ошибку.",
 			"answer": "He had been silent for a long time before he admitted his mistake.",
-			"explanation": "Past Perfect Continuous с for a long time: молчание длилось до признания ошибки."
+			"translations": {
+				"ru": {
+					"question": "Он долго молчал, прежде чем признал свою ошибку.",
+					"explanation": "Past Perfect Continuous с for a long time: молчание длилось до признания ошибки."
+				},
+				"fr": {
+					"question": "Il avait gardé le silence longtemps avant d'admettre son erreur.",
+					"explanation": "Le Past Perfect Continuous avec for a long time : le silence a duré jusqu'à l'aveu de l'erreur."
+				},
+				"de": {
+					"question": "Er hatte lange geschwiegen, bevor er seinen Fehler zugab.",
+					"explanation": "Das Past Perfect Continuous mit for a long time: das Schweigen dauerte bis zum Eingestehen des Fehlers."
+				},
+				"es": {
+					"question": "Había estado guardando silencio mucho tiempo antes de admitir su error.",
+					"explanation": "El Past Perfect Continuous con for a long time: el silencio duró hasta admitir el error."
+				}
+			}
 		},
 		{
-			"question": "Они реставрировали здание несколько лет до его открытия для публики.",
 			"answer": "They had been restoring the building for several years before opening it to the public.",
-			"explanation": "Past Perfect Continuous с for several years: реставрация предшествовала открытию."
+			"translations": {
+				"ru": {
+					"question": "Они реставрировали здание несколько лет до его открытия для публики.",
+					"explanation": "Past Perfect Continuous с for several years: реставрация предшествовала открытию."
+				},
+				"fr": {
+					"question": "Ils avaient restauré le bâtiment pendant plusieurs années avant de l'ouvrir au public.",
+					"explanation": "Le Past Perfect Continuous avec for several years : la restauration a précédé l'ouverture."
+				},
+				"de": {
+					"question": "Sie hatten das Gebäude mehrere Jahre lang restauriert, bevor es der Öffentlichkeit zugänglich gemacht wurde.",
+					"explanation": "Das Past Perfect Continuous mit for several years: die Restaurierung ging der Öffnung voraus."
+				},
+				"es": {
+					"question": "Habían estado restaurando el edificio durante varios años antes de abrirlo al público.",
+					"explanation": "El Past Perfect Continuous con for several years: la restauración precedió a la apertura."
+				}
+			}
 		},
 		{
-			"question": "Она заметно похудела — долго соблюдала диету.",
 			"answer": "She had noticeably lost weight — she had been on a diet for a long time.",
-			"explanation": "Past Perfect Continuous объясняет похудение через длительное соблюдение диеты."
+			"translations": {
+				"ru": {
+					"question": "Она заметно похудела — долго соблюдала диету.",
+					"explanation": "Past Perfect Continuous объясняет похудение через длительное соблюдение диеты."
+				},
+				"fr": {
+					"question": "Elle avait visiblement perdu du poids — elle suivait un régime depuis longtemps.",
+					"explanation": "Le Past Perfect Continuous explique une perte de poids par le respect prolongé d'un régime."
+				},
+				"de": {
+					"question": "Sie hatte sichtlich abgenommen — sie hatte lange Diät gehalten.",
+					"explanation": "Das Past Perfect Continuous erklärt eine Gewichtsabnahme durch das langanhaltende Einhalten einer Diät."
+				},
+				"es": {
+					"question": "Había adelgazado notablemente — llevaba mucho tiempo siguiendo una dieta.",
+					"explanation": "El Past Perfect Continuous explica una pérdida de peso mediante el prolongado seguimiento de una dieta."
+				}
+			}
 		},
 		{
-			"question": "Мы рассматривали разные варианты несколько недель, прежде чем остановились на одном.",
 			"answer": "We had been considering different options for several weeks before settling on one.",
-			"explanation": "Past Perfect Continuous с for several weeks: рассмотрение вариантов до выбора."
+			"translations": {
+				"ru": {
+					"question": "Мы рассматривали разные варианты несколько недель, прежде чем остановились на одном.",
+					"explanation": "Past Perfect Continuous с for several weeks: рассмотрение вариантов до выбора."
+				},
+				"fr": {
+					"question": "Nous avions envisagé différentes options pendant plusieurs semaines avant d'en choisir une.",
+					"explanation": "Le Past Perfect Continuous avec for several weeks : l'examen des options a précédé le choix."
+				},
+				"de": {
+					"question": "Wir hatten mehrere Wochen lang verschiedene Optionen erwogen, bevor wir uns für eine entschieden.",
+					"explanation": "Das Past Perfect Continuous mit for several weeks: das Prüfen der Optionen ging der Entscheidung voraus."
+				},
+				"es": {
+					"question": "Habíamos estado considerando diferentes opciones durante varias semanas antes de decidirnos por una.",
+					"explanation": "El Past Perfect Continuous con for several weeks: la consideración de opciones precedió a la elección."
+				}
+			}
 		},
 		{
-			"question": "Он занимался серфингом несколько лет до того, как выиграл соревнования.",
 			"answer": "He had been surfing for several years before he won the competition.",
-			"explanation": "Past Perfect Continuous с for several years: занятия серфингом до победы."
+			"translations": {
+				"ru": {
+					"question": "Он занимался серфингом несколько лет до того, как выиграл соревнования.",
+					"explanation": "Past Perfect Continuous с for several years: занятия серфингом до победы."
+				},
+				"fr": {
+					"question": "Il faisait du surf depuis plusieurs années avant de remporter la compétition.",
+					"explanation": "Le Past Perfect Continuous avec for several years : la pratique du surf a précédé la victoire."
+				},
+				"de": {
+					"question": "Er hatte mehrere Jahre lang gesurft, bevor er den Wettbewerb gewann.",
+					"explanation": "Das Past Perfect Continuous mit for several years: das Surfen ging dem Sieg voraus."
+				},
+				"es": {
+					"question": "Había estado practicando surf durante varios años antes de ganar la competición.",
+					"explanation": "El Past Perfect Continuous con for several years: la práctica del surf precedió a la victoria."
+				}
+			}
 		},
 		{
-			"question": "Они общались онлайн несколько месяцев до первой встречи.",
 			"answer": "They had been communicating online for several months before their first meeting.",
-			"explanation": "Past Perfect Continuous с for several months: онлайн-общение до встречи."
+			"translations": {
+				"ru": {
+					"question": "Они общались онлайн несколько месяцев до первой встречи.",
+					"explanation": "Past Perfect Continuous с for several months: онлайн-общение до встречи."
+				},
+				"fr": {
+					"question": "Ils se fréquentaient en ligne depuis plusieurs mois avant leur première rencontre.",
+					"explanation": "Le Past Perfect Continuous avec for several months : la communication en ligne a précédé la rencontre."
+				},
+				"de": {
+					"question": "Sie hatten mehrere Monate lang online kommuniziert, bevor sie sich das erste Mal trafen.",
+					"explanation": "Das Past Perfect Continuous mit for several months: die Online-Kommunikation ging dem ersten Treffen voraus."
+				},
+				"es": {
+					"question": "Habían estado comunicándose online durante varios meses antes de su primer encuentro.",
+					"explanation": "El Past Perfect Continuous con for several months: la comunicación online precedió al primer encuentro."
+				}
+			}
 		},
 		{
-			"question": "Дорога была мокрой — дождь шёл несколько часов.",
 			"answer": "The road was wet — it had been raining for several hours.",
-			"explanation": "Past Perfect Continuous объясняет состояние дороги через длительный дождь."
+			"translations": {
+				"ru": {
+					"question": "Дорога была мокрой — дождь шёл несколько часов.",
+					"explanation": "Past Perfect Continuous объясняет состояние дороги через длительный дождь."
+				},
+				"fr": {
+					"question": "La route était mouillée — il avait plu pendant plusieurs heures.",
+					"explanation": "Le Past Perfect Continuous explique l'état de la route par une longue pluie."
+				},
+				"de": {
+					"question": "Die Straße war nass — es hatte mehrere Stunden lang geregnet.",
+					"explanation": "Das Past Perfect Continuous erklärt den Zustand der Straße durch einen langen Regen."
+				},
+				"es": {
+					"question": "La carretera estaba mojada — había estado lloviendo durante varias horas.",
+					"explanation": "El Past Perfect Continuous explica el estado de la carretera mediante una larga lluvia."
+				}
+			}
 		},
 		{
-			"question": "Мы переделывали проект несколько раз, прежде чем клиент остался доволен.",
 			"answer": "We had been reworking the project several times before the client was satisfied.",
-			"explanation": "Past Perfect Continuous: многократные переделки проекта до удовлетворения клиента."
+			"translations": {
+				"ru": {
+					"question": "Мы переделывали проект несколько раз, прежде чем клиент остался доволен.",
+					"explanation": "Past Perfect Continuous: многократные переделки проекта до удовлетворения клиента."
+				},
+				"fr": {
+					"question": "Nous avions refait le projet plusieurs fois avant que le client soit satisfait.",
+					"explanation": "Le Past Perfect Continuous : les multiples retouches ont précédé la satisfaction du client."
+				},
+				"de": {
+					"question": "Wir hatten das Projekt mehrmals überarbeitet, bevor der Kunde zufrieden war.",
+					"explanation": "Das Past Perfect Continuous: die mehrfachen Überarbeitungen gingen der Zufriedenheit des Kunden voraus."
+				},
+				"es": {
+					"question": "Habíamos estado rehaciendo el proyecto varias veces antes de que el cliente quedara satisfecho.",
+					"explanation": "El Past Perfect Continuous: las múltiples revisiones precedieron a la satisfacción del cliente."
+				}
+			}
 		},
 		{
-			"question": "Она тщательно готовилась к выступлению несколько недель до конкурса.",
 			"answer": "She had been carefully preparing for the performance for several weeks before the contest.",
-			"explanation": "Past Perfect Continuous с for several weeks: тщательная подготовка до конкурса."
+			"translations": {
+				"ru": {
+					"question": "Она тщательно готовилась к выступлению несколько недель до конкурса.",
+					"explanation": "Past Perfect Continuous с for several weeks: тщательная подготовка до конкурса."
+				},
+				"fr": {
+					"question": "Elle s'était soigneusement préparée pour la performance pendant plusieurs semaines avant le concours.",
+					"explanation": "Le Past Perfect Continuous avec for several weeks : la préparation minutieuse a précédé le concours."
+				},
+				"de": {
+					"question": "Sie hatte sich mehrere Wochen lang sorgfältig auf den Auftritt vorbereitet, bevor der Wettbewerb begann.",
+					"explanation": "Das Past Perfect Continuous mit for several weeks: die sorgfältige Vorbereitung ging dem Wettbewerb voraus."
+				},
+				"es": {
+					"question": "Había estado preparándose cuidadosamente para la actuación durante varias semanas antes del concurso.",
+					"explanation": "El Past Perfect Continuous con for several weeks: la cuidadosa preparación precedió al concurso."
+				}
+			}
 		},
 		{
-			"question": "Он работал сверхурочно несколько недель и совсем измотался.",
 			"answer": "He had been working overtime for several weeks and was completely worn out.",
-			"explanation": "Past Perfect Continuous объясняет изнеможение через длительную сверхурочную работу."
+			"translations": {
+				"ru": {
+					"question": "Он работал сверхурочно несколько недель и совсем измотался.",
+					"explanation": "Past Perfect Continuous объясняет изнеможение через длительную сверхурочную работу."
+				},
+				"fr": {
+					"question": "Il avait fait des heures supplémentaires pendant plusieurs semaines et était complètement épuisé.",
+					"explanation": "Le Past Perfect Continuous explique l'épuisement par un long surmenage au travail."
+				},
+				"de": {
+					"question": "Er hatte mehrere Wochen lang Überstunden gemacht und war völlig erschöpft.",
+					"explanation": "Das Past Perfect Continuous erklärt die Erschöpfung durch langes Überstundenmachen."
+				},
+				"es": {
+					"question": "Había estado haciendo horas extra durante varias semanas y estaba completamente agotado.",
+					"explanation": "El Past Perfect Continuous explica el agotamiento mediante el prolongado trabajo extra."
+				}
+			}
 		},
 		{
-			"question": "Они вели переговоры несколько часов, когда наконец достигли компромисса.",
 			"answer": "They had been negotiating for several hours when they finally reached a compromise.",
-			"explanation": "Past Perfect Continuous с for several hours: переговоры до компромисса."
+			"translations": {
+				"ru": {
+					"question": "Они вели переговоры несколько часов, когда наконец достигли компромисса.",
+					"explanation": "Past Perfect Continuous с for several hours: переговоры до компромисса."
+				},
+				"fr": {
+					"question": "Ils négociaient depuis plusieurs heures quand ils ont enfin atteint un compromis.",
+					"explanation": "Le Past Perfect Continuous avec for several hours : les négociations ont duré jusqu'au compromis."
+				},
+				"de": {
+					"question": "Sie hatten mehrere Stunden lang verhandelt, als sie endlich einen Kompromiss erreichten.",
+					"explanation": "Das Past Perfect Continuous mit for several hours: die Verhandlungen dauerten bis zum Kompromiss."
+				},
+				"es": {
+					"question": "Habían estado negociando durante varias horas cuando por fin alcanzaron un compromiso.",
+					"explanation": "El Past Perfect Continuous con for several hours: las negociaciones duraron hasta el compromiso."
+				}
+			}
 		},
 		{
-			"question": "Она писала письмо несколько часов, прежде чем нашла нужные слова.",
 			"answer": "She had been writing the letter for several hours before she found the right words.",
-			"explanation": "Past Perfect Continuous с for several hours: написание письма до нахождения слов."
+			"translations": {
+				"ru": {
+					"question": "Она писала письмо несколько часов, прежде чем нашла нужные слова.",
+					"explanation": "Past Perfect Continuous с for several hours: написание письма до нахождения слов."
+				},
+				"fr": {
+					"question": "Elle avait écrit la lettre pendant plusieurs heures avant de trouver les bons mots.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for several hours."
+				},
+				"de": {
+					"question": "Sie hatte den Brief mehrere Stunden lang geschrieben, bevor sie die richtigen Worte fand.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for several hours."
+				},
+				"es": {
+					"question": "Ella había estado escribiendo la carta durante varias horas antes de encontrar las palabras adecuadas.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for several hours."
+				}
+			}
 		},
 		{
-			"question": "Он весь день копал грядки и ужасно устал.",
 			"answer": "He had been digging the garden all day and was terribly tired.",
-			"explanation": "Past Perfect Continuous с all day: копание грядок объясняет усталость."
+			"translations": {
+				"ru": {
+					"question": "Он весь день копал грядки и ужасно устал.",
+					"explanation": "Past Perfect Continuous с all day: копание грядок объясняет усталость."
+				},
+				"fr": {
+					"question": "Il avait creusé le jardin toute la journée et était terriblement fatigué.",
+					"explanation": "Le Past Perfect Continuous explique un résultat visible dans le passé par une action prolongée qui l'a précédé."
+				},
+				"de": {
+					"question": "Er hatte den Garten den ganzen Tag umgegraben und war schrecklich müde.",
+					"explanation": "Das Past Perfect Continuous erklärt ein sichtbares Ergebnis in der Vergangenheit durch eine vorangegangene andauernde Handlung."
+				},
+				"es": {
+					"question": "Había estado cavando el jardín todo el día y estaba terriblemente cansado.",
+					"explanation": "El Past Perfect Continuous explica un resultado visible en el pasado mediante una acción prolongada que lo precedió."
+				}
+			}
 		},
 		{
-			"question": "Они соревновались за контракт несколько недель, прежде чем узнали результат.",
 			"answer": "They had been competing for the contract for several weeks before finding out the result.",
-			"explanation": "Past Perfect Continuous с for several weeks: конкуренция за контракт до объявления результата."
+			"translations": {
+				"ru": {
+					"question": "Они соревновались за контракт несколько недель, прежде чем узнали результат.",
+					"explanation": "Past Perfect Continuous с for several weeks: конкуренция за контракт до объявления результата."
+				},
+				"fr": {
+					"question": "Ils avaient concouru pour le contrat pendant plusieurs semaines avant de connaître le résultat.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for several weeks."
+				},
+				"de": {
+					"question": "Sie hatten mehrere Wochen lang um den Auftrag konkurriert, bevor sie das Ergebnis erfuhren.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for several weeks."
+				},
+				"es": {
+					"question": "Habían estado compitiendo por el contrato durante varias semanas antes de conocer el resultado.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for several weeks."
+				}
+			}
 		},
 		{
-			"question": "Мне было тяжело дышать — слишком долго бежал.",
 			"answer": "I was struggling to breathe — I had been running for too long.",
-			"explanation": "Past Perfect Continuous объясняет затруднение дыхания через слишком долгий бег."
+			"translations": {
+				"ru": {
+					"question": "Мне было тяжело дышать — слишком долго бежал.",
+					"explanation": "Past Perfect Continuous объясняет затруднение дыхания через слишком долгий бег."
+				},
+				"fr": {
+					"question": "J'avais du mal à respirer — j'avais couru trop longtemps.",
+					"explanation": "Le Past Perfect Continuous explique un résultat visible dans le passé par une action prolongée qui l'a précédé."
+				},
+				"de": {
+					"question": "Ich hatte Schwierigkeiten zu atmen — ich war zu lange gerannt.",
+					"explanation": "Das Past Perfect Continuous erklärt ein sichtbares Ergebnis in der Vergangenheit durch eine vorangegangene andauernde Handlung."
+				},
+				"es": {
+					"question": "Me costaba respirar — había estado corriendo demasiado tiempo.",
+					"explanation": "El Past Perfect Continuous explica un resultado visible en el pasado mediante una acción prolongada que lo precedió."
+				}
+			}
 		},
 		{
-			"question": "Они планировали свадьбу несколько месяцев, когда наконец выбрали дату.",
 			"answer": "They had been planning the wedding for several months when they finally chose a date.",
-			"explanation": "Past Perfect Continuous с for several months: планирование свадьбы до выбора даты."
+			"translations": {
+				"ru": {
+					"question": "Они планировали свадьбу несколько месяцев, когда наконец выбрали дату.",
+					"explanation": "Past Perfect Continuous с for several months: планирование свадьбы до выбора даты."
+				},
+				"fr": {
+					"question": "Ils planifiaient le mariage depuis plusieurs mois quand ils ont enfin choisi une date.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for several months."
+				},
+				"de": {
+					"question": "Sie hatten die Hochzeit mehrere Monate lang geplant, als sie schließlich ein Datum wählten.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for several months."
+				},
+				"es": {
+					"question": "Habían estado planeando la boda durante varios meses cuando finalmente eligieron una fecha.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for several months."
+				}
+			}
 		},
 		{
-			"question": "Она изучала право с 2000 года, когда стала адвокатом.",
 			"answer": "She had been studying law since 2000 when she became a lawyer.",
-			"explanation": "Past Perfect Continuous с since 2000: изучение права с 2000 года до получения профессии."
+			"translations": {
+				"ru": {
+					"question": "Она изучала право с 2000 года, когда стала адвокатом.",
+					"explanation": "Past Perfect Continuous с since 2000: изучение права с 2000 года до получения профессии."
+				},
+				"fr": {
+					"question": "Elle étudiait le droit depuis 2000 quand elle est devenue avocate.",
+					"explanation": "Le Past Perfect Continuous avec since : l'action a commencé en 2000 et a duré jusqu'au moment où elle est devenue avocate."
+				},
+				"de": {
+					"question": "Sie hatte seit 2000 Jura studiert, als sie Anwältin wurde.",
+					"explanation": "Das Past Perfect Continuous mit since: die Handlung begann 2000 und dauerte bis zu dem Moment an, als sie Anwältin wurde."
+				},
+				"es": {
+					"question": "Había estado estudiando derecho desde 2000 cuando se convirtió en abogada.",
+					"explanation": "El Past Perfect Continuous con since: la acción comenzó en 2000 y duró hasta que se convirtió en abogada."
+				}
+			}
 		},
 		{
-			"question": "Он долго добивался этой должности, прежде чем его назначили.",
 			"answer": "He had been working towards this position for a long time before he was appointed.",
-			"explanation": "Past Perfect Continuous с for a long time: стремление к должности до назначения."
+			"translations": {
+				"ru": {
+					"question": "Он долго добивался этой должности, прежде чем его назначили.",
+					"explanation": "Past Perfect Continuous с for a long time: стремление к должности до назначения."
+				},
+				"fr": {
+					"question": "Il visait ce poste depuis longtemps avant d'être nommé.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for a long time."
+				},
+				"de": {
+					"question": "Er hatte lange auf diese Stelle hingearbeitet, bevor er ernannt wurde.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for a long time."
+				},
+				"es": {
+					"question": "Había estado trabajando hacia este puesto durante mucho tiempo antes de ser nombrado.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for a long time."
+				}
+			}
 		},
 		{
-			"question": "Они не платили аренду несколько месяцев, поэтому их выселили.",
 			"answer": "They had not been paying rent for several months, so they were evicted.",
-			"explanation": "Past Perfect Continuous в отрицательной форме объясняет выселение."
+			"translations": {
+				"ru": {
+					"question": "Они не платили аренду несколько месяцев, поэтому их выселили.",
+					"explanation": "Past Perfect Continuous в отрицательной форме объясняет выселение."
+				},
+				"fr": {
+					"question": "Ils n'avaient pas payé le loyer depuis plusieurs mois, donc ils ont été expulsés.",
+					"explanation": "Le Past Perfect Continuous négatif explique l'expulsion par l'absence prolongée de paiement du loyer."
+				},
+				"de": {
+					"question": "Sie hatten mehrere Monate lang keine Miete gezahlt, weshalb sie zwangsgeräumt wurden.",
+					"explanation": "Das Past Perfect Continuous im Negativen erklärt die Zwangsräumung durch das Ausbleiben der Mietzahlungen über mehrere Monate."
+				},
+				"es": {
+					"question": "No habían estado pagando el alquiler durante varios meses, por lo que fueron desalojados.",
+					"explanation": "El Past Perfect Continuous negativo explica el desalojo por la ausencia prolongada del pago del alquiler."
+				}
+			}
 		},
 		{
-			"question": "Мы разрабатывали план несколько недель, когда нам показали конкурентов.",
 			"answer": "We had been developing the plan for several weeks when we were shown the competitors.",
-			"explanation": "Past Perfect Continuous с for several weeks: разработка плана до знакомства с конкурентами."
+			"translations": {
+				"ru": {
+					"question": "Мы разрабатывали план несколько недель, когда нам показали конкурентов.",
+					"explanation": "Past Perfect Continuous с for several weeks: разработка плана до знакомства с конкурентами."
+				},
+				"fr": {
+					"question": "Nous développions le plan depuis plusieurs semaines quand on nous a montré les concurrents.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for several weeks."
+				},
+				"de": {
+					"question": "Wir hatten den Plan mehrere Wochen lang entwickelt, als uns die Konkurrenten gezeigt wurden.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for several weeks."
+				},
+				"es": {
+					"question": "Habíamos estado desarrollando el plan durante varias semanas cuando nos mostraron a los competidores.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for several weeks."
+				}
+			}
 		},
 		{
-			"question": "Она не спала несколько ночей и была совсем без сил.",
 			"answer": "She had not been sleeping for several nights and had no energy at all.",
-			"explanation": "Past Perfect Continuous в отрицательной форме объясняет отсутствие сил."
+			"translations": {
+				"ru": {
+					"question": "Она не спала несколько ночей и была совсем без сил.",
+					"explanation": "Past Perfect Continuous в отрицательной форме объясняет отсутствие сил."
+				},
+				"fr": {
+					"question": "Elle n'avait pas dormi depuis plusieurs nuits et n'avait plus d'énergie du tout.",
+					"explanation": "Le Past Perfect Continuous négatif explique l'absence totale d'énergie par le manque de sommeil prolongé."
+				},
+				"de": {
+					"question": "Sie hatte mehrere Nächte lang nicht geschlafen und hatte überhaupt keine Energie mehr.",
+					"explanation": "Das Past Perfect Continuous im Negativen erklärt den völligen Energiemangel durch anhaltenden Schlafmangel."
+				},
+				"es": {
+					"question": "No había estado durmiendo durante varias noches y no tenía energía en absoluto.",
+					"explanation": "El Past Perfect Continuous negativo explica la falta total de energía por la ausencia prolongada de sueño."
+				}
+			}
 		},
 		{
-			"question": "Он переводил текст несколько часов, прежде чем понял ошибку.",
 			"answer": "He had been translating the text for several hours before he noticed the mistake.",
-			"explanation": "Past Perfect Continuous с for several hours: перевод продолжался до обнаружения ошибки."
+			"translations": {
+				"ru": {
+					"question": "Он переводил текст несколько часов, прежде чем понял ошибку.",
+					"explanation": "Past Perfect Continuous с for several hours: перевод продолжался до обнаружения ошибки."
+				},
+				"fr": {
+					"question": "Il avait traduit le texte pendant plusieurs heures avant de remarquer l'erreur.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for several hours."
+				},
+				"de": {
+					"question": "Er hatte den Text mehrere Stunden lang übersetzt, bevor er den Fehler bemerkte.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for several hours."
+				},
+				"es": {
+					"question": "Había estado traduciendo el texto durante varias horas antes de notar el error.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for several hours."
+				}
+			}
 		},
 		{
-			"question": "Они обновляли систему несколько часов, когда сервер наконец перезапустился.",
 			"answer": "They had been updating the system for several hours when the server finally restarted.",
-			"explanation": "Past Perfect Continuous с for several hours: обновление системы до перезапуска."
+			"translations": {
+				"ru": {
+					"question": "Они обновляли систему несколько часов, когда сервер наконец перезапустился.",
+					"explanation": "Past Perfect Continuous с for several hours: обновление системы до перезапуска."
+				},
+				"fr": {
+					"question": "Ils avaient mis à jour le système pendant plusieurs heures quand le serveur a enfin redémarré.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for several hours."
+				},
+				"de": {
+					"question": "Sie hatten das System mehrere Stunden lang aktualisiert, als der Server endlich neu startete.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for several hours."
+				},
+				"es": {
+					"question": "Habían estado actualizando el sistema durante varias horas cuando el servidor finalmente se reinició.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for several hours."
+				}
+			}
 		},
 		{
-			"question": "Она ухаживала за цветами с весны, когда они наконец расцвели.",
 			"answer": "She had been tending to the flowers since spring when they finally bloomed.",
-			"explanation": "Past Perfect Continuous с since spring: уход за цветами с весны до цветения."
+			"translations": {
+				"ru": {
+					"question": "Она ухаживала за цветами с весны, когда они наконец расцвели.",
+					"explanation": "Past Perfect Continuous с since spring: уход за цветами с весны до цветения."
+				},
+				"fr": {
+					"question": "Elle s'occupait des fleurs depuis le printemps quand elles ont enfin fleuri.",
+					"explanation": "Le Past Perfect Continuous avec since : l'action a commencé au printemps et a duré jusqu'à l'éclosion des fleurs."
+				},
+				"de": {
+					"question": "Sie hatte sich seit dem Frühling um die Blumen gekümmert, als sie endlich blühten.",
+					"explanation": "Das Past Perfect Continuous mit since: die Handlung begann im Frühling und dauerte bis zur Blüte an."
+				},
+				"es": {
+					"question": "Había estado cuidando las flores desde la primavera cuando finalmente florecieron.",
+					"explanation": "El Past Perfect Continuous con since: la acción comenzó en primavera y duró hasta que las flores florecieron."
+				}
+			}
 		},
 		{
-			"question": "Он продавал машины несколько лет, прежде чем стал менеджером.",
 			"answer": "He had been selling cars for several years before becoming a manager.",
-			"explanation": "Past Perfect Continuous с for several years: продажа машин до повышения."
+			"translations": {
+				"ru": {
+					"question": "Он продавал машины несколько лет, прежде чем стал менеджером.",
+					"explanation": "Past Perfect Continuous с for several years: продажа машин до повышения."
+				},
+				"fr": {
+					"question": "Il avait vendu des voitures pendant plusieurs années avant de devenir directeur.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for several years."
+				},
+				"de": {
+					"question": "Er hatte mehrere Jahre lang Autos verkauft, bevor er Manager wurde.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for several years."
+				},
+				"es": {
+					"question": "Había estado vendiendo coches durante varios años antes de convertirse en gerente.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for several years."
+				}
+			}
 		},
 		{
-			"question": "Мы искали нужную улицу целый час, прежде чем спросили у прохожего.",
 			"answer": "We had been looking for the right street for an hour before asking a passerby.",
-			"explanation": "Past Perfect Continuous с for an hour: поиск улицы до обращения к прохожему."
+			"translations": {
+				"ru": {
+					"question": "Мы искали нужную улицу целый час, прежде чем спросили у прохожего.",
+					"explanation": "Past Perfect Continuous с for an hour: поиск улицы до обращения к прохожему."
+				},
+				"fr": {
+					"question": "Nous avions cherché la bonne rue pendant une heure avant de demander à un passant.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for an hour."
+				},
+				"de": {
+					"question": "Wir hatten eine Stunde lang die richtige Straße gesucht, bevor wir einen Passanten fragten.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for an hour."
+				},
+				"es": {
+					"question": "Habíamos estado buscando la calle correcta durante una hora antes de preguntar a un transeúnte.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for an hour."
+				}
+			}
 		},
 		{
-			"question": "Руки у него дрожали — долго держал тяжёлые сумки.",
 			"answer": "His hands were shaking — he had been carrying heavy bags for a long time.",
-			"explanation": "Past Perfect Continuous объясняет дрожь рук через длительную нагрузку."
+			"translations": {
+				"ru": {
+					"question": "Руки у него дрожали — долго держал тяжёлые сумки.",
+					"explanation": "Past Perfect Continuous объясняет дрожь рук через длительную нагрузку."
+				},
+				"fr": {
+					"question": "Ses mains tremblaient — il portait de lourds sacs depuis longtemps.",
+					"explanation": "Le Past Perfect Continuous explique un résultat visible dans le passé par une action prolongée qui l'a précédé."
+				},
+				"de": {
+					"question": "Seine Hände zitterten — er hatte lange schwere Taschen getragen.",
+					"explanation": "Das Past Perfect Continuous erklärt ein sichtbares Ergebnis in der Vergangenheit durch eine vorangegangene andauernde Handlung."
+				},
+				"es": {
+					"question": "Le temblaban las manos — había estado cargando bolsas pesadas durante mucho tiempo.",
+					"explanation": "El Past Perfect Continuous explica un resultado visible en el pasado mediante una acción prolongada que lo precedió."
+				}
+			}
 		},
 		{
-			"question": "Они проводили эксперименты несколько месяцев, прежде чем получили результат.",
 			"answer": "They had been conducting experiments for several months before getting a result.",
-			"explanation": "Past Perfect Continuous с for several months: эксперименты до получения результата."
+			"translations": {
+				"ru": {
+					"question": "Они проводили эксперименты несколько месяцев, прежде чем получили результат.",
+					"explanation": "Past Perfect Continuous с for several months: эксперименты до получения результата."
+				},
+				"fr": {
+					"question": "Ils avaient mené des expériences pendant plusieurs mois avant d'obtenir un résultat.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for several months."
+				},
+				"de": {
+					"question": "Sie hatten mehrere Monate lang Experimente durchgeführt, bevor sie ein Ergebnis erzielten.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for several months."
+				},
+				"es": {
+					"question": "Habían estado realizando experimentos durante varios meses antes de obtener un resultado.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for several months."
+				}
+			}
 		},
 		{
-			"question": "Она вела дневник с детства, когда решила написать книгу.",
 			"answer": "She had been keeping a diary since childhood when she decided to write a book.",
-			"explanation": "Past Perfect Continuous с since childhood: ведение дневника с детства до решения написать книгу."
+			"translations": {
+				"ru": {
+					"question": "Она вела дневник с детства, когда решила написать книгу.",
+					"explanation": "Past Perfect Continuous с since childhood: ведение дневника с детства до решения написать книгу."
+				},
+				"fr": {
+					"question": "Elle tenait un journal depuis l'enfance quand elle a décidé d'écrire un livre.",
+					"explanation": "Le Past Perfect Continuous avec since : l'action a commencé dans l'enfance et a duré jusqu'à la décision d'écrire un livre."
+				},
+				"de": {
+					"question": "Sie hatte seit der Kindheit Tagebuch geführt, als sie beschloss, ein Buch zu schreiben.",
+					"explanation": "Das Past Perfect Continuous mit since: die Handlung begann in der Kindheit und dauerte bis zu dem Entschluss an, ein Buch zu schreiben."
+				},
+				"es": {
+					"question": "Había estado llevando un diario desde la infancia cuando decidió escribir un libro.",
+					"explanation": "El Past Perfect Continuous con since: la acción comenzó en la infancia y duró hasta que decidió escribir un libro."
+				}
+			}
 		},
 		{
-			"question": "Он просматривал вакансии несколько недель, прежде чем откликнулся на эту.",
 			"answer": "He had been browsing job offers for several weeks before responding to this one.",
-			"explanation": "Past Perfect Continuous с for several weeks: просмотр вакансий до отклика."
+			"translations": {
+				"ru": {
+					"question": "Он просматривал вакансии несколько недель, прежде чем откликнулся на эту.",
+					"explanation": "Past Perfect Continuous с for several weeks: просмотр вакансий до отклика."
+				},
+				"fr": {
+					"question": "Il avait consulté des offres d'emploi pendant plusieurs semaines avant de répondre à celle-ci.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for several weeks."
+				},
+				"de": {
+					"question": "Er hatte mehrere Wochen lang Stellenangebote durchsucht, bevor er auf dieses reagierte.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for several weeks."
+				},
+				"es": {
+					"question": "Había estado revisando ofertas de trabajo durante varias semanas antes de responder a esta.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for several weeks."
+				}
+			}
 		},
 		{
-			"question": "Голос у неё сел — она пела несколько часов подряд.",
 			"answer": "Her voice had gone hoarse — she had been singing for several hours in a row.",
-			"explanation": "Past Perfect Continuous объясняет потерю голоса через длительное пение."
+			"translations": {
+				"ru": {
+					"question": "Голос у неё сел — она пела несколько часов подряд.",
+					"explanation": "Past Perfect Continuous объясняет потерю голоса через длительное пение."
+				},
+				"fr": {
+					"question": "Sa voix était devenue rauque — elle avait chanté plusieurs heures d'affilée.",
+					"explanation": "Le Past Perfect Continuous explique un résultat visible dans le passé par une action prolongée qui l'a précédé."
+				},
+				"de": {
+					"question": "Ihre Stimme war heiser geworden — sie hatte mehrere Stunden hintereinander gesungen.",
+					"explanation": "Das Past Perfect Continuous erklärt ein sichtbares Ergebnis in der Vergangenheit durch eine vorangegangene andauernde Handlung."
+				},
+				"es": {
+					"question": "Su voz se había vuelto ronca — había estado cantando durante varias horas seguidas.",
+					"explanation": "El Past Perfect Continuous explica un resultado visible en el pasado mediante una acción prolongada que lo precedió."
+				}
+			}
 		},
 		{
-			"question": "Мы обсуждали маршрут несколько дней, прежде чем окончательно выбрали его.",
 			"answer": "We had been discussing the route for several days before making the final choice.",
-			"explanation": "Past Perfect Continuous с for several days: обсуждение маршрута до выбора."
+			"translations": {
+				"ru": {
+					"question": "Мы обсуждали маршрут несколько дней, прежде чем окончательно выбрали его.",
+					"explanation": "Past Perfect Continuous с for several days: обсуждение маршрута до выбора."
+				},
+				"fr": {
+					"question": "Nous avions discuté de l'itinéraire pendant plusieurs jours avant de faire le choix définitif.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for several days."
+				},
+				"de": {
+					"question": "Wir hatten die Route mehrere Tage lang besprochen, bevor wir die endgültige Wahl trafen.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for several days."
+				},
+				"es": {
+					"question": "Habíamos estado discutiendo la ruta durante varios días antes de tomar la decisión final.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for several days."
+				}
+			}
 		},
 		{
-			"question": "Он исправлял ошибки в коде несколько часов, когда программа наконец заработала.",
 			"answer": "He had been fixing bugs in the code for several hours when the programme finally worked.",
-			"explanation": "Past Perfect Continuous с for several hours: исправление ошибок до работы программы."
+			"translations": {
+				"ru": {
+					"question": "Он исправлял ошибки в коде несколько часов, когда программа наконец заработала.",
+					"explanation": "Past Perfect Continuous с for several hours: исправление ошибок до работы программы."
+				},
+				"fr": {
+					"question": "Il avait corrigé les bogues dans le code pendant plusieurs heures quand le programme a enfin fonctionné.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for several hours."
+				},
+				"de": {
+					"question": "Er hatte mehrere Stunden lang Fehler im Code behoben, als das Programm endlich funktionierte.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for several hours."
+				},
+				"es": {
+					"question": "Había estado corrigiendo errores en el código durante varias horas cuando el programa finalmente funcionó.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for several hours."
+				}
+			}
 		},
 		{
-			"question": "Они общались с клиентом несколько недель, когда подписали договор.",
 			"answer": "They had been communicating with the client for several weeks when they signed the contract.",
-			"explanation": "Past Perfect Continuous с for several weeks: общение с клиентом до подписания договора."
+			"translations": {
+				"ru": {
+					"question": "Они общались с клиентом несколько недель, когда подписали договор.",
+					"explanation": "Past Perfect Continuous с for several weeks: общение с клиентом до подписания договора."
+				},
+				"fr": {
+					"question": "Ils avaient communiqué avec le client pendant plusieurs semaines quand ils ont signé le contrat.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for several weeks."
+				},
+				"de": {
+					"question": "Sie hatten mehrere Wochen lang mit dem Kunden kommuniziert, als sie den Vertrag unterzeichneten.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for several weeks."
+				},
+				"es": {
+					"question": "Habían estado comunicándose con el cliente durante varias semanas cuando firmaron el contrato.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for several weeks."
+				}
+			}
 		},
 		{
-			"question": "Она смотрела сериал несколько ночей подряд и не высыпалась.",
 			"answer": "She had been watching the series for several nights in a row and was not getting enough sleep.",
-			"explanation": "Past Perfect Continuous объясняет недосыпание через длительный просмотр."
+			"translations": {
+				"ru": {
+					"question": "Она смотрела сериал несколько ночей подряд и не высыпалась.",
+					"explanation": "Past Perfect Continuous объясняет недосыпание через длительный просмотр."
+				},
+				"fr": {
+					"question": "Elle avait regardé la série plusieurs nuits d'affilée et ne dormait pas assez.",
+					"explanation": "Le Past Perfect Continuous explique un résultat visible dans le passé par une action prolongée qui l'a précédé."
+				},
+				"de": {
+					"question": "Sie hatte die Serie mehrere Nächte hintereinander geschaut und schlief nicht genug.",
+					"explanation": "Das Past Perfect Continuous erklärt ein sichtbares Ergebnis in der Vergangenheit durch eine vorangegangene andauernde Handlung."
+				},
+				"es": {
+					"question": "Había estado viendo la serie durante varias noches seguidas y no dormía lo suficiente.",
+					"explanation": "El Past Perfect Continuous explica un resultado visible en el pasado mediante una acción prolongada que lo precedió."
+				}
+			}
 		},
 		{
-			"question": "Мы проверяли документы несколько часов до совещания.",
 			"answer": "We had been checking the documents for several hours before the meeting.",
-			"explanation": "Past Perfect Continuous с for several hours: проверка документов до совещания."
+			"translations": {
+				"ru": {
+					"question": "Мы проверяли документы несколько часов до совещания.",
+					"explanation": "Past Perfect Continuous с for several hours: проверка документов до совещания."
+				},
+				"fr": {
+					"question": "Nous avions vérifié les documents pendant plusieurs heures avant la réunion.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for several hours."
+				},
+				"de": {
+					"question": "Wir hatten die Dokumente mehrere Stunden lang vor dem Meeting geprüft.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for several hours."
+				},
+				"es": {
+					"question": "Habíamos estado revisando los documentos durante varias horas antes de la reunión.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for several hours."
+				}
+			}
 		},
 		{
-			"question": "Он совершенствовал навык рисования несколько лет до выставки.",
 			"answer": "He had been improving his drawing skills for several years before the exhibition.",
-			"explanation": "Past Perfect Continuous с for several years: совершенствование навыка до выставки."
+			"translations": {
+				"ru": {
+					"question": "Он совершенствовал навык рисования несколько лет до выставки.",
+					"explanation": "Past Perfect Continuous с for several years: совершенствование навыка до выставки."
+				},
+				"fr": {
+					"question": "Il avait amélioré ses compétences en dessin pendant plusieurs années avant l'exposition.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for several years."
+				},
+				"de": {
+					"question": "Er hatte seine Zeichenfähigkeiten mehrere Jahre lang verbessert, bevor die Ausstellung stattfand.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for several years."
+				},
+				"es": {
+					"question": "Había estado mejorando sus habilidades de dibujo durante varios años antes de la exposición.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for several years."
+				}
+			}
 		},
 		{
-			"question": "Дети шумели весь день, поэтому бабушка устала.",
 			"answer": "The children had been making noise all day, so their grandmother was tired.",
-			"explanation": "Past Perfect Continuous объясняет усталость бабушки через длительный шум детей."
+			"translations": {
+				"ru": {
+					"question": "Дети шумели весь день, поэтому бабушка устала.",
+					"explanation": "Past Perfect Continuous объясняет усталость бабушки через длительный шум детей."
+				},
+				"fr": {
+					"question": "Les enfants avaient fait du bruit toute la journée, donc leur grand-mère était fatiguée.",
+					"explanation": "Le Past Perfect Continuous explique un résultat visible dans le passé par une action prolongée qui l'a précédé."
+				},
+				"de": {
+					"question": "Die Kinder hatten den ganzen Tag Lärm gemacht, sodass ihre Großmutter müde war.",
+					"explanation": "Das Past Perfect Continuous erklärt ein sichtbares Ergebnis in der Vergangenheit durch eine vorangegangene andauernde Handlung."
+				},
+				"es": {
+					"question": "Los niños habían estado haciendo ruido todo el día, así que su abuela estaba cansada.",
+					"explanation": "El Past Perfect Continuous explica un resultado visible en el pasado mediante una acción prolongada que lo precedió."
+				}
+			}
 		},
 		{
-			"question": "Они обсуждали условия сделки несколько часов, когда достигли договорённости.",
 			"answer": "They had been discussing the deal terms for several hours when they reached an agreement.",
-			"explanation": "Past Perfect Continuous с for several hours: обсуждение условий до договорённости."
+			"translations": {
+				"ru": {
+					"question": "Они обсуждали условия сделки несколько часов, когда достигли договорённости.",
+					"explanation": "Past Perfect Continuous с for several hours: обсуждение условий до договорённости."
+				},
+				"fr": {
+					"question": "Ils avaient discuté des termes de l'accord pendant plusieurs heures quand ils ont trouvé un accord.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for several hours."
+				},
+				"de": {
+					"question": "Sie hatten die Vertragsbedingungen mehrere Stunden lang besprochen, als sie eine Einigung erzielten.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for several hours."
+				},
+				"es": {
+					"question": "Habían estado discutiendo los términos del acuerdo durante varias horas cuando llegaron a un acuerdo.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for several hours."
+				}
+			}
 		},
 		{
-			"question": "Она разучивала роль три недели, прежде чем вышла на сцену.",
 			"answer": "She had been learning her role for three weeks before she went on stage.",
-			"explanation": "Past Perfect Continuous с for three weeks: разучивание роли до выхода на сцену."
+			"translations": {
+				"ru": {
+					"question": "Она разучивала роль три недели, прежде чем вышла на сцену.",
+					"explanation": "Past Perfect Continuous с for three weeks: разучивание роли до выхода на сцену."
+				},
+				"fr": {
+					"question": "Elle avait appris son rôle pendant trois semaines avant de monter sur scène.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for three weeks."
+				},
+				"de": {
+					"question": "Sie hatte ihre Rolle drei Wochen lang gelernt, bevor sie auf die Bühne ging.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for three weeks."
+				},
+				"es": {
+					"question": "Había estado aprendiendo su papel durante tres semanas antes de salir al escenario.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for three weeks."
+				}
+			}
 		},
 		{
-			"question": "Он работал над речью несколько часов до выступления.",
 			"answer": "He had been working on his speech for several hours before the performance.",
-			"explanation": "Past Perfect Continuous с for several hours: работа над речью до выступления."
+			"translations": {
+				"ru": {
+					"question": "Он работал над речью несколько часов до выступления.",
+					"explanation": "Past Perfect Continuous с for several hours: работа над речью до выступления."
+				},
+				"fr": {
+					"question": "Il avait travaillé sur son discours pendant plusieurs heures avant la représentation.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for several hours."
+				},
+				"de": {
+					"question": "Er hatte mehrere Stunden lang an seiner Rede gearbeitet, bevor die Vorstellung begann.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for several hours."
+				},
+				"es": {
+					"question": "Había estado trabajando en su discurso durante varias horas antes de la actuación.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for several hours."
+				}
+			}
 		},
 		{
-			"question": "Они путешествовали по Европе два месяца, когда у них закончились деньги.",
 			"answer": "They had been travelling around Europe for two months when they ran out of money.",
-			"explanation": "Past Perfect Continuous с for two months: путешествие до момента окончания денег."
+			"translations": {
+				"ru": {
+					"question": "Они путешествовали по Европе два месяца, когда у них закончились деньги.",
+					"explanation": "Past Perfect Continuous с for two months: путешествие до момента окончания денег."
+				},
+				"fr": {
+					"question": "Ils voyageaient en Europe depuis deux mois quand ils ont manqué d'argent.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for two months."
+				},
+				"de": {
+					"question": "Sie hatten zwei Monate lang durch Europa gereist, als ihnen das Geld ausging.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for two months."
+				},
+				"es": {
+					"question": "Habían estado viajando por Europa durante dos meses cuando se quedaron sin dinero.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for two months."
+				}
+			}
 		},
 		{
-			"question": "Она жила одна много лет, прежде чем переехала к родителям.",
 			"answer": "She had been living alone for many years before she moved back to her parents.",
-			"explanation": "Past Perfect Continuous с for many years: одиночное проживание до переезда."
+			"translations": {
+				"ru": {
+					"question": "Она жила одна много лет, прежде чем переехала к родителям.",
+					"explanation": "Past Perfect Continuous с for many years: одиночное проживание до переезда."
+				},
+				"fr": {
+					"question": "Elle avait vécu seule pendant de nombreuses années avant de retourner chez ses parents.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for many years."
+				},
+				"de": {
+					"question": "Sie hatte viele Jahre lang allein gelebt, bevor sie wieder zu ihren Eltern zog.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for many years."
+				},
+				"es": {
+					"question": "Había estado viviendo sola durante muchos años antes de volver con sus padres.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for many years."
+				}
+			}
 		},
 		{
-			"question": "Мы тренировали новых сотрудников несколько недель, когда пришли первые результаты.",
 			"answer": "We had been training new employees for several weeks when the first results came in.",
-			"explanation": "Past Perfect Continuous с for several weeks: обучение сотрудников до первых результатов."
+			"translations": {
+				"ru": {
+					"question": "Мы тренировали новых сотрудников несколько недель, когда пришли первые результаты.",
+					"explanation": "Past Perfect Continuous с for several weeks: обучение сотрудников до первых результатов."
+				},
+				"fr": {
+					"question": "Nous avions formé de nouveaux employés pendant plusieurs semaines quand les premiers résultats sont arrivés.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for several weeks."
+				},
+				"de": {
+					"question": "Wir hatten mehrere Wochen lang neue Mitarbeiter ausgebildet, als die ersten Ergebnisse eintrafen.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for several weeks."
+				},
+				"es": {
+					"question": "Habíamos estado formando a nuevos empleados durante varias semanas cuando llegaron los primeros resultados.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for several weeks."
+				}
+			}
 		},
 		{
-			"question": "Он долго смотрел в окно, прежде чем принял решение.",
 			"answer": "He had been staring out of the window for a long time before making a decision.",
-			"explanation": "Past Perfect Continuous с for a long time: созерцание до принятия решения."
+			"translations": {
+				"ru": {
+					"question": "Он долго смотрел в окно, прежде чем принял решение.",
+					"explanation": "Past Perfect Continuous с for a long time: созерцание до принятия решения."
+				},
+				"fr": {
+					"question": "Il avait regardé par la fenêtre pendant longtemps avant de prendre une décision.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for a long time."
+				},
+				"de": {
+					"question": "Er hatte lange aus dem Fenster gestarrt, bevor er eine Entscheidung traf.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for a long time."
+				},
+				"es": {
+					"question": "Había estado mirando por la ventana durante mucho tiempo antes de tomar una decisión.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for a long time."
+				}
+			}
 		},
 		{
-			"question": "Она не ела весь день, поэтому потеряла сознание.",
 			"answer": "She had not been eating all day, which is why she fainted.",
-			"explanation": "Past Perfect Continuous в отрицательной форме объясняет обморок."
+			"translations": {
+				"ru": {
+					"question": "Она не ела весь день, поэтому потеряла сознание.",
+					"explanation": "Past Perfect Continuous в отрицательной форме объясняет обморок."
+				},
+				"fr": {
+					"question": "Elle n'avait rien mangé de toute la journée, c'est pourquoi elle s'est évanouie.",
+					"explanation": "Le Past Perfect Continuous négatif explique l'évanouissement par l'absence prolongée de nourriture pendant toute la journée."
+				},
+				"de": {
+					"question": "Sie hatte den ganzen Tag nichts gegessen, weshalb sie in Ohnmacht fiel.",
+					"explanation": "Das Past Perfect Continuous im Negativen erklärt die Ohnmacht durch den ganztägigen Nahrungsentzug."
+				},
+				"es": {
+					"question": "No había estado comiendo en todo el día, por eso se desmayó.",
+					"explanation": "El Past Perfect Continuous negativo explica el desmayo por la ausencia prolongada de comida durante todo el día."
+				}
+			}
 		},
 		{
-			"question": "Мы уточняли детали маршрута несколько дней, когда наконец отправились.",
 			"answer": "We had been clarifying the route details for several days when we finally set off.",
-			"explanation": "Past Perfect Continuous с for several days: уточнение деталей до отправки."
+			"translations": {
+				"ru": {
+					"question": "Мы уточняли детали маршрута несколько дней, когда наконец отправились.",
+					"explanation": "Past Perfect Continuous с for several days: уточнение деталей до отправки."
+				},
+				"fr": {
+					"question": "Nous avions clarifié les détails de l'itinéraire pendant plusieurs jours quand nous sommes enfin partis.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for several days."
+				},
+				"de": {
+					"question": "Wir hatten mehrere Tage lang die Details der Route geklärt, als wir endlich aufbrachen.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for several days."
+				},
+				"es": {
+					"question": "Habíamos estado aclarando los detalles de la ruta durante varios días cuando finalmente partimos.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for several days."
+				}
+			}
 		},
 		{
-			"question": "Он изучал рынок несколько месяцев, прежде чем открыл бизнес.",
 			"answer": "He had been studying the market for several months before opening a business.",
-			"explanation": "Past Perfect Continuous с for several months: изучение рынка до открытия бизнеса."
+			"translations": {
+				"ru": {
+					"question": "Он изучал рынок несколько месяцев, прежде чем открыл бизнес.",
+					"explanation": "Past Perfect Continuous с for several months: изучение рынка до открытия бизнеса."
+				},
+				"fr": {
+					"question": "Il avait étudié le marché pendant plusieurs mois avant d'ouvrir une entreprise.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for several months."
+				},
+				"de": {
+					"question": "Er hatte den Markt mehrere Monate lang studiert, bevor er ein Unternehmen eröffnete.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for several months."
+				},
+				"es": {
+					"question": "Había estado estudiando el mercado durante varios meses antes de abrir un negocio.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for several months."
+				}
+			}
 		},
 		{
-			"question": "Они не общались несколько лет до той случайной встречи.",
 			"answer": "They had not been in touch for several years before that chance meeting.",
-			"explanation": "Past Perfect Continuous в отрицательной форме: отсутствие общения до случайной встречи."
+			"translations": {
+				"ru": {
+					"question": "Они не общались несколько лет до той случайной встречи.",
+					"explanation": "Past Perfect Continuous в отрицательной форме: отсутствие общения до случайной встречи."
+				},
+				"fr": {
+					"question": "Ils n'avaient pas été en contact depuis plusieurs années avant cette rencontre fortuite.",
+					"explanation": "Le Past Perfect Continuous négatif indique l'absence prolongée de contact avant la rencontre fortuite."
+				},
+				"de": {
+					"question": "Sie hatten mehrere Jahre lang keinen Kontakt gehabt, bevor sie sich zufällig trafen.",
+					"explanation": "Das Past Perfect Continuous im Negativen beschreibt den längeren Kontaktabbruch vor dem zufälligen Treffen."
+				},
+				"es": {
+					"question": "No habían estado en contacto durante varios años antes de ese encuentro casual.",
+					"explanation": "El Past Perfect Continuous negativo indica la prolongada ausencia de contacto antes del encuentro casual."
+				}
+			}
 		},
 		{
-			"question": "Она печатала на машинке весь день — пальцы онемели.",
 			"answer": "She had been typing all day and her fingers had gone numb.",
-			"explanation": "Past Perfect Continuous объясняет онемение пальцев через длительную печать."
+			"translations": {
+				"ru": {
+					"question": "Она печатала на машинке весь день — пальцы онемели.",
+					"explanation": "Past Perfect Continuous объясняет онемение пальцев через длительную печать."
+				},
+				"fr": {
+					"question": "Elle avait tapé toute la journée et ses doigts étaient engourdis.",
+					"explanation": "Le Past Perfect Continuous explique un résultat visible dans le passé par une action prolongée qui l'a précédé."
+				},
+				"de": {
+					"question": "Sie hatte den ganzen Tag getippt und ihre Finger waren taub geworden.",
+					"explanation": "Das Past Perfect Continuous erklärt ein sichtbares Ergebnis in der Vergangenheit durch eine vorangegangene andauernde Handlung."
+				},
+				"es": {
+					"question": "Había estado tecleando todo el día y los dedos se le habían quedado entumecidos.",
+					"explanation": "El Past Perfect Continuous explica un resultado visible en el pasado mediante una acción prolongada que lo precedió."
+				}
+			}
 		},
 		{
-			"question": "Мы искали арендаторов несколько месяцев, когда наконец нашли подходящих.",
 			"answer": "We had been looking for tenants for several months when we finally found suitable ones.",
-			"explanation": "Past Perfect Continuous с for several months: поиск арендаторов до нахождения."
+			"translations": {
+				"ru": {
+					"question": "Мы искали арендаторов несколько месяцев, когда наконец нашли подходящих.",
+					"explanation": "Past Perfect Continuous с for several months: поиск арендаторов до нахождения."
+				},
+				"fr": {
+					"question": "Nous avions cherché des locataires pendant plusieurs mois quand nous en avons enfin trouvé de convenables.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for several months."
+				},
+				"de": {
+					"question": "Wir hatten mehrere Monate lang nach Mietern gesucht, als wir schließlich geeignete fanden.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for several months."
+				},
+				"es": {
+					"question": "Habíamos estado buscando inquilinos durante varios meses cuando finalmente encontramos unos adecuados.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for several months."
+				}
+			}
 		},
 		{
-			"question": "Он занимался скалолазанием несколько лет до несчастного случая.",
 			"answer": "He had been rock climbing for several years before the accident.",
-			"explanation": "Past Perfect Continuous с for several years: занятие скалолазанием до несчастного случая."
+			"translations": {
+				"ru": {
+					"question": "Он занимался скалолазанием несколько лет до несчастного случая.",
+					"explanation": "Past Perfect Continuous с for several years: занятие скалолазанием до несчастного случая."
+				},
+				"fr": {
+					"question": "Il faisait de l'escalade depuis plusieurs années avant l'accident.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for several years."
+				},
+				"de": {
+					"question": "Er hatte mehrere Jahre lang Klettern betrieben, bevor der Unfall geschah.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for several years."
+				},
+				"es": {
+					"question": "Había estado escalando en roca durante varios años antes del accidente.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for several years."
+				}
+			}
 		},
 		{
-			"question": "Они договаривались об условиях несколько часов, прежде чем ударили по рукам.",
 			"answer": "They had been discussing the terms for several hours before shaking hands.",
-			"explanation": "Past Perfect Continuous с for several hours: переговоры до соглашения."
+			"translations": {
+				"ru": {
+					"question": "Они договаривались об условиях несколько часов, прежде чем ударили по рукам.",
+					"explanation": "Past Perfect Continuous с for several hours: переговоры до соглашения."
+				},
+				"fr": {
+					"question": "Ils avaient discuté des conditions pendant plusieurs heures avant de se serrer la main.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for several hours."
+				},
+				"de": {
+					"question": "Sie hatten mehrere Stunden lang über die Bedingungen verhandelt, bevor sie sich die Hand schüttelten.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for several hours."
+				},
+				"es": {
+					"question": "Habían estado discutiendo los términos durante varias horas antes de estrecharse la mano.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for several hours."
+				}
+			}
 		},
 		{
-			"question": "Она не отвечала на сообщения целый день, поэтому он беспокоился.",
 			"answer": "She had not been responding to messages all day, so he was worried.",
-			"explanation": "Past Perfect Continuous в отрицательной форме объясняет беспокойство."
+			"translations": {
+				"ru": {
+					"question": "Она не отвечала на сообщения целый день, поэтому он беспокоился.",
+					"explanation": "Past Perfect Continuous в отрицательной форме объясняет беспокойство."
+				},
+				"fr": {
+					"question": "Elle n'avait pas répondu aux messages de toute la journée, alors il était inquiet.",
+					"explanation": "Le Past Perfect Continuous négatif explique l'inquiétude par l'absence prolongée de réponse aux messages."
+				},
+				"de": {
+					"question": "Sie hatte den ganzen Tag nicht auf Nachrichten geantwortet, weshalb er sich Sorgen machte.",
+					"explanation": "Das Past Perfect Continuous im Negativen erklärt die Sorgen durch das ganztägige Ausbleiben von Antworten."
+				},
+				"es": {
+					"question": "No había estado respondiendo mensajes en todo el día, por eso él estaba preocupado.",
+					"explanation": "El Past Perfect Continuous negativo explica la preocupación por la ausencia prolongada de respuestas a los mensajes."
+				}
+			}
 		},
 		{
-			"question": "Мы ждали его весь вечер, когда он наконец написал.",
 			"answer": "We had been waiting for him all evening when he finally sent a message.",
-			"explanation": "Past Perfect Continuous с all evening: ожидание продолжалось весь вечер до сообщения."
+			"translations": {
+				"ru": {
+					"question": "Мы ждали его весь вечер, когда он наконец написал.",
+					"explanation": "Past Perfect Continuous с all evening: ожидание продолжалось весь вечер до сообщения."
+				},
+				"fr": {
+					"question": "Nous l'avions attendu toute la soirée quand il a enfin envoyé un message.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : all evening."
+				},
+				"de": {
+					"question": "Wir hatten den ganzen Abend auf ihn gewartet, als er endlich eine Nachricht schickte.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: all evening."
+				},
+				"es": {
+					"question": "Habíamos estado esperándolo toda la tarde cuando por fin envió un mensaje.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: all evening."
+				}
+			}
 		},
 		{
-			"question": "Он проверял отчёт несколько часов, прежде чем отправил его директору.",
 			"answer": "He had been checking the report for several hours before sending it to the director.",
-			"explanation": "Past Perfect Continuous с for several hours: проверка отчёта до отправки."
+			"translations": {
+				"ru": {
+					"question": "Он проверял отчёт несколько часов, прежде чем отправил его директору.",
+					"explanation": "Past Perfect Continuous с for several hours: проверка отчёта до отправки."
+				},
+				"fr": {
+					"question": "Il avait vérifié le rapport pendant plusieurs heures avant de l'envoyer au directeur.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for several hours."
+				},
+				"de": {
+					"question": "Er hatte den Bericht mehrere Stunden lang geprüft, bevor er ihn an den Direktor schickte.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for several hours."
+				},
+				"es": {
+					"question": "Había estado revisando el informe durante varias horas antes de enviárselo al director.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for several hours."
+				}
+			}
 		},
 		{
-			"question": "Они восстанавливали мозаику несколько лет, когда музей открылся снова.",
 			"answer": "They had been restoring the mosaic for several years when the museum reopened.",
-			"explanation": "Past Perfect Continuous с for several years: реставрация мозаики до открытия музея."
+			"translations": {
+				"ru": {
+					"question": "Они восстанавливали мозаику несколько лет, когда музей открылся снова.",
+					"explanation": "Past Perfect Continuous с for several years: реставрация мозаики до открытия музея."
+				},
+				"fr": {
+					"question": "Ils avaient restauré la mosaïque pendant plusieurs années quand le musée a rouvert.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for several years."
+				},
+				"de": {
+					"question": "Sie hatten das Mosaik mehrere Jahre lang restauriert, als das Museum wiedereröffnete.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for several years."
+				},
+				"es": {
+					"question": "Habían estado restaurando el mosaico durante varios años cuando el museo volvió a abrir.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for several years."
+				}
+			}
 		},
 		{
-			"question": "Она откладывала разговор с ним несколько дней, прежде чем решилась.",
 			"answer": "She had been putting off the conversation with him for several days before she gathered her courage.",
-			"explanation": "Past Perfect Continuous с for several days: откладывание разговора до момента решимости."
+			"translations": {
+				"ru": {
+					"question": "Она откладывала разговор с ним несколько дней, прежде чем решилась.",
+					"explanation": "Past Perfect Continuous с for several days: откладывание разговора до момента решимости."
+				},
+				"fr": {
+					"question": "Elle avait repoussé la conversation avec lui pendant plusieurs jours avant de rassembler son courage.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for several days."
+				},
+				"de": {
+					"question": "Sie hatte das Gespräch mit ihm mehrere Tage lang hinausgezögert, bevor sie sich ein Herz fasste.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for several days."
+				},
+				"es": {
+					"question": "Había estado posponiendo la conversación con él durante varios días antes de armarse de valor.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for several days."
+				}
+			}
 		},
 		{
-			"question": "Его телефон был горячим — он несколько часов играл в игру.",
 			"answer": "His phone was hot — he had been playing a game for several hours.",
-			"explanation": "Past Perfect Continuous объясняет нагрев телефона через длительную игру."
+			"translations": {
+				"ru": {
+					"question": "Его телефон был горячим — он несколько часов играл в игру.",
+					"explanation": "Past Perfect Continuous объясняет нагрев телефона через длительную игру."
+				},
+				"fr": {
+					"question": "Son téléphone était chaud — il avait joué à un jeu pendant plusieurs heures.",
+					"explanation": "Le Past Perfect Continuous explique un résultat visible dans le passé par une action prolongée qui l'a précédé."
+				},
+				"de": {
+					"question": "Sein Telefon war heiß — er hatte mehrere Stunden lang ein Spiel gespielt.",
+					"explanation": "Das Past Perfect Continuous erklärt ein sichtbares Ergebnis in der Vergangenheit durch eine vorangegangene andauernde Handlung."
+				},
+				"es": {
+					"question": "Su teléfono estaba caliente — había estado jugando a un juego durante varias horas.",
+					"explanation": "El Past Perfect Continuous explica un resultado visible en el pasado mediante una acción prolongada que lo precedió."
+				}
+			}
 		},
 		{
-			"question": "Мы работали над предложением для клиента несколько дней, когда он отказался.",
 			"answer": "We had been working on the proposal for the client for several days when he declined.",
-			"explanation": "Past Perfect Continuous с for several days: работа над предложением до отказа."
+			"translations": {
+				"ru": {
+					"question": "Мы работали над предложением для клиента несколько дней, когда он отказался.",
+					"explanation": "Past Perfect Continuous с for several days: работа над предложением до отказа."
+				},
+				"fr": {
+					"question": "Nous avions travaillé sur la proposition pour le client pendant plusieurs jours quand il a refusé.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for several days."
+				},
+				"de": {
+					"question": "Wir hatten mehrere Tage lang an dem Angebot für den Kunden gearbeitet, als er ablehnte.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for several days."
+				},
+				"es": {
+					"question": "Habíamos estado trabajando en la propuesta para el cliente durante varios días cuando él la rechazó.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for several days."
+				}
+			}
 		},
 		{
-			"question": "Она практиковала речь несколько дней, прежде чем выступила публично.",
 			"answer": "She had been practising her speech for several days before speaking in public.",
-			"explanation": "Past Perfect Continuous с for several days: практика речи до публичного выступления."
+			"translations": {
+				"ru": {
+					"question": "Она практиковала речь несколько дней, прежде чем выступила публично.",
+					"explanation": "Past Perfect Continuous с for several days: практика речи до публичного выступления."
+				},
+				"fr": {
+					"question": "Elle avait pratiqué son discours pendant plusieurs jours avant de parler en public.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : for several days."
+				},
+				"de": {
+					"question": "Sie hatte ihre Rede mehrere Tage lang geübt, bevor sie öffentlich sprach.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: for several days."
+				},
+				"es": {
+					"question": "Había estado practicando su discurso durante varios días antes de hablar en público.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: for several days."
+				}
+			}
 		},
 		{
-			"question": "Он целый день разбирался с настройками, прежде чем позвонил в поддержку.",
 			"answer": "He had been dealing with the settings all day before calling support.",
-			"explanation": "Past Perfect Continuous с all day: работа с настройками до звонка в поддержку."
+			"translations": {
+				"ru": {
+					"question": "Он целый день разбирался с настройками, прежде чем позвонил в поддержку.",
+					"explanation": "Past Perfect Continuous с all day: работа с настройками до звонка в поддержку."
+				},
+				"fr": {
+					"question": "Il avait géré les paramètres toute la journée avant d'appeler le support.",
+					"explanation": "Le Past Perfect Continuous s'utilise pour une action qui a duré jusqu'à un moment précis dans le passé. Marqueur : all day."
+				},
+				"de": {
+					"question": "Er hatte sich den ganzen Tag mit den Einstellungen befasst, bevor er den Support anrief.",
+					"explanation": "Das Past Perfect Continuous bezeichnet eine andauernde Handlung bis zu einem bestimmten Zeitpunkt in der Vergangenheit. Marker: all day."
+				},
+				"es": {
+					"question": "Había estado lidiando con la configuración todo el día antes de llamar al soporte.",
+					"explanation": "El Past Perfect Continuous se usa para una acción que duró hasta un momento concreto en el pasado. Marcador: all day."
+				}
+			}
 		}
 	]
 }

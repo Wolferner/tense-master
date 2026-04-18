@@ -1,8 +1,8 @@
 'use client';
 
-import { exerciseSessionService } from '@/client/infrastructure/container';
+import { exerciseSessionService, exerciseSyncService } from '@/client/infrastructure/container';
 import type { ExerciseAnswer } from '@/domain/entities/Answer';
-import type { TenseType } from '@/domain/value-objects';
+import type { Locale, TenseType } from '@/domain/value-objects';
 import type { FixedLimit, Step, TrainingMode } from '@/shared/config/training';
 import type { ExerciseResponseDto } from '@/shared/dtos';
 import { create } from 'zustand';
@@ -19,10 +19,16 @@ type SessionState = {
 
 type SessionActions = {
 	setStep(step: Step): void;
-	submitAnswer(answer: string, exerciseId: string): Promise<void>;
-	startTraining(tenses: TenseType[], mode: TrainingMode, fixedLimit: FixedLimit): Promise<void>;
-	nextExercise(tenses: TenseType[], mode: TrainingMode): Promise<void>;
+	submitAnswer(answer: string, exerciseId: string, locale: Locale): Promise<void>;
+	startTraining(
+		tenses: TenseType[],
+		mode: TrainingMode,
+		fixedLimit: FixedLimit,
+		locale: Locale,
+	): Promise<void>;
+	nextExercise(tenses: TenseType[], mode: TrainingMode, locale: Locale): Promise<void>;
 	finishSession(): Promise<void>;
+	syncExercises(locale: Locale): Promise<void>;
 };
 
 export type SessionStore = SessionState & SessionActions;
@@ -39,6 +45,12 @@ export const useSessionStore = create<SessionStore>()(
 
 			setStep: step => set({ step }),
 
+			syncExercises: async locale => {
+				set({ isLoading: true });
+				await exerciseSyncService.sync(locale);
+				set({ isLoading: false });
+			},
+
 			finishSession: async () => {
 				const { sessionId } = get();
 				if (sessionId) await exerciseSessionService.completeSession(sessionId);
@@ -51,21 +63,22 @@ export const useSessionStore = create<SessionStore>()(
 				});
 			},
 
-			submitAnswer: async (answer, exerciseId) => {
+			submitAnswer: async (answer, exerciseId, locale) => {
 				const { exercises, sessionId } = get();
 				const exercise = exercises.find(e => e.id === exerciseId);
 				if (!exercise) return;
-				const record = await exerciseSessionService.saveAnswer(exercise, answer, sessionId);
+				const record = await exerciseSessionService.saveAnswer(exercise, answer, sessionId, locale);
 				set({ currentAnswer: record });
 			},
 
-			startTraining: async (tenses, mode, fixedLimit) => {
+			startTraining: async (tenses, mode, fixedLimit, locale) => {
 				if (tenses.length === 0) return;
 				set({ isLoading: true });
 				const { exercises, sessionId } = await exerciseSessionService.beginSession(
 					tenses,
 					mode,
 					fixedLimit,
+					locale,
 				);
 				set({
 					exercises,
@@ -77,7 +90,7 @@ export const useSessionStore = create<SessionStore>()(
 				});
 			},
 
-			nextExercise: async (tenses, mode) => {
+			nextExercise: async (tenses, mode, locale) => {
 				const { currentExerciseIndex, exercises, sessionId } = get();
 				set({ isLoading: true });
 				const result = await exerciseSessionService.resolveNext(
@@ -85,6 +98,7 @@ export const useSessionStore = create<SessionStore>()(
 					exercises,
 					tenses,
 					mode,
+					locale,
 				);
 				if (result.type === 'advance') {
 					set({ currentExerciseIndex: result.nextIndex, currentAnswer: null, isLoading: false });

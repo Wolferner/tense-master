@@ -1,6 +1,6 @@
 import { ExerciseResponseDto } from '@/shared/dtos';
 
 export interface IExerciseApi {
-	getMeta(): Promise<{ lastUpdatedAt: string | null }>;
-	getAll(): Promise<ExerciseResponseDto[]>;
+	getMeta(locale: string): Promise<{ lastUpdatedAt: string | null }>;
+	getAll(locale: string): Promise<ExerciseResponseDto[]>;
 }

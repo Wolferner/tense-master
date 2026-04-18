@@ -2,904 +2,3784 @@
 	"tense": "PRESENT_CONTINUOUS",
 	"exercises": [
 		{
-			"question": "Она сейчас читает книгу.",
 			"answer": "She is reading a book now.",
-			"explanation": "Present Continuous для действия, происходящего прямо сейчас. Образуется: to be + глагол -ing."
+			"translations": {
+				"ru": {
+					"question": "Она сейчас читает книгу.",
+					"explanation": "Present Continuous для действия, происходящего прямо сейчас. Образуется: to be + глагол -ing."
+				},
+				"fr": {
+					"question": "Elle lit un livre en ce moment.",
+					"explanation": "Present Continuous pour une action qui se déroule en ce moment. Formation : to be + verbe -ing."
+				},
+				"de": {
+					"question": "Sie liest gerade ein Buch.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet. Bildung: to be + Verb -ing."
+				},
+				"es": {
+					"question": "Ella está leyendo un libro ahora mismo.",
+					"explanation": "Present Continuous para una acción que ocurre en este momento. Se forma con: to be + verbo -ing."
+				}
+			}
 		},
 		{
-			"question": "Они строят новый дом.",
 			"answer": "They are building a new house.",
-			"explanation": "Present Continuous для действия, происходящего в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Они строят новый дом.",
+					"explanation": "Present Continuous для действия, происходящего в данный момент."
+				},
+				"fr": {
+					"question": "Ils construisent une nouvelle maison.",
+					"explanation": "Present Continuous pour une action qui se déroule en ce moment."
+				},
+				"de": {
+					"question": "Sie bauen gerade ein neues Haus.",
+					"explanation": "Present Continuous für eine Handlung, die gerade in diesem Moment stattfindet."
+				},
+				"es": {
+					"question": "Están construyendo una casa nueva.",
+					"explanation": "Present Continuous para una acción que ocurre en este momento."
+				}
+			}
 		},
 		{
-			"question": "Я жду автобуса.",
 			"answer": "I am waiting for the bus.",
-			"explanation": "Present Continuous для действия, происходящего прямо сейчас. С I используется am."
+			"translations": {
+				"ru": {
+					"question": "Я жду автобуса.",
+					"explanation": "Present Continuous для действия, происходящего прямо сейчас. С I используется am."
+				},
+				"fr": {
+					"question": "J'attends le bus.",
+					"explanation": "Present Continuous pour une action qui se déroule en ce moment. Avec I, on utilise am."
+				},
+				"de": {
+					"question": "Ich warte auf den Bus.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet. Mit I wird am verwendet."
+				},
+				"es": {
+					"question": "Estoy esperando el autobús.",
+					"explanation": "Present Continuous para una acción que ocurre ahora mismo. Con I se usa am."
+				}
+			}
 		},
 		{
-			"question": "Мы сейчас обедаем.",
 			"answer": "We are having lunch now.",
-			"explanation": "Present Continuous для действия в момент речи. С we используется are."
+			"translations": {
+				"ru": {
+					"question": "Мы сейчас обедаем.",
+					"explanation": "Present Continuous для действия в момент речи. С we используется are."
+				},
+				"fr": {
+					"question": "Nous déjeunons en ce moment.",
+					"explanation": "Present Continuous pour une action au moment où l'on parle. Avec we, on utilise are."
+				},
+				"de": {
+					"question": "Wir essen gerade zu Mittag.",
+					"explanation": "Present Continuous für eine Handlung im Moment des Sprechens. Mit we wird are verwendet."
+				},
+				"es": {
+					"question": "Estamos almorzando ahora.",
+					"explanation": "Present Continuous para una acción en el momento del habla. Con we se usa are."
+				}
+			}
 		},
 		{
-			"question": "Он сейчас разговаривает по телефону.",
 			"answer": "He is talking on the phone now.",
-			"explanation": "Present Continuous для действия, происходящего в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Он сейчас разговаривает по телефону.",
+					"explanation": "Present Continuous для действия, происходящего в данный момент."
+				},
+				"fr": {
+					"question": "Il parle au téléphone en ce moment.",
+					"explanation": "Present Continuous pour une action qui se déroule en ce moment."
+				},
+				"de": {
+					"question": "Er telefoniert gerade.",
+					"explanation": "Present Continuous für eine Handlung, die gerade in diesem Moment stattfindet."
+				},
+				"es": {
+					"question": "Él está hablando por teléfono ahora mismo.",
+					"explanation": "Present Continuous para una acción que ocurre en este momento."
+				}
+			}
 		},
 		{
-			"question": "Дети играют в саду.",
 			"answer": "The children are playing in the garden.",
-			"explanation": "Present Continuous для действия, происходящего прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Дети играют в саду.",
+					"explanation": "Present Continuous для действия, происходящего прямо сейчас."
+				},
+				"fr": {
+					"question": "Les enfants jouent dans le jardin.",
+					"explanation": "Present Continuous pour une action qui se déroule en ce moment."
+				},
+				"de": {
+					"question": "Die Kinder spielen gerade im Garten.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Los niños están jugando en el jardín.",
+					"explanation": "Present Continuous para una acción que ocurre en este momento."
+				}
+			}
 		},
 		{
-			"question": "Я сейчас пишу письмо.",
 			"answer": "I am writing a letter now.",
-			"explanation": "Present Continuous с am + writing. Удвоение t в write → writing."
+			"translations": {
+				"ru": {
+					"question": "Я сейчас пишу письмо.",
+					"explanation": "Present Continuous с am + writing. Удвоение t в write → writing."
+				},
+				"fr": {
+					"question": "J'écris une lettre en ce moment.",
+					"explanation": "Present Continuous avec am + writing. Doublement du t dans write → writing."
+				},
+				"de": {
+					"question": "Ich schreibe gerade einen Brief.",
+					"explanation": "Present Continuous mit am + writing. Verdopplung des t in write → writing."
+				},
+				"es": {
+					"question": "Estoy escribiendo una carta ahora mismo.",
+					"explanation": "Present Continuous con am + writing. Duplicación de la t en write → writing."
+				}
+			}
 		},
 		{
-			"question": "Она учится к экзамену.",
 			"answer": "She is studying for the exam.",
-			"explanation": "Present Continuous для временного действия, продолжающегося сейчас."
+			"translations": {
+				"ru": {
+					"question": "Она учится к экзамену.",
+					"explanation": "Present Continuous для временного действия, продолжающегося сейчас."
+				},
+				"fr": {
+					"question": "Elle révise pour son examen.",
+					"explanation": "Present Continuous pour une action temporaire qui se poursuit en ce moment."
+				},
+				"de": {
+					"question": "Sie lernt gerade für eine Prüfung.",
+					"explanation": "Present Continuous für eine vorübergehende Handlung, die gerade andauert."
+				},
+				"es": {
+					"question": "Ella está estudiando para el examen.",
+					"explanation": "Present Continuous para una acción temporal que continúa en este momento."
+				}
+			}
 		},
 		{
-			"question": "Мы смотрим кино.",
 			"answer": "We are watching a film.",
-			"explanation": "Present Continuous для совместного действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Мы смотрим кино.",
+					"explanation": "Present Continuous для совместного действия в данный момент."
+				},
+				"fr": {
+					"question": "Nous regardons un film.",
+					"explanation": "Present Continuous pour une action commune en ce moment."
+				},
+				"de": {
+					"question": "Wir schauen gerade einen Film.",
+					"explanation": "Present Continuous für eine gemeinsame Handlung in diesem Moment."
+				},
+				"es": {
+					"question": "Estamos viendo una película.",
+					"explanation": "Present Continuous para una acción conjunta en este momento."
+				}
+			}
 		},
 		{
-			"question": "Он бежит домой.",
 			"answer": "He is running home.",
-			"explanation": "Present Continuous для действия в данный момент. Удвоение n в run → running."
+			"translations": {
+				"ru": {
+					"question": "Он бежит домой.",
+					"explanation": "Present Continuous для действия в данный момент. Удвоение n в run → running."
+				},
+				"fr": {
+					"question": "Il court vers chez lui.",
+					"explanation": "Present Continuous pour une action en ce moment. Doublement du n dans run → running."
+				},
+				"de": {
+					"question": "Er läuft gerade nach Hause.",
+					"explanation": "Present Continuous für eine Handlung in diesem Moment. Verdopplung des n in run → running."
+				},
+				"es": {
+					"question": "Él está corriendo a casa.",
+					"explanation": "Present Continuous para una acción en este momento. Duplicación de la n en run → running."
+				}
+			}
 		},
 		{
-			"question": "Они сейчас спорят.",
 			"answer": "They are arguing now.",
-			"explanation": "Present Continuous для действия, происходящего в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Они сейчас спорят.",
+					"explanation": "Present Continuous для действия, происходящего в данный момент."
+				},
+				"fr": {
+					"question": "Ils se disputent en ce moment.",
+					"explanation": "Present Continuous pour une action qui se déroule en ce moment."
+				},
+				"de": {
+					"question": "Sie streiten sich gerade.",
+					"explanation": "Present Continuous für eine Handlung, die gerade in diesem Moment stattfindet."
+				},
+				"es": {
+					"question": "Están discutiendo ahora mismo.",
+					"explanation": "Present Continuous para una acción que ocurre en este momento."
+				}
+			}
 		},
 		{
-			"question": "Я не работаю сейчас.",
 			"answer": "I am not working now.",
-			"explanation": "Отрицание в Present Continuous: am/is/are + not + глагол -ing."
+			"translations": {
+				"ru": {
+					"question": "Я не работаю сейчас.",
+					"explanation": "Отрицание в Present Continuous: am/is/are + not + глагол -ing."
+				},
+				"fr": {
+					"question": "Je ne travaille pas en ce moment.",
+					"explanation": "Négation au Present Continuous : am/is/are + not + verbe -ing."
+				},
+				"de": {
+					"question": "Ich arbeite gerade nicht.",
+					"explanation": "Verneinung im Present Continuous: am/is/are + not + Verb -ing."
+				},
+				"es": {
+					"question": "No estoy trabajando ahora.",
+					"explanation": "Negación en Present Continuous: am/is/are + not + verbo -ing."
+				}
+			}
 		},
 		{
-			"question": "Она не спит.",
 			"answer": "She is not sleeping.",
-			"explanation": "Отрицание в Present Continuous с is not."
+			"translations": {
+				"ru": {
+					"question": "Она не спит.",
+					"explanation": "Отрицание в Present Continuous с is not."
+				},
+				"fr": {
+					"question": "Elle ne dort pas.",
+					"explanation": "Négation au Present Continuous avec is not."
+				},
+				"de": {
+					"question": "Sie schläft nicht.",
+					"explanation": "Verneinung im Present Continuous mit is not."
+				},
+				"es": {
+					"question": "Ella no está durmiendo.",
+					"explanation": "Negación en Present Continuous con is not."
+				}
+			}
 		},
 		{
-			"question": "Ты слушаешь меня?",
 			"answer": "Are you listening to me?",
-			"explanation": "Вопрос в Present Continuous: are/is/am ставится перед подлежащим."
+			"translations": {
+				"ru": {
+					"question": "Ты слушаешь меня?",
+					"explanation": "Вопрос в Present Continuous: are/is/am ставится перед подлежащим."
+				},
+				"fr": {
+					"question": "Tu m'écoutes ?",
+					"explanation": "Question au Present Continuous : are/is/am se place avant le sujet."
+				},
+				"de": {
+					"question": "Hörst du mir zu?",
+					"explanation": "Frage im Present Continuous: are/is/am wird vor das Subjekt gestellt."
+				},
+				"es": {
+					"question": "¿Me estás escuchando?",
+					"explanation": "Pregunta en Present Continuous: are/is/am se coloca antes del sujeto."
+				}
+			}
 		},
 		{
-			"question": "Что он делает?",
 			"answer": "What is he doing?",
-			"explanation": "Вопрос в Present Continuous с вопросительным словом what."
+			"translations": {
+				"ru": {
+					"question": "Что он делает?",
+					"explanation": "Вопрос в Present Continuous с вопросительным словом what."
+				},
+				"fr": {
+					"question": "Qu'est-ce qu'il fait ?",
+					"explanation": "Question au Present Continuous avec le mot interrogatif what."
+				},
+				"de": {
+					"question": "Was macht er gerade?",
+					"explanation": "Frage im Present Continuous mit dem Fragewort what."
+				},
+				"es": {
+					"question": "¿Qué está haciendo él?",
+					"explanation": "Pregunta en Present Continuous con la palabra interrogativa what."
+				}
+			}
 		},
 		{
-			"question": "Мы переезжаем на новую квартиру на этой неделе.",
 			"answer": "We are moving to a new flat this week.",
-			"explanation": "Present Continuous для запланированного ближайшего будущего."
+			"translations": {
+				"ru": {
+					"question": "Мы переезжаем на новую квартиру на этой неделе.",
+					"explanation": "Present Continuous для запланированного ближайшего будущего."
+				},
+				"fr": {
+					"question": "Nous déménageons dans un nouvel appartement cette semaine.",
+					"explanation": "Present Continuous pour un futur proche planifié."
+				},
+				"de": {
+					"question": "Wir ziehen diese Woche in eine neue Wohnung um.",
+					"explanation": "Present Continuous für eine geplante nahe Zukunft."
+				},
+				"es": {
+					"question": "Nos mudamos a un nuevo apartamento esta semana.",
+					"explanation": "Present Continuous para un futuro cercano planificado."
+				}
+			}
 		},
 		{
-			"question": "Он уезжает завтра.",
 			"answer": "He is leaving tomorrow.",
-			"explanation": "Present Continuous для запланированного действия в будущем."
+			"translations": {
+				"ru": {
+					"question": "Он уезжает завтра.",
+					"explanation": "Present Continuous для запланированного действия в будущем."
+				},
+				"fr": {
+					"question": "Il part demain.",
+					"explanation": "Present Continuous pour une action planifiée dans le futur."
+				},
+				"de": {
+					"question": "Er fährt morgen ab.",
+					"explanation": "Present Continuous für eine geplante Handlung in der Zukunft."
+				},
+				"es": {
+					"question": "Él se va mañana.",
+					"explanation": "Present Continuous para una acción planificada en el futuro."
+				}
+			}
 		},
 		{
-			"question": "Она ищет новую работу.",
 			"answer": "She is looking for a new job.",
-			"explanation": "Present Continuous для временного действия, продолжающегося в этот период."
+			"translations": {
+				"ru": {
+					"question": "Она ищет новую работу.",
+					"explanation": "Present Continuous для временного действия, продолжающегося в этот период."
+				},
+				"fr": {
+					"question": "Elle cherche un nouvel emploi.",
+					"explanation": "Present Continuous pour une action temporaire qui se poursuit pendant cette période."
+				},
+				"de": {
+					"question": "Sie sucht gerade eine neue Stelle.",
+					"explanation": "Present Continuous für eine vorübergehende Handlung, die in diesem Zeitraum andauert."
+				},
+				"es": {
+					"question": "Ella está buscando un trabajo nuevo.",
+					"explanation": "Present Continuous para una acción temporal que continúa durante este período."
+				}
+			}
 		},
 		{
-			"question": "Они сейчас занимаются спортом.",
 			"answer": "They are doing sport now.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Они сейчас занимаются спортом.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Ils font du sport en ce moment.",
+					"explanation": "Present Continuous pour une action en ce moment."
+				},
+				"de": {
+					"question": "Sie treiben gerade Sport.",
+					"explanation": "Present Continuous für eine Handlung in diesem Moment."
+				},
+				"es": {
+					"question": "Están haciendo deporte ahora mismo.",
+					"explanation": "Present Continuous para una acción en este momento."
+				}
+			}
 		},
 		{
-			"question": "Я читаю интересную книгу на этой неделе.",
 			"answer": "I am reading an interesting book this week.",
-			"explanation": "Present Continuous для временного действия в данный период."
+			"translations": {
+				"ru": {
+					"question": "Я читаю интересную книгу на этой неделе.",
+					"explanation": "Present Continuous для временного действия в данный период."
+				},
+				"fr": {
+					"question": "Je lis un livre intéressant cette semaine.",
+					"explanation": "Present Continuous pour une action temporaire durant cette période."
+				},
+				"de": {
+					"question": "Ich lese diese Woche ein interessantes Buch.",
+					"explanation": "Present Continuous für eine vorübergehende Handlung in diesem Zeitraum."
+				},
+				"es": {
+					"question": "Estoy leyendo un libro interesante esta semana.",
+					"explanation": "Present Continuous para una acción temporal en este período."
+				}
+			}
 		},
 		{
-			"question": "Она готовит обед.",
 			"answer": "She is cooking lunch.",
-			"explanation": "Present Continuous для действия, происходящего прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Она готовит обед.",
+					"explanation": "Present Continuous для действия, происходящего прямо сейчас."
+				},
+				"fr": {
+					"question": "Elle prépare le déjeuner.",
+					"explanation": "Le Present Continuous exprime une action qui se déroule en ce moment même."
+				},
+				"de": {
+					"question": "Sie kocht das Mittagessen.",
+					"explanation": "Das Present Continuous drückt eine Handlung aus, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Ella está preparando el almuerzo.",
+					"explanation": "El Present Continuous expresa una acción que está ocurriendo en este momento."
+				}
+			}
 		},
 		{
-			"question": "Мы не едем на дачу в эти выходные.",
 			"answer": "We are not going to the country house this weekend.",
-			"explanation": "Отрицание в Present Continuous для ближайшего будущего."
+			"translations": {
+				"ru": {
+					"question": "Мы не едем на дачу в эти выходные.",
+					"explanation": "Отрицание в Present Continuous для ближайшего будущего."
+				},
+				"fr": {
+					"question": "Nous n'allons pas à la maison de campagne ce week-end.",
+					"explanation": "La négation au Present Continuous pour un futur proche."
+				},
+				"de": {
+					"question": "Wir fahren dieses Wochenende nicht ins Ferienhaus.",
+					"explanation": "Verneinung im Present Continuous für die nahe Zukunft."
+				},
+				"es": {
+					"question": "No vamos a la casa de campo este fin de semana.",
+					"explanation": "La negación en Present Continuous para el futuro próximo."
+				}
+			}
 		},
 		{
-			"question": "Он пишет отчёт прямо сейчас.",
 			"answer": "He is writing a report right now.",
-			"explanation": "Present Continuous с right now — маркером настоящего момента."
+			"translations": {
+				"ru": {
+					"question": "Он пишет отчёт прямо сейчас.",
+					"explanation": "Present Continuous с right now — маркером настоящего момента."
+				},
+				"fr": {
+					"question": "Il rédige un rapport en ce moment.",
+					"explanation": "Le Present Continuous avec right now — marqueur du moment présent."
+				},
+				"de": {
+					"question": "Er schreibt gerade einen Bericht.",
+					"explanation": "Das Present Continuous mit right now — einem Marker für den gegenwärtigen Moment."
+				},
+				"es": {
+					"question": "Él está escribiendo un informe ahora mismo.",
+					"explanation": "El Present Continuous con right now — marcador del momento presente."
+				}
+			}
 		},
 		{
-			"question": "Дети шумят.",
 			"answer": "The children are making a lot of noise.",
-			"explanation": "Present Continuous для действия, происходящего прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Дети шумят.",
+					"explanation": "Present Continuous для действия, происходящего прямо сейчас."
+				},
+				"fr": {
+					"question": "Les enfants font du bruit.",
+					"explanation": "Le Present Continuous pour une action se déroulant en ce moment même."
+				},
+				"de": {
+					"question": "Die Kinder machen Lärm.",
+					"explanation": "Das Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Los niños están haciendo ruido.",
+					"explanation": "El Present Continuous para una acción que ocurre en este momento."
+				}
+			}
 		},
 		{
-			"question": "Она становится лучше.",
 			"answer": "She is getting better.",
-			"explanation": "Present Continuous для постепенного изменения или развития ситуации."
+			"translations": {
+				"ru": {
+					"question": "Она становится лучше.",
+					"explanation": "Present Continuous для постепенного изменения или развития ситуации."
+				},
+				"fr": {
+					"question": "Elle va mieux.",
+					"explanation": "Le Present Continuous pour un changement progressif ou une évolution de la situation."
+				},
+				"de": {
+					"question": "Es geht ihr besser.",
+					"explanation": "Das Present Continuous für eine allmähliche Veränderung oder Entwicklung einer Situation."
+				},
+				"es": {
+					"question": "Ella está mejorando.",
+					"explanation": "El Present Continuous para un cambio gradual o el desarrollo de una situación."
+				}
+			}
 		},
 		{
-			"question": "Погода улучшается.",
 			"answer": "The weather is improving.",
-			"explanation": "Present Continuous для постепенного изменения."
+			"translations": {
+				"ru": {
+					"question": "Погода улучшается.",
+					"explanation": "Present Continuous для постепенного изменения."
+				},
+				"fr": {
+					"question": "Le temps s'améliore.",
+					"explanation": "Le Present Continuous pour un changement progressif."
+				},
+				"de": {
+					"question": "Das Wetter wird besser.",
+					"explanation": "Das Present Continuous für eine allmähliche Veränderung."
+				},
+				"es": {
+					"question": "El tiempo está mejorando.",
+					"explanation": "El Present Continuous para un cambio gradual."
+				}
+			}
 		},
 		{
-			"question": "Цены растут.",
 			"answer": "Prices are rising.",
-			"explanation": "Present Continuous для постепенного изменения в настоящем времени."
+			"translations": {
+				"ru": {
+					"question": "Цены растут.",
+					"explanation": "Present Continuous для постепенного изменения в настоящем времени."
+				},
+				"fr": {
+					"question": "Les prix augmentent.",
+					"explanation": "Le Present Continuous pour un changement progressif dans le présent."
+				},
+				"de": {
+					"question": "Die Preise steigen.",
+					"explanation": "Das Present Continuous für eine allmähliche Veränderung in der Gegenwart."
+				},
+				"es": {
+					"question": "Los precios están subiendo.",
+					"explanation": "El Present Continuous para un cambio gradual en el tiempo presente."
+				}
+			}
 		},
 		{
-			"question": "Он всё время теряет вещи!",
 			"answer": "He is always losing things!",
-			"explanation": "Present Continuous с always выражает раздражение по поводу повторяющегося действия."
+			"translations": {
+				"ru": {
+					"question": "Он всё время теряет вещи!",
+					"explanation": "Present Continuous с always выражает раздражение по поводу повторяющегося действия."
+				},
+				"fr": {
+					"question": "Il perd toujours ses affaires !",
+					"explanation": "Le Present Continuous avec always exprime l'irritation face à une action répétée."
+				},
+				"de": {
+					"question": "Er verliert ständig seine Sachen!",
+					"explanation": "Das Present Continuous mit always drückt Ärger über eine sich wiederholende Handlung aus."
+				},
+				"es": {
+					"question": "¡Siempre está perdiendo las cosas!",
+					"explanation": "El Present Continuous con always expresa irritación ante una acción repetida."
+				}
+			}
 		},
 		{
-			"question": "Она всегда перебивает меня!",
 			"answer": "She is always interrupting me!",
-			"explanation": "Present Continuous с always для выражения недовольства привычкой."
+			"translations": {
+				"ru": {
+					"question": "Она всегда перебивает меня!",
+					"explanation": "Present Continuous с always для выражения недовольства привычкой."
+				},
+				"fr": {
+					"question": "Elle m'interrompt toujours !",
+					"explanation": "Le Present Continuous avec always pour exprimer le mécontentement face à une habitude."
+				},
+				"de": {
+					"question": "Sie unterbricht mich immer!",
+					"explanation": "Das Present Continuous mit always zum Ausdruck von Unmut über eine Gewohnheit."
+				},
+				"es": {
+					"question": "¡Siempre me está interrumpiendo!",
+					"explanation": "El Present Continuous con always para expresar descontento ante un hábito."
+				}
+			}
 		},
 		{
-			"question": "Ты постоянно опаздываешь!",
 			"answer": "You are constantly arriving late!",
-			"explanation": "Present Continuous с constantly выражает раздражение."
+			"translations": {
+				"ru": {
+					"question": "Ты постоянно опаздываешь!",
+					"explanation": "Present Continuous с constantly выражает раздражение."
+				},
+				"fr": {
+					"question": "Tu es constamment en retard !",
+					"explanation": "Le Present Continuous avec constantly exprime l'irritation."
+				},
+				"de": {
+					"question": "Du kommst ständig zu spät!",
+					"explanation": "Das Present Continuous mit constantly drückt Ärger aus."
+				},
+				"es": {
+					"question": "¡Siempre llegas tarde!",
+					"explanation": "El Present Continuous con constantly expresa irritación."
+				}
+			}
 		},
 		{
-			"question": "Куда ты идёшь?",
 			"answer": "Where are you going?",
-			"explanation": "Вопрос в Present Continuous о действии в данный момент или ближайшем будущем."
+			"translations": {
+				"ru": {
+					"question": "Куда ты идёшь?",
+					"explanation": "Вопрос в Present Continuous о действии в данный момент или ближайшем будущем."
+				},
+				"fr": {
+					"question": "Où vas-tu ?",
+					"explanation": "Question au Present Continuous sur une action en cours ou dans un futur proche."
+				},
+				"de": {
+					"question": "Wohin gehst du?",
+					"explanation": "Frage im Present Continuous über eine aktuelle Handlung oder die nahe Zukunft."
+				},
+				"es": {
+					"question": "¿Adónde vas?",
+					"explanation": "Pregunta en Present Continuous sobre una acción en el momento actual o en el futuro próximo."
+				}
+			}
 		},
 		{
-			"question": "Мы летим в Лондон в пятницу.",
 			"answer": "We are flying to London on Friday.",
-			"explanation": "Present Continuous для запланированного действия в будущем."
+			"translations": {
+				"ru": {
+					"question": "Мы летим в Лондон в пятницу.",
+					"explanation": "Present Continuous для запланированного действия в будущем."
+				},
+				"fr": {
+					"question": "Nous partons pour Londres vendredi.",
+					"explanation": "Le Present Continuous pour une action planifiée dans le futur."
+				},
+				"de": {
+					"question": "Wir fliegen am Freitag nach London.",
+					"explanation": "Das Present Continuous für eine geplante Handlung in der Zukunft."
+				},
+				"es": {
+					"question": "Volamos a Londres el viernes.",
+					"explanation": "El Present Continuous para una acción planificada en el futuro."
+				}
+			}
 		},
 		{
-			"question": "Она не идёт на вечеринку.",
 			"answer": "She is not going to the party.",
-			"explanation": "Отрицание в Present Continuous для будущего события."
+			"translations": {
+				"ru": {
+					"question": "Она не идёт на вечеринку.",
+					"explanation": "Отрицание в Present Continuous для будущего события."
+				},
+				"fr": {
+					"question": "Elle ne va pas à la fête.",
+					"explanation": "La négation au Present Continuous pour un événement futur."
+				},
+				"de": {
+					"question": "Sie geht nicht auf die Party.",
+					"explanation": "Verneinung im Present Continuous für ein zukünftiges Ereignis."
+				},
+				"es": {
+					"question": "Ella no va a la fiesta.",
+					"explanation": "La negación en Present Continuous para un evento futuro."
+				}
+			}
 		},
 		{
-			"question": "Он сейчас принимает душ.",
 			"answer": "He is taking a shower now.",
-			"explanation": "Present Continuous для действия, происходящего прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Он сейчас принимает душ.",
+					"explanation": "Present Continuous для действия, происходящего прямо сейчас."
+				},
+				"fr": {
+					"question": "Il prend une douche en ce moment.",
+					"explanation": "Le Present Continuous pour une action se déroulant en ce moment même."
+				},
+				"de": {
+					"question": "Er duscht gerade.",
+					"explanation": "Das Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Él se está duchando ahora mismo.",
+					"explanation": "El Present Continuous para una acción que ocurre en este momento."
+				}
+			}
 		},
 		{
-			"question": "Я сейчас завтракаю.",
 			"answer": "I am having breakfast now.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Я сейчас завтракаю.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Je prends mon petit-déjeuner en ce moment.",
+					"explanation": "Le Present Continuous pour une action en cours à ce moment-là."
+				},
+				"de": {
+					"question": "Ich frühstücke gerade.",
+					"explanation": "Das Present Continuous für eine Handlung im aktuellen Moment."
+				},
+				"es": {
+					"question": "Estoy desayunando ahora mismo.",
+					"explanation": "El Present Continuous para una acción en el momento presente."
+				}
+			}
 		},
 		{
-			"question": "Они сейчас сидят в кафе.",
 			"answer": "They are sitting in a café now.",
-			"explanation": "Present Continuous для действия в момент речи."
+			"translations": {
+				"ru": {
+					"question": "Они сейчас сидят в кафе.",
+					"explanation": "Present Continuous для действия в момент речи."
+				},
+				"fr": {
+					"question": "Ils sont assis dans un café en ce moment.",
+					"explanation": "Le Present Continuous pour une action au moment où l'on parle."
+				},
+				"de": {
+					"question": "Sie sitzen gerade in einem Café.",
+					"explanation": "Das Present Continuous für eine Handlung im Moment des Sprechens."
+				},
+				"es": {
+					"question": "Están sentados en una cafetería ahora mismo.",
+					"explanation": "El Present Continuous para una acción en el momento de hablar."
+				}
+			}
 		},
 		{
-			"question": "Он сейчас не занимается.",
 			"answer": "He is not studying now.",
-			"explanation": "Отрицание в Present Continuous с is not."
+			"translations": {
+				"ru": {
+					"question": "Он сейчас не занимается.",
+					"explanation": "Отрицание в Present Continuous с is not."
+				},
+				"fr": {
+					"question": "Il ne travaille pas en ce moment.",
+					"explanation": "La négation au Present Continuous avec is not."
+				},
+				"de": {
+					"question": "Er lernt gerade nicht.",
+					"explanation": "Verneinung im Present Continuous mit is not."
+				},
+				"es": {
+					"question": "Él no está estudiando ahora mismo.",
+					"explanation": "La negación en Present Continuous con is not."
+				}
+			}
 		},
 		{
-			"question": "Что она пишет?",
 			"answer": "What is she writing?",
-			"explanation": "Вопрос в Present Continuous с вопросительным словом."
+			"translations": {
+				"ru": {
+					"question": "Что она пишет?",
+					"explanation": "Вопрос в Present Continuous с вопросительным словом."
+				},
+				"fr": {
+					"question": "Qu'est-ce qu'elle écrit ?",
+					"explanation": "Question au Present Continuous avec un mot interrogatif."
+				},
+				"de": {
+					"question": "Was schreibt sie?",
+					"explanation": "Frage im Present Continuous mit einem Fragewort."
+				},
+				"es": {
+					"question": "¿Qué está escribiendo ella?",
+					"explanation": "Pregunta en Present Continuous con una palabra interrogativa."
+				}
+			}
 		},
 		{
-			"question": "Мы ждём тебя.",
 			"answer": "We are waiting for you.",
-			"explanation": "Present Continuous для действия, происходящего прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Мы ждём тебя.",
+					"explanation": "Present Continuous для действия, происходящего прямо сейчас."
+				},
+				"fr": {
+					"question": "Nous t'attendons.",
+					"explanation": "Le Present Continuous pour une action se déroulant en ce moment même."
+				},
+				"de": {
+					"question": "Wir warten auf dich.",
+					"explanation": "Das Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Te estamos esperando.",
+					"explanation": "El Present Continuous para una acción que ocurre en este momento."
+				}
+			}
 		},
 		{
-			"question": "Он едет на встречу.",
 			"answer": "He is going to a meeting.",
-			"explanation": "Present Continuous для действия в данный момент или ближайшего будущего."
+			"translations": {
+				"ru": {
+					"question": "Он едет на встречу.",
+					"explanation": "Present Continuous для действия в данный момент или ближайшего будущего."
+				},
+				"fr": {
+					"question": "Il se rend à une réunion.",
+					"explanation": "Le Present Continuous pour une action en cours ou dans un futur proche."
+				},
+				"de": {
+					"question": "Er fährt zu einem Treffen.",
+					"explanation": "Das Present Continuous für eine aktuelle Handlung oder die nahe Zukunft."
+				},
+				"es": {
+					"question": "Él va a una reunión.",
+					"explanation": "El Present Continuous para una acción en el momento actual o en el futuro próximo."
+				}
+			}
 		},
 		{
-			"question": "Она смеётся над чем-то.",
 			"answer": "She is laughing at something.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Она смеётся над чем-то.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Elle rit de quelque chose.",
+					"explanation": "Present Continuous pour une action se déroulant à ce moment précis."
+				},
+				"de": {
+					"question": "Sie lacht über etwas.",
+					"explanation": "Present Continuous für eine Handlung, die genau jetzt stattfindet."
+				},
+				"es": {
+					"question": "Ella se está riendo de algo.",
+					"explanation": "Present Continuous para una acción que ocurre en este momento."
+				}
+			}
 		},
 		{
-			"question": "Я стараюсь изо всех сил.",
 			"answer": "I am trying my best.",
-			"explanation": "Present Continuous для временного усилия."
+			"translations": {
+				"ru": {
+					"question": "Я стараюсь изо всех сил.",
+					"explanation": "Present Continuous для временного усилия."
+				},
+				"fr": {
+					"question": "Je fais de mon mieux.",
+					"explanation": "Present Continuous pour un effort temporaire."
+				},
+				"de": {
+					"question": "Ich gebe mein Bestes.",
+					"explanation": "Present Continuous für eine vorübergehende Anstrengung."
+				},
+				"es": {
+					"question": "Estoy haciendo todo lo posible.",
+					"explanation": "Present Continuous para un esfuerzo temporal."
+				}
+			}
 		},
 		{
-			"question": "Они переговариваются.",
 			"answer": "They are having a conversation.",
-			"explanation": "Present Continuous для действия, происходящего прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Они переговариваются.",
+					"explanation": "Present Continuous для действия, происходящего прямо сейчас."
+				},
+				"fr": {
+					"question": "Ils se parlent.",
+					"explanation": "Present Continuous pour une action se déroulant en ce moment même."
+				},
+				"de": {
+					"question": "Sie unterhalten sich.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Están hablando entre sí.",
+					"explanation": "Present Continuous para una acción que ocurre ahora mismo."
+				}
+			}
 		},
 		{
-			"question": "Снег идёт.",
 			"answer": "It is snowing.",
-			"explanation": "Present Continuous для погодного явления, происходящего прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Снег идёт.",
+					"explanation": "Present Continuous для погодного явления, происходящего прямо сейчас."
+				},
+				"fr": {
+					"question": "Il neige.",
+					"explanation": "Present Continuous pour un phénomène météorologique se produisant en ce moment même."
+				},
+				"de": {
+					"question": "Es schneit.",
+					"explanation": "Present Continuous für ein Wetterphänomen, das gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Está nevando.",
+					"explanation": "Present Continuous para un fenómeno meteorológico que ocurre ahora mismo."
+				}
+			}
 		},
 		{
-			"question": "Дождь идёт.",
 			"answer": "It is raining.",
-			"explanation": "Present Continuous для погодного явления в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Дождь идёт.",
+					"explanation": "Present Continuous для погодного явления в данный момент."
+				},
+				"fr": {
+					"question": "Il pleut.",
+					"explanation": "Present Continuous pour un phénomène météorologique à ce moment précis."
+				},
+				"de": {
+					"question": "Es regnet.",
+					"explanation": "Present Continuous für ein Wetterphänomen in diesem Moment."
+				},
+				"es": {
+					"question": "Está lloviendo.",
+					"explanation": "Present Continuous para un fenómeno meteorológico en este momento."
+				}
+			}
 		},
 		{
-			"question": "Она думает об этом.",
 			"answer": "She is thinking about it.",
-			"explanation": "Present Continuous с think в значении активного размышления (не мнения)."
+			"translations": {
+				"ru": {
+					"question": "Она думает об этом.",
+					"explanation": "Present Continuous с think в значении активного размышления (не мнения)."
+				},
+				"fr": {
+					"question": "Elle pense à cela.",
+					"explanation": "Present Continuous avec think au sens de réflexion active (pas d'opinion)."
+				},
+				"de": {
+					"question": "Sie denkt darüber nach.",
+					"explanation": "Present Continuous mit think im Sinne von aktivem Nachdenken (nicht Meinung)."
+				},
+				"es": {
+					"question": "Ella está pensando en eso.",
+					"explanation": "Present Continuous con think en el sentido de reflexión activa (no de opinión)."
+				}
+			}
 		},
 		{
-			"question": "Мы работаем над новым проектом.",
 			"answer": "We are working on a new project.",
-			"explanation": "Present Continuous для временного действия в данный период."
+			"translations": {
+				"ru": {
+					"question": "Мы работаем над новым проектом.",
+					"explanation": "Present Continuous для временного действия в данный период."
+				},
+				"fr": {
+					"question": "Nous travaillons sur un nouveau projet.",
+					"explanation": "Present Continuous pour une action temporaire dans la période actuelle."
+				},
+				"de": {
+					"question": "Wir arbeiten an einem neuen Projekt.",
+					"explanation": "Present Continuous für eine vorübergehende Handlung in der aktuellen Periode."
+				},
+				"es": {
+					"question": "Estamos trabajando en un nuevo proyecto.",
+					"explanation": "Present Continuous para una acción temporal en el período actual."
+				}
+			}
 		},
 		{
-			"question": "Он не слушает меня.",
 			"answer": "He is not listening to me.",
-			"explanation": "Отрицание в Present Continuous с is not."
+			"translations": {
+				"ru": {
+					"question": "Он не слушает меня.",
+					"explanation": "Отрицание в Present Continuous с is not."
+				},
+				"fr": {
+					"question": "Il ne m'écoute pas.",
+					"explanation": "Négation au Present Continuous avec is not."
+				},
+				"de": {
+					"question": "Er hört mir nicht zu.",
+					"explanation": "Verneinung im Present Continuous mit is not."
+				},
+				"es": {
+					"question": "Él no me está escuchando.",
+					"explanation": "Negación en Present Continuous con is not."
+				}
+			}
 		},
 		{
-			"question": "Ты разговариваешь со мной?",
 			"answer": "Are you talking to me?",
-			"explanation": "Вопрос в Present Continuous."
+			"translations": {
+				"ru": {
+					"question": "Ты разговариваешь со мной?",
+					"explanation": "Вопрос в Present Continuous."
+				},
+				"fr": {
+					"question": "Tu me parles ?",
+					"explanation": "Question au Present Continuous."
+				},
+				"de": {
+					"question": "Redest du mit mir?",
+					"explanation": "Frage im Present Continuous."
+				},
+				"es": {
+					"question": "¿Estás hablando conmigo?",
+					"explanation": "Pregunta en Present Continuous."
+				}
+			}
 		},
 		{
-			"question": "Она сейчас учит стихотворение.",
 			"answer": "She is learning a poem now.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Она сейчас учит стихотворение.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Elle apprend un poème en ce moment.",
+					"explanation": "Present Continuous pour une action se déroulant à ce moment précis."
+				},
+				"de": {
+					"question": "Sie lernt gerade ein Gedicht.",
+					"explanation": "Present Continuous für eine Handlung in diesem Moment."
+				},
+				"es": {
+					"question": "Ella está aprendiendo un poema ahora.",
+					"explanation": "Present Continuous para una acción en este momento."
+				}
+			}
 		},
 		{
-			"question": "Они строят дорогу.",
 			"answer": "They are building a road.",
-			"explanation": "Present Continuous для длительного действия, происходящего в данный период."
+			"translations": {
+				"ru": {
+					"question": "Они строят дорогу.",
+					"explanation": "Present Continuous для длительного действия, происходящего в данный период."
+				},
+				"fr": {
+					"question": "Ils construisent une route.",
+					"explanation": "Present Continuous pour une action prolongée se déroulant dans la période actuelle."
+				},
+				"de": {
+					"question": "Sie bauen eine Straße.",
+					"explanation": "Present Continuous für eine andauernde Handlung, die in der aktuellen Periode stattfindet."
+				},
+				"es": {
+					"question": "Están construyendo una carretera.",
+					"explanation": "Present Continuous para una acción prolongada que ocurre en el período actual."
+				}
+			}
 		},
 		{
-			"question": "Я ищу свои ключи.",
 			"answer": "I am looking for my keys.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Я ищу свои ключи.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Je cherche mes clés.",
+					"explanation": "Present Continuous pour une action se déroulant à ce moment précis."
+				},
+				"de": {
+					"question": "Ich suche meine Schlüssel.",
+					"explanation": "Present Continuous für eine Handlung in diesem Moment."
+				},
+				"es": {
+					"question": "Estoy buscando mis llaves.",
+					"explanation": "Present Continuous para una acción en este momento."
+				}
+			}
 		},
 		{
-			"question": "Он теряет терпение.",
 			"answer": "He is losing his patience.",
-			"explanation": "Present Continuous для постепенного изменения состояния."
+			"translations": {
+				"ru": {
+					"question": "Он теряет терпение.",
+					"explanation": "Present Continuous для постепенного изменения состояния."
+				},
+				"fr": {
+					"question": "Il perd patience.",
+					"explanation": "Present Continuous pour un changement d'état progressif."
+				},
+				"de": {
+					"question": "Er verliert die Geduld.",
+					"explanation": "Present Continuous für eine allmähliche Zustandsveränderung."
+				},
+				"es": {
+					"question": "Está perdiendo la paciencia.",
+					"explanation": "Present Continuous para un cambio gradual de estado."
+				}
+			}
 		},
 		{
-			"question": "Мы планируем отпуск.",
 			"answer": "We are planning a holiday.",
-			"explanation": "Present Continuous для временного действия в данный период."
+			"translations": {
+				"ru": {
+					"question": "Мы планируем отпуск.",
+					"explanation": "Present Continuous для временного действия в данный период."
+				},
+				"fr": {
+					"question": "Nous planifions nos vacances.",
+					"explanation": "Present Continuous pour une action temporaire dans la période actuelle."
+				},
+				"de": {
+					"question": "Wir planen unseren Urlaub.",
+					"explanation": "Present Continuous für eine vorübergehende Handlung in der aktuellen Periode."
+				},
+				"es": {
+					"question": "Estamos planeando las vacaciones.",
+					"explanation": "Present Continuous para una acción temporal en el período actual."
+				}
+			}
 		},
 		{
-			"question": "Она учится водить машину.",
 			"answer": "She is learning to drive.",
-			"explanation": "Present Continuous для временного процесса обучения."
+			"translations": {
+				"ru": {
+					"question": "Она учится водить машину.",
+					"explanation": "Present Continuous для временного процесса обучения."
+				},
+				"fr": {
+					"question": "Elle apprend à conduire.",
+					"explanation": "Present Continuous pour un processus d'apprentissage temporaire."
+				},
+				"de": {
+					"question": "Sie lernt Auto fahren.",
+					"explanation": "Present Continuous für einen vorübergehenden Lernprozess."
+				},
+				"es": {
+					"question": "Ella está aprendiendo a conducir.",
+					"explanation": "Present Continuous para un proceso de aprendizaje temporal."
+				}
+			}
 		},
 		{
-			"question": "Он работает над диссертацией.",
 			"answer": "He is working on his dissertation.",
-			"explanation": "Present Continuous для длительного временного действия."
+			"translations": {
+				"ru": {
+					"question": "Он работает над диссертацией.",
+					"explanation": "Present Continuous для длительного временного действия."
+				},
+				"fr": {
+					"question": "Il travaille sur sa thèse.",
+					"explanation": "Present Continuous pour une action temporaire de longue durée."
+				},
+				"de": {
+					"question": "Er arbeitet an seiner Dissertation.",
+					"explanation": "Present Continuous für eine langandauernde vorübergehende Handlung."
+				},
+				"es": {
+					"question": "Está trabajando en su disertación.",
+					"explanation": "Present Continuous para una acción temporal de larga duración."
+				}
+			}
 		},
 		{
-			"question": "Ты приходишь к нам вечером?",
 			"answer": "Are you coming to us tonight?",
-			"explanation": "Present Continuous для запланированного события в ближайшем будущем."
+			"translations": {
+				"ru": {
+					"question": "Ты приходишь к нам вечером?",
+					"explanation": "Present Continuous для запланированного события в ближайшем будущем."
+				},
+				"fr": {
+					"question": "Tu viens chez nous ce soir ?",
+					"explanation": "Present Continuous pour un événement planifié dans un futur proche."
+				},
+				"de": {
+					"question": "Kommst du heute Abend zu uns?",
+					"explanation": "Present Continuous für ein geplantes Ereignis in der nahen Zukunft."
+				},
+				"es": {
+					"question": "¿Vienes a vernos esta tarde?",
+					"explanation": "Present Continuous para un evento planificado en el futuro próximo."
+				}
+			}
 		},
 		{
-			"question": "Я не иду с ними.",
 			"answer": "I am not going with them.",
-			"explanation": "Отрицание в Present Continuous с am not."
+			"translations": {
+				"ru": {
+					"question": "Я не иду с ними.",
+					"explanation": "Отрицание в Present Continuous с am not."
+				},
+				"fr": {
+					"question": "Je ne vais pas avec eux.",
+					"explanation": "Négation au Present Continuous avec am not."
+				},
+				"de": {
+					"question": "Ich gehe nicht mit ihnen.",
+					"explanation": "Verneinung im Present Continuous mit am not."
+				},
+				"es": {
+					"question": "No voy con ellos.",
+					"explanation": "Negación en Present Continuous con am not."
+				}
+			}
 		},
 		{
-			"question": "Он всё громче говорит.",
 			"answer": "He is speaking louder and louder.",
-			"explanation": "Present Continuous для нарастающего изменения."
+			"translations": {
+				"ru": {
+					"question": "Он всё громче говорит.",
+					"explanation": "Present Continuous для нарастающего изменения."
+				},
+				"fr": {
+					"question": "Il parle de plus en plus fort.",
+					"explanation": "Present Continuous pour un changement croissant."
+				},
+				"de": {
+					"question": "Er spricht immer lauter.",
+					"explanation": "Present Continuous für eine zunehmende Veränderung."
+				},
+				"es": {
+					"question": "Está hablando cada vez más fuerte.",
+					"explanation": "Present Continuous para un cambio progresivo."
+				}
+			}
 		},
 		{
-			"question": "Она краснеет.",
 			"answer": "She is blushing.",
-			"explanation": "Present Continuous для действия, происходящего прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Она краснеет.",
+					"explanation": "Present Continuous для действия, происходящего прямо сейчас."
+				},
+				"fr": {
+					"question": "Elle rougit.",
+					"explanation": "Present Continuous pour une action se déroulant en ce moment même."
+				},
+				"de": {
+					"question": "Sie wird rot.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Ella se está sonrojando.",
+					"explanation": "Present Continuous para una acción que ocurre ahora mismo."
+				}
+			}
 		},
 		{
-			"question": "Дети спят.",
 			"answer": "The children are sleeping.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Дети спят.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Les enfants dorment.",
+					"explanation": "Le Present Continuous pour une action en cours à ce moment."
+				},
+				"de": {
+					"question": "Die Kinder schlafen.",
+					"explanation": "Das Present Continuous für eine Handlung im aktuellen Moment."
+				},
+				"es": {
+					"question": "Los niños están durmiendo.",
+					"explanation": "El Present Continuous para una acción que ocurre en este momento."
+				}
+			}
 		},
 		{
-			"question": "Мы едим пиццу.",
 			"answer": "We are eating pizza.",
-			"explanation": "Present Continuous для действия в момент речи."
+			"translations": {
+				"ru": {
+					"question": "Мы едим пиццу.",
+					"explanation": "Present Continuous для действия в момент речи."
+				},
+				"fr": {
+					"question": "Nous mangeons de la pizza.",
+					"explanation": "Le Present Continuous pour une action au moment où l'on parle."
+				},
+				"de": {
+					"question": "Wir essen Pizza.",
+					"explanation": "Das Present Continuous für eine Handlung zum Sprechzeitpunkt."
+				},
+				"es": {
+					"question": "Estamos comiendo pizza.",
+					"explanation": "El Present Continuous para una acción en el momento del habla."
+				}
+			}
 		},
 		{
-			"question": "Он пьёт кофе.",
 			"answer": "He is drinking coffee.",
-			"explanation": "Present Continuous для действия прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Он пьёт кофе.",
+					"explanation": "Present Continuous для действия прямо сейчас."
+				},
+				"fr": {
+					"question": "Il boit du café.",
+					"explanation": "Le Present Continuous pour une action qui se passe maintenant."
+				},
+				"de": {
+					"question": "Er trinkt Kaffee.",
+					"explanation": "Das Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Él está bebiendo café.",
+					"explanation": "El Present Continuous para una acción que ocurre justo ahora."
+				}
+			}
 		},
 		{
-			"question": "Она не смотрит фильм.",
 			"answer": "She is not watching the film.",
-			"explanation": "Отрицание в Present Continuous с is not."
+			"translations": {
+				"ru": {
+					"question": "Она не смотрит фильм.",
+					"explanation": "Отрицание в Present Continuous с is not."
+				},
+				"fr": {
+					"question": "Elle ne regarde pas de film.",
+					"explanation": "La négation au Present Continuous avec is not."
+				},
+				"de": {
+					"question": "Sie schaut keinen Film.",
+					"explanation": "Die Verneinung im Present Continuous mit is not."
+				},
+				"es": {
+					"question": "Ella no está viendo una película.",
+					"explanation": "La negación en el Present Continuous con is not."
+				}
+			}
 		},
 		{
-			"question": "Что они делают?",
 			"answer": "What are they doing?",
-			"explanation": "Вопрос в Present Continuous во множественном числе."
+			"translations": {
+				"ru": {
+					"question": "Что они делают?",
+					"explanation": "Вопрос в Present Continuous во множественном числе."
+				},
+				"fr": {
+					"question": "Que font-ils ?",
+					"explanation": "La question au Present Continuous au pluriel."
+				},
+				"de": {
+					"question": "Was machen sie?",
+					"explanation": "Die Frage im Present Continuous im Plural."
+				},
+				"es": {
+					"question": "¿Qué están haciendo?",
+					"explanation": "La pregunta en el Present Continuous en plural."
+				}
+			}
 		},
 		{
-			"question": "Солнце светит.",
 			"answer": "The sun is shining.",
-			"explanation": "Present Continuous для явления в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Солнце светит.",
+					"explanation": "Present Continuous для явления в данный момент."
+				},
+				"fr": {
+					"question": "Le soleil brille.",
+					"explanation": "Le Present Continuous pour un phénomène se produisant à ce moment."
+				},
+				"de": {
+					"question": "Die Sonne scheint.",
+					"explanation": "Das Present Continuous für ein Phänomen im aktuellen Moment."
+				},
+				"es": {
+					"question": "El sol está brillando.",
+					"explanation": "El Present Continuous para un fenómeno que ocurre en este momento."
+				}
+			}
 		},
 		{
-			"question": "Ветер дует.",
 			"answer": "The wind is blowing.",
-			"explanation": "Present Continuous для природного явления в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Ветер дует.",
+					"explanation": "Present Continuous для природного явления в данный момент."
+				},
+				"fr": {
+					"question": "Le vent souffle.",
+					"explanation": "Le Present Continuous pour un phénomène naturel se produisant à ce moment."
+				},
+				"de": {
+					"question": "Der Wind weht.",
+					"explanation": "Das Present Continuous für ein Naturphänomen im aktuellen Moment."
+				},
+				"es": {
+					"question": "El viento está soplando.",
+					"explanation": "El Present Continuous para un fenómeno natural que ocurre en este momento."
+				}
+			}
 		},
 		{
-			"question": "Он постепенно поправляется после болезни.",
 			"answer": "He is gradually recovering from illness.",
-			"explanation": "Present Continuous для постепенного изменения."
+			"translations": {
+				"ru": {
+					"question": "Он постепенно поправляется после болезни.",
+					"explanation": "Present Continuous для постепенного изменения."
+				},
+				"fr": {
+					"question": "Il se remet progressivement de sa maladie.",
+					"explanation": "Le Present Continuous pour un changement progressif."
+				},
+				"de": {
+					"question": "Er erholt sich nach und nach von seiner Krankheit.",
+					"explanation": "Das Present Continuous für eine allmähliche Veränderung."
+				},
+				"es": {
+					"question": "Se está recuperando gradualmente de su enfermedad.",
+					"explanation": "El Present Continuous para un cambio gradual."
+				}
+			}
 		},
 		{
-			"question": "Рынок растёт.",
 			"answer": "The market is growing.",
-			"explanation": "Present Continuous для постепенного изменения ситуации."
+			"translations": {
+				"ru": {
+					"question": "Рынок растёт.",
+					"explanation": "Present Continuous для постепенного изменения ситуации."
+				},
+				"fr": {
+					"question": "Le marché est en croissance.",
+					"explanation": "Le Present Continuous pour un changement progressif de situation."
+				},
+				"de": {
+					"question": "Der Markt wächst.",
+					"explanation": "Das Present Continuous für eine allmähliche Veränderung der Lage."
+				},
+				"es": {
+					"question": "El mercado está creciendo.",
+					"explanation": "El Present Continuous para un cambio gradual de situación."
+				}
+			}
 		},
 		{
-			"question": "Она надевает пальто.",
 			"answer": "She is putting on her coat.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Она надевает пальто.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Elle met son manteau.",
+					"explanation": "Le Present Continuous pour une action en cours à ce moment."
+				},
+				"de": {
+					"question": "Sie zieht ihren Mantel an.",
+					"explanation": "Das Present Continuous für eine Handlung im aktuellen Moment."
+				},
+				"es": {
+					"question": "Ella se está poniendo el abrigo.",
+					"explanation": "El Present Continuous para una acción que ocurre en este momento."
+				}
+			}
 		},
 		{
-			"question": "Мы не уходим.",
 			"answer": "We are not leaving.",
-			"explanation": "Отрицание в Present Continuous с are not."
+			"translations": {
+				"ru": {
+					"question": "Мы не уходим.",
+					"explanation": "Отрицание в Present Continuous с are not."
+				},
+				"fr": {
+					"question": "Nous ne partons pas.",
+					"explanation": "La négation au Present Continuous avec are not."
+				},
+				"de": {
+					"question": "Wir gehen nicht weg.",
+					"explanation": "Die Verneinung im Present Continuous mit are not."
+				},
+				"es": {
+					"question": "No nos estamos yendo.",
+					"explanation": "La negación en el Present Continuous con are not."
+				}
+			}
 		},
 		{
-			"question": "Он звонит тебе.",
 			"answer": "He is calling you.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Он звонит тебе.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Il t'appelle.",
+					"explanation": "Le Present Continuous pour une action en cours à ce moment."
+				},
+				"de": {
+					"question": "Er ruft dich an.",
+					"explanation": "Das Present Continuous für eine Handlung im aktuellen Moment."
+				},
+				"es": {
+					"question": "Él te está llamando.",
+					"explanation": "El Present Continuous para una acción que ocurre en este momento."
+				}
+			}
 		},
 		{
-			"question": "Ты улыбаешься.",
 			"answer": "You are smiling.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Ты улыбаешься.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Tu souris.",
+					"explanation": "Le Present Continuous pour une action en cours à ce moment."
+				},
+				"de": {
+					"question": "Du lächelst.",
+					"explanation": "Das Present Continuous für eine Handlung im aktuellen Moment."
+				},
+				"es": {
+					"question": "Estás sonriendo.",
+					"explanation": "El Present Continuous para una acción que ocurre en este momento."
+				}
+			}
 		},
 		{
-			"question": "Она встречается с друзьями сегодня вечером.",
 			"answer": "She is meeting friends tonight.",
-			"explanation": "Present Continuous для запланированного будущего действия."
+			"translations": {
+				"ru": {
+					"question": "Она встречается с друзьями сегодня вечером.",
+					"explanation": "Present Continuous для запланированного будущего действия."
+				},
+				"fr": {
+					"question": "Elle retrouve des amis ce soir.",
+					"explanation": "Le Present Continuous pour une action future planifiée."
+				},
+				"de": {
+					"question": "Sie trifft sich heute Abend mit Freunden.",
+					"explanation": "Das Present Continuous für eine geplante zukünftige Handlung."
+				},
+				"es": {
+					"question": "Ella queda con amigos esta noche.",
+					"explanation": "El Present Continuous para una acción futura planificada."
+				}
+			}
 		},
 		{
-			"question": "Я сейчас не могу говорить.",
 			"answer": "I am not able to talk right now.",
-			"explanation": "Present Continuous для временного состояния в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Я сейчас не могу говорить.",
+					"explanation": "Present Continuous для временного состояния в данный момент."
+				},
+				"fr": {
+					"question": "Je ne peux pas parler maintenant.",
+					"explanation": "Le Present Continuous pour un état temporaire à ce moment."
+				},
+				"de": {
+					"question": "Ich kann gerade nicht sprechen.",
+					"explanation": "Das Present Continuous für einen vorübergehenden Zustand im aktuellen Moment."
+				},
+				"es": {
+					"question": "Ahora mismo no puedo hablar.",
+					"explanation": "El Present Continuous para un estado temporal en este momento."
+				}
+			}
 		},
 		{
-			"question": "Он всё лучше понимает английский.",
 			"answer": "He is understanding English better and better.",
-			"explanation": "Present Continuous для постепенного изменения."
+			"translations": {
+				"ru": {
+					"question": "Он всё лучше понимает английский.",
+					"explanation": "Present Continuous для постепенного изменения."
+				},
+				"fr": {
+					"question": "Il comprend l'anglais de mieux en mieux.",
+					"explanation": "Le Present Continuous pour un changement progressif."
+				},
+				"de": {
+					"question": "Er versteht Englisch immer besser.",
+					"explanation": "Das Present Continuous für eine allmähliche Veränderung."
+				},
+				"es": {
+					"question": "Él entiende el inglés cada vez mejor.",
+					"explanation": "El Present Continuous para un cambio gradual."
+				}
+			}
 		},
 		{
-			"question": "Мы строим новую компанию.",
 			"answer": "We are building a new company.",
-			"explanation": "Present Continuous для длительного процесса в данный период."
+			"translations": {
+				"ru": {
+					"question": "Мы строим новую компанию.",
+					"explanation": "Present Continuous для длительного процесса в данный период."
+				},
+				"fr": {
+					"question": "Nous construisons une nouvelle entreprise.",
+					"explanation": "Le Present Continuous pour un processus prolongé dans la période actuelle."
+				},
+				"de": {
+					"question": "Wir bauen ein neues Unternehmen auf.",
+					"explanation": "Das Present Continuous für einen längeren Prozess in der aktuellen Periode."
+				},
+				"es": {
+					"question": "Estamos construyendo una nueva empresa.",
+					"explanation": "El Present Continuous para un proceso prolongado en el período actual."
+				}
+			}
 		},
 		{
-			"question": "Она плачет.",
 			"answer": "She is crying.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Она плачет.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Elle pleure.",
+					"explanation": "Le Present Continuous pour une action en cours à ce moment."
+				},
+				"de": {
+					"question": "Sie weint.",
+					"explanation": "Das Present Continuous für eine Handlung im aktuellen Moment."
+				},
+				"es": {
+					"question": "Ella está llorando.",
+					"explanation": "El Present Continuous para una acción que ocurre en este momento."
+				}
+			}
 		},
 		{
-			"question": "Дождь перестаёт.",
 			"answer": "The rain is stopping.",
-			"explanation": "Present Continuous для изменения ситуации в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Дождь перестаёт.",
+					"explanation": "Present Continuous для изменения ситуации в данный момент."
+				},
+				"fr": {
+					"question": "La pluie s'arrête.",
+					"explanation": "Le Present Continuous pour un changement de situation à ce moment."
+				},
+				"de": {
+					"question": "Der Regen hört auf.",
+					"explanation": "Das Present Continuous für eine Situationsveränderung im aktuellen Moment."
+				},
+				"es": {
+					"question": "La lluvia está parando.",
+					"explanation": "El Present Continuous para un cambio de situación en este momento."
+				}
+			}
 		},
 		{
-			"question": "Он сейчас играет на пианино.",
 			"answer": "He is playing the piano now.",
-			"explanation": "Present Continuous для действия прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Он сейчас играет на пианино.",
+					"explanation": "Present Continuous для действия прямо сейчас."
+				},
+				"fr": {
+					"question": "Il joue du piano en ce moment.",
+					"explanation": "Le Present Continuous pour une action qui se passe maintenant."
+				},
+				"de": {
+					"question": "Er spielt gerade Klavier.",
+					"explanation": "Das Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Él está tocando el piano ahora mismo.",
+					"explanation": "El Present Continuous para una acción que ocurre justo ahora."
+				}
+			}
 		},
 		{
-			"question": "Я сохраняю файл.",
 			"answer": "I am saving the file.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Я сохраняю файл.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Je sauvegarde le fichier.",
+					"explanation": "Present Continuous pour une action se déroulant en ce moment précis."
+				},
+				"de": {
+					"question": "Ich speichere die Datei.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Estoy guardando el archivo.",
+					"explanation": "Present Continuous para una acción que ocurre en este momento preciso."
+				}
+			}
 		},
 		{
-			"question": "Они обсуждают план.",
 			"answer": "They are discussing the plan.",
-			"explanation": "Present Continuous для действия, происходящего прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Они обсуждают план.",
+					"explanation": "Present Continuous для действия, происходящего прямо сейчас."
+				},
+				"fr": {
+					"question": "Ils discutent du plan.",
+					"explanation": "Present Continuous pour une action qui se déroule en ce moment même."
+				},
+				"de": {
+					"question": "Sie besprechen den Plan.",
+					"explanation": "Present Continuous für eine Handlung, die genau jetzt gerade passiert."
+				},
+				"es": {
+					"question": "Están discutiendo el plan.",
+					"explanation": "Present Continuous para una acción que ocurre justo en este momento."
+				}
+			}
 		},
 		{
-			"question": "Ты не слушаешь меня!",
 			"answer": "You are not listening to me!",
-			"explanation": "Отрицание в Present Continuous с восклицанием."
+			"translations": {
+				"ru": {
+					"question": "Ты не слушаешь меня!",
+					"explanation": "Отрицание в Present Continuous с восклицанием."
+				},
+				"fr": {
+					"question": "Tu ne m'écoutes pas !",
+					"explanation": "Négation au Present Continuous avec point d'exclamation."
+				},
+				"de": {
+					"question": "Du hörst mir nicht zu!",
+					"explanation": "Verneinung im Present Continuous mit Ausrufezeichen."
+				},
+				"es": {
+					"question": "¡No me estás escuchando!",
+					"explanation": "Negación en Present Continuous con exclamación."
+				}
+			}
 		},
 		{
-			"question": "Она рисует картину.",
 			"answer": "She is painting a picture.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Она рисует картину.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Elle peint un tableau.",
+					"explanation": "Present Continuous pour une action se déroulant en ce moment précis."
+				},
+				"de": {
+					"question": "Sie malt ein Bild.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Ella está pintando un cuadro.",
+					"explanation": "Present Continuous para una acción que ocurre en este momento preciso."
+				}
+			}
 		},
 		{
-			"question": "Мы спорим о политике.",
 			"answer": "We are arguing about politics.",
-			"explanation": "Present Continuous для действия в момент речи."
+			"translations": {
+				"ru": {
+					"question": "Мы спорим о политике.",
+					"explanation": "Present Continuous для действия в момент речи."
+				},
+				"fr": {
+					"question": "Nous débattons de politique.",
+					"explanation": "Present Continuous pour une action au moment où l'on parle."
+				},
+				"de": {
+					"question": "Wir streiten über Politik.",
+					"explanation": "Present Continuous für eine Handlung im Moment des Sprechens."
+				},
+				"es": {
+					"question": "Estamos debatiendo sobre política.",
+					"explanation": "Present Continuous para una acción en el momento de hablar."
+				}
+			}
 		},
 		{
-			"question": "Он читает газету.",
 			"answer": "He is reading the newspaper.",
-			"explanation": "Present Continuous для действия прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Он читает газету.",
+					"explanation": "Present Continuous для действия прямо сейчас."
+				},
+				"fr": {
+					"question": "Il lit le journal.",
+					"explanation": "Present Continuous pour une action se déroulant en ce moment même."
+				},
+				"de": {
+					"question": "Er liest die Zeitung.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt passiert."
+				},
+				"es": {
+					"question": "Él está leyendo el periódico.",
+					"explanation": "Present Continuous para una acción que ocurre ahora mismo."
+				}
+			}
 		},
 		{
-			"question": "Они отдыхают на пляже.",
 			"answer": "They are relaxing on the beach.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Они отдыхают на пляже.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Ils se reposent sur la plage.",
+					"explanation": "Present Continuous pour une action se déroulant en ce moment précis."
+				},
+				"de": {
+					"question": "Sie erholen sich am Strand.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Están descansando en la playa.",
+					"explanation": "Present Continuous para una acción que ocurre en este momento preciso."
+				}
+			}
 		},
 		{
-			"question": "Я открываю окно.",
 			"answer": "I am opening the window.",
-			"explanation": "Present Continuous для действия прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Я открываю окно.",
+					"explanation": "Present Continuous для действия прямо сейчас."
+				},
+				"fr": {
+					"question": "J'ouvre la fenêtre.",
+					"explanation": "Present Continuous pour une action se déroulant en ce moment même."
+				},
+				"de": {
+					"question": "Ich öffne das Fenster.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt passiert."
+				},
+				"es": {
+					"question": "Estoy abriendo la ventana.",
+					"explanation": "Present Continuous para una acción que ocurre ahora mismo."
+				}
+			}
 		},
 		{
-			"question": "Кто сейчас говорит?",
 			"answer": "Who is speaking now?",
-			"explanation": "Вопрос в Present Continuous с who."
+			"translations": {
+				"ru": {
+					"question": "Кто сейчас говорит?",
+					"explanation": "Вопрос в Present Continuous с who."
+				},
+				"fr": {
+					"question": "Qui parle en ce moment ?",
+					"explanation": "Question au Present Continuous avec who."
+				},
+				"de": {
+					"question": "Wer spricht gerade?",
+					"explanation": "Frage im Present Continuous mit who."
+				},
+				"es": {
+					"question": "¿Quién está hablando ahora?",
+					"explanation": "Pregunta en Present Continuous con who."
+				}
+			}
 		},
 		{
-			"question": "Температура поднимается.",
 			"answer": "The temperature is rising.",
-			"explanation": "Present Continuous для постепенного изменения."
+			"translations": {
+				"ru": {
+					"question": "Температура поднимается.",
+					"explanation": "Present Continuous для постепенного изменения."
+				},
+				"fr": {
+					"question": "La température monte.",
+					"explanation": "Present Continuous pour exprimer un changement progressif."
+				},
+				"de": {
+					"question": "Die Temperatur steigt.",
+					"explanation": "Present Continuous für eine allmähliche Veränderung."
+				},
+				"es": {
+					"question": "La temperatura está subiendo.",
+					"explanation": "Present Continuous para expresar un cambio gradual."
+				}
+			}
 		},
 		{
-			"question": "Она учит слова.",
 			"answer": "She is learning vocabulary.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Она учит слова.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Elle apprend des mots de vocabulaire.",
+					"explanation": "Present Continuous pour une action se déroulant en ce moment précis."
+				},
+				"de": {
+					"question": "Sie lernt Vokabeln.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Ella está aprendiendo vocabulario.",
+					"explanation": "Present Continuous para una acción que ocurre en este momento preciso."
+				}
+			}
 		},
 		{
-			"question": "Мы едем в аэропорт.",
 			"answer": "We are going to the airport.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Мы едем в аэропорт.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Nous allons à l'aéroport.",
+					"explanation": "Present Continuous pour une action se déroulant en ce moment précis."
+				},
+				"de": {
+					"question": "Wir fahren zum Flughafen.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Vamos al aeropuerto.",
+					"explanation": "Present Continuous para una acción que ocurre en este momento preciso."
+				}
+			}
 		},
 		{
-			"question": "Он пишет SMS.",
 			"answer": "He is writing a text message.",
-			"explanation": "Present Continuous для действия прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Он пишет SMS.",
+					"explanation": "Present Continuous для действия прямо сейчас."
+				},
+				"fr": {
+					"question": "Il envoie un SMS.",
+					"explanation": "Present Continuous pour une action se déroulant en ce moment même."
+				},
+				"de": {
+					"question": "Er schreibt eine SMS.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt passiert."
+				},
+				"es": {
+					"question": "Él está escribiendo un SMS.",
+					"explanation": "Present Continuous para una acción que ocurre ahora mismo."
+				}
+			}
 		},
 		{
-			"question": "Ты уходишь?",
 			"answer": "Are you leaving?",
-			"explanation": "Вопрос в Present Continuous."
+			"translations": {
+				"ru": {
+					"question": "Ты уходишь?",
+					"explanation": "Вопрос в Present Continuous."
+				},
+				"fr": {
+					"question": "Tu pars ?",
+					"explanation": "Question au Present Continuous."
+				},
+				"de": {
+					"question": "Gehst du weg?",
+					"explanation": "Frage im Present Continuous."
+				},
+				"es": {
+					"question": "¿Te estás yendo?",
+					"explanation": "Pregunta en Present Continuous."
+				}
+			}
 		},
 		{
-			"question": "Она переводит текст.",
 			"answer": "She is translating the text.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Она переводит текст.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Elle traduit un texte.",
+					"explanation": "Present Continuous pour une action se déroulant en ce moment précis."
+				},
+				"de": {
+					"question": "Sie übersetzt einen Text.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Ella está traduciendo un texto.",
+					"explanation": "Present Continuous para una acción que ocurre en este momento preciso."
+				}
+			}
 		},
 		{
-			"question": "Я устанавливаю программу.",
 			"answer": "I am installing a programme.",
-			"explanation": "Present Continuous для действия прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Я устанавливаю программу.",
+					"explanation": "Present Continuous для действия прямо сейчас."
+				},
+				"fr": {
+					"question": "J'installe un programme.",
+					"explanation": "Present Continuous pour une action se déroulant en ce moment même."
+				},
+				"de": {
+					"question": "Ich installiere ein Programm.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt passiert."
+				},
+				"es": {
+					"question": "Estoy instalando un programa.",
+					"explanation": "Present Continuous para una acción que ocurre ahora mismo."
+				}
+			}
 		},
 		{
-			"question": "Они спорят о цене.",
 			"answer": "They are arguing about the price.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Они спорят о цене.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Ils discutent du prix.",
+					"explanation": "Present Continuous pour une action se déroulant en ce moment précis."
+				},
+				"de": {
+					"question": "Sie streiten über den Preis.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Están discutiendo sobre el precio.",
+					"explanation": "Present Continuous para una acción que ocurre en este momento preciso."
+				}
+			}
 		},
 		{
-			"question": "Он не едет с нами.",
 			"answer": "He is not coming with us.",
-			"explanation": "Отрицание в Present Continuous с is not."
+			"translations": {
+				"ru": {
+					"question": "Он не едет с нами.",
+					"explanation": "Отрицание в Present Continuous с is not."
+				},
+				"fr": {
+					"question": "Il ne vient pas avec nous.",
+					"explanation": "Négation au Present Continuous avec is not."
+				},
+				"de": {
+					"question": "Er fährt nicht mit uns.",
+					"explanation": "Verneinung im Present Continuous mit is not."
+				},
+				"es": {
+					"question": "Él no viene con nosotros.",
+					"explanation": "Negación en Present Continuous con is not."
+				}
+			}
 		},
 		{
-			"question": "Ребёнок плачет.",
 			"answer": "The baby is crying.",
-			"explanation": "Present Continuous для действия прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Ребёнок плачет.",
+					"explanation": "Present Continuous для действия прямо сейчас."
+				},
+				"fr": {
+					"question": "L'enfant pleure.",
+					"explanation": "Present Continuous pour une action se déroulant en ce moment même."
+				},
+				"de": {
+					"question": "Das Kind weint.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt passiert."
+				},
+				"es": {
+					"question": "El niño está llorando.",
+					"explanation": "Present Continuous para una acción que ocurre ahora mismo."
+				}
+			}
 		},
 		{
-			"question": "Мы ремонтируем машину.",
 			"answer": "We are repairing the car.",
-			"explanation": "Present Continuous для временного действия в данный период."
+			"translations": {
+				"ru": {
+					"question": "Мы ремонтируем машину.",
+					"explanation": "Present Continuous для временного действия в данный период."
+				},
+				"fr": {
+					"question": "Nous réparons la voiture.",
+					"explanation": "Present Continuous pour une action temporaire se déroulant dans la période actuelle."
+				},
+				"de": {
+					"question": "Wir reparieren das Auto.",
+					"explanation": "Present Continuous für eine vorübergehende Handlung im gegenwärtigen Zeitraum."
+				},
+				"es": {
+					"question": "Estamos reparando el coche.",
+					"explanation": "Present Continuous para una acción temporal que ocurre en el período actual."
+				}
+			}
 		},
 		{
-			"question": "Она разговаривает с менеджером.",
 			"answer": "She is talking to the manager.",
-			"explanation": "Present Continuous для действия в момент речи."
+			"translations": {
+				"ru": {
+					"question": "Она разговаривает с менеджером.",
+					"explanation": "Present Continuous для действия в момент речи."
+				},
+				"fr": {
+					"question": "Elle parle au manager.",
+					"explanation": "Present Continuous pour une action au moment où l'on parle."
+				},
+				"de": {
+					"question": "Sie spricht gerade mit dem Manager.",
+					"explanation": "Present Continuous für eine Handlung im Sprechmoment."
+				},
+				"es": {
+					"question": "Ella está hablando con el gerente.",
+					"explanation": "Present Continuous para una acción en el momento de hablar."
+				}
+			}
 		},
 		{
-			"question": "Я иду на встречу.",
 			"answer": "I am going to a meeting.",
-			"explanation": "Present Continuous для действия в данный момент или ближайшего будущего."
+			"translations": {
+				"ru": {
+					"question": "Я иду на встречу.",
+					"explanation": "Present Continuous для действия в данный момент или ближайшего будущего."
+				},
+				"fr": {
+					"question": "Je vais à une réunion.",
+					"explanation": "Present Continuous pour une action en cours ou un futur proche."
+				},
+				"de": {
+					"question": "Ich gehe zu einem Meeting.",
+					"explanation": "Present Continuous für eine Handlung im aktuellen Moment oder der nahen Zukunft."
+				},
+				"es": {
+					"question": "Voy a una reunión.",
+					"explanation": "Present Continuous para una acción en curso o un futuro próximo."
+				}
+			}
 		},
 		{
-			"question": "Он помогает своей сестре.",
 			"answer": "He is helping his sister.",
-			"explanation": "Present Continuous для действия прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Он помогает своей сестре.",
+					"explanation": "Present Continuous для действия прямо сейчас."
+				},
+				"fr": {
+					"question": "Il aide sa sœur.",
+					"explanation": "Present Continuous pour une action qui se passe en ce moment même."
+				},
+				"de": {
+					"question": "Er hilft gerade seiner Schwester.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Él está ayudando a su hermana.",
+					"explanation": "Present Continuous para una acción que ocurre ahora mismo."
+				}
+			}
 		},
 		{
-			"question": "Они не занимаются сейчас.",
 			"answer": "They are not studying now.",
-			"explanation": "Отрицание в Present Continuous с are not."
+			"translations": {
+				"ru": {
+					"question": "Они не занимаются сейчас.",
+					"explanation": "Отрицание в Present Continuous с are not."
+				},
+				"fr": {
+					"question": "Ils ne travaillent pas en ce moment.",
+					"explanation": "Négation au Present Continuous avec are not."
+				},
+				"de": {
+					"question": "Sie lernen gerade nicht.",
+					"explanation": "Verneinung im Present Continuous mit are not."
+				},
+				"es": {
+					"question": "Ellos no están estudiando ahora.",
+					"explanation": "Negación en Present Continuous con are not."
+				}
+			}
 		},
 		{
-			"question": "Что ты читаешь?",
 			"answer": "What are you reading?",
-			"explanation": "Вопрос в Present Continuous с вопросительным словом."
+			"translations": {
+				"ru": {
+					"question": "Что ты читаешь?",
+					"explanation": "Вопрос в Present Continuous с вопросительным словом."
+				},
+				"fr": {
+					"question": "Qu'est-ce que tu lis ?",
+					"explanation": "Question au Present Continuous avec un mot interrogatif."
+				},
+				"de": {
+					"question": "Was liest du gerade?",
+					"explanation": "Frage im Present Continuous mit einem Fragewort."
+				},
+				"es": {
+					"question": "¿Qué estás leyendo?",
+					"explanation": "Pregunta en Present Continuous con palabra interrogativa."
+				}
+			}
 		},
 		{
-			"question": "Она работает дома на этой неделе.",
 			"answer": "She is working from home this week.",
-			"explanation": "Present Continuous для временной ситуации."
+			"translations": {
+				"ru": {
+					"question": "Она работает дома на этой неделе.",
+					"explanation": "Present Continuous для временной ситуации."
+				},
+				"fr": {
+					"question": "Elle travaille à la maison cette semaine.",
+					"explanation": "Present Continuous pour une situation temporaire."
+				},
+				"de": {
+					"question": "Sie arbeitet diese Woche von zu Hause.",
+					"explanation": "Present Continuous für eine vorübergehende Situation."
+				},
+				"es": {
+					"question": "Ella está trabajando desde casa esta semana.",
+					"explanation": "Present Continuous para una situación temporal."
+				}
+			}
 		},
 		{
-			"question": "Мы ждём новостей.",
 			"answer": "We are waiting for news.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Мы ждём новостей.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Nous attendons des nouvelles.",
+					"explanation": "Present Continuous pour une action en cours au moment présent."
+				},
+				"de": {
+					"question": "Wir warten gerade auf Neuigkeiten.",
+					"explanation": "Present Continuous für eine Handlung im aktuellen Moment."
+				},
+				"es": {
+					"question": "Estamos esperando noticias.",
+					"explanation": "Present Continuous para una acción en curso en este momento."
+				}
+			}
 		},
 		{
-			"question": "Он готовится к отъезду.",
 			"answer": "He is preparing to leave.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Он готовится к отъезду.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Il se prépare à partir.",
+					"explanation": "Present Continuous pour une action en cours au moment présent."
+				},
+				"de": {
+					"question": "Er bereitet sich gerade auf die Abreise vor.",
+					"explanation": "Present Continuous für eine Handlung im aktuellen Moment."
+				},
+				"es": {
+					"question": "Él se está preparando para irse.",
+					"explanation": "Present Continuous para una acción en curso en este momento."
+				}
+			}
 		},
 		{
-			"question": "Трава зеленеет.",
 			"answer": "The grass is turning green.",
-			"explanation": "Present Continuous для постепенного изменения в природе."
+			"translations": {
+				"ru": {
+					"question": "Трава зеленеет.",
+					"explanation": "Present Continuous для постепенного изменения в природе."
+				},
+				"fr": {
+					"question": "L'herbe verdit.",
+					"explanation": "Present Continuous pour un changement progressif dans la nature."
+				},
+				"de": {
+					"question": "Das Gras wird gerade grün.",
+					"explanation": "Present Continuous für eine allmähliche Veränderung in der Natur."
+				},
+				"es": {
+					"question": "La hierba se está poniendo verde.",
+					"explanation": "Present Continuous para un cambio gradual en la naturaleza."
+				}
+			}
 		},
 		{
-			"question": "Они смотрят матч.",
 			"answer": "They are watching a match.",
-			"explanation": "Present Continuous для действия в момент речи."
+			"translations": {
+				"ru": {
+					"question": "Они смотрят матч.",
+					"explanation": "Present Continuous для действия в момент речи."
+				},
+				"fr": {
+					"question": "Ils regardent le match.",
+					"explanation": "Present Continuous pour une action au moment où l'on parle."
+				},
+				"de": {
+					"question": "Sie schauen sich gerade das Spiel an.",
+					"explanation": "Present Continuous für eine Handlung im Sprechmoment."
+				},
+				"es": {
+					"question": "Ellos están viendo el partido.",
+					"explanation": "Present Continuous para una acción en el momento de hablar."
+				}
+			}
 		},
 		{
-			"question": "Она пьёт чай.",
 			"answer": "She is drinking tea.",
-			"explanation": "Present Continuous для действия прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Она пьёт чай.",
+					"explanation": "Present Continuous для действия прямо сейчас."
+				},
+				"fr": {
+					"question": "Elle boit du thé.",
+					"explanation": "Present Continuous pour une action qui se passe en ce moment même."
+				},
+				"de": {
+					"question": "Sie trinkt gerade Tee.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Ella está tomando té.",
+					"explanation": "Present Continuous para una acción que ocurre ahora mismo."
+				}
+			}
 		},
 		{
-			"question": "Я не смотрю телевизор.",
 			"answer": "I am not watching television.",
-			"explanation": "Отрицание в Present Continuous с am not."
+			"translations": {
+				"ru": {
+					"question": "Я не смотрю телевизор.",
+					"explanation": "Отрицание в Present Continuous с am not."
+				},
+				"fr": {
+					"question": "Je ne regarde pas la télévision.",
+					"explanation": "Négation au Present Continuous avec am not."
+				},
+				"de": {
+					"question": "Ich schaue gerade kein Fernsehen.",
+					"explanation": "Verneinung im Present Continuous mit am not."
+				},
+				"es": {
+					"question": "No estoy viendo la televisión.",
+					"explanation": "Negación en Present Continuous con am not."
+				}
+			}
 		},
 		{
-			"question": "Кто звонит?",
 			"answer": "Who is calling?",
-			"explanation": "Вопрос в Present Continuous."
+			"translations": {
+				"ru": {
+					"question": "Кто звонит?",
+					"explanation": "Вопрос в Present Continuous."
+				},
+				"fr": {
+					"question": "Qui appelle ?",
+					"explanation": "Question au Present Continuous."
+				},
+				"de": {
+					"question": "Wer ruft gerade an?",
+					"explanation": "Frage im Present Continuous."
+				},
+				"es": {
+					"question": "¿Quién está llamando?",
+					"explanation": "Pregunta en Present Continuous."
+				}
+			}
 		},
 		{
-			"question": "Он читает книгу в постели.",
 			"answer": "He is reading a book in bed.",
-			"explanation": "Present Continuous для действия прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Он читает книгу в постели.",
+					"explanation": "Present Continuous для действия прямо сейчас."
+				},
+				"fr": {
+					"question": "Il lit un livre au lit.",
+					"explanation": "Present Continuous pour une action qui se passe en ce moment même."
+				},
+				"de": {
+					"question": "Er liest gerade ein Buch im Bett.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Él está leyendo un libro en la cama.",
+					"explanation": "Present Continuous para una acción que ocurre ahora mismo."
+				}
+			}
 		},
 		{
-			"question": "Она изучает испанский язык.",
 			"answer": "She is studying Spanish.",
-			"explanation": "Present Continuous для временного занятия в данный период."
+			"translations": {
+				"ru": {
+					"question": "Она изучает испанский язык.",
+					"explanation": "Present Continuous для временного занятия в данный период."
+				},
+				"fr": {
+					"question": "Elle apprend l'espagnol.",
+					"explanation": "Present Continuous pour une activité temporaire dans la période actuelle."
+				},
+				"de": {
+					"question": "Sie lernt gerade Spanisch.",
+					"explanation": "Present Continuous für eine vorübergehende Aktivität im aktuellen Zeitraum."
+				},
+				"es": {
+					"question": "Ella está estudiando español.",
+					"explanation": "Present Continuous para una actividad temporal en el período actual."
+				}
+			}
 		},
 		{
-			"question": "Мы летим на юг.",
 			"answer": "We are flying south.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Мы летим на юг.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Nous volons vers le sud.",
+					"explanation": "Present Continuous pour une action en cours au moment présent."
+				},
+				"de": {
+					"question": "Wir fliegen gerade nach Süden.",
+					"explanation": "Present Continuous für eine Handlung im aktuellen Moment."
+				},
+				"es": {
+					"question": "Estamos volando hacia el sur.",
+					"explanation": "Present Continuous para una acción en curso en este momento."
+				}
+			}
 		},
 		{
-			"question": "Они переезжают в другой город.",
 			"answer": "They are moving to another city.",
-			"explanation": "Present Continuous для запланированного ближайшего будущего."
+			"translations": {
+				"ru": {
+					"question": "Они переезжают в другой город.",
+					"explanation": "Present Continuous для запланированного ближайшего будущего."
+				},
+				"fr": {
+					"question": "Ils déménagent dans une autre ville.",
+					"explanation": "Present Continuous pour un futur proche planifié."
+				},
+				"de": {
+					"question": "Sie ziehen in eine andere Stadt um.",
+					"explanation": "Present Continuous für die geplante nahe Zukunft."
+				},
+				"es": {
+					"question": "Ellos se están mudando a otra ciudad.",
+					"explanation": "Present Continuous para el futuro próximo planificado."
+				}
+			}
 		},
 		{
-			"question": "Он не работает сегодня.",
 			"answer": "He is not working today.",
-			"explanation": "Отрицание в Present Continuous для временного исключения."
+			"translations": {
+				"ru": {
+					"question": "Он не работает сегодня.",
+					"explanation": "Отрицание в Present Continuous для временного исключения."
+				},
+				"fr": {
+					"question": "Il ne travaille pas aujourd'hui.",
+					"explanation": "Négation au Present Continuous pour une exception temporaire."
+				},
+				"de": {
+					"question": "Er arbeitet heute nicht.",
+					"explanation": "Verneinung im Present Continuous für eine vorübergehende Ausnahme."
+				},
+				"es": {
+					"question": "Él no está trabajando hoy.",
+					"explanation": "Negación en Present Continuous para una excepción temporal."
+				}
+			}
 		},
 		{
-			"question": "Ты ешь?",
 			"answer": "Are you eating?",
-			"explanation": "Вопрос в Present Continuous."
+			"translations": {
+				"ru": {
+					"question": "Ты ешь?",
+					"explanation": "Вопрос в Present Continuous."
+				},
+				"fr": {
+					"question": "Tu manges ?",
+					"explanation": "Question au Present Continuous."
+				},
+				"de": {
+					"question": "Isst du gerade?",
+					"explanation": "Frage im Present Continuous."
+				},
+				"es": {
+					"question": "¿Estás comiendo?",
+					"explanation": "Pregunta en Present Continuous."
+				}
+			}
 		},
 		{
-			"question": "Она снимает фильм.",
 			"answer": "She is making a film.",
-			"explanation": "Present Continuous для длительного процесса в данный период."
+			"translations": {
+				"ru": {
+					"question": "Она снимает фильм.",
+					"explanation": "Present Continuous для длительного процесса в данный период."
+				},
+				"fr": {
+					"question": "Elle tourne un film.",
+					"explanation": "Present Continuous pour un processus prolongé dans la période actuelle."
+				},
+				"de": {
+					"question": "Sie dreht gerade einen Film.",
+					"explanation": "Present Continuous für einen andauernden Prozess im aktuellen Zeitraum."
+				},
+				"es": {
+					"question": "Ella está rodando una película.",
+					"explanation": "Present Continuous para un proceso prolongado en el período actual."
+				}
+			}
 		},
 		{
-			"question": "Я слушаю музыку.",
 			"answer": "I am listening to music.",
-			"explanation": "Present Continuous для действия прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Я слушаю музыку.",
+					"explanation": "Present Continuous для действия прямо сейчас."
+				},
+				"fr": {
+					"question": "J'écoute de la musique.",
+					"explanation": "Present Continuous pour une action qui se déroule en ce moment."
+				},
+				"de": {
+					"question": "Ich höre Musik.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Estoy escuchando música.",
+					"explanation": "Present Continuous para una acción que ocurre justo ahora."
+				}
+			}
 		},
 		{
-			"question": "Мы отмечаем день рождения.",
 			"answer": "We are celebrating a birthday.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Мы отмечаем день рождения.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Nous fêtons un anniversaire.",
+					"explanation": "Present Continuous pour une action en cours en ce moment."
+				},
+				"de": {
+					"question": "Wir feiern einen Geburtstag.",
+					"explanation": "Present Continuous für eine Handlung im gegenwärtigen Moment."
+				},
+				"es": {
+					"question": "Estamos celebrando un cumpleaños.",
+					"explanation": "Present Continuous para una acción en este momento."
+				}
+			}
 		},
 		{
-			"question": "Он улыбается.",
 			"answer": "He is smiling.",
-			"explanation": "Present Continuous для действия прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Он улыбается.",
+					"explanation": "Present Continuous для действия прямо сейчас."
+				},
+				"fr": {
+					"question": "Il sourit.",
+					"explanation": "Present Continuous pour une action qui se déroule en ce moment."
+				},
+				"de": {
+					"question": "Er lächelt.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Él está sonriendo.",
+					"explanation": "Present Continuous para una acción que ocurre justo ahora."
+				}
+			}
 		},
 		{
-			"question": "Дети растут очень быстро.",
 			"answer": "The children are growing very fast.",
-			"explanation": "Present Continuous для постепенного изменения."
+			"translations": {
+				"ru": {
+					"question": "Дети растут очень быстро.",
+					"explanation": "Present Continuous для постепенного изменения."
+				},
+				"fr": {
+					"question": "Les enfants grandissent très vite.",
+					"explanation": "Present Continuous pour un changement progressif."
+				},
+				"de": {
+					"question": "Die Kinder wachsen sehr schnell.",
+					"explanation": "Present Continuous für eine allmähliche Veränderung."
+				},
+				"es": {
+					"question": "Los niños están creciendo muy rápido.",
+					"explanation": "Present Continuous para un cambio gradual."
+				}
+			}
 		},
 		{
-			"question": "Она не улыбается.",
 			"answer": "She is not smiling.",
-			"explanation": "Отрицание в Present Continuous с is not."
+			"translations": {
+				"ru": {
+					"question": "Она не улыбается.",
+					"explanation": "Отрицание в Present Continuous с is not."
+				},
+				"fr": {
+					"question": "Elle ne sourit pas.",
+					"explanation": "Négation au Present Continuous avec is not."
+				},
+				"de": {
+					"question": "Sie lächelt nicht.",
+					"explanation": "Verneinung im Present Continuous mit is not."
+				},
+				"es": {
+					"question": "Ella no está sonriendo.",
+					"explanation": "Negación en Present Continuous con is not."
+				}
+			}
 		},
 		{
-			"question": "Что происходит?",
 			"answer": "What is happening?",
-			"explanation": "Вопрос в Present Continuous о происходящем сейчас."
+			"translations": {
+				"ru": {
+					"question": "Что происходит?",
+					"explanation": "Вопрос в Present Continuous о происходящем сейчас."
+				},
+				"fr": {
+					"question": "Que se passe-t-il ?",
+					"explanation": "Question au Present Continuous sur ce qui se passe en ce moment."
+				},
+				"de": {
+					"question": "Was passiert gerade?",
+					"explanation": "Frage im Present Continuous über das aktuelle Geschehen."
+				},
+				"es": {
+					"question": "¿Qué está pasando?",
+					"explanation": "Pregunta en Present Continuous sobre lo que ocurre ahora."
+				}
+			}
 		},
 		{
-			"question": "Он разгадывает кроссворд.",
 			"answer": "He is doing a crossword.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Он разгадывает кроссворд.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Il fait des mots croisés.",
+					"explanation": "Present Continuous pour une action en cours en ce moment."
+				},
+				"de": {
+					"question": "Er löst ein Kreuzworträtsel.",
+					"explanation": "Present Continuous für eine Handlung im gegenwärtigen Moment."
+				},
+				"es": {
+					"question": "Él está resolviendo un crucigrama.",
+					"explanation": "Present Continuous para una acción en este momento."
+				}
+			}
 		},
 		{
-			"question": "Мы готовимся к презентации.",
 			"answer": "We are preparing for the presentation.",
-			"explanation": "Present Continuous для действия в данный период."
+			"translations": {
+				"ru": {
+					"question": "Мы готовимся к презентации.",
+					"explanation": "Present Continuous для действия в данный период."
+				},
+				"fr": {
+					"question": "Nous nous préparons pour une présentation.",
+					"explanation": "Present Continuous pour une action durant cette période."
+				},
+				"de": {
+					"question": "Wir bereiten uns auf eine Präsentation vor.",
+					"explanation": "Present Continuous für eine Handlung in diesem Zeitraum."
+				},
+				"es": {
+					"question": "Nos estamos preparando para una presentación.",
+					"explanation": "Present Continuous para una acción durante este período."
+				}
+			}
 		},
 		{
-			"question": "Она ест завтрак.",
 			"answer": "She is having breakfast.",
-			"explanation": "Present Continuous для действия прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Она ест завтрак.",
+					"explanation": "Present Continuous для действия прямо сейчас."
+				},
+				"fr": {
+					"question": "Elle prend son petit-déjeuner.",
+					"explanation": "Present Continuous pour une action qui se déroule en ce moment."
+				},
+				"de": {
+					"question": "Sie frühstückt.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Ella está desayunando.",
+					"explanation": "Present Continuous para una acción que ocurre justo ahora."
+				}
+			}
 		},
 		{
-			"question": "Я стараюсь не думать об этом.",
 			"answer": "I am trying not to think about it.",
-			"explanation": "Present Continuous для временного усилия."
+			"translations": {
+				"ru": {
+					"question": "Я стараюсь не думать об этом.",
+					"explanation": "Present Continuous для временного усилия."
+				},
+				"fr": {
+					"question": "J'essaie de ne pas y penser.",
+					"explanation": "Present Continuous pour un effort temporaire."
+				},
+				"de": {
+					"question": "Ich versuche, nicht daran zu denken.",
+					"explanation": "Present Continuous für eine vorübergehende Anstrengung."
+				},
+				"es": {
+					"question": "Estoy intentando no pensar en eso.",
+					"explanation": "Present Continuous para un esfuerzo temporal."
+				}
+			}
 		},
 		{
-			"question": "Он проходит собеседование.",
 			"answer": "He is having a job interview.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Он проходит собеседование.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Il passe un entretien.",
+					"explanation": "Present Continuous pour une action en cours en ce moment."
+				},
+				"de": {
+					"question": "Er hat gerade ein Vorstellungsgespräch.",
+					"explanation": "Present Continuous für eine Handlung im gegenwärtigen Moment."
+				},
+				"es": {
+					"question": "Él está teniendo una entrevista de trabajo.",
+					"explanation": "Present Continuous para una acción en este momento."
+				}
+			}
 		},
 		{
-			"question": "Они смеются.",
 			"answer": "They are laughing.",
-			"explanation": "Present Continuous для действия прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Они смеются.",
+					"explanation": "Present Continuous для действия прямо сейчас."
+				},
+				"fr": {
+					"question": "Ils rient.",
+					"explanation": "Present Continuous pour une action qui se déroule en ce moment."
+				},
+				"de": {
+					"question": "Sie lachen.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Ellos están riendo.",
+					"explanation": "Present Continuous para una acción que ocurre justo ahora."
+				}
+			}
 		},
 		{
-			"question": "Ты слишком много работаешь в последнее время!",
 			"answer": "You are working too much lately!",
-			"explanation": "Present Continuous для временного изменения поведения."
+			"translations": {
+				"ru": {
+					"question": "Ты слишком много работаешь в последнее время!",
+					"explanation": "Present Continuous для временного изменения поведения."
+				},
+				"fr": {
+					"question": "Tu travailles trop ces derniers temps !",
+					"explanation": "Present Continuous pour un changement temporaire de comportement."
+				},
+				"de": {
+					"question": "Du arbeitest in letzter Zeit zu viel!",
+					"explanation": "Present Continuous für eine vorübergehende Verhaltensänderung."
+				},
+				"es": {
+					"question": "¡Estás trabajando demasiado últimamente!",
+					"explanation": "Present Continuous para un cambio temporal de comportamiento."
+				}
+			}
 		},
 		{
-			"question": "Она преподаёт онлайн в этом семестре.",
 			"answer": "She is teaching online this semester.",
-			"explanation": "Present Continuous для временного изменения ситуации."
+			"translations": {
+				"ru": {
+					"question": "Она преподаёт онлайн в этом семестре.",
+					"explanation": "Present Continuous для временного изменения ситуации."
+				},
+				"fr": {
+					"question": "Elle enseigne en ligne ce semestre.",
+					"explanation": "Present Continuous pour un changement temporaire de situation."
+				},
+				"de": {
+					"question": "Sie unterrichtet dieses Semester online.",
+					"explanation": "Present Continuous für eine vorübergehende Situationsänderung."
+				},
+				"es": {
+					"question": "Ella está enseñando en línea este semestre.",
+					"explanation": "Present Continuous para un cambio temporal de situación."
+				}
+			}
 		},
 		{
-			"question": "Мы переходим на новый сайт.",
 			"answer": "We are switching to a new website.",
-			"explanation": "Present Continuous для изменения в данный период."
+			"translations": {
+				"ru": {
+					"question": "Мы переходим на новый сайт.",
+					"explanation": "Present Continuous для изменения в данный период."
+				},
+				"fr": {
+					"question": "Nous migrons vers un nouveau site.",
+					"explanation": "Present Continuous pour un changement en cours sur cette période."
+				},
+				"de": {
+					"question": "Wir wechseln zu einer neuen Website.",
+					"explanation": "Present Continuous für eine Veränderung im aktuellen Zeitraum."
+				},
+				"es": {
+					"question": "Estamos migrando a un nuevo sitio web.",
+					"explanation": "Present Continuous para un cambio en curso durante este período."
+				}
+			}
 		},
 		{
-			"question": "Он чинит велосипед.",
 			"answer": "He is fixing his bicycle.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Он чинит велосипед.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Il répare son vélo.",
+					"explanation": "Present Continuous pour une action en cours en ce moment."
+				},
+				"de": {
+					"question": "Er repariert sein Fahrrad.",
+					"explanation": "Present Continuous für eine Handlung im gegenwärtigen Moment."
+				},
+				"es": {
+					"question": "Él está reparando su bicicleta.",
+					"explanation": "Present Continuous para una acción en este momento."
+				}
+			}
 		},
 		{
-			"question": "Я жду твоего ответа.",
 			"answer": "I am waiting for your reply.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Я жду твоего ответа.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "J'attends ta réponse.",
+					"explanation": "Present Continuous pour une action en cours en ce moment."
+				},
+				"de": {
+					"question": "Ich warte auf deine Antwort.",
+					"explanation": "Present Continuous für eine Handlung im gegenwärtigen Moment."
+				},
+				"es": {
+					"question": "Estoy esperando tu respuesta.",
+					"explanation": "Present Continuous para una acción en este momento."
+				}
+			}
 		},
 		{
-			"question": "Они загружают данные.",
 			"answer": "They are uploading data.",
-			"explanation": "Present Continuous для действия прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Они загружают данные.",
+					"explanation": "Present Continuous для действия прямо сейчас."
+				},
+				"fr": {
+					"question": "Ils téléchargent des données.",
+					"explanation": "Present Continuous pour une action qui se déroule en ce moment."
+				},
+				"de": {
+					"question": "Sie laden Daten hoch.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Ellos están cargando datos.",
+					"explanation": "Present Continuous para una acción que ocurre justo ahora."
+				}
+			}
 		},
 		{
-			"question": "Кошка спит на диване.",
 			"answer": "The cat is sleeping on the sofa.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Кошка спит на диване.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Le chat dort sur le canapé.",
+					"explanation": "Present Continuous pour une action en cours en ce moment."
+				},
+				"de": {
+					"question": "Die Katze schläft auf dem Sofa.",
+					"explanation": "Present Continuous für eine Handlung im gegenwärtigen Moment."
+				},
+				"es": {
+					"question": "El gato está durmiendo en el sofá.",
+					"explanation": "Present Continuous para una acción en este momento."
+				}
+			}
 		},
 		{
-			"question": "Он получает много сообщений.",
 			"answer": "He is receiving a lot of messages.",
-			"explanation": "Present Continuous для временной ситуации."
+			"translations": {
+				"ru": {
+					"question": "Он получает много сообщений.",
+					"explanation": "Present Continuous для временной ситуации."
+				},
+				"fr": {
+					"question": "Il reçoit beaucoup de messages.",
+					"explanation": "Present Continuous pour une situation temporaire."
+				},
+				"de": {
+					"question": "Er bekommt viele Nachrichten.",
+					"explanation": "Present Continuous für eine vorübergehende Situation."
+				},
+				"es": {
+					"question": "Él está recibiendo muchos mensajes.",
+					"explanation": "Present Continuous para una situación temporal."
+				}
+			}
 		},
 		{
-			"question": "Она разбирает вещи.",
 			"answer": "She is sorting out her things.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Она разбирает вещи.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Elle range ses affaires.",
+					"explanation": "Present Continuous pour une action en cours au moment présent."
+				},
+				"de": {
+					"question": "Sie räumt ihre Sachen aus.",
+					"explanation": "Present Continuous für eine Handlung im aktuellen Moment."
+				},
+				"es": {
+					"question": "Ella está ordenando sus cosas.",
+					"explanation": "Present Continuous para una acción en el momento actual."
+				}
+			}
 		},
 		{
-			"question": "Мы сейчас не принимаем заказы.",
 			"answer": "We are not taking orders now.",
-			"explanation": "Отрицание в Present Continuous для временного исключения."
+			"translations": {
+				"ru": {
+					"question": "Мы сейчас не принимаем заказы.",
+					"explanation": "Отрицание в Present Continuous для временного исключения."
+				},
+				"fr": {
+					"question": "Nous ne prenons pas de commandes en ce moment.",
+					"explanation": "Négation au Present Continuous pour une exception temporaire."
+				},
+				"de": {
+					"question": "Wir nehmen gerade keine Bestellungen an.",
+					"explanation": "Verneinung im Present Continuous für eine vorübergehende Ausnahme."
+				},
+				"es": {
+					"question": "No estamos aceptando pedidos ahora mismo.",
+					"explanation": "Negación en Present Continuous para una excepción temporal."
+				}
+			}
 		},
 		{
-			"question": "Ты не слышишь меня?",
 			"answer": "Are you not hearing me?",
-			"explanation": "Вопрос-отрицание в Present Continuous."
+			"translations": {
+				"ru": {
+					"question": "Ты не слышишь меня?",
+					"explanation": "Вопрос-отрицание в Present Continuous."
+				},
+				"fr": {
+					"question": "Tu ne m'entends pas ?",
+					"explanation": "Question négative au Present Continuous."
+				},
+				"de": {
+					"question": "Hörst du mich nicht?",
+					"explanation": "Verneinende Frage im Present Continuous."
+				},
+				"es": {
+					"question": "¿No me escuchas?",
+					"explanation": "Pregunta negativa en Present Continuous."
+				}
+			}
 		},
 		{
-			"question": "Он делает домашнее задание.",
 			"answer": "He is doing his homework.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Он делает домашнее задание.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Il fait ses devoirs.",
+					"explanation": "Present Continuous pour une action en cours au moment présent."
+				},
+				"de": {
+					"question": "Er macht seine Hausaufgaben.",
+					"explanation": "Present Continuous für eine Handlung im aktuellen Moment."
+				},
+				"es": {
+					"question": "Él está haciendo sus deberes.",
+					"explanation": "Present Continuous para una acción en el momento actual."
+				}
+			}
 		},
 		{
-			"question": "Она гуляет с собакой.",
 			"answer": "She is walking the dog.",
-			"explanation": "Present Continuous для действия прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Она гуляет с собакой.",
+					"explanation": "Present Continuous для действия прямо сейчас."
+				},
+				"fr": {
+					"question": "Elle promène le chien.",
+					"explanation": "Present Continuous pour une action qui se déroule en ce moment même."
+				},
+				"de": {
+					"question": "Sie geht mit dem Hund spazieren.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Ella está paseando al perro.",
+					"explanation": "Present Continuous para una acción que ocurre ahora mismo."
+				}
+			}
 		},
 		{
-			"question": "Они отмечают успех.",
 			"answer": "They are celebrating success.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Они отмечают успех.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Ils fêtent leur succès.",
+					"explanation": "Present Continuous pour une action en cours au moment présent."
+				},
+				"de": {
+					"question": "Sie feiern ihren Erfolg.",
+					"explanation": "Present Continuous für eine Handlung im aktuellen Moment."
+				},
+				"es": {
+					"question": "Ellos están celebrando el éxito.",
+					"explanation": "Present Continuous para una acción en el momento actual."
+				}
+			}
 		},
 		{
-			"question": "Я чищу зубы.",
 			"answer": "I am brushing my teeth.",
-			"explanation": "Present Continuous для действия прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Я чищу зубы.",
+					"explanation": "Present Continuous для действия прямо сейчас."
+				},
+				"fr": {
+					"question": "Je me brosse les dents.",
+					"explanation": "Present Continuous pour une action qui se déroule en ce moment même."
+				},
+				"de": {
+					"question": "Ich putze mir die Zähne.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Me estoy cepillando los dientes.",
+					"explanation": "Present Continuous para una acción que ocurre ahora mismo."
+				}
+			}
 		},
 		{
-			"question": "Он моет посуду.",
 			"answer": "He is washing the dishes.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Он моет посуду.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Il fait la vaisselle.",
+					"explanation": "Present Continuous pour une action en cours au moment présent."
+				},
+				"de": {
+					"question": "Er spült das Geschirr.",
+					"explanation": "Present Continuous für eine Handlung im aktuellen Moment."
+				},
+				"es": {
+					"question": "Él está lavando los platos.",
+					"explanation": "Present Continuous para una acción en el momento actual."
+				}
+			}
 		},
 		{
-			"question": "Мы выбираем подарок.",
 			"answer": "We are choosing a gift.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Мы выбираем подарок.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Nous choisissons un cadeau.",
+					"explanation": "Present Continuous pour une action en cours au moment présent."
+				},
+				"de": {
+					"question": "Wir suchen ein Geschenk aus.",
+					"explanation": "Present Continuous für eine Handlung im aktuellen Moment."
+				},
+				"es": {
+					"question": "Estamos eligiendo un regalo.",
+					"explanation": "Present Continuous para una acción en el momento actual."
+				}
+			}
 		},
 		{
-			"question": "Она надевает туфли.",
 			"answer": "She is putting on her shoes.",
-			"explanation": "Present Continuous для действия прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Она надевает туфли.",
+					"explanation": "Present Continuous для действия прямо сейчас."
+				},
+				"fr": {
+					"question": "Elle met ses chaussures.",
+					"explanation": "Present Continuous pour une action qui se déroule en ce moment même."
+				},
+				"de": {
+					"question": "Sie zieht ihre Schuhe an.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Ella se está poniendo los zapatos.",
+					"explanation": "Present Continuous para una acción que ocurre ahora mismo."
+				}
+			}
 		},
 		{
-			"question": "Температура падает.",
 			"answer": "The temperature is falling.",
-			"explanation": "Present Continuous для постепенного изменения."
+			"translations": {
+				"ru": {
+					"question": "Температура падает.",
+					"explanation": "Present Continuous для постепенного изменения."
+				},
+				"fr": {
+					"question": "La température baisse.",
+					"explanation": "Present Continuous pour un changement progressif."
+				},
+				"de": {
+					"question": "Die Temperatur sinkt.",
+					"explanation": "Present Continuous für eine allmähliche Veränderung."
+				},
+				"es": {
+					"question": "La temperatura está bajando.",
+					"explanation": "Present Continuous para un cambio gradual."
+				}
+			}
 		},
 		{
-			"question": "Он не отвечает на звонки.",
 			"answer": "He is not answering calls.",
-			"explanation": "Отрицание в Present Continuous для временной ситуации."
+			"translations": {
+				"ru": {
+					"question": "Он не отвечает на звонки.",
+					"explanation": "Отрицание в Present Continuous для временной ситуации."
+				},
+				"fr": {
+					"question": "Il ne répond pas aux appels.",
+					"explanation": "Négation au Present Continuous pour une situation temporaire."
+				},
+				"de": {
+					"question": "Er geht gerade nicht ans Telefon.",
+					"explanation": "Verneinung im Present Continuous für eine vorübergehende Situation."
+				},
+				"es": {
+					"question": "Él no está contestando las llamadas.",
+					"explanation": "Negación en Present Continuous para una situación temporal."
+				}
+			}
 		},
 		{
-			"question": "Что ты ищешь?",
 			"answer": "What are you looking for?",
-			"explanation": "Вопрос в Present Continuous с вопросительным словом."
+			"translations": {
+				"ru": {
+					"question": "Что ты ищешь?",
+					"explanation": "Вопрос в Present Continuous с вопросительным словом."
+				},
+				"fr": {
+					"question": "Qu'est-ce que tu cherches ?",
+					"explanation": "Question au Present Continuous avec un mot interrogatif."
+				},
+				"de": {
+					"question": "Was suchst du?",
+					"explanation": "Frage im Present Continuous mit einem Fragewort."
+				},
+				"es": {
+					"question": "¿Qué estás buscando?",
+					"explanation": "Pregunta en Present Continuous con palabra interrogativa."
+				}
+			}
 		},
 		{
-			"question": "Она переписывает эссе.",
 			"answer": "She is rewriting her essay.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Она переписывает эссе.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Elle réécrit son essai.",
+					"explanation": "Present Continuous pour une action en cours au moment présent."
+				},
+				"de": {
+					"question": "Sie schreibt ihren Aufsatz um.",
+					"explanation": "Present Continuous für eine Handlung im aktuellen Moment."
+				},
+				"es": {
+					"question": "Ella está reescribiendo el ensayo.",
+					"explanation": "Present Continuous para una acción en el momento actual."
+				}
+			}
 		},
 		{
-			"question": "Мы переключаемся на другой подход.",
 			"answer": "We are switching to a different approach.",
-			"explanation": "Present Continuous для изменения в данный период."
+			"translations": {
+				"ru": {
+					"question": "Мы переключаемся на другой подход.",
+					"explanation": "Present Continuous для изменения в данный период."
+				},
+				"fr": {
+					"question": "Nous passons à une autre approche.",
+					"explanation": "Present Continuous pour un changement en cours pendant cette période."
+				},
+				"de": {
+					"question": "Wir wechseln zu einem anderen Ansatz.",
+					"explanation": "Present Continuous für eine Veränderung im aktuellen Zeitraum."
+				},
+				"es": {
+					"question": "Estamos cambiando a otro enfoque.",
+					"explanation": "Present Continuous para un cambio durante el período actual."
+				}
+			}
 		},
 		{
-			"question": "Они занимаются уборкой.",
 			"answer": "They are doing the cleaning.",
-			"explanation": "Present Continuous для действия прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Они занимаются уборкой.",
+					"explanation": "Present Continuous для действия прямо сейчас."
+				},
+				"fr": {
+					"question": "Ils font le ménage.",
+					"explanation": "Present Continuous pour une action qui se déroule en ce moment même."
+				},
+				"de": {
+					"question": "Sie machen gerade sauber.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Ellos están haciendo la limpieza.",
+					"explanation": "Present Continuous para una acción que ocurre ahora mismo."
+				}
+			}
 		},
 		{
-			"question": "Я качаю приложение.",
 			"answer": "I am downloading an app.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Я качаю приложение.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Je télécharge une application.",
+					"explanation": "Present Continuous pour une action en cours au moment présent."
+				},
+				"de": {
+					"question": "Ich lade gerade eine App herunter.",
+					"explanation": "Present Continuous für eine Handlung im aktuellen Moment."
+				},
+				"es": {
+					"question": "Estoy descargando una aplicación.",
+					"explanation": "Present Continuous para una acción en el momento actual."
+				}
+			}
 		},
 		{
-			"question": "Он берёт такси.",
 			"answer": "He is taking a taxi.",
-			"explanation": "Present Continuous для действия прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Он берёт такси.",
+					"explanation": "Present Continuous для действия прямо сейчас."
+				},
+				"fr": {
+					"question": "Il prend un taxi.",
+					"explanation": "Present Continuous pour une action qui se déroule en ce moment même."
+				},
+				"de": {
+					"question": "Er nimmt gerade ein Taxi.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Él está tomando un taxi.",
+					"explanation": "Present Continuous para una acción que ocurre ahora mismo."
+				}
+			}
 		},
 		{
-			"question": "Она пишет диссертацию.",
 			"answer": "She is writing her thesis.",
-			"explanation": "Present Continuous для длительного процесса в данный период."
+			"translations": {
+				"ru": {
+					"question": "Она пишет диссертацию.",
+					"explanation": "Present Continuous для длительного процесса в данный период."
+				},
+				"fr": {
+					"question": "Elle rédige sa thèse.",
+					"explanation": "Present Continuous pour un processus prolongé en cours pendant cette période."
+				},
+				"de": {
+					"question": "Sie schreibt gerade ihre Dissertation.",
+					"explanation": "Present Continuous für einen längeren Prozess im aktuellen Zeitraum."
+				},
+				"es": {
+					"question": "Ella está escribiendo su tesis.",
+					"explanation": "Present Continuous para un proceso prolongado durante el período actual."
+				}
+			}
 		},
 		{
-			"question": "Погода портится.",
 			"answer": "The weather is getting worse.",
-			"explanation": "Present Continuous для постепенного ухудшения."
+			"translations": {
+				"ru": {
+					"question": "Погода портится.",
+					"explanation": "Present Continuous для постепенного ухудшения."
+				},
+				"fr": {
+					"question": "Le temps se dégrade.",
+					"explanation": "Present Continuous pour une détérioration progressive."
+				},
+				"de": {
+					"question": "Das Wetter wird schlechter.",
+					"explanation": "Present Continuous für eine allmähliche Verschlechterung."
+				},
+				"es": {
+					"question": "El tiempo está empeorando.",
+					"explanation": "Present Continuous para un deterioro gradual."
+				}
+			}
 		},
 		{
-			"question": "Мы обсуждаем условия договора.",
 			"answer": "We are discussing the contract terms.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Мы обсуждаем условия договора.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Nous discutons des termes du contrat.",
+					"explanation": "Present Continuous pour une action en cours en ce moment."
+				},
+				"de": {
+					"question": "Wir besprechen die Vertragsbedingungen.",
+					"explanation": "Present Continuous für eine Handlung in diesem Moment."
+				},
+				"es": {
+					"question": "Estamos discutiendo los términos del contrato.",
+					"explanation": "Present Continuous para una acción en curso en este momento."
+				}
+			}
 		},
 		{
-			"question": "Он пытается открыть дверь.",
 			"answer": "He is trying to open the door.",
-			"explanation": "Present Continuous для действия прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Он пытается открыть дверь.",
+					"explanation": "Present Continuous для действия прямо сейчас."
+				},
+				"fr": {
+					"question": "Il essaie d'ouvrir la porte.",
+					"explanation": "Present Continuous pour une action qui se passe en ce moment même."
+				},
+				"de": {
+					"question": "Er versucht, die Tür zu öffnen.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Él está intentando abrir la puerta.",
+					"explanation": "Present Continuous para una acción que ocurre justo ahora."
+				}
+			}
 		},
 		{
-			"question": "Дерево растёт.",
 			"answer": "The tree is growing.",
-			"explanation": "Present Continuous для постепенного изменения."
+			"translations": {
+				"ru": {
+					"question": "Дерево растёт.",
+					"explanation": "Present Continuous для постепенного изменения."
+				},
+				"fr": {
+					"question": "L'arbre pousse.",
+					"explanation": "Present Continuous pour un changement progressif."
+				},
+				"de": {
+					"question": "Der Baum wächst.",
+					"explanation": "Present Continuous für eine allmähliche Veränderung."
+				},
+				"es": {
+					"question": "El árbol está creciendo.",
+					"explanation": "Present Continuous para un cambio gradual."
+				}
+			}
 		},
 		{
-			"question": "Она подписывает документы.",
 			"answer": "She is signing the documents.",
-			"explanation": "Present Continuous для действия прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Она подписывает документы.",
+					"explanation": "Present Continuous для действия прямо сейчас."
+				},
+				"fr": {
+					"question": "Elle signe des documents.",
+					"explanation": "Present Continuous pour une action qui se passe en ce moment même."
+				},
+				"de": {
+					"question": "Sie unterzeichnet Dokumente.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Ella está firmando documentos.",
+					"explanation": "Present Continuous para una acción que ocurre justo ahora."
+				}
+			}
 		},
 		{
-			"question": "Я несу тяжёлые сумки.",
 			"answer": "I am carrying heavy bags.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Я несу тяжёлые сумки.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Je porte des sacs lourds.",
+					"explanation": "Present Continuous pour une action en cours en ce moment."
+				},
+				"de": {
+					"question": "Ich trage schwere Taschen.",
+					"explanation": "Present Continuous für eine Handlung in diesem Moment."
+				},
+				"es": {
+					"question": "Estoy cargando bolsas pesadas.",
+					"explanation": "Present Continuous para una acción en curso en este momento."
+				}
+			}
 		},
 		{
-			"question": "Они тренируются на стадионе.",
 			"answer": "They are training at the stadium.",
-			"explanation": "Present Continuous для действия прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Они тренируются на стадионе.",
+					"explanation": "Present Continuous для действия прямо сейчас."
+				},
+				"fr": {
+					"question": "Ils s'entraînent au stade.",
+					"explanation": "Present Continuous pour une action qui se passe en ce moment même."
+				},
+				"de": {
+					"question": "Sie trainieren im Stadion.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Ellos están entrenando en el estadio.",
+					"explanation": "Present Continuous para una acción que ocurre justo ahora."
+				}
+			}
 		},
 		{
-			"question": "Он собирает информацию.",
 			"answer": "He is gathering information.",
-			"explanation": "Present Continuous для временного действия в данный период."
+			"translations": {
+				"ru": {
+					"question": "Он собирает информацию.",
+					"explanation": "Present Continuous для временного действия в данный период."
+				},
+				"fr": {
+					"question": "Il rassemble des informations.",
+					"explanation": "Present Continuous pour une action temporaire dans cette période."
+				},
+				"de": {
+					"question": "Er sammelt Informationen.",
+					"explanation": "Present Continuous für eine vorübergehende Handlung in dieser Zeit."
+				},
+				"es": {
+					"question": "Él está recopilando información.",
+					"explanation": "Present Continuous para una acción temporal en este período."
+				}
+			}
 		},
 		{
-			"question": "Ты прячешься?",
 			"answer": "Are you hiding?",
-			"explanation": "Вопрос в Present Continuous."
+			"translations": {
+				"ru": {
+					"question": "Ты прячешься?",
+					"explanation": "Вопрос в Present Continuous."
+				},
+				"fr": {
+					"question": "Tu te caches ?",
+					"explanation": "Question au Present Continuous."
+				},
+				"de": {
+					"question": "Versteckst du dich?",
+					"explanation": "Frage im Present Continuous."
+				},
+				"es": {
+					"question": "¿Te estás escondiendo?",
+					"explanation": "Pregunta en Present Continuous."
+				}
+			}
 		},
 		{
-			"question": "Мы меняем стратегию.",
 			"answer": "We are changing our strategy.",
-			"explanation": "Present Continuous для изменения в данный период."
+			"translations": {
+				"ru": {
+					"question": "Мы меняем стратегию.",
+					"explanation": "Present Continuous для изменения в данный период."
+				},
+				"fr": {
+					"question": "Nous changeons de stratégie.",
+					"explanation": "Present Continuous pour un changement en cours dans cette période."
+				},
+				"de": {
+					"question": "Wir ändern die Strategie.",
+					"explanation": "Present Continuous für eine Änderung in dieser Zeit."
+				},
+				"es": {
+					"question": "Estamos cambiando la estrategia.",
+					"explanation": "Present Continuous para un cambio en curso en este período."
+				}
+			}
 		},
 		{
-			"question": "Она красит волосы.",
 			"answer": "She is dyeing her hair.",
-			"explanation": "Present Continuous для действия прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Она красит волосы.",
+					"explanation": "Present Continuous для действия прямо сейчас."
+				},
+				"fr": {
+					"question": "Elle se teint les cheveux.",
+					"explanation": "Present Continuous pour une action qui se passe en ce moment même."
+				},
+				"de": {
+					"question": "Sie färbt ihre Haare.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Ella se está tiñendo el cabello.",
+					"explanation": "Present Continuous para una acción que ocurre justo ahora."
+				}
+			}
 		},
 		{
-			"question": "Они ищут выход.",
 			"answer": "They are looking for a way out.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Они ищут выход.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Ils cherchent une issue.",
+					"explanation": "Present Continuous pour une action en cours en ce moment."
+				},
+				"de": {
+					"question": "Sie suchen einen Ausweg.",
+					"explanation": "Present Continuous für eine Handlung in diesem Moment."
+				},
+				"es": {
+					"question": "Ellos están buscando una salida.",
+					"explanation": "Present Continuous para una acción en curso en este momento."
+				}
+			}
 		},
 		{
-			"question": "Я отдыхаю.",
 			"answer": "I am resting.",
-			"explanation": "Present Continuous для действия прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Я отдыхаю.",
+					"explanation": "Present Continuous для действия прямо сейчас."
+				},
+				"fr": {
+					"question": "Je me repose.",
+					"explanation": "Present Continuous pour une action qui se passe en ce moment même."
+				},
+				"de": {
+					"question": "Ich erhole mich.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Estoy descansando.",
+					"explanation": "Present Continuous para una acción que ocurre justo ahora."
+				}
+			}
 		},
 		{
-			"question": "Он сохраняет спокойствие.",
 			"answer": "He is staying calm.",
-			"explanation": "Present Continuous для временного состояния."
+			"translations": {
+				"ru": {
+					"question": "Он сохраняет спокойствие.",
+					"explanation": "Present Continuous для временного состояния."
+				},
+				"fr": {
+					"question": "Il garde son calme.",
+					"explanation": "Present Continuous pour un état temporaire."
+				},
+				"de": {
+					"question": "Er bewahrt die Ruhe.",
+					"explanation": "Present Continuous für einen vorübergehenden Zustand."
+				},
+				"es": {
+					"question": "Él está manteniendo la calma.",
+					"explanation": "Present Continuous para un estado temporal."
+				}
+			}
 		},
 		{
-			"question": "Она готовит торт.",
 			"answer": "She is making a cake.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Она готовит торт.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Elle prépare un gâteau.",
+					"explanation": "Present Continuous pour une action en cours en ce moment."
+				},
+				"de": {
+					"question": "Sie backt einen Kuchen.",
+					"explanation": "Present Continuous für eine Handlung in diesem Moment."
+				},
+				"es": {
+					"question": "Ella está preparando un pastel.",
+					"explanation": "Present Continuous para una acción en curso en este momento."
+				}
+			}
 		},
 		{
-			"question": "Мы убираем дом.",
 			"answer": "We are tidying the house.",
-			"explanation": "Present Continuous для действия прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Мы убираем дом.",
+					"explanation": "Present Continuous для действия прямо сейчас."
+				},
+				"fr": {
+					"question": "Nous faisons le ménage.",
+					"explanation": "Present Continuous pour une action qui se passe en ce moment même."
+				},
+				"de": {
+					"question": "Wir putzen das Haus.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Estamos limpiando la casa.",
+					"explanation": "Present Continuous para una acción que ocurre justo ahora."
+				}
+			}
 		},
 		{
-			"question": "Они уезжают на следующей неделе.",
 			"answer": "They are leaving next week.",
-			"explanation": "Present Continuous для запланированного ближайшего будущего."
+			"translations": {
+				"ru": {
+					"question": "Они уезжают на следующей неделе.",
+					"explanation": "Present Continuous для запланированного ближайшего будущего."
+				},
+				"fr": {
+					"question": "Ils partent la semaine prochaine.",
+					"explanation": "Present Continuous pour un futur proche planifié."
+				},
+				"de": {
+					"question": "Sie fahren nächste Woche weg.",
+					"explanation": "Present Continuous für eine geplante nahe Zukunft."
+				},
+				"es": {
+					"question": "Ellos se van la próxima semana.",
+					"explanation": "Present Continuous para un futuro cercano planificado."
+				}
+			}
 		},
 		{
-			"question": "Я учу новые слова.",
 			"answer": "I am learning new words.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Я учу новые слова.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "J'apprends de nouveaux mots.",
+					"explanation": "Present Continuous pour une action en cours en ce moment."
+				},
+				"de": {
+					"question": "Ich lerne neue Wörter.",
+					"explanation": "Present Continuous für eine Handlung in diesem Moment."
+				},
+				"es": {
+					"question": "Estoy aprendiendo palabras nuevas.",
+					"explanation": "Present Continuous para una acción en curso en este momento."
+				}
+			}
 		},
 		{
-			"question": "Он прощается с друзьями.",
 			"answer": "He is saying goodbye to his friends.",
-			"explanation": "Present Continuous для действия прямо сейчас."
+			"translations": {
+				"ru": {
+					"question": "Он прощается с друзьями.",
+					"explanation": "Present Continuous для действия прямо сейчас."
+				},
+				"fr": {
+					"question": "Il dit au revoir à ses amis.",
+					"explanation": "Present Continuous pour une action qui se passe en ce moment même."
+				},
+				"de": {
+					"question": "Er verabschiedet sich von seinen Freunden.",
+					"explanation": "Present Continuous für eine Handlung, die gerade jetzt stattfindet."
+				},
+				"es": {
+					"question": "Él se está despidiendo de sus amigos.",
+					"explanation": "Present Continuous para una acción que ocurre justo ahora."
+				}
+			}
 		},
 		{
-			"question": "Она составляет список дел.",
 			"answer": "She is making a to-do list.",
-			"explanation": "Present Continuous для действия в данный момент."
+			"translations": {
+				"ru": {
+					"question": "Она составляет список дел.",
+					"explanation": "Present Continuous для действия в данный момент."
+				},
+				"fr": {
+					"question": "Elle dresse une liste de tâches.",
+					"explanation": "Present Continuous pour une action en cours en ce moment."
+				},
+				"de": {
+					"question": "Sie erstellt eine Aufgabenliste.",
+					"explanation": "Present Continuous für eine Handlung in diesem Moment."
+				},
+				"es": {
+					"question": "Ella está haciendo una lista de tareas.",
+					"explanation": "Present Continuous para una acción en curso en este momento."
+				}
+			}
 		},
 		{
-			"question": "Мы пересматриваем бюджет.",
 			"answer": "We are reviewing the budget.",
-			"explanation": "Present Continuous для временного действия в данный период."
+			"translations": {
+				"ru": {
+					"question": "Мы пересматриваем бюджет.",
+					"explanation": "Present Continuous для временного действия в данный период."
+				},
+				"fr": {
+					"question": "Nous révisons le budget.",
+					"explanation": "Present Continuous pour une action temporaire dans cette période."
+				},
+				"de": {
+					"question": "Wir überprüfen das Budget.",
+					"explanation": "Present Continuous für eine vorübergehende Handlung in dieser Zeit."
+				},
+				"es": {
+					"question": "Estamos revisando el presupuesto.",
+					"explanation": "Present Continuous para una acción temporal en este período."
+				}
+			}
 		}
 	]
 }

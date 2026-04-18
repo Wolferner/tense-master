@@ -1,23 +1,33 @@
+import messages from '@/shared/i18n/messages/ru.json';
 import { render, screen } from '@testing-library/react';
-import { describe, it, expect, vi } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
 
 vi.mock('@/shared/hooks/useNetworkStatus', () => ({
 	useNetworkStatus: vi.fn(),
 }));
 
 import { useNetworkStatus } from '@/shared/hooks/useNetworkStatus';
+import { NextIntlClientProvider } from 'next-intl';
 import NetworkBadge from '../NetworkBadge';
 
 describe('NetworkBadge', () => {
 	it('renders nothing when status is online', () => {
 		vi.mocked(useNetworkStatus).mockReturnValue({ status: 'online' });
-		const { container } = render(<NetworkBadge />);
+		const { container } = render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<NetworkBadge />
+			</NextIntlClientProvider>,
+		);
 		expect(container).toBeEmptyDOMElement();
 	});
 
 	it('shows "Offline" label when status is offline', () => {
 		vi.mocked(useNetworkStatus).mockReturnValue({ status: 'offline' });
-		render(<NetworkBadge />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<NetworkBadge />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.getByText('Offline')).toBeInTheDocument();
 	});
 
@@ -28,7 +38,11 @@ describe('NetworkBadge', () => {
 			rtt: 1000,
 			downlink: 0.1,
 		});
-		render(<NetworkBadge />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<NetworkBadge />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.getByText('Slow connection')).toBeInTheDocument();
 	});
 });

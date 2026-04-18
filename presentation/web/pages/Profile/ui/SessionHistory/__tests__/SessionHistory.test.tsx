@@ -1,10 +1,9 @@
-import type {
-	AnswerWithExercise,
-	SessionSummary,
-} from '@/client/application/services/ProfileService';
+import type { SessionSummary } from '@/client/application/services/ProfileService';
 import { Session } from '@/domain/entities/Session';
+import messages from '@/shared/i18n/messages/ru.json';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
+import { NextIntlClientProvider } from 'next-intl';
 import { describe, expect, it, vi } from 'vitest';
 import { SessionHistory } from '../SessionHistory';
 
@@ -28,12 +27,20 @@ function makeSummary(id: string, overrides: Partial<SessionSummary> = {}): Sessi
 
 describe('SessionHistory', () => {
 	it('shows empty placeholder when no sessions', () => {
-		render(<SessionHistory summaries={[]} getSessionAnswers={() => []} />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<SessionHistory summaries={[]} getSessionAnswers={() => []} />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.getByText('История пуста')).toBeInTheDocument();
 	});
 
 	it('renders a session card with accuracy and score', () => {
-		render(<SessionHistory summaries={[makeSummary('s1')]} getSessionAnswers={() => []} />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<SessionHistory summaries={[makeSummary('s1')]} getSessionAnswers={() => []} />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.getByText('80%')).toBeInTheDocument();
 		expect(screen.getByText('8/10 верно')).toBeInTheDocument();
 	});
@@ -42,7 +49,9 @@ describe('SessionHistory', () => {
 		const getSessionAnswers = vi.fn().mockReturnValue([]);
 		const user = userEvent.setup();
 		render(
-			<SessionHistory summaries={[makeSummary('s1')]} getSessionAnswers={getSessionAnswers} />,
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<SessionHistory summaries={[makeSummary('s1')]} getSessionAnswers={getSessionAnswers} />
+			</NextIntlClientProvider>,
 		);
 
 		await user.click(screen.getByRole('button'));
@@ -53,7 +62,11 @@ describe('SessionHistory', () => {
 
 	it('collapses session detail on second click', async () => {
 		const user = userEvent.setup();
-		render(<SessionHistory summaries={[makeSummary('s1')]} getSessionAnswers={() => []} />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<SessionHistory summaries={[makeSummary('s1')]} getSessionAnswers={() => []} />
+			</NextIntlClientProvider>,
+		);
 		const btn = screen.getByRole('button');
 
 		await user.click(btn);
@@ -66,7 +79,11 @@ describe('SessionHistory', () => {
 	it('only expands the clicked session when multiple exist', async () => {
 		const user = userEvent.setup();
 		const summaries = [makeSummary('s1'), makeSummary('s2')];
-		render(<SessionHistory summaries={summaries} getSessionAnswers={() => []} />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<SessionHistory summaries={summaries} getSessionAnswers={() => []} />
+			</NextIntlClientProvider>,
+		);
 
 		const buttons = screen.getAllByRole('button');
 		await user.click(buttons[0]);
@@ -77,11 +94,14 @@ describe('SessionHistory', () => {
 
 	it('excludes skipped from the score denominator', () => {
 		render(
-			<SessionHistory
-				summaries={[makeSummary('s1', { total: 10, correct: 6, skipped: 2, accuracy: 75 })]}
-				getSessionAnswers={() => []}
-			/>,
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<SessionHistory
+					summaries={[makeSummary('s1', { total: 10, correct: 6, skipped: 2, accuracy: 75 })]}
+					getSessionAnswers={() => []}
+				/>
+			</NextIntlClientProvider>,
 		);
+
 		// denominator = total - skipped = 10 - 2 = 8
 		expect(screen.getByText('6/8 верно')).toBeInTheDocument();
 	});

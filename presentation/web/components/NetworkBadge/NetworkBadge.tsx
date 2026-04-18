@@ -1,15 +1,17 @@
 'use client';
 
 import { Badge } from '@/presentation/components/ui/badge';
-import { cn } from '@/shared/lib/utils';
 import { useNetworkStatus } from '@/shared/hooks/useNetworkStatus';
+import { cn } from '@/shared/lib/utils';
+import { useTranslations } from 'next-intl';
 
 const NetworkBadge = () => {
+	const t = useTranslations('network');
 	const { status } = useNetworkStatus();
 
 	if (status === 'online') return null;
 
-	const label = BADGE_LABELS[status] || 'Unknown status';
+	const label = t(status) || 'Unknown status';
 
 	const isOffline = status === 'offline';
 
@@ -29,9 +31,3 @@ const NetworkBadge = () => {
 };
 
 export default NetworkBadge;
-
-const BADGE_LABELS: Record<string, string> = {
-	online: 'Online',
-	offline: 'Offline',
-	slow: 'Slow connection',
-};

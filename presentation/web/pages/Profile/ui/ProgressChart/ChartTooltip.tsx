@@ -1,20 +1,32 @@
 import { ChartDataPoint } from '@/client/application/services/ProfileService';
+import { useLocale, useTranslations } from 'next-intl';
 import { TooltipContentProps } from 'recharts';
 import { TENSE_LABELS } from '../../../TenseTrainer/logic/tenseLabels';
 
 function ChartTooltip({ active, payload }: TooltipContentProps) {
+	const t = useTranslations('profile');
+	const locale = useLocale();
 	if (!active || !payload?.length) return null;
 	const point = payload[0].payload as ChartDataPoint;
+
+	const date = new Date(point.date).toLocaleDateString(locale, {
+		day: 'numeric',
+		month: 'short',
+		hour: '2-digit',
+		minute: '2-digit',
+	});
+
 	return (
 		<div className='border-border bg-card rounded-xl border p-3 shadow-md'>
-			<p className='text-foreground text-sm font-medium'>{point.date}</p>
+			<p className='text-foreground text-sm font-medium'>{date}</p>
 			{point.sessionCorrect > 0 && (
 				<p className='text-muted-foreground text-xs'>
-					За сессию: <span className='text-foreground font-medium'>+{point.sessionCorrect}</span>
+					{t('tooltipSession')}:{' '}
+					<span className='text-foreground font-medium'>+{point.sessionCorrect}</span>
 				</p>
 			)}
 			<p className='text-muted-foreground text-xs'>
-				Всего: <span className='text-foreground font-medium'>{point.cumulative}</span>
+				{t('tooltipTotal')}: <span className='text-foreground font-medium'>{point.cumulative}</span>
 			</p>
 			{point.tenses.length > 0 && (
 				<div className='mt-2 flex flex-wrap gap-1'>

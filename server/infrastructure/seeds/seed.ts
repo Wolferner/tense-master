@@ -1,4 +1,4 @@
-import { PrismaClient } from '@/prisma/generated/prisma/client';
+import { PrismaClient, Locale as PrismaLocale } from '@/prisma/generated/prisma/client';
 import { neonConfig } from '@neondatabase/serverless';
 import { PrismaNeon } from '@prisma/adapter-neon';
 import 'dotenv/config';
@@ -13,13 +13,19 @@ neonConfig.webSocketConstructor = ws;
 const adapter = new PrismaNeon({ connectionString: process.env.DATABASE_URL! });
 const prisma = new PrismaClient({ adapter });
 
+interface SeedTranslation {
+	question: string;
+	explanation: string;
+}
+
+interface SeedExercise {
+	answer: string;
+	translations: Partial<Record<PrismaLocale, SeedTranslation>>;
+}
+
 interface SeedFile {
 	tense: Tense;
-	exercises: {
-		question: string;
-		answer: string;
-		explanation: string;
-	}[];
+	exercises: SeedExercise[];
 }
 
 const FILES: Record<Tense, string> = {
@@ -47,24 +53,30 @@ async function main() {
 		const file: SeedFile = JSON.parse(raw);
 
 		for (const exercise of file.exercises) {
-			await prisma.tenseExerciseQuestion.upsert({
-				where: {
-					question_tense: {
-						question: exercise.question,
-						tense,
-					},
-				},
-				update: {
-					answer: exercise.answer,
-					explanation: exercise.explanation,
-				},
-				create: {
-					tense,
-					question: exercise.question,
-					answer: exercise.answer,
-					explanation: exercise.explanation,
-				},
+			const record = await prisma.tenseExerciseQuestion.upsert({
+				where: { answer_tense: { answer: exercise.answer, tense } },
+				update: {},
+				create: { tense, answer: exercise.answer },
 			});
+
+			for (const [locale, translation] of Object.entries(exercise.translations) as [
+				PrismaLocale,
+				SeedTranslation,
+			][]) {
+				await prisma.tenseExerciseTranslation.upsert({
+					where: { exerciseId_locale: { exerciseId: record.id, locale } },
+					update: {
+						question: translation.question,
+						explanation: translation.explanation,
+					},
+					create: {
+						exerciseId: record.id,
+						locale,
+						question: translation.question,
+						explanation: translation.explanation,
+					},
+				});
+			}
 		}
 
 		console.log(`Seeded ${file.exercises.length} exercises for ${tense}`);
