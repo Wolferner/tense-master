@@ -48,7 +48,6 @@ export const useSessionStore = create<SessionStore>()(
 			syncExercises: async locale => {
 				set({ isLoading: true });
 				await exerciseSyncService.sync(locale);
-				console.log('Sync complete', locale);
 				set({ isLoading: false });
 			},
 
