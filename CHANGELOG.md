@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.1] - 2026-04-21
+
+### Changed
+
+- Updated root page `metadata` and `sitemap.ts`, to handle multi language.
+
 ## [1.3.0] - 2026-04-20
 
 ### Added

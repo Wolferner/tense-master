@@ -1,6 +1,9 @@
 import HomePage from '@/presentation/web/pages/Home/Home';
+import { routing } from '@/shared/i18n/config';
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
+
+const BASE_URL = 'https://tense-master.xyz';
 
 export async function generateMetadata({
 	params,
@@ -13,6 +16,14 @@ export async function generateMetadata({
 	return {
 		title: t('title'),
 		description: t('description'),
+		alternates: {
+			canonical: `${BASE_URL}/${lang}`,
+			languages: Object.fromEntries(
+				routing.locales
+					.filter(locale => locale !== lang)
+					.map(locale => [locale, `${BASE_URL}/${locale}`]),
+			),
+		},
 	};
 }
 
