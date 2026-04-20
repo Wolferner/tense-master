@@ -18,11 +18,10 @@ export async function generateMetadata({
 		description: t('description'),
 		alternates: {
 			canonical: `${BASE_URL}/${lang}`,
-			languages: Object.fromEntries(
-				routing.locales
-					.filter(locale => locale !== lang)
-					.map(locale => [locale, `${BASE_URL}/${locale}`]),
-			),
+			languages: {
+				...Object.fromEntries(routing.locales.map(locale => [locale, `${BASE_URL}/${locale}`])),
+				'x-default': `${BASE_URL}/${routing.defaultLocale}`,
+			},
 		},
 	};
 }
