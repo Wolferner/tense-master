@@ -26,6 +26,9 @@
 
 - Add Session review page.
 - Add Page with education articles.
+- Add animations.
+- Add translation tooltip to exercises.
+- Add feedback option.
 
 ## Error handling
 

@@ -6,6 +6,7 @@ import type {
 } from '@/client/application/services/ProfileService';
 import { Badge } from '@/presentation/components/ui/badge';
 import { TENSES_GROUPS } from '@/shared/config/tenses';
+import { useLocale, useTranslations } from 'next-intl';
 import { useState } from 'react';
 import { TENSE_LABELS } from '../../../TenseTrainer/logic/tenseLabels';
 import { SessionDetail } from './SessionDetail';
@@ -16,17 +17,20 @@ interface Props {
 }
 
 export function SessionHistory({ summaries, getSessionAnswers }: Props) {
+	const t = useTranslations('profile');
+	const locale = useLocale();
+
 	const [openId, setOpenId] = useState<string | null>(null);
 
 	if (summaries.length === 0) {
-		return <p className='text-muted-foreground text-sm'>История пуста</p>;
+		return <p className='text-muted-foreground text-sm'>{t('emptyHistory')}</p>;
 	}
 
 	return (
 		<div className='flex flex-col gap-3'>
 			{summaries.map(({ session, total, correct, skipped, accuracy }) => {
 				const isOpen = openId === session.id;
-				const date = new Date(session.createdAt).toLocaleDateString('ru-RU', {
+				const date = new Date(session.createdAt).toLocaleDateString(locale, {
 					day: 'numeric',
 					month: 'short',
 					hour: '2-digit',
@@ -34,9 +38,9 @@ export function SessionHistory({ summaries, getSessionAnswers }: Props) {
 				});
 
 				const groupDefs = [
-					{ label: 'Present tenses', tenses: TENSES_GROUPS.present },
-					{ label: 'Past tenses', tenses: TENSES_GROUPS.past },
-					{ label: 'Future tenses', tenses: TENSES_GROUPS.future },
+					{ labelKey: 'presentTenses' as const, tenses: TENSES_GROUPS.present },
+					{ labelKey: 'pastTenses' as const, tenses: TENSES_GROUPS.past },
+					{ labelKey: 'futureTenses' as const, tenses: TENSES_GROUPS.future },
 				];
 
 				const groupedTenses = new Set<string>();
@@ -45,16 +49,16 @@ export function SessionHistory({ summaries, getSessionAnswers }: Props) {
 				const allTenses = session.tenses.length === 12;
 
 				if (!allTenses) {
-					groupDefs.forEach(({ label, tenses }) => {
+					groupDefs.forEach(({ labelKey, tenses }) => {
 						if (tenses.every(t => session.tenses.includes(t))) {
-							groupLabels.push(label);
+							groupLabels.push(t(labelKey));
 							tenses.forEach(t => groupedTenses.add(t));
 						}
 					});
 				}
 
 				const finalTenses = allTenses
-					? ['All Tenses']
+					? [t('allTenses')]
 					: [
 							...groupLabels,
 							...session.tenses.filter(t => !groupedTenses.has(t)).map(t => TENSE_LABELS[t]),
@@ -77,9 +81,7 @@ export function SessionHistory({ summaries, getSessionAnswers }: Props) {
 								</div>
 							</div>
 							<div className='text-muted-foreground shrink-0 text-right text-sm'>
-								<p>
-									{correct}/{total - skipped} верно
-								</p>
+								<p>{t('sessionCorrect', { correct, attempted: total - skipped })}</p>
 								<p>{accuracy}%</p>
 							</div>
 						</button>

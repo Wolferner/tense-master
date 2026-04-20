@@ -6,6 +6,8 @@ vi.mock('@/presentation/web/pages/Profile/logic/useProfileData', () => ({
 }));
 
 import { useProfileData } from '@/presentation/web/pages/Profile/logic/useProfileData';
+import messages from '@/shared/i18n/messages/ru.json';
+import { NextIntlClientProvider } from 'next-intl';
 
 const emptyStats = {
 	overallStats: { total: 0, correct: 0, skipped: 0, accuracy: 0 },
@@ -30,13 +32,21 @@ describe('ProfilePage', async () => {
 
 	it('shows loading spinner while data is loading', () => {
 		vi.mocked(useProfileData).mockReturnValue({ ...emptyStats, isLoading: true });
-		render(<ProfilePage />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<ProfilePage />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.getByText('Загрузка...')).toBeInTheDocument();
 	});
 
 	it('hides loading spinner and renders content when loaded', () => {
 		vi.mocked(useProfileData).mockReturnValue({ ...emptyStats, isLoading: false });
-		render(<ProfilePage />);
+		render(
+			<NextIntlClientProvider locale='ru' messages={messages}>
+				<ProfilePage />
+			</NextIntlClientProvider>,
+		);
 		expect(screen.queryByText('Загрузка...')).not.toBeInTheDocument();
 		expect(screen.getByText('Нет данных')).toBeInTheDocument(); // TenseBreakdown empty state
 	});

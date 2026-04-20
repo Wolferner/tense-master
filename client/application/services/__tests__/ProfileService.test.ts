@@ -26,6 +26,7 @@ function makeAnswer(
 		'user answer',
 		skipped,
 		isCorrect,
+		'ru',
 		'2024-01-01T00:00:00.000Z',
 	);
 }
@@ -36,6 +37,7 @@ function makeExercise(id: string, tense: TenseType): ExerciseResponseDto {
 		tense,
 		question: 'Q',
 		answer: 'A',
+		locale: 'ru',
 		explanation: 'E',
 		createdAt: new Date('2024-01-01'),
 		updatedAt: new Date('2024-01-01'),

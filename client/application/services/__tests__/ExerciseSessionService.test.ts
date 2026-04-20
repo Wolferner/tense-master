@@ -14,6 +14,7 @@ function makeExercise(id = 'ex-1'): ExerciseResponseDto {
 	return {
 		id,
 		tense: 'PRESENT_SIMPLE',
+		locale: 'ru',
 		question: 'Он читает',
 		answer: 'He reads',
 		explanation: 'habit',
@@ -76,7 +77,7 @@ describe('ExerciseSessionService', () => {
 			const sessionRepo = makeSessionRepo({ findActive: vi.fn().mockResolvedValue(active) });
 			const service = makeService(makeExerciseRepo(), sessionRepo);
 
-			await service.beginSession(['PRESENT_SIMPLE'], 'fixed', 5);
+			await service.beginSession(['PRESENT_SIMPLE'], 'fixed', 5, 'ru');
 
 			expect(sessionRepo.updateStatus).toHaveBeenCalledWith(
 				'old-1',
@@ -94,7 +95,7 @@ describe('ExerciseSessionService', () => {
 			const sessionRepo = makeSessionRepo();
 			const service = makeService(makeExerciseRepo(), sessionRepo);
 
-			const result = await service.beginSession(['PRESENT_SIMPLE'], 'fixed', 5);
+			const result = await service.beginSession(['PRESENT_SIMPLE'], 'fixed', 5, 'ru');
 
 			expect(sessionRepo.create).toHaveBeenCalledOnce();
 			const created = vi.mocked(sessionRepo.create).mock.calls[0][0];
@@ -110,18 +111,18 @@ describe('ExerciseSessionService', () => {
 			const exerciseRepo = makeExerciseRepo();
 			const service = makeService(exerciseRepo);
 
-			await service.beginSession(['PAST_SIMPLE'], 'fixed', 10);
+			await service.beginSession(['PAST_SIMPLE'], 'fixed', 10, 'ru');
 
-			expect(exerciseRepo.findRandom).toHaveBeenCalledWith(['PAST_SIMPLE'], 10);
+			expect(exerciseRepo.findRandom).toHaveBeenCalledWith(['PAST_SIMPLE'], 10, 'ru');
 		});
 
 		it('requests MAX_EXERCISES in infinite mode', async () => {
 			const exerciseRepo = makeExerciseRepo();
 			const service = makeService(exerciseRepo);
 
-			await service.beginSession(['PAST_SIMPLE'], 'infinite', 5);
+			await service.beginSession(['PAST_SIMPLE'], 'infinite', 5, 'ru');
 
-			expect(exerciseRepo.findRandom).toHaveBeenCalledWith(['PAST_SIMPLE'], MAX_EXERCISES);
+			expect(exerciseRepo.findRandom).toHaveBeenCalledWith(['PAST_SIMPLE'], MAX_EXERCISES, 'ru');
 		});
 	});
 
@@ -130,7 +131,7 @@ describe('ExerciseSessionService', () => {
 			const answerRepo = makeAnswerRepo();
 			const service = makeService(makeExerciseRepo(), makeSessionRepo(), answerRepo);
 
-			const answer = await service.saveAnswer(makeExercise(), '', 'session-1');
+			const answer = await service.saveAnswer(makeExercise(), '', 'session-1', 'ru');
 
 			expect(answer.skipped).toBe(true);
 			expect(answer.isCorrect).toBeNull();
@@ -138,7 +139,7 @@ describe('ExerciseSessionService', () => {
 
 		it('marks answer as skipped when userAnswer is whitespace only', async () => {
 			const service = makeService();
-			const answer = await service.saveAnswer(makeExercise(), '   ', 'session-1');
+			const answer = await service.saveAnswer(makeExercise(), '   ', 'session-1', 'ru');
 
 			expect(answer.skipped).toBe(true);
 			expect(answer.isCorrect).toBeNull();
@@ -148,8 +149,8 @@ describe('ExerciseSessionService', () => {
 			const service = makeService();
 			const exercise = makeExercise();
 
-			const correct = await service.saveAnswer(exercise, 'He reads', 'session-1');
-			const wrong = await service.saveAnswer(exercise, 'He read', 'session-1');
+			const correct = await service.saveAnswer(exercise, 'He reads', 'session-1', 'ru');
+			const wrong = await service.saveAnswer(exercise, 'He read', 'session-1', 'ru');
 
 			expect(correct.isCorrect).toBe(true);
 			expect(wrong.isCorrect).toBe(false);
@@ -159,7 +160,7 @@ describe('ExerciseSessionService', () => {
 			const service = makeService();
 			const exercise = makeExercise('ex-42');
 
-			const answer = await service.saveAnswer(exercise, 'He reads', 'session-abc');
+			const answer = await service.saveAnswer(exercise, 'He reads', 'session-abc', 'ru');
 
 			expect(answer).toBeInstanceOf(ExerciseAnswer);
 			expect(answer.id).toBe(FIXED_UUID);
@@ -174,13 +175,13 @@ describe('ExerciseSessionService', () => {
 
 		it('advances index when more exercises remain', async () => {
 			const service = makeService();
-			const result = await service.resolveNext(0, exercises, ['PRESENT_SIMPLE'], 'fixed');
+			const result = await service.resolveNext(0, exercises, ['PRESENT_SIMPLE'], 'fixed', 'ru');
 			expect(result).toEqual({ type: 'advance', nextIndex: 1 });
 		});
 
 		it('returns complete in fixed mode when at last exercise', async () => {
 			const service = makeService();
-			const result = await service.resolveNext(2, exercises, ['PRESENT_SIMPLE'], 'fixed');
+			const result = await service.resolveNext(2, exercises, ['PRESENT_SIMPLE'], 'fixed', 'ru');
 			expect(result).toEqual({ type: 'complete' });
 		});
 
@@ -189,10 +190,14 @@ describe('ExerciseSessionService', () => {
 			const exerciseRepo = makeExerciseRepo({ findRandom: vi.fn().mockResolvedValue(more) });
 			const service = makeService(exerciseRepo);
 
-			const result = await service.resolveNext(2, exercises, ['PRESENT_SIMPLE'], 'infinite');
+			const result = await service.resolveNext(2, exercises, ['PRESENT_SIMPLE'], 'infinite', 'ru');
 
 			expect(result).toEqual({ type: 'fetchMore', exercises: more, nextIndex: 3 });
-			expect(exerciseRepo.findRandom).toHaveBeenCalledWith(['PRESENT_SIMPLE'], INFINITE_MODE_LIMIT);
+			expect(exerciseRepo.findRandom).toHaveBeenCalledWith(
+				['PRESENT_SIMPLE'],
+				INFINITE_MODE_LIMIT,
+				'ru',
+			);
 		});
 	});
 });

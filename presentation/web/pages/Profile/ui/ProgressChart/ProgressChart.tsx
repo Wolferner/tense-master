@@ -1,6 +1,7 @@
 'use client';
 
 import type { ChartDataPoint } from '@/client/application/services/ProfileService';
+import { useTranslations } from 'next-intl';
 import {
 	Area,
 	AreaChart,
@@ -17,12 +18,10 @@ interface Props {
 }
 
 export function ProgressChart({ data }: Props) {
+	const t = useTranslations('profile');
+
 	if (data.length < 2 || data.every(p => p.cumulative === 0)) {
-		return (
-			<p className='text-muted-foreground text-sm'>
-				Нужно минимум 2 сессии с правильными ответами чтобы показать прогресс
-			</p>
-		);
+		return <p className='text-muted-foreground text-sm'>{t('progressMinSessions')}</p>;
 	}
 
 	return (

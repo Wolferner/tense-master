@@ -2,55 +2,53 @@ import { MAX_EXERCISES } from '@/shared/config/constants';
 import { ExerciseResponseDto } from '@/shared/dtos';
 import { CreateExerciseDto } from '@/shared/dtos/CreateExerciseDto';
 import { Exercise } from '../../../domain/entities/Exercise';
-import { Tense } from '../../../domain/value-objects';
+import { Locale, Tense } from '../../../domain/value-objects';
 import { IExerciseRepository } from '../repositories';
 
 export class ExerciseService {
 	constructor(private readonly exerciseRepository: IExerciseRepository) {}
 
-	async create(dto: CreateExerciseDto): Promise<ExerciseResponseDto> {
-		const exercise = new Exercise(
-			dto.tense,
-			dto.question,
-			dto.answer,
-			dto.explanation,
-
-			crypto.randomUUID(), // generate id here since the domain entity is not responsible for it
-			new Date(), // createdAt
-			new Date(), // updatedAt
-		);
-		const createdExercise = await this.exerciseRepository.create(exercise);
-		return this.toDto(createdExercise);
+	async create(dto: CreateExerciseDto): Promise<void> {
+		await this.exerciseRepository.create({
+			tense: dto.tense,
+			answer: dto.answer,
+			translations: dto.translations.map(t => ({
+				locale: t.locale,
+				question: t.question,
+				explanation: t.explanation,
+			})),
+		});
 	}
 
-	async findRandom(tenses: Tense[], limit: number): Promise<ExerciseResponseDto[]> {
+	async findRandom(tenses: Tense[], limit: number, locale: Locale): Promise<ExerciseResponseDto[]> {
 		if (tenses.length === 0) return [];
 
 		if (limit < 0 || limit > MAX_EXERCISES) {
 			throw new Error(`Limit must be between 1 and ${MAX_EXERCISES}`);
 		}
 
-		const exercises = await this.exerciseRepository.findRandom(tenses, limit);
+		const exercises = await this.exerciseRepository.findRandom(tenses, limit, locale);
 		if (exercises.length === 0) return [];
-		if (exercises.length >= limit) return exercises.map(this.toDto);
+		if (exercises.length >= limit) return exercises.map(e => this.toDto(e, locale));
 		const repeated = Array.from({ length: limit }, (_, i) => exercises[i % exercises.length]);
-		return repeated.map(this.toDto);
+		return repeated.map(e => this.toDto(e, locale));
 	}
 
-	async getLastUpdatedAt(): Promise<string | null> {
-		const latest = await this.exerciseRepository.findLatestUpdatedAt();
+	async getLastUpdatedAt(locale: Locale): Promise<string | null> {
+		const latest = await this.exerciseRepository.findLatestUpdatedAt(locale);
 		return latest ? latest.toISOString() : null;
 	}
 
-	async findAll(): Promise<ExerciseResponseDto[]> {
-		const exercises = await this.exerciseRepository.findAll();
-		return exercises.map(this.toDto);
+	async findAll(locale: Locale): Promise<ExerciseResponseDto[]> {
+		const exercises = await this.exerciseRepository.findAll(locale);
+		return exercises.map(e => this.toDto(e, locale));
 	}
 
-	private toDto(exercise: Exercise): ExerciseResponseDto {
+	private toDto(exercise: Exercise, locale: Locale): ExerciseResponseDto {
 		return {
 			id: exercise.id,
 			tense: exercise.tense,
+			locale,
 			question: exercise.question,
 			answer: exercise.answer,
 			explanation: exercise.explanation,

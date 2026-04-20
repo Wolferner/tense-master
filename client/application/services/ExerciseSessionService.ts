@@ -1,7 +1,7 @@
 import { ExerciseAnswer } from '@/domain/entities/Answer';
 import { Session } from '@/domain/entities/Session';
 import { validateAnswer } from '@/domain/services/AnswerValidator';
-import type { TenseType } from '@/domain/value-objects';
+import { Locale, TenseType } from '@/domain/value-objects';
 import { INFINITE_MODE_LIMIT, MAX_EXERCISES } from '@/shared/config/constants';
 import type { FixedLimit, TrainingMode } from '@/shared/config/training';
 import type { ExerciseResponseDto } from '@/shared/dtos';
@@ -33,6 +33,7 @@ export class ExerciseSessionService {
 		tenses: TenseType[],
 		mode: TrainingMode,
 		fixedLimit: FixedLimit,
+		locale: Locale,
 	): Promise<{ exercises: ExerciseResponseDto[]; sessionId: string }> {
 		const activeSessions = await this.#sessionRepo.findActive();
 
@@ -45,6 +46,7 @@ export class ExerciseSessionService {
 		const exercises = await this.#exerciseRepo.findRandom(
 			tenses,
 			mode === 'fixed' ? fixedLimit : MAX_EXERCISES,
+			locale,
 		);
 		const sessionId = crypto.randomUUID();
 		const session = new Session(
@@ -63,8 +65,10 @@ export class ExerciseSessionService {
 		exercise: ExerciseResponseDto,
 		userAnswer: string,
 		sessionId: string,
+		locale: Locale,
 	): Promise<ExerciseAnswer> {
 		const skipped = userAnswer.trim().length === 0;
+
 		const answer = new ExerciseAnswer(
 			crypto.randomUUID(),
 			sessionId,
@@ -72,6 +76,7 @@ export class ExerciseSessionService {
 			userAnswer,
 			skipped,
 			skipped ? null : validateAnswer(userAnswer, exercise.answer),
+			locale,
 			new Date().toISOString(),
 		);
 
@@ -88,6 +93,7 @@ export class ExerciseSessionService {
 		exercises: ExerciseResponseDto[],
 		tenses: TenseType[],
 		mode: TrainingMode,
+		locale: Locale,
 	): Promise<NextExerciseResult> {
 		if (currentIndex + 1 < exercises.length) {
 			return { type: 'advance', nextIndex: currentIndex + 1 };
@@ -95,7 +101,7 @@ export class ExerciseSessionService {
 		if (mode === 'fixed') {
 			return { type: 'complete' };
 		}
-		const more = await this.#exerciseRepo.findRandom(tenses, INFINITE_MODE_LIMIT);
+		const more = await this.#exerciseRepo.findRandom(tenses, INFINITE_MODE_LIMIT, locale);
 		return { type: 'fetchMore', exercises: more, nextIndex: currentIndex + 1 };
 	}
 }

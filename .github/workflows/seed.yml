@@ -30,4 +30,4 @@ jobs:
             echo "DATABASE_URL is set (${#DATABASE_URL} chars)"
           fi
 
-      - run: npx tsx server/infastructure/seeds/seed.ts
+      - run: npx tsx server/infrastructure/seeds/seed.ts

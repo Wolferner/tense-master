@@ -1,21 +1,28 @@
-import type { NextRequest } from 'next/server';
-import { NextResponse } from 'next/server';
+import createMiddleware from 'next-intl/middleware';
+import { NextResponse, type NextRequest } from 'next/server';
+import { routing } from './shared/i18n/config';
 
 const allowedOrigins = (process.env.ALLOWED_ORIGINS ?? '')
 	.split(';')
 	.map(o => o.trim())
 	.filter(Boolean);
+const handleI18nRouting = createMiddleware(routing);
 
-export function proxy(request: NextRequest) {
+export default function proxy(request: NextRequest) {
 	const origin = request.headers.get('origin');
-
-	if (origin && !allowedOrigins.includes(origin)) {
+	const isOriginNotAllowed =
+		origin && allowedOrigins.length > 0 && !allowedOrigins.includes(origin);
+	if (isOriginNotAllowed) {
 		return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
 	}
 
-	return NextResponse.next();
+	if (request.nextUrl.pathname.startsWith('/api')) {
+		return NextResponse.next();
+	}
+
+	return handleI18nRouting(request);
 }
 
 export const config = {
-	matcher: '/api/:path*',
+	matcher: ['/((?!_next|telegram|.*\\..*).*)'],
 };

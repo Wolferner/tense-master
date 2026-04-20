@@ -1,27 +1,29 @@
 'use client';
 
 import { Button } from '@/presentation/components/ui/button';
-import { cn } from '@/shared/lib/utils';
-import { useSwipeNavigation } from '@/shared/hooks/useSwipeNavigation';
 import { NAV_ROUTES, ROUTES } from '@/shared/config/routes';
+import { useSwipeNavigation } from '@/shared/hooks/useSwipeNavigation';
+import { Link, usePathname } from '@/shared/i18n/navigation';
+import { cn } from '@/shared/lib/utils';
 import { User } from 'lucide-react';
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { useTranslations } from 'next-intl';
+import LocaleSelect from '../LocaleSelect/LocaleSelect';
 import NetworkBadge from '../NetworkBadge/NetworkBadge';
 
-const NAV_LINKS = [
-	{ href: ROUTES.home, label: 'Главная' },
-	{ href: ROUTES.trainer, label: 'Тренажер' },
-];
-
 const Header = () => {
+	const t = useTranslations('nav');
 	const pathname = usePathname();
+
+	const NAV_LINKS = [
+		{ href: ROUTES.home, label: t('home') },
+		{ href: ROUTES.trainer, label: t('trainer') },
+	];
 	useSwipeNavigation([...NAV_ROUTES]);
 
 	return (
 		<header className='border-border bg-background/90 sticky top-0 z-50 border-b backdrop-blur-md'>
 			<div className='mx-auto flex h-16 max-w-5xl items-center justify-between px-6'>
-				<div className='flex items-center gap-10'>
+				<div className='flex items-center gap-5 md:gap-10'>
 					<Link href={ROUTES.home} aria-label='Tense Master' className='flex items-center gap-2'>
 						<span
 							aria-hidden='true'
@@ -37,7 +39,7 @@ const Header = () => {
 						</span>
 					</Link>
 
-					<nav aria-label='Основная навигация' className='flex items-center gap-0.5'>
+					<nav aria-label={t('mainNavLabel')} className='flex items-center gap-0.5'>
 						{NAV_LINKS.map(link => (
 							<Link
 								key={link.href}
@@ -60,6 +62,7 @@ const Header = () => {
 
 				<div className='flex items-center gap-2'>
 					<NetworkBadge />
+					<LocaleSelect />
 					<Button
 						variant='ghost'
 						size='icon-sm'
@@ -68,7 +71,7 @@ const Header = () => {
 						)}
 						asChild
 					>
-						<Link href={ROUTES.profile} aria-label='Профиль пользователя'>
+						<Link href={ROUTES.profile} aria-label={t('profileAriaLabel')}>
 							<User />
 						</Link>
 					</Button>

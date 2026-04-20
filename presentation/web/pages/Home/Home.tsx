@@ -1,11 +1,30 @@
 import { Button } from '@/presentation/components/ui/button';
 import { ROUTES } from '@/shared/config/routes';
+import { Link } from '@/shared/i18n/navigation';
 import { HardDriveIcon, ShieldOffIcon, WifiOffIcon } from 'lucide-react';
-import Link from 'next/link';
-import { REASONS } from './logic/reasons';
+import { getTranslations } from 'next-intl/server';
 import Reason from './ui/Reason';
 
-const HomePage = () => {
+const HomePage = async () => {
+	const t = await getTranslations('home');
+
+	const reasons = [
+		{
+			key: 'context',
+			title: t('reasons.context.title'),
+			description: t.rich('reasons.context.description', { bold: chunks => <b>{chunks}</b> }),
+		},
+		{
+			key: 'forms',
+			title: t('reasons.forms.title'),
+			description: t.rich('reasons.forms.description', { bold: chunks => <b>{chunks}</b> }),
+		},
+		{
+			key: 'noTools',
+			title: t('reasons.noTools.title'),
+			description: t.rich('reasons.noTools.description', { bold: chunks => <b>{chunks}</b> }),
+		},
+	];
 	return (
 		<main className='bg-background text-foreground flex flex-1 flex-col'>
 			<div className='mx-auto flex max-w-3xl flex-1 flex-col items-center justify-center gap-16 px-6 py-24'>
@@ -17,29 +36,27 @@ const HomePage = () => {
 						id='home-heading'
 						className='border-border bg-card text-primary rounded-full border px-4 py-1.5 text-sm'
 					>
-						Практикуй английские времена офлайн
+						{t('tagline')}
 					</h1>
 					<span aria-hidden='true' className='text-foreground text-5xl font-bold tracking-tight'>
 						Tense Master
 					</span>
 					<p className='text-muted-foreground max-w-xl text-lg leading-relaxed'>
-						Путаница с <b>английскими временами</b> — одна из самых частых проблем в изучении
-						<b>языка</b>. Не потому что правила сложные, а потому что их нужно чувствовать в
-						контексте. Этот <b>тренажёр</b> именно для этого.
+						{t.rich('heroDescription', { bold: chunks => <b>{chunks}</b> })}
 					</p>
 					<Button asChild size='lg' className='mt-2'>
-						<Link href={ROUTES.trainer} aria-label='Начать тренировку по английским временам'>
-							Начать тренировку
+						<Link href={ROUTES.trainer} aria-label={t('startTrainingAriaLabel')}>
+							{t('startTraining')}
 						</Link>
 					</Button>
 				</section>
 
 				<section aria-labelledby='reasons-heading' className='grid w-full gap-4 sm:grid-cols-3'>
 					<h2 id='reasons-heading' className='sr-only'>
-						Почему этот тренажёр
+						{t('whyHeading')}
 					</h2>
-					{REASONS.map(reason => (
-						<Reason key={reason.title} reason={reason} />
+					{reasons.map(reason => (
+						<Reason key={reason.key} title={reason.title} description={reason.description} />
 					))}
 				</section>
 
@@ -51,34 +68,36 @@ const HomePage = () => {
 						id='privacy-heading'
 						className='text-foreground mb-6 text-center text-lg font-semibold'
 					>
-						Ваши данные остаются у вас
+						{t('privacy.title')}
 					</h2>
 					<ul className='grid gap-4 sm:grid-cols-3'>
 						<li className='flex items-start gap-3'>
 							<HardDriveIcon className='text-primary mt-0.5 size-5 shrink-0' />
 							<div>
-								<p className='text-foreground text-sm font-medium'>Локальное хранилище</p>
+								<p className='text-foreground text-sm font-medium'>
+									{t('privacy.localStorage.title')}
+								</p>
 								<p className='text-muted-foreground text-sm'>
-									Весь прогресс хранится в вашем браузере — никуда не уходит.
+									{t('privacy.localStorage.description')}
 								</p>
 							</div>
 						</li>
 						<li className='flex items-start gap-3'>
 							<ShieldOffIcon className='text-primary mt-0.5 size-5 shrink-0' />
 							<div>
-								<p className='text-foreground text-sm font-medium'>Без слежки</p>
+								<p className='text-foreground text-sm font-medium'>
+									{t('privacy.noTracking.title')}
+								</p>
 								<p className='text-muted-foreground text-sm'>
-									Мы не собираем, не храним и не передаём никакие данные о вас.
+									{t('privacy.noTracking.description')}
 								</p>
 							</div>
 						</li>
 						<li className='flex items-start gap-3'>
 							<WifiOffIcon className='text-primary mt-0.5 size-5 shrink-0' />
 							<div>
-								<p className='text-foreground text-sm font-medium'>Работает офлайн</p>
-								<p className='text-muted-foreground text-sm'>
-									После первой загрузки приложение работает без интернета.
-								</p>
+								<p className='text-foreground text-sm font-medium'>{t('privacy.offline.title')}</p>
+								<p className='text-muted-foreground text-sm'>{t('privacy.offline.description')}</p>
 							</div>
 						</li>
 					</ul>

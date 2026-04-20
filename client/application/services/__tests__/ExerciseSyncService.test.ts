@@ -1,10 +1,10 @@
 import type { ExerciseResponseDto } from '@/shared/dtos';
-import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 import type { IExerciseApi } from '../../api/IExerciseApi';
 import type { IExerciseRepository } from '../../repositories/IExerciseRepository';
 import { ExerciseSyncService } from '../ExerciseSyncService';
 
-const LAST_SYNCED_KEY = 'tense-last-synced';
+const LAST_SYNCED_KEY = 'tense-last-synced-ru';
 
 function makeExercise(id = 'ex-1'): ExerciseResponseDto {
 	return {
@@ -12,6 +12,7 @@ function makeExercise(id = 'ex-1'): ExerciseResponseDto {
 		tense: 'PRESENT_SIMPLE',
 		question: 'Он читает',
 		answer: 'He reads',
+		locale: 'ru',
 		explanation: 'habit',
 		createdAt: new Date('2024-01-01'),
 		updatedAt: new Date('2024-01-01'),
@@ -46,7 +47,7 @@ describe('ExerciseSyncService', () => {
 		const api = makeApi({ getMeta: vi.fn().mockResolvedValue({ lastUpdatedAt: null }) });
 		const service = new ExerciseSyncService(local, api);
 
-		await service.sync();
+		await service.sync('ru');
 
 		expect(api.getAll).not.toHaveBeenCalled();
 		expect(local.upsertMany).not.toHaveBeenCalled();
@@ -59,7 +60,7 @@ describe('ExerciseSyncService', () => {
 		const api = makeApi({ getMeta: vi.fn().mockResolvedValue({ lastUpdatedAt }) });
 		const service = new ExerciseSyncService(local, api);
 
-		await service.sync();
+		await service.sync('ru');
 
 		expect(api.getAll).not.toHaveBeenCalled();
 		expect(local.upsertMany).not.toHaveBeenCalled();
@@ -76,7 +77,7 @@ describe('ExerciseSyncService', () => {
 		});
 		const service = new ExerciseSyncService(local, api);
 
-		await service.sync();
+		await service.sync('ru');
 
 		expect(local.upsertMany).toHaveBeenCalledWith(exercises);
 		expect(localStorage.getItem(LAST_SYNCED_KEY)).toBe(lastUpdatedAt);
@@ -92,7 +93,7 @@ describe('ExerciseSyncService', () => {
 		});
 		const service = new ExerciseSyncService(local, api);
 
-		await service.sync();
+		await service.sync('ru');
 
 		expect(local.upsertMany).toHaveBeenCalledWith(exercises);
 		expect(localStorage.getItem(LAST_SYNCED_KEY)).toBe(lastUpdatedAt);
@@ -103,7 +104,7 @@ describe('ExerciseSyncService', () => {
 		const api = makeApi({ getMeta: vi.fn().mockRejectedValue(new Error('Network error')) });
 		const service = new ExerciseSyncService(local, api);
 
-		await expect(service.sync()).resolves.toBeUndefined();
+		await expect(service.sync('ru')).resolves.toBeUndefined();
 		expect(local.upsertMany).not.toHaveBeenCalled();
 	});
 });

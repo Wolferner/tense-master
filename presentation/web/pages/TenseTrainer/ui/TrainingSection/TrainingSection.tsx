@@ -2,16 +2,23 @@
 
 import { useSessionStore } from '@/client/stores/sessionStore';
 import { useSettingsStore } from '@/client/stores/settingsStore';
+import { LocaleType } from '@/domain/value-objects';
 import { Badge } from '@/presentation/components/ui/badge';
 import { Button } from '@/presentation/components/ui/button';
 import { Textarea } from '@/presentation/components/ui/textarea';
 import { TENSE_LABELS } from '@/presentation/web/pages/TenseTrainer/logic/tenseLabels';
+import { ExerciseResponseDto } from '@/shared/dtos';
 import { ArrowLeftIcon, ArrowRightIcon } from 'lucide-react';
+import { useLocale, useTranslations } from 'next-intl';
 import { useState } from 'react';
 import { useShallow } from 'zustand/react/shallow';
 import TaskResult from './TaskResult';
 
 const TrainingSection = () => {
+	const t = useTranslations('trainer');
+	const tCommon = useTranslations('common');
+	const locale = useLocale();
+
 	const {
 		exercises,
 		currentExerciseIndex,
@@ -38,9 +45,9 @@ const TrainingSection = () => {
 		useShallow(s => ({ mode: s.mode, selectedTenses: s.selectedTenses })),
 	);
 
-	const current = exercises[currentExerciseIndex];
+	const current: ExerciseResponseDto | null = exercises[currentExerciseIndex] || null;
 	const totalExercises = exercises.length;
-	const answerRecord = currentAnswer?.exerciseId === current.id ? currentAnswer : null;
+	const answerRecord = currentAnswer?.exerciseId === current?.id ? currentAnswer : null;
 
 	const [userAnswer, setUserAnswer] = useState(answerRecord?.userAnswer ?? '');
 
@@ -51,13 +58,24 @@ const TrainingSection = () => {
 
 	const isEmptyAnswer = userAnswer.trim().length === 0;
 
+	if (!current) {
+		return (
+			<main className='bg-background text-foreground flex flex-1 flex-col'>
+				<div className='mx-auto flex w-full max-w-2xl flex-col items-center gap-8 px-6 py-16'>
+					<p className='text-foreground text-lg font-medium'>{t('noExercises')}</p>
+					<Button onClick={() => void finishSession()}>{t('back')}</Button>
+				</div>
+			</main>
+		);
+	}
+
 	return (
 		<main className='bg-background text-foreground flex flex-1 flex-col'>
 			<div className='mx-auto flex w-full max-w-2xl flex-col gap-8 px-6 py-16'>
 				<div className='flex items-center justify-between'>
 					<Button variant='ghost' size='sm' className='-ml-2' onClick={() => setStep('select')}>
 						<ArrowLeftIcon />
-						Назад
+						{t('back')}
 					</Button>
 					{mode === 'infinite' && (
 						<Button
@@ -66,7 +84,7 @@ const TrainingSection = () => {
 							className='-mr-2'
 							onClick={() => void finishSession()}
 						>
-							Завершить
+							{t('finish')}
 							<ArrowRightIcon />
 						</Button>
 					)}
@@ -91,7 +109,7 @@ const TrainingSection = () => {
 
 					<div className='flex flex-col gap-3'>
 						<Textarea
-							placeholder='Введи перевод на английском...'
+							placeholder={t('inputPlaceholder')}
 							value={userAnswer}
 							onChange={e => setUserAnswer(e.target.value)}
 							disabled={!!answerRecord}
@@ -99,10 +117,10 @@ const TrainingSection = () => {
 						/>
 						{!answerRecord && (
 							<Button
-								onClick={() => void submitAnswer(userAnswer, current.id)}
+								onClick={() => void submitAnswer(userAnswer, current.id, locale as LocaleType)}
 								variant={isEmptyAnswer ? 'outline' : 'default'}
 							>
-								{isEmptyAnswer ? 'Пропустить' : 'Проверить'}
+								{isEmptyAnswer ? t('skip') : t('check')}
 							</Button>
 						)}
 					</div>
@@ -117,7 +135,7 @@ const TrainingSection = () => {
 							totalExercises={totalExercises}
 							onNext={() => {
 								setUserAnswer('');
-								nextExercise(selectedTenses, mode);
+								nextExercise(selectedTenses, mode, locale as LocaleType);
 							}}
 						/>
 					)}

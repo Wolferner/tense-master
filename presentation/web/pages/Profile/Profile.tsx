@@ -1,5 +1,6 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
 import { useProfileData } from './logic/useProfileData';
 import { ProgressChart } from './ui/ProgressChart/ProgressChart';
 import { SessionHistory } from './ui/SessionHistory/SessionHistory';
@@ -7,13 +8,16 @@ import { StatsOverview } from './ui/StatsOverview/StatsOverview';
 import { TenseBreakdown } from './ui/TenseBreakdown/TenseBreakdown';
 
 const ProfilePage = () => {
+	const t = useTranslations('profile');
+	const tCommon = useTranslations('common');
+
 	const { overallStats, tenseStats, sessionSummaries, chartData, getSessionAnswers, isLoading } =
 		useProfileData();
 
 	if (isLoading) {
 		return (
 			<main className='flex flex-1 items-center justify-center'>
-				<p className='text-muted-foreground text-sm'>Загрузка...</p>
+				<p className='text-muted-foreground text-sm'>{tCommon('loading')}</p>
 			</main>
 		);
 	}
@@ -22,22 +26,22 @@ const ProfilePage = () => {
 		<main className='bg-background text-foreground flex flex-1 flex-col'>
 			<div className='mx-auto flex w-full max-w-2xl flex-col gap-10 px-6 py-16'>
 				<section>
-					<h2 className='text-foreground mb-4 text-lg font-semibold'>Общая статистика</h2>
+					<h2 className='text-foreground mb-4 text-lg font-semibold'>{t('overallStats')}</h2>
 					<StatsOverview stats={overallStats} />
 				</section>
 
 				<section>
-					<h2 className='text-foreground mb-4 text-lg font-semibold'>Прогресс</h2>
+					<h2 className='text-foreground mb-4 text-lg font-semibold'>{t('progress')}</h2>
 					<ProgressChart data={chartData} />
 				</section>
 
 				<section>
-					<h2 className='text-foreground mb-4 text-lg font-semibold'>По временам</h2>
+					<h2 className='text-foreground mb-4 text-lg font-semibold'>{t('byTenses')}</h2>
 					<TenseBreakdown stats={tenseStats} />
 				</section>
 
 				<section>
-					<h2 className='text-foreground mb-4 text-lg font-semibold'>История сессий</h2>
+					<h2 className='text-foreground mb-4 text-lg font-semibold'>{t('sessionHistory')}</h2>
 					<SessionHistory summaries={sessionSummaries} getSessionAnswers={getSessionAnswers} />
 				</section>
 			</div>

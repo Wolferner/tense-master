@@ -2,6 +2,7 @@
 
 import type { AnswerWithExercise } from '@/client/application/services/ProfileService';
 import { TENSE_LABELS } from '@/presentation/web/pages/TenseTrainer/logic/tenseLabels';
+import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 
 const INITIAL_LIMIT = 5;
@@ -11,10 +12,12 @@ interface Props {
 }
 
 export function SessionDetail({ answers }: Props) {
+	const t = useTranslations('profile');
+
 	const [showAll, setShowAll] = useState(false);
 
 	if (answers.length === 0) {
-		return <p className='text-muted-foreground py-2 text-sm'>Нет ответов</p>;
+		return <p className='text-muted-foreground py-2 text-sm'>{t('noAnswers')}</p>;
 	}
 
 	const visible = showAll ? answers : answers.slice(0, INITIAL_LIMIT);
@@ -27,19 +30,19 @@ export function SessionDetail({ answers }: Props) {
 					<div className='mb-1 flex items-center justify-between'>
 						<span className='text-muted-foreground text-xs'>{TENSE_LABELS[a.exercise.tense]}</span>
 						{a.skipped ? (
-							<span className='text-muted-foreground text-xs'>Пропущено</span>
+							<span className='text-muted-foreground text-xs'>{t('skippedAnswer')}</span>
 						) : (
 							<span
 								className={`text-xs font-medium ${a.isCorrect ? 'text-green-600' : 'text-red-500'}`}
 							>
-								{a.isCorrect ? 'Верно' : 'Неверно'}
+								{a.isCorrect ? t('correctAnswer') : t('incorrectAnswer')}
 							</span>
 						)}
 					</div>
 					<p className='text-foreground text-sm'>{a.exercise.question}</p>
 					{!a.skipped && (
 						<p className='text-muted-foreground mt-1 text-xs'>
-							Ответ: <span className='text-foreground'>{a.userAnswer}</span>
+							{t('answer', { answer: a.userAnswer })}
 						</p>
 					)}
 				</div>
@@ -49,7 +52,7 @@ export function SessionDetail({ answers }: Props) {
 					className='text-muted-foreground hover:text-foreground pt-1 text-sm transition-colors'
 					onClick={() => setShowAll(true)}
 				>
-					Показать ещё {remaining}
+					{t('showMore', { count: remaining })}
 				</button>
 			)}
 		</div>
