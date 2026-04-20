@@ -12,6 +12,7 @@ type SessionState = {
 	exercises: ExerciseResponseDto[];
 	currentAnswer: ExerciseAnswer | null;
 	sessionId: string;
+	sessionLocale: Locale | '';
 	step: Step;
 	currentExerciseIndex: number;
 	isLoading: boolean;
@@ -39,6 +40,7 @@ export const useSessionStore = create<SessionStore>()(
 			exercises: [],
 			currentAnswer: null,
 			sessionId: '',
+			sessionLocale: '',
 			step: 'select',
 			currentExerciseIndex: 0,
 			isLoading: false,
@@ -58,6 +60,7 @@ export const useSessionStore = create<SessionStore>()(
 					step: 'select',
 					currentAnswer: null,
 					sessionId: '',
+					sessionLocale: '',
 					exercises: [],
 					currentExerciseIndex: 0,
 				});
@@ -83,6 +86,7 @@ export const useSessionStore = create<SessionStore>()(
 				set({
 					exercises,
 					sessionId,
+					sessionLocale: locale,
 					currentExerciseIndex: 0,
 					currentAnswer: null,
 					step: 'training',
@@ -127,6 +131,7 @@ export const useSessionStore = create<SessionStore>()(
 			partialize: state => ({
 				exercises: state.exercises,
 				sessionId: state.sessionId,
+				sessionLocale: state.sessionLocale,
 				step: state.step,
 				currentExerciseIndex: state.currentExerciseIndex,
 				currentAnswer: state.currentAnswer,
